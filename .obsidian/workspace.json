@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/LLVM-General.md",
+                "file": "Misc/Personal Website Plans.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLVM-General"
+              "title": "Personal Website Plans"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/LLVM/LLVM-General.md",
+                "file": "Misc/Personal Website Plans.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for LLVM-General"
+              "title": "Backlinks for Personal Website Plans"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/LLVM/LLVM-General.md",
+                "file": "Misc/Personal Website Plans.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from LLVM-General"
+              "title": "Outgoing links from Personal Website Plans"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research/LLVM/LLVM-General.md"
+                "file": "Misc/Personal Website Plans.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of LLVM-General"
+              "title": "Outline of Personal Website Plans"
             }
           },
           {
@@ -175,10 +175,10 @@
   },
   "active": "7800f9c34f343c12",
   "lastOpenFiles": [
+    "Research/LLVM/LLVM-General.md",
     "Misc/Personal Website Plans.md",
     "Ricing/Tiling Window Managers/WM General.md",
     "Ricing/NixOS/NixOS-General.md",
-    "Research/LLVM/LLVM-General.md",
     "Ricing/Tiling Window Managers",
     "Research/LLVM",
     "Welcome.md",
