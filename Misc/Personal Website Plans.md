@@ -21,4 +21,7 @@ Template considerations:
 Details:
 - An academic format personal website template.
 - Built with Jekyll
-- 
+Note:
+- The aesthetics are meh
+- I could go through the effort to make it look nice, but alas i'm too lazy for even that
+- Moreover, it seems a bit difficult to expand the pages in the future
