@@ -26,7 +26,6 @@ Note:
 - I could go through the effort to make it look nice, but alas i'm too lazy for even that
 - Moreover, it seems a bit difficult to expand the pages in the future
 
-
 #### [developerFolio](https://github.com/saadpasta/developerFolio)
 ![[Pasted image 20241130220647.png]]
 Details:
