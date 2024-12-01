@@ -14,3 +14,5 @@ Template considerations:
 - Blog page
 - Dark mode, always dark mode
 - Easy content additions
+
+### Potential Finds
