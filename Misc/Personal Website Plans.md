@@ -28,3 +28,6 @@ Note:
 
 
 #### [developerFolio](https://github.com/saadpasta/developerFolio)
+Details:
+- "A clean, beautiful and responsive portfolio template for Developers!"
+- 
