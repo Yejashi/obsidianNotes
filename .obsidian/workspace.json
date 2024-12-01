@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ricing/Tiling Window Managers/WM General.md",
+                "file": "Research/LLVM/LLVM-General.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WM General"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e1b9a903f8684278",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7a8ae8179c1082dc",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "LLVM-General"
             }
           }
         ]
@@ -109,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ricing/Tiling Window Managers/WM General.md",
+                "file": "Research/LLVM/LLVM-General.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for WM General"
+              "title": "Backlinks for LLVM-General"
             }
           },
           {
@@ -128,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ricing/Tiling Window Managers/WM General.md",
+                "file": "Research/LLVM/LLVM-General.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from WM General"
+              "title": "Outgoing links from LLVM-General"
             }
           },
           {
@@ -155,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ricing/Tiling Window Managers/WM General.md"
+                "file": "Research/LLVM/LLVM-General.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of WM General"
+              "title": "Outline of LLVM-General"
             }
           },
           {
@@ -191,11 +175,11 @@
   },
   "active": "7800f9c34f343c12",
   "lastOpenFiles": [
-    "Research/LLVM/LLVM-General.md",
-    "Ricing/Tiling Window Managers/WM General.md",
-    "Ricing/Tiling Window Managers",
-    "Ricing/NixOS/NixOS-General.md",
     "Misc/Personal Website Plans.md",
+    "Ricing/Tiling Window Managers/WM General.md",
+    "Ricing/NixOS/NixOS-General.md",
+    "Research/LLVM/LLVM-General.md",
+    "Ricing/Tiling Window Managers",
     "Research/LLVM",
     "Welcome.md",
     "Ricing/NixOS",
