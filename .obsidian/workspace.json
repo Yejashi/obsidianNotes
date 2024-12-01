@@ -11,10 +11,14 @@
             "id": "7800f9c34f343c12",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Ricing/Tiling Window Managers/WM General.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "WM General"
             }
           }
         ]
@@ -105,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Ricing/Tiling Window Managers/WM General.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for WM General"
             }
           },
           {
@@ -123,11 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Ricing/Tiling Window Managers/WM General.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from WM General"
             }
           },
           {
@@ -149,10 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "Ricing/Tiling Window Managers/WM General.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of WM General"
             }
           },
           {
@@ -183,12 +189,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "7800f9c34f343c12",
   "lastOpenFiles": [
+    "Research/LLVM/LLVM-General.md",
+    "Ricing/Tiling Window Managers/WM General.md",
+    "Ricing/Tiling Window Managers",
+    "Ricing/NixOS/NixOS-General.md",
+    "Misc/Personal Website Plans.md",
+    "Research/LLVM",
+    "Welcome.md",
     "Ricing/NixOS",
     "Ricing",
     "Misc",
-    "Research",
-    "Welcome.md"
+    "Research"
   ]
 }
