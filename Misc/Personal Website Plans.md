@@ -32,5 +32,5 @@ Note:
 Details:
 - "A clean, beautiful and responsive portfolio template for Developers!"
 - A beautiful home page, definitely fits my aesthetic needs.
-- Is there a way to extend it to have extra pages? For a potential blog.
+- Is there a way to extend it to have extra pages? 
 - Extensibility is still a question.
