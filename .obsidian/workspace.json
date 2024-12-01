@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6d8f237c97074dd7",
+        "id": "66ebab7c0b7a1f99",
         "type": "tabs",
         "children": [
           {
-            "id": "a3a679cd69d2fe05",
+            "id": "fca7c976eea5fd11",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 207.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -160,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,16 +174,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a3a679cd69d2fe05",
+  "active": "fca7c976eea5fd11",
   "lastOpenFiles": [
-    "Research/LLVM/LLVM-General.md",
+    "Ricing/Tiling Window Managers/WM General.md",
     "Misc/Personal Website Plans.md",
+    "Ricing/NixOS/NixOS-General.md",
+    "Research/LLVM/LLVM-General.md",
     "Misc/Pasted image 20241130220647.png",
     "Misc/Pasted image 20241130215941.png",
     "Misc/Pasted image 20241130215351.png",
     "Misc/Pasted image 20241130215402.png",
-    "Ricing/Tiling Window Managers/WM General.md",
-    "Ricing/NixOS/NixOS-General.md",
     "Ricing/Tiling Window Managers",
     "Research/LLVM",
     "Welcome.md",
