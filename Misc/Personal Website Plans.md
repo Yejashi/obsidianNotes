@@ -16,3 +16,9 @@ Template considerations:
 - Easy content additions
 
 ### Potential Finds
+#### [Academic pages](https://github.com/academicpages/academicpages.github.io)
+![[Pasted image 20241130215402.png]]
+Details:
+- An academic format personal website template.
+- Built with Jekyll
+- 
