@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/Personal Website Plans.md",
+                "file": "Misc/Software Idea.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Personal Website Plans"
+              "title": "Software Idea"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "fca7c976eea5fd11",
   "lastOpenFiles": [
-    "Ricing/Tiling Window Managers/WM General.md",
     "Misc/Personal Website Plans.md",
+    "Misc/Software Idea.md",
+    "Ricing/Tiling Window Managers/WM General.md",
     "Ricing/NixOS/NixOS-General.md",
     "Research/LLVM/LLVM-General.md",
     "Misc/Pasted image 20241130220647.png",
