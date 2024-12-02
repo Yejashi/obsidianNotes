@@ -84,6 +84,6 @@ For example, the tree for `int a = 5;` might look like:
 ```
    =
  /   \
-int  5
+int   5
 ```
 
