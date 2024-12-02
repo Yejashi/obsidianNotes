@@ -94,3 +94,5 @@ The **semantic analysis** phase ensures that the parsed code makes logical sense
 - **Type Checking:** Ensures variables and expressions have compatible types (e.g., adding an integer to a string is invalid).
 - **Scope and Declaration Checking:** Verifies that variables are declared before use and are used within their scope.
 - **Semantic Error Detection:** Flags issues such as function calls with incorrect arguments or misuse of operators.
+
+**Output:** An annotated syntax tree with semantic information, or errors if issues are found.
