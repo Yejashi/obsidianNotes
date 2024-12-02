@@ -38,7 +38,6 @@ An assembler translates assembly language programs into machine code.The output 
 
 **Output:** The assembler creates an object file (e.g., `.o` or `.obj`), which is a binary file containing machine code and some metadata.
 #### Linker
-Linker is a computer program that links and merges various object files together in order to make an executable file. All these files might have been compiled by separate assemblers. The major task of a linker is to search and locate referenced module/routines in a program and to determine the memory location where these codes will be loaded, making the program instruction to have absolute references.
+The **linker** combines one or more object files into a single executable file. It resolves cross-references between different object files and external libraries.
 
-_TODO: Expand Later_
 
