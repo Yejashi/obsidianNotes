@@ -30,7 +30,13 @@ The **compiler** translates the preprocessed source code into assembly language,
 #### Assembler
 An assembler translates assembly language programs into machine code.The output of an assembler is called an object file, which contains a combination of machine instructions as well as the data required to place these instructions in memory.
 
-_TODO: Expand Later_
+**Key Responsibilities:**
+
+- **Translation to Machine Code:** Converts mnemonics (like `MOV`, `ADD`) into their binary equivalents.
+- **Symbol Table Management:** Resolves symbolic references like labels to memory addresses.
+- **Relocation Information:** Marks sections of the code/data for linking.
+
+**Output:** The assembler creates an object file (e.g., `.o` or `.obj`), which is a binary file containing machine code and some metadata.
 #### Linker
 Linker is a computer program that links and merges various object files together in order to make an executable file. All these files might have been compiled by separate assemblers. The major task of a linker is to search and locate referenced module/routines in a program and to determine the memory location where these codes will be loaded, making the program instruction to have absolute references.
 
