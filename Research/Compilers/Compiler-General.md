@@ -1,2 +1,4 @@
 ### What is a compiler?
-A program that transforms source code into machine code.
+[TODO]
+
+### Phases of a compiler
