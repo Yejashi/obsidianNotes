@@ -40,4 +40,13 @@ An assembler translates assembly language programs into machine code.The output 
 #### Linker
 The **linker** combines one or more object files into a single executable file. It resolves cross-references between different object files and external libraries.
 
+**Key Responsibilities:**
+
+- **Symbol Resolution:** Links function calls and variable references to their definitions across object files or libraries.
+- **Relocation:** Adjusts addresses in the code and data sections to reflect the executable's memory layout.
+- **Library Linking:** Integrates code from libraries (static or dynamic) into the program.
+- **Executable Generation:** Produces an executable binary file ready to be loaded into memory and run.
+
+**Output:** The linker generates an executable file (e.g., `.exe`, `.out`, or platform-specific binaries).
+
 
