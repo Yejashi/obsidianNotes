@@ -87,3 +87,10 @@ For example, the tree for `int a = 5;` might look like:
 int   5
 ```
 
+### Semantic Analysis 
+The **semantic analysis** phase ensures that the parsed code makes logical sense and adheres to the rules of the language.
+
+**Key Responsibilities:**
+- **Type Checking:** Ensures variables and expressions have compatible types (e.g., adding an integer to a string is invalid).
+- **Scope and Declaration Checking:** Verifies that variables are declared before use and are used within their scope.
+- **Semantic Error Detection:** Flags issues such as function calls with incorrect arguments or misuse of operators.
