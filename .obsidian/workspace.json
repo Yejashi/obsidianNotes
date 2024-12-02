@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fca7c976eea5fd11",
+            "id": "904f2fb2df19a96e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -174,17 +174,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fca7c976eea5fd11",
+  "active": "904f2fb2df19a96e",
   "lastOpenFiles": [
-    "Misc/Software Ideas.md",
-    "Research/Compilers/Compiler-General.md",
-    "Research/Compilers",
     "Misc/Personal Website Plans.md",
+    "Misc/Software Ideas.md",
     "Ricing/Tiling Window Managers/WM General.md",
-    "Ricing/NixOS/NixOS-General.md",
     "Research/LLVM/LLVM-General.md",
-    "Misc/Pasted image 20241130220647.png",
-    "Misc/Pasted image 20241130215941.png",
+    "Screenshots/Pasted image 20241130215941.png",
+    "Screenshots/Pasted image 20241130220647.png",
+    "Research/Compilers/Compiler-General.md",
+    "Screenshots",
+    "Screenshots/Pasted image 20241202074257.png",
+    "Research/Compilers",
+    "Ricing/NixOS/NixOS-General.md",
     "Misc/Pasted image 20241130215351.png",
     "Misc/Pasted image 20241130215402.png",
     "Ricing/Tiling Window Managers",
