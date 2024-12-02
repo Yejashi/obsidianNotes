@@ -133,5 +133,5 @@ The **target code generation** phase converts the optimized intermediate code in
 - **Address Translation:** Determines the memory addresses for variables and instructions.
 - **Code Emission:** Generates binary instructions for the target platform.
 
-**Output:** The final **machine code** or executable program.
+**Output:** The final **machine code** or executable program. 
 

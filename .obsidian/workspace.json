@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "66ebab7c0b7a1f99",
+        "id": "d6e21713c68dc657",
         "type": "tabs",
         "children": [
           {
-            "id": "904f2fb2df19a96e",
+            "id": "a43d82e5c8b041ec",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20241202080454.png"
+                "file": "Research/Compilers/Compiler-General.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241202080454"
-            }
-          },
-          {
-            "id": "492bb6c8d7c40663",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20241202080454.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241202080454"
+              "icon": "lucide-file",
+              "title": "Compiler-General"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,8 +151,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -171,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,11 +173,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "492bb6c8d7c40663",
+  "active": "a43d82e5c8b041ec",
   "lastOpenFiles": [
-    "Pasted image 20241202080611.png",
-    "Pasted image 20241202080454.png",
     "Research/Compilers/Compiler-General.md",
+    "Screenshots/Pasted image 20241202080454.png",
+    "Screenshots/Pasted image 20241202080611.png",
     "Ricing/Tiling Window Managers/WM General.md",
     "Research/LLVM/LLVM-General.md",
     "Misc/Personal Website Plans.md",
