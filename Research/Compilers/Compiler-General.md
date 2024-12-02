@@ -53,3 +53,6 @@ The **linker** combines one or more object files into a single executable file. 
 
 ### Different Phases of a Compiler
 
+![[Pasted image 20241202080611.png]]
+
+### Lexical Analysis 
