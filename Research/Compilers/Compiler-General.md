@@ -116,3 +116,9 @@ a = t2
 ### Code Optimization
 The **code optimization** phase refines the intermediate code to make it more efficient without changing its functionality.
 
+**Key Responsibilities:**
+- **Dead Code Elimination:** Removes code that has no effect on the program (e.g., unused variables or unreachable code).
+- **Loop Optimization:** Improves performance of loops (e.g., unrolling loops or reducing loop overhead).
+- **Constant Folding:** Evaluates constant expressions at compile time (e.g., `3 + 4` becomes `7`).
+- **Strength Reduction:** Replaces expensive operations with cheaper ones (e.g., replacing multiplication by addition).
+
