@@ -8,7 +8,10 @@ The high-level language is converted into binary language in various phases.
 ##### Preprocessor
 A preprocessor, generally considered as a part of compiler, is a tool that produces input for compilers. It prepares the source code for the compiler by performing text substitution and other preprocessing tasks.
 
-
+**Key Responsibilities**:
+- **Header Inclusion:** Replaces `#include` directives with the actual content of the header files.
+- **Macro Expansion:** Substitutes macros defined with `#define` or other preprocessor directives.
+- **Conditional Compilation:** Processes `#ifdef`, `#ifndef`, `#else`, and `#endif` to include or exclude parts of the code based on conditions.
 
 _TODO: Expand Later_
 
