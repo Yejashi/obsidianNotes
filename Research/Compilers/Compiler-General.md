@@ -112,3 +112,7 @@ t1 = c * d
 t2 = b + t1
 a = t2
 ```
+
+### Code Optimization
+The **code optimization** phase refines the intermediate code to make it more efficient without changing its functionality.
+
