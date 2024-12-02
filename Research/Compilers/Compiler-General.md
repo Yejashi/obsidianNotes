@@ -123,3 +123,12 @@ The **code optimization** phase refines the intermediate code to make it more ef
 - **Strength Reduction:** Replaces expensive operations with cheaper ones (e.g., replacing multiplication by addition).
 
 **Output:** Optimized Intermediate code.
+
+### Target Code Generation
+The **target code generation** phase converts the optimized intermediate code into machine code specific to the target architecture (e.g., x86, ARM).
+
+**Key Responsibilities:**
+- **Instruction Selection:** Maps high-level operations to specific machine instructions.
+- **Register Allocation:** Allocates CPU registers for variables and intermediate values.
+- **Address Translation:** Determines the memory addresses for variables and instructions.
+- **Code Emission:** Generates binary instructions for the target platform.
