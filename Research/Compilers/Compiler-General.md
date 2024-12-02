@@ -132,3 +132,6 @@ The **target code generation** phase converts the optimized intermediate code in
 - **Register Allocation:** Allocates CPU registers for variables and intermediate values.
 - **Address Translation:** Determines the memory addresses for variables and instructions.
 - **Code Emission:** Generates binary instructions for the target platform.
+
+**Output:** The final **machine code** or executable program.
+
