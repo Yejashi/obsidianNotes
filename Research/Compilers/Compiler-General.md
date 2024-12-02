@@ -6,7 +6,9 @@ We write programs in high-level language, which is easier for us to understand a
 The high-level language is converted into binary language in various phases.
 
 ##### Preprocessor
-A preprocessor, generally considered as a part of compiler, is a tool that produces input for compilers. It deals with macro-processing, augmentation, file inclusion, language extension, etc.
+A preprocessor, generally considered as a part of compiler, is a tool that produces input for compilers. It prepares the source code for the compiler by performing text substitution and other preprocessing tasks.
+
+
 
 _TODO: Expand Later_
 
