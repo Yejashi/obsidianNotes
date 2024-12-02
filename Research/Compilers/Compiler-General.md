@@ -56,7 +56,7 @@ The **linker** combines one or more object files into a single executable file. 
 ![[Pasted image 20241202080611.png]]
 
 ### Lexical Analysis 
-The first phase of the compiler is **lexical analysis**, where the source code is analyzed character by character to break it down into meaningful units called **tokens**.
+The first phase of the compiler is **lexical analysis** (scanning), where the source code is analyzed character by character to break it down into meaningful units called **tokens**.
 
 **Key Responsibilities:**
 - **Tokenization:** The source code is split into tokens, which are the smallest units like keywords (`if`, `int`), identifiers (variable names), literals (`123`, `'a'`), operators (`+`, `=`), and punctuation (`;`, `{`).
