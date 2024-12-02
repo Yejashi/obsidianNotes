@@ -49,4 +49,8 @@ The **linker** combines one or more object files into a single executable file. 
 
 **Output:** The linker generates an executable file (e.g., `.exe`, `.out`, or platform-specific binaries).
 
+***
+
+### Different Phases of a Compiler
+
 
