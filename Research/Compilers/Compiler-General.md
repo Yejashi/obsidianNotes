@@ -96,3 +96,19 @@ The **semantic analysis** phase ensures that the parsed code makes logical sense
 - **Semantic Error Detection:** Flags issues such as function calls with incorrect arguments or misuse of operators.
 
 **Output:** An annotated syntax tree with semantic information, or errors if issues are found. For instance, calling a function with the wrong number of arguments might be flagged here.
+
+### Intermediate Code Generation 
+The **intermediate code generation** phase converts the semantic representation of the code into a simplified, intermediate representation (IR) that is easier to optimize and portable across platforms.
+
+**Key Responsibilities:**
+- **IR Construction:** Produces code in a platform-independent format such as three-address code, quadruples, or LLVM IR.
+- **Simplification:** Abstracts machine-level details, focusing on logical operations.
+
+**Output:** Intermediate code.
+
+For example, the expression `a = b + c * d` might be represented as:
+```c
+t1 = c * d
+t2 = b + t1
+a = t2
+```
