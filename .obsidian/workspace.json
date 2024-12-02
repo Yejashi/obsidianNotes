@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TODO",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,7 +174,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d18aa2dedfd56615",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
     "Misc/Personal Website Plans.md",
     "Misc/Software Ideas.md",
