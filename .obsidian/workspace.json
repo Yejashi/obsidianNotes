@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d6e21713c68dc657",
+        "id": "66ebab7c0b7a1f99",
         "type": "tabs",
         "children": [
           {
-            "id": "a43d82e5c8b041ec",
+            "id": "904f2fb2df19a96e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -173,12 +173,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a43d82e5c8b041ec",
+  "active": "904f2fb2df19a96e",
   "lastOpenFiles": [
-    "Research/Compilers/Compiler-General.md",
-    "Screenshots/Pasted image 20241202080454.png",
     "Screenshots/Pasted image 20241202080611.png",
+    "Screenshots/Pasted image 20241202080454.png",
     "Ricing/Tiling Window Managers/WM General.md",
+    "Research/Compilers/Compiler-General.md",
+    "Pasted image 20241202080611.png",
+    "Pasted image 20241202080454.png",
     "Research/LLVM/LLVM-General.md",
     "Misc/Personal Website Plans.md",
     "Misc/Software Ideas.md",
