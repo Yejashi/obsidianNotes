@@ -11,10 +11,14 @@
             "id": "721741d3be1798a6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Research/Compilers/Compiler-General.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Compiler-General"
             }
           }
         ]
