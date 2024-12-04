@@ -36,9 +36,13 @@ entry:
 	- Performs target-specific optimizations.
 
 ### Key Components
-#### LLVM Passes
-LLVM passess are modular components that analyze or transform IR during the compilation process.
+- LLVM Passes
+	- LLVM passess are modular components that analyze or transform IR during the compilation process.
+		- There are two type of passess:
+		- Analysis Passes: Inspect IR and gather data (e.g., dependency graphs).
+		- Transformation Passes: Modify IR (e.g., loop unrolling, inlining).
+- LLVM Optimizer
+	- A collection of passes used to improve the performance and efficiency of IR.
+- LLVM Code Generator
+	- LLVM Code Generator
 
-There are two type of passess:
-- Analysis Passes: Inspect IR and gather data (e.g., dependency graphs).
-- Transformation Passes: Modify IR (e.g., loop unrolling, inlining).
