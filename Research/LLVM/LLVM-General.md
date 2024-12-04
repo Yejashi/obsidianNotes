@@ -24,3 +24,16 @@ entry:
 }
 ```
 
+### LLVM's Compilation Process
+- Frontend
+	- Converts source code (C, C++, Rust, etc.) to LLVM IR.
+	- For example, Clang (C/C++) is a frontend for LLVM.
+- Middle-end
+	- Performs optimizations on the IR (e.g., removing redundant calculations, simplifying expressions).
+	- Can include custom passes written by you.
+- Backend
+	- Converts the optimized IR into machine code for a specific architecture (e.g., x86, ARM).
+	- Performs target-specific optimizations.
+
+### Key Components
+#### LLVM Passess
