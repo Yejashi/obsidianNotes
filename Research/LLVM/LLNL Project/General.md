@@ -19,7 +19,8 @@ We are observing and not transforming.
 
 This means the optimization are applied by clang's optimization pipeline through llvm. We simply want to monitor the transformations that are considered.
 
-LLVM's pass manager 
+An analysis pass can observe the results of other passes and collect statistics about their behavior.
+
 
 
 
