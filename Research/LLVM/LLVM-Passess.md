@@ -7,4 +7,7 @@ There are two primary types of passes in LLVM:
 ### Overview of LLVM Passes
 LLVM passes work in a sequence during the compilation process. They operate on the IR and can be organized into different stages of the pipeline:
 - Frontend Passes: Perform parsing and initial translation from source code to LLVM IR.
-- 
+- Optimization Passes (Middle-End): Perform transformations to improve the efficiency of the code, such as constant folding, loop unrolling, or dead code elimination.
+- Target-Specific Passes (Backend): Focus on architecture-specific optimizations and target code generation.
+
+
