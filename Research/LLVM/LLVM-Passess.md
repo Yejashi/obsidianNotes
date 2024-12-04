@@ -31,4 +31,7 @@ These passes modify the IR to optimize it or transform it for better performance
 Common transformation passes include:
 - Dead Code Elimination (DCE): Removes unused or redundant code.
 - Constant Propagation: Replaces variables that have constant values with those constant values.
-- 
+- Loop Unrolling: Expands loops to remove the overhead of the loop control code.
+- Function Inlining: Replaces a function call with the body of the function, eliminating the call overhead.
+
+##### Custom Passes
