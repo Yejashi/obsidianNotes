@@ -43,3 +43,6 @@ target_compile_definitions(PassTracker PRIVATE ${LLVM_DEFINITIONS})
 target_link_libraries(PassTracker PRIVATE LLVMCore LLVMSupport)
 ```
 
+##### Running the pass with Clang
+
+Compile the target code to LLVM IR
