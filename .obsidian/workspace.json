@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/LLNL Project/General.md",
+                "file": "Research/LLVM/Intermediate Representation (IR).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General"
+              "title": "Intermediate Representation (IR)"
             }
           },
           {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "emit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -144,7 +144,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -244,12 +245,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "89d99c9bf7be4dcb",
+  "active": "6a3ff273517a7693",
   "lastOpenFiles": [
-    "Research/LLVM/LLNL Project/General.md",
     "Research/LLVM/LLNL Project/Misc.md",
-    "Research/LLVM/Passess.md",
     "Research/LLVM/Intermediate Representation (IR).md",
+    "Research/LLVM/LLNL Project/General.md",
+    "Research/LLVM/Passess.md",
     "Research/LLVM/Writing a Custom LLVM Pass.md",
     "Research/LLVM/LLNL Project",
     "Research/LLVM/General.md",
