@@ -16,3 +16,5 @@ Passes can be executed at different levels, including:
 
 LLVM passes are designed to be composable, meaning you can create complex pass pipelines by chaining different passes together.
 
+### Types of LLVM Passes
+##### Analysis Passes
