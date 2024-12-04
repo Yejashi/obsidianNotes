@@ -35,8 +35,7 @@
               "title": "General"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,12 +188,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "764f8c8e1424891c",
+  "active": "bc697af6957da27a",
   "lastOpenFiles": [
+    "Research/Compilers/General.md",
     "Research/LLVM/Passess.md",
     "Research/LLVM/General.md",
     "Research/LLVM/Intermediate Representation (IR).md",
-    "Research/Compilers/General.md",
     "Misc/Software Ideas.md",
     "Ricing/NixOS/NixOS-General.md",
     "Ricing/Tiling Window Managers/WM-General.md",

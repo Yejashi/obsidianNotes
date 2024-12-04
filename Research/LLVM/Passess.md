@@ -41,3 +41,6 @@ There are three main ways to create custom passes in LLVM:
 1. Function Passes: Operate on individual functions. These are useful for optimizations that only make sense on a function level, like inlining or loop unrolling.
 2. Module Passes: Operate on the whole module (e.g., optimizations across functions).
 3. Analysis Passes: These are typically used to gather data about the IR (e.g., tracking the number of times a particular transformation occurs).
+
+
+### Writing a Custom Pass
