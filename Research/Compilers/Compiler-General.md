@@ -15,6 +15,9 @@ A preprocessor, generally considered as a part of compiler, is a tool that produ
 - **Other Directives:** Handles pragmas (`#pragma`), line number mappings (`#line`), and more.
 
 **Output:** The preprocessor generates a pure C or C++ file with all the preprocessing done, typically ending in `.i` (C) or `.ii` (C++).
+
+You can see how it affects code by doing `gcc -E foo.c` or `clang -E foo.c`
+
 #### Compiler 
 The **compiler** translates the preprocessed source code into assembly language, a lower-level language closer to machine code.
 
