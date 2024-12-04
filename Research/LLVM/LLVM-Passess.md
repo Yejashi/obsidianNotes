@@ -26,4 +26,5 @@ Some Examples include:
 - Alias Analysis: Analyzes pointers to determine whether two pointers might reference the same memory location.
 
 ##### Transformation Passes
+These passes modify the IR to optimize it or transform it for better performance.
 
