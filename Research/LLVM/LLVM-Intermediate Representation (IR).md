@@ -42,3 +42,8 @@ LLVM API:
 - Functions in the module can be accessed using the `getFunction()` method.
 - You can iterate over all functions, global variables, or metadata.
 
+Uses:
+- Modules are critical for writing LLVM passes.
+- When generating LLVM IR programmatically, a module is the starting point.
+- Multiple modules can be combined for link-time optimizations (LTO).
+
