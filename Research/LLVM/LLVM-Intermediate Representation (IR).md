@@ -162,5 +162,5 @@ Example types:
 
 ##### Generate LLVM IR (Textual)
 ```bash
-
+clang -S -emit-llvm -o example.ll example.c
 ```
