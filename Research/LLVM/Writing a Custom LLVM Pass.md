@@ -48,3 +48,4 @@ static RegisterPass<TrackOptimizations> X("track-optimizations",
 
 ```
 
+### Register the Pass
