@@ -37,8 +37,8 @@ entry:
 }
 ```
 
-Breakdown:
-`target triple = "x86_64-pc-linux-gnu" `: identifies architecture, vendor, and OS.
+LLVM API:
+- In the LLVM API a module is represented by the `llvm::module` class.
+- Functions in the module can be accessed using the `getFunction()` method.
+- You can iterate over all functions, global variables, or metadata.
 
-
-``
