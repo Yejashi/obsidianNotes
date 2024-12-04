@@ -14,13 +14,14 @@ What needs to be tracked:
 - Transformation Succeeded
 	- This happens when a particular transformation successfully modifies the IR.
 
-##### Why an analysis pass?
+###### Why an analysis pass?
 We are observing and not transforming.
 
 This means the optimization are applied by clang's optimization pipeline through llvm. We simply want to monitor the transformations that are considered.
 
 An analysis pass can observe the results of other passes and collect statistics about their behavior.
 
-##### Where 
+###### Where does the pass need to go?
+
 
 
