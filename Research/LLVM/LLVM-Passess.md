@@ -5,4 +5,6 @@ There are two primary types of passes in LLVM:
 2. Transformation Passes: These modify the IR to optimize or transform the code, such as inlining functions, unrolling loops, or simplifying expressions.
 
 ### Overview of LLVM Passes
-
+LLVM passes work in a sequence during the compilation process. They operate on the IR and can be organized into different stages of the pipeline:
+- Frontend Passes: Perform parsing and initial translation from source code to LLVM IR.
+- 
