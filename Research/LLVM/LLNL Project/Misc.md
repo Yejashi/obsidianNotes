@@ -55,4 +55,3 @@ Apply the pass to the LLVM IR
 opt -load-pass-plugin ./PassTracker.so -passes="pass-tracker" -disable-output target.ll
 ```
 
-obsidian://open?vault=obsidianNotes&file=Research%2FLLVM%2FIntermediate%20Representation%20(IR)
