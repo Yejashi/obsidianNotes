@@ -69,5 +69,23 @@ entry:
 ##### Basic Block
 A basic block is a sequence of instructions with:
 - A single entry point.
+- A single exit point (usually a branch or return instruction).
+
+Basic blocks are identified by labels.
+
+Example:
+```llvm
+define void @example() {
+entry:
+  %x = alloca i32
+  store i32 42, i32* %x
+  br label %next
+
+next:
+  ret void
+}
+
+```
+
 ####
 
