@@ -126,3 +126,20 @@ Cast and Conversion
 %cast = zext i8 %val to i32  ; zero-extend i8 to i32
 ```
 
+#### Representations of LLVM IR
+LLVM has three forms, which can be inter converted.
+
+##### Textual
+This is the human readable format which is ideal for debugging or writing manually.
+
+Example:
+```
+define i32 @add(i32 %a, i32 %b) {
+  %result = add i32 %a, %b
+  ret i32 %result
+}
+```
+
+##### Binary Bitcode
+
+
