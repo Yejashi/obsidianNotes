@@ -44,3 +44,4 @@ There are three main ways to create custom passes in LLVM:
 
 
 ### Pass Manager
+LLVM passes are managed through a Pass Manager.
