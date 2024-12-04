@@ -1,8 +1,17 @@
 Building a pass as a shared library.
-1.Create a directory for build output.
+
+Create a directory for build output.
 ```bash
 mkdir build
 cd build
 ```
 
-kk
+Run CMake to generate the build system:
+```bash
+cmake -G "ninja"
+```
+
+Compile the pass:
+```bash
+ninja
+```
