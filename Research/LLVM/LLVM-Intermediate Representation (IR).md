@@ -172,5 +172,9 @@ opt -O3 example.ll -o optimized.bc
 
 ##### Convert to Assemble
 ```bash
+llc optimized.bc -o example.s
+```
 
+```bash
+gcc example.s -o example
 ```
