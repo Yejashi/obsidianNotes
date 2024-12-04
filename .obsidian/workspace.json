@@ -11,10 +11,10 @@
             "id": "721741d3be1798a6",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -169,7 +169,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "721741d3be1798a6",
   "lastOpenFiles": [
     "Research/Compilers/Compiler-General.md",
     "conflict-files-obsidian-git.md",
