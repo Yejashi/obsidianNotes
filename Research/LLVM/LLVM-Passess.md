@@ -25,3 +25,5 @@ Some Examples include:
 - Control Flow Analysis: Identifies how different blocks in a function are connected (e.g., through branches and loops). This is done by passes like `CFG` (Control Flow Graph).
 - Alias Analysis: Analyzes pointers to determine whether two pointers might reference the same memory location.
 
+##### Transformation Passes
+
