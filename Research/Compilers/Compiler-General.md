@@ -1,3 +1,7 @@
+### Libraries
+#### Static Libraries
+A static library is a collection of compiled object files that are linked directly into a program at compile-time. The resulting executable contains all the code it needs from the library.
+
 ### Phases of a program translation
 We write programs in high-level language, which is easier for us to understand and remember. These programs are then fed into a series of tools and OS components to get the desired code that can be used by the machine. This is known as Language Processing System.
 
