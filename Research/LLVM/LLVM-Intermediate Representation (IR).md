@@ -96,4 +96,31 @@ Key points:
 - Rich instruction set: Covers arithmetic, memory operations, control flow, and more.
 
 ##### Categories of instructions
+Arithmetic
+```
+%sum = add i32 %a, %b
+%diff = sub i32 %a, %b
+```
 
+Memory
+```
+%ptr = alloca i32          ; allocate memory
+store i32 42, i32* %ptr    ; store value in memory
+%val = load i32, i32* %ptr ; load value from memory
+```
+
+Control Flow
+```
+br label %next         ; unconditional branch
+br i1 %cond, label %true, label %false  ; conditional branch
+ret i32 0              ; return instruction
+```
+
+Function Calls
+```
+call i32 @add(i32 1, i32 2)
+```
+
+```
+%cast = zext i8 %val to i32  ; zero-extend i8 to i32
+```
