@@ -52,6 +52,6 @@ clang -O0 -Xclang -disable-O0-optnone -emit-llvm -S -o target.ll target.c
 
 Apply the pass to the LLVM IR
 ```
-opt -load-pass-plugin ./custom_pass.so -passes="pass-tracker" -disable-output target.ll
+opt -load-pass-plugin ./PassTracker.so -passes="pass-tracker" -disable-output target.ll
 
 ```
