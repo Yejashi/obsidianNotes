@@ -37,3 +37,8 @@ entry:
 }
 ```
 
+Breakdown:
+`target triple = "x86_64-pc-linux-gnu" `: identifies architecture, vendor, and OS.
+
+
+``
