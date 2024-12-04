@@ -67,6 +67,7 @@ entry:
 
 
 ##### Basic Block
-
+A basic block is a sequence of instructions with:
+- A single entry point.
 ####
 
