@@ -30,4 +30,5 @@ These passes modify the IR to optimize it or transform it for better performance
 
 Common transformation passes include:
 - Dead Code Elimination (DCE): Removes unused or redundant code.
+- Constant Propagation: Replaces variables that have constant values with those constant values.
 - 
