@@ -10,4 +10,8 @@ LLVM's Intermediate Representation is a platform-independent, low-level programm
 
 **Characteristics:**
 - LLVM's Intermediate Representation is a platform-independent, low-level programming language. It serves as the "common ground" between source code and machine code.
-- Has a typed system and three representations: textual IR, binary bitcode, and in-memory IR.
+- Has a typed system and three representations: 
+	- textual IR, 
+	- binary bitcode, 
+	- in-memory IR.
+	
