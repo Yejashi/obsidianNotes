@@ -15,3 +15,24 @@ Key Features:
 - Symbol Table
 	- The symbol table maps global identifiers to their corresponding LLVM entities, like functions or global variables.
 - Context
+	-  A module is associated with an LLVM context, which ensures thread safety and resource management. Multiple modules can share the same context.
+- Linkage Unit
+	-  Modules are used during the linking phase, allowing code from multiple LLVM modules to be combined into one.
+
+Example of an LLVM IR module in textual representation:
+```llvm
+; ModuleID = 'example_module' 
+source_filename = "example.c" 
+target triple = "x86_64-pc-linux-gnu" 
+
+@global_var = global i32 42 
+
+declare void @external_function()
+
+define i32 @main() { 
+entry: 
+	%retval = alloca i32, align 4 
+	store i32 0, i32* %retval, align 4 
+	ret i32 0 
+}
+```
