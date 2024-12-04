@@ -9,4 +9,10 @@ We need a transformation pass that monitors optimization attempts since most opt
 What needs to be tracked:
 - Transformations attempted
 	- This includes all optimization attempts (i.e loop unrolling, inlining, dead code elimination, etc)
+- Transformations Failed
+	- This should happen when a transformation is skipped or doesn't apply (i.e a loop is not unrolled for `x` reason.)
+- Transformation Succeeded
+	- This happens when a particular transformation successfully modifies the IR.
+
+
 
