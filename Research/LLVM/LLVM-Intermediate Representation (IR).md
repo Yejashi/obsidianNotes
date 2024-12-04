@@ -145,3 +145,5 @@ This is a compact, binary form used for storage or transmission.
 
 This is generated with `llvm-as` (assembler) and it is interpreted by `llvm-dis` (disassembler).
 
+##### In-Memory
+This is used internally by LLVM tools and APIs. This is what is operated on by LLVM passess.
