@@ -19,6 +19,16 @@ Key Features:
 - Linkage Unit
 	-  Modules are used during the linking phase, allowing code from multiple LLVM modules to be combined into one.
 
+LLVM API:
+- In the LLVM API a module is represented by the `llvm::module` class.
+- Functions in the module can be accessed using the `getFunction()` method.
+- You can iterate over all functions, global variables, or metadata.
+
+Uses:
+- Modules are critical for writing LLVM passes.
+- When generating LLVM IR programmatically, a module is the starting point.
+- Multiple modules can be combined for link-time optimizations (LTO).
+
 Example of an LLVM IR module in textual representation:
 ```llvm
 ; ModuleID = 'example_module' 
@@ -37,15 +47,7 @@ entry:
 }
 ```
 
-LLVM API:
-- In the LLVM API a module is represented by the `llvm::module` class.
-- Functions in the module can be accessed using the `getFunction()` method.
-- You can iterate over all functions, global variables, or metadata.
 
-Uses:
-- Modules are critical for writing LLVM passes.
-- When generating LLVM IR programmatically, a module is the starting point.
-- Multiple modules can be combined for link-time optimizations (LTO).
 
 ####
 
