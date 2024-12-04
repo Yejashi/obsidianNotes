@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/LLVM-Intermediate Representation (IR).md",
+                "file": "Research/LLVM/LLVM-Passess.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLVM-Intermediate Representation (IR)"
+              "title": "LLVM-Passess"
             }
           },
           {
@@ -189,10 +189,11 @@
   },
   "active": "bc697af6957da27a",
   "lastOpenFiles": [
+    "Research/LLVM/LLVM-Intermediate Representation (IR).md",
+    "Research/LLVM/LLVM-Passess.md",
+    "Research/LLVM/LLVM-General.md",
     "Research/Compilers/Compiler-General.md",
     "Misc/Software Ideas.md",
-    "Research/LLVM/LLVM-Intermediate Representation (IR).md",
-    "Research/LLVM/LLVM-General.md",
     "Ricing/NixOS/NixOS-General.md",
     "Ricing/Tiling Window Managers/WM-General.md",
     "conflict-files-obsidian-git.md",
