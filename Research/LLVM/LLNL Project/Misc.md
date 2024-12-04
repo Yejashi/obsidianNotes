@@ -1,4 +1,4 @@
-Building a pass as a shared library.
+##### Building a pass as a shared library.
 
 Create a directory for build output.
 ```bash
@@ -16,4 +16,7 @@ Compile the pass:
 ninja
 ```
 
+Template `CMakeLists.txt`:
+```
+```
 
