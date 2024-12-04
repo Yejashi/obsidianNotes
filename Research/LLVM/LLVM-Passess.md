@@ -15,3 +15,4 @@ Passes can be executed at different levels, including:
 - Module Level: Operates on the entire module, which could consist of multiple functions.
 
 LLVM passes are designed to be composable, meaning you can create complex pass pipelines by chaining different passes together.
+
