@@ -113,7 +113,7 @@ Token: 'int', 'a', '=', '5', ';'
 The second phase is **syntax analysis**, which checks if the sequence of tokens adheres to the grammar rules of the programming language.
 
 **Key Responsibilities:**
-- **Constructing Parse Trees:** Generates a tree-like structure (parse tree) that represents the grammatical structure of the code.
+- **Constructing Parse Trees:** Generates a tree-like structure (parse tree or abstract syntax tree) that represents the grammatical structure of the code.
 - **Grammar Validation:** Ensures the code follows the syntactic rules. For example, `int a = ;` would be flagged because it's missing a value.
 - **Error Reporting and Recovery:** Reports syntax errors and attempts to recover to continue parsing.
 
