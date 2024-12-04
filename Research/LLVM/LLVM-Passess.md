@@ -10,4 +10,8 @@ LLVM passes work in a sequence during the compilation process. They operate on t
 - Optimization Passes (Middle-End): Perform transformations to improve the efficiency of the code, such as constant folding, loop unrolling, or dead code elimination.
 - Target-Specific Passes (Backend): Focus on architecture-specific optimizations and target code generation.
 
+Passes can be executed at different levels, including:
+- Function Level: Operates on a single function.
+- Module Level: Operates on the entire module, which could consist of multiple functions.
+
 
