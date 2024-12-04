@@ -52,6 +52,13 @@ Functions in a module consist of:
 - Header: Function signature, including name, return type, and argument list.
 - Body: A series of basic blocks.
 
+Functions in LLVM IR can be defined (`define`) or declared (`declare`).
+
+Example:
+```llvm
+declare void @printf(i8* %format) ; function declaration define i32 @add(i32 %a, i32 %b) { ; function definition entry: %result = add i32 %a, %b ret i32 %result }
+```
+
 
 
 ####
