@@ -38,3 +38,5 @@ Common transformation passes include:
 You can write your own custom passes to achieve specific goals, such as optimizing specific patterns or gathering statistics on optimization attempts, like the number of transformations applied per function.
 
 There are three main ways to create custom passes in LLVM:
+1. Function Passes: Operate on individual functions. These are useful for optimizations that only make sense on a function level, like inlining or loop unrolling.
+2. 
