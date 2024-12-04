@@ -144,3 +144,4 @@ define i32 @add(i32 %a, i32 %b) {
 This is a compact, binary form used for storage or transmission.
 
 This is generated with `llvm-as` (assembler) and it is interpreted by `llvm-dis` (disassembler).
+
