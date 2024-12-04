@@ -31,7 +31,7 @@ include(AddLLVM)
 
 # Add your pass as a shared library
 add_llvm_library(PassTracker MODULE
-    src/custom_pass.cpp
+    src/PassTracker.cpp
 )
 
 # Ensure proper include paths and C++ version
