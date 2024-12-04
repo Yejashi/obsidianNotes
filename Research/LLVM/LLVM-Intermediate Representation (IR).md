@@ -159,3 +159,8 @@ Example types:
 - Derived: Pointers (`i32*`), arrays (`[10 x i32]`), structures.
 
 #### Workflow Cheatsheet
+
+##### Generate LLVM IR (Textual)
+```bash
+
+```
