@@ -35,3 +35,6 @@ Common transformation passes include:
 - Function Inlining: Replaces a function call with the body of the function, eliminating the call overhead.
 
 ##### Custom Passes
+You can write your own custom passes to achieve specific goals, such as optimizing specific patterns or gathering statistics on optimization attempts, like the number of transformations applied per function.
+
+There are three main ways to create custom passes in LLVM:
