@@ -51,3 +51,4 @@ static RegisterPass<TrackOptimizations> X("track-optimizations",
 ### Register the Pass
 To ensure your pass is available during the LLVM pass pipeline, you need to register it using `RegisterPass`. The registration mechanism allows LLVM to find and run your pass.
 
+### Run the Pass
