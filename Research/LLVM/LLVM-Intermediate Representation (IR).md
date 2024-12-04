@@ -121,6 +121,8 @@ Function Calls
 call i32 @add(i32 1, i32 2)
 ```
 
+Cast and Conversion
 ```
 %cast = zext i8 %val to i32  ; zero-extend i8 to i32
 ```
+
