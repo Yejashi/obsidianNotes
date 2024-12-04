@@ -1,5 +1,8 @@
 Building a pass as a shared library.
-1. Create a directory for build output.
-	```
-	
+1.Create a directory for build output.
+```bash
+mkdir build
+cd build
 ```
+
+kk
