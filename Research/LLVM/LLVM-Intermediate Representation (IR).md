@@ -151,3 +151,4 @@ This is used internally by LLVM tools and APIs. This is what is operated on by L
 #### Key features of the LLVM IR
 ##### Static Single Assignment (SSA)
 - Each variable is defined exactly once.
+- This simplifies optimization and analysis.
