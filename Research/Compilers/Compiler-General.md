@@ -2,6 +2,8 @@
 #### Static Libraries
 A static library is a collection of compiled object files that are linked directly into a program at compile-time. The resulting executable contains all the code it needs from the library.
 
+During compilation, the linker copies the necessary parts of the static library into the executable. The resulting executable is self-contained, meaning it does not rely on the library being available at runtime.
+
 **Key Features:**
 - File type:
 	- On Linux/Unix: `.a` files (archive files).
@@ -13,9 +15,23 @@ A static library is a collection of compiled object files that are linked direct
 	- Size: The executable is larger since it includes a copy of all required code from the library.
 	- Update Issues: If the library changes, you must recompile and relink the program to incorporate the updates.
 
-During compilation, the linker copies the necessary parts of the static library into the executable. The resulting executable is self-contained, meaning it does not rely on the library being available at runtime.
+#### Dynamic Libraries
+A dynamic library is also a collection of compiled object files, but it is linked to the program at runtime, not compile-time. Programs use a reference to the library instead of embedding it.
 
-**Advantages:**
+At compile-time, only references to the dynamic library are included in the executable. At runtime, the operating system loads the library into memory and resolves the references. This means that the library must be available on the system where the executable runs.
+
+**Key Features:**
+- File Type:
+	- On Linux/Unix: .so files (shared object files).
+	- On Windows: .dll files (dynamic link libraries).
+- Advantages:
+	- Smaller Executables: The library code is not included in the executable; it’s loaded from the shared library file.
+	- Shared Memory: Multiple programs can share the same library in memory, reducing system resource usage.
+	- *Easy* Updates: Updating the library updates all programs that use it, without needing to recompile them.
+- Disadvantages:
+	- Runtime Dependency: The library must be available at runtime, or the program won’t work.
+	- Compatibility Issues: A new version of the library might break older programs if backward compatibility is not maintained.
+
 
 ### Phases of a program translation
 We write programs in high-level language, which is easier for us to understand and remember. These programs are then fed into a series of tools and OS components to get the desired code that can be used by the machine. This is known as Language Processing System.
