@@ -18,3 +18,10 @@ LLVM passes are designed to be composable, meaning you can create complex pass p
 
 ### Types of LLVM Passes
 ##### Analysis Passes
+These passes gather information about the code but do not modify it.
+
+Some Examples include:
+- Data Structure Analysis: Analyzes loops, control flow, and data dependencies. For example, `LoopInfo` analyzes the loops in a function.
+- Control Flow Analysis: Identifies how different blocks in a function are connected (e.g., through branches and loops). This is done by passes like `CFG` (Control Flow Graph).
+- Alias Analysis: Analyzes pointers to determine whether two pointers might reference the same memory location.
+
