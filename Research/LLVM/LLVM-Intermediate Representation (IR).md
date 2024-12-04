@@ -175,6 +175,7 @@ opt -O3 example.ll -o optimized.bc
 llc optimized.bc -o example.s
 ```
 
+##### Compile to Binary
 ```bash
-gcc example.s -o example
+clang example.s -o example
 ```
