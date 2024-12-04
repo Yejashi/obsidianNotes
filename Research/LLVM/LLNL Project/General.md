@@ -22,6 +22,6 @@ This means the optimization are applied by clang's optimization pipeline through
 An analysis pass can observe the results of other passes and collect statistics about their behavior.
 
 ###### Where does the pass need to go?
-
+We need to inject a custom analysis pass into the pass manager pipeline. This pass would observe the IR before and after each transformation pass and log any changes or failures.
 
 
