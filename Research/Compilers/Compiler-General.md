@@ -2,6 +2,21 @@
 #### Static Libraries
 A static library is a collection of compiled object files that are linked directly into a program at compile-time. The resulting executable contains all the code it needs from the library.
 
+**Key Features:**
+- File type:
+	- On Linux/Unix: `.a` files (archive files).
+	- On Windows: `.lib` files (for static linking).
+- Advantages:
+	- Portability: The executable can run on its own, without needing additional library files.
+	- No runtime dependency: Once built, it’s unaffected by changes to the library.
+- Disadvantages:
+	- Size: The executable is larger since it includes a copy of all required code from the library.
+	- Update Issues: If the library changes, you must recompile and relink the program to incorporate the updates.
+
+During compilation, the linker copies the necessary parts of the static library into the executable. The resulting executable is self-contained, meaning it does not rely on the library being available at runtime.
+
+**Advantages:**
+
 ### Phases of a program translation
 We write programs in high-level language, which is easier for us to understand and remember. These programs are then fed into a series of tools and OS components to get the desired code that can be used by the machine. This is known as Language Processing System.
 
