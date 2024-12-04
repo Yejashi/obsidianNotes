@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -144,8 +144,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -245,10 +244,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a3ff273517a7693",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "Research/LLVM/LLNL Project/Misc.md",
     "Research/LLVM/Intermediate Representation (IR).md",
+    "Research/LLVM/LLNL Project/Misc.md",
     "Research/LLVM/LLNL Project/General.md",
     "Research/LLVM/Passess.md",
     "Research/LLVM/Writing a Custom LLVM Pass.md",
