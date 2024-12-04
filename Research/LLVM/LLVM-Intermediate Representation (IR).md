@@ -56,7 +56,9 @@ Functions in LLVM IR can be defined (`define`) or declared (`declare`).
 
 Example:
 ```llvm
-declare void @printf(i8* %format) ; function declaration define i32 @add(i32 %a, i32 %b) { ; function definition entry: %result = add i32 %a, %b ret i32 %result }
+declare void @printf(i8* %format) ; function declaration 
+
+define i32 @add(i32 %a, i32 %b) { ; function definition entry: %result = add i32 %a, %b ret i32 %result }
 ```
 
 
