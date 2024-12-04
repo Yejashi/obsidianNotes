@@ -153,4 +153,8 @@ This is used internally by LLVM tools and APIs. This is what is operated on by L
 - Each variable is defined exactly once.
 - This simplifies optimization and analysis.
 
-##### 
+##### Typed System
+Example types:
+- Primitive: `i32`, `float`, `i1` (boolean).
+- Derived: Pointers (`i32*`), arrays (`[10 x i32]`), structures.
+
