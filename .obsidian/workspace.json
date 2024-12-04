@@ -35,8 +35,7 @@
               "title": "Compiler-General"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,10 +187,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "764f8c8e1424891c",
+  "active": "bc697af6957da27a",
   "lastOpenFiles": [
-    "Research/LLVM/LLVM-General.md",
     "Research/Compilers/Compiler-General.md",
+    "Research/LLVM/LLVM-General.md",
     "conflict-files-obsidian-git.md",
     "Misc/Personal Website Plans.md",
     "Misc/Software Ideas.md",
