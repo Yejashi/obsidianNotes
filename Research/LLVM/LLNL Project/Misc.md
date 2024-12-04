@@ -8,7 +8,7 @@ cd build
 
 Run CMake to generate the build system:
 ```bash
-cmake -G "ninja"
+cmake -G "Ninja" ..
 ```
 
 Compile the pass:
