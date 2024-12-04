@@ -165,3 +165,12 @@ Example types:
 clang -S -emit-llvm -o example.ll example.c
 ```
 
+##### Run Optimizations
+```bash
+opt -O3 example.ll -o optimized.bc
+```
+
+##### Convert to Assemble
+```bash
+
+```
