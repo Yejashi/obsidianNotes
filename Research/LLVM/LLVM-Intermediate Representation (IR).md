@@ -88,7 +88,12 @@ next:
 
 
 #### Instructions in LLVM IR
-LLVM IR instructions are similar to assembly language but operate on a higher abstraction level. Key points:
+LLVM IR instructions are similar to assembly language but operate on a higher abstraction level. 
+
+Key points:
+- Strongly typed: Every variable has a type.
+- SSA (Static Single Assignment) form: Each variable is assigned exactly once.
+- Rich instruction set: Covers arithmetic, memory operations, control flow, and more.
 
 
 
