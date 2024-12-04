@@ -4,4 +4,4 @@ There are two primary types of passes in LLVM:
 1. Analysis Passes: These examine the IR and gather information, but they don’t modify the code.
 2. Transformation Passes: These modify the IR to optimize or transform the code, such as inlining functions, unrolling loops, or simplifying expressions.
 
-
+### Overview 
