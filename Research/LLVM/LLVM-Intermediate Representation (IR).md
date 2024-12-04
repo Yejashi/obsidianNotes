@@ -47,6 +47,9 @@ entry:
 }
 ```
 
+Functions in a module consist of:
+- Header: Function signature, including name, return type, and argument list.
+- Body: A series of basic blocks.
 
 
 ####
