@@ -95,5 +95,5 @@ Key points:
 - SSA (Static Single Assignment) form: Each variable is assigned exactly once.
 - Rich instruction set: Covers arithmetic, memory operations, control flow, and more.
 
-
+##### Categories of instructions
 
