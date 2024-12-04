@@ -88,6 +88,7 @@ next:
 
 
 #### Instructions in LLVM IR
+LLVM IR instructions are similar to assembly language but operate on a higher abstraction level. Key points:
 
 
 
