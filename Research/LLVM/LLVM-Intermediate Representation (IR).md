@@ -12,3 +12,6 @@ Key Features:
 	- Global Variables
 	- Function declarations and definitions
 	- Metadata
+- Symbol Table
+	- The symbol table maps global identifiers to their corresponding LLVM entities, like functions or global variables.
+- Context
