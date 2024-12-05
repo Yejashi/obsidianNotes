@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/Passess.md",
+                "file": "Research/LLVM/Passes/General Passes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Passess"
+              "title": "General Passes"
             }
           },
           {
@@ -243,7 +243,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "661a7abe04a76121",
   "lastOpenFiles": [
     "Research/LLVM/Passes",
     "Research/LLVM/Intermediate Representation (IR).md",
@@ -253,7 +253,7 @@
     "Misc/Software Ideas",
     "Excalidraw/Drawing 2024-12-05 08.42.23.excalidraw.md",
     "Excalidraw",
-    "Research/LLVM/Passes/Passess.md",
+    "Research/LLVM/Passes/General Passes.md",
     "Untitled.md",
     "Research/LLVM/General.md",
     "Research/Compilers/General.md",
