@@ -27,28 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Compilers/General.md",
+                "file": "Misc/Software Ideas/Software Ideas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General"
-            }
-          },
-          {
-            "id": "aee304cc0ef07416",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-12-05 08.42.23.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-12-05 08.42.23.excalidraw"
+              "title": "Software Ideas"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,9 +169,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "afc91e3d01671c9e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -203,20 +201,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aee304cc0ef07416",
+  "active": "764f8c8e1424891c",
   "lastOpenFiles": [
+    "Research/LLVM/LLNL Project/Misc.md",
+    "Misc/Software Ideas",
+    "Research/LLVM/LLNL Project/Objectives.md",
+    "Research/LLVM/Intermediate Representation (IR).md",
     "Research/Compilers/General.md",
     "Excalidraw/Drawing 2024-12-05 08.42.23.excalidraw.md",
     "Excalidraw",
     "conflict-files-obsidian-git.md",
     "Research/LLVM/Passess.md",
-    "Research/LLVM/LLNL Project/Objectives.md",
-    "Research/LLVM/LLNL Project/Misc.md",
     "Research/LLVM/LLNL Project",
-    "Research/LLVM/Intermediate Representation (IR).md",
     "Research/LLVM/General.md",
     "Research/LLVM/Writing a Custom LLVM Pass.md",
-    "Misc/Software Ideas.md",
+    "Misc/Software Ideas/Software Ideas.md",
     "Ricing/NixOS/NixOS-General.md",
     "Ricing/Tiling Window Managers/WM-General.md",
     "Misc/Personal Website Plans.md",
@@ -236,7 +235,6 @@
     "Welcome.md",
     "Ricing/NixOS",
     "Ricing",
-    "Misc",
-    "Research"
+    "Misc"
   ]
 }
