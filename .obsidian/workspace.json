@@ -34,8 +34,21 @@
               "icon": "lucide-file",
               "title": "General"
             }
+          },
+          {
+            "id": "aee304cc0ef07416",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-12-05 08.42.23.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-12-05 08.42.23.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,20 +197,25 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "aee304cc0ef07416",
   "lastOpenFiles": [
-    "Research/LLVM/Passess.md",
+    "Research/Compilers/General.md",
+    "Excalidraw/Drawing 2024-12-05 08.42.23.excalidraw.md",
+    "Excalidraw",
     "conflict-files-obsidian-git.md",
+    "Research/LLVM/Passess.md",
     "Research/LLVM/LLNL Project/Objectives.md",
     "Research/LLVM/LLNL Project/Misc.md",
     "Research/LLVM/LLNL Project",
     "Research/LLVM/Intermediate Representation (IR).md",
     "Research/LLVM/General.md",
     "Research/LLVM/Writing a Custom LLVM Pass.md",
-    "Research/Compilers/General.md",
     "Misc/Software Ideas.md",
     "Ricing/NixOS/NixOS-General.md",
     "Ricing/Tiling Window Managers/WM-General.md",
