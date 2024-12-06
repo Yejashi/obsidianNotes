@@ -22,6 +22,16 @@
             }
           },
           {
+            "id": "b96594f734737960",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
             "id": "d2f4fee7c17856f6",
             "type": "leaf",
             "state": {
@@ -91,7 +101,8 @@
               "title": "Misc"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -230,8 +241,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,8 +257,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "661a7abe04a76121",
+  "active": "b96594f734737960",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Research/LLVM/Passes/General Passes.md",
     "Research/LLVM/Passes",
     "Research/LLVM/Intermediate Representation (IR).md",
     "Research/LLVM/Writing a Custom LLVM Pass.md",
@@ -257,14 +269,12 @@
     "Misc/Software Ideas",
     "Excalidraw/Drawing 2024-12-05 08.42.23.excalidraw.md",
     "Excalidraw",
-    "Research/LLVM/Passes/General Passes.md",
     "Untitled.md",
     "Research/LLVM/General.md",
     "Research/Compilers/General.md",
     "Research/LLVM/LLNL Project/Misc.md",
     "Research/LLVM/LLNL Project",
     "Research/Compilers/Compiler-General.md",
-    "conflict-files-obsidian-git.md",
     "Research/LLVM/LLVM-General.md",
     "x",
     "Screenshots/Pasted image 20241202080454.png",
@@ -283,7 +293,6 @@
     "Ricing/Tiling Window Managers",
     "Research/LLVM",
     "Welcome.md",
-    "Ricing/NixOS",
-    "Ricing"
+    "Ricing/NixOS"
   ]
 }
