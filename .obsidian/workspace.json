@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Terminology.md",
+                "file": "Research/LLVM/Common Terminology.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Terminology"
+              "title": "Common Terminology"
             }
           }
         ]
@@ -179,7 +179,7 @@
   "active": "89d99c9bf7be4dcb",
   "lastOpenFiles": [
     "Research/LLVM/General.md",
-    "Research/LLVM/Terminology.md",
+    "Research/LLVM/Common Terminology.md",
     "Research/LLVM/Passes/Writing a Custom LLVM Pass.md",
     "Research/LLVM/Cheatsheet.md",
     "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
