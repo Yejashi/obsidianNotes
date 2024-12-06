@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/LLNL Project/Misc.md",
+                "file": "Research/LLVM/Intermediate Representation (IR).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Misc"
+              "title": "Intermediate Representation (IR)"
             }
           }
         ]
@@ -176,8 +176,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "89d99c9bf7be4dcb",
   "lastOpenFiles": [
+    "Research/LLVM/General.md",
+    "Research/LLVM/LLNL Project/Misc.md",
     "conflict-files-obsidian-git.md",
     "Research/LLVM/Passes/General Passes.md",
     "Research/LLVM/Passes",
@@ -189,9 +191,7 @@
     "Excalidraw/Drawing 2024-12-05 08.42.23.excalidraw.md",
     "Excalidraw",
     "Untitled.md",
-    "Research/LLVM/General.md",
     "Research/Compilers/General.md",
-    "Research/LLVM/LLNL Project/Misc.md",
     "Research/LLVM/LLNL Project",
     "Research/Compilers/Compiler-General.md",
     "Research/LLVM/LLVM-General.md",

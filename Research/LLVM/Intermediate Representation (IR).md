@@ -1,4 +1,4 @@
-LLVM IR is a low-level, typed, RISC-like language designed for compilers, which balances abstraction and control. 
+LLVM IR is a low-level, typed, RISC-like language designed for compilers, which balances abstraction and control. A generic assembly language, input and output 
 
 Its primary role is to act as a bridge between high-level language constructs and low-level machine instructions.
 
