@@ -157,6 +157,3 @@ This is used internally by LLVM tools and APIs. This is what is operated on by L
 Example types:
 - Primitive: `i32`, `float`, `i1` (boolean).
 - Derived: Pointers (`i32*`), arrays (`[10 x i32]`), structures.
-
-#### Workflow Cheatsheet
-
