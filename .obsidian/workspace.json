@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/General.md",
+                "file": "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General"
+              "title": "Intermediate Representation (IR)"
             }
           }
         ]
@@ -178,9 +178,9 @@
   },
   "active": "89d99c9bf7be4dcb",
   "lastOpenFiles": [
+    "Research/LLVM/General.md",
     "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
     "Research/LLVM/Intermediate Representation (IR)",
-    "Research/LLVM/General.md",
     "Research/LLVM/LLNL Project/Misc.md",
     "conflict-files-obsidian-git.md",
     "Research/LLVM/Passes/General Passes.md",

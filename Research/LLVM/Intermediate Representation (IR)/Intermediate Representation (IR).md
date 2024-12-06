@@ -76,12 +76,12 @@ Basic blocks are identified by labels.
 Example:
 ```llvm
 define void @example() {
-entry:
+entry: ; basic block
   %x = alloca i32
   store i32 42, i32* %x
   br label %next
 
-next:
+next: ; next block
   ret void
 }
 ```
