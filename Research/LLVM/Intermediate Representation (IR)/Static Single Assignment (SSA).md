@@ -1,1 +1,6 @@
 SSA (Static Single Assignment) in LLVM is a property of the intermediate representation (IR) where each variable is assigned a value exactly once, and every variable is uniquely defined.
+
+In SSA form:
+- Every variable is assigned only once.
+- Each use of a variable refers to a single, unambiguous definition.
+
