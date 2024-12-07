@@ -20,5 +20,14 @@ A basic block typically consists of:
 
 Example:
 ```
+; Example LLVM IR with two basic blocks
+entry:                          ; Label for the first block
+  %0 = add i32 %x, %y           ; Instruction to add
+  br i1 %cond, label %if.then, label %if.else ; Conditional branch
+
+if.then:                        ; Second basic block
+  %1 = mul i32 %x, 2            ; Instruction to multiply
+  ret i32 %1                    ; Return statement
 
 ```
+
