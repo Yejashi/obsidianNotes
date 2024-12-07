@@ -42,4 +42,4 @@ Optimizations:
 - Optimizations in LLVM, such as instruction reordering or branch elimination, are often performed at the level of basic blocks.
 
 Code Generation:
-- 
+- During compilation, LLVM converts IR basic blocks into corresponding machine code blocks.
