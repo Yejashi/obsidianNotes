@@ -7,4 +7,9 @@ LLVM provides several levels of Pass Managers depending on the scope of the pass
 - **LoopPassManager**: Focuses on loop transformations, operating within function-level passes.
 - **CGSCCPassManager**: Operates on Call Graph Strongly Connected Components (SCCs), useful for inter-procedural analysis or optimizations.
 
+### Legacy vs New Pass Manager
+LLVM has two Pass Manager frameworks:
+- **Legacy Pass Manager**: Older system with a simple API. It is still supported but being phased out.
+- 
+
 
