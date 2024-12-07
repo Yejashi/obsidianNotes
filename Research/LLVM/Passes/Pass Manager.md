@@ -14,6 +14,7 @@ LLVM has two Pass Manager frameworks:
 
 ### Key Features of the Pass Manager
 - **Dependency Management**: Ensures that prerequisite analysis passes are executed before transformation passes.
+- **Invalidation**: Tracks whether the results of an analysis pass remain valid after a transformation pass modifies the IR.
 - 
 ### Workflow of the Pass Manager
 - **Pass Registration:** Passes are registered with the pass manager.
