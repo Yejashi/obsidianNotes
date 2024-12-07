@@ -20,3 +20,4 @@ x2 = x1 + 1;    ; New definition for x after modification
 y1 = x2 * 2;    ; y depends on the latest definition of x
 ```
 
+### PHI Nodes in SSA
