@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "764f8c8e1424891c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Screenshots/Pasted image 20241130215941.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241130215941"
-            }
-          },
-          {
             "id": "51803a05ecc0984e",
             "type": "leaf",
             "state": {
@@ -229,14 +217,14 @@
     "Research/LLVM/Writing a Custom LLVM Pass.md",
     "Ricing/Tiling Window Managers/WM-General.md",
     "Misc/Personal Website Plans.md",
-    "Screenshots/Pasted image 20241202080611.png",
-    "Screenshots/Pasted image 20241202080454.png",
+    "Meta/Attachments/Pasted image 20241202080611.png",
+    "Meta/Attachments/Pasted image 20241202080454.png",
     "Pasted image 20241202080611.png",
     "Pasted image 20241202080454.png",
-    "Screenshots/Pasted image 20241130215941.png",
-    "Screenshots/Pasted image 20241130220647.png",
+    "Meta/Attachments/Pasted image 20241130215941.png",
+    "Meta/Attachments/Pasted image 20241130220647.png",
     "Screenshots",
-    "Screenshots/Pasted image 20241202074257.png",
+    "Meta/Attachments/Pasted image 20241202074257.png",
     "Research/Compilers",
     "Misc/Pasted image 20241130215351.png",
     "Misc/Pasted image 20241130215402.png",
