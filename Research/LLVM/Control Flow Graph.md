@@ -4,3 +4,5 @@ It is a directed graph where:
 - Nodes represent basic blocks
 - Edges represent possible transfers of control between blocks
 
+### Structure
+- 
