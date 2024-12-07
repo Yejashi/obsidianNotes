@@ -45,4 +45,4 @@ Code Generation:
 - During compilation, LLVM converts IR basic blocks into corresponding machine code blocks.
 
 Analysis:
-
+- Analyzing LLVM IR often involves examining relationships between basic blocks (e.g., dominator trees).
