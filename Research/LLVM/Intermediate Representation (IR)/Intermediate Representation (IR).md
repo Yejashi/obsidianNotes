@@ -159,5 +159,5 @@ Example types:
 - Derived: Pointers (`i32*`), arrays (`[10 x i32]`), structures.
 
 Misc
-- Everything global starts with `@`
-- Everuthing lo
+- Global symbols start with `@`
+- Local symbols start with `%`
