@@ -16,4 +16,9 @@ Basic blocks are the building blocks of LLVM IR's control flow graph (CFG), wher
 A basic block typically consists of:
 - Label: Each block ash a unique label used for identification
 - Instructions: A  series of LLVM IR instructions
-- Terminator Instruction: 
+- Terminator Instruction: A mandatory instruction at the end, which defines the control flow (e.g., branch to another block or function return).
+
+Example:
+```
+
+```
