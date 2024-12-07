@@ -34,4 +34,7 @@ if.end:                           ; Fourth basic block (Node 4)
 Corresponding CFG::
 - Nodes: `entry`, `if.then`, `if.else`, `if.end`.
 - Edges:
-	- 
+	- `entry` → `if.then` (True branch of `%cond`).
+	- `entry` → `if.else` (False branch of `%cond`).
+	- `if.then` → `if.end`.
+	- `if.else` → `if.end`
