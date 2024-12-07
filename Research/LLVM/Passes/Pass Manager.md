@@ -13,3 +13,5 @@ LLVM has two Pass Manager frameworks:
 - **New Pass Manager**: More efficient and flexible. Introduced to address the limitations of the legacy system, such as better support for parallelism and reduced overhead.
 
 
+
+
