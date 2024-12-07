@@ -33,3 +33,17 @@ if (cond) {
 y = x + 1;
 ```
 
+After SSA:
+```
+if.then:
+    x1 = 10
+    br label %if.end
+
+if.else:
+    x2 = 20
+    br label %if.end
+
+if.end:
+    x3 = phi [x1, %if.then], [x2, %if.else] ; PHI node selects the correct x
+    y1 = x3 + 1
+```
