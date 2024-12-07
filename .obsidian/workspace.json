@@ -218,6 +218,8 @@
   },
   "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Research/LLVM/Passes/Analysis Passes",
+    "Research/LLVM/Passes/Transformation",
     "Research/LLVM/General.md",
     "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
     "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
@@ -258,7 +260,6 @@
     "Meta/Attachments/Pasted image 20241130220647.png",
     "Screenshots",
     "Meta/Attachments/Pasted image 20241202074257.png",
-    "Research/Compilers",
     "Misc/Pasted image 20241130215351.png",
     "Misc/Pasted image 20241130215402.png",
     "Welcome.md"
