@@ -1,4 +1,4 @@
-LLVM IR is a low-level, typed, RISC-like language designed for compilers, which balances abstraction and control. 
+LLVM IR is a low-level, typed, RISC-like language designed for compilers, which balances abstraction and control. A generic assembly language, input and output all and the middle-end passes (IR passes).
 
 Its primary role is to act as a bridge between high-level language constructs and low-level machine instructions.
 
@@ -76,12 +76,12 @@ Basic blocks are identified by labels.
 Example:
 ```llvm
 define void @example() {
-entry:
+entry: ; basic block
   %x = alloca i32
   store i32 42, i32* %x
   br label %next
 
-next:
+next: ; next block
   ret void
 }
 ```
@@ -157,25 +157,3 @@ This is used internally by LLVM tools and APIs. This is what is operated on by L
 Example types:
 - Primitive: `i32`, `float`, `i1` (boolean).
 - Derived: Pointers (`i32*`), arrays (`[10 x i32]`), structures.
-
-#### Workflow Cheatsheet
-
-##### Generate LLVM IR (Textual)
-```bash
-clang -S -emit-llvm -o example.ll example.c
-```
-
-##### Run Optimizations
-```bash
-opt -O3 example.ll -o optimized.bc
-```
-
-##### Convert to Assemble
-```bash
-llc optimized.bc -o example.s
-```
-
-##### Compile to Binary
-```bash
-clang example.s -o example
-```
