@@ -8,8 +8,8 @@ A basic block has the following characteristics:
 - Control Flow: 
 	- Ends with a terminator instruction (e.g., br for branching or ret for returning).
 
-Basic blocks are the building blocks of LLVM IR's control flow graph (CFG), where:
-- Nodes represent basic blocks
+Basic blocks are the building blocks of LLVM IR's concontrol flow graph (CFG), where:
+- Nodes represent basic blocks 
 - Edges represent control flow transitions
 
 ### Structure
