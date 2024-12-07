@@ -46,4 +46,5 @@ Control Flow Representation:
 - Forms the foundation for many compiler analyses and optimizations.
 
 Data Flow Analysis:
+- Tracks the flow of data (e.g., variable values) along paths in the CFG.
 - 
