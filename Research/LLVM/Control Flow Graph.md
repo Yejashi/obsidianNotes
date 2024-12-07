@@ -47,4 +47,4 @@ Control Flow Representation:
 
 Data Flow Analysis:
 - Tracks the flow of data (e.g., variable values) along paths in the CFG.
-- 
+- Used in optimizations like constant propagation and dead code elimination.
