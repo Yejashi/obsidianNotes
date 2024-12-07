@@ -31,3 +31,5 @@ if.then:                        ; Second basic block
 
 ```
 
+Here `entry` and `if.then` are basic blocks with `br` and `ret` as the terminator instructions respectively.
+
