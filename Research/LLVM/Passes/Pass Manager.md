@@ -10,6 +10,6 @@ LLVM provides several levels of Pass Managers depending on the scope of the pass
 ### Legacy vs New Pass Manager
 LLVM has two Pass Manager frameworks:
 - **Legacy Pass Manager**: Older system with a simple API. It is still supported but being phased out.
-- 
+- **New Pass Manager**: More efficient and flexible. Introduced to address the limitations of the legacy system, such as better support for parallelism and reduced overhead.
 
 
