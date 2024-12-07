@@ -200,8 +200,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "764f8c8e1424891c",
   "lastOpenFiles": [
+    "Meta/Attachments/Pasted image 20241207085106.png",
+    "Meta/Attachments",
+    "Meta",
     "conflict-files-obsidian-git.md",
     "Research/LLVM/Passes/General Passes.md",
     "Research/LLVM/Passes/Writing a Custom LLVM Pass.md",
@@ -239,8 +242,6 @@
     "Research/Compilers",
     "Misc/Pasted image 20241130215351.png",
     "Misc/Pasted image 20241130215402.png",
-    "Ricing/Tiling Window Managers",
-    "Research/LLVM",
     "Welcome.md"
   ]
 }
