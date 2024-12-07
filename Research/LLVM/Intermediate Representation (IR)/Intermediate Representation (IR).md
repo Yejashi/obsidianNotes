@@ -66,7 +66,7 @@ entry:
 ```
 
 
-##### Basic Block
+##### [[Basic Blocks]]
 A basic block is a sequence of instructions with:
 - A single entry point.
 - A single exit point (usually a branch or return instruction).
