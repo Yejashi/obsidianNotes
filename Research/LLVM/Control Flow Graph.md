@@ -41,3 +41,9 @@ Corresponding CFG::
 
 
 ### Importance of CFG
+Control Flow Representation:
+- Models all possible execution paths through a function.
+- Forms the foundation for many compiler analyses and optimizations.
+
+Data Flow Analysis:
+- 
