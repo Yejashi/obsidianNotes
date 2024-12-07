@@ -47,3 +47,6 @@ if.end:
     x3 = phi [x1, %if.then], [x2, %if.else] ; PHI node selects the correct x
     y1 = x3 + 1
 ```
+
+The PHI node merges x1 and x2 based on the control flow path.
+
