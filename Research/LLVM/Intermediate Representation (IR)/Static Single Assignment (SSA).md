@@ -21,3 +21,15 @@ y1 = x2 * 2;    ; y depends on the latest definition of x
 ```
 
 ### PHI Nodes in SSA
+In cases where control flow merges (e.g., after a conditional branch), SSA introduces PHI nodes to select the correct variable version based on the execution path.
+
+Example:
+```
+if (cond) {
+    x = 10;
+} else {
+    x = 20;
+}
+y = x + 1;
+```
+
