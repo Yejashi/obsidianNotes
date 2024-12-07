@@ -4,5 +4,6 @@ Labels are used to refer to the result value of an instruction in an LLVM IR.
 ```
 
 ```
-%cond = icmp
+%cond = icmp eq i32 %sum, 99
 ```
+
