@@ -48,5 +48,5 @@ if.end:
     y1 = x3 + 1
 ```
 
-The PHI node merges x1 and x2 based on the control flow path.
+The PHI node merges `x1` and `x2` based on the control flow path.
 
