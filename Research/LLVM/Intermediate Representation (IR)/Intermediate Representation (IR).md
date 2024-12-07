@@ -162,4 +162,4 @@ Misc
 - Global symbols start with `@`
 - Local symbols start with `%`
 - Basic block names start with `%` when used
-- Basic block names end with 
+- Basic block names end with `.` when defined
