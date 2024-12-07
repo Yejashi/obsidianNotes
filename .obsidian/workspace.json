@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/Software Ideas/Linux System-Wide Text Auto-complete.md",
+                "file": "Research/LLVM/Passes/General Passes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux System-Wide Text Auto-complete"
+              "title": "General Passes"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "General Passes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,15 +196,15 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "764f8c8e1424891c",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Research/LLVM/Passes/General Passes.md",
+    "Ricing/NixOS/NixOS-General.md",
     "Misc/Software Ideas/Linux System-Wide Text Auto-complete.md",
+    "Research/LLVM/Passes/General Passes.md",
+    "conflict-files-obsidian-git.md",
     "Research/LLVM/Passes",
     "Research/LLVM/LLNL Project/Misc.md",
     "Misc/Software Ideas",
@@ -218,7 +217,6 @@
     "Research/LLVM/LLNL Project",
     "Research/LLVM/General.md",
     "Research/LLVM/Writing a Custom LLVM Pass.md",
-    "Ricing/NixOS/NixOS-General.md",
     "Ricing/Tiling Window Managers/WM-General.md",
     "Misc/Personal Website Plans.md",
     "Screenshots/Pasted image 20241202080611.png",
