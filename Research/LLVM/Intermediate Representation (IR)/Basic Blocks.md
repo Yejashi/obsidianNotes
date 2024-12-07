@@ -43,3 +43,5 @@ Optimizations:
 
 Code Generation:
 - During compilation, LLVM converts IR basic blocks into corresponding machine code blocks.
+
+
