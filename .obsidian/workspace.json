@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/General Passes.md",
+                "file": "Research/Compilers/General.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General Passes"
+              "title": "General"
             }
           }
         ]
@@ -170,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,6 +189,11 @@
   },
   "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-12-05 08.42.23.excalidraw.md",
+    "Research/Compilers/General.md",
+    "Research/LLVM/General.md",
+    "Misc/Personal Website Plans.md",
+    "Meta/Attachments/Pasted image 20241130215941.png",
     "Research/LLVM/Passes/General Passes.md",
     "Meta/Attachments/Pasted image 20241207085106.png",
     "Meta/Attachments",
@@ -208,20 +214,15 @@
     "Misc/Software Ideas",
     "Research/LLVM/LLNL Project/Objectives.md",
     "Research/LLVM/Intermediate Representation (IR).md",
-    "Research/Compilers/General.md",
-    "Excalidraw/Drawing 2024-12-05 08.42.23.excalidraw.md",
     "Excalidraw",
     "Research/LLVM/Passess.md",
     "Research/LLVM/LLNL Project",
-    "Research/LLVM/General.md",
     "Research/LLVM/Writing a Custom LLVM Pass.md",
     "Ricing/Tiling Window Managers/WM-General.md",
-    "Misc/Personal Website Plans.md",
     "Meta/Attachments/Pasted image 20241202080611.png",
     "Meta/Attachments/Pasted image 20241202080454.png",
     "Pasted image 20241202080611.png",
     "Pasted image 20241202080454.png",
-    "Meta/Attachments/Pasted image 20241130215941.png",
     "Meta/Attachments/Pasted image 20241130220647.png",
     "Screenshots",
     "Meta/Attachments/Pasted image 20241202074257.png",
