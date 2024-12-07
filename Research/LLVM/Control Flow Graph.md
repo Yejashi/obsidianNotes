@@ -6,3 +6,4 @@ It is a directed graph where:
 
 ### Structure
 - Nodes (Basic Blocks): Each basic block is a single node in the CFG. 
+- 
