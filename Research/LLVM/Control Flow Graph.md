@@ -49,3 +49,7 @@ Data Flow Analysis:
 - Tracks the flow of data (e.g., variable values) along paths in the CFG.
 - Used in optimizations like constant propagation and dead code elimination.
 
+Loop Analysis:
+- Loops are easily identifiable as cycles in the CFG.
+- LLVM uses CFGs for loop transformations (e.g., unrolling, vectorization).
+
