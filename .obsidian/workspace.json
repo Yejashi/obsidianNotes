@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -230,11 +230,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b08e703b998074f4",
+  "active": "978e60c688528524",
   "lastOpenFiles": [
+    "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
     "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
     "Research/LLVM/Control Flow Graph.md",
-    "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
     "Research/LLVM/General.md",
     "Research/Compilers/General.md",
     "Excalidraw/Drawing 2024-12-05 08.42.23.excalidraw.md",
