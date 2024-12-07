@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "978e60c688528524",
+            "id": "89a2306f508ba08a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Intermediate Representation (IR)"
             }
+          },
+          {
+            "id": "978e60c688528524",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Basic Blocks"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -204,8 +218,8 @@
   },
   "active": "978e60c688528524",
   "lastOpenFiles": [
-    "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
     "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
+    "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
     "Research/LLVM/Control Flow Graph.md",
     "Research/LLVM/General.md",
     "Research/Compilers/General.md",
