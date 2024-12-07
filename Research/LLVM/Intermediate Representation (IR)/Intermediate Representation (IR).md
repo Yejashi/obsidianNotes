@@ -158,5 +158,6 @@ Example types:
 - Primitive: `i32`, `float`, `i1` (boolean).
 - Derived: Pointers (`i32*`), arrays (`[10 x i32]`), structures.
 
-Everything global starts with `@`
-
+Misc
+- Everything global starts with `@`
+- Everuthing lo
