@@ -5,3 +5,5 @@ A basic block has the following characteristics:
 	- Contains instructions that execute sequentially
 - Single Entry, Single Exit: 
 	- Execution enters at the first instruction and exits at the last without branching in the middle.
+- Control Flow: 
+	- Ends with a terminator instruction (e.g., br for branching or ret for returning).
