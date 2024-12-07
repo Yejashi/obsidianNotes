@@ -39,4 +39,7 @@ Control flow representation:
 - The CFG represents possible execution paths.
 
 Optimizations:
+- Optimizations in LLVM, such as instruction reordering or branch elimination, are often performed at the level of basic blocks.
+
+Code Generation:
 - 
