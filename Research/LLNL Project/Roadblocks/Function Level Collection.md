@@ -5,3 +5,4 @@ Optimizations in LLVM are often modular, and specific passes might target differ
 	- This can occur because LLVM's pass manager schedules and runs passes based on dependencies and optimization goals, and not every function must go through a function-level transformation before block-level optimizations.
 - Similarly, an analysis pass might collect data at the basic block level but never directly analyze the function as a whole.
 
+### Implications for Data Collection
