@@ -21,3 +21,5 @@ Function `foo`:
 - No function-level passes are applied.
 - Basic block `BB1` within `foo` has a loop unrolling optimization applied.
 - Basic block `BB2` within `foo` has constant folding applied.
+
+
