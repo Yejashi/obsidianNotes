@@ -14,5 +14,9 @@ These passes are crucial for optimization and transformation passes, which rely 
 
 **Profile-Guided Analysis**: These passes analyze profile-guided information (e.g., runtime behavior of programs).
 
+**Loop-Specific Analysis**: Focused on analyzing and improving loops in the program.
+
+**Inter-procedural Analysis**: These passes analyze multiple functions at a time to gather information about function interactions.
+
 
 
