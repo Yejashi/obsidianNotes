@@ -11,4 +11,4 @@ Error Handling
 - Pass instrumentations allow you to catch exceptions or errors raised during the execution of a pass, ensuring robust diagnostics and logging.
 
 Analysis Preservation
-- 
+- Instrumentations can track which analyses are invalidated or preserved after a pass is run, aiding in optimizing the order of passes and reducing redundant computations.
