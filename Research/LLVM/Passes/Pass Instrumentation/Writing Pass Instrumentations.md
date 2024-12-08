@@ -88,4 +88,5 @@ void registerCallbacks(PassInstrumentationCallbacks& PIC) {
     std::bind(&StopAfterInstrument::afterPass, this, _1, _2));
 }
 ```
+- The `registerCallbacks` method registers the callbacks (`beforePass` and `afterPass`) to be called at the appropriate times (before and after a pass runs).
 - 
