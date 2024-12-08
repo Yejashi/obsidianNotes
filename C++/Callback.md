@@ -29,7 +29,6 @@ int main() {
 
 [TODO]
 ### Callbacks in LLVM
-
 In the context of LLVM pass instrumentation, a callback can be thought of as a mechanism that allows you to insert custom behavior into the LLVM optimization or transformation pipeline.
 
 This is achieved by passing a function (or an object) that gets invoked at specific points during the execution of an LLVM pass.
@@ -40,4 +39,4 @@ Key Insights:
 - **Instrumentation**: Instrumentation in LLVM refers to adding extra code that tracks or modifies the behavior of the code being compiled. This often involves inserting custom hooks (callbacks) to monitor things like function calls, instruction counts, or memory accesses.
 
 #### How Callbacks Work in LLVM Passes
-
+A callback can be used in LLVM passes to collect data, modify IR, or execute logic based on certain conditions, such as:
