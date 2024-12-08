@@ -27,3 +27,5 @@ llvmGetPassPluginInfo() {
 
 The curly brackets after `return` statement would construct a `llvm::PassPluginInfo` object, carrying some Pass information.
 
+The last field, a lambda function, is provided with a `PassBuilder` instance.
+
