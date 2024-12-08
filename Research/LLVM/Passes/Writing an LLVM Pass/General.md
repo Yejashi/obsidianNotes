@@ -51,3 +51,4 @@ llvmGetPassPluginInfo() {
 }
 ```
 
+There is, `registerPipelineParsingCallback`, where you can register a callback that is invoked when a pass name is parsed from the textual description.
