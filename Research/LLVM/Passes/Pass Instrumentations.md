@@ -8,4 +8,6 @@ Hooks for Pre/Post Execution
 	- `AfterPassExecution`: Called immediately after a pass finishes execution
 
 Error Handling
-- 
+- Pass instrumentations allow you to catch exceptions or errors raised during the execution of a pass, ensuring robust diagnostics and logging.
+
+Analysis Preservation
