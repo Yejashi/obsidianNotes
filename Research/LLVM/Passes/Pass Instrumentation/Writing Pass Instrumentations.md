@@ -66,3 +66,4 @@ llvmGetPassPluginInfo() {
 }
 ```
 
+The above code showed that after getting the `PassInstrumentationCallbacks` object from `PassBuilder``,` we passed it to `StopAfterInstrument::registerCallbacks`.
