@@ -63,7 +63,7 @@ Compile the target code to LLVM IR
 ```
 clang -O0 -Xclang -disable-O0-optnone -emit-llvm -S -o target.ll target.c
 ```
-- `-XClang`: 
+- `-XClang`: This flag allows you to pass arguments directly to the Clang compiler backend (instead of the frontend). It's used to give Clang-specific options that wouldn't normally be passed through the standard command-line flags.
 
 Apply the pass to the LLVM IR
 ```
