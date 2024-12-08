@@ -22,5 +22,17 @@ Logging and Debugging
 ### How it works
 The core logic to run each Pass in the new PassManager is pretty easy to understand.
 ```cpp
+   for (unsigned Idx = 0, Size = Passes.size(); Idx != Size; ++Idx) {
+      auto *P = Passes[Idx].get();
+      
+      if (!PI.runBeforePass<IRUnitT>(*P, IR))
+        continue;
+      
+      {
+        TimeTraceScope TimeScope(P->name(), IR.getName());
+        PassPA = P->run(IR, AM, ExtraArgs...);
+      }
 
+      PI.runAfterPass<IRUnitT>(*P, IR);
+    }
 ```
