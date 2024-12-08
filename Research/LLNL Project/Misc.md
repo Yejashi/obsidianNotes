@@ -63,8 +63,7 @@ Compile the target code to LLVM IR
 ```
 clang -O0 -Xclang -disable-O0-optnone -emit-llvm -S -o target.ll target.c
 ```
-
-
+- `-XClang`: 
 
 Apply the pass to the LLVM IR
 ```
