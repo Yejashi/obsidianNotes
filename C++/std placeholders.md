@@ -23,3 +23,6 @@ By using these placeholders, `std::bind` is able to "bind" the `beforePass` meth
 Why is it needed?
 Without the placeholders, std::bind would expect all arguments to be provided when you bind the function.
 
+However, in this case, the `beforePass` and `afterPass` methods will be called later with specific arguments (the pass ID and the IR) when LLVM is executing its pass pipeline.
+
+The placeholders make it possible to delay specifying the exact arguments until the callback is invoked.
