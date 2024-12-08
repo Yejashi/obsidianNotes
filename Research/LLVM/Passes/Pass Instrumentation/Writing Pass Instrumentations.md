@@ -102,4 +102,5 @@ static StopAfterInstrument TheStopAfterInstrument;
 - The `static` keyword ensures that the instance exists for the lifetime of the program and is only created once. 
 - This instance will be used to register the callbacks during the plugin initialization
 
-Important Takeaways
+##### Important Takeaways
+**Purpose:** The `StopAfterInstrument` class is designed to hook into LLVM's pass pipeline by registering **callbacks** that run before and after each pass.
