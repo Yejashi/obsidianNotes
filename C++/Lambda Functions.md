@@ -17,7 +17,8 @@ void registerHelloWorldPass(PassBuilder &PB) {
 
 The lambda function here is  an anonymous function (a "function on the fly") that gets passed to `registerPipelineParsingCallback`. 
 
-Syntax Breakdown of the Lambda:
+**Syntax Breakdown of the Lambda:**
 **`[]`**: The capture list.
 - Empty here, meaning the lambda does not capture any variables from the surrounding scope.
 - You could capture variables if needed (e.g., `[this]`, `[&]`, or `[var]`).
+
