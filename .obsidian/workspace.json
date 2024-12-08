@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/General Passes.md",
+                "file": "Research/LLVM/Passes/Pass Manager.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General Passes"
+              "title": "Pass Manager"
             }
           }
         ],
@@ -102,8 +102,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -219,8 +218,9 @@
   },
   "active": "b08e703b998074f4",
   "lastOpenFiles": [
-    "Research/LLVM/Passes/Pass Manager.md",
     "Research/LLVM/Passes/General Passes.md",
+    "Research/LLVM/Passes/Pass Manager.md",
+    "Research/LLVM/Passes/Writing a Custom LLVM Pass.md",
     "Research/LLVM/Common Terminology.md",
     "Research/LLVM/Passes/Analysis Passes",
     "Research/LLVM/Passes/Transformation Passes",
@@ -237,7 +237,6 @@
     "Meta/Attachments",
     "Meta",
     "conflict-files-obsidian-git.md",
-    "Research/LLVM/Passes/Writing a Custom LLVM Pass.md",
     "Research/LLVM/Intermediate Representation (IR)",
     "Research/LLVM/Cheatsheet.md",
     "Research/LLNL Project/Objectives.md",
