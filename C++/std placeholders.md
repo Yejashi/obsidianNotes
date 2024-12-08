@@ -17,3 +17,5 @@ PIC.registerBeforePassCallback(
 - **`_1`, `_2`**: These are **placeholders** from the `std::placeholders` namespace. 
 	- They represent the arguments that will be passed to the `beforePass` function when the callback is invoked.
 	- 
+
+By using these placeholders, `std::bind` is able to "bind" the `beforePass` method to the `StopAfterInstrument` instance while still allowing the arguments (`PassID` and `IR`) to be passed later when the callback is executed.
