@@ -106,4 +106,4 @@ static StopAfterInstrument TheStopAfterInstrument;
 - **Purpose:** The `StopAfterInstrument` class is designed to hook into LLVM's pass pipeline by registering **callbacks** that run before and after each pass.
 - **Callbacks:** The `beforePass` method is called before a pass starts, and the `afterPass` method is called after a pass finishes. 
 	- These methods can be used to perform custom actions, such as logging, timing, or modifying the pass execution behavior.
-- - **Callback Registration:** The `registerCallbacks` method registers the two callbacks using LLVM's `PassInstrumentationCallbacks`, which allow you to insert your custom behavior into the pipeline.
+- **Callback Registration:** The `registerCallbacks` method registers the two callbacks using LLVM's `PassInstrumentationCallbacks`, which allow you to insert your custom behavior into the pipeline.
