@@ -23,3 +23,7 @@ The lambda function here is  an anonymous function (a "function on the fly") tha
 - You could capture variables if needed (e.g., `[this]`, `[&]`, or `[var]`).
 
 **`(StringRef Name, FunctionPassManager &FPM, ArrayRef<PassBuilder::PipelineElement>)`**: The parameter list, specifying the arguments passed to the lambda when it’s invoked.
+
+*Unrelated*:
+- Why isn't `llvm::StringRef` not used?
+	- 
