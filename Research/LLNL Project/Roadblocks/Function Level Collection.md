@@ -29,4 +29,5 @@ However, by also tracking block-level passes, we can correctly identify that opt
 ### Ways to get around this problem
 Continued approach:
 - Continue tracking function-level passes.
-- 
+- For each basic block pass, associate the optimization with the enclosing function.
+- Optionally, provide a hierarchical summary combining function and block-level optimizations.
