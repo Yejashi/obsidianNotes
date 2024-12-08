@@ -31,3 +31,23 @@ The last field, a lambda function, is provided with a `PassBuilder` instance.
 
 `PassBuilder`, as its name revealed, is used to build the PassManager pipeline. So we’re going to use it to “insert” our Pass into a proper place inside the pipeline.
 
+```cpp
+extern "C" ::llvm::PassPluginLibraryInfo LLVM_ATTRIBUTE_WEAK
+llvmGetPassPluginInfo() {
+  return {
+    LLVM_PLUGIN_API_VERSION, "HelloNewPMPass", "v0.1",
+    [](PassBuilder &PB) {
+      PB.registerPipelineParsingCallback(
+        [](StringRef PassName, FunctionPassManager &FPM, ...) {
+          if(PassName == "hello-new-pm-pass"){
+            FPM.addPass(HelloNewPMPass());
+            return true;
+          }
+          return false;
+        }
+      );
+    }
+  };
+}
+```
+
