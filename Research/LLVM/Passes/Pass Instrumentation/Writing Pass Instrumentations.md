@@ -70,3 +70,5 @@ The above code showed that after getting the `PassInstrumentationCallbacks` obje
 
 This will register the `beforePass` and `afterPass` function in the same class as the callbacks invoked before and after each Pass, respectively.
 
+Though function prototypes of these two callback have same argument types, the return types are different:
+- 
