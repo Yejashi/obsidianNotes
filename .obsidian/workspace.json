@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/Pass Instrumentation/Untitled.md",
+                "file": "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Writing Pass Instrumentations"
             }
           }
         ],
@@ -205,7 +205,7 @@
   "active": "89a2306f508ba08a",
   "lastOpenFiles": [
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
-    "Research/LLVM/Passes/Pass Instrumentation/Untitled.md",
+    "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
     "Research/LLVM/Passes/Pass Manager/Pass Manager.md",
     "Research/LLVM/Passes/Writing an LLVM Pass/General.md",
     "Research/LLVM/Passes/Writing an LLVM Pass",
