@@ -6,7 +6,7 @@ Initial Objectives: For each function, extract how many transformation passes:
 - Failed
 
 ##### What is needed to achieve this?
-This project 
+This project doesn't directly fit into the usual categories of transformation or analysis passes. 
 
 
 
