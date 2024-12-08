@@ -37,7 +37,7 @@ The core logic to run each Pass in the new PassManager is pretty easy to underst
     }
 ```
 
-Line 9 at the snippet above is the main “Pass runner”. 
+Line 9 at the snippet above is the main “[Pass runner](https://medium.com/@mshockwave/writing-pass-instrument-for-llvm-newpm-f17c57d3369f)”. 
 
 In addition to that, line 4 and line 12 suggested that the PassManager will do something before and after running each Pass.
 
