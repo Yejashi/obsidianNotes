@@ -7,4 +7,5 @@ These passes are crucial for optimization and transformation passes, which rely 
 - **Provide Reusable Results**: The results of analysis passes can be cached and reused by multiple optimization passes to avoid redundant computations.
 - **Support Other Passes**: They serve as the foundation for transformations and optimizations by providing accurate program metadata.
 
+### Types of Analysis Passes
 
