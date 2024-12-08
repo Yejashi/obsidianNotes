@@ -34,19 +34,9 @@
               "icon": "lucide-file",
               "title": "Writing Pass Instrumentations"
             }
-          },
-          {
-            "id": "af26878d7ce0b901",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,7 +202,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "af26878d7ce0b901",
+  "active": "89a2306f508ba08a",
   "lastOpenFiles": [
     "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
