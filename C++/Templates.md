@@ -28,7 +28,19 @@ Class templates are similar to function templates but for defining classes that 
 
 Example of a class template:
 ```cpp
+template <typename T>
+class Box {
+private:
+    T value;
+public:
+    Box(T val) : value(val) {}
+    T getValue() { return value; }
+};
 
+int main() {
+    Box<int> intBox(10);        // Box of int
+    Box<double> doubleBox(3.14); // Box of double
+    return 0;
+}
 ```
-
 
