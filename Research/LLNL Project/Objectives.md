@@ -33,6 +33,7 @@ To even attempt this, i need to:
 
 
 
+
 We need an analysis pass that monitors optimization attempts since most optimizations, at least the ones we care about, are applied at the middle-end phase of the LLVM pipeline.
 
 What needs to be tracked:
