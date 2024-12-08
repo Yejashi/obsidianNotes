@@ -88,3 +88,4 @@ void registerCallbacks(PassInstrumentationCallbacks& PIC) {
     std::bind(&StopAfterInstrument::afterPass, this, _1, _2));
 }
 ```
+- 
