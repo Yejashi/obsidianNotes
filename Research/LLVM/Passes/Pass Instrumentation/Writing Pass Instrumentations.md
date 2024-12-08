@@ -92,4 +92,4 @@ void registerCallbacks(PassInstrumentationCallbacks& PIC) {
 - **`PassInstrumentationCallbacks`** is an object that allows you to hook into the pass pipeline to insert custom behavior. It provides methods like `registerBeforePassCallback` and `registerAfterPassCallback`.
 	- `registerBeforePassCallback`: Registers the `beforePass` callback to be called before a pass runs.
 	- `registerAfterPassCallback`: Registers the `afterPass` callback to be called after a pass runs.
-- 
+- **`std::bind`** is used to bind the member functions (`beforePass` and `afterPass`) to the current instance (`this`) of the `StopAfterInstrument` class, making them callable as regular functions.
