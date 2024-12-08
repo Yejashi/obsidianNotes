@@ -30,3 +30,4 @@ The curly brackets after `return` statement would construct a `llvm::PassPluginI
 The last field, a lambda function, is provided with a `PassBuilder` instance.
 
 `PassBuilder`, as its name revealed, is used to build the PassManager pipeline. So we’re going to use it to “insert” our Pass into a proper place inside the pipeline.
+
