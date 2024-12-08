@@ -18,4 +18,4 @@ Setup:
 - Clang: `clang/14.0.6`
 
 Potential Fixes:
-- []
+- [](https://github.com/bpftrace/bpftrace/issues/1855)
