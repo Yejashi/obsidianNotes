@@ -12,3 +12,6 @@ Error Handling
 
 Analysis Preservation
 - Instrumentations can track which analyses are invalidated or preserved after a pass is run, aiding in optimizing the order of passes and reducing redundant computations.
+
+Statistics and Profiling
+- 
