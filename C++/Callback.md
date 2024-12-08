@@ -30,4 +30,4 @@ int main() {
 [TODO]
 ### Callbacks in LLVM
 
-
+In the context of LLVM pass instrumentation, a callback can be thought of as a mechanism that allows you to insert custom behavior into the LLVM optimization or transformation pipeline.
