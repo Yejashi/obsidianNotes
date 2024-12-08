@@ -27,16 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
+                "file": "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pass Instrumentations"
+              "title": "Writing Pass Instrumentations"
+            }
+          },
+          {
+            "id": "af26878d7ce0b901",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,8 +200,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
@@ -202,7 +212,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "89a2306f508ba08a",
+  "active": "af26878d7ce0b901",
   "lastOpenFiles": [
     "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
