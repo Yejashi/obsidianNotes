@@ -26,7 +26,7 @@ LLVM has two Pass Manager frameworks:
 
 Unlike passes under the legacy pass manager where the pass interface is defined via inheritance, passes under the new pass manager rely on concept-based polymorphism, meaning there is no explicit interface (see comments in `PassManager.h` for more [details](https://llvm.org/docs/WritingAnLLVMNewPMPass.html))
 
-All LLVM passes inherit from the CRTP mix-in `PassInfoMixin<PassT>`.
+All LLVM transformations passes inherit from the CRTP mix-in `PassInfoMixin<PassT>`.
 
 The pass should have a `run()` method which returns a `PreservedAnalyses` and takes in some unit of IR along with an analysis manager. For example, a function pass would have a `PreservedAnalyses run(Function &F, FunctionAnalysisManager &AM);` method.
 

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/Pass Manager/Pass Manager.md",
+                "file": "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pass Manager"
+              "title": "Writing a Custom LLVM Pass"
             }
           }
         ],
@@ -216,11 +216,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "b08e703b998074f4",
   "lastOpenFiles": [
+    "Research/LLVM/Passes/Pass Manager/Pass Manager.md",
     "Research/LLVM/Passes/Pass Manager",
     "Research/LLNL Project/Misc.md",
-    "Research/LLVM/Passes/Pass Manager/Pass Manager.md",
     "Research/LLVM/Passes/General Passes.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Research/LLVM/Passes/Pass Instrumentation",
@@ -255,7 +255,6 @@
     "Research/LLVM/Intermediate Representation (IR)",
     "Research/LLVM/Cheatsheet.md",
     "Research/LLNL Project",
-    "Research/LLVM/Passes",
     "Meta/Attachments/Pasted image 20241202080611.png",
     "Meta/Attachments/Pasted image 20241202080454.png",
     "Pasted image 20241202080611.png",
