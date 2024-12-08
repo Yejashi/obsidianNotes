@@ -22,3 +22,4 @@ The lambda function here is  an anonymous function (a "function on the fly") tha
 - Empty here, meaning the lambda does not capture any variables from the surrounding scope.
 - You could capture variables if needed (e.g., `[this]`, `[&]`, or `[var]`).
 
+**`(StringRef Name, FunctionPassManager &FPM, ArrayRef<PassBuilder::PipelineElement>)`**:
