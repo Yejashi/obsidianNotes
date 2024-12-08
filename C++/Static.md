@@ -9,4 +9,4 @@ The `static` keyword in C++ can have different meanings depending on its context
 	- When applied to a variable inside a function, `static` ensures that the variable retains its value between function calls. 
 	- It has **internal linkage** and is not visible outside the function.
 - Static at Global Scope
-	- 
+	- When applied to a function or variable at global scope (outside of any class), `static` means that the function or variable has **internal linkage**, meaning it is only visible within the translation unit (the .cpp file) where it is defined.
