@@ -22,3 +22,4 @@ The lambda function from line 5 to 7 gives you a PassBuilder instance which you 
 ### Registering a new Pass Instrumentation
 
 
+Let’s create a simple demo mimicking the functionality of -stop-after command line option, which effectively stalls the entire (codegen) pass pipeline after finishing the designated pass
