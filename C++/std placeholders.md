@@ -3,3 +3,4 @@ The std::placeholders part is related to std::bind, a C++ utility that allows yo
 It is a way to "pre-configure" a function so that it can be called later with fewer arguments or with specific arguments already set.
 
 ### What is `std::placeholders`?
+`std::placeholders` is a namespace that provides placeholder objects (such as _1, _2, etc.) that are used with std::bind to represent arguments that will be passed to the bound function when it is invoked.
