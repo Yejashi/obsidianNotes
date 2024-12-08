@@ -27,3 +27,6 @@ If we only track function-level passes, we will incorrectly conclude that no opt
 However, by also tracking block-level passes, we can correctly identify that optimizations were applied to parts of the function.
 
 ### Ways to get around this problem
+Continued approach:
+- Continue tracking function-level passes.
+- 
