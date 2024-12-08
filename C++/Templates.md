@@ -21,4 +21,7 @@ int main() {
 }
 ```
 
+In this example, the add function is defined with a template parameter T, which can be any data type. The actual type of T is inferred when the function is called, such as int or double.
+
+
 
