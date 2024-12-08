@@ -14,7 +14,7 @@ To even attempt this, i need to:
 - Familiarize myself with the new Pass Manager (NPM), as LLVM deprecated the legacy Pass Manager.
 - Learn how passes interact, including their dependencies and how analysis results are preserved.
 
-
+**Where to Intergrate?**
 
 
 
