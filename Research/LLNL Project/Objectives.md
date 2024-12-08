@@ -13,7 +13,6 @@ What needs to be tracked:
 - Transformation Succeeded
 	- This happens when a particular transformation successfully modifies the IR.
 
-
 ### What is needed to achieve this?
 This project doesn't directly fit into the usual categories of transformation or analysis passes. 
 
