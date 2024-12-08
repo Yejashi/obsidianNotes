@@ -21,3 +21,5 @@ PIC.registerBeforePassCallback(
 By using these placeholders, `std::bind` is able to "bind" the `beforePass` method to the `StopAfterInstrument` instance while still allowing the arguments (`PassID` and `IR`) to be passed later when the callback is executed.
 
 Why is it needed?
+Without the placeholders, std::bind would expect all arguments to be provided when you bind the function.
+
