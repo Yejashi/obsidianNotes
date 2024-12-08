@@ -93,4 +93,4 @@ void registerCallbacks(PassInstrumentationCallbacks& PIC) {
 	- `registerBeforePassCallback`: Registers the `beforePass` callback to be called before a pass runs.
 	- `registerAfterPassCallback`: Registers the `afterPass` callback to be called after a pass runs.
 - **`std::bind`** is used to bind the member functions (`beforePass` and `afterPass`) to the current instance (`this`) of the `StopAfterInstrument` class, making them callable as regular functions.
-- 
+	- 
