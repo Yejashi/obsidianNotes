@@ -12,5 +12,5 @@ These passes are crucial for optimization and transformation passes, which rely 
 
 **Data Flow Analysis**: These passes analyze how data moves through the program, enabling optimizations like dead code elimination and constant propagation.
 
-Profile-Guided Analysis
+**Profile-Guided Analysis**: 
 
