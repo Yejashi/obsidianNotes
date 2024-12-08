@@ -4,3 +4,4 @@ These passes are crucial for optimization and transformation passes, which rely 
 
 ### Purpose of Analysis Passes
 - **Gather Information**: Analysis passes analyze the intermediate representation (IR) of the code to collect insights such as control flow, dependencies, variable usage, and memory access patterns.
+- **Provide Reusable Results**: The results of analysis passes can be cached and reused by multiple optimization passes to avoid redundant computations.
