@@ -72,4 +72,4 @@ This will register the `beforePass` and `afterPass` function in the same class a
 
 Though function prototypes of these two callback have same argument types, the return types are different:
 - The first argument represents the textual `Pass Id`.
-- 
+- The second argument is the input IR, represented in `llvm::Any` type.
