@@ -14,4 +14,5 @@ Analysis Preservation
 - Instrumentations can track which analyses are invalidated or preserved after a pass is run, aiding in optimizing the order of passes and reducing redundant computations.
 
 Statistics and Profiling
-- 
+- Developers can use pass instrumentations to gather statistics about passes, such as how many times a pass is run, its runtime, or its effects on the program.
+
