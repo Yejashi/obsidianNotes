@@ -52,3 +52,10 @@ llvmGetPassPluginInfo() {
 ```
 
 There is, `registerPipelineParsingCallback`, where you can register a callback that is invoked when a pass name is parsed from the textual description.
+
+Therefore, we can run our pass with `opt` command similar to the below:
+```bash
+opt -passes="hello-new-pm-pass" ...
+```
+
+
