@@ -8,3 +8,4 @@ The `static` keyword in C++ can have different meanings depending on its context
 - Static Variable
 	- When applied to a variable inside a function, `static` ensures that the variable retains its value between function calls. 
 	- It has **internal linkage** and is not visible outside the function.
+- 
