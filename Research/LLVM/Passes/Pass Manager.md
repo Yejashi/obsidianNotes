@@ -24,6 +24,6 @@ LLVM has two Pass Manager frameworks:
 
 ### Things to consider when writing a pass
 
-
+Unlike passes under the legacy pass manager where the pass interface is defined via inheritance, passes under the new pass manager rely on concept-based polymorphism, meaning there is no explicit interface (see comments in `PassManager.h` for more details)
 
 
