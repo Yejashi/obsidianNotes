@@ -22,38 +22,35 @@ cmake_minimum_required(VERSION 3.22)
 
 project(HelloWorldPass LANGUAGES CXX)
 
-# Locate LLVM
-find_package(LLVM REQUIRED CONFIG)
+set(CMAKE_CXX_STANDARD 17)
 
-# Include LLVM's CMake modules
-list(APPEND CMAKE_MODULE_PATH "${LLVM_CMAKE_DIR}")
-include(AddLLVM)
+#set(PASS_MANAGER_TYPE "legacy_manager")
+set(PASS_MANAGER_TYPE "new_manager")
 
-# Add your pass as a shared library
-add_llvm_library(HelloWorldPass MODULE
-    src/hello_world_pass.cpp
-)
+# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-mangle")
+
 
 # Ensure libraries are placed in the lib directory
 set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/lib)
 
-# Set the output directory for the shared library
-set_target_properties(HelloWorldPass PROPERTIES
-    LIBRARY_OUTPUT_DIRECTORY ${LIBRARY_OUTPUT_PATH}
-)
+# Locate LLVM
+find_package(LLVM 14.0.6 REQUIRED CONFIG)
+
+# Include LLVM's CMake modules
+list(APPEND CMAKE_MODULE_PATH "${LLVM_CMAKE_DIR}")
+
+include(AddLLVM)
+
+add_library(HelloWorldPass SHARED src/${PASS_MANAGER_TYPE}/hello_world_pass.cpp)
 
 # Include necessary directories
 target_include_directories(HelloWorldPass PRIVATE 
     ${LLVM_INCLUDE_DIRS} 
-    ${CMAKE_SOURCE_DIR}/include
+    ${CMAKE_SOURCE_DIR}/include/${PASS_MANAGER_TYPE}
 )
 
-# Ensure proper include paths and C++ version
-target_compile_features(HelloWorldPass PRIVATE cxx_std_17)
-
-# Define required macros and link dependencies
-target_compile_definitions(HelloWorldPass PRIVATE ${LLVM_DEFINITIONS})
-target_link_libraries(HelloWorldPass PRIVATE LLVMCore LLVMSupport)
+# target_link_libraries(HelloWorldPass PRIVATE LLVMCore)
+target_link_libraries(HelloWorldPass PRIVATE LLVMDemangle)
 
 ```
 
