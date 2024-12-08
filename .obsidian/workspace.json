@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/Pass Manager.md",
+                "file": "C++/Lambda Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pass Manager"
+              "title": "Lambda Functions"
             }
           }
         ],
@@ -218,8 +218,10 @@
   },
   "active": "b08e703b998074f4",
   "lastOpenFiles": [
-    "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
     "Research/LLVM/Passes/Pass Manager.md",
+    "C++/Lambda Functions.md",
+    "C++",
+    "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
     "().md",
     "Research/LLVM/Passes/Custom Pass",
     "Research/LLVM/Passes/General Passes.md",
@@ -251,7 +253,6 @@
     "Misc/Software Ideas",
     "Research/LLVM/LLNL Project/Objectives.md",
     "Research/LLVM/Intermediate Representation (IR).md",
-    "Excalidraw",
     "Research/LLVM/Passess.md",
     "Research/LLVM/Writing a Custom LLVM Pass.md",
     "Ricing/Tiling Window Managers/WM-General.md",
