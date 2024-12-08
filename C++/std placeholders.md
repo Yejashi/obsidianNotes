@@ -12,3 +12,4 @@ PIC.registerBeforePassCallback(
 );
 ```
 
+std::bind(&StopAfterInstrument::beforePass, this, _1, _2)
