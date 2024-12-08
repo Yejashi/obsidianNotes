@@ -28,4 +28,4 @@ The lambda function here is  an anonymous function (a "function on the fly") tha
 - Why isn't `llvm::StringRef` not used?
 	- The `StringRef` type is part of the llvm namespace, so its full name is `llvm::StringRef`
 	- The `registerPipelineParsingCallback` function is part of LLVM, and the lambda is written in the same context.
-	- Because of this, the compiler assumes all types inside this lambda are part of the `llvm` namespace. This saves you from writing `llvm::` repeatedly.
+	- Because of this, the compiler assumes all types inside this lambda are part of the `llvm` namespace. This saves me from writing `llvm::` repeatedly.
