@@ -5,9 +5,10 @@ When creating a pass you inherit from one of two classes:
 
 #### TODO: RENAME LATER
 ```cpp
-struct HelloNewPMPass : public PassInfoMixin<HelloNewPMPass> {
+class HelloNewPMPass : public PassInfoMixin<HelloNewPMPass> {
   PreservedAnalyses run(Function &F, FunctionAnalysisManager &FAM) {
     return PreservedAnalyses::all();
   }
 };
 ```
+
