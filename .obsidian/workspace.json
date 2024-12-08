@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLNL Project/Misc.md",
+                "file": "Research/LLVM/Passes/Pass Manager/Pass Manager.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Misc"
+              "title": "Pass Manager"
             }
           }
         ],
@@ -216,16 +216,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b08e703b998074f4",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "Research/LLVM/Passes/Pass Manager.md",
+    "Research/LLVM/Passes/Pass Manager",
+    "Research/LLNL Project/Misc.md",
+    "Research/LLVM/Passes/Pass Manager/Pass Manager.md",
     "Research/LLVM/Passes/General Passes.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Research/LLVM/Passes/Pass Instrumentation",
     "Research/LLNL Project/Objectives.md",
     "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
     "TODO.md",
-    "Research/LLNL Project/Misc.md",
     "Research/LLNL Project/Roadblocks.md",
     "C++/Lambda Functions.md",
     "C++/Linkage.md",
