@@ -2,4 +2,6 @@ In LLVM, **pass instrumentations** are mechanisms that allow developers to hook 
 
 ### Key Features of Pass Instrumentations
 Hooks for Pre/Post Execution
-- 
+- Instrumentations provide hooks that are called before and after the execution of a pass
+- For example:
+	- 
