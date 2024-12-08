@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Templates.md",
+                "file": "C++/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Templates"
+              "title": "Untitled"
             }
           },
           {
@@ -219,8 +219,9 @@
   "active": "89a2306f508ba08a",
   "lastOpenFiles": [
     "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
-    "C++/Templates.md",
+    "C++/Untitled.md",
     "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
+    "C++/Templates.md",
     "C++/Callback.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Research/LLVM/Control Flow Graph.md",
@@ -250,7 +251,6 @@
     "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
     "Research/LLVM/Intermediate Representation (IR)/Static Single Assignment (SSA).md",
     "Research/Compilers/General.md",
-    "Excalidraw/Drawing 2024-12-05 08.42.23.excalidraw.md",
     "Meta/Attachments/Pasted image 20241130215941.png",
     "Meta/Attachments/Pasted image 20241207085106.png",
     "Meta/Attachments",
