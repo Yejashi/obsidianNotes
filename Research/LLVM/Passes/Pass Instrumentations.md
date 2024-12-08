@@ -19,3 +19,4 @@ Statistics and Profiling
 Logging and Debugging
 - They are often used to log detailed information about a pass, including which functions, loops, or regions it affects, and the transformations it applies.
 
+### How it works
