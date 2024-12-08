@@ -13,4 +13,4 @@ These passes are crucial for optimization and transformation passes, which rely 
 - Loop Analysis: Provides information about loops in the CFG.
 - CFG Analysis: Analyzes the control flow graph itself.
 
-**Data Flow Analysis**: 
+**Data Flow Analysis**: These passes analyze how data moves through the program, enabling optimizations like dead code elimination and constant propagation.
