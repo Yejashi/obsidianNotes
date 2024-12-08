@@ -4,3 +4,24 @@ The idea is that the function receiving the callback can execute the provided fu
 
 There are a few common ways to implement callbacks in C++:
 **Function Pointers:**
+```cpp
+#include <iostream>
+
+// A simple callback function
+void callbackFunction() {
+    std::cout << "Callback function executed!" << std::endl;
+}
+
+// A function that accepts a callback function
+void executeCallback(void (*callback)()) {
+    std::cout << "Before callback." << std::endl;
+    callback();  // Call the passed-in function
+    std::cout << "After callback." << std::endl;
+}
+
+int main() {
+    executeCallback(callbackFunction);  // Pass the function as a callback
+    return 0;
+}
+```
+
