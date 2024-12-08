@@ -12,3 +12,4 @@ This means the entity is declared, but its definition exists elsewhere, possibly
 ### Where to use `extern`?
 - Global variable
 	-  If you want to share a global variable across multiple files, you declare it in a header file with `extern`, and define it in one source file.
+	- 
