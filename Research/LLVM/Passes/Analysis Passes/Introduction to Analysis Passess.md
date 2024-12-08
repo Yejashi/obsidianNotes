@@ -19,4 +19,5 @@ These passes are crucial for optimization and transformation passes, which rely 
 **Inter-procedural Analysis**: These passes analyze multiple functions at a time to gather information about function interactions.
 
 
-
+### Important things to consider
+- 
