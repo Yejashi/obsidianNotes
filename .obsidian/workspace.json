@@ -216,12 +216,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b08e703b998074f4",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Research/LLVM/Passes/Custom Pass",
+    "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
+    "Research/LLVM/Passes/Pass Manager.md",
     "Research/LLVM/Passes/General Passes.md",
     "().md",
-    "Research/LLVM/Passes/Pass Manager.md",
-    "Research/LLVM/Passes/Writing a Custom LLVM Pass.md",
     "Research/LLVM/Common Terminology.md",
     "Research/LLVM/Control Flow Graph.md",
     "Research/LLNL Project/Objectives.md",
@@ -262,7 +263,6 @@
     "Meta/Attachments/Pasted image 20241130220647.png",
     "Meta/Attachments/Pasted image 20241202074257.png",
     "Misc/Pasted image 20241130215351.png",
-    "Misc/Pasted image 20241130215402.png",
-    "Welcome.md"
+    "Misc/Pasted image 20241130215402.png"
   ]
 }
