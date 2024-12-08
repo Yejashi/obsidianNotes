@@ -13,4 +13,5 @@ PIC.registerBeforePassCallback(
 ```
 
 `std::bind(&StopAfterInstrument::beforePass, this, _1, _2)`
+- `this`: This is a pointer to the current instance of the `StopAfterInstrument` class, which is necessary because `beforePass` is a member function (it needs an instance to operate on).
 - 
