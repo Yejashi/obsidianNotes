@@ -10,7 +10,9 @@ This project doesn't directly fit into the usual categories of transformation or
 
 However, it seems that LLVM's modular structure and its pass management system allow for such meta-level tracking.
 
-
+To even attempt this, i need to:
+- Familiarize myself with the new Pass Manager (NPM), as LLVM deprecated the legacy Pass Manager.
+- Learn how passes interact, including their dependencies and how analysis results are preserved.
 
 
 
