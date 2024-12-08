@@ -35,7 +35,7 @@ Continued approach:
 Ideal output should look something like this:
 ```yaml
 Function: foo
-  Parent: foobar()
+  Parent: foobar
   Function-Level Passes: None
   BasicBlock-Level Passes:
     BasicBlock: BB1
