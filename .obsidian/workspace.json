@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLNL Project/Objectives.md",
+                "file": "Research/LLVM/Passes/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Objectives"
+              "title": "Untitled"
             }
           }
         ],
@@ -232,6 +232,8 @@
   },
   "active": "51d5c8e145626e06",
   "lastOpenFiles": [
+    "Research/LLNL Project/Objectives.md",
+    "Research/LLVM/Passes/Untitled.md",
     "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
     "TODO.md",
     "Research/LLNL Project/Misc.md",
@@ -248,7 +250,6 @@
     "Research/LLVM/Passes/Custom Pass",
     "Research/LLVM/Passes/General Passes.md",
     "Research/LLVM/Control Flow Graph.md",
-    "Research/LLNL Project/Objectives.md",
     "Research/LLVM/Passes/Analysis Passes",
     "Research/LLVM/Passes/Transformation Passes",
     "Research/LLVM/General.md",
@@ -267,7 +268,6 @@
     "Research/LLVM/Cheatsheet.md",
     "Research/LLNL Project",
     "Ricing/NixOS/NixOS-General.md",
-    "Misc/Software Ideas/Linux System-Wide Text Auto-complete.md",
     "Research/LLVM/Passes",
     "Misc/Software Ideas",
     "Meta/Attachments/Pasted image 20241202080611.png",
