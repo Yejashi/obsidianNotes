@@ -74,4 +74,4 @@ Though function prototypes of these two callback have same argument types, the r
 - The first argument represents the textual `Pass Id`.
 - The second argument is the input IR, represented in `llvm::Any` type.
 
-For callbacks running before a Pass (i.e. the callback for registerBeforePassCallback), the returned boolean indicating whether PassManager should run this Pass or not.
+For callbacks running before a Pass (i.e. the callback for `registerBeforePassCallback`), the returned boolean indicating whether `PassManager` should run this Pass or not.
