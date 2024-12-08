@@ -44,3 +44,4 @@ int main() {
 }
 ```
 
+Here, the class `Box` is defined as a template that takes a type `T`. You can create instances of `Box` with different types like `int`, `double`, etc.
