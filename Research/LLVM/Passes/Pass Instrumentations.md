@@ -20,3 +20,7 @@ Logging and Debugging
 - They are often used to log detailed information about a pass, including which functions, loops, or regions it affects, and the transformations it applies.
 
 ### How it works
+The core logic to run each Pass in the new PassManager is pretty easy to understand.
+```cpp
+
+```
