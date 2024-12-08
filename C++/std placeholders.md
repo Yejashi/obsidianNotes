@@ -16,3 +16,4 @@ PIC.registerBeforePassCallback(
 - `this`: This is a pointer to the current instance of the `StopAfterInstrument` class, which is necessary because `beforePass` is a member function (it needs an instance to operate on).
 - **`_1`, `_2`**: These are **placeholders** from the `std::placeholders` namespace. 
 	- They represent the arguments that will be passed to the `beforePass` function when the callback is invoked.
+	- 
