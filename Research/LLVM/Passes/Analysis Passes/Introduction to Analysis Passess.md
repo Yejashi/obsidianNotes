@@ -21,4 +21,4 @@ These passes are crucial for optimization and transformation passes, which rely 
 
 ### Important things to consider
 - **Preserved Analysis**: Some analysis passes are "preserved" when transformations occur, meaning their results remain valid. LLVM has mechanisms to specify which analyses are invalidated by a pass.
-- 
+- **Lazy Evaluation**: Analysis passes are often lazily computed—only run when their results are requested by another pass.
