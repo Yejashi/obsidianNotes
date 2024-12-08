@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/Untitled.md",
+                "file": "Research/LLVM/Passes/Pass Instrumentations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Pass Instrumentations"
             }
           }
         ],
@@ -233,7 +233,7 @@
   "active": "51d5c8e145626e06",
   "lastOpenFiles": [
     "Research/LLNL Project/Objectives.md",
-    "Research/LLVM/Passes/Untitled.md",
+    "Research/LLVM/Passes/Pass Instrumentations.md",
     "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
     "TODO.md",
     "Research/LLNL Project/Misc.md",
