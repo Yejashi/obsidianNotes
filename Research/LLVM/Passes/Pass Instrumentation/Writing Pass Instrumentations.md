@@ -25,7 +25,7 @@ llvmGetPassPluginInfo() {
 }
 ```
 
-The lambda function from line 5 to 7 gives you a PassBuilder instance which you can use to register your Pass at a desired position in the Pass pipeline. 
+The lambda function from line 5 to 7 gives you a `PassBuilder` instance which you can use to register your Pass at a desired position in the Pass pipeline. 
 
 ### Registering a new Pass Instrumentation
 Let’s create a simple demo mimicking the functionality of `-stop-after` command line option, which effectively stalls the entire pass pipeline after finishing the designated pass.
