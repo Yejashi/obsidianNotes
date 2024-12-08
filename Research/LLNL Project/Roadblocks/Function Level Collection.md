@@ -22,4 +22,4 @@ Function `foo`:
 - Basic block `BB1` within `foo` has a loop unrolling optimization applied.
 - Basic block `BB2` within `foo` has constant folding applied.
 
-
+If we only track function-level passes, you will incorrectly conclude that no optimizations were applied to foo. 
