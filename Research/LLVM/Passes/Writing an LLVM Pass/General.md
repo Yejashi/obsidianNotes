@@ -15,3 +15,13 @@ class HelloNewPMPass : public PassInfoMixin<HelloNewPMPass> {
 The `run` method is where the logic for the pass goes as that's what the pass manager calls when it needs to execute the pass.
 
 #### Then register the pass
+```cpp
+extern "C" ::llvm::PassPluginLibraryInfo LLVM_ATTRIBUTE_WEAK
+llvmGetPassPluginInfo() {
+  return {
+    LLVM_PLUGIN_API_VERSION, "HelloNewPMPass", "v0.1",
+    [](PassBuilder &PB) {...}
+  };
+}
+```
+
