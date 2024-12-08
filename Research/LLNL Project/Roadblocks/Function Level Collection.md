@@ -25,3 +25,5 @@ Function `foo`:
 If we only track function-level passes, we will incorrectly conclude that no optimizations were applied to foo. 
 
 However, by also tracking block-level passes, we can correctly identify that optimizations were applied to parts of the function.
+
+### Ways to get around this problem
