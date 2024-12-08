@@ -35,3 +35,6 @@ In the context of LLVM pass instrumentation, a callback can be thought of as a m
 This is achieved by passing a function (or an object) that gets invoked at specific points during the execution of an LLVM pass.
 
 When writing custom LLVM passes, you often need to define specific actions that occur at certain stages of the pass (e.g., when visiting a function, instruction, or basic block). Callbacks provide a flexible way to define those actions, often by letting you inject code that will be executed at predefined points.
+
+Key Insights:
+- 
