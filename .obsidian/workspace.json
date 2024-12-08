@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLNL Project/Misc.md",
+                "file": "Research/LLNL Project/Roadblocks/Roadblocks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Misc"
+              "title": "Roadblocks"
             }
           },
           {
@@ -216,8 +216,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "89a2306f508ba08a",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Research/LLNL Project/Roadblocks",
+    "Research/LLNL Project/Misc.md",
     "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
     "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
     "C++/std placeholders.md",
@@ -230,13 +232,12 @@
     "Research/LLVM/Common Terminology.md",
     "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
     "Research/LLVM/Passes/Pass Manager",
-    "Research/LLNL Project/Misc.md",
     "Research/LLVM/Passes/General Passes.md",
     "Research/LLVM/Passes/Pass Instrumentation",
     "Research/LLNL Project/Objectives.md",
     "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
     "TODO.md",
-    "Research/LLNL Project/Roadblocks.md",
+    "Research/LLNL Project/Roadblocks/Roadblocks.md",
     "C++/Lambda Functions.md",
     "C++/Linkage.md",
     "C++/Static.md",
@@ -250,7 +251,6 @@
     "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
     "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
     "Research/LLVM/Intermediate Representation (IR)/Static Single Assignment (SSA).md",
-    "Research/Compilers/General.md",
     "Meta/Attachments/Pasted image 20241130215941.png",
     "Meta/Attachments/Pasted image 20241207085106.png",
     "Meta/Attachments",
