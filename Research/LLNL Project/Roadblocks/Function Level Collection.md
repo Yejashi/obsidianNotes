@@ -23,3 +23,4 @@ Function `foo`:
 - Basic block `BB2` within `foo` has constant folding applied.
 
 If we only track function-level passes, you will incorrectly conclude that no optimizations were applied to foo. 
+However, by also tracking block-level passes, you can correctly identify that optimizations were applied to parts of the function.

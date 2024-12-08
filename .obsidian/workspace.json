@@ -232,8 +232,9 @@
   },
   "active": "89a2306f508ba08a",
   "lastOpenFiles": [
-    "Research/LLNL Project/Objectives.md",
+    "C++/Lambda Functions.md",
     "Research/LLNL Project/Roadblocks/Function Level Collection.md",
+    "Research/LLNL Project/Objectives.md",
     "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
     "Research/LLNL Project/Roadblocks",
     "Research/LLNL Project/Misc.md",
@@ -253,7 +254,6 @@
     "Research/LLVM/Passes/Pass Instrumentation",
     "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
     "TODO.md",
-    "C++/Lambda Functions.md",
     "C++/Linkage.md",
     "C++/Static.md",
     "C++/Extern.md",
