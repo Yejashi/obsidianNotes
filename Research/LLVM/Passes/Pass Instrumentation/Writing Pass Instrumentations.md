@@ -79,3 +79,12 @@ Though function prototypes of these two callback have same argument types, the r
 For callbacks running before a Pass (i.e. the callback for `registerBeforePassCallback`), the returned boolean indicating whether `PassManager` should run this Pass or not.
 
 
+```cpp
+void registerCallbacks(PassInstrumentationCallbacks& PIC) {
+  using namespace std::placeholders;
+  PIC.registerBeforePassCallback(
+    std::bind(&StopAfterInstrument::beforePass, this, _1, _2));
+  PIC.registerAfterPassCallback(
+    std::bind(&StopAfterInstrument::afterPass, this, _1, _2));
+}
+```
