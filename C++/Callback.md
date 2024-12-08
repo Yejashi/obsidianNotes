@@ -42,4 +42,4 @@ Key Insights:
 A callback can be used in LLVM passes to collect data, modify IR, or execute logic based on certain conditions, such as:
 - **Before/after visiting a function**: You can insert callbacks that execute before or after a function is analyzed or transformed.
 - **While iterating over instructions or basic blocks**: You can define callbacks that execute during the iteration of instructions or basic blocks to track or modify specific parts of the IR.
-- 
+- **At specific optimization points**: You can use callbacks to handle special cases in optimization passes (e.g., tracking failed or successful optimizations).
