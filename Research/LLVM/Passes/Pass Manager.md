@@ -22,6 +22,8 @@ LLVM has two Pass Manager frameworks:
 - **Scheduling:** The pass manager determines the order of execution based on dependencies.
 - **Execution:** The pass manager runs each pass in the scheduled order, ensuring that analysis results are available for dependent passes.
 
+### Things to consider when writing a pass
+
 
 
 

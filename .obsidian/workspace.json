@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/Writing a Custom LLVM Pass.md",
+                "file": "Research/LLVM/Passes/Pass Manager.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writing a Custom LLVM Pass"
+              "title": "Pass Manager"
             }
           }
         ],
@@ -232,13 +232,13 @@
   },
   "active": "df90dff0e82a9717",
   "lastOpenFiles": [
+    "Research/LLVM/Passes/Writing a Custom LLVM Pass.md",
     "Research/LLVM/Passes/Pass Manager.md",
     "Research/LLVM/Passes/General Passes.md",
     "Research/LLVM/Common Terminology.md",
     "Research/LLVM/Control Flow Graph.md",
     "Research/LLNL Project/Objectives.md",
     "Research/LLNL Project/Misc.md",
-    "Research/LLVM/Passes/Writing a Custom LLVM Pass.md",
     "Research/LLVM/Passes/Analysis Passes",
     "Research/LLVM/Passes/Transformation Passes",
     "Research/LLVM/General.md",
