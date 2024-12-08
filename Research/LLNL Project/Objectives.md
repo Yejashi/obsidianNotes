@@ -28,6 +28,8 @@ However, it seems that LLVM's modular structure and its pass management system a
 
 
 
+
+
 We need an analysis pass that monitors optimization attempts since most optimizations, at least the ones we care about, are applied at the middle-end phase of the LLVM pipeline.
 
 What needs to be tracked:
