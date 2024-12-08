@@ -95,3 +95,9 @@ void registerCallbacks(PassInstrumentationCallbacks& PIC) {
 - **`std::bind`** is used to bind the member functions (`beforePass` and `afterPass`) to the current instance (`this`) of the `StopAfterInstrument` class, making them callable as regular functions.
 	- The `_1` and `_2` are placeholders that represent the arguments passed to the callbacks (`PassID` and `IR`), and they will be substituted when the callback is invoked.
 
+```cpp
+static StopAfterInstrument TheStopAfterInstrument;
+```
+- This creates a **static instance** of the `StopAfterInstrument` class. 
+- The `static` keyword ensures that the instance exists for the lifetime of the program and is only created once. 
+- This instance will be used to register the callbacks during the plugin initialization
