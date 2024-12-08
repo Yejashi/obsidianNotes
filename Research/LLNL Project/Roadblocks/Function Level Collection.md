@@ -11,3 +11,4 @@ If we only collect function-level passes, we may miss optimizations applied to i
 **Track Passes at Multiple Levels:**
 - Record function passes for the overall function.
 - Record basic block passes for each basic block within the function.
+- Consider instruction-level passes, if needed
