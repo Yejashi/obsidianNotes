@@ -9,9 +9,17 @@ Let's begin with “plugin entry point”, or the registration callback in the P
 extern "C" ::llvm::PassPluginLibraryInfo LLVM_ATTRIBUTE_WEAK
 llvmGetPassPluginInfo() {
   return {
-    LLVM_PLUGIN_API_VERSION, "MyFancyPass", "v0.1",
-    [](PassBuilder& PB) {
-      // Your pass pipeline registration logics...
+    LLVM_PLUGIN_API_VERSION, "HelloNewPMPass", "v0.1",
+    [](PassBuilder &PB) {
+      PB.registerPipelineParsingCallback(
+        [](StringRef PassName, FunctionPassManager &FPM, ...) {
+          if(PassName == "hello-new-pm-pass"){
+            FPM.addPass(HelloNewPMPass());
+            return true;
+          }
+          return false;
+        }
+      );
     }
   };
 }
