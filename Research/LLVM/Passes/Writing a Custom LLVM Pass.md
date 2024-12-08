@@ -1,8 +1,7 @@
 ### Define the pass
 To write a pass, you need to subclass the appropriate pass class depending on whether you want to perform an analysis or a transformation.
 
-For example, if you want to create a function pass, you’ll subclass `FunctionPass`. Consider the following example:
-
+For example, if you want to create a function pass, you’ll subclass `FunctionPass`. 
 ### Register the Pass
 To ensure your pass is available during the LLVM pass pipeline, you need to register it using `RegisterPass`. The registration mechanism allows LLVM to find and run your pass.
 
