@@ -9,4 +9,5 @@ Optimizations in LLVM are often modular, and specific passes might target differ
 If we only collect function-level passes, we may miss optimizations applied to its basic blocks. To fully capture all optimizations involving a function, we must:
 
 **Track Passes at Multiple Levels:**
-- 
+- Record function passes for the overall function.
+- Record basic block passes for each basic block within the function.
