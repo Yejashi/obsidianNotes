@@ -14,3 +14,6 @@ These passes are crucial for optimization and transformation passes, which rely 
 - CFG Analysis: Analyzes the control flow graph itself.
 
 **Data Flow Analysis**: These passes analyze how data moves through the program, enabling optimizations like dead code elimination and constant propagation.
+- Alias Analysis: Determines whether different pointers may refer to the same memory location.
+- Memory Dependence Analysis: Identifies dependencies between memory accesses.
+- Value Tracking: Tracks properties of IR values.
