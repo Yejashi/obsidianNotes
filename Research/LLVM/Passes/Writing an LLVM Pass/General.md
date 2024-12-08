@@ -3,7 +3,7 @@ When creating a pass you inherit from one of two classes:
 - `llvm::PassInfoMixin`: for transformation passes.
 - `llvm::AnalysisInfoMixin`: for analysis passes.
 
-#### TODO: RENAME LATER
+#### Start of by inheriting the appropriate parent class
 ```cpp
 class HelloNewPMPass : public PassInfoMixin<HelloNewPMPass> {
   PreservedAnalyses run(Function &F, FunctionAnalysisManager &FAM) {
