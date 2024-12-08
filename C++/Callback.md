@@ -39,3 +39,5 @@ When writing custom LLVM passes, you often need to define specific actions that 
 Key Insights:
 - **Instrumentation**: Instrumentation in LLVM refers to adding extra code that tracks or modifies the behavior of the code being compiled. This often involves inserting custom hooks (callbacks) to monitor things like function calls, instruction counts, or memory accesses.
 
+#### How Callbacks Work in LLVM Passes
+
