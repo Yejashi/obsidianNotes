@@ -9,4 +9,8 @@ These passes are crucial for optimization and transformation passes, which rely 
 
 ### Types of Analysis Passes
 **Control Flow Analysis**: These passes analyze the structure and properties of the control flow graph (CFG) of functions.
-- **Dominance Analysis**: Determines dominator relationships in a function.
+- Dominance Analysis: Determines dominator relationships in a function.
+- Loop Analysis: Provides information about loops in the CFG.
+- CFG Analysis: Analyzes the control flow graph itself.
+
+**Data Flow Analysis**: 
