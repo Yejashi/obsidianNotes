@@ -31,3 +31,7 @@ Continued approach:
 - Continue tracking function-level passes.
 - For each basic block pass, associate the optimization with the enclosing function.
 - Optionally, provide a hierarchical summary combining function and block-level optimizations.
+
+Ideal output should look like this:
+```
+```
