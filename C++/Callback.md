@@ -25,3 +25,9 @@ int main() {
 }
 ```
 
+...
+
+[TODO]
+### Callbacks in LLVM
+
+
