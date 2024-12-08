@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
+                "file": "Research/LLNL Project/Objectives.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to Analysis Passess"
+              "title": "Objectives"
             }
           }
         ],
@@ -232,8 +232,8 @@
   },
   "active": "51d5c8e145626e06",
   "lastOpenFiles": [
-    "TODO.md",
     "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
+    "TODO.md",
     "Research/LLNL Project/Misc.md",
     "Research/LLNL Project/Roadblocks.md",
     "C++/Lambda Functions.md",

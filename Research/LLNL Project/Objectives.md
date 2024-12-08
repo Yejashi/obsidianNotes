@@ -1,3 +1,5 @@
+In a single sentence the objective of this endeavor is to track and report the behavior of optimization passes during compilation.
+
 General Objective: For each function, extract how many transformation passes:
 - Were attempted
 - Succeeded
