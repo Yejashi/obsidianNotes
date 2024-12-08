@@ -15,4 +15,5 @@ This means the entity is declared, but its definition exists elsewhere, possibly
 - Functions
 	- In most cases, functions are treated as having external linkage by default, so you don't usually need `extern`.
 - With `extern "C"` for C-Linkage
+	- C++ uses **name mangling** to support function overloading. If you need to interoperate with C code (which does not support name mangling), you use `extern "C"` to tell the compiler to avoid mangling the names.
 	- 
