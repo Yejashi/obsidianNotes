@@ -12,3 +12,6 @@ If we only collect function-level passes, we may miss optimizations applied to i
 - Record function passes for the overall function.
 - Record basic block passes for each basic block within the function.
 - Consider instruction-level passes, if needed
+
+**Aggregate the Data:**
+- When reporting the optimization details for a function, combine data from all levels (function, basic block, instruction) to provide a complete picture.
