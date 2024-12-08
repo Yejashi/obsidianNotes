@@ -68,6 +68,6 @@ clang++ -O0 -Xclang -disable-O0-optnone -emit-llvm -S -o target.ll target.c
 
 Apply the pass to the LLVM IR
 ```
-opt -load-pass-plugin ./lib/HelloWorldPass.so -passes="hello-world" -disable-output test_1.ll
+opt -load-pass-plugin ./lib/libHelloWorldPass.so -passes=hello-world -disable-output test_1.ll
 ```
 
