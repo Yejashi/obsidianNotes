@@ -24,5 +24,37 @@ Let’s create a simple demo mimicking the functionality of `-stop-after` comman
 
 Here is the first step:
 ```cpp
+namespace {
+class StopAfterInstrument {
+  bool beforePass(StringRef PassID, Any IR) {
+    return true;
+  }
 
+  void afterPass(StringRef PassID, Any IR) {
+  }
+
+public:
+  void registerCallbacks(PassInstrumentationCallbacks& PIC) {
+    using namespace std::placeholders;
+    PIC.registerBeforePassCallback(
+      std::bind(&StopAfterInstrument::beforePass, this, _1, _2));
+    PIC.registerAfterPassCallback(
+      std::bind(&StopAfterInstrument::afterPass, this, _1, _2));
+  }
+};
+} // end anonymous namespace
+
+static StopAfterInstrument TheStopAfterInstrument;
+
+extern "C" ::llvm::PassPluginLibraryInfo LLVM_ATTRIBUTE_WEAK
+llvmGetPassPluginInfo() {
+  return {
+    LLVM_PLUGIN_API_VERSION, "NewPMStopAfterInstrumentPlugin", "v0.1",
+    [](PassBuilder& PB) {
+      auto& PIC = *PB.getPassInstrumentationCallbacks();
+      TheStopAfterInstrument.registerCallbacks(PIC);
+    }
+  };
+}
 ```
+
