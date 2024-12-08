@@ -36,6 +36,16 @@
             }
           },
           {
+            "id": "24e8a1239488837a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
             "id": "3e576b5e5d34b8e0",
             "type": "leaf",
             "state": {
@@ -218,8 +228,8 @@
   },
   "active": "89a2306f508ba08a",
   "lastOpenFiles": [
-    "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "C++/Callback.md",
+    "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
     "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
     "Research/LLVM/Control Flow Graph.md",
