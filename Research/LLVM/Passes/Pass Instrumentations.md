@@ -17,3 +17,5 @@ Statistics and Profiling
 - Developers can use pass instrumentations to gather statistics about passes, such as how many times a pass is run, its runtime, or its effects on the program.
 
 Logging and Debugging
+- They are often used to log detailed information about a pass, including which functions, loops, or regions it affects, and the transformations it applies.
+
