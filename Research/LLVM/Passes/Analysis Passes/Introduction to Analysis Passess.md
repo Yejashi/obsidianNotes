@@ -8,4 +8,5 @@ These passes are crucial for optimization and transformation passes, which rely 
 - **Support Other Passes**: They serve as the foundation for transformations and optimizations by providing accurate program metadata.
 
 ### Types of Analysis Passes
-Control Flow Analysis: 
+**Control Flow Analysis**: These passes analyze the structure and properties of the control flow graph (CFG) of functions.
+
