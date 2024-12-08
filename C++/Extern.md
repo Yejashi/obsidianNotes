@@ -13,4 +13,5 @@ This means the entity is declared, but its definition exists elsewhere, possibly
 - Global variable
 	-  If you want to share a global variable across multiple files, you declare it in a header file with `extern`, and define it in one source file.
 - Functions
-	- 
+	- In most cases, functions are treated as having external linkage by default, so you don't usually need `extern`.
+- 
