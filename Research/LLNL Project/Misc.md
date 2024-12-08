@@ -61,7 +61,7 @@ target_link_libraries(HelloWorldPass PRIVATE LLVMCore LLVMSupport)
 
 Compile the target code to LLVM IR
 ```
-clang -O0 -Xclang -disable-O0-optnone -emit-llvm -S -o target.ll target.c
+clang++ -O0 -Xclang -disable-O0-optnone -emit-llvm -S -o target.ll target.c
 ```
 - `-XClang`: This flag allows you to pass arguments directly to the Clang compiler backend (instead of the frontend). It's used to give Clang-specific options that wouldn't normally be passed through the standard command-line flags.
 - `-disable-O0-optnone`: This option disables the `-optnone` attribute at optimization level `O0`. Normally, Clang inserts this attribute when `-O0` is specified, which disables certain optimizations even if they're explicitly requested. This flag ensures that no such attribute is added, allowing you to keep some optimizations even at `O0`.
