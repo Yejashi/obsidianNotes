@@ -16,3 +16,4 @@ Analysis Preservation
 Statistics and Profiling
 - Developers can use pass instrumentations to gather statistics about passes, such as how many times a pass is run, its runtime, or its effects on the program.
 
+Logging and Debugging
