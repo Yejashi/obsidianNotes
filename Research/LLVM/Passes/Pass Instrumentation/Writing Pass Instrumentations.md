@@ -89,4 +89,5 @@ void registerCallbacks(PassInstrumentationCallbacks& PIC) {
 }
 ```
 - The `registerCallbacks` method registers the callbacks (`beforePass` and `afterPass`) to be called at the appropriate times (before and after a pass runs).
-- 
+- **`PassInstrumentationCallbacks`** is an object that allows you to hook into the pass pipeline to insert custom behavior. It provides methods like `registerBeforePassCallback` and `registerAfterPassCallback`.
+	- 
