@@ -37,3 +37,4 @@ The core logic to run each Pass in the new PassManager is pretty easy to underst
     }
 ```
 
+Line 9 at the snippet above is the main “Pass runner”. 
