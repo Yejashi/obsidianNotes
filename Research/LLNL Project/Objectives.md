@@ -6,6 +6,26 @@ Initial Objectives: For each function, extract how many transformation passes:
 - Failed
 
 ##### What is needed to achieve this?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 We need an analysis pass that monitors optimization attempts since most optimizations, at least the ones we care about, are applied at the middle-end phase of the LLVM pipeline.
 
 What needs to be tracked:
