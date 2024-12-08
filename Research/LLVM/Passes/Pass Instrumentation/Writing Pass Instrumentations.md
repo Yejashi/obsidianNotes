@@ -30,7 +30,7 @@ The lambda function from line 5 to 7 gives you a `PassBuilder` instance which yo
 ### Registering a new Pass Instrumentation
 Instrumentation allows you to observe or modify the behavior of passes during their execution.
 
-Let’s create a simple demo mimicking the functionality of `-stop-after` command line option, which effectively stalls the entire pass pipeline after finishing the designated pass.
+In this example, a class `StopAfterInstrument` is created to mimic the `-stop-after` command-line option, which stops the pipeline after a specific pass is executed.
 
 Here is the first step:
 ```cpp
