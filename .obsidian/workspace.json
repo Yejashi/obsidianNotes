@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Misc"
             }
+          },
+          {
+            "id": "51d5c8e145626e06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5
+    "width": 200
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -216,10 +230,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b08e703b998074f4",
+  "active": "51d5c8e145626e06",
   "lastOpenFiles": [
-    "Research/LLNL Project/Roadblocks.md",
     "Research/LLNL Project/Misc.md",
+    "TODO.md",
+    "Research/LLNL Project/Roadblocks.md",
     "C++/Lambda Functions.md",
     "C++/Linkage.md",
     "C++/Static.md",
@@ -255,7 +270,6 @@
     "Research/LLVM/Passes",
     "Research/LLVM/LLNL Project/Misc.md",
     "Misc/Software Ideas",
-    "Research/LLVM/LLNL Project/Objectives.md",
     "Meta/Attachments/Pasted image 20241202080611.png",
     "Meta/Attachments/Pasted image 20241202080454.png",
     "Pasted image 20241202080611.png",
