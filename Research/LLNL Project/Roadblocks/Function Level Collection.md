@@ -15,3 +15,8 @@ If we only collect function-level passes, we may miss optimizations applied to i
 
 **Aggregate the Data:**
 - When reporting the optimization details for a function, we combine data from all levels (function, basic block, instruction) to provide a complete picture.
+
+### Example
+Function `foo`:
+- No function-level passes are applied.
+- 
