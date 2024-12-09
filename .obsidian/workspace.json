@@ -230,8 +230,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "89a2306f508ba08a",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Class",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Research/LLNL Project/Objectives.md",
     "Research/LLNL Project/Roadblocks/Function Level Collection.md",
@@ -265,7 +266,6 @@
     "Research/LLVM/General.md",
     "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
     "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
-    "Research/LLVM/Intermediate Representation (IR)/Static Single Assignment (SSA).md",
     "Meta/Attachments/Pasted image 20241130215941.png",
     "Meta/Attachments/Pasted image 20241207085106.png",
     "Meta/Attachments",
