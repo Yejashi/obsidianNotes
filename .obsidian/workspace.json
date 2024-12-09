@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Intermediate Representation (IR)"
             }
+          },
+          {
+            "id": "a9b2ba61999d1a3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,44 +191,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "89d99c9bf7be4dcb",
+  "active": "a9b2ba61999d1a3f",
   "lastOpenFiles": [
+    "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
+    "conflict-files-obsidian-git.md",
+    "TODO.md",
+    "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
+    "Research/LLVM/Passes/Writing an LLVM Pass",
+    "Research/LLVM/Passes/Pass Manager/Pass Manager.md",
+    "Research/LLVM/Passes/Pass Manager",
+    "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
+    "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
+    "Research/LLVM/Passes/Pass Instrumentation",
+    "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
+    "Research/LLVM/Passes/Custom Pass",
+    "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
+    "Research/LLVM/Passes/Analysis Passes",
+    "Research/LLVM/Intermediate Representation (IR)/Static Single Assignment (SSA).md",
+    "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
+    "Research/LLVM/Control Flow Graph.md",
+    "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
+    "Research/LLNL Project/Roadblocks/Function Level Collection.md",
+    "Research/LLNL Project/Roadblocks",
+    "Research/LLNL Project/Objectives.md",
+    "Research/LLNL Project/Misc.md",
+    "Research/LLNL Project",
+    "Meta/Attachments/Pasted image 20241207085106.png",
+    "Meta/Attachments/Pasted image 20241202080611.png",
+    "Meta/Attachments/Pasted image 20241202080454.png",
+    "Meta/Attachments/Pasted image 20241202074257.png",
+    "Meta/Attachments/Pasted image 20241130220647.png",
+    "Meta/Attachments/Pasted image 20241130215941.png",
+    "Meta/Attachments",
+    "Meta",
+    "Class/Fall 2024/COSC530/Final Exam Review.md",
+    "Class/Fall 2024/COSC530",
+    "C++/std placeholders.md",
+    "C++/Templates.md",
+    "C++/Static.md",
+    "C++/Linkage.md",
+    "C++/Lambda Functions.md",
+    "C++/Extern.md",
+    "C++/Callback.md",
     "Research/LLVM/Common Terminology.md",
     "Research/LLVM/General.md",
-    "Research/LLVM/Passes/Writing a Custom LLVM Pass.md",
-    "Research/LLVM/Cheatsheet.md",
-    "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
-    "Research/LLVM/Intermediate Representation (IR)",
-    "Research/LLVM/LLNL Project/Misc.md",
-    "conflict-files-obsidian-git.md",
-    "Research/LLVM/Passes/General Passes.md",
-    "Research/LLVM/Passes",
-    "Research/LLVM/LLNL Project/Objectives.md",
-    "Misc/Software Ideas/Linux System-Wide Text Auto-complete.md",
-    "Misc/Software Ideas",
-    "Excalidraw/Drawing 2024-12-05 08.42.23.excalidraw.md",
-    "Excalidraw",
-    "Untitled.md",
-    "Research/Compilers/General.md",
-    "Research/LLVM/LLNL Project",
-    "Research/Compilers/Compiler-General.md",
-    "Research/LLVM/LLVM-General.md",
-    "x",
     "Screenshots/Pasted image 20241202080454.png",
     "Screenshots/Pasted image 20241202080611.png",
-    "Ricing/Tiling Window Managers/WM General.md",
-    "Misc/Personal Website Plans.md",
-    "Misc/Software Ideas.md",
     "Screenshots/Pasted image 20241130215941.png",
-    "Screenshots/Pasted image 20241130220647.png",
-    "Screenshots",
-    "Screenshots/Pasted image 20241202074257.png",
-    "Research/Compilers",
-    "Ricing/NixOS/NixOS-General.md",
-    "Misc/Pasted image 20241130215351.png",
-    "Misc/Pasted image 20241130215402.png",
-    "Ricing/Tiling Window Managers",
-    "Research/LLVM",
-    "Welcome.md"
+    "Screenshots/Pasted image 20241130220647.png"
   ]
 }

@@ -66,7 +66,7 @@ entry:
 ```
 
 
-##### Basic Block
+##### [[Basic Blocks]]
 A basic block is a sequence of instructions with:
 - A single entry point.
 - A single exit point (usually a branch or return instruction).
@@ -157,3 +157,9 @@ This is used internally by LLVM tools and APIs. This is what is operated on by L
 Example types:
 - Primitive: `i32`, `float`, `i1` (boolean).
 - Derived: Pointers (`i32*`), arrays (`[10 x i32]`), structures.
+
+Misc
+- Global symbols start with `@`
+- Local symbols start with `%`
+- Basic block names start with `%` when used
+- Basic block names end with `.` when defined
