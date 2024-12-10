@@ -2,4 +2,6 @@
 
 # Exam 3
 
-**Convoy**:  
+**Convoy**:  Set of vector instructions that could potentially execute
+together
+
