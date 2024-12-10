@@ -35,7 +35,6 @@ TLDR:
 - **They enable conditional execution within vectorized operations.**
 
 #### Cache Coherence
-
 **Snoopy** and **Directory-based** **protocols** are two types of **cache coherence protocols** used in multiprocessor systems to ensure that multiple caches maintain a consistent view of memory.
 
 ##### Snoopy Protocols
@@ -47,6 +46,8 @@ How Snoopy Protocols Work:
 - The bus broadcasts information about memory accesses to all caches, and each cache determines whether it needs to act based on the transaction.
 
 ##### Directory-based Protocols
+In directory-based protocols, the system uses a central directory that keeps track of the status of each cache line, specifically which caches hold a copy of a particular memory block. The directory is responsible for managing cache coherence instead of relying on bus snooping.
+
 
 
 
