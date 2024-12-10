@@ -30,9 +30,9 @@ Purpose:
 - Vector mask registers enable conditional execution within vectorized operations, allowing selective computation on specific elements.
 
 TLDR:
-- Vector mask registers are special registers which control which elements in a vector operation are active. 
-- They are used for handling if statements in vector loops.
-- They enable conditional execution within vectorized operations.
+- **Vector mask registers are special registers which control which elements in a vector operation are active.** 
+- **They are used for handling if statements in vector loops.**
+- **They enable conditional execution within vectorized operations.**
 
 
 
