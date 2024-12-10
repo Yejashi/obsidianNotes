@@ -24,4 +24,7 @@ Vector mask registers are special registers which control which elements in a ve
 
 They are used for handling if statements in vector loops.
 
+Purpose:
+- 
+
 
