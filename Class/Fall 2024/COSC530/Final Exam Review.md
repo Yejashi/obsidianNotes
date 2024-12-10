@@ -45,6 +45,7 @@ How Snoopy Protocols Work:
 - When a cache detects a memory operation (read or write) from another processor that affects data it holds,  it takes appropriate actions to maintain coherence (e.g., invalidating or updating its copy).
 - The bus broadcasts information about memory accesses to all caches, and each cache determines whether it needs to act based on the transaction.
 
+For small scale machines.
 ##### Directory-based Protocols
 In directory-based protocols, the system uses a central directory that keeps track of the status of each cache line, specifically which caches hold a copy of a particular memory block. The directory is responsible for managing cache coherence instead of relying on bus snooping.
 
