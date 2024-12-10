@@ -13,3 +13,4 @@ elements of its vector source operands become available
 
 A **lane** is a sub-unit within a vector processing unit that can execute operations on one element of a vector.
 
+##### What is Strip Mining?
