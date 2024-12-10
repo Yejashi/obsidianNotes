@@ -13,12 +13,12 @@ elements of its vector source operands become available
 
 A **lane** is a sub-unit within a vector processing unit that can execute operations on one element of a vector.
 
-##### What is Strip Mining?
+#### What is Strip Mining?
 When a loop processes a dataset that is too large for a vector processing unit, strip mining **splits the loop iteration space into smaller "strips" that fit the hardware's processing capacity**. 
 
 It **divides a large problem into smaller chunks**, or "strips," which are **processed sequentially**, but **within each strip, work is vectorized**.
 
-##### What is a vector mask register?
+#### What is a vector mask register?
 
 Vector mask registers are special registers which control which elements in a vector operation are active.
 
@@ -34,11 +34,11 @@ TLDR:
 - **They are used for handling if statements in vector loops.**
 - **They enable conditional execution within vectorized operations.**
 
-##### Cache Coherence
+#### Cache Coherence
 
 **Snoopy** and **Directory-based** **protocols** are two types of **cache coherence protocols** used in multiprocessor systems to ensure that multiple caches maintain a consistent view of memory.
 
-
+##### Snoopy Protocols
 
 
 
