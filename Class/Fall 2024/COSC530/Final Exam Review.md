@@ -14,5 +14,5 @@ elements of its vector source operands become available
 A **lane** is a sub-unit within a vector processing unit that can execute operations on one element of a vector.
 
 ##### What is Strip Mining?
-When a loop processes a dataset that is too large for a vector processing unit (e.g., SIMD unit) or parallel hardware, strip mining splits the loop iteration space into smaller "strips" that fit the hardware's processing capacity. 
+When a loop processes a dataset that is too large for a vector processing unit, strip mining splits the loop iteration space into smaller "strips" that fit the hardware's processing capacity. 
 
