@@ -18,3 +18,4 @@ When a loop processes a dataset that is too large for a vector processing unit, 
 
 It divides a large problem into smaller chunks, or "strips," which are processed sequentially, but within each strip, work is vectorized.
 
+##### What is a vector mask register?
