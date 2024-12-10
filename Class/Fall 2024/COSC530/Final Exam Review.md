@@ -47,3 +47,6 @@ How Snoopy Protocols Work:
 - The bus broadcasts information about memory accesses to all caches, and each cache determines whether it needs to act based on the transaction.
 
 
+
+
+
