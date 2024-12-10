@@ -16,7 +16,7 @@ A **lane** is a sub-unit within a vector processing unit that can execute operat
 ##### What is Strip Mining?
 When a loop processes a dataset that is too large for a vector processing unit, strip mining **splits the loop iteration space into smaller "strips" that fit the hardware's processing capacity**. 
 
-It **divides a large problem into smaller chunks**, or "strips," which are **processed sequentially**, but within each strip, work is vectorized.
+It **divides a large problem into smaller chunks**, or "strips," which are **processed sequentially**, but **within each strip, work is vectorized**.
 
 ##### What is a vector mask register?
 
