@@ -50,6 +50,7 @@ In directory-based protocols, the system uses a central directory that keeps tra
 
 How Directory-Based Protocols Work:
 - A central directory keeps track of the status each block.
+- 
 
 
 
