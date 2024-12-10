@@ -42,6 +42,6 @@ TLDR:
 In snoopy protocols, all caches in the system watch (or "snoop") the bus to monitor memory transactions (reads/writes) by other processors. The goal is to ensure that caches can maintain coherence by invalidating, updating, or writing back data based on the actions of other caches.
 
 How Snoopy Protocols Work:
-- Each core keeps track of
+- Each processor cache 
 
 
