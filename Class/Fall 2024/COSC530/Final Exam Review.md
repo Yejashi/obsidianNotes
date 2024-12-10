@@ -20,4 +20,5 @@ It divides a large problem into smaller chunks, or "strips," which are processed
 
 ##### What is a vector mask register?
 
-Vector mask registers are special registers used in vector processors and SIMD (Single Instruction, Multiple Data) architectures to control which elements in a vector operation are active
+Vector mask registers are special registers which control which elements in a vector operation are active.
+
