@@ -19,3 +19,5 @@ When a loop processes a dataset that is too large for a vector processing unit, 
 It divides a large problem into smaller chunks, or "strips," which are processed sequentially, but within each strip, work is vectorized.
 
 ##### What is a vector mask register?
+
+Vector mask registers are special registers used in vector processors and SIMD (Single Instruction, Multiple Data) architectures to control which elements in a vector operation are active
