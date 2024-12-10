@@ -22,6 +22,8 @@ It divides a large problem into smaller chunks, or "strips," which are processed
 
 Vector mask registers are special registers which control which elements in a vector operation are active.
 
+Each bit in the mask corresponds to a vector element, with 1 enabling execution for that element and 0 disabling it.
+
 They are used for handling if statements in vector loops.
 
 Purpose:
