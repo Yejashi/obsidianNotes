@@ -54,7 +54,10 @@ How Directory-Based Protocols Work:
 - When a processor wants to read or write a memory location, the central directory checks the status of the memory block and notifies the relevant caches.
 - The directory can then update relevant caches or invalidate them.
 
-Scales better than snoopy.
+Scales better than snoopy. (Directory distributed in memory)
+
+
+
 
 
 
