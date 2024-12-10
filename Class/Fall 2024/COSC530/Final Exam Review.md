@@ -36,7 +36,9 @@ TLDR:
 
 ##### Cache Coherence
 
-**Snoopy** and **Directory-based** **protocols** are two types of cache coherence protocols used in multiprocessor systems to ensure that multiple caches maintain a consistent view of memory.
+**Snoopy** and **Directory-based** **protocols** are two types of **cache coherence protocols** used in multiprocessor systems to ensure that multiple caches maintain a consistent view of memory.
+
+
 
 
 
