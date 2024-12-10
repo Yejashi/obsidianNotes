@@ -50,7 +50,7 @@ In directory-based protocols, the system uses a central directory that keeps tra
 
 How Directory-Based Protocols Work:
 - A central directory keeps track of the status each block.
-- 
+- When a processor wants to read or write a memory location, it sends a request to the directory, which checks the status of the memory block and notifies the relevant caches.
 
 
 
