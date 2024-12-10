@@ -11,3 +11,5 @@ elements of its vector source operands become available
 **Chime:** Unit of time to execute one convoy
 - For vector length of n, requires m x n clock cycles
 
+A **lane** is a sub-unit within a vector processing unit that can execute operations on one element of a vector.
+
