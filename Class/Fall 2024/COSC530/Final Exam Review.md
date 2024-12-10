@@ -27,6 +27,8 @@ Each bit in the mask corresponds to a vector element, with 1 enabling execution 
 They are used for handling if statements in vector loops.
 
 Purpose:
-- 
+- Vector mask registers enable conditional execution within vectorized operations, allowing selective computation on specific elements.
+
+
 
 
