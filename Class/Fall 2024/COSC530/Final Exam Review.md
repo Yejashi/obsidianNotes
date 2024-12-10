@@ -5,3 +5,4 @@
 **Convoy**:  Set of vector instructions that could potentially execute
 together
 
+**Chaining:** 
