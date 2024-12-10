@@ -48,6 +48,7 @@ How Snoopy Protocols Work:
 ##### Directory-based Protocols
 In directory-based protocols, the system uses a central directory that keeps track of the status of each cache line, specifically which caches hold a copy of a particular memory block. The directory is responsible for managing cache coherence instead of relying on bus snooping.
 
+How Directory-Based Protocols Work:
 
 
 
