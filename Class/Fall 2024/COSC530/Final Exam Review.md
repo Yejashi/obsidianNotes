@@ -46,6 +46,7 @@ How Snoopy Protocols Work:
 - When a cache detects a memory operation (read or write) from another processor that affects data it holds,  it takes appropriate actions to maintain coherence (e.g., invalidating or updating its copy).
 - The bus broadcasts information about memory accesses to all caches, and each cache determines whether it needs to act based on the transaction.
 
+##### Directory-based Protocols
 
 
 
