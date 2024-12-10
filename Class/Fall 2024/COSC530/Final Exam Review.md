@@ -43,6 +43,6 @@ In snoopy protocols, all caches in the system watch (or "snoop") the bus to moni
 
 How Snoopy Protocols Work:
 - Each processor cache watches the system's shared bus for memory transactions.
-- 
+- When a cache detects a memory operation (read or write) from another processor that affects data it holds, 
 
 
