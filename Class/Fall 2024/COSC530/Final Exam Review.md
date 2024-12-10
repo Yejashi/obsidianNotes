@@ -32,7 +32,7 @@ Purpose:
 TLDR:
 - Vector mask registers are special registers which control which elements in a vector operation are active. 
 - They are used for handling if statements in vector loops.
-- They enable 
+- They enable conditional execution within vectorized operations.
 
 
 
