@@ -9,3 +9,5 @@ together
 elements of its vector source operands become available
 
 **Chime:** Unit of time to execute one convoy
+- For vector length of n, requires m x n clock cycles
+
