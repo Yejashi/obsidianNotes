@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
+                "file": "Research/LLVM/Passes/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pass Instrumentations"
+              "title": "Untitled"
             }
           }
         ],
@@ -292,8 +292,11 @@
   },
   "active": "82343484872c4847",
   "lastOpenFiles": [
-    "Class/Fall 2024/COSC530/Final Exam Review.md",
+    "Research/LLVM/Cheatsheet.md",
+    "Research/LLVM/Passes/Untitled.md",
+    "Research/LLVM/General.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
+    "Class/Fall 2024/COSC530/Final Exam Review.md",
     "conflict-files-obsidian-git.md",
     "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
     "Research/LLVM/Passes/Pass Manager/Pass Manager.md",
@@ -331,9 +334,6 @@
     "C++/Static.md",
     "C++/Linkage.md",
     "C++/Lambda Functions.md",
-    "C++/Extern.md",
-    "C++/Callback.md",
-    "Research/LLVM/Common Terminology.md",
     "Screenshots/Pasted image 20241202080454.png",
     "Screenshots/Pasted image 20241202080611.png",
     "Screenshots/Pasted image 20241130215941.png",
