@@ -32,3 +32,4 @@ Where to Integrate?
 ### Potential Workflow
 
 The potential workflow of getting the data to thicket goes as follows:
+- For each translation unit/module, output a file that includes all the remark information along with the location.
