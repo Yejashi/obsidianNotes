@@ -35,4 +35,4 @@ The potential workflow of getting the data to thicket goes as follows:
 - For each translation unit/module, output a file that includes all the remark information along with the location.
 - Run the application and store the `cali` file containing the CCT.
 	- Make sure to output the lines that correspond to the regions.
-- Create a reader that maps the lines 
+- Create a reader that maps the lines to the region.
