@@ -5,7 +5,7 @@ Iterators are used to traverse these components.
 ```
 Module
 --Function
-----Block
-------Operands
+  --Block
+    --Operands
 ```
 
