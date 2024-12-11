@@ -31,3 +31,4 @@ Where to Integrate?
 
 ### Potential Workflow
 
+The potential workflow of getting the data to thicket goes as follows:
