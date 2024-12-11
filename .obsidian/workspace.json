@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLNL Project/Roadblocks/Function Level Collection.md",
+                "file": "Research/LLNL Project/Objectives.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Function Level Collection"
+              "title": "Objectives"
             }
           },
           {
@@ -134,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -290,19 +290,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "082c251802b9b12e",
   "lastOpenFiles": [
-    "Research/LLVM/Cheatsheet.md",
+    "Research/Compilers/General.md",
+    "Research/LLNL Project/Roadblocks/Function Level Collection.md",
+    "Research/LLNL Project/Objectives.md",
+    "Research/LLVM/Passes/Pass Manager/Pass Manager.md",
+    "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
     "Research/LLVM/Passes/LLVM API.md",
+    "Research/LLVM/Cheatsheet.md",
     "Research/LLVM/General.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Class/Fall 2024/COSC530/Final Exam Review.md",
     "conflict-files-obsidian-git.md",
-    "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
-    "Research/LLVM/Passes/Pass Manager/Pass Manager.md",
     "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
-    "Research/LLNL Project/Objectives.md",
-    "Research/LLNL Project/Roadblocks/Function Level Collection.md",
     "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
     "Research/LLVM/Passes/General Passes.md",
     "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
@@ -333,7 +334,6 @@
     "C++/Templates.md",
     "C++/Static.md",
     "C++/Linkage.md",
-    "C++/Lambda Functions.md",
     "Screenshots/Pasted image 20241202080454.png",
     "Screenshots/Pasted image 20241202080611.png",
     "Screenshots/Pasted image 20241130215941.png",
