@@ -2,3 +2,6 @@ In LLVM, the core structure of IR consists of modules, functions, basic blocks, 
 
 Iterators are used to traverse these components.
 
+```
+
+```
