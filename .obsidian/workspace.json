@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d00c38665e2fc093",
+        "id": "1b0d296564018074",
         "type": "tabs",
         "children": [
           {
-            "id": "cc45c4e17ec77ce0",
+            "id": "cdf04b8dceb06d3b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -173,8 +173,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cc45c4e17ec77ce0",
+  "active": "cdf04b8dceb06d3b",
   "lastOpenFiles": [
+    "Untitled.md",
     "C++/Templates.md",
     "Research/LLVM/Passes/LLVM API.md",
     "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
@@ -216,7 +217,6 @@
     "Class/Fall 2024/COSC530",
     "C++/std placeholders.md",
     "C++/Static.md",
-    "C++/Linkage.md",
     "Screenshots/Pasted image 20241202080454.png",
     "Screenshots/Pasted image 20241202080611.png",
     "Screenshots/Pasted image 20241130215941.png",
