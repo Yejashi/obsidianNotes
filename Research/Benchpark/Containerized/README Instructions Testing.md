@@ -46,3 +46,6 @@ pip install pytest
 docker build -f benchpark.dockerfile -t benchpark_base .
 ```
 
+This command took 2589 seconds to complete.
+
+
