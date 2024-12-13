@@ -1,7 +1,8 @@
 System Configuration:
 - Resource: JetStream2
 - CPU: 2 Cores
-- RAM: 120 GB
+- RAM: 125 GB
+- Root Disk: 100 GB
 - OS: Rocky Linux 9
 
 
