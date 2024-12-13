@@ -103,3 +103,4 @@ With regards to the log files:
 
 
 4 ranks -> 32 ranks
+/home/jovyan/benchpark/workspace/kripke-test/Oci-ec4b246/workspace/experiments/kripke/kripke/kripke_kripke_single_node_openmp_64_1_128_128_4_2_2_1_64_64_32_32_1/execute_experiment
