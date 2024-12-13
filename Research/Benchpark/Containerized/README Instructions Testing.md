@@ -2,7 +2,9 @@ System Configuration:
 - Resource: JetStream2
 - CPU: 2 Cores
 - RAM: 120 GB
-- 
+- OS: Rocky Linux 9
+
+
 ```bash
 cd benchpark
 . setup-env.sh
