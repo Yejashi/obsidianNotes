@@ -52,4 +52,10 @@ This command took 2589 seconds to complete.
 docker run --rm -it --name benchpark_container benchpark_base
 ```
 
+```bash
+cd benchpark
+benchpark system init --dest=oci-system oci
+```
+
+This command worked fine.
 
