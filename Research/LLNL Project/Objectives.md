@@ -29,29 +29,10 @@ Where to Integrate?
 
 
 
+### Potential Workflow
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-We need an analysis pass that monitors optimization attempts since most optimizations, at least the ones we care about, are applied at the middle-end phase of the LLVM pipeline.
-
-
-###### Why an analysis pass?
-We are observing and not transforming.
-
-This means the optimization are applied by clang's optimization pipeline through llvm. We simply want to monitor the transformations that are considered. An analysis pass can observe the results of other passes and collect statistics about their behavior.
-
-###### Where does the pass need to go?
-We need to inject a custom analysis pass into the pass manager pipeline. This pass would observe the IR before and after each transformation pass and log any changes or failures.
+The potential workflow of getting the data to thicket goes as follows:
+- For each translation unit/module, output a file that includes all the remark information along with the location.
+- Run the application and store the `cali` file containing the CCT.
+	- Make sure to output the lines that correspond to the regions.
+- Create a reader that maps the lines to the region.
