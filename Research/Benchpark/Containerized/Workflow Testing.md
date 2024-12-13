@@ -30,3 +30,7 @@ Traceback (most recent call last):
 subprocess.CalledProcessError: Command '['/usr/bin/python3', PosixPath('/home/exouser/benchpark/lib/main.py'), 'containerize', 'rockylinux:9', 'openmpi', '-o', 'benchpark.dockerfile']' returned non-zero exit status 1.
 ```
 
+This was fixed by:
+```
+pip install pytest
+```
