@@ -48,4 +48,8 @@ docker build -f benchpark.dockerfile -t benchpark_base .
 
 This command took 2589 seconds to complete.
 
+```
+docker run --rm -it --name benchpark_container benchpark_base
+```
+
 
