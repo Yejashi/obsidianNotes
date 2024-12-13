@@ -11,14 +11,10 @@
             "id": "89a2306f508ba08a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research/Benchpark/Containerized/README Instructions Testing.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README Instructions Testing"
+              "title": "New tab"
             }
           }
         ]
@@ -187,7 +183,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "89a2306f508ba08a",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
     "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
     "Research/Benchpark/Containerized/README Instructions Testing.md",
