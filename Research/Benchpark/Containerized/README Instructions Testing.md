@@ -74,6 +74,7 @@ ramble --disable-progress-bar --workspace-dir /home/jovyan/benchpark/workspace/k
 ```
 
 This caused me an issue where Kripke doesn't seem to execute properly and ends prematurely:
+
 This is the only standard output i get:  
 
 ```
