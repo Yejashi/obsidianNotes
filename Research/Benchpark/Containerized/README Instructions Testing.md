@@ -93,7 +93,11 @@ With regards to the log files:
 ==> Running executors...
 ```
 
+```
 [jovyan@037527017e25 benchpark]$ cat /home/jovyan/benchpark/workspace/kripke-test/Oci-ec4b246/workspace/logs/execute.2024-12-13_17.10.00/kripke.kripke.kripke_kripke_single_node_openmp_64_1_128_128_4_2_2_1_64_64_32_4_1.out 
 ==>     Using default usage mode standard on modifier allocation
 ==> Phase timing statistics:
 ==>     Using default usage mode standard on modifier allocation
+```
+
+
