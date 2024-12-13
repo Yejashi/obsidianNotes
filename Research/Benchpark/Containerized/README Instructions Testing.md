@@ -73,3 +73,4 @@ ramble --disable-progress-bar --workspace-dir /home/jovyan/benchpark/workspace/k
 ramble --disable-progress-bar --workspace-dir /home/jovyan/benchpark/workspace/kripke-test/Oci-ec4b246/workspace on
 ```
 
+This caused me an issue where Kripke doesn't seem to execute properly and ends prematurely:
