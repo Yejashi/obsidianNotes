@@ -36,3 +36,7 @@ pip install pytest
 ```
 
 
+```bash
+docker build -f benchpark.dockerfile -t benchpark_base .
+```
+
