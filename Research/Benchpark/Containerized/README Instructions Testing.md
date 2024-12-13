@@ -1,3 +1,8 @@
+System Configuration:
+- Resource: JetStream2
+- CPU: 2 Cores
+- RAM: 120 GB
+- 
 ```bash
 cd benchpark
 . setup-env.sh
