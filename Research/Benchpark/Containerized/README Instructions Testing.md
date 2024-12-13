@@ -68,5 +68,7 @@ This worked fine.
 
 ```bash
 . /home/jovyan/benchpark/workspace/setup.sh
-
+ramble --disable-progress-bar --workspace-dir /home/jovyan/benchpark/workspace/kripke-test/Oci-ec4b246/workspace workspace setup
+ramble --disable-progress-bar --workspace-dir /home/jovyan/benchpark/workspace/kripke-test/Oci-ec4b246/workspace on
 ```
+
