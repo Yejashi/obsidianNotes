@@ -59,3 +59,10 @@ benchpark system init --dest=oci-system oci
 
 This command worked fine.
 
+```bash
+benchpark experiment init --dest kripke-test kripke +single_node +openmp
+benchpark setup kripke-test/ oci-system/ workspace/
+```
+
+This worked fine.
+
