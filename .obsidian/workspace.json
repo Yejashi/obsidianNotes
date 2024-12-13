@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Fall 2024/COSC530/Final Exam Review.md",
+                "file": "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Final Exam Review"
+              "title": "Pass Manager Bug?"
             }
           }
         ]
@@ -189,8 +189,8 @@
   },
   "active": "89a2306f508ba08a",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Class/Fall 2024/COSC530/Final Exam Review.md",
+    "conflict-files-obsidian-git.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
     "Research/LLNL Project/Objectives.md",
