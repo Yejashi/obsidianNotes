@@ -66,3 +66,7 @@ benchpark setup kripke-test/ oci-system/ workspace/
 
 This worked fine.
 
+```bash
+. /home/jovyan/benchpark/workspace/setup.sh
+
+```
