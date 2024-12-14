@@ -41,5 +41,14 @@ MPM.addPass(createModuleToPostOrderCGSCCPassAdaptor(createCGSCCToFunctionPassAda
 ```
 
 A pass manager of a specific IR unit is also a pass of that kind. For example, a `FunctionPassManager` is a function pass, meaning it can be added to a `ModulePassManager`:
+
+```cpp
+ModulePassManager MPM;
+
+FunctionPassManager FPM;
+// InstSimplifyPass is a function pass
+FPM.addPass(InstSimplifyPass());
+
+MPM.addPass(createModuleToFunctionPassAdaptor(std::move(FPM)));
 ```
-```
+
