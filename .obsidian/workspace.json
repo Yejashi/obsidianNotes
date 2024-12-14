@@ -11,10 +11,14 @@
             "id": "89a2306f508ba08a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Research/LLVM/Passes/Pass Manager/General.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "General"
             }
           }
         ]
@@ -48,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "manager",
+                "query": "extern",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,8 +189,11 @@
   },
   "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
+    "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
+    "Research/Compilers/General.md",
+    "C++/Extern.md",
     "Research/Benchpark/Containerized/README Instructions Testing.md",
+    "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
     "Research/Benchpark/Containerized",
     "Research/Benchpark",
     "conflict-files-obsidian-git.md",
@@ -194,7 +201,6 @@
     "Research/LLVM/Passes/LLVM API.md",
     "Class/Fall 2024/COSC530/Final Exam Review.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
-    "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
     "Research/LLNL Project/Objectives.md",
     "Research/LLNL Project/Roadblocks/Function Level Collection.md",
     "Class/Fall 2024/COSC530",
@@ -208,7 +214,7 @@
     "C++/Templates.md",
     "C++/Callback.md",
     "Research/LLVM/Control Flow Graph.md",
-    "Research/LLVM/Passes/Pass Manager/Pass Manager.md",
+    "Research/LLVM/Passes/Pass Manager/General.md",
     "Research/LLVM/Passes/Writing an LLVM Pass",
     "Research/LLVM/Common Terminology.md",
     "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
@@ -218,8 +224,6 @@
     "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
     "TODO.md",
     "C++/Linkage.md",
-    "C++/Static.md",
-    "C++/Extern.md",
     "C++",
     "Meta/Attachments/Pasted image 20241130215941.png",
     "Meta/Attachments/Pasted image 20241207085106.png",
