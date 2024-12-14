@@ -52,3 +52,12 @@ FPM.addPass(InstSimplifyPass());
 MPM.addPass(createModuleToFunctionPassAdaptor(std::move(FPM)));
 ```
 
+Generally you want to group CGSCC/function/loop passes together in a pass manager, as opposed to adding adaptors for each pass to the containing upper level pass manager. For example,
+
+```cpp
+ModulePassManager MPM;
+MPM.addPass(createModuleToFunctionPassAdaptor(FunctionPass1()));
+MPM.addPass(createModuleToFunctionPassAdaptor(FunctionPass2()));
+MPM.run();
+```
+
