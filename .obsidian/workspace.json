@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/Pass Manager/General.md",
+                "file": "Research/LLVM/Passes/Pass Manager/Pass Manager General.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General"
+              "title": "Pass Manager General"
             }
           }
         ]
@@ -214,7 +214,7 @@
     "C++/Templates.md",
     "C++/Callback.md",
     "Research/LLVM/Control Flow Graph.md",
-    "Research/LLVM/Passes/Pass Manager/General.md",
+    "Research/LLVM/Passes/Pass Manager/Pass Manager General.md",
     "Research/LLVM/Passes/Writing an LLVM Pass",
     "Research/LLVM/Common Terminology.md",
     "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
