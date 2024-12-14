@@ -187,8 +187,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "89a2306f508ba08a",
   "lastOpenFiles": [
+    "Pass Manager.md",
+    "Research/LLVM/Passes/Pass Manager/Pass Manager General.md",
     "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
     "Research/Compilers/General.md",
     "C++/Extern.md",
@@ -214,7 +216,6 @@
     "C++/Templates.md",
     "C++/Callback.md",
     "Research/LLVM/Control Flow Graph.md",
-    "Research/LLVM/Passes/Pass Manager/Pass Manager General.md",
     "Research/LLVM/Passes/Writing an LLVM Pass",
     "Research/LLVM/Common Terminology.md",
     "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
@@ -223,7 +224,6 @@
     "Research/LLVM/Passes/Pass Instrumentation",
     "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
     "TODO.md",
-    "C++/Linkage.md",
     "C++",
     "Meta/Attachments/Pasted image 20241130215941.png",
     "Meta/Attachments/Pasted image 20241207085106.png",
