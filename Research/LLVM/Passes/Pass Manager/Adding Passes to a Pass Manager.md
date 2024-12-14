@@ -7,3 +7,4 @@ FunctionPassManager FPM;
 FPM.addPass(InstSimplifyPass());
 ```
 
+If you want to add a loop pass that runs on all loops in a function to a FunctionPassManager, the loop pass must be wrapped in a function pass adaptor that goes through all the loops in the function and runs the loop pass on each one.
