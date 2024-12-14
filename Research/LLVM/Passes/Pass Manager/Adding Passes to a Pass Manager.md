@@ -17,3 +17,26 @@ FPM.addPass(createFunctionToLoopPassAdaptor(LoopRotatePass()));
 
 The IR hierarchy in terms of the new PM is Module -> (CGSCC ->) Function -> Loop, where going through a CGSCC is optional.
 
+```cpp
+FunctionPassManager FPM;
+// loop -> function
+FPM.addPass(createFunctionToLoopPassAdaptor(LoopFooPass()));
+
+CGSCCPassManager CGPM;
+// loop -> function -> cgscc
+CGPM.addPass(createCGSCCToFunctionPassAdaptor(createFunctionToLoopPassAdaptor(LoopFooPass())));
+// function -> cgscc
+CGPM.addPass(createCGSCCToFunctionPassAdaptor(FunctionFooPass()));
+
+ModulePassManager MPM;
+// loop -> function -> module
+MPM.addPass(createModuleToFunctionPassAdaptor(createFunctionToLoopPassAdaptor(LoopFooPass())));
+// function -> module
+MPM.addPass(createModuleToFunctionPassAdaptor(FunctionFooPass()));
+
+// loop -> function -> cgscc -> module
+MPM.addPass(createModuleToPostOrderCGSCCPassAdaptor(createCGSCCToFunctionPassAdaptor(createFunctionToLoopPassAdaptor(LoopFooPass()))));
+// function -> cgscc -> module
+MPM.addPass(createModuleToPostOrderCGSCCPassAdaptor(createCGSCCToFunctionPassAdaptor(FunctionFooPass())));
+```
+
