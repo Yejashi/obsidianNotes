@@ -40,3 +40,6 @@ MPM.addPass(createModuleToPostOrderCGSCCPassAdaptor(createCGSCCToFunctionPassAda
 MPM.addPass(createModuleToPostOrderCGSCCPassAdaptor(createCGSCCToFunctionPassAdaptor(FunctionFooPass())));
 ```
 
+A pass manager of a specific IR unit is also a pass of that kind. For example, a `FunctionPassManager` is a function pass, meaning it can be added to a `ModulePassManager`:
+```
+```
