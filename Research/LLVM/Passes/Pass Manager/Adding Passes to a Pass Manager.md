@@ -15,3 +15,5 @@ FunctionPassManager FPM;
 FPM.addPass(createFunctionToLoopPassAdaptor(LoopRotatePass()));
 ```
 
+The IR hierarchy in terms of the new PM is Module -> (CGSCC ->) Function -> Loop, where going through a CGSCC is optional.
+
