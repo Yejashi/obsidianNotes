@@ -7,3 +7,5 @@ Optimization diagnostics tell you which optimization happened, which didn't, and
 Supported in LLVM and currently only a small number of passes emit them (as of 2016).
 
 You can activate them through the `-Rpass` flag and they output in the compiler output as follows:
+![[Pasted image 20241215112610.png]]
+

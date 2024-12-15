@@ -203,6 +203,7 @@
   },
   "active": "89a2306f508ba08a",
   "lastOpenFiles": [
+    "Meta/Attachments/Pasted image 20241215112610.png",
     "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
     "Research/LLVM/Compiler Assisted Performance Analysis.md",
     "C++/Callback.md",
@@ -236,7 +237,6 @@
     "Research/LLVM/Common Terminology.md",
     "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
     "Research/LLVM/Passes/Pass Manager",
-    "Research/LLVM/Passes/General Passes.md",
     "Research/LLVM/Passes/Pass Instrumentation",
     "C++",
     "Meta/Attachments/Pasted image 20241130215941.png",
