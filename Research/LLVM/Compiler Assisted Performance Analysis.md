@@ -9,3 +9,5 @@ Supported in LLVM and currently only a small number of passes emit them (as of 2
 You can activate them through the `-Rpass` flag and they output in the compiler output as follows:
 ![[Pasted image 20241215112610.png]]
 
+For large programs, the output of `-Rpass` is too noisy and unstructured.
+
