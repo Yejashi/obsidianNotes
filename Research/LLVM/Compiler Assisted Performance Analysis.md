@@ -28,3 +28,5 @@ Then we use the opt-viewer command to output the HTML:
 opt-viewer.py foo.opt.yaml html
 ```
 
+![[Pasted image 20241215114102.png]]
+
