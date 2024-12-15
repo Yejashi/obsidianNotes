@@ -3,7 +3,6 @@ This consists of notes i have taken on the [2016 LLVM Developers’ Meeting: A. 
 Optimization diagnostics tell you which optimization happened, which didn't, and why not.
 
 ### Optimization Diagnostics in LLVM
-
 Supported in LLVM and currently only a small number of passes emit them (as of 2016).
 
 You can activate them through the `-Rpass` flag and they output in the compiler output as follows:
@@ -12,9 +11,20 @@ You can activate them through the `-Rpass` flag and they output in the compiler 
 For large programs, the output of `-Rpass` is too noisy and unstructured. On top of that, messages don't appear in any particular order.
 
 ### How can this information become accessible and actionable?
-
 The first consideration is to build on top of the existing optimization remarks (`-RPass` infrastructure)  but extended in two ways:
 - Add the new optimizations
 - Add ability to output remarks to a data file
 
 This will then be used to visualize the data in HTML.
+
+### Workflow
+The first step is to output the yaml files as follows:
+```bash
+clang -O3 -fsave-optimization-record -c foo.c
+```
+
+Then we use the opt-viewer command to output the HTML:
+```bash
+opt-viewer.py foo.opt.yaml html
+```
+
