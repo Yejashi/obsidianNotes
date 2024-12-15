@@ -37,4 +37,4 @@ There is a new **analysis-pass** called `OptimizationRemarkEmitter`:
 - Passes can use this analysis pass to emit optimization remarks.
 - This is done through an API call as shown above.
 
-The new API provides the old `-RPass` interface 
+The new API provides the old `-RPass` interface but in addition with `-fsave-optimization-record` 
