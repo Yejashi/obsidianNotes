@@ -4,3 +4,6 @@ Optimization diagnostics tell you which optimization happened, which didn't, and
 
 ### Optimization Diagnostics in LLVM
 
+Supported in LLVM and currently only a small number of passes emit them (as of 2016).
+
+
