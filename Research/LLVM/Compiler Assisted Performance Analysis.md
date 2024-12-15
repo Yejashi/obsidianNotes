@@ -33,3 +33,4 @@ opt-viewer.py foo.opt.yaml html
 ### Changes needed in LLVM
 ![[Pasted image 20241215115634.png]]
 
+There is a new **analysis-pass** called `OptimizationRemarkEmitter` 
