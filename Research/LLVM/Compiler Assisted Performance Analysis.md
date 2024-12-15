@@ -31,3 +31,5 @@ opt-viewer.py foo.opt.yaml html
 ![[Pasted image 20241215114102.png]]
 
 ### Changes needed in LLVM
+![[Pasted image 20241215115634.png]]
+
