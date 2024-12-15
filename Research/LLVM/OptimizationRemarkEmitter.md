@@ -2,4 +2,5 @@
 ### Purpose
 - Reports optimization-related diagnostics, including when optimizations succeed or fail.
 - Includes "hotness" information (derived from block frequency) if enabled via `DiagnosticsHotnessRequested` in the LLVM context.
-- 
+- Can be used to emit remarks dynamically without requiring an analysis pass.
+
