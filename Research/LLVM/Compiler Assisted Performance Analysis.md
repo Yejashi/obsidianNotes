@@ -1,0 +1,1 @@
+This consists of notes i have taken on the 
