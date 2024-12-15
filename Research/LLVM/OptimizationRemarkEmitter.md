@@ -6,4 +6,5 @@
 
 The primary constructor `OptimizationRemarkEmitter(const Function *F, BlockFrequencyInfo *BFI)`:
 - Associates the emitter with a specific function `F`.
-- 
+- Uses `BlockFrequencyInfo` (BFI) to determine the "hotness" of a code region, enabling more informative diagnostics.
+
