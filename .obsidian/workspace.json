@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
+                "file": "Research/LLVM/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adding Passes to a Pass Manager"
+              "title": "Untitled"
             }
           },
           {
@@ -203,8 +203,9 @@
   },
   "active": "89a2306f508ba08a",
   "lastOpenFiles": [
-    "C++/Callback.md",
     "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
+    "Research/LLVM/Untitled.md",
+    "C++/Callback.md",
     "Research/LLVM/Passes/Pass Manager/Pass Manager General.md",
     "Pass Manager.md",
     "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
@@ -237,7 +238,6 @@
     "Research/LLVM/Passes/Pass Manager",
     "Research/LLVM/Passes/General Passes.md",
     "Research/LLVM/Passes/Pass Instrumentation",
-    "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
     "C++",
     "Meta/Attachments/Pasted image 20241130215941.png",
     "Meta/Attachments/Pasted image 20241207085106.png",
