@@ -16,4 +16,5 @@ For large programs, the output of `-Rpass` is too noisy and unstructured. On top
 The first consideration is to build on top of the existing optimization remarks (`-RPass` infrastructure)  but extended in two ways:
 - Add the new optimizations
 - Add ability to output remarks to a data file
-- 
+
+This will then be used to visualize the data in HTML.
