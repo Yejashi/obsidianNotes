@@ -70,3 +70,7 @@ opt -O1 -load-pass-plugin ./lib/libhello_world_pass_instrumentation.so  -disable
 
 
 
+### Simple Pass Instrumentation approach
+
+#### LLVM
+1. Get 
