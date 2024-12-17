@@ -82,3 +82,56 @@ opt -O1 -load-pass-plugin ./lib/libhello_world_pass_instrumentation.so  -disable
 ### Dec 17 Meeting
 Read Dyninst paper
 
+### **Duplicate Symbols**
+
+- Unclear details. Need clarification on "rucfjks sad a".
+
+---
+
+### **Code Injection Based on Caliper Regions**
+
+1. **Objective**: Easier to perform code injection at compile time and runtime.
+2. **Steps**:
+    - **Compile Time**:
+        - Build a collection of attributes.
+        - Inject code into the program using a Clang pass.
+    - **Runtime**:
+        - As the program runs, the compiler receives remark information and injects relevant attributes into the source code dynamically.
+3. **Clang Pass**:
+    - Reads remark information.
+    - Injects `cali_set_attribute` calls into the source code with the relevant information.
+
+---
+
+### **Static Pass and Runtime Stitching**
+
+- **Compile Time**:
+    - Gather all relevant information using Caliper.
+    - Output this information in a structured format.
+- **Runtime**:
+    - A Caliper service checks annotations during program execution.
+    - Stitch together runtime attributes using the compile-time output.
+    - Update attributes in Caliper as needed.
+
+---
+
+### **Call Tree Challenges**
+
+- At compile time, there is no reliable way to determine the call tree.
+- **Solution**:
+    - Collect relevant remark information at compile time.
+    - Merge and refine this information at runtime.
+
+---
+
+### **Understanding HPCStruct in HPCToolkit**
+
+1. **Function**:
+    - Maps measured performance data to the corresponding source code locations.
+2. **Components**:
+    - **Dineinst**: Instrumentation and analysis tool.
+3. **Next Steps**:
+    - Read relevant papers on HPCStruct and Dineinst.
+    - Reuse Dineinst functionalities where applicable.
+
+---
