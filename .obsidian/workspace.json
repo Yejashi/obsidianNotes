@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Dynist/General.md",
+                "file": "Research/Dynist/Dyninst paper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General"
+              "title": "Dyninst paper"
             }
           }
         ],
@@ -219,10 +219,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7519f18c0de89fdb",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
     "Research/LLNL Project/TODO.md",
-    "Research/Dynist/General.md",
+    "Research/Dynist/Dyninst paper.md",
     "Research/Dynist",
     "Research/LLNL Project/Misc.md",
     "Research/LLNL Project/Roadblocks/Function Level Collection.md",
