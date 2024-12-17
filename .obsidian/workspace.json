@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLNL Project/TODO.md",
+                "file": "Research/Dynist/General.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "General"
             }
           }
         ],
@@ -219,12 +219,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "7519f18c0de89fdb",
   "lastOpenFiles": [
+    "Research/LLNL Project/TODO.md",
+    "Research/Dynist/General.md",
     "Research/Dynist",
     "Research/LLNL Project/Misc.md",
     "Research/LLNL Project/Roadblocks/Function Level Collection.md",
-    "Research/LLNL Project/TODO.md",
     "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Excalidraw",
@@ -265,7 +266,6 @@
     "Meta/Attachments/Pasted image 20241202074257.png",
     "Meta/Attachments/Pasted image 20241130220647.png",
     "Meta/Attachments/Pasted image 20241130215941.png",
-    "Meta/Attachments",
-    "Meta"
+    "Meta/Attachments"
   ]
 }
