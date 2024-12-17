@@ -80,13 +80,8 @@ opt -O1 -load-pass-plugin ./lib/libhello_world_pass_instrumentation.so  -disable
 
 
 ### Dec 17 Meeting
-Read Dyninst paper
+#### Read Dyninst paper
 
-### **Duplicate Symbols**
-
-- Unclear details. Need clarification on "rucfjks sad a".
-
----
 
 ### **Code Injection Based on Caliper Regions**
 
