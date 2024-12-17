@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLNL Project/Misc.md",
+                "file": "Research/LLNL Project/TODO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Misc"
+              "title": "TODO"
             }
           }
         ],
@@ -221,9 +221,9 @@
   },
   "active": "7519f18c0de89fdb",
   "lastOpenFiles": [
+    "Research/LLNL Project/Misc.md",
     "Research/LLNL Project/Roadblocks/Function Level Collection.md",
     "Research/LLNL Project/TODO.md",
-    "Research/LLNL Project/Misc.md",
     "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Excalidraw",
