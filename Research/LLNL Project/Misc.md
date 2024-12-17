@@ -68,3 +68,12 @@ Apply the pass to the LLVM IR
 opt -O1 -load-pass-plugin ./lib/libhello_world_pass_instrumentation.so  -disable-output test_1.ll
 ```
 
+
+
+### Simple Pass Instrumentation approach
+
+#### LLVM
+1. Get the name of every pass.
+2. Get the line number of every pass.
+3. Get the function the pass is called in.
+4. Get whether the pass succeded.
