@@ -53,12 +53,14 @@
             "id": "7519f18c0de89fdb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md"
+                "file": "Research/LLNL Project/Misc.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-12-17 16.06.28.excalidraw"
+              "icon": "lucide-file",
+              "title": "Misc"
             }
           }
         ],
@@ -219,8 +221,8 @@
   },
   "active": "7519f18c0de89fdb",
   "lastOpenFiles": [
-    "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
+    "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Excalidraw",
     "C++/Extern.md",
     "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",

@@ -77,3 +77,8 @@ opt -O1 -load-pass-plugin ./lib/libhello_world_pass_instrumentation.so  -disable
 2. Get the line number of every pass.
 3. Get the function the pass is called in.
 4. Get whether the pass succeded.
+
+
+### Dec 17 Meeting
+Read Dyninst paper
+
