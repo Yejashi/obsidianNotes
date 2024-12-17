@@ -80,7 +80,8 @@ opt -O1 -load-pass-plugin ./lib/libhello_world_pass_instrumentation.so  -disable
 
 
 ### Dec 17 Meeting
-#### Read Dyninst paper
+#### Read Dyninst paper: [Link](https://dl.acm.org/doi/pdf/10.1145/2024569.2024572)
+
 
 
 ### **Code Injection Based on Caliper Regions**
