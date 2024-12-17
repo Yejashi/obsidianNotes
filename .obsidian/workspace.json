@@ -215,11 +215,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7519f18c0de89fdb",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Research/Dynist",
     "Research/LLNL Project/Misc.md",
     "Research/LLNL Project/Roadblocks/Function Level Collection.md",
     "Research/LLNL Project/TODO.md",
@@ -250,7 +252,6 @@
     "Research/LLVM/General.md",
     "Class/Fall 2024/COSC530/Final Exam Review.md",
     "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
-    "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
     "Research/LLVM/Passes/Writing an LLVM Pass",
     "Research/LLVM/Passes/Pass Manager",
     "Research/LLVM/Passes/Pass Instrumentation",
