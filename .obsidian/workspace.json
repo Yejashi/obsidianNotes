@@ -216,8 +216,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8590990c47f8ec0f",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Research/Papers",
     "Research/LLNL Project/TODO.md",
     "Research/Dynist/Dyninst paper.md",
     "Research/Dynist",
@@ -254,7 +255,6 @@
     "C++/Lambda Functions.md",
     "Research/LLNL Project/Roadblocks",
     "Research/LLNL Project/Misc.md",
-    "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
     "Research/LLVM/Passes/Writing an LLVM Pass",
     "Research/LLVM/Passes/Pass Manager",
     "Research/LLVM/Passes/Pass Instrumentation",
