@@ -1,0 +1,3 @@
+- Read [Dyninst Paper](https://dl.acm.org/doi/pdf/10.1145/2024569.2024572)
+- Read [HPCToolkit Paper](https://www.cs.rice.edu/~johnmc/papers/hpctoolkit-nlplss-2008.pdf)
+- 

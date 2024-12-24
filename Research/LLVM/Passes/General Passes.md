@@ -43,7 +43,7 @@ There are three main ways to create custom passes in LLVM:
 3. Analysis Passes: These are typically used to gather data about the IR (e.g., tracking the number of times a particular transformation occurs).
 
 
-### Pass Manager
+### [[Pass Manager]]
 LLVM passes are managed through a Pass Manager.
 
 It organizes and runs passes in the correct order. Passes in LLVM are usually run in a pipeline, where each pass takes the output of the previous one and modifies it further.
