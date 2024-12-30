@@ -182,10 +182,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "Research/LLVM/OptimizationRemarkEmitter.md",
+    "Research/Benchpark",
     "conflict-files-obsidian-git.md",
+    "Research/LLVM/OptimizationRemarkEmitter.md",
     "Research/Dynist/Dyninst paper.md",
     "Research/Papers/Dynist/Dyninst paper.md",
     "Research/Papers/Dynist",
@@ -221,7 +222,6 @@
     "Class/Fall 2024/COSC530",
     "Class/Fall 2024",
     "Class",
-    "C++/Lambda Functions.md",
     "Research/LLNL Project/Roadblocks",
     "Research/LLVM/Passes/Writing an LLVM Pass",
     "Meta/Attachments/Pasted image 20241130215941.png",
