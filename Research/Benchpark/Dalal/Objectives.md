@@ -1,0 +1,1 @@
+Generate data for dalal that she cal use in her model. She wants at least 1000x1000 points

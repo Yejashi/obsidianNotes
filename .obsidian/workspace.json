@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Benchpark/Dalal/Untitled.md",
+                "file": "Research/Benchpark/Dalal/Objectives.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Objectives"
             }
           }
         ]
@@ -188,7 +188,7 @@
   },
   "active": "5c093d533ca5feb1",
   "lastOpenFiles": [
-    "Research/Benchpark/Dalal/Untitled.md",
+    "Research/Benchpark/Dalal/Objectives.md",
     "Research/Benchpark/Dalal",
     "Research/Benchpark",
     "conflict-files-obsidian-git.md",
