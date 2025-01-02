@@ -63,7 +63,8 @@ Why is this better?
 
 Dyninst allows users to insert, remove, or modify instrumentation at any time in the execution continuum: pre-execution (binary rewriting), before code has executed for the first time, r while the instrumented code is currently executing (dynamic instrumentation).
 
-Dyninst imposes proportional cost by imposing overhead only when instrumented code is executed; furthermore, removing instrumentation also removes its cost
+Dyninst imposes **proportional cost** by imposing overhead only when instrumented code is executed; furthermore, removing instrumentation also removes its cost
+
 
 
 
