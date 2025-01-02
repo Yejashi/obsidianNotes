@@ -51,5 +51,5 @@ Binary instrumentation is a technique that modifies a binary program, either pre
 Dyninst distinguishes itself from other instrumenters through its **abstract interface**; its emphasis on **anywhere, any-time (AWAT)** instrumentation; and its low overhead that is **proportional to the number of instrumented locations**. 
 
 Other binary instrumentation approaches allow users to insert instrumentation at instructions or specific types of control flow edges.
-- Dyninst allows instumentation at **functions**, **loops**, and **basic blocks** (units of code with a single entry and exit point).
+- Dyninst allows instumentation at **functions**, **loops**, and **basic blocks**.
 
