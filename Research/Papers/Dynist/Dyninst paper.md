@@ -57,7 +57,7 @@ Why is this better?
 - Instrumenting instructions or edges is not sufficient to capture program behavior based on structural characteristics such as functions or loops.
 - Consider the case of instrumenting the entry of a function; such instrumentation should execute only once per function call.
 	- Other binary instrumenters do not directly support instrumenting function entries; instead, users instead instrument the first instruction in the function.
-	- 
+	- However, the first instruction of functions with no preamble code may be executed multiple times per function invocation.
 
 
 
