@@ -29,7 +29,7 @@ or lower overhead than other widely used instrumenters.
 ```
 
 **Key Features of Dyninst**
-- o
+- 
 
 
 
