@@ -39,7 +39,10 @@ or lower overhead than other widely used instrumenters.
 
 **Graph Transformations**
 - Dyninst uses advanced **graph transformation techniques** to ensure that the inserted instrumentation works as expected.
-- This reliability extends to handling highly optimized or even **malicious code** that other tools might struggle to instrument correctly.
 
+**Static and Dynamic Instrumentation**
+- **Static Instrumentation**: Modifies the binary before execution (binary rewriting).
+- **Dynamic Instrumentation**: Adds or changes instrumentation while the program is running.
+- Dyninst allows users to modify or remove instrumentation dynamically, with changes taking effect immediately.
 
 
