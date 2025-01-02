@@ -61,7 +61,8 @@ Why is this better?
 	- Therefore, such instrumentation would execute multiple times per invocation.
 - This problem is addressed by allowing users to specify instrumentation locations in terms of the control flow graph (CFG) in addition to at the instruction level. 
 
-Dyninst allows users to insert, remove, or modify instrumentation at any time in the execution continuum: 
+Dyninst allows users to insert, remove, or modify instrumentation at any time in the execution continuum: pre-execution, efore code has executed for
+the first time, 
 
 
 
