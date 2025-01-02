@@ -78,3 +78,5 @@ Two challenges:
 - We must map reasonable program abstractions onto code that may have been highly transformed due to optimization or obfuscation.
 - We must regenerate instrumented code from the instrumented CFG that both preserves the behavior of the original code and executes instrumentation when the user specifies
 
+We begin by defining the basic CFG abstractions used by Dyninst, including functions, loops, basic blocks, and the instrumentation points that are used to specify where instrumentation is inserted.
+
