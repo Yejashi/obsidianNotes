@@ -85,4 +85,5 @@ Our CFG is based on five abstractions: the **inter-procedural control flow graph
 
 We also define instrumentation points (or instpoints) for each of these abstractions, which identify locations where instrumentation can be inserted, and code snippets, which represent the inserted instrumentation code.
 
+An instpoint is a simple abstraction; when the point is reached during execution, the instrumentation at that point executes. 
 
