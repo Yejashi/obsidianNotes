@@ -33,7 +33,8 @@ or lower overhead than other widely used instrumenters.
 - **Anywhere, Any-Time Instrumentation**: It can add or modify instrumentation (additional code to analyze or monitor a program) at virtually any point in a program's execution life cycle.
 - **Low Overhead**: The performance impact is proportional to the amount of instrumentation added, meaning uninstrumented parts of the program run at native speed.
 
-
+**Program Representation**
+- Dyninst represents a program in terms of familiar structures like **functions**, **loops**, and **basic blocks** (units of code with a single entry and exit point).
 
 
 
