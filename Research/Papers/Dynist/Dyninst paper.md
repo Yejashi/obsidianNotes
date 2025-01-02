@@ -70,4 +70,4 @@ Binary instrumenters rely on a technique we call **relocation** to insert both i
 - As a result of this transformation the relocated code frequently executes slower than the original.
 
 
-
+### Anywhere Instrumentation
