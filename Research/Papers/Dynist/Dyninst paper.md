@@ -83,5 +83,6 @@ We begin by defining the basic CFG abstractions used by Dyninst, including **fun
 
 Our CFG is based on five abstractions: the **inter-procedural control flow graph** (consisting of **basic blocks** and **edges**), **functions**, and **loops**.
 
+We also define instrumentation points (or instpoints) for each of these abstractions, which identify locations where instrumentation can be inserted, and code snippets, which represent the inserted instrumentation code.
 
 
