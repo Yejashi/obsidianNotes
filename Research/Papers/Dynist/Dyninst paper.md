@@ -74,4 +74,5 @@ Binary instrumenters rely on a technique we call **relocation** to insert both i
 
 The control flow graph (CFG) is a familiar representation of the structural elements in a program (e.g., functions, loops, and basic blocks) and the relationships between them.
 
-
+Two challenges:
+- 
