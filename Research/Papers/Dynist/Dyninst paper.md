@@ -29,7 +29,8 @@ or lower overhead than other widely used instrumenters.
 ```
 
 **Key Features of Dyninst**
-- 
+- **Abstract, Machine-Independent Interface**: Unlike tools tied to specific architectures, Dyninst offers a general interface that works across various machine types.
+- **Anywhere, Any-Time Instrumentation**: It can add or modify instrumentation (additional code to analyze or monitor a program) at virtually any point in a program's execution life cycle.
 
 
 
