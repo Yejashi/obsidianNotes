@@ -39,6 +39,7 @@ or lower overhead than other widely used instrumenters.
 
 **Graph Transformations**
 - Dyninst uses advanced **graph transformation techniques** to ensure that the inserted instrumentation works as expected.
+- This reliability extends to handling highly optimized or even **malicious code** that other tools might struggle to instrument correctly.
 
 
 
