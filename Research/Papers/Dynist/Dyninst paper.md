@@ -76,4 +76,5 @@ The control flow graph (CFG) is a familiar representation of the structural elem
 
 Two challenges:
 - We must map reasonable program abstractions onto code that may have been highly transformed due to optimization or obfuscation.
-- 
+- We must regenerate instrumented code from the instrumented CFG that both preserves the behavior of the original code and executes instrumentation when the user specifies
+
