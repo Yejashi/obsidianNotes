@@ -46,6 +46,7 @@ or lower overhead than other widely used instrumenters.
 - Dyninst allows users to modify or remove instrumentation dynamically, with changes taking effect immediately.
 
 ### Introduction
+Binary instrumentation is a technique that modifies a binary program, either pre-execution or during execution.
 
 
 
