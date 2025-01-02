@@ -65,7 +65,7 @@ Dyninst allows users to insert, remove, or modify instrumentation at any time in
 
 Dyninst imposes **proportional cost** by imposing overhead only when instrumented code is executed; furthermore, removing instrumentation also removes its cost
 
-Binary instrumenters rely on a technique we call relocation to insert both instrumentation and any additional infrastructure code the instrumenter requires.
+Binary instrumenters rely on a technique we call **relocation** to insert both instrumentation and any additional infrastructure code the instrumenter requires.
 - 
 
 
