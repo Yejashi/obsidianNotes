@@ -37,5 +37,8 @@ or lower overhead than other widely used instrumenters.
 - Dyninst represents a program in terms of familiar structures like **functions**, **loops**, and **basic blocks** (units of code with a single entry and exit point).
 - Users can interact with these structures to insert or modify instrumentation code.
 
+**Graph Transformations**
+- Dyninst uses advanced **graph transformation techniques** to ensure that the inserted instrumentation works as expected.
+
 
 
