@@ -53,7 +53,9 @@ Dyninst distinguishes itself from other instrumenters through its **abstract int
 Other binary instrumentation approaches allow users to insert instrumentation at instructions or specific types of control flow edges.
 - Dyninst allows instrumentation at **functions**, **loops**, and **basic blocks**.
 
-
+Why is this better?
+- Instrumenting instructions or edges is not sufficient to capture program behavior based on structural characteristics such as functions or loops.
+- 
 
 
 
