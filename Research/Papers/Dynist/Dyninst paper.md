@@ -67,6 +67,7 @@ Dyninst imposes **proportional cost** by imposing overhead only when instrumente
 
 Binary instrumenters rely on a technique we call **relocation** to insert both instrumentation and any additional infrastructure code the instrumenter requires.
 - Relocation moves code to a new location where it can be expanded to include new code (instrumentation and analysis code) and transforms it to preserve its original behavior.
+- As a result of this transformation the relocated code frequently executes slower than the original.
 
 
 
