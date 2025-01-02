@@ -48,5 +48,7 @@ or lower overhead than other widely used instrumenters.
 ### Introduction
 Binary instrumentation is a technique that modifies a binary program, either pre-execution or during execution.
 
-Dyninst distinguishes itself from other instrumenters through its **abstract interface**; its emphasis on **anywhere, any-time (AWAT)** instrumentation; and its low overhead that is proportional to the number of instrumented locations. 
+Dyninst distinguishes itself from other instrumenters through its **abstract interface**; its emphasis on **anywhere, any-time (AWAT)** instrumentation; and its low overhead that is **proportional to the number of instrumented locations**. 
+
+
 
