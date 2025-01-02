@@ -56,6 +56,8 @@ Other binary instrumentation approaches allow users to insert instrumentation at
 Why is this better?
 - Instrumenting instructions or edges is not sufficient to capture program behavior based on structural characteristics such as functions or loops.
 - Consider the case of instrumenting the entry of a function; such instrumentation should execute only once per function call.
+	- Other binary instrumenters do not directly support instrumenting function entries; instead, users instead instrument the first instruction in the function.
+	- 
 
 
 
