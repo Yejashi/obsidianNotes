@@ -28,6 +28,5 @@ provide this collection of capabilities while imposing similar
 or lower overhead than other widely used instrumenters.
 ```
 
-#### Summary
 
 
