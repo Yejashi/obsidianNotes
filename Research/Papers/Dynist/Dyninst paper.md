@@ -59,7 +59,9 @@ Why is this better?
 	- Other binary instrumenters do not directly support instrumenting function entries; instead, users instead instrument the first instruction in the function.
 	- However, the first instruction of functions with no preamble code may be executed multiple times per function invocation.
 	- Therefore, such instrumentation would execute multiple times per invocation.
-- This problem is addressed by 
+- This problem is addressed by allowing users to specify instrumentation locations in terms of the control flow graph (CFG) in addition to at the instruction level. 
+
+
 
 
 
