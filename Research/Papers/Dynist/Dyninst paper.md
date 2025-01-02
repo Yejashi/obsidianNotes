@@ -79,6 +79,6 @@ Two challenges:
 - We must regenerate instrumented code from the instrumented CFG that both preserves the behavior of the original code and executes instrumentation when the user specifies
 
 We begin by defining the basic CFG abstractions used by Dyninst, including **functions**, **loops**, **basic blocks**, and the **instrumentation points** that are used to specify where instrumentation is inserted.
-
+#### Control Flow Abstractions
 
 
