@@ -167,6 +167,6 @@ Once a region of code has been relocated, the instrumenter must ensure it is exe
 
 Patch-based instrumentation operates in three phases:
 - **Selection Phase**: selects the code that will be relocated and patched; we refer to this code as the selected code.
-- 
+- **Relocation Phase:** 
 
 
