@@ -91,6 +91,7 @@ An instpoint is a simple abstraction; when the point is reached during execution
 We define two classes of instpoints; **augmentation** and **transformation** instpoints.
 - An **augmentation instpoint**, such as pre-instruction or block entry, adds additional code to an existing basic block rather than transforming the CFG. 
 - **Transformation instpoints**, (e.g., function entry or edge instpoints) insert instrumentation by adding new blocks and edges to the CFG.
+	- We define the following transformation 
 
 Edges are labeled with an edge type.
 
