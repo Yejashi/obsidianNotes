@@ -175,5 +175,5 @@ Patch-based instrumentation operates in three phases:
 #### State Interception and Iterative Instrumentation
 The patch-based algorithm as described above has two weaknesses.
 - First, it does not support instrumenting programs that are executing inside the selected region, since it only inserts interception branches at the boundaries of this region.
-
+- 
 
