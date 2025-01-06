@@ -184,3 +184,5 @@ We present two techniques, **state interception** and **iterative instrumentatio
 - State Interception:
 	- This involves modifying the state of a program while it is running, specifically moving the program's execution from the current point to a predetermined location in the instrumentation code.
 	- This is done by directly changing the execution context of the program's threads instead of adding a conditional branch instruction.
+- Iterative Instrumentation:
+	- 
