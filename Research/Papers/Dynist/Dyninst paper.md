@@ -145,3 +145,5 @@ We then use this graph to generate the actual instrumented code. This requires t
 The first two are performed with standard compiler techniques.
 
 ### Any Time Instrumentation
+The CFG-based instrumentation technique discussed in the previous section generates instrumented code.
+
