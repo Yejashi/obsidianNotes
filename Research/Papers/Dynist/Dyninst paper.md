@@ -162,6 +162,7 @@ Instead, instrumenters create a copy of this code that is instrumented and then 
 - Relocating a region of code produces a new version that emulates the behavior of the original code, but contains sufficient space to insert instrumentation.
 
 Once a region of code has been relocated, the instrumenter must ensure it is executed in place of the original code. This is done with one of two methods:
-- **Path-Based Instrumentation** 
+- **Path-Based Instrumentation** overwrites the original code with interception branches to the relocated code.
+- 
 
 
