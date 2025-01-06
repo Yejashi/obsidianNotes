@@ -129,6 +129,7 @@ The final step required for anywhere instrumentation is to generate new code fro
 
 The annotations represented by instpoints cannot be directly used to generate code. 
 
-Instead, we first construct an augmented CFG that represents the instrumented code, and this augmented CFG is then used to generate the new instrumented binary code.
+Instead, we first construct an **augmented CFG** that represents the instrumented code, and this augmented CFG is then used to generate the new instrumented binary code.
+
 
 
