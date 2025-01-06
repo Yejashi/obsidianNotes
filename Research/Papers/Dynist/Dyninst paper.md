@@ -149,4 +149,5 @@ The CFG-based instrumentation technique discussed in the previous section genera
 
 In this section, we discuss how we insert this instrumented code into the binary at any time during execution while imposing proportional cost. 
 
-Current patch-based instrumenters impose proportional cost, but are not capable of instrumenting at any time because they cannot insert or modify actively executing code
+Current patch-based instrumenters impose proportional cost, but are not capable of instrumenting at any time because they cannot insert or modify actively executing code.
+
