@@ -87,3 +87,4 @@ We also define instrumentation points (or instpoints) for each of these abstract
 
 An instpoint is a simple abstraction; when the point is reached during execution, the instrumentation at that point executes. 
 
+Edges are labeled with an edge type.
