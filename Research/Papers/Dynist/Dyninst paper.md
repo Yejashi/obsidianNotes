@@ -93,4 +93,4 @@ We define the following types: direct, fallthrough, conditional taken, condition
 
 An edge is interprocedural if it **leaves a function** and intraprocedural otherwise.
 
-We define a function as the blocks reachable from an entry block traversing only intraprocedural edges. 
+We define a **function** as the blocks reachable from an entry block traversing **only intraprocedural edges**. 
