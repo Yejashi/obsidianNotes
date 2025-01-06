@@ -92,3 +92,4 @@ Edges are labeled with an edge type.
 We define the following types: direct, fallthrough, conditional taken, conditional not taken, indirect, call, call fallthrough, and return, where call fallthrough edges link blocks ending with calls to their intraprocedural successors. 
 
 An edge is interprocedural if it **leaves a function** and intraprocedural otherwise.
+
