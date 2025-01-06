@@ -96,4 +96,4 @@ An edge is interprocedural if it **leaves a function** and intraprocedural other
 We define a **function** as the blocks reachable from an entry block traversing **only intraprocedural edges**. 
 
 We use **natural loops** for our loop definition.
-- Natural loops 
+- Natural loops are defined based on back edges and the dominance relationship between basic blocks.
