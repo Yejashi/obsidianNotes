@@ -120,5 +120,6 @@ Overlapping basic blocks occur when the same sequence of bytes disassembles to t
     do_work2();
 }```
 
+Overlapping functions occur when multiple functions include the same basic block.
 
 
