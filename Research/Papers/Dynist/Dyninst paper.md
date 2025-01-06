@@ -135,3 +135,7 @@ We generate the augmented CFG in two steps:
 - First, we use block cloning to convert all instrumented block aliases to actual blocks, which eliminates sharing of instrumented code.
 - Second, we apply the appropriate graph transformation rule for each instpoint to insert the appropriate code snippets into the graph.
 
+The resulting augmented CFG is used to generate code with standard code generation techniques.
+
+
+
