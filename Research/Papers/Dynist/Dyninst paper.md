@@ -110,5 +110,5 @@ There are some code structures common in binaries that can complicate the mappin
 
 We handle two cases: **Overlapping Basic Blocks** and **Overlapping Function**
 
-Overlapping basic blocks occur when the same sequence of bytes disassembles to two distinct instruction sequences, both of which may be executed by the program
+Overlapping basic blocks occur when the same sequence of bytes disassembles to two distinct instruction sequences, both of which may be executed by the program.
 
