@@ -122,5 +122,5 @@ Overlapping basic blocks occur when the same sequence of bytes disassembles to t
 
 Overlapping functions occur when multiple functions include the same basic block. We represent this sharing in our interprocedural CFG, but hide it at the function layer by using block aliases.
 
-
+A block alias represents a shared block in the context of one particular function, and any analysis or instrumentation performed on the alias is restricted to that function.
 
