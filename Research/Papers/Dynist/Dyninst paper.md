@@ -147,3 +147,5 @@ The first two are performed with standard compiler techniques.
 ### Any Time Instrumentation
 The CFG-based instrumentation technique discussed in the previous section generates instrumented code.
 
+In this section, we discuss how we insert this instrumented code into the binary at any time during execution while imposing proportional cost. 
+
