@@ -89,7 +89,7 @@ An instpoint is a simple abstraction; when the point is reached during execution
 - An instpoint is an annotation of a subgraph of the CFG.
 
 We define two classes of instpoints; **augmentation** and **transformation** instpoints.
-- 
+- An **augmentation instpoint**, such as pre-instruction or block entry, adds additional code to an existing basic block rather than transforming the CFG. 
 
 Edges are labeled with an edge type.
 
