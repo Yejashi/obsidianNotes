@@ -113,6 +113,11 @@ We handle two cases: **Overlapping Basic Blocks** and **Overlapping Function**
 Overlapping basic blocks occur when the same sequence of bytes disassembles to two distinct instruction sequences, both of which may be executed by the program.
 - Overlapping basic blocks in the context of control flow graphs (CFGs) occur when a basic block belongs to multiple regions or structures, such as multiple loops. 
 - This situation typically arises in nested or overlapping control structures in the source code, where the same block can serve different roles in different contexts.
-- ```
-```
+- ```while (condition1) {
+    if (condition2) {
+        do_work1();
+    }
+    do_work2();
+}```
+
 
