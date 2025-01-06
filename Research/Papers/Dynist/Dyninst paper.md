@@ -156,3 +156,5 @@ We describe two new techniques that address this lack:
 - **Iterative Instrumentation:** provides the ability to modify or remove instrumentation at any point during execution.
 
 #### Instrumentation Overview
+Binaries rarely include sufficient space to insert instrumentation without moving original code. 
+
