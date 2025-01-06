@@ -137,5 +137,6 @@ We generate the augmented CFG in two steps:
 
 The resulting augmented CFG is used to generate code with standard code generation techniques.
 
-
+We then use this graph to generate the actual instrumented code. This requires three things:
+- 
 
