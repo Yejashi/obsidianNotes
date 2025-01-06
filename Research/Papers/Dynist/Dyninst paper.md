@@ -88,6 +88,8 @@ We also define instrumentation points (or instpoints) for each of these abstract
 An instpoint is a simple abstraction; when the point is reached during execution, the instrumentation at that point executes. 
 - An instpoint is an annotation of a subgraph of the CFG.
 
+We define two classes of instpoints; augmentation and transformation instpoints.
+
 Edges are labeled with an edge type.
 
 We define the following types: direct, fallthrough, conditional taken, conditional not taken, indirect, call, call fallthrough, and return, where call fallthrough edges link blocks ending with calls to their intraprocedural successors. 
