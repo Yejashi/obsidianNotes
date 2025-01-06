@@ -132,5 +132,5 @@ The annotations represented by instpoints cannot be directly used to generate co
 Instead, we first construct an **augmented CFG** that represents the instrumented code, and this augmented CFG is then used to generate the new instrumented binary code.
 
 We generate the augmented CFG in two steps:
-- 
+- First, we use block cloning to convert all instrumented block aliases to actual blocks, which eliminates sharing of instrumented code.
 
