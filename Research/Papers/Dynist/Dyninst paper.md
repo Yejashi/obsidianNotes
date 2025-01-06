@@ -151,3 +151,5 @@ In this section, we discuss how we insert this instrumented code into the binary
 
 Current patch-based instrumenters impose proportional cost, but are not capable of instrumenting at any time because they cannot insert or modify actively executing code.
 
+We describe two new techniques that address this lack:
+- **State interception:** 
