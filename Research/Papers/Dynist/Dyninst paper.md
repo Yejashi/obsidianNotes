@@ -163,6 +163,6 @@ Instead, instrumenters create a copy of this code that is instrumented and then 
 
 Once a region of code has been relocated, the instrumenter must ensure it is executed in place of the original code. This is done with one of two methods:
 - **Path-Based Instrumentation** overwrites the original code with interception branches to the relocated code.
-- **JIT Instrumentation** 
+- **JIT Instrumentation** instead relocates all code as it is executed. This approach does not modify original code 
 
 
