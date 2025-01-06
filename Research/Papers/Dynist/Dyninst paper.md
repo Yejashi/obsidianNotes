@@ -165,6 +165,7 @@ Once a region of code has been relocated, the instrumenter must ensure it is exe
 - **Path-Based Instrumentation** overwrites the original code with interception branches to the relocated code.
 - **JIT Instrumentation** instead relocates all code as it is executed. This approach does not modify original code but imposes relocation overhead on all code rather than just instrumented code, and thus **does not impose proportional cost**.
 
-
+Patch-based instrumentation operates in three phases:
+- **Selection Phase**: 
 
 
