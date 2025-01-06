@@ -105,3 +105,4 @@ We use **natural loops** for our loop definition.
 - A natural loop is the set of basic blocks that form a cycle in the CFG, with a specific entry point called the **loop header**.
 - Natural loops are defined based on back edges and the dominance relationship between basic blocks.
 
+#### Complicating Cases
