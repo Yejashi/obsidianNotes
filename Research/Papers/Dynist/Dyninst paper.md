@@ -106,3 +106,6 @@ We use **natural loops** for our loop definition.
 - Natural loops are defined based on back edges and the dominance relationship between basic blocks.
 
 #### Complicating Cases
+There are some code structures common in binaries that can complicate the mapping of control flow abstractions onto the binary code. Dyninst aims to hide these complexities as much as possible from the user.
+
+We handle two cases: **Overlapping Basic Blocks** and **Overlapping Function**
