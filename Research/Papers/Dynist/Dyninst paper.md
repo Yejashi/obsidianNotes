@@ -109,4 +109,6 @@ We use **natural loops** for our loop definition.
 There are some code structures common in binaries that can complicate the mapping of control flow abstractions onto the binary code. Dyninst aims to hide these complexities as much as possible from the user.
 
 We handle two cases: **Overlapping Basic Blocks** and **Overlapping Function**
-- Overlapping basic blocks occur when the same sequence of bytes disassembles to two distinct instruction sequences, both of which may be executed by the program
+
+Overlapping basic blocks occur when the same sequence of bytes disassembles to two distinct instruction sequences, both of which may be executed by the program
+
