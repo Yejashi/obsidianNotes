@@ -186,4 +186,7 @@ We present two techniques, **state interception** and **iterative instrumentatio
 	- This is done by directly changing the execution context of the program's threads instead of adding a conditional branch instruction.
 - Iterative Instrumentation:
 	- Iterative instrumentation allows a user to further instrument previously instrumented code or remove instrumentation at any time.
-	- 
+	- Three Step Process:
+		- Generate a New Version of Instrumentation by applying a patch based algorithm.
+		- Redirect to the New Version by 
+		- 
