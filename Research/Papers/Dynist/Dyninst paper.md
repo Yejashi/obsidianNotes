@@ -125,5 +125,6 @@ Overlapping functions occur when multiple functions include the same basic block
 A block alias represents a shared block in the context of one particular function, and any analysis or instrumentation performed on the alias is restricted to that function.
 
 #### Generating Instrumented Code
+The final step required for anywhere instrumentation is to generate new code from the instrumented CFG.
 
 
