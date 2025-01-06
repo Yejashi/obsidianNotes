@@ -180,3 +180,5 @@ The patch-based algorithm as described above has two weaknesses.
 	- Once instrumentation is applied and the program is running in the instrumented region, the patch-based algorithm struggles to make further changes to the instrumentation.
 	- This is because modifying instrumentation mid-execution can cause conflicts, such as disrupting the program’s state or flow.
 
+
+
