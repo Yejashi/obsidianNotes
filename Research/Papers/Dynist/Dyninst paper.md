@@ -169,6 +169,8 @@ Patch-based instrumentation operates in three phases:
 - **Selection Phase**: selects the code that will be relocated and patched; we refer to this code as the selected code.
 - **Relocation Phase:** creates a copy of the code selected in the previous phase; we then use the techniques described in Section 2 to add instrumentation to this region and copy the resulting code into the binary
 - **Patching Phase:** patches the binary with interception branches that will jump from the selected region to the relocated region.
-- 
+	- Redirect execution from the original code to the relocated and instrumented code
+
+
 
 
