@@ -139,4 +139,5 @@ The resulting augmented CFG is used to generate code with standard code generati
 
 We then use this graph to generate the actual instrumented code. This requires three things:
 - Compiling instrumentation requests into binary code
+- Updating original and adding additional control flow instructions to ensure the newly generated code matches the CFG
 - 
