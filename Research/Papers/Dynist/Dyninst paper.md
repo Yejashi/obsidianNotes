@@ -158,3 +158,5 @@ We describe two new techniques that address this lack:
 #### Instrumentation Overview
 Binaries rarely include sufficient space to insert instrumentation without moving original code. 
 
+Instead, instrumenters create a copy of this code that is instrumented and then execute the copied code in place of the original.
+
