@@ -189,4 +189,4 @@ We present two techniques, **state interception** and **iterative instrumentatio
 	- Three Step Process:
 		- Generate a New Version of Instrumentation by applying a patch based algorithm.
 		- Redirect to the New Version by patching all previous versions of instrumentation code with interception branches pointing to the new version.
-		- Transfer active execution by using state interception 
+		- Transfer active execution by using state interception to transfer any actively executing threads in older instrumentation versions directly to the latest one.
