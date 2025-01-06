@@ -127,4 +127,5 @@ A block alias represents a shared block in the context of one particular functio
 #### Generating Instrumented Code
 The final step required for anywhere instrumentation is to generate new code from the instrumented CFG.
 
+The annotations represented by instpoints cannot be directly used to generate code. 
 
