@@ -182,4 +182,4 @@ The patch-based algorithm as described above has two weaknesses.
 
 We present two techniques, **state interception** and **iterative instrumentation**, that address these problems.
 - State Interception:
-	- 
+	- This involves modifying the state of a program while it is running, specifically moving the program's execution from the current point to a predetermined location in the instrumentation code.
