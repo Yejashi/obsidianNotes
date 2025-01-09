@@ -21,3 +21,6 @@ have adjust size correctly
 1:05
 n problem size * n
 
+Ranks with 1 thread per rank 
+
+From rank to 
