@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Papers/Dynist/Dyninst paper.md",
+                "file": "Research/Benchpark/Dalal/Objectives.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dyninst paper"
+              "title": "Objectives"
             }
           }
         ],
@@ -218,8 +218,8 @@
   },
   "active": "3a60db01eaa22288",
   "lastOpenFiles": [
-    "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Research/Papers/Dynist/Dyninst paper.md",
+    "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
     "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
     "Research/Benchpark/Dalal/Objectives.md",
