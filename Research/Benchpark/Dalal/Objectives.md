@@ -15,3 +15,9 @@ measure run time, io, mem band
 
 ### RAJAPerf
 
+fromn ranks with 1 threead pe4r rank 1 rank fromn ranks
+1:05
+have adjust size correctly
+1:05
+n problem size * n
+
