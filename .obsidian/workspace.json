@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms/Table of Contents.md",
+                "file": "Class/Spring 2025/Algorithms/Waypoint.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Table of Contents"
+              "title": "Waypoint"
             }
           }
         ]
@@ -180,7 +180,7 @@
   "active": "a43d82e5c8b041ec",
   "lastOpenFiles": [
     "Research/LLNL Project/Objectives.md",
-    "Class/Spring 2025/Algorithms/Table of Contents.md",
+    "Class/Spring 2025/Algorithms/Waypoint.md",
     "Class/Spring 2025/Algorithms",
     "Class/Spring 2025",
     "conflict-files-obsidian-git.md",
