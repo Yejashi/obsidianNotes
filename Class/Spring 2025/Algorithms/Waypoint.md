@@ -4,7 +4,8 @@
 
 ### Class Setup
 #### Grade Breakdown
-
+- **35%** Exam (Feb 18)
+- **35%** Exam 2 (April 1)
 
 
 ## Table of Contents
