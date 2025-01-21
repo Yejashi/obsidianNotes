@@ -8,6 +8,10 @@
 - **15%** Homework
 - **15%** Project
 
+### TODO
+1. Read Chapter 1
+2. Read Chapter 2
+
 ## Table of Contents
 
 #### Chapter 1: The Role of Algorithms in Computing
