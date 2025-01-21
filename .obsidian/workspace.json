@@ -20,6 +20,16 @@
               "icon": "lucide-file",
               "title": "Waypoint"
             }
+          },
+          {
+            "id": "89147092f95362db",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ]
       }
@@ -179,8 +189,9 @@
   },
   "active": "a43d82e5c8b041ec",
   "lastOpenFiles": [
-    "Research/LLNL Project/Objectives.md",
     "Class/Spring 2025/Algorithms/Waypoint.md",
+    "C++/Linkage.md",
+    "Research/LLNL Project/Objectives.md",
     "Class/Spring 2025/Algorithms",
     "Class/Spring 2025",
     "conflict-files-obsidian-git.md",
@@ -223,7 +234,6 @@
     "Meta/Attachments/Pasted image 20241202074257.png",
     "Meta/Attachments/Pasted image 20241130220647.png",
     "Meta/Attachments/Pasted image 20241130215941.png",
-    "Class/Fall 2024/COSC530/Final Exam Review.md",
-    "C++/std placeholders.md"
+    "Class/Fall 2024/COSC530/Final Exam Review.md"
   ]
 }
