@@ -172,14 +172,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "Research/LLNL Project/Objectives.md",
     "conflict-files-obsidian-git.md",
+    "Research/LLNL Project/Objectives.md",
     "Untitled.md",
     "TODO.md",
     "Research/Papers/Dynist/Dyninst paper.md",
