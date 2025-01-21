@@ -2,5 +2,9 @@
 ## Text Book
 [Online Resource ](https://github.com/Maria4lexzy/LeetCodeTraining/blob/main/Introduction.to.Algorithms.4th.Leiserson.Stein.Rivest.Cormen.MIT.Press.9780262046305.EBooksWorld.ir.pdf)
 
+### Class Setup
+#### Grade Breakdown
+
+
 
 ## Table of Contents
