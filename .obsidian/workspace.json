@@ -160,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,14 +173,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "a43d82e5c8b041ec",
   "lastOpenFiles": [
-    "Research/LLNL Project/Objectives.md",
     "conflict-files-obsidian-git.md",
+    "Research/LLNL Project/Objectives.md",
     "Research/Benchpark/Dalal/Objectives.md",
     "Research/Benchpark/Dalal",
     "Research/Benchpark",
