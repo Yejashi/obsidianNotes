@@ -173,11 +173,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a43d82e5c8b041ec",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Class/Untitled",
     "conflict-files-obsidian-git.md",
     "Research/LLNL Project/Objectives.md",
     "Research/Benchpark/Dalal/Objectives.md",
@@ -222,7 +224,6 @@
     "Meta/Attachments/Pasted image 20241130220647.png",
     "Meta/Attachments/Pasted image 20241130215941.png",
     "Class/Fall 2024/COSC530/Final Exam Review.md",
-    "C++/std placeholders.md",
-    "C++/Templates.md"
+    "C++/std placeholders.md"
   ]
 }
