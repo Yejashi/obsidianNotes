@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLNL Project/Objectives.md",
+                "file": "Class/Spring 2025/Algorithms/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Objectives"
+              "title": "Untitled"
             }
           }
         ]
@@ -177,12 +177,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "a43d82e5c8b041ec",
   "lastOpenFiles": [
+    "Research/LLNL Project/Objectives.md",
+    "Class/Spring 2025/Algorithms/Untitled.md",
     "Class/Spring 2025/Algorithms",
     "Class/Spring 2025",
     "conflict-files-obsidian-git.md",
-    "Research/LLNL Project/Objectives.md",
     "Research/Benchpark/Dalal/Objectives.md",
     "Research/Benchpark/Dalal",
     "Research/Benchpark",
@@ -203,7 +204,6 @@
     "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
     "Research/LLVM/Passes/Custom Pass",
     "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
-    "Research/LLVM/Passes/Analysis Passes",
     "Research/LLVM/OptimizationRemarkEmitter.md",
     "Research/LLVM/Intermediate Representation (IR)/Static Single Assignment (SSA).md",
     "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
