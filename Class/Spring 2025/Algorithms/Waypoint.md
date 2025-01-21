@@ -7,6 +7,7 @@
 - **35%** Exam (Feb 18)
 - **35%** Exam 2 (April 1)
 - **15%** Homework
+- **15%** Project
 
 
 ## Table of Contents
