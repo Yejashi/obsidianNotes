@@ -11,3 +11,5 @@
 ## Table of Contents
 
 #### Chapter 1: The Role of Algorithms in Computing
+
+#### Chapter 2: Getting Started
