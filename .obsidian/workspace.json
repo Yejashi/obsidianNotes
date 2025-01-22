@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms/Waypoint.md",
+                "file": "Class/Spring 2025/Graph Algorithms/Waypoint.md",
                 "mode": "source",
                 "source": false
               },
@@ -183,12 +183,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "a43d82e5c8b041ec",
   "lastOpenFiles": [
     "Class/Spring 2025/Algorithms/Waypoint.md",
+    "Class/Spring 2025/Graph Algorithms/Waypoint.md",
+    "Class/Spring 2025/Graph Algorithms",
     "C++/Linkage.md",
     "Research/LLNL Project/Objectives.md",
     "Class/Spring 2025/Algorithms",
@@ -212,7 +215,6 @@
     "Research/LLVM/Passes/Pass Instrumentation",
     "Research/LLVM/Passes/LLVM API.md",
     "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
-    "Research/LLVM/Passes/Custom Pass",
     "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
     "Research/LLVM/OptimizationRemarkEmitter.md",
     "Research/LLVM/Intermediate Representation (IR)/Static Single Assignment (SSA).md",
@@ -232,7 +234,6 @@
     "Meta/Attachments/Pasted image 20241202080454.png",
     "Meta/Attachments/Pasted image 20241202074257.png",
     "Meta/Attachments/Pasted image 20241130220647.png",
-    "Meta/Attachments/Pasted image 20241130215941.png",
-    "Class/Fall 2024/COSC530/Final Exam Review.md"
+    "Meta/Attachments/Pasted image 20241130215941.png"
   ]
 }
