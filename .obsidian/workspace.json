@@ -186,8 +186,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a43d82e5c8b041ec",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Class/Spring 2025/Algorithms/Book",
     "Class/Spring 2025/Algorithms/Chapter 3.md",
     "Class/Spring 2025/Algorithms/Waypoint.md",
     "Research/LLNL Project/Misc.md",
@@ -223,7 +224,6 @@
     "Research/LLVM/Intermediate Representation (IR)/Static Single Assignment (SSA).md",
     "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
     "Research/LLVM/Control Flow Graph.md",
-    "Research/LLVM/Compiler Assisted Performance Analysis.md",
     "Meta/Attachments/Pasted image 20241215115634.png",
     "Meta/Attachments/Pasted image 20241215115608.png",
     "Meta/Attachments/Pasted image 20241215114102.png",
