@@ -25,14 +25,12 @@
             "id": "e88014f33c820992",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms/Waypoint.md",
-                "mode": "source",
-                "source": false
+                "file": "Class/Spring 2025/Graph Algorithms/Homeworks/cs594_690_spring25_hw1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Waypoint"
+              "icon": "lucide-file-text",
+              "title": "cs594_690_spring25_hw1"
             }
           }
         ],
@@ -202,11 +200,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "e88014f33c820992",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms/Waypoint.md",
+    "Class/Spring 2025/Graph Algorithms/Homeworks/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms/Homeworks",
     "Research/Benchpark/Dalal/Objectives.md",
-    "Class/Spring 2025/Graph Algorithms/Waypoint.md",
     "Class/Spring 2025/Algorithms/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms",
     "Class/Spring 2025/Algorithms",
@@ -242,8 +241,6 @@
     "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
     "Research/Benchpark/Containerized",
     "Untitled.md",
-    "Class/Fall 2024/COSC530",
-    "Class/Fall 2024",
     "Meta/Attachments/Pasted image 20241130215941.png",
     "Meta/Attachments/Pasted image 20241207085106.png",
     "Meta/Attachments/Pasted image 20241202080611.png",
