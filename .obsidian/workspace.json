@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Benchpark/Dalal/Objectives.md",
+                "file": "Class/Spring 2025/Graph Algorithms/Waypoint.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Objectives"
+              "title": "Waypoint"
             }
           }
         ],
@@ -202,15 +202,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e88014f33c820992",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms/Homeworks",
+    "Research/Benchpark/Dalal/Objectives.md",
     "Class/Spring 2025/Graph Algorithms/Waypoint.md",
     "Class/Spring 2025/Algorithms/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms",
     "Class/Spring 2025/Algorithms",
     "Class/Spring 2025",
     "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
-    "Research/Benchpark/Dalal/Objectives.md",
     "Research/Papers/Dynist/Dyninst paper.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
@@ -241,7 +242,6 @@
     "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
     "Research/Benchpark/Containerized",
     "Untitled.md",
-    "Research/LLVM/Passes/LLVM API.md",
     "Class/Fall 2024/COSC530",
     "Class/Fall 2024",
     "Meta/Attachments/Pasted image 20241130215941.png",
