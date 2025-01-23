@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms/Waypoint.md",
+                "file": "Class/Spring 2025/Algorithms/Lectures/Lecture 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Waypoint"
+              "title": "Lecture 2"
             }
           },
           {
@@ -186,11 +186,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "a43d82e5c8b041ec",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms/Book",
-    "Class/Spring 2025/Algorithms/Chapter 3.md",
     "Class/Spring 2025/Algorithms/Waypoint.md",
+    "Class/Spring 2025/Algorithms/Lectures/Lecture 2.md",
+    "Class/Spring 2025/Algorithms/Lectures",
+    "Class/Spring 2025/Algorithms/Book",
+    "Class/Spring 2025/Algorithms/Book/Chapter 3.md",
     "Research/LLNL Project/Misc.md",
     "Untitled 1.md",
     "conflict-files-obsidian-git.md",
@@ -211,8 +213,6 @@
     "Untitled.md",
     "TODO.md",
     "Research/Papers/Dynist/Dyninst paper.md",
-    "Research/Papers/Dynist",
-    "Research/Papers",
     "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
     "Research/LLVM/Passes/Pass Manager/Pass Manager General.md",
     "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
