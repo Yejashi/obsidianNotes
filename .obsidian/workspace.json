@@ -25,12 +25,14 @@
             "id": "e88014f33c820992",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms/Homeworks/cs594_690_spring25_hw1.pdf"
+                "file": "Class/Spring 2025/Graph Algorithms/Waypoint.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "cs594_690_spring25_hw1"
+              "icon": "lucide-file",
+              "title": "Waypoint"
             }
           }
         ],
@@ -202,8 +204,8 @@
   },
   "active": "e88014f33c820992",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms/Homeworks/cs594_690_spring25_hw1.pdf",
+    "Class/Spring 2025/Graph Algorithms/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms/Homeworks",
     "Research/Benchpark/Dalal/Objectives.md",
     "Class/Spring 2025/Algorithms/Waypoint.md",
