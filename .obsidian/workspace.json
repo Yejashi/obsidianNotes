@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLNL Project/Misc.md",
+                "file": "Class/Spring 2025/Algorithms/Waypoint.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Misc"
+              "title": "Waypoint"
             }
           },
           {
@@ -83,8 +83,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,16 +188,17 @@
   },
   "active": "a43d82e5c8b041ec",
   "lastOpenFiles": [
+    "Class/Spring 2025/Algorithms/Chapter 3.md",
+    "Class/Spring 2025/Algorithms/Waypoint.md",
+    "Research/LLNL Project/Misc.md",
     "Untitled 1.md",
     "conflict-files-obsidian-git.md",
-    "Research/LLNL Project/Misc.md",
     "Class/Spring 2025/Graph Algorithms/Homeworks/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms/Homeworks",
     "Class/Spring 2025/Algorithms/asymptotics-cheatsheet.pdf",
     "Research/LLVM/Cheatsheet.md",
     "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
     "Class/Spring 2025/Graph Algorithms/Waypoint.md",
-    "Class/Spring 2025/Algorithms/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms",
     "C++/Linkage.md",
     "Research/LLNL Project/Objectives.md",
@@ -224,7 +224,6 @@
     "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
     "Research/LLVM/Control Flow Graph.md",
     "Research/LLVM/Compiler Assisted Performance Analysis.md",
-    "Research/LLNL Project/TODO.md",
     "Meta/Attachments/Pasted image 20241215115634.png",
     "Meta/Attachments/Pasted image 20241215115608.png",
     "Meta/Attachments/Pasted image 20241215114102.png",
