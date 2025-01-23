@@ -4,34 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "d6e21713c68dc657",
+        "id": "42587102bbd99630",
         "type": "tabs",
         "children": [
           {
-            "id": "a43d82e5c8b041ec",
+            "id": "95090c4b17262291",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms/Waypoint.md",
+                "file": "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Waypoint"
+              "title": "Pass Instrumentations"
             }
           },
           {
-            "id": "89147092f95362db",
+            "id": "e88014f33c820992",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Research/Benchpark/Dalal/Objectives.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Objectives"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "instg",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 200
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -164,6 +169,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "afc91e3d01671c9e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
         "currentTab": 4
@@ -175,65 +190,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-projects:Open projects": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a43d82e5c8b041ec",
+  "active": "e88014f33c820992",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms/Waypoint.md",
+    "Class/Spring 2025/Algorithms/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms",
-    "C++/Linkage.md",
-    "Research/LLNL Project/Objectives.md",
     "Class/Spring 2025/Algorithms",
     "Class/Spring 2025",
-    "conflict-files-obsidian-git.md",
+    "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
     "Research/Benchpark/Dalal/Objectives.md",
+    "Research/Papers/Dynist/Dyninst paper.md",
+    "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
+    "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
+    "conflict-files-obsidian-git.md",
+    "Research/LLNL Project/Misc.md",
     "Research/Benchpark/Dalal",
     "Research/Benchpark",
-    "Untitled.md",
     "TODO.md",
-    "Research/Papers/Dynist/Dyninst paper.md",
-    "Research/Papers/Dynist",
     "Research/Papers",
-    "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
-    "Research/LLVM/Passes/Writing an LLVM Pass",
-    "Research/LLVM/Passes/Pass Manager/Pass Manager General.md",
-    "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
-    "Research/LLVM/Passes/Pass Manager",
-    "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
-    "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
-    "Research/LLVM/Passes/Pass Instrumentation",
-    "Research/LLVM/Passes/LLVM API.md",
-    "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
-    "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
-    "Research/LLVM/OptimizationRemarkEmitter.md",
-    "Research/LLVM/Intermediate Representation (IR)/Static Single Assignment (SSA).md",
-    "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
-    "Research/LLVM/Control Flow Graph.md",
-    "Research/LLVM/Compiler Assisted Performance Analysis.md",
     "Research/LLNL Project/TODO.md",
-    "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
-    "Research/LLNL Project/Roadblocks/Function Level Collection.md",
-    "Pass Manager.md",
+    "Research/Papers/Dynist",
+    "Research/LLNL Project/Objectives.md",
+    "Research/LLNL Project/Untitled.md",
+    "Research/LLVM/OptimizationRemarkEmitter.md",
+    "Research/LLVM/Compiler Assisted Performance Analysis.md",
+    "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
+    "C++/Callback.md",
+    "C++/Linkage.md",
     "Meta/Attachments/Pasted image 20241215115634.png",
     "Meta/Attachments/Pasted image 20241215115608.png",
     "Meta/Attachments/Pasted image 20241215114102.png",
     "Meta/Attachments/Pasted image 20241215112610.png",
+    "Research/LLVM/Passes/Pass Manager/Pass Manager General.md",
+    "Pass Manager.md",
+    "Research/Compilers/General.md",
+    "C++/Extern.md",
+    "Research/Benchpark/Containerized/README Instructions Testing.md",
+    "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
+    "Research/Benchpark/Containerized",
+    "Untitled.md",
+    "Research/LLVM/Passes/LLVM API.md",
+    "Class/Fall 2024/COSC530",
+    "Class/Fall 2024",
+    "Meta/Attachments/Pasted image 20241130215941.png",
     "Meta/Attachments/Pasted image 20241207085106.png",
     "Meta/Attachments/Pasted image 20241202080611.png",
     "Meta/Attachments/Pasted image 20241202080454.png",
-    "Meta/Attachments/Pasted image 20241202074257.png",
-    "Meta/Attachments/Pasted image 20241130220647.png",
-    "Meta/Attachments/Pasted image 20241130215941.png"
+    "Pasted image 20241202080611.png",
+    "Pasted image 20241202080454.png"
   ]
 }
