@@ -11,6 +11,7 @@
 ### TODO
 1. Read Chapter 1
 2. Read Chapter 2
+3. Read Chapter 3
 
 ## Table of Contents
 
