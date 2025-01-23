@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms/Waypoint.md",
+                "file": "Research/LLNL Project/Misc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Waypoint"
+              "title": "Misc"
             }
           },
           {
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "disable",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +83,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,14 +184,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "a43d82e5c8b041ec",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms/Waypoint.md",
+    "Research/LLVM/Cheatsheet.md",
+    "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
     "Class/Spring 2025/Graph Algorithms/Waypoint.md",
+    "Class/Spring 2025/Algorithms/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms",
     "C++/Linkage.md",
     "Research/LLNL Project/Objectives.md",
@@ -208,7 +210,6 @@
     "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
     "Research/LLVM/Passes/Writing an LLVM Pass",
     "Research/LLVM/Passes/Pass Manager/Pass Manager General.md",
-    "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
     "Research/LLVM/Passes/Pass Manager",
     "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
@@ -224,7 +225,6 @@
     "Research/LLNL Project/TODO.md",
     "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
     "Research/LLNL Project/Roadblocks/Function Level Collection.md",
-    "Pass Manager.md",
     "Meta/Attachments/Pasted image 20241215115634.png",
     "Meta/Attachments/Pasted image 20241215115608.png",
     "Meta/Attachments/Pasted image 20241215114102.png",
