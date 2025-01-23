@@ -1,1 +1,2 @@
 #### Asymptotics
+In asymptotics c and x0 show us where the domination happens. It could be such that a domination night happen for a large n but not for a low number like x0.
