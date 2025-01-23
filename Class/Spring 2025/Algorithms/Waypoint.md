@@ -23,4 +23,5 @@
 
 ### Lectures
 - [[Lecture 2]]
-	- 
+	- Proofs by induction, contradictions
+	- Aysmptotics
