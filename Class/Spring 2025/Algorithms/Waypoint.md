@@ -22,3 +22,4 @@
 #### Chapter 2: Getting Started
 
 ### Lectures
+[[Lecture 2]]
