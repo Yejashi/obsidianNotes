@@ -17,10 +17,10 @@ Structures that associate values to the edges usually also provide:
 
 ### Common data structures for graph representation
 
-Adjacency list[2]
+Adjacency list
     Vertices are stored as records or objects, and every vertex stores a list of adjacent vertices. This data structure allows the storage of additional data on the vertices. Additional data can be stored if edges are also stored as objects, in which case each vertex stores its incident edges and each edge stores its incident vertices.
-Adjacency matrix[3]
+Adjacency matrix
     A two-dimensional matrix, in which the rows represent source vertices and columns represent destination vertices. Data on edges and vertices must be stored externally. Only the cost for one edge can be stored between each pair of vertices.
-Incidence matrix[4]
+Incidence matrix
     A two-dimensional matrix, in which the rows represent the vertices and columns represent the edges. The entries indicate the incidence relation between the vertex at a row and edge at a column.
 
