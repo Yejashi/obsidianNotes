@@ -29,7 +29,7 @@
 	Basic operations of a graph.
 	Types of data structures to store a graph
 
-
+[[Adjacency List]]
 
 
 

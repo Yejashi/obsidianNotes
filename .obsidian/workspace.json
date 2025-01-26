@@ -49,8 +49,7 @@
               "title": "Waypoint"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -216,11 +215,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "28898017b598be79",
+  "active": "1f3d1b6b3852d2bb",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Adjacency List.md",
     "Meta/Attachments/Pasted image 20250126161612.png",
-    "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph (data structure).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph Theory.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Direct Acyclic Graphs (DAGs).md",
