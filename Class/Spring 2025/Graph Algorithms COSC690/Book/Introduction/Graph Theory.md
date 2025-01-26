@@ -18,4 +18,6 @@ In one restricted but very common sense of the term, a graph is an ordered pair 
 
 **Vertex not in an edge**: It's possible for a vertex to exist in a graph without being part of any edge. In other words, a vertex can be isolated, with no connections to other vertices.
 
+
+### Undirected Graph
 **No multiple edges**: The definition provided says that there can't be multiple edges between the same two vertices in the graph. This means that each pair of vertices can only be connected by a single edge, not more than one.
