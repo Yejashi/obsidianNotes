@@ -9,3 +9,4 @@ An **incidence matrix** is another way to represent a graph, but unlike the adja
 
 ![[Pasted image 20250126162340.png]]
 
+This representation is useful for analyzing the relationship between vertices and edges, particularly in certain types of graph algorithms.
