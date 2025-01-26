@@ -10,3 +10,4 @@ An **adjacency matrix** is another way to represent a graph using a 2D array (or
     - **0** if there is no edge between the corresponding vertices.
     - Sometimes, other values (such as weights) are used instead of 1 to indicate edge weights in weighted graphs.
 
+![[Pasted image 20250126161958.png]]
