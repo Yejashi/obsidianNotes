@@ -25,12 +25,14 @@
             "id": "f3563175b8ff37d3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf"
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "cs594_690_spring25_hw1"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           },
           {
@@ -214,8 +216,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "f3563175b8ff37d3",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/Untitled.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Incidence Matrix.md",
@@ -231,7 +235,6 @@
     "Meta/Attachments/Pasted image 20250126154154.png",
     "Meta/Attachments/Pasted image 20250126154102.png",
     "Meta/Attachments/Pasted image 20250126151657.png",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction",
     "Class/Spring 2025/Graph Algorithms COSC690/Book",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
@@ -242,7 +245,6 @@
     "Class/Spring 2025/Algorithms COSC581/Homeworks",
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
     "Class/Spring 2025/Algorithms COSC581/algorithms_text_book.pdf",
-    "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
     "Research/LLVM/Passes/LLVM API.md",
     "conflict-files-obsidian-git.md",
     "Untitled 1.md",
@@ -257,7 +259,6 @@
     "Research/LLNL Project/TODO.md",
     "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
     "Research/LLNL Project/Objectives.md",
-    "Research/LLNL Project/Untitled.md",
     "Meta/Attachments/Pasted image 20241215115634.png",
     "Meta/Attachments/Pasted image 20241215115608.png",
     "Meta/Attachments/Pasted image 20241215114102.png",
