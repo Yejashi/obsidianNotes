@@ -13,4 +13,4 @@ Euler showed that for a path to exist such that we drive across all NYC bridges 
 - At most two nodes can have an odd degree
 	- Only Manhattan has an odd degree (13)
 - All other nodes must have an even degree
-	- 
+	- With the exception of Manhattan all other nodes have an even degree
