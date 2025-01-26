@@ -8,5 +8,7 @@
 
 ### Table of Contents
 
-### Introduction
-#### [[Konigsberg Problem]]
+### 1. Introduction
+[[Konigsberg Problem]]
+	
+

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Konigsberg Problem"
+              "title": "Waypoint"
             }
           },
           {
@@ -203,8 +203,8 @@
   },
   "active": "8f49e1db5f8b95ac",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph Theory.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
     "Meta/Attachments/Pasted image 20250126151657.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/cs594_690_spring25_hw1.pdf",
