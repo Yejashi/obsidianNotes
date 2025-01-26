@@ -26,6 +26,9 @@
 		- **Acyclic**: The graph does not contain any cycles, meaning there is no way to start at a vertex and follow a path of directed edges that eventually leads back to the same vertex.
 
 [[Graph (data structure)]]
+	Basic operations of a graph.
+	Types of data structures to store a graph
+
 
 
 

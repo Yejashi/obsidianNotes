@@ -35,7 +35,8 @@
               "title": "Waypoint"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,10 +202,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1f3d1b6b3852d2bb",
+  "active": "0bb046cfdc8d1fd6",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph (data structure).md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph Theory.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Direct Acyclic Graphs (DAGs).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
