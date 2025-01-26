@@ -8,3 +8,5 @@ In one restricted but very common sense of the term, a graph is an ordered pair 
 
 ![[Pasted image 20250126154102.png]]
 
+![[Pasted image 20250126154154.png]]
+
