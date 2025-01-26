@@ -25,4 +25,5 @@ In order to ensure such a path exists the graph must be modified to to satisfy E
 **Given the following adjacency matrix, draw the corresponding graph by hand and determine its minimum degree, maximum degree, and graph density.**
 
 
+![[question_2_graph.png]]
 
