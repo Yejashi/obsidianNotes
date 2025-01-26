@@ -25,6 +25,9 @@
 		- **Directed**: The edges of the graph have a direction, meaning each edge points from one vertex to another (just like in a directed graph).
 		- **Acyclic**: The graph does not contain any cycles, meaning there is no way to start at a vertex and follow a path of directed edges that eventually leads back to the same vertex.
 
+[[Graph (data structure)]]
+
+
 
 
 
