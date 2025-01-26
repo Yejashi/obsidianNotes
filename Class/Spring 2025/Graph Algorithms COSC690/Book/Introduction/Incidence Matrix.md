@@ -7,3 +7,5 @@ An **incidence matrix** is another way to represent a graph, but unlike the adja
     - For an **undirected graph**, the matrix entry is **1** if the vertex is incident (connected) to the edge, and **0** if it is not.
     - For a **directed graph**, the matrix entry is **-1** if the vertex is the tail (source) of the edge, **1** if the vertex is the head (destination) of the edge, and **0** if the vertex is not connected to the edge.
 
+![[Pasted image 20250126162340.png]]
+
