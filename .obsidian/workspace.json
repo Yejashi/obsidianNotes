@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "f3563175b8ff37d3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "cs594_690_spring25_hw1"
+            }
+          },
+          {
             "id": "796f0520b9a451ec",
             "type": "leaf",
             "state": {
@@ -35,7 +47,8 @@
               "title": "Incidence Matrix"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,10 +214,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2f59c388d5cac2a5",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Incidence Matrix.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Incidence Matrix.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Adjacency  Matrix.md",
     "Meta/Attachments/Pasted image 20250126162340.png",
     "Meta/Attachments/Pasted image 20250126161958.png",
@@ -217,7 +231,7 @@
     "Meta/Attachments/Pasted image 20250126154154.png",
     "Meta/Attachments/Pasted image 20250126154102.png",
     "Meta/Attachments/Pasted image 20250126151657.png",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/cs594_690_spring25_hw1.pdf",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction",
     "Class/Spring 2025/Graph Algorithms COSC690/Book",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
