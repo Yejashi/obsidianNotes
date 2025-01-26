@@ -6,3 +6,4 @@
 			- ![[Pasted image 20250126185354.png]]]
 		- E: Number of Edges
 		- N: Number of nodes
+		- N(N - 1): Total number of possible edges
