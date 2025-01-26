@@ -31,4 +31,4 @@ The minimum degree is 2, of which nodes 1, 7, 4, and 3 consist of.
 
 The maximum degree is 5 which is held by node 6.
 
-Since this is an undirected graph the graph density can be calculated by 2(12)
+Since this is an undirected graph the graph density can be calculated by 2(12) / 
