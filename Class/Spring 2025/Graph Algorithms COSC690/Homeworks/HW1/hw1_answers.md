@@ -7,3 +7,5 @@ Class: COSC690 Graph Algorithms
 
 ![[nyc_graph.png]]
 
+**Read the Konigsberg problem and apply similar reasoning to determine if it would be possible to start at some point, drive across all 19 NYC bridges and tunnels exactly once, and then return to your starting point.**
+

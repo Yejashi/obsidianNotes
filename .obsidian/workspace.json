@@ -11,12 +11,12 @@
             "id": "2f59c388d5cac2a5",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph.png"
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf"
               },
-              "icon": "lucide-image",
-              "title": "nyc_graph"
+              "icon": "lucide-file-text",
+              "title": "cs594_690_spring25_hw1"
             }
           },
           {
@@ -240,9 +240,9 @@
   },
   "active": "f3563175b8ff37d3",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph 1.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1",
