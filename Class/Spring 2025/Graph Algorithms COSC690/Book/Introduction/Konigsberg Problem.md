@@ -8,5 +8,7 @@ The problem was to devise a walk through the city that would cross each of those
 
 Leonhard Euler resolved the problem in 1736 by proving that no such walk could exist. His work **laid the foundations for graph theory**, an area of mathematics that studies **networks and their relationships**.
 
+Euler's method for proving this was groundbreaking because it introduced a way to analyze the problem mathematically, using the concept of nodes (representing landmasses) and edges (representing bridges).
+
 
 
