@@ -14,6 +14,6 @@ Euler showed that for a path to exist such that we drive across all NYC bridges 
 	- Staten Island (3), New Jersey (5), and Manhatten (13) have an odd degree so this condition is unsatisfied.
 - All other nodes must have an even degree
 
-The first condition
+The first condition which states that at most two nodes can have an odd degree is unsatisfied, as such it is impossible for  a path to exist that drives across all NYC bridges and tunnels exactly once.
 
 
