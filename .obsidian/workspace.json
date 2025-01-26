@@ -11,12 +11,14 @@
             "id": "2f59c388d5cac2a5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf"
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "cs594_690_spring25_hw1"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           },
           {
@@ -238,9 +240,10 @@
       }
     ]
   },
-  "active": "f3563175b8ff37d3",
+  "active": "2f59c388d5cac2a5",
   "lastOpenFiles": [
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Untitled.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/question_2_graph.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph_solved.png",
@@ -283,7 +286,6 @@
     "Research/Papers/Dynist/Dyninst paper.md",
     "Research/LLNL Project/Misc.md",
     "Research/LLNL Project/TODO.md",
-    "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
-    "Research/LLNL Project/Objectives.md"
+    "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md"
   ]
 }
