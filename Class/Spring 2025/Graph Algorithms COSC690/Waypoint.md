@@ -15,5 +15,10 @@
 		1. **Two nodes can have an odd degree** (these would be the starting and ending points of the path).
 		2. **All other nodes must have an even degree**.
 
+[[Graph Theory]]
+	Graph
+	Directed Graph
+	Undirected Graph
+
 
 
