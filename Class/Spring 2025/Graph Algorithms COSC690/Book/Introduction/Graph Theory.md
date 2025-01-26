@@ -32,3 +32,6 @@ A **directed graph** (or **digraph**) is a graph in which the edges have a speci
 
 The edge represents a one-way connection, meaning you can only traverse from the source to the destination, not the other way around.
 
+In one restricted but very common sense of the term, a graph is an ordered pair G = ( V , E ) comprising: 
+- V, a set of vertices (also called nodes or points)
+- E, a set edges, which are **ordered** pairs of vertices.
