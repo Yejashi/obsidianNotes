@@ -8,7 +8,7 @@
 
 ### Table of Contents
 
-### 1. Introduction
+### Introduction
 
 [[Konigsberg Problem]]
 	For a path to exist that crosses each bridge exactly once, Euler showed that:
