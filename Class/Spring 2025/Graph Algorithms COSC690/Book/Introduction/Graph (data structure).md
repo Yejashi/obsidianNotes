@@ -10,3 +10,4 @@ The basic operations provided by a graph data structure _G_ usually include:
 - remove_edge(_G_, _x_, _y_): removes the edge from the vertex _x_ to the vertex _y_, if it is there;
 - get_vertex_value(_G_, _x_): returns the value associated with the vertex _x_;
 - set_vertex_value(_G_, _x_, _v_): sets the value associated with the vertex _x_ to _v_.
+
