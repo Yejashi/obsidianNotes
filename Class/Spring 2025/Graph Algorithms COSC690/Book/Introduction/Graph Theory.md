@@ -29,3 +29,4 @@ This means that if there is an edge between two vertices, you can traverse from 
 
 **No multiple edges**: In an undirected graph there can't be multiple edges between the same two vertices in the graph. This means that each pair of vertices can only be connected by a single edge, not more than one.
 
+### Directed Graph
