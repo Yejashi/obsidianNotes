@@ -4,4 +4,5 @@
 			- ![[Pasted image 20250126185333.png]]
 		- Directed Graph
 			- ![[Pasted image 20250126185354.png]]]
-		- 
+		- E: Number of Edges
+		- N: Number of nodes
