@@ -4,4 +4,6 @@
 
 In one restricted but very common sense of the term, a graph is an ordered pair G = ( V , E ) comprising: 
 - V, a set of vertices (also called nodes or points)
-- E, a set edges which are unprdered pairs of verticies
+- E, a set edges, which are unordered pairs of vertices.
+
+
