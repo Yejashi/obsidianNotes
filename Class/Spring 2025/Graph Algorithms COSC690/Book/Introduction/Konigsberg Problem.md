@@ -18,4 +18,8 @@ In graph theory, the Seven Bridges of Königsberg problem is a perfect example o
 - The **nodes** represent the landmasses in the city: the two islands (Kneiphof and Lomse) and the two mainland sections.
 - The **edges** represent the seven bridges connecting these landmasses.
 
+**Euler's Insight**
+To understand why the problem cannot be solved, Euler came up with a few key concepts:
 
+- **Even Degree**: A node has an even degree if the number of edges (or bridges) connected to it is an even number.
+- **Odd Degree**: A node has an odd degree if the number of edges (or bridges) connected to it is an odd number.
