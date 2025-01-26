@@ -13,8 +13,8 @@
 2. Read Chapter 2
 3. Read Chapter 3
 4. Homework 1:
-	1. Due: Jan 30
-
+	1. **Due: Jan 30**
+	2. Paper Copy, Turn in In class
 
 
 ## Table of Contents
