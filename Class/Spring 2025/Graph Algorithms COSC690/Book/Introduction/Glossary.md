@@ -3,4 +3,5 @@
 		- Undirected Graph
 			- ![[Pasted image 20250126185333.png]]
 		- Directed Graph
-			- 
+			- ![[Pasted image 20250126185354.png]]]
+		- 
