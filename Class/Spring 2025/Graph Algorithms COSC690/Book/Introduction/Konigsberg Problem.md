@@ -14,5 +14,8 @@ Euler's method for proving this was groundbreaking because it introduced a way t
 
 In graph theory, the Seven Bridges of Königsberg problem is a perfect example of a problem that can be represented as a graph. A graph consists of two main components: **nodes** (or vertices) and **edges** (the connections between the nodes).
 
+**Graph Representation of the Problem**
+- The **nodes** represent the landmasses in the city: the two islands (Kneiphof and Lomse) and the two mainland sections.
+- The **edges** represent the seven bridges connecting these landmasses.
 
 
