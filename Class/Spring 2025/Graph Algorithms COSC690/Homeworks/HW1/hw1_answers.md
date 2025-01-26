@@ -27,4 +27,4 @@ In order to ensure such a path exists the graph must be modified to to satisfy E
 
 ![[question_2_graph.png]]
 
-The minimum degree is 2, of which nodes 1, 7, 4
+The minimum degree is 2, of which nodes 1, 7, 4, 
