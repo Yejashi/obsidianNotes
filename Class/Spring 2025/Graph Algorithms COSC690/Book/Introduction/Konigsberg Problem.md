@@ -10,5 +10,7 @@ Leonhard Euler resolved the problem in 1736 by proving that no such walk could e
 
 Euler's method for proving this was groundbreaking because it introduced a way to analyze the problem mathematically, using the concept of nodes (representing landmasses) and edges (representing bridges).
 
+### In-Depth Breakdown
+
 
 
