@@ -24,7 +24,7 @@ To understand why the problem cannot be solved, Euler came up with a few key con
 - **Odd Degree**: A node has an odd degree if the number of edges (or bridges) connected to it is an odd number.
 
 For a path to exist that crosses each bridge exactly once, Euler showed that:
-1. **Two nodes can have an odd degree** (these would be the starting and ending points of the path).
+1. **At most two nodes can have an odd degree** (these would be the starting and ending points of the path).
 2. **All other nodes must have an even degree**.
 
 If more than two nodes have an odd degree, no such path exists.
