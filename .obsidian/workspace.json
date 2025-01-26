@@ -25,12 +25,14 @@
             "id": "4b2be4d9811a8974",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/cs594_690_spring25_hw1.pdf"
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "cs594_690_spring25_hw1"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ],
@@ -200,9 +202,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "4b2be4d9811a8974",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Untitled",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/cs594_690_spring25_hw1.pdf",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Untitled.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction",
     "Class/Spring 2025/Graph Algorithms COSC690/Book",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
@@ -217,10 +221,8 @@
     "Research/LLVM/Passes/LLVM API.md",
     "conflict-files-obsidian-git.md",
     "Untitled 1.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks",
     "Research/Benchpark/Dalal/Objectives.md",
     "Ian Feedback.md",
     "Research/LLVM/OptimizationRemarkEmitter.md",
@@ -241,7 +243,6 @@
     "Meta/Attachments/Pasted image 20241215114102.png",
     "Meta/Attachments/Pasted image 20241215112610.png",
     "Research/LLVM/Passes/Pass Manager/Pass Manager General.md",
-    "Pass Manager.md",
     "Meta/Attachments/Pasted image 20241130215941.png",
     "Meta/Attachments/Pasted image 20241207085106.png",
     "Meta/Attachments/Pasted image 20241202080611.png",
