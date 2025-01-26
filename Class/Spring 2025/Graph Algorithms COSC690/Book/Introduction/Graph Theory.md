@@ -20,4 +20,6 @@ In one restricted but very common sense of the term, a graph is an ordered pair 
 
 
 ### Undirected Graph
+
+
 **No multiple edges**: The definition provided says that there can't be multiple edges between the same two vertices in the graph. This means that each pair of vertices can only be connected by a single edge, not more than one.
