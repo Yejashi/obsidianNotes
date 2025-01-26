@@ -19,6 +19,8 @@ In one restricted but very common sense of the term, a graph is an ordered pair 
 **Vertex not in an edge**: It's possible for a vertex to exist in a graph without being part of any edge. In other words, a vertex can be isolated, with no connections to other vertices.
 
 
+
+
 ### Undirected Graph
 
 An **undirected graph** is a type of graph in which the edges have no direction. In other words, the connections between the vertices (or nodes) are bidirectional.
