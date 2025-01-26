@@ -28,3 +28,4 @@ For a path to exist that crosses each bridge exactly once, Euler showed that:
 2. **All other nodes must have an even degree**.
 
 If more than two nodes have an odd degree, no such path exists.
+
