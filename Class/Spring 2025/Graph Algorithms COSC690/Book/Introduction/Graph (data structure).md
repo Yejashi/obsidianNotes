@@ -11,3 +11,7 @@ The basic operations provided by a graph data structure _G_ usually include:
 - get_vertex_value(_G_, _x_): returns the value associated with the vertex _x_;
 - set_vertex_value(_G_, _x_, _v_): sets the value associated with the vertex _x_ to _v_.
 
+Structures that associate values to the edges usually also provide:
+- get_edge_value(_G_, _x_, _y_): returns the value associated with the edge (_x_, _y_);
+- set_edge_value(_G_, _x_, _y_, _v_): sets the value associated with the edge (_x_, _y_) to _v_.
+
