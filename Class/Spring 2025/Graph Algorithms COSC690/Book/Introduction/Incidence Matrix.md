@@ -6,3 +6,4 @@ An **incidence matrix** is another way to represent a graph, but unlike the adja
 3. **Entries**: The entries in the incidence matrix indicate the relationship between vertices and edges. Specifically:
     - For an **undirected graph**, the matrix entry is **1** if the vertex is incident (connected) to the edge, and **0** if it is not.
     - For a **directed graph**, the matrix entry is **-1** if the vertex is the tail (source) of the edge, **1** if the vertex is the head (destination) of the edge, and **0** if the vertex is not connected to the edge.
+
