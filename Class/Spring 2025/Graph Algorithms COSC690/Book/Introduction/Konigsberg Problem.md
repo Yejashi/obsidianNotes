@@ -6,5 +6,5 @@ The city of Königsberg in Prussia (now Kaliningrad, Russia) was set on both sid
 
 The problem was to devise a walk through the city that would cross each of those bridges **once and only once**.
 
-
+Leonhard Euler resolved the problem in 1736 by proving that no such walk could exist. His work laid the foundations for graph theory, an area of mathematics that studies networks and their relationships.
 
