@@ -8,4 +8,5 @@
 
 ### Table of Contents
 
+### Introduction
 #### [[Konigsberg Problem]]
