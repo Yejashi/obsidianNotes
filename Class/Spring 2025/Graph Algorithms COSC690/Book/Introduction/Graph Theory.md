@@ -21,5 +21,6 @@ In one restricted but very common sense of the term, a graph is an ordered pair 
 
 ### Undirected Graph
 
+An **undirected graph** is a type of graph in which the edges have no direction. In other words, the connections between the vertices (or nodes) are bidirectional.
 
 **No multiple edges**: The definition provided says that there can't be multiple edges between the same two vertices in the graph. This means that each pair of vertices can only be connected by a single edge, not more than one.
