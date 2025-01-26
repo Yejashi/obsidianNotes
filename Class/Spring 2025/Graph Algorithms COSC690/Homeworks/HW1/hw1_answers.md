@@ -27,4 +27,8 @@ In order to ensure such a path exists the graph must be modified to to satisfy E
 
 ![[question_2_graph.png]]
 
-The minimum degree is 2, of which nodes 1, 7, 4, and 3 consist of. The maximum degree is 5 which is held by node 6.
+The minimum degree is 2, of which nodes 1, 7, 4, and 3 consist of. 
+
+The maximum degree is 5 which is held by node 6.
+
+Since this is an undirected graph the graph density can be calculated by 2()

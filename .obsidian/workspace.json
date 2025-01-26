@@ -49,8 +49,7 @@
               "title": "Konigsberg Problem"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,9 +254,10 @@
       }
     ]
   },
-  "active": "e15f85ce4d914a9d",
+  "active": "f3563175b8ff37d3",
   "lastOpenFiles": [
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Glossary.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Meta/Attachments/Pasted image 20250126185354.png",
     "Meta/Attachments/Pasted image 20250126185333.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
@@ -271,7 +271,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph(2).png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph 1.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1",
-    "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Incidence Matrix.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Adjacency  Matrix.md",
     "Meta/Attachments/Pasted image 20250126162340.png",
