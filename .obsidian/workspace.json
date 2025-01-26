@@ -11,12 +11,14 @@
             "id": "2f59c388d5cac2a5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf"
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "cs594_690_spring25_hw1"
+              "icon": "lucide-file",
+              "title": "hw1_answers"
             }
           }
         ]
@@ -224,14 +226,14 @@
       }
     ]
   },
-  "active": "2f59c388d5cac2a5",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph(3).png",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph.png",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph(2).png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph 1.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
@@ -270,7 +272,6 @@
     "Research/LLNL Project/Misc.md",
     "Research/LLNL Project/TODO.md",
     "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
-    "Research/LLNL Project/Objectives.md",
-    "Meta/Attachments/Pasted image 20241215115634.png"
+    "Research/LLNL Project/Objectives.md"
   ]
 }
