@@ -49,7 +49,8 @@
               "title": "Graph Theory"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,12 +216,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8f49e1db5f8b95ac",
+  "active": "1f3d1b6b3852d2bb",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Direct Acyclic Graphs (DAGs).md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph Theory.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Direct Acyclic Graphs (DAGs).md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
     "Meta/Attachments/Pasted image 20250126154154.png",
     "Meta/Attachments/Pasted image 20250126154102.png",
     "Meta/Attachments/Pasted image 20250126151657.png",
