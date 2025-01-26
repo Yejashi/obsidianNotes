@@ -2,3 +2,5 @@ An adjacency list is a way to represent a graph, where each vertex in the graph 
 
 This representation is efficient in terms of memory usage, especially for sparse graphs (graphs with relatively few edges compared to the number of vertices).
 
+![[Pasted image 20250126161612.png]]
+
