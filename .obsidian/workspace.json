@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Untitled.md",
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph (data structure).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Graph (data structure)"
             }
           },
           {
@@ -219,7 +219,7 @@
   "active": "1f3d1b6b3852d2bb",
   "lastOpenFiles": [
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Untitled.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph (data structure).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Direct Acyclic Graphs (DAGs).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph Theory.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
