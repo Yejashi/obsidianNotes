@@ -29,3 +29,6 @@ This means that if there is an edge between two vertices, you can traverse from 
 
 ### Directed Graph
 A **directed graph** (or **digraph**) is a graph in which the edges have a specific direction. In other words, each edge has a starting vertex (called the **source**) and an ending vertex (called the **destination**).
+
+The edge represents a one-way connection, meaning you can only traverse from the source to the destination, not the other way around.
+
