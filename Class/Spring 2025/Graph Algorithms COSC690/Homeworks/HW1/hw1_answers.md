@@ -11,7 +11,7 @@ Class: COSC690 Graph Algorithms
 
 Euler showed that for a path to exist such that we drive across all NYC bridges and tunnels exactly once:
 - At most two nodes can have an odd degree
-	- Only Manhattan has an odd degree (13)
+	- Staten Island (3), New Jersey (5), and Manhatten (13) have an odd degree so this condition is unsatisfied.
 - All other nodes must have an even degree
 	- With the exception of Manhattan all other nodes have an even degree
 
