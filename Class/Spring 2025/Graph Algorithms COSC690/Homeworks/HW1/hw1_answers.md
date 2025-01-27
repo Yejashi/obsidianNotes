@@ -47,3 +47,6 @@ On the other hand, if a tree is arranged in a star like format we can deduce the
 
 **Now describe an algorithm (do not program it) that takes as input such a tree and returns its number of leaves. A leaf in a graph is a vertex with degree 1.**
 
+A program that takes a tree as input would operate as follows:
+- Calculate the number of verticies
+- 
