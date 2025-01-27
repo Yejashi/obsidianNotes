@@ -49,4 +49,5 @@ On the other hand, if a tree is arranged in a star like format we can deduce the
 
 A program that takes a tree as input would operate as follows:
 - Calculate the number of verticies
--  If the total number of vertices is less that two then return 0.
+-  Iterate through all the vertices 
+	- If the degree is 
