@@ -41,6 +41,6 @@ Calculating the minimum and maximum number of leaves on a tree with n verticies 
 
 If the tree has one vertex then it has no edges and can be considered a leaf onto itself. In such a case the minimum number of leaves is 1 as well as the maximum.
 
-If a tree has 2 or more vertices then 
+If a tree has 2 or more vertices then the minumum number of leaves it can have is 
 
 The minimum number of leaves a tree with n verticies can have is 1 and the maximum is n - 1. This can be verified by drawing a star which is a tree with the most leaves possible. Regardless of how the many nodes are added or arranged to the tree 
