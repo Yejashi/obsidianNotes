@@ -11,13 +11,14 @@
             "id": "95090c4b17262291",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
+              "icon": "lucide-file",
+              "title": "hw1_answers"
             }
           }
         ]
@@ -187,6 +188,8 @@
   },
   "active": "95090c4b17262291",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "conflict-files-obsidian-git.md",
     "Untitled 1.md",
@@ -230,8 +233,6 @@
     "Pass Manager.md",
     "Research/Compilers/General.md",
     "C++/Extern.md",
-    "Research/Benchpark/Containerized/README Instructions Testing.md",
-    "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
-    "Untitled.md"
+    "Research/Benchpark/Containerized/README Instructions Testing.md"
   ]
 }
