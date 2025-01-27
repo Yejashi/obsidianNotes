@@ -39,7 +39,7 @@ Since this is an undirected graph the graph density can be calculated by 2(12) /
 
 Calculating the minimum and maximum number of leaves on a tree with n verticies is kind of like constructing a piecewise function.
 
-If the tree has one vertex then it has no edges and can be considered a leaf onto itself. In such a case the minimum number of leaves is 1 as well as the maximum.
+If the tree has one vertex then it has no edges and has a degree of zero. In such a case the minimum number of leaves is 0 as well as the maximum.
 
 If a tree has 2 or more vertices then the minimum number of leaves it can have is 2. This can be verified by drawing a tree that is akin to a straight line, it will always have 2 leaves regardless of the number of vertices.
 
