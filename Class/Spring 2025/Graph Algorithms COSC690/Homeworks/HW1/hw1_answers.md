@@ -50,7 +50,7 @@ On the other hand, if a tree is arranged in a star like format we can deduce the
 A program that takes a tree as input would operate as follows:
 - Create a counter
 -  Iterate through all the vertices 
-	- If the output degree is 1 then it is a leaf. (i.e number of edges is 1)
+	- If the degree is 1 then it is a leaf. (i.e number of edges is 1)
 		- Increment counter
 - return counter
 
