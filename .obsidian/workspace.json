@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Pass Instrumentations"
             }
-          },
-          {
-            "id": "e88014f33c820992",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Spring 2025/Algorithms/asymptotics-cheatsheet.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "asymptotics-cheatsheet"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,14 +183,13 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "e88014f33c820992",
+  "active": "95090c4b17262291",
   "lastOpenFiles": [
-    "Research/LLNL Project/Misc.md",
     "Class/Spring 2025/Algorithms/asymptotics-cheatsheet.pdf",
+    "Research/LLNL Project/Misc.md",
     "Class/Spring 2025/Graph Algorithms/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms/Homeworks/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms/Homeworks",
