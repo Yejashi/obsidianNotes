@@ -38,4 +38,9 @@ Since this is an undirected graph the graph density can be calculated by 2(12) /
 **What is the minimum number of leaves a tree on n vertices may have? And the maximum? Now describe an algorithm (do not program it) that takes as input such a tree and returns its number of leaves. A leaf in a graph is a vertex with degree 1.**
 
 Calculating the minumum and maximum number of leaves on a tree with n verticies is kind of like constructing a piecewise function.
+
+If the tree has one vertex then it has no edges and can be considered a leaf onto itself. In such a case the minumum number of leaves is 1 as well as the maximum.
+
+If a tree has 
+
 The minimum number of leaves a tree with n verticies can have is 1 and the maximum is n - 1. This can be verified by drawing a star which is a tree with the most leaves possible. Regardless of how the many nodes are added or arranged to the tree 
