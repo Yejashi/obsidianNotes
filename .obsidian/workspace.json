@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Pass Instrumentations"
             }
+          },
+          {
+            "id": "2c05271cb1da1ba2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,11 +197,23 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "95090c4b17262291",
+  "active": "2c05271cb1da1ba2",
   "lastOpenFiles": [
+    "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
+    "conflict-files-obsidian-git.md",
+    "Untitled 1.md",
+    "Meta/Attachments/Pasted image 20250126185354.png",
+    "Meta/Attachments/Pasted image 20250126185333.png",
+    "Meta/Attachments/Pasted image 20250126162340.png",
+    "Meta/Attachments/Pasted image 20250126161958.png",
+    "Meta/Attachments/Pasted image 20250126161612.png",
+    "Meta/Attachments/Pasted image 20250126154154.png",
+    "Meta/Attachments/Pasted image 20250126154102.png",
+    "Meta/Attachments/Pasted image 20250126151657.png",
     "Class/Spring 2025/Algorithms/asymptotics-cheatsheet.pdf",
     "Research/LLNL Project/Misc.md",
     "Class/Spring 2025/Graph Algorithms/Waypoint.md",
@@ -200,9 +226,7 @@
     "Class/Spring 2025",
     "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
     "Research/Papers/Dynist/Dyninst paper.md",
-    "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
-    "conflict-files-obsidian-git.md",
     "Research/Benchpark/Dalal",
     "Research/Benchpark",
     "TODO.md",
@@ -218,20 +242,12 @@
     "C++/Linkage.md",
     "Meta/Attachments/Pasted image 20241215115634.png",
     "Meta/Attachments/Pasted image 20241215115608.png",
-    "Meta/Attachments/Pasted image 20241215114102.png",
-    "Meta/Attachments/Pasted image 20241215112610.png",
     "Research/LLVM/Passes/Pass Manager/Pass Manager General.md",
     "Pass Manager.md",
     "Research/Compilers/General.md",
     "C++/Extern.md",
     "Research/Benchpark/Containerized/README Instructions Testing.md",
     "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
-    "Untitled.md",
-    "Meta/Attachments/Pasted image 20241130215941.png",
-    "Meta/Attachments/Pasted image 20241207085106.png",
-    "Meta/Attachments/Pasted image 20241202080611.png",
-    "Meta/Attachments/Pasted image 20241202080454.png",
-    "Pasted image 20241202080611.png",
-    "Pasted image 20241202080454.png"
+    "Untitled.md"
   ]
 }
