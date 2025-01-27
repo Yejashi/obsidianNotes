@@ -45,4 +45,4 @@ If a tree has 2 or more vertices then the minimum number of leaves it can have i
 
 On the other hand, if a tree is arranged in a star like format we can deduce the maximum number of leaves, which is n - 1.
 
-
+**Now describe an algorithm (do not program it) that takes as input such a tree and returns its number of leaves. A leaf in a graph is a vertex with degree 1.**
