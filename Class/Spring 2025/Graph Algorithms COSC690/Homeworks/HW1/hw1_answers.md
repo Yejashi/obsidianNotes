@@ -10,7 +10,7 @@ Class: COSC690 Graph Algorithms
 **Read the Konigsberg problem and apply similar reasoning to determine if it would be possible to start at some point, drive across all 19 NYC bridges and tunnels exactly once, and then return to your starting point.**
 
 Euler showed that for a path to exist such that we drive across all NYC bridges and tunnels exactly once:
-- At most two nodes can have an odd degree
+- either zero or two nodes can have an odd degree:
 	- Staten Island (3), New Jersey (5), and Manhattan (13) have an odd degree so this condition is unsatisfied.
 - All other nodes must have an even degree
 
