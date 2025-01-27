@@ -35,3 +35,4 @@ Since this is an undirected graph the graph density can be calculated by 2(12) /
 
 ### Question 3
 
+**What is the minimum number of leaves a tree on n vertices may have? And the maximum? Now describe an algorithm (do not program it) that takes as input such a tree and returns its number of leaves. A leaf in a graph is a vertex with degree 1.**
