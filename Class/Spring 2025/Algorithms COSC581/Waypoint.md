@@ -13,7 +13,7 @@
 2. Read Chapter 2
 3. Read Chapter 3
 4. Read Chapter 4
-5. Read Chapter 6
+5. Read Chapter 6`
 6. Homework 1:
 	1. **Due: Jan 30**
 	2. Paper Copy, Turn in In class
