@@ -10,3 +10,5 @@ nlogn = 2n/2(log(n/2)) + n = n(logn - 1) + n = nlogn
 
 The master theorem has three cases
 - Know the cases (exam)
+- Examples
+	- 
