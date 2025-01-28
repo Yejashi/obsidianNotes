@@ -1,0 +1,1 @@
+Inspection is a legitimate to solve recurrences. 
