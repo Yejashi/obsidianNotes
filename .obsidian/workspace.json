@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms/Waypoint.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Waypoint"
-            }
-          },
-          {
-            "id": "a43d82e5c8b041ec",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Spring 2025/Algorithms/asymptotics-cheatsheet.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "asymptotics-cheatsheet"
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,11 +172,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a43d82e5c8b041ec",
+  "active": "23172f4819e3834e",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Meta/Attachments/Pasted image 20250126185354.png",
+    "Meta/Attachments/Pasted image 20250126185333.png",
+    "Meta/Attachments/Pasted image 20250126162340.png",
+    "Meta/Attachments/Pasted image 20250126161958.png",
+    "Meta/Attachments/Pasted image 20250126161612.png",
+    "Meta/Attachments/Pasted image 20250126154154.png",
+    "Meta/Attachments/Pasted image 20250126154102.png",
+    "Meta/Attachments/Pasted image 20250126151657.png",
+    "Class/Spring 2025/Algorithms/asymptotics-cheatsheet.pdf",
     "Class/Spring 2025/Algorithms/Lectures/Lecture 2.md",
     "Class/Spring 2025/Algorithms/Waypoint.md",
     "Class/Spring 2025/Algorithms/Lectures",
@@ -197,10 +195,8 @@
     "Class/Spring 2025/Algorithms/Book/Chapter 3.md",
     "Research/LLNL Project/Misc.md",
     "Untitled 1.md",
-    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Graph Algorithms/Homeworks/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms/Homeworks",
-    "Class/Spring 2025/Algorithms/asymptotics-cheatsheet.pdf",
     "Research/LLVM/Cheatsheet.md",
     "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
     "Class/Spring 2025/Graph Algorithms/Waypoint.md",
@@ -225,16 +221,7 @@
     "Research/LLVM/OptimizationRemarkEmitter.md",
     "Research/LLVM/Intermediate Representation (IR)/Static Single Assignment (SSA).md",
     "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
-    "Research/LLVM/Control Flow Graph.md",
     "Meta/Attachments/Pasted image 20241215115634.png",
-    "Meta/Attachments/Pasted image 20241215115608.png",
-    "Meta/Attachments/Pasted image 20241215114102.png",
-    "Meta/Attachments/Pasted image 20241215112610.png",
-    "Meta/Attachments/Pasted image 20241207085106.png",
-    "Meta/Attachments/Pasted image 20241202080611.png",
-    "Meta/Attachments/Pasted image 20241202080454.png",
-    "Meta/Attachments/Pasted image 20241202074257.png",
-    "Meta/Attachments/Pasted image 20241130220647.png",
-    "Meta/Attachments/Pasted image 20241130215941.png"
+    "Meta/Attachments/Pasted image 20241215115608.png"
   ]
 }
