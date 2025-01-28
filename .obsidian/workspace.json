@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "hw1_answers"
             }
+          },
+          {
+            "id": "26bd80718f73ff9a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "cs594_690_spring25_hw1"
+            }
           }
         ]
       }
@@ -219,7 +231,6 @@
     "TODO.md",
     "Research/Papers",
     "Research/LLNL Project/TODO.md",
-    "Research/Papers/Dynist",
     "Research/LLNL Project/Objectives.md",
     "Research/LLNL Project/Untitled.md",
     "Research/LLVM/OptimizationRemarkEmitter.md",
