@@ -25,14 +25,12 @@
             "id": "a43d82e5c8b041ec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Class/Spring 2025/Algorithms/Lectures/Lecture 2.md",
-                "mode": "source",
-                "source": false
+                "file": "Class/Spring 2025/Algorithms/asymptotics-cheatsheet.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Lecture 2"
+              "icon": "lucide-file-text",
+              "title": "asymptotics-cheatsheet"
             }
           }
         ],
@@ -187,14 +185,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "a43d82e5c8b041ec",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms/Waypoint.md",
     "Class/Spring 2025/Algorithms/Lectures/Lecture 2.md",
+    "Class/Spring 2025/Algorithms/Waypoint.md",
     "Class/Spring 2025/Algorithms/Lectures",
     "Class/Spring 2025/Algorithms/Book",
     "Class/Spring 2025/Algorithms/Book/Chapter 3.md",
