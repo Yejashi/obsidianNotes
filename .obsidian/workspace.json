@@ -196,8 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,50 +208,13 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "floating": {
-    "id": "7e3d8e544770b21f",
-    "type": "floating",
-    "children": [
-      {
-        "id": "25a080c085499df6",
-        "type": "window",
-        "children": [
-          {
-            "id": "98d1ecf4e69d0457",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f3563175b8ff37d3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "hw1_answers"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 6,
-        "y": 545,
-        "width": 950,
-        "height": 529,
-        "maximize": false,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "f3563175b8ff37d3",
+  "active": "2f59c388d5cac2a5",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph.png",
@@ -284,7 +246,6 @@
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
     "Class/Spring 2025/Algorithms COSC581/algorithms_text_book.pdf",
     "Research/LLVM/Passes/LLVM API.md",
-    "conflict-files-obsidian-git.md",
     "Untitled 1.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
