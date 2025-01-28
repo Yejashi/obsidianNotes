@@ -25,6 +25,18 @@
             "id": "2859e72d74f638fc",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/algorithms_text_book.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "algorithms_text_book"
+            }
+          },
+          {
+            "id": "f9cc04c1e8c6824c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 3.md",
@@ -36,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,10 +203,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2859e72d74f638fc",
+  "active": "f9cc04c1e8c6824c",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
+    "Class/Spring 2025/Algorithms COSC581/algorithms_text_book.pdf",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 3.md",
+    "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
     "conflict-files-obsidian-git.md",
     "Meta/Attachments/Pasted image 20250126185354.png",
@@ -236,7 +249,6 @@
     "Research/LLVM/Passes/LLVM API.md",
     "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
     "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
-    "Research/LLVM/OptimizationRemarkEmitter.md",
     "Meta/Attachments/Pasted image 20241215115634.png",
     "Meta/Attachments/Pasted image 20241215115608.png"
   ]
