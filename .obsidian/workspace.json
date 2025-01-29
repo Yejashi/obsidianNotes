@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hw1_answers"
+              "title": "Waypoint"
             }
           },
           {
@@ -198,10 +198,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "95090c4b17262291",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
+    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Untitled 1.md",
