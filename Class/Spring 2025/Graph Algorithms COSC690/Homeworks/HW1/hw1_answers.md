@@ -5,8 +5,6 @@ Class: COSC690 Graph Algorithms
 
 **Draw a graph to represent the NYC metro area using the 5 labeled land masses and 19 bridges.**
 
-![[nyc_graph.png]]
-
 ![[IMG_1204.jpg]]
 
 **Read the Konigsberg problem and apply similar reasoning to determine if it would be possible to start at some point, drive across all 19 NYC bridges and tunnels exactly once, and then return to your starting point.**
