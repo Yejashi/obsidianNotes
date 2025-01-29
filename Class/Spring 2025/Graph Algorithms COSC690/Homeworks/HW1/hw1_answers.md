@@ -17,8 +17,8 @@ Euler showed that for a path to exist such that we drive across all NYC bridges 
 The first condition which states that at most two nodes can have an odd degree is unsatisfied, as such it is impossible for  a path to exist that drives across all NYC bridges and tunnels exactly once.
 
 In order to ensure such a path exists the graph must be modified to to satisfy Euler's conditions. This can be done by simply adding a bridge between Long Island and Manhattan, as follows:
-![[nyc_graph_solved.png]]
 
+![[IMG_1205.jpg]]
 
 ### Question 2
 
