@@ -23,6 +23,7 @@ In order to ensure such a path exists the graph must be modified to to satisfy E
 ### Question 2
 
 **Given the following adjacency matrix, draw the corresponding graph by hand and determine its minimum degree, maximum degree, and graph density.**
+
 ![[unnamed.jpg]]
 
 The minimum degree is 2, of which nodes 1, 7, 4, and 3 consist of. 
