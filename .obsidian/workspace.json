@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7616a426218c71e5",
+        "id": "42587102bbd99630",
         "type": "tabs",
         "children": [
           {
-            "id": "e15f85ce4d914a9d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "homework_1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b76b9db240114b79",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "173eda74c50f8e79",
+            "id": "26bd80718f73ff9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
                 "mode": "source",
                 "source": false
               },
@@ -70,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cgs",
+                "query": "cmake ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.51103591918945
+    "width": 290.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -204,52 +186,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e15f85ce4d914a9d",
+  "active": "26bd80718f73ff9a",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
-    "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
     "Progress Writing/Progress.md",
-    "conflict-files-obsidian-git.md",
-    "[Direct Acyclic Graphs (DAGs).md",
+    "Progress Writing",
+    "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lecture 2.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Lectures",
+    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
     "Meta/Attachments/unnamed.jpg",
     "Meta/Attachments/IMG_1205.jpg",
     "Meta/Attachments/IMG_1204.jpg",
-    "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lecture 2.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Lectures",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 3.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
-    "Progress Writing",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Direct Acyclic Graphs (DAGs).md",
+    "[Direct Acyclic Graphs (DAGs).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Adjacency List.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
+    "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
+    "conflict-files-obsidian-git.md",
+    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 3.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph.png",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Glossary.md",
+    "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
+    "Untitled 1.md",
     "Meta/Attachments/Pasted image 20250126185354.png",
     "Meta/Attachments/Pasted image 20250126185333.png",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/question_2_graph.png",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph_solved.png",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph(2).png",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph 1.png",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Incidence Matrix.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Adjacency  Matrix.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Adjacency List.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph (data structure).md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph Theory.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Direct Acyclic Graphs (DAGs).md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book",
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1 1.docx",
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.docx",
-    "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
-    "Research/LLVM/Passes/LLVM API.md",
-    "Untitled 1.md",
+    "Meta/Attachments/Pasted image 20250126162340.png",
+    "Meta/Attachments/Pasted image 20250126161958.png",
+    "Meta/Attachments/Pasted image 20250126161612.png",
+    "Meta/Attachments/Pasted image 20250126154154.png",
+    "Meta/Attachments/Pasted image 20250126154102.png",
+    "Class/Spring 2025/Algorithms/asymptotics-cheatsheet.pdf",
+    "Research/LLNL Project/Misc.md",
+    "Class/Spring 2025/Graph Algorithms/Waypoint.md",
+    "Class/Spring 2025/Graph Algorithms/Homeworks/cs594_690_spring25_hw1.pdf",
+    "Class/Spring 2025/Graph Algorithms/Homeworks",
     "Research/Benchpark/Dalal/Objectives.md",
-    "Ian Feedback.md",
+    "Class/Spring 2025/Algorithms/Waypoint.md",
+    "Class/Spring 2025/Graph Algorithms",
+    "Class/Spring 2025/Algorithms",
+    "Class/Spring 2025",
+    "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
+    "Research/Papers/Dynist/Dyninst paper.md",
+    "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
+    "Research/Benchpark/Dalal",
+    "TODO.md",
+    "Research/LLNL Project/TODO.md",
+    "Research/LLNL Project/Objectives.md",
+    "Research/LLNL Project/Untitled.md",
     "Research/LLVM/OptimizationRemarkEmitter.md"
   ]
 }
