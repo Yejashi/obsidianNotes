@@ -3,4 +3,5 @@ Order statistic
 
 Sorting algs
 
-knut algorithm
+counting sort (knut sort)
+
