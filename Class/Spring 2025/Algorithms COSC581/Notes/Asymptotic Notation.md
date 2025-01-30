@@ -17,3 +17,4 @@ Before understanding asymptotic notation, you need to recognize common functions
 
 We use asymptotic notation to categorize these functions and describe how one function compares to another.
 
+
