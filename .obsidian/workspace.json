@@ -11,28 +11,17 @@
             "id": "66c05ad7d5197359",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf"
+                "file": "Class/Spring 2025/Algorithms COSC581/Notes/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "homework_1"
-            }
-          },
-          {
-            "id": "43db4b1b498941db",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.3"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,11 +184,15 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "43db4b1b498941db",
+  "active": "66c05ad7d5197359",
   "lastOpenFiles": [
+    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Notes/Untitled.md",
+    "Class/Spring 2025/Algorithms COSC581/Notes",
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
     "Progress Writing/Progress.md",
@@ -240,11 +233,8 @@
     "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
     "Research/Papers/Dynist/Dyninst paper.md",
     "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
-    "Research/Benchpark/Dalal",
     "TODO.md",
     "Research/LLNL Project/TODO.md",
-    "Research/LLNL Project/Objectives.md",
-    "Research/LLNL Project/Untitled.md",
-    "Research/LLVM/OptimizationRemarkEmitter.md"
+    "Research/LLNL Project/Objectives.md"
   ]
 }
