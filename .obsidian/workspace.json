@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "b76b9db240114b79",
+        "id": "7616a426218c71e5",
         "type": "tabs",
         "children": [
           {
@@ -13,12 +13,18 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf"
+                "file": "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "asymptotics-cheatsheet"
+              "title": "homework_1"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "b76b9db240114b79",
+        "type": "tabs",
+        "children": [
           {
             "id": "173eda74c50f8e79",
             "type": "leaf",
@@ -33,8 +39,7 @@
               "title": "hw1_answers"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,10 +204,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "173eda74c50f8e79",
+  "active": "e15f85ce4d914a9d",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
+    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
     "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
