@@ -11,14 +11,12 @@
             "id": "e15f85ce4d914a9d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Progress Writing/Progress.md",
-                "mode": "source",
-                "source": false
+                "file": "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Progress"
+              "icon": "lucide-file-text",
+              "title": "asymptotics-cheatsheet"
             }
           },
           {
@@ -27,15 +25,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
+                "file": "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Konigsberg Problem"
+              "title": "hw1_answers"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,8 +199,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "173eda74c50f8e79",
   "lastOpenFiles": [
+    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
+    "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
+    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
+    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
     "Progress Writing/Progress.md",
     "conflict-files-obsidian-git.md",
     "[Direct Acyclic Graphs (DAGs).md",
@@ -221,7 +227,6 @@
     "Meta/Attachments/Pasted image 20250126185333.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/question_2_graph.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph_solved.png",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph(2).png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/nyc_graph 1.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1",
@@ -233,20 +238,13 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Direct Acyclic Graphs (DAGs).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction",
     "Class/Spring 2025/Graph Algorithms COSC690/Book",
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1 1.docx",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.docx",
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1",
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
     "Research/LLVM/Passes/LLVM API.md",
     "Untitled 1.md",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
     "Research/Benchpark/Dalal/Objectives.md",
     "Ian Feedback.md",
-    "Research/LLVM/OptimizationRemarkEmitter.md",
-    "Research/Dynist/Dyninst paper.md",
-    "Research/Papers/Dynist/Dyninst paper.md"
+    "Research/LLVM/OptimizationRemarkEmitter.md"
   ]
 }
