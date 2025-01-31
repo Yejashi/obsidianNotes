@@ -32,9 +32,23 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.8.3"
             }
+          },
+          {
+            "id": "5f2588463846b492",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -186,11 +200,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1444489ece047ad3",
+  "active": "5f2588463846b492",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 4.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lecture 2.md",
     "Progress Writing/Progress.md",
@@ -202,7 +218,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Lectures",
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
-    "conflict-files-obsidian-git.md",
     "[Direct Acyclic Graphs (DAGs).md",
     "Meta/Attachments/unnamed.jpg",
     "Meta/Attachments/IMG_1205.jpg",
