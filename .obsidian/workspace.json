@@ -11,15 +11,30 @@
             "id": "e15f85ce4d914a9d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf"
+                "file": "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "homework_1"
+              "icon": "lucide-file",
+              "title": "Writing Pass Instrumentations"
+            }
+          },
+          {
+            "id": "63e0e579a6b07c44",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.3"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "b76b9db240114b79",
@@ -58,7 +73,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -70,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "registe",
+                "query": "register",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,14 +217,14 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "d18aa2dedfd56615",
+  "active": "63e0e579a6b07c44",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "C++/Lambda Functions.md",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf",
+    "conflict-files-obsidian-git.md",
     "Meta/Attachments/Pasted image 20250130114230.png",
     "Class/Spring 2025/Algorithms COSC581/Notes/Asymptotic Notation.md",
     "Class/Spring 2025/Algorithms COSC581/Notes",
