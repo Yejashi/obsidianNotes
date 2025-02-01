@@ -32,9 +32,21 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.8.3"
             }
+          },
+          {
+            "id": "f1eef6923162f60f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-01 18.05.02.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "b76b9db240114b79",
@@ -222,8 +234,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "63e0e579a6b07c44",
+  "active": "f1eef6923162f60f",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "C++/Lambda Functions.md",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf",
@@ -268,7 +281,6 @@
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1 1.docx",
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
     "Research/LLVM/Passes/LLVM API.md",
-    "Untitled 1.md",
-    "Research/Benchpark/Dalal/Objectives.md"
+    "Untitled 1.md"
   ]
 }
