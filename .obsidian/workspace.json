@@ -32,23 +32,9 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.8.3"
             }
-          },
-          {
-            "id": "0d328fcf531e7ef2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "b76b9db240114b79",
@@ -219,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,7 +222,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0d328fcf531e7ef2",
+  "active": "63e0e579a6b07c44",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "C++/Lambda Functions.md",
