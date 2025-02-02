@@ -15,6 +15,7 @@
 4. Read Chapter 4
 5. Read Chapter 6`
 6. Homework 2
+	1. Due Feb 6
 
 
 ## Table of Contents
