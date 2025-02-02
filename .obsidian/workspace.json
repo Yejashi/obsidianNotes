@@ -45,9 +45,21 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2025-02-01 18.05.02.excalidraw"
             }
+          },
+          {
+            "id": "66c4d9c287df7e96",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "b76b9db240114b79",
@@ -236,7 +248,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f1eef6923162f60f",
+  "active": "66c4d9c287df7e96",
   "lastOpenFiles": [
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
     "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
