@@ -188,8 +188,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3a01a9a3bb95ce27",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
     "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
     "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
@@ -233,8 +235,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Direct Acyclic Graphs (DAGs).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction",
     "Class/Spring 2025/Graph Algorithms COSC690/Book",
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1 1.docx",
-    "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
-    "Research/LLVM/Passes/LLVM API.md"
+    "Class/Spring 2025/Algorithms COSC581/Waypoint.md"
   ]
 }
