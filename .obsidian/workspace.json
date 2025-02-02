@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3a01a9a3bb95ce27",
+            "id": "5d9e7401f9f0382c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,18 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Waypoint"
-            }
-          },
-          {
-            "id": "99d9d5dc9d9fa64b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "asymptotics-cheatsheet"
             }
           },
           {
@@ -48,7 +36,25 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "f1638e7e2ee12635",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d835dbfdaf90a85",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/textbook_algorithms.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "textbook_algorithms"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,8 +224,9 @@
   "active": "59717987c3cdd123",
   "lastOpenFiles": [
     "Class/Spring 2025/Algorithms COSC581/textbook_algorithms.pdf",
-    "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
+    "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
@@ -235,7 +242,6 @@
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 4.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
     "Progress Writing/Progress.md",
     "[Direct Acyclic Graphs (DAGs).md",
@@ -261,7 +267,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Adjacency List.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph (data structure).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph Theory.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Direct Acyclic Graphs (DAGs).md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction"
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Direct Acyclic Graphs (DAGs).md"
   ]
 }
