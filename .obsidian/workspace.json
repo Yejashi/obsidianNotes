@@ -4,80 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7616a426218c71e5",
+        "id": "903d438a63998045",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "e15f85ce4d914a9d",
+            "id": "3a01a9a3bb95ce27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
+                "file": "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writing Pass Instrumentations"
-            }
-          },
-          {
-            "id": "63e0e579a6b07c44",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.3"
-            }
-          },
-          {
-            "id": "f1eef6923162f60f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-01 18.05.02.excalidraw"
-            }
-          },
-          {
-            "id": "66c4d9c287df7e96",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "b76b9db240114b79",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "173eda74c50f8e79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "hw1_answers"
+              "title": "Waypoint"
             }
           }
         ]
@@ -133,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -248,10 +188,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "66c4d9c287df7e96",
+  "active": "3a01a9a3bb95ce27",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
+    "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
     "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
+    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
     "conflict-files-obsidian-git.md",
     "C++/Lambda Functions.md",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf",
@@ -294,7 +235,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1 1.docx",
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
-    "Research/LLVM/Passes/LLVM API.md",
-    "Untitled 1.md"
+    "Research/LLVM/Passes/LLVM API.md"
   ]
 }
