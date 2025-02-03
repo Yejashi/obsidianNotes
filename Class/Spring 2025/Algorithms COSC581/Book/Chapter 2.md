@@ -26,3 +26,5 @@ INSERTION-SORT(A, n)
 
 ```
 
+Each iteration selects a new element (key) and shifts larger elements to the right until the key is placed in its correct position.
+
