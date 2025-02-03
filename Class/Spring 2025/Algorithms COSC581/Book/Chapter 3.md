@@ -118,7 +118,7 @@ Asymptotic notation is used to characterize the running time of algorithms. It p
 
 For two functions $f(n)$ and $g(n)$, we have:
 
-$$f(n)=Θ(g(n))$$if and only iff(n)=O(g(n)) and f(n)=Ω(g(n))f(n) = \Theta(g(n)) \quad \text{if and only if} \quad f(n) = O(g(n)) \text{ and } f(n) = \Omega(g(n))f(n)=Θ(g(n))if and only iff(n)=O(g(n)) and f(n)=Ω(g(n))
+$$f(n)=Θ(g(n))$$if and only if$f(n)=O(g(n))$ $and f(n)=Ω(g(n))f(n) = \Theta(g(n)) \quad \text{if and only if} \quad f(n) = O(g(n)) \text{ and } f(n) = \Omega(g(n))f(n)=Θ(g(n))if and only iff(n)=O(g(n)) and f(n)=Ω(g(n))
 
 This theorem helps in proving tight bounds by combining upper and lower bounds.
 
