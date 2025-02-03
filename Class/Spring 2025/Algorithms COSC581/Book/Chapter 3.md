@@ -80,3 +80,86 @@ In conclusion, asymptotic notations allow us to focus on the dominant terms in a
 
 ## 3.2 Asymptotic notation: formal definitions
 
+### Asymptotic Notations: O, Ω, and Θ
+
+Asymptotic notation is used to characterize the running time of algorithms. It provides a way to express the growth rates of functions, specifically how they behave as the input size increases. The main notations used are **O (Big-O)**, **Ω (Big-Omega)**, and **Θ (Big-Theta)**.
+
+#### O-Notation: Upper Bound
+
+- **Definition**: O-notation provides an upper bound on a function, indicating that a function's growth will never exceed a certain rate, up to a constant factor. If $f(n) = O(g(n))$, this means that there exist constants $n_0$ and $c$ such that for all $n \geq n_0$, $f(n) \leq c \cdot g(n)$.
+    
+- **Intuition**: The function $f(n)$ lies at or below a constant multiple of $g(n)$ for sufficiently large $n$. This is useful for analyzing the worst-case behavior of algorithms.
+    
+- **Example**: For $f(n) = 4n^2 + 100n + 500$, we can show that $f(n) = O(n^2)$ because, for sufficiently large $n$, the $n^2$ term dominates. By choosing appropriate constants $c$ and $n_0$, we can bound $f(n)$ by $c \cdot n^2$.
+    
+    - For example, if $n_0 = 1$, $c = 604$ works; if $n_0 = 10$, $c = 19$ works.
+- **Key Point**: The definition of $O(g(n))$ requires that $f(n)$ is asymptotically nonnegative, meaning it must be nonnegative for sufficiently large $n$.
+    
+
+#### Ω-Notation: Lower Bound
+
+- **Definition**: Ω-notation provides a lower bound for a function, meaning that the function's growth rate is at least as fast as $g(n)$, up to a constant factor. If $f(n) = \Omega(g(n))$, then there exist constants $n_0$ and $c$ such that for all $n \geq n_0$, $f(n) \geq c \cdot g(n)$.
+    
+- **Intuition**: For sufficiently large $n$, the function $f(n)$ is on or above a constant multiple of $g(n)$.
+    
+- **Example**: For $f(n) = 4n^2 + 100n + 500$, we can show that $f(n) = \Omega(n^2)$ by choosing $n_0$ and $c$ appropriately. For instance, dividing by $n^2$ gives $4 + 100/n + 500/n^2 \geq c$. This holds for $c = 4$ and any positive $n_0$.
+    
+
+#### Θ-Notation: Tight Bound
+
+- **Definition**: Θ-notation is used to describe an asymptotically tight bound. If $f(n) = \Theta(g(n))$, then there exist constants $n_0$, $c_1$, and $c_2$ such that for all $n \geq n_0$, $c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n)$.
+    
+- **Intuition**: The function $f(n)$ lies between two constant multiples of $g(n)$ for sufficiently large $n$. It’s a more precise description of an algorithm's running time compared to $O$ and $\Omega$.
+    
+- **Example**: For $f(n) = 4n^2 + 100n + 500$, we can say that $f(n) = \Theta(n^2)$ because both an upper and lower bound can be found for $n \geq n_0$.
+    
+
+#### Theorem 3.1: Relationship Between Notations
+
+For two functions $f(n)$ and $g(n)$, we have:
+
+f(n)=Θ(g(n))if and only iff(n)=O(g(n)) and f(n)=Ω(g(n))f(n) = \Theta(g(n)) \quad \text{if and only if} \quad f(n) = O(g(n)) \text{ and } f(n) = \Omega(g(n))f(n)=Θ(g(n))if and only iff(n)=O(g(n)) and f(n)=Ω(g(n))
+
+This theorem helps in proving tight bounds by combining upper and lower bounds.
+
+---
+
+### Applying Asymptotic Notation to Running Times
+
+When characterizing an algorithm's running time, it’s important to choose the most precise asymptotic notation. Here are some examples:
+
+- **Insertion Sort**:
+    
+    - **Worst-case**: $O(n^2)$, $\Omega(n^2)$, and $\Theta(n^2)$.
+    - **Best-case**: $O(n)$, $\Omega(n)$, and $\Theta(n)$.
+    
+    The **$\Theta(n^2)$** bound is the most precise for the worst case, while **$\Theta(n)$** is the most precise for the best case.
+    
+- **Merge Sort**:
+    
+    - The running time is $\Theta(n \log n)$ in all cases, so it’s sufficient to just say $\Theta(n \log n)$.
+
+#### Common Mistakes
+
+- Confusing $O$-notation with $\Theta$-notation: $O(n^2)$ indicates only an upper bound, not a tight bound. For example, saying "an $O(n \log n)$-time algorithm runs faster than an $O(n^2)$-time algorithm" is incorrect, as the $O(n^2)$ algorithm might actually run faster in practice.
+    
+- Incorrectly stating that a running time is $\Theta(n^2)$ when it’s not always the worst-case time complexity. For example, insertion sort's running time is $O(n^2)$ but not $\Theta(n^2)$ in all cases.
+    
+
+### Using Asymptotic Notation in Equations
+
+Asymptotic notation is often used in equations to express an anonymous function's growth rate. For example:
+
+- 4n2+100n+500=O(n2)4n^2 + 100n + 500 = O(n^2)4n2+100n+500=O(n2)
+    
+- 2n2+3n+1=2n2+Θ(n)2n^2 + 3n + 1 = 2n^2 + \Theta(n)2n2+3n+1=2n2+Θ(n)
+    
+
+In these cases, the asymptotic notation stands for some function whose exact form we don’t need to specify. This simplifies the equation by focusing only on the dominant term, making it easier to analyze and compare the growth rates of different functions.
+
+### Summary
+
+- **O-notation**: Provides an upper bound on the growth rate.
+- **Ω-notation**: Provides a lower bound on the growth rate.
+- **Θ-notation**: Provides a tight, asymptotic bound.
+- Choose the most precise notation possible to avoid overstating or understating the algorithm’s running time.
