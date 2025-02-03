@@ -11,3 +11,18 @@ The algorithm works similarly to sorting playing cards in hand:
 2. Take the next card from the pile and insert it into the correct position among the sorted cards in the left hand.
 3. Repeat for all cards, always maintaining a sorted order in the left hand.
 
+### Pseudocode for Insertion Sort
+
+```cpp
+INSERTION-SORT(A, n)
+1 for i = 2 to n
+2   key = A[i]  
+3   // Insert A[i] into the sorted subarray A[1:i-1]  
+4   j = i - 1  
+5   while j > 0 and A[j] > key  
+6       A[j + 1] = A[j]  
+7       j = j - 1  
+8   A[j + 1] = key  
+
+```
+
