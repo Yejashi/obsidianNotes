@@ -25,12 +25,14 @@
             "id": "fe183164efb6c36d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf"
+                "file": "New RAJAPerf Paper.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "asymptotics-cheatsheet"
+              "icon": "lucide-file",
+              "title": "New RAJAPerf Paper"
             }
           },
           {
@@ -212,8 +214,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "fe183164efb6c36d",
   "lastOpenFiles": [
+    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
+    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
     "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
     "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
@@ -244,7 +248,7 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 3.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
-    "Untitled 1.md",
+    "New RAJAPerf Paper.md",
     "Meta/Attachments/Pasted image 20250126185354.png",
     "Meta/Attachments/Pasted image 20250126185333.png",
     "Meta/Attachments/Pasted image 20250126162340.png",
@@ -257,7 +261,6 @@
     "Research/Benchpark/Dalal/Objectives.md",
     "Class/Spring 2025/Algorithms/Waypoint.md",
     "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
-    "Research/Papers/Dynist/Dyninst paper.md",
-    "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md"
+    "Research/Papers/Dynist/Dyninst paper.md"
   ]
 }
