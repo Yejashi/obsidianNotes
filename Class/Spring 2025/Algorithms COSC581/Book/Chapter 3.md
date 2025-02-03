@@ -37,3 +37,45 @@ For example, since the function $7n^3 + 100n^2 - 20n + 6$ is both $O(n^3)$ and $
 To understand how asymptotic notation is applied in practice, let’s revisit the insertion sort algorithm and analyze its running time.
 
 #### Insertion Sort Algorithm
+
+```cpp
+INSERTION-SORT(A, n):
+    for i = 2 to n:
+        key = A[i]
+        j = i - 1
+        while j > 0 and A[j] > key:
+            A[j + 1] = A[j]
+            j = j - 1
+        A[j + 1] = key
+
+```
+
+The algorithm consists of two nested loops:
+
+1. **Outer Loop:** This loop runs $n-1$ times, regardless of the input.
+2. **Inner Loop:** This loop's iterations depend on the values being sorted. It may run anywhere from 0 to $i-1$ times for each iteration of the outer loop.
+
+#### Worst-Case Running Time
+
+- **O-Notation (Upper Bound):** The outer loop runs $n-1$ times. The inner loop runs at most $i-1$ times in the $i^{th}$ iteration of the outer loop. Hence, the total number of iterations of the inner loop is at most $(n-1)(n-1)$, which is $O(n^2)$.
+    
+- **Ω-Notation (Lower Bound):** The worst-case scenario occurs when the array is in reverse order. In this case, each element must be moved to the front, meaning that for every element, the inner loop executes the maximum number of times. Therefore, the running time in the worst case is at least $\Omega(n^2)$.
+    
+- **Θ-Notation (Tight Bound):** Since we have shown that the running time is both $O(n^2)$ and $\Omega(n^2)$, we can conclude that the worst-case running time is $\Theta(n^2)$.
+    
+
+#### Worst-Case Example with Insertion Sort
+
+To illustrate the worst-case scenario, assume that the first $n/3$ positions contain the $n/3$ largest values. These values need to be moved through the middle $n/3$ positions to the last $n/3$ positions, requiring at least $n^2/9$ operations. Therefore, the worst-case time complexity is $\Omega(n^2)$.
+
+---
+
+### Summary of Asymptotic Notations
+
+1. **O-Notation ($O$):** Upper bound on the growth of a function.
+2. **Ω-Notation ($\Omega$):** Lower bound on the growth of a function.
+3. **Θ-Notation ($\Theta$):** Tight bound on the growth of a function, providing an exact characterization.
+
+In conclusion, asymptotic notations allow us to focus on the dominant terms in an algorithm's running time, simplifying our analysis and understanding of its performance.
+
+
