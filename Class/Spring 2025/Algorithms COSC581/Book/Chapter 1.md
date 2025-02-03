@@ -41,4 +41,4 @@ The book introduces various problem-solving techniques, including:
 
 While many problems have efficient solutions, some—called **NP-complete problems**—have no known polynomial-time algorithm. If an efficient algorithm is found for one NP-complete problem, it would solve all NP-complete problems efficiently, making this a central open question in computer science.
 
-## 1.2
+## 1.2 Algorithms as a technology
