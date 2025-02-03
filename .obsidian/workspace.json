@@ -20,8 +20,33 @@
               "icon": "lucide-file",
               "title": "Asymptotic Notation"
             }
+          },
+          {
+            "id": "fe183164efb6c36d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "asymptotics-cheatsheet"
+            }
+          },
+          {
+            "id": "ee190e506082a1d8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "homework_1"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,15 +209,15 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "66c05ad7d5197359",
+  "active": "fe183164efb6c36d",
   "lastOpenFiles": [
-    "Meta/Attachments/Pasted image 20250130114230.png",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf",
+    "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
     "Class/Spring 2025/Algorithms COSC581/Notes/Asymptotic Notation.md",
+    "Meta/Attachments/Pasted image 20250130114230.png",
     "Class/Spring 2025/Algorithms COSC581/Notes",
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
@@ -220,7 +245,6 @@
     "Meta/Attachments/Pasted image 20250126161958.png",
     "Meta/Attachments/Pasted image 20250126161612.png",
     "Meta/Attachments/Pasted image 20250126154154.png",
-    "Meta/Attachments/Pasted image 20250126154102.png",
     "Class/Spring 2025/Algorithms/asymptotics-cheatsheet.pdf",
     "Research/LLNL Project/Misc.md",
     "Class/Spring 2025/Graph Algorithms/Waypoint.md",
