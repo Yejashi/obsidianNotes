@@ -150,9 +150,9 @@ When characterizing an algorithm's running time, it’s important to choose the 
 
 Asymptotic notation is often used in equations to express an anonymous function's growth rate. For example:
 
-- 4n2+100n+500=O(n2)4n^2 + 100n + 500 = O(n^2)4n2+100n+500=O(n2)
+- $4n2+100n+500=O(n2)4n^2 + 100n + 500 = O(n^2)4n2+100n+500=O(n2)$
     
-- 2n2+3n+1=2n2+Θ(n)2n^2 + 3n + 1 = 2n^2 + \Theta(n)2n2+3n+1=2n2+Θ(n)
+- $2n2+3n+1=2n2+Θ(n)2n^2 + 3n + 1 = 2n^2 + \Theta(n)2n2+3n+1=2n2+Θ(n)$
     
 
 In these cases, the asymptotic notation stands for some function whose exact form we don’t need to specify. This simplifies the equation by focusing only on the dominant term, making it easier to analyze and compare the growth rates of different functions.
