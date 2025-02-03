@@ -106,3 +106,5 @@ In general, the running time depends on both the input size and the nature of th
 
 By analyzing the running time of algorithms through the lens of the RAM model, we can make informed decisions about which algorithm is most efficient for a given problem.
 
+## 2.3 Designing algorithms
+
