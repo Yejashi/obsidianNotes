@@ -1,7 +1,5 @@
 ## 3.1 O-notation, Omega notation, theta notation
 
-### Asymptotic Notation and Algorithm Analysis
-
 ### Asymptotic Notation in Algorithm Analysis
 
 Asymptotic notation is a way to characterize the running times of algorithms in terms of how they scale with input size. It helps us focus on the dominant terms and ignore less significant details. In this section, we explore different forms of asymptotic notation, including O-notation, Ω-notation, and Θ-notation, using insertion sort as an example.
