@@ -50,8 +50,8 @@ Even if computers were infinitely fast and memory were free, understanding algor
 
 Different algorithms solving the same problem can vary significantly in efficiency, often more than differences in hardware and software. For example:
 
-- **Insertion Sort** runs in O(n2)O(n^2)O(n2) time, meaning its execution grows quadratically with input size.
-- **Merge Sort** runs in O(nlog⁡n)O(n \log n)O(nlogn), making it significantly faster for large inputs.
+- **Insertion Sort** runs in O(n^2) time, meaning its execution grows quadratically with input size.
+- **Merge Sort** runs in O(nlog⁡n), making it significantly faster for large inputs.
 
 Even a vastly superior hardware system using a poor algorithm (Insertion Sort) can be outperformed by an inferior hardware system using an efficient algorithm (Merge Sort). The impact becomes more pronounced as problem size increases.
 
