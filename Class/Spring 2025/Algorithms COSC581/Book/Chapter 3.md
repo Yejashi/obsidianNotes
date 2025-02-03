@@ -1,4 +1,4 @@
-## O-notation, Omega notation, theta notation
+## 3.1 O-notation, Omega notation, theta notation
 
 ### Asymptotic Notation and Algorithm Analysis
 
