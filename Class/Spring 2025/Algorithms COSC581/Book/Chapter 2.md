@@ -50,3 +50,5 @@ Loop invariants provide a structured way to verify algorithm correctness, simila
 ### **Summary**
 
 Insertion Sort is an efficient algorithm for small datasets, working by incrementally growing a sorted subarray. Its correctness is verified using loop invariants, and its implementation follows a structured pseudocode convention.
+
+I am going to give you sections of a text book. I want you to reduce the text to its most important bits, be detailed. This is from the text book: Introuduction to Algorithms
