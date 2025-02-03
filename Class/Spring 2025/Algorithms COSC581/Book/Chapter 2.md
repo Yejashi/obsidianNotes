@@ -177,3 +177,4 @@ The **divide** step takes constant time, while the **conquer** step involves rec
 ### Conclusion
 
 The divide-and-conquer method, as demonstrated by merge sort, is a powerful approach for designing efficient algorithms. It breaks down problems into smaller, manageable subproblems, solves them recursively, and combines the solutions. Merge sort, in particular, offers a significant improvement over simpler algorithms like insertion sort, especially for larger datasets.
+
