@@ -26,6 +26,7 @@ Formally, for any function `f(n)`, if there exist constants `c > 0` and `n_0` su
 
 
 
+
 #### Omega-notation (Lower Bound)
 
 **Omega-notation** describes a lower bound on the growth rate of a function. It tells us that a function grows at least as fast as a given rate.
