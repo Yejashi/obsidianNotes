@@ -24,6 +24,8 @@ Example:
 
 Formally, for any function `f(n)`, if there exist constants `c > 0` and `n_0` such that: f(n)≤c⋅g(n)for alln≥n0f(n) \leq c \cdot g(n) \quad \text{for all} \quad n \geq n_0f(n)≤c⋅g(n)for alln≥n0​ then we write `f(n) = O(g(n))`.  
 
+
+
 #### Omega-notation (Lower Bound)
 
 **Omega-notation** describes a lower bound on the growth rate of a function. It tells us that a function grows at least as fast as a given rate.
