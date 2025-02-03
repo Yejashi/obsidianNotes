@@ -22,7 +22,7 @@ Example:
 
 - For the function `7n^3 + 100n^2 - 20n + 6`, the highest-order term is `7n^3`, so we say this function is `O(n^3)`. It is also technically `O(n^4)`, `O(n^5)`, and so on because the function grows more slowly than these terms.
 
-Formally, for any function `f(n)`, if there exist constants `c > 0` and `n_0` such that: f(n)≤c⋅g(n)for alln≥n0f(n) \leq c \cdot g(n) \quad \text{for all} \quad n \geq n_0f(n)≤c⋅g(n)for alln≥n0​ then we write `f(n) = O(g(n))`. 
+Formally, for any function `f(n)`, if there exist constants `c > 0` and `n_0` such that: f(n)≤c⋅g(n)for alln≥n0f(n) \leq c \cdot g(n) \quad \text{for all} \quad n \geq n_0f(n)≤c⋅g(n)for alln≥n0​ then we write `f(n) = O(g(n))`.  
 
 #### Omega-notation (Lower Bound)
 
