@@ -1,4 +1,4 @@
-### 1.1 Algorithms
+## 1.1 Algorithms
 
 #### **Definition of an Algorithm**
 
