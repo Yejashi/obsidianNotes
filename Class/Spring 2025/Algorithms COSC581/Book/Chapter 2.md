@@ -105,3 +105,4 @@ In general, the running time depends on both the input size and the nature of th
 - **Big-O notation**: To simplify comparisons between algorithms, we use Big-O notation, which expresses the upper bound of an algorithm's growth rate. For example, Insertion Sort has a worst-case time complexity of O(n2)O(n^2)O(n2).
 
 By analyzing the running time of algorithms through the lens of the RAM model, we can make informed decisions about which algorithm is most efficient for a given problem.
+
