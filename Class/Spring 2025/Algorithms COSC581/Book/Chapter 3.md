@@ -78,3 +78,5 @@ In conclusion, asymptotic notations allow us to focus on the dominant terms in a
 
 
 
+## 3.2 Asymptotic notation: formal definitions
+
