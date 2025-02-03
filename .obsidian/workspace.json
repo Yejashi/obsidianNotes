@@ -217,14 +217,15 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "59717987c3cdd123",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 2.md",
     "Class/Spring 2025/Algorithms COSC581/textbook_algorithms.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 2.md",
+    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
     "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
@@ -266,7 +267,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Adjacency  Matrix.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Adjacency List.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph (data structure).md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph Theory.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Direct Acyclic Graphs (DAGs).md"
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Graph Theory.md"
   ]
 }
