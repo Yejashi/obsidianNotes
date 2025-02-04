@@ -9,3 +9,7 @@ How do measure ?
 Average case analysis of quicksort
 - Assume keys are distinct
 - Assume all permutations are equally likely
+
+Let F(n) denote the average number of comparisons required
+
+Then F(n) = (n-1) + (1/n) * $\signma$
