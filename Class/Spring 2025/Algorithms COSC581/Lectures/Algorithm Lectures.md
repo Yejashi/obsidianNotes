@@ -13,4 +13,6 @@ Average case analysis of quicksort
 Let F(n) denote the average number of comparisons required
 
 Then F(n) = (n-1) + (1/n) * $\sum$ (i = 1, n) [F(i-1) + F(n-i])]
- which by symmetry = 
+ 
+ which by symmetry = (n-1) + (2/n)$\sum$ (i=1,n)[F(i-1)]
+ 
