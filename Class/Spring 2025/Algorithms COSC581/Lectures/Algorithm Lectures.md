@@ -26,7 +26,7 @@ Back to quicksort
 	- MOreover, the worst case is truly awful.
 		- Can we address this?
 		- And if so, is the cure worse than the disease.
-Algorithm
+Algorithm 1
 - Identify the smallest, then the next smallest, etc
 - COntinue until we find the nearest $n/2$ smallest.
 
