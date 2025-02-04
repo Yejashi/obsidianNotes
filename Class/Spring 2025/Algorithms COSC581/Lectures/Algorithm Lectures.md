@@ -61,3 +61,5 @@ Hence the recurrence:
 - t(n) = c2n + t(n/5) + t(3n/4) otherwise
 -          [find mednian] + [find m]  +  [find the kth largest element]
 it turns out that t(n) is o(n)
+
+So we can make quicksort o(nlogn) even in the worst case. And a more careful look at our figure reveals that the last termis actually a wee but smaller at T(7n/10)
