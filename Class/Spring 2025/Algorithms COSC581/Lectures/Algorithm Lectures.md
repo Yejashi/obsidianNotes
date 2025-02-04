@@ -42,3 +42,10 @@ Algorithm 4.
 - Break the file into subfiles
 - Find the median of each suffle
 - Compute the median of medians
+
+The median of medians approach
+- CHoose an r > 1 (for file size)
+- As we'll see, it turn out that 5 is a good choice
+- Divide L into n/r subfiles
+- Find the median of each subfile
+- Find the median of medians
