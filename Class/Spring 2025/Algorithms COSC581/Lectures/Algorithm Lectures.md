@@ -49,3 +49,6 @@ The median of medians approach
 - Divide L into n/r subfiles
 - Find the median of each subfile
 - Find the median of medians
+
+Obserbe:
+- Every element o A is at most M
