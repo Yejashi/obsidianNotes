@@ -53,4 +53,5 @@ The median of medians approach
 ![[IMG_1213.jpg]]
 
 Obserbe:
-- Every element o A is at most M
+- Every element o A is at most m
+- Every elemend of D is at least m
