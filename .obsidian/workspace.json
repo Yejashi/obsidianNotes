@@ -179,6 +179,7 @@
   },
   "active": "b967ff648d53b43c",
   "lastOpenFiles": [
+    "Meta/Attachments/IMG_1213.jpg",
     "Excalidraw/Drawing 2025-02-04 16.38.07.excalidraw.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 4.md",
@@ -223,7 +224,6 @@
     "Research/LLVM/Cheatsheet.md",
     "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
     "Class/Spring 2025/Graph Algorithms/Waypoint.md",
-    "C++/Linkage.md",
-    "Research/LLNL Project/Objectives.md"
+    "C++/Linkage.md"
   ]
 }
