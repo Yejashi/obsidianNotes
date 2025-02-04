@@ -34,3 +34,6 @@ Algorithm 2
 - Sort the file
 - Use the item at location $n/2$ .
 
+Algorithm 3:
+- Pseudo-randomly pick a small set of elements
+- Use their median as a proxy
