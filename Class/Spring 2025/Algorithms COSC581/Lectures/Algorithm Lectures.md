@@ -19,3 +19,10 @@ Then F(n) = (n-1) + (1/n) * $\sum$ (i = 1, n) [F(i-1) + F(n-i])]
  - It requires a change of variable
  - Then uses asymptotics (~) to convert a series to an itegral.
  - And finally find that F(n) is about 1.39 nlog2n   
+
+Back to quicksort
+- Its average case is excellent.
+	- But the analysis assumes that keys are distinct, and that all permutation are equally likely.
+	- MOreover, the worst case is truly awful.
+		- Can we address this?
+		- And if so, is the cure worse than the disease.
