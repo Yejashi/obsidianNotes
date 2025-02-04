@@ -55,3 +55,4 @@ The median of medians approach
 Obserbe:
 - Every element o A is at most m
 - Every elemend of D is at least m
+- Partition with m and L  is split into two subfiles each with n/4 or more elements
