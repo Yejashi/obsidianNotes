@@ -30,4 +30,6 @@ Algorithm
 - Identify the smallest, then the next smallest, etc
 - COntinue until we find the nearest $n/2$ smallest.
 
-Time complexity:
+Algorithm 2
+- Sort the file
+- Use the item at location $n/2$ .
