@@ -5,3 +5,7 @@ How do measure ?
 - Average case
 - Stability
 - Other? For example, out of core.
+
+Average case analysis of quicksort
+- Assume keys are distinct
+- Assume all permutations are equally likely
