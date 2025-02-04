@@ -55,4 +55,9 @@ The median of medians approach
 Obserbe:
 - Every element o A is at most m
 - Every elemend of D is at least m
-- Partition with m and L  is split into two subfiles each with n/4 or more elements
+- Partition with m, and L  is split into two subfiles each with n/4 or more elements
+Hence the recurrence:
+- t(n) = c1n for small n
+- t(n) = c2n + t(n/5) + t(3n/4) otherwise
+-          [find mednian] + [find m]  +  [find the kth largest element]
+it turns out that t(n) is o(n)
