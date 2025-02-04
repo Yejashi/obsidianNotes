@@ -50,5 +50,7 @@ The median of medians approach
 - Find the median of each subfile
 - Find the median of medians
 
+
+
 Obserbe:
 - Every element o A is at most M
