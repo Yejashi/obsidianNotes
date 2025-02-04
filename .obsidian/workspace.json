@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Algorithm Lectures"
             }
+          },
+          {
+            "id": "9b04b4d0c4896d7d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-02-04 16.38.07.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-04 16.38.07.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,10 +190,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b967ff648d53b43c",
+  "active": "9b04b4d0c4896d7d",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 4.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
+    "Excalidraw/Drawing 2025-02-04 16.38.07.excalidraw.md",
+    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 4.md",
     "conflict-files-obsidian-git.md",
     "Progress Writing/Progress.md",
     "New RAJAPerf Paper.md",
@@ -223,7 +237,6 @@
     "Research/LLVM/Passes/Pass Manager/Adding Passes to a Pass Manager.md",
     "Class/Spring 2025/Graph Algorithms/Waypoint.md",
     "C++/Linkage.md",
-    "Research/LLNL Project/Objectives.md",
-    "Research/Benchpark/Dalal/Objectives.md"
+    "Research/LLNL Project/Objectives.md"
   ]
 }
