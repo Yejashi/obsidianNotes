@@ -37,3 +37,8 @@ Algorithm 2
 Algorithm 3:
 - Pseudo-randomly pick a small set of elements
 - Use their median as a proxy
+
+Algorithm 4.
+- Break the file into subfiles
+- Find the median of each suffle
+- Compute the median of medians
