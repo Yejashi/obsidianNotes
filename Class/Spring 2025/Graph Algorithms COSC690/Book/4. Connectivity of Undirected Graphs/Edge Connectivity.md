@@ -3,7 +3,7 @@ In graph theory, **edge connectivity** refers to the minimum number of edges tha
 This concept is crucial for understanding the resilience of networks, as it indicates how many edges can be removed before the network becomes disconnected.
 
 **Formal Definition:**
-Let G = ( V , E ) be an arbitrary graph. If the subgraph G ′ = ( V , E ∖ X ) is connected for all X ⊆ E {\displaystyle X\subseteq E} where | X | < k {\displaystyle |X|<k}, then G is said to be k-edge-connected. The edge connectivity of G {\displaystyle G} is the maximum value k such that G is k-edge-connected. The smallest set X whose removal disconnects G is a minimum cut in G. 
+Let G = ( V , E ) be an arbitrary graph. If the subgraph G ′ = ( V , E ∖ X ) is connected for all X ⊆ E  where | X | < k {\displaystyle |X|<k}, then G is said to be k-edge-connected. The edge connectivity of G {\displaystyle G} is the maximum value k such that G is k-edge-connected. The smallest set X whose removal disconnects G is a minimum cut in G. 
 
 Given a connected graph G=(V,E), the **edge connectivity** **λ(G)** is defined as the smallest number of edges whose removal results in a disconnected graph. In other words, it's the size of the smallest edge cut that s**eparates the graph into two or more disconnected components**.
 
