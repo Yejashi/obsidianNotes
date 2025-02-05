@@ -11,3 +11,5 @@
 - A **Component** of of an undirected graph is defined as a connected subgraph that is not part of any larger connected subgraph.
 
 - A **Connected Graph** is type of graph in which there is a path between every pair of vertices. This means that no vertex is isolated, and all vertices are reachable from any other vertex.
+
+- 
