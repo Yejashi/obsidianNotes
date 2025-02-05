@@ -18,7 +18,7 @@ In simple terms, a **k-vertex-connected graph** is a connected network where, be
 
 If the graph connectivity of a graph is 4, then it is a 4-connected graph. 
 
-In general
+In general, a graph is k connected for all values of k where k is a positive integer and k is less than or equals to 
 
 
 
