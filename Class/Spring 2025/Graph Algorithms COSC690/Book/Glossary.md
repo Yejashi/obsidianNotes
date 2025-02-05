@@ -9,3 +9,4 @@
 		- N(N - 1): Total number of possible edges
 
 
+- A **Connected Graph** is 
