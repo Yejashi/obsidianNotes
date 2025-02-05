@@ -31,7 +31,7 @@ If the original were to have so much as an additional edge for any vertex, makin
 
 #### c.) Which method has a better time complexity? Why?
 
-In general neither algorithm has a better complexity as they both 
+In general neither algorithm has a better complexity as both algorithms are O(V+E).
 
 #### 3. Consider the following recursive algorithm. It takes as input a simple, undirected graph G and returns an output of True/False if the graph is connected.
 ![[Pasted image 20250205140626.png]]
