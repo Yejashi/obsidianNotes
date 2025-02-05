@@ -2,7 +2,6 @@
 The vertex connectivity of a graph G is the minimum number of vertices we can delete to disconnect G.
 
 #### K-Vertex Connected
-
 In graph theory, a k-vertex-connected graph is a connected graph that remains connected even after the removal of any set of fewer than k vertices. 
 
 **Formal Definition:**
