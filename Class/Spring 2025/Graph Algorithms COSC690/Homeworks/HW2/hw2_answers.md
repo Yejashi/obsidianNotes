@@ -33,4 +33,5 @@ If the original were to have so much as an additional edge for any vertex, makin
 ##### b. Does this algorithm work correctly for every simple, undirected graph of size n > 0?
 
 
-##### c. 
+##### c. Does this algorithm work correctly for every simple, undirected graph of size n > 0?
+
