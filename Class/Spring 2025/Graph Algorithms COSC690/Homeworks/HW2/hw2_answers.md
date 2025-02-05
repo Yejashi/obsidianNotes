@@ -48,5 +48,5 @@ The algorithm will reach the final return statement if there is a graph with nod
 
 ##### c. On what type(s) of graph(s) does the worst-case behavior occur? What about the best?
 
-The worst case behavior occurs when there is a graph such that all the edges connect to a single. This will cause a setting where a full column in the adjacency matrix is are all 1's and the rest of the columns are 
+The worst case behavior occurs when there is a graph such that all the edges connect to a single node and in the adjacency matrix that represented as the last column. This will cause the for loop in the algorithm to check most of the columns, wasting quite a bit of time.
 
