@@ -14,4 +14,4 @@
 
 - **Edge connectivity** refers to the minimum number of edges that must be **removed** from a connected graph to disconnect it. 
 
-- The **Minimum Cut** in a graph is the smallest set of edges whose removal disconnects the graph.
+- The **Minimum Cut** in a graph is the smallest set of edges whose removal disconnects the graph. The size of this minimum cut is equal to the edge connectivity of the graph.
