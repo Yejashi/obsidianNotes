@@ -6,8 +6,8 @@ i.e For complete graphs, it is n - 1 to make it trivial.
 Suppose we had the following graph:
 ![[Pasted image 20250205122253.png]]
 
-Delete v7 and v5
-
+If we delete verticies v
+![[Pasted image 20250205125403.png]]
 #### K-Vertex Connected
 In graph theory, a k-vertex-connected graph is a connected graph that remains connected even after the removal of any set of fewer than k vertices. 
 
