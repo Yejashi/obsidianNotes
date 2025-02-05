@@ -19,3 +19,4 @@ If the original were to have so much as an additional edge for any vertex, makin
 
 
 #### 2. Topological sort orders the vertices of a directed graph such that for every directed edge (u, v) from vertex u to vertex v, u comes before v in the ordering. Given the following graph, state the linear ordering of vertices by performing a topological sort using the conditions below. In every case where a choice needs to be made, choose the smallest vertex label
+
