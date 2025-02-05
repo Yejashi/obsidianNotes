@@ -36,20 +36,6 @@
             }
           },
           {
-            "id": "2a1ea2beb776ea76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Topological Sort.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Topological Sort"
-            }
-          },
-          {
             "id": "bd8166a365470106",
             "type": "leaf",
             "state": {
@@ -318,12 +304,52 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2a1ea2beb776ea76",
+  "floating": {
+    "id": "07cd04a88ce31a80",
+    "type": "floating",
+    "children": [
+      {
+        "id": "b5d586090efd08c3",
+        "type": "window",
+        "children": [
+          {
+            "id": "b6eaf651e3e07a2f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2a1ea2beb776ea76",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Topological Sort.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Topological Sort"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 3844,
+        "y": 8,
+        "width": 1268,
+        "height": 1424,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "480277d9291f92b9",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Incidence Matrix.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Topological Sort.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
+    "Meta/Attachments/Pasted image 20250205134615.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Topological Sort.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Incidence Matrix.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
     "Meta/Attachments/Pasted image 20250205134135.png",
     "Meta/Attachments/Pasted image 20250205134018.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Vertex Connectivity.md",
@@ -364,7 +390,6 @@
     "Class/Spring 2025/Algorithms COSC581/Notes/Asymptotic Notation.md",
     "Class/Spring 2025/Algorithms COSC581/Notes",
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
     "Progress Writing"
   ]
 }
