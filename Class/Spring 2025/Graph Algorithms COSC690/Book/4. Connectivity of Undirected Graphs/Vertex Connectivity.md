@@ -1,7 +1,6 @@
 #### Vertex Connectivity
 The vertex connectivity of a graph G is the minimum number of vertices we can delete to disconnect G.
 
-![[Pasted image 20250205122224.png]]
 
 
 #### K-Vertex Connected
