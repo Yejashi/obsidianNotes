@@ -1,3 +1,6 @@
 Topological sorting is a method for linearly ordering the vertices of a directed graph so that for every directed edge from vertex u to vertex v, u comes before v in the ordering. 
 
-In other words, it produces a sequence in which tasks (or nodes) are arranged such that every dependency is respected. This concept is central in many applications like scheduling tasks, resolving dependencies in makefiles, or ordering cells in a spreadsheet for recalculation.
+In other words, it produces a sequence in which tasks (or nodes) are arranged such that every dependency is respected. 
+
+This concept is central in many applications like scheduling tasks, resolving dependencies in makefiles, or ordering cells in a spreadsheet for recalculation.
+
