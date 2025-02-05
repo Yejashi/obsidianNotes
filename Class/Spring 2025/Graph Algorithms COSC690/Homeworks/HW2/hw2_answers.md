@@ -29,7 +29,7 @@ If the original were to have so much as an additional edge for any vertex, makin
 ![[Pasted image 20250205142558.png]]
 
 
-
+#### c.) 
 
 #### 3. Consider the following recursive algorithm. It takes as input a simple, undirected graph G and returns an output of True/False if the graph is connected.
 ![[Pasted image 20250205140626.png]]
