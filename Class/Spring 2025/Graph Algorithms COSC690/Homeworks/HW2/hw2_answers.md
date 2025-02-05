@@ -10,3 +10,4 @@ Which has an edge connectivity of 2, as shown:
 
 We can see that with a graph like this, the minimum degree for any node is now 2. As such, regardless of how the graph changes, if the minimum degree is less than 2 then it cannot have an edge connectivity of λ(G) = k ≥ 2.
 
+We will also have a similar result for vertex connectivity.
