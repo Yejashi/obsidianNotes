@@ -13,3 +13,6 @@ We can see that with a graph like this, the minimum degree for any node is now 2
 We will also have a similar result for vertex connectivity.
 
 For example, the same graph as above has a vertex connectivity of 2:
+![[Pasted image 20250205134018.png]]
+
+If the original were to have so much as an additional edge for any vertex, making the degree of said vertex greateer than 2, then it would immediatly have a vertex connectivity of 1, which is 
