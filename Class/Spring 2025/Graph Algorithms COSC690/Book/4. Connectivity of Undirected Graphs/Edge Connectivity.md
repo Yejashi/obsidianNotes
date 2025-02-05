@@ -14,4 +14,5 @@ Suppose we have the following graph:
 ![[Pasted image 20250205113603.png]]
 
 If we remove edges e1 and e5 then the graph becomes disconnected, thus the edge connectivity of this graph is 2.
-![[Pasted image 20250205113617.png]]
+![[Pasted image 20250205113745.png]]
+
