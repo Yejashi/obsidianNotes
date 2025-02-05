@@ -25,4 +25,9 @@ If the original were to have so much as an additional edge for any vertex, makin
 ##### **a.)**
 
 
-#### 
+#### Consider the following recursive algorithm. It takes as input a simple, undirected graph G and returns an output of True/False if the graph is connected.
+
+##### a. Does this algorithm work correctly for every simple, undirected graph of size n > 0?
+
+
+##### b. 
