@@ -6,3 +6,5 @@ In graph theory, a **connected component** of an undirected graph is a **maximal
 - **Maximality:** A connected component is maximal, meaning that adding any more vertices to it would break its property of being connected.
 - **Disjoint Subsets:** The entire graph can be partitioned into disjoint connected components. Each vertex belongs to exactly one connected component.
 
+![[Pasted image 20250205111804.png]]
+
