@@ -44,7 +44,7 @@ Example:
 
 ##### b. On which graphs does this algorithm reach the final return statement?
 
-The algorithm will reach the final return statement if 
+The algorithm will reach the final return statement if there is a graph with node of degree 0.
 
 ##### c. Does this algorithm work correctly for every simple, undirected graph of size n > 0?
 
