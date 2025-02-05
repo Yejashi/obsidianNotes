@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Untitled.md",
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Depth First Search (DFS).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Depth First Search (DFS)"
             }
           }
         ],
@@ -219,7 +219,7 @@
   "active": "056733f2c88ad5c1",
   "lastOpenFiles": [
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Untitled.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Depth First Search (DFS).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Adjacency  Matrix.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/1. Introduction/Direct Acyclic Graphs (DAGs).md",
