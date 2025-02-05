@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Incidence Matrix.md",
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Topological Sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Incidence Matrix"
+              "title": "Topological Sort"
             }
           },
           {
@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "a045bc7993f3726b",
@@ -318,16 +318,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "480277d9291f92b9",
+  "active": "2a1ea2beb776ea76",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Incidence Matrix.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Topological Sort.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
     "Meta/Attachments/Pasted image 20250205134135.png",
     "Meta/Attachments/Pasted image 20250205134018.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Vertex Connectivity.md",
     "Meta/Attachments/Pasted image 20250205133356.png",
     "Meta/Attachments/Pasted image 20250205133330.png",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Incidence Matrix.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Edge Connectivity.md",
     "Meta/Attachments/Pasted image 20250205125403.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Glossary.md",
