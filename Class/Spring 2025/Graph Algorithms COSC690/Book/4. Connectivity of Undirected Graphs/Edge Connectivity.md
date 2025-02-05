@@ -10,3 +10,5 @@ in other words, Given a connected graph G=(V,E), the **edge connectivity** **λ(
 **Example:**
 Consider a simple triangle graph with three vertices connected by three edges. Removing any single edge from this graph will still leave the graph connected, but removing two edges will disconnect it. Therefore, the edge connectivity of this triangle graph is 2.
 
+![[Pasted image 20250205113603.png]]
+
