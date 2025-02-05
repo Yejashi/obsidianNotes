@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Incidence Matrix"
             }
+          },
+          {
+            "id": "39cc2d17bbbc4d1a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "hw2_690"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "a045bc7993f3726b",
@@ -237,10 +249,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cf018e078e04f5a6",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Depth First Search (DFS).md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Untitled",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Breath First Search (BFS).md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Depth First Search (DFS).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering",
