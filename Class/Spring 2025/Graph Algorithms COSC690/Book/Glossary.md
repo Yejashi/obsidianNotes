@@ -17,3 +17,5 @@
 - The **Minimum Cut** in a graph is the smallest set of edges whose removal disconnects the graph. The size of this minimum cut is equal to the edge connectivity of the graph.
 
 - A **K-Vertex Connected Graph** is a connected graph that remains connected even after the removal of any set of fewer than k vertices.
+
+- The **Vertex Connectivity** K(G) is the largest integer k for which the graph is k-vertex connected.
