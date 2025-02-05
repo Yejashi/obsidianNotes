@@ -5,3 +5,4 @@ Suppose we had the following graph:
 
 ![[Pasted image 20250205133330.png]]
 
+Which has an edge connectivity of 2, as shown:
