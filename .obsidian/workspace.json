@@ -48,20 +48,6 @@
             }
           },
           {
-            "id": "d6937e1b00f9b106",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
-          },
-          {
             "id": "ee190e506082a1d8",
             "type": "leaf",
             "state": {
@@ -74,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,7 +226,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d6937e1b00f9b106",
+  "active": "020db7076d3db4d7",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Meta/Attachments/IMG_1213.jpg",
