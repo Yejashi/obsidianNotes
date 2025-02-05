@@ -21,7 +21,7 @@ In simple terms, a **k-vertex-connected graph** is a connected network where, be
 In general, a graph is k connected for all values of k where k is a positive integer and k is less than or equals to the vertex connectivite of the graph (K(G)). It basically cant be disconnected by removing less than
 
 
-If the graph connectivity of a graph is KI(4), then it is a 4-connected graph. 
+If the graph connectivity of a graph is KI(4), then it is a 4-connected graph. It basically cant be disconnected by removing less than 4 verticies.
 
 
 
