@@ -6,7 +6,6 @@ Suppose we had the following graph:
 
 
 
-
 #### K-Vertex Connected
 In graph theory, a k-vertex-connected graph is a connected graph that remains connected even after the removal of any set of fewer than k vertices. 
 
