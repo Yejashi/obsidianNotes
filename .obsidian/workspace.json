@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "Incidence Matrix"
             }
+          },
+          {
+            "id": "bd8166a365470106",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "hw2_690"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "a045bc7993f3726b",
@@ -306,10 +318,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2a1ea2beb776ea76",
+  "active": "480277d9291f92b9",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Incidence Matrix.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Edge Connectivity.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Vertex Connectivity.md",
     "Meta/Attachments/Pasted image 20250205125403.png",
@@ -329,7 +342,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Adjacency  Matrix.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/1. Introduction/Direct Acyclic Graphs (DAGs).md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Incidence Matrix.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Graph (data structure).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/1. Introduction/Konigsberg Problem.md",
