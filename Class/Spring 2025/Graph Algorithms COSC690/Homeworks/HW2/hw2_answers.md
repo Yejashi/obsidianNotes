@@ -37,7 +37,7 @@ If the original were to have so much as an additional edge for any vertex, makin
 ![[Pasted image 20250205140626.png]]
 ##### a. Does this algorithm work correctly for every simple, undirected graph of size n > 0?
 
-This algorithm will fail if there is a graph with two components.
+This algorithm will fail if there is a graph with two components because it only checks if 
 
 ##### b. Does this algorithm work correctly for every simple, undirected graph of size n > 0?
 
