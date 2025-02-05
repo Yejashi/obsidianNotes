@@ -39,12 +39,14 @@
             "id": "39cc2d17bbbc4d1a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf"
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "hw2_690"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ],
@@ -249,12 +251,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "39cc2d17bbbc4d1a",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Untitled.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Breath First Search (BFS).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Depth First Search (DFS).md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Adjacency  Matrix.md",
@@ -286,12 +289,10 @@
     "Progress Writing/Progress.md",
     "Progress Writing",
     "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lecture 2.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Lectures",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
     "Meta/Attachments/unnamed.jpg",
     "Meta/Attachments/IMG_1205.jpg",
     "Meta/Attachments/IMG_1204.jpg",
-    "[Direct Acyclic Graphs (DAGs).md",
     "Meta/Attachments/Pasted image 20250126185354.png",
     "Meta/Attachments/Pasted image 20250126185333.png",
     "Meta/Attachments/Pasted image 20250126162340.png",
