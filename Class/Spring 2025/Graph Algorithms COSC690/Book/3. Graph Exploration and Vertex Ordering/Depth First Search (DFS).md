@@ -7,3 +7,5 @@ Depth-first search (DFS) is an algorithm used to traverse or search through tree
 - **Optimality:** DFS is not generally optimal, as it does not necessarily find the shortest path.
 
 
+**Example:**
+Consider a graph where a DFS starting at node A, assuming left edges are chosen before right edges and previously visited nodes are remembered, will visit nodes in the order: A, B, D, F, E, C, G. The edges traversed form a Trémaux tree, a structure with important applications in graph theory.
