@@ -50,3 +50,5 @@ The algorithm will reach the final return statement if there is a graph with nod
 
 The worst case behavior occurs when there is a graph such that all the edges connect to a single node and in the adjacency matrix that represented as the last column. This will cause the for loop in the algorithm to check most of the columns, wasting quite a bit of time.
 
+![[Pasted image 20250205144612.png]]
+
