@@ -47,7 +47,8 @@
               "title": "hw2_690"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,10 +214,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "056733f2c88ad5c1",
+  "active": "10faec33f987d136",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Adjacency  Matrix.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
     "conflict-files-obsidian-git.md",
