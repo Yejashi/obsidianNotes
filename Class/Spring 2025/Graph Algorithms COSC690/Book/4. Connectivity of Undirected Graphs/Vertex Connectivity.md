@@ -1,6 +1,8 @@
 #### Vertex Connectivity
 The vertex connectivity of a graph G is the **minimum number of vertices we can delete to disconnect G or make it trivial**.
 
+i.e For complete graphs, it is n - 1 to make it trivial.
+
 Suppose we had the following graph:
 ![[Pasted image 20250205122253.png]]
 
