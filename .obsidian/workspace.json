@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Waypoint"
+              "title": "Untitled"
             }
           }
         ],
@@ -216,11 +216,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "056733f2c88ad5c1",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Untitled.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Adjacency  Matrix.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/1. Introduction/Direct Acyclic Graphs (DAGs).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Incidence Matrix.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/1. Introduction/Graph Theory.md",
@@ -256,7 +257,6 @@
     "Meta/Attachments/IMG_1205.jpg",
     "Meta/Attachments/IMG_1204.jpg",
     "[Direct Acyclic Graphs (DAGs).md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Adjacency List.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 3.md",
     "Meta/Attachments/Pasted image 20250126185354.png",
