@@ -46,5 +46,7 @@ Example:
 
 The algorithm will reach the final return statement if there is a graph with node of degree 0.
 
-##### c. Does this algorithm work correctly for every simple, undirected graph of size n > 0?
+##### c. On what type(s) of graph(s) does the worst-case behavior occur? What about the best?
+
+The worst case behavior occurs when there is a graph such that all the edges connect to a single. This will cause a setting where 
 
