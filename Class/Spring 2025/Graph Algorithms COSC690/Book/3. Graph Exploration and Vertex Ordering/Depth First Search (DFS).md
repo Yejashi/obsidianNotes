@@ -17,3 +17,6 @@ Consider a graph where a DFS starting at node A, assuming left edges are chosen 
 - Solving puzzles with only one solution, such as mazes.
 - Generating mazes using a randomized DFS approach
 
+pseudocode:
+```
+```
