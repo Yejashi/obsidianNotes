@@ -9,3 +9,5 @@ In simple terms, a **k-vertex-connected graph** is a connected network where, be
 
 The vertex connectivity of a graph G is the minimum number of vertices we can delete to disconnect G.
 
+
+
