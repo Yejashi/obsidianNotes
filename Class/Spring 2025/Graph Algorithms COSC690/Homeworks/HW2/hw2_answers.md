@@ -22,3 +22,7 @@ If the original were to have so much as an additional edge for any vertex, makin
 
 ![[Pasted image 20250205134615.png]]
 
+##### **a.)**
+
+
+
