@@ -6,3 +6,18 @@ Breadth-first search (BFS) is a fundamental algorithm in computer science used f
 - **Completeness:** BFS is complete, meaning it will find a solution if one exists, given that the branching factor is finite. This property makes BFS particularly useful in scenarios where finding the shortest path is essential.
 - **Optimality:** In unweighted graphs, BFS is optimal as it guarantees finding the shortest path to a target node. However, in weighted graphs, BFS does not account for edge weights, and algorithms like Dijkstra's are more appropriate.
 
+pseudocode: 
+```
+procedure BFS(G, start_v) is
+    let Q be a queue
+    label start_v as discovered
+    Q.enqueue(start_v)
+    while Q is not empty do
+        v := Q.dequeue()
+        process v
+        for all edges from v to w in G.adjacentEdges(v) do
+            if w is not labeled as discovered then
+                label w as discovered
+                Q.enqueue(w)
+```
+
