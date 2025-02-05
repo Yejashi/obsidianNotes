@@ -13,3 +13,5 @@
 - A **Connected Graph** is type of graph in which there is a path between every pair of vertices. This means that no vertex is isolated, and all vertices are reachable from any other vertex.
 
 - **Edge connectivity** refers to the minimum number of edges that must be **removed** from a connected graph to disconnect it. 
+
+- The **Minimum Cut** 
