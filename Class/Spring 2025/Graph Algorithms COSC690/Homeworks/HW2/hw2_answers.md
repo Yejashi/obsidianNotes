@@ -44,7 +44,7 @@ Example:
 
 ##### b. On which graphs does this algorithm reach the final return statement?
 
-
+The algorithm will reach the final return statement if 
 
 ##### c. Does this algorithm work correctly for every simple, undirected graph of size n > 0?
 
