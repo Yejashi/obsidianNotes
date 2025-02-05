@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -307,7 +307,7 @@
           }
         ],
         "direction": "vertical",
-        "x": 2568,
+        "x": 4049,
         "y": 8,
         "width": 1063,
         "height": 1424,
@@ -316,14 +316,14 @@
       }
     ]
   },
-  "active": "39cc2d17bbbc4d1a",
+  "active": "faf9dfcfb877d879",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Vertex Connectivity.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Edge Connectivity.md",
     "Meta/Attachments/Pasted image 20250205113745.png",
     "Meta/Attachments/Pasted image 20250205113617.png",
     "Meta/Attachments/Pasted image 20250205113603.png",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Vertex Connectivity.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Glossary.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Edge Connectivity.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Connected Components.md",
     "Meta/Attachments/Pasted image 20250205111804.png",
@@ -362,7 +362,6 @@
     "Meta/Attachments/unnamed.jpg",
     "Meta/Attachments/IMG_1205.jpg",
     "Meta/Attachments/IMG_1204.jpg",
-    "Meta/Attachments/Pasted image 20250126185354.png",
-    "Meta/Attachments/Pasted image 20250126185333.png"
+    "Meta/Attachments/Pasted image 20250126185354.png"
   ]
 }

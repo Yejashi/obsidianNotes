@@ -16,3 +16,4 @@
 
 - The **Minimum Cut** in a graph is the smallest set of edges whose removal disconnects the graph. The size of this minimum cut is equal to the edge connectivity of the graph.
 
+- **Vertex Connectivity**
