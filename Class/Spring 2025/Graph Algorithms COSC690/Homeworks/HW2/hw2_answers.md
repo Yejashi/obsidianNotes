@@ -42,7 +42,8 @@ This algorithm will fail if there is a graph with two components because it only
 Example:
 ![[Pasted image 20250205143539.png]]
 
-##### b. Does this algorithm work correctly for every simple, undirected graph of size n > 0?
+##### b. On which graphs does this algorithm reach the final return statement?
+
 
 
 ##### c. Does this algorithm work correctly for every simple, undirected graph of size n > 0?
