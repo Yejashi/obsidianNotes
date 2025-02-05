@@ -1,4 +1,5 @@
 
 #### 1. Let λ(G) denote the edge-connectivity of a graph G. Show that if λ(G) = k ≥ 2, then the deletion of k edges from G results in a graph with at most 2 components. Is there a similar result for vertex-connectivity?
 
-For 
+Suppose we had the following graph:
+
