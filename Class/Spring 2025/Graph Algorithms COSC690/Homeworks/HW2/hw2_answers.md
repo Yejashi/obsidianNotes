@@ -8,4 +8,5 @@ Suppose we had the following graph:
 Which has an edge connectivity of 2, as shown:
 ![[Pasted image 20250205133356.png]]
 
-We can see that with a graph like this, the minimum degree for any node is now 2. As such, regardless of how the graph changes, if the minumum degree is less than 2 then it cannot have an edge connectivit of 
+We can see that with a graph like this, the minimum degree for any node is now 2. As such, regardless of how the graph changes, if the minimum degree is less than 2 then it cannot have an edge connectivity of λ(G) = k ≥ 2.
+

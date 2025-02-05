@@ -152,7 +152,8 @@
               "title": "Connected Components"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -318,13 +319,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "480277d9291f92b9",
+  "active": "bb52b9b6b2c01814",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
     "Meta/Attachments/Pasted image 20250205133356.png",
     "Meta/Attachments/Pasted image 20250205133330.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Incidence Matrix.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Edge Connectivity.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Vertex Connectivity.md",
     "Meta/Attachments/Pasted image 20250205125403.png",
@@ -361,7 +362,6 @@
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 2.md",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf",
     "Class/Spring 2025/Algorithms COSC581/Notes/Asymptotic Notation.md",
-    "Meta/Attachments/Pasted image 20250130114230.png",
     "Class/Spring 2025/Algorithms COSC581/Notes",
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
