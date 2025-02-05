@@ -8,5 +8,6 @@
 		- N: Number of nodes
 		- N(N - 1): Total number of possible edges
 
+- A **Component** of 
 
 - A **Connected Graph** is type of graph in which there is a path between every pair of vertices. This means that no vertex is isolated, and all vertices are reachable from any other vertex.
