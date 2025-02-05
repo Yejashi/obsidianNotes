@@ -2,3 +2,5 @@ In graph theory, a k-vertex-connected graph is a connected graph that remains co
 
 The vertex connectivity (denoted as κ(G) of a graph is the largest integer k for which the graph is k-vertex-connected.
 
+
+
