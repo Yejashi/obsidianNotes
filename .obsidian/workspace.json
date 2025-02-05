@@ -90,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Connected Components.md",
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Edge Connectivity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Connected Components"
+              "title": "Edge Connectivity"
             }
           }
         ],
@@ -265,15 +265,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
+  "floating": {
+    "id": "07cd04a88ce31a80",
+    "type": "floating",
+    "children": [
+      {
+        "id": "cefce66d14d59086",
+        "type": "window",
+        "children": [
+          {
+            "id": "bf4425108e14a203",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "480277d9291f92b9",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "hw2_690"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 4049,
+        "y": 8,
+        "width": 1063,
+        "height": 1424,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "39cc2d17bbbc4d1a",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Glossary.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Edge Connectivity.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Connected Components.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Glossary.md",
     "Meta/Attachments/Pasted image 20250205111804.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/1. Introduction/Graph Theory.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Depth First Search (DFS).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Breath First Search (BFS).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering",
@@ -304,7 +342,6 @@
     "Progress Writing/Progress.md",
     "Progress Writing",
     "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lecture 2.md",
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
     "Meta/Attachments/unnamed.jpg",
     "Meta/Attachments/IMG_1205.jpg",
     "Meta/Attachments/IMG_1204.jpg",
