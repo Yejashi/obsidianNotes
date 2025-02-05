@@ -15,7 +15,6 @@ This concept is central in many applications like scheduling tasks, resolving de
 Two primary algorithms are widely used to compute a topological sort:
 
 ### 1. Kahn's Algorithm
-
 - **Idea:**  
     Kahn's algorithm builds the sorted list by repeatedly removing nodes that have no incoming edges.
 - **Steps:**
@@ -24,7 +23,6 @@ Two primary algorithms are widely used to compute a topological sort:
     3. **Cycle Detection:** If edges still remain after processing, it indicates that the graph contains at least one cycle, and a topological sort is impossible [​].
 
 ### 2. Depth-First Search (DFS) Based Algorithm
-
 - **Idea:**  
     This approach uses recursion to explore the graph. Each node is visited and, once all its dependencies (i.e., outgoing edges) are recursively processed, it is added to the front of the sorted list.
 - **Steps:**
