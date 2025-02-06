@@ -21,3 +21,5 @@ A recurrence $T(n)$ is called **algorithmic** if, for a sufficiently large thres
 1. For all $n < n_0$, we have $T(n) = \Theta(1)$.
 2. For all $n \geq n_0$, every recursive call eventually reaches a base case in finite time.
 
+These conditions ensure that the recurrence represents a correct divide-and-conquer algorithm.
+
