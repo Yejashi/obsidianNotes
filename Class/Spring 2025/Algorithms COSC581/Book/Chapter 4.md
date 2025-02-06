@@ -365,3 +365,19 @@ where $d \ge 0$ is a constant. Substituting this into the recurrence gives:
 
 By choosing $d$ large enough (to counteract the $\Theta(1)$ term), you can complete the induction. This subtraction effectively cancels out the extra lower-order terms introduced by multiple recursive calls.
 
+### Summary
+
+- **Substitution Method Overview:**  
+    Guess the solution, then use induction to prove it.
+    
+- **Proving Bounds:**  
+    Prove either an upper or lower bound first by making an inductive hypothesis with explicit constants.
+    
+- **Making a Good Guess:**  
+    Use intuition, experience, and tools like recursion trees.
+    
+- **Strengthening the Inductive Hypothesis:**  
+    If necessary, subtract a lower-order term to handle extra constant terms.
+    
+- **Avoiding Pitfalls:**  
+    Always be precise with constants and avoid using loose asymptotic notation in your hypothesis.
