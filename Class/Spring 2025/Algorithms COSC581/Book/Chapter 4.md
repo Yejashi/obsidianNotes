@@ -243,3 +243,5 @@ Using the master theorem, the solution to this recurrence is:
 
 $T(n) = \Theta(n^{\lg 7}) \approx O(n^{2.81})$
 
+Thus, Strassen’s algorithm asymptotically outperforms the standard $O(n^3)$ matrix multiplication algorithms by reducing the number of multiplications required at each recursive step, even though it increases the number of additions. This trade-off is highly beneficial for large matrices where multiplication dominates the running time.
+
