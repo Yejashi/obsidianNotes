@@ -70,3 +70,5 @@ So we can make quicksort o(nlogn) even in the worst case. And a more careful loo
 Decision tree for evaluating algorithms
 
 stirlings approximation
+
+record moves, key comparisons
