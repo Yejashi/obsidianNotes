@@ -67,3 +67,4 @@ So we can make quicksort o(nlogn) even in the worst case. And a more careful loo
 
 ### Lecture 6
 
+Decision tree for evaluating algorithms
