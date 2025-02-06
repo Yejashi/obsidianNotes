@@ -139,3 +139,5 @@ Let $T(n)$ represent the worst-case time complexity for multiplying two $n \time
 
 Using the Master Theorem, we find that:
 
+![[Pasted image 20250206054752.png]]
+
