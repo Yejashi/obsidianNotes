@@ -290,3 +290,8 @@ where $c > 0$ is a constant to be determined.
 
 _Note:_ It is crucial **not** to use asymptotic notation (like $O(n \lg n)$) directly in the inductive hypothesis because the hidden constants can differ from one step to another.
 
+#### Inductive Step
+
+1. **Assumption for Smaller Values:**  
+    Assume the hypothesis holds for all values smaller than $n$. In particular, for $n \ge 2n_0$, it holds for $\lfloor n/2 \rfloor$:
+
