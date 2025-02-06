@@ -14,6 +14,8 @@ To analyze recursive divide-and-conquer algorithms, we use **recurrences**—equ
 
 Recurrences go hand in hand with the divide-and-conquer method because they give us a natural way to characterize the running times of recursive algorithms mathematically.
 
+The general form of a recurrence is an equation or inequality that describes a function over the integers or reals using the function itself.
+
 A recurrence generally has two or more cases:
 - **Base case**: Defines the stopping condition where no recursion is required.
 - **Recursive case**: Defines how the function calls itself with smaller arguments.
