@@ -333,3 +333,5 @@ For example, consider the recurrence:
 
 ![[Pasted image 20250206062254.png]]
 which is similar to merge sort despite the $+17$ term. Intuitively, when $n$ is large, the $+17$ is insignificant, so one can guess $T(n) = O(n \lg n)$ and verify it using the substitution method.
+
+
