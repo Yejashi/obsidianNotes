@@ -52,7 +52,7 @@ Although this divide-and- conquer algorithm is no faster than the straightforwar
 
 Strassen’s algorithm improves efficiency by dividing the problem into seven subproblems of size $n/2$:
 
-$T(n) = 7T\left(\frac{n}{2}\right)$ 
+$T(n) = 7T\left(\frac{n}{2}\right) + \Theta(n^2)$ 
 
 Solving this recurrence gives:
 
