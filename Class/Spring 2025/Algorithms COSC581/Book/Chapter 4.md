@@ -331,4 +331,5 @@ There is no general method to correctly guess the tightest asymptotic solution f
 
 For example, consider the recurrence:
 
+![[Pasted image 20250206062254.png]]
 
