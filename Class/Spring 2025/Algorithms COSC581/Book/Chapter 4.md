@@ -255,4 +255,13 @@ Strassen’s algorithm is a seminal divide-and-conquer method that:
 
 ## 4.3 The substitution method for solving recurrences
 
+The substitution method is a general technique used to solve recurrences—equations that characterize the running times of divide-and-conquer algorithms. It consists of two main steps:
+
+1. **Guess the Form of the Solution:**  
+    Formulate a guess using symbolic constants.
+2. **Prove the Guess by Induction:**  
+    Use mathematical induction to verify that the solution works and determine the constants.
+
+This method is called the _substitution method_ because you substitute your guessed solution into the recurrence for smaller inputs as part of the inductive step.
+
 
