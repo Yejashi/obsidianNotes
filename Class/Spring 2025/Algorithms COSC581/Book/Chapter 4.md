@@ -357,3 +357,7 @@ but substitution yields
 
 which does not immediately imply $T(n) \le c, n$ because of the extra constant. Instead, try a stronger hypothesis:
 
+![[Pasted image 20250206062529.png]]
+
+where $d \ge 0$ is a constant. Substituting this into the recurrence gives:
+
