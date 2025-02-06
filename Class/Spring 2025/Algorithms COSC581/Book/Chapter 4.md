@@ -90,5 +90,10 @@ This formula implies that computing $C$ requires $n^2$ entries, each of which in
 The standard approach iterates over three nested loops:
 
 ```
-
+MATRIX-MULTIPLY(A, B, C, n)
+1. for i = 1 to n:
+2.     for j = 1 to n:
+3.         for k = 1 to n:
+4.             C[i][j] = C[i][j] + A[i][k] * B[k][j]
 ```
+
