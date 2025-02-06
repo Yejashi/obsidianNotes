@@ -288,3 +288,4 @@ $T(n) \le c\, n \log n$
 
 where $c > 0$ is a constant to be determined.
 
+_Note:_ It is crucial **not** to use asymptotic notation (like $O(n \lg n)$) directly in the inductive hypothesis because the hidden constants can differ from one step to another.
