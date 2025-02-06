@@ -239,3 +239,7 @@ This gives the recurrence relation:
 
 $T(n) = 7T\left(\frac{n}{2}\right) + \Theta(n^2)$
 
+Using the master theorem, the solution to this recurrence is:  
+
+$T(n) = \Theta(n^{\lg 7}) \approx O(n^{2.81})$
+
