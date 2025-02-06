@@ -74,3 +74,6 @@ stirlings approximation
 record moves, key comparisons
 
 radix sort
+
+chapter 10, elementary datastructures
+- 
