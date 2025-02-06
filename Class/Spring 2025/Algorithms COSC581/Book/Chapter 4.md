@@ -355,3 +355,5 @@ but substitution yields
 
 ![[Pasted image 20250206062503.png]]
 
+which does not immediately imply $T(n) \le c, n$ because of the extra constant. Instead, try a stronger hypothesis:
+
