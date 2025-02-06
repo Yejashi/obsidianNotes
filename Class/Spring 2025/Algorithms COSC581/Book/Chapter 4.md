@@ -337,3 +337,7 @@ which is similar to merge sort despite the $+17$ term. Intuitively, when $n$ is 
 Another approach is to first establish loose upper and lower bounds and then narrow the gap until the tight solution is identified.
 
 
+### A Trick of the Trade: Subtracting a Lower-Order Term
+
+Sometimes your initial guess is nearly correct, but the induction does not work out because the inductive hypothesis is not strong enough. In such cases, **subtracting a lower-order term** from your guess can strengthen the hypothesis.
+
