@@ -150,3 +150,5 @@ The divide-and-conquer method provides a structured approach to matrix multiplic
 
 ## 4.2 Strassen's algorithm for matrix multiplication
 
+Strassen’s algorithm for matrix multiplication is a groundbreaking approach that breaks the conventional $O(n^3)$ barrier for multiplying two $n \times n$ matrices. Traditionally, the natural definition of matrix multiplication requires $n^3$ scalar multiplications. Many believed that an $O(n^3)$ algorithm was optimal until 1969, when V. Strassen introduced a recursive algorithm that achieves a running time of $O(n^{\lg 7})$, which is approximately $O(n^{2.81})$.
+
