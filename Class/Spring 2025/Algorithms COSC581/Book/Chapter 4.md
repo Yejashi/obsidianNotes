@@ -183,3 +183,4 @@ Strassen’s algorithm uses the divide-and-conquer method, similar to the approa
     By applying the master theorem, this recurrence solves to :
     $T(n) = \Theta(n^{\lg 7}) \approx O(n^{2.81})$
     which is an asymptotic improvement over the traditional $O(n^3)$ method.
+
