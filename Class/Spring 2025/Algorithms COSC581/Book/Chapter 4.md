@@ -297,4 +297,6 @@ _Note:_ It is crucial **not** to use asymptotic notation (like $O(n \lg n)$) dir
 		$T(⌊n/2⌋)≤c⌊n/2⌋log⌊n/2⌋.$
 2. **Substitution into the Recurrence:**  
 	Substitute the hypothesis into the recurrence:
+		![[Pasted image 20250206061901.png]]
+- 
 
