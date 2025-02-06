@@ -235,4 +235,5 @@ By combining the costs of all steps:
 - **Partitioning, Creation, and Combining:** $\Theta(n^2)$ time.
 - **Recursive Multiplications:** $7T\left(\frac{n}{2}\right)$ time.
 
-
+This gives the recurrence relation:  
+T(n) = 7T\left(\frac{n}{2}\right) + \Theta(n^2)
