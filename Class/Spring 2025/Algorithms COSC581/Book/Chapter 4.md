@@ -23,3 +23,7 @@ A recurrence $T(n)$ is called **algorithmic** if, for a sufficiently large thres
 
 These conditions ensure that the recurrence represents a correct divide-and-conquer algorithm.
 
+#### Conventions for Recurrences
+- When a recurrence is stated without an explicit base case, we assume it is algorithmic.
+- Asymptotic solutions usually remain unchanged when omitting floors and ceilings.
+- If a recurrence is given as an inequality, its solution is expressed using Big-O notation for upper bounds and Omega notation for lower bounds.
