@@ -86,3 +86,9 @@ Let matrices $A = (a_{ik})$ and $B = (b_{kj})$ be square matrices of size $n \ti
 
 This formula implies that computing $C$ requires $n^2$ entries, each of which involves the sum of $n$ products from the input matrices.
 
+#### Computational Complexity
+The standard approach iterates over three nested loops:
+
+```
+
+```
