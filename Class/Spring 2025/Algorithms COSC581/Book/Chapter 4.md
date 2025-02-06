@@ -50,7 +50,6 @@ which is no faster than the naive $O(n^3)$ approach.
 
 Although this divide-and- conquer algorithm is no faster than the straightforward method that uses a triply nested loop, it leads to an asymptotically faster divide-and-conquer algorithm due to V. Strassen, which we’ll explore in Section 4.2.
 
-The running time pf 
 Strassen’s algorithm improves efficiency by dividing the problem into seven subproblems of size $n/2$:
 
 Solving this recurrence gives:
