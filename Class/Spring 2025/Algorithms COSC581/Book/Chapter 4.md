@@ -284,4 +284,5 @@ and then use the substitution method to prove this bound.
 
 We assume that for all $n \ge n_0$ (for some constant $n_0 > 0$), the following holds:
 
-$T(n) \le c\, n \lg n,T(n)≤cnlgn,$
+$T(n) \le c\, n \lg n$
+
