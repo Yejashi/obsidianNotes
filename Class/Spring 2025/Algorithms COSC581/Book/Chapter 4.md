@@ -12,6 +12,8 @@ This recursive breakdown continues until the base case is reached, at which poin
 
 To analyze recursive divide-and-conquer algorithms, we use **recurrences**—equations that **describe a function in terms of its values on smaller inputs**. Recurrences naturally characterize the running times of recursive algorithms.
 
+
+
 A recurrence generally has two or more cases:
 - **Base case**: Defines the stopping condition where no recursion is required.
 - **Recursive case**: Defines how the function calls itself with smaller arguments.
