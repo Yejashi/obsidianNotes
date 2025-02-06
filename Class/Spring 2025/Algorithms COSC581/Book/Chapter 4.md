@@ -268,4 +268,8 @@ This method is called the _substitution method_ because you substitute your gues
 
 The substitution method can be used to establish either an upper bound or a lower bound for a recurrence. It is generally advisable to prove one bound at a time. For instance, you might first prove an $O$-bound and then prove an $\Omega$-bound; together, these yield a $\Theta$-bound (as seen in Theorem 3.1 in the textbook).
 
+### Example: An Asymptotic Upper Bound
 
+Consider the recurrence
+
+T(n) = 2\, T\!\left(\frac{n}{2}\right) + \Theta(n).T(n)=2T(2n​)+Θ(n).
