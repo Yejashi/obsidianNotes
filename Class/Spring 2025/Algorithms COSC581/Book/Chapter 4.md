@@ -361,3 +361,7 @@ which does not immediately imply $T(n) \le c, n$ because of the extra constant. 
 
 where $d \ge 0$ is a constant. Substituting this into the recurrence gives:
 
+![[Pasted image 20250206062545.png]]
+
+By choosing $d$ large enough (to counteract the $\Theta(1)$ term), you can complete the induction. This subtraction effectively cancels out the extra lower-order terms introduced by multiple recursive calls.
+
