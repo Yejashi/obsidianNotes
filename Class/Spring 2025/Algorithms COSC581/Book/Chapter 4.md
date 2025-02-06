@@ -115,5 +115,19 @@ This method requires eight recursive multiplications and four additions of subma
 The divide-and-conquer approach can be implemented recursively:
 
 ```
-
+MATRIX-MULTIPLY-RECURSIVE(A, B, C, n)
+1. if n == 1:
+2.     C[1][1] = C[1][1] + A[1][1] * B[1][1]
+3.     return
+4. Partition A, B, and C into n/2 x n/2 submatrices
+5. Recursively compute:
+6.     MATRIX-MULTIPLY-RECURSIVE(A11, B11, C11, n/2)
+7.     MATRIX-MULTIPLY-RECURSIVE(A11, B12, C12, n/2)
+8.     MATRIX-MULTIPLY-RECURSIVE(A21, B11, C21, n/2)
+9.     MATRIX-MULTIPLY-RECURSIVE(A21, B12, C22, n/2)
+10.    MATRIX-MULTIPLY-RECURSIVE(A12, B21, C11, n/2)
+11.    MATRIX-MULTIPLY-RECURSIVE(A12, B22, C12, n/2)
+12.    MATRIX-MULTIPLY-RECURSIVE(A22, B21, C21, n/2)
+13.    MATRIX-MULTIPLY-RECURSIVE(A22, B22, C22, n/2)
 ```
+
