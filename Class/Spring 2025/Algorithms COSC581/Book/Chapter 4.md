@@ -8,3 +8,15 @@ The divide-and-conquer method is a powerful strategy for designing asymptoticall
 
 This recursive breakdown continues until the base case is reached, at which point the recursion bottoms out.
 
+### Recurrences
+
+To analyze recursive divide-and-conquer algorithms, we use recurrences—equations that describe a function in terms of its values on smaller inputs. Recurrences naturally characterize the running times of recursive algorithms.
+A recurrence generally has two or more cases:
+- **Base case**: Defines the stopping condition where no recursion is required.
+- **Recursive case**: Defines how the function calls itself with smaller arguments.
+
+For example, the recurrence for merge sort is given in Section 2.3.2 of _Introduction to Algorithms_.
+#### Algorithmic Recurrences
+A recurrence $T(n)$ is called **algorithmic** if, for a sufficiently large threshold constant $n_0 > 0$, it satisfies:
+1. For all $n < n_0$, we have $T(n) = \Theta(1)$.
+2. For all $n \geq n_0$, every recursive call eventually reaches a base case in finite time.
