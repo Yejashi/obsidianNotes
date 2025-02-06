@@ -228,5 +228,11 @@ This step takes $7T\left(\frac{n}{2}\right)$ time.
 ### Step 4: Combining the Products to Form the Final Matrix
 Update the four submatrices of $C$ using the computed $P_i$ matrices with additions and subtractions (each update takes $\Theta(n^2)$ time):
 
+Overall, Step 4 involves 12 additions or subtractions of $\frac{n}{2} \times \frac{n}{2}$ matrices, which again takes $\Theta(n^2)$ time.
+### Recurrence Analysis and Conclusion
+By combining the costs of all steps:
+- **Base Case:** $\Theta(1)$ time.
+- **Partitioning, Creation, and Combining:** $\Theta(n^2)$ time.
+- **Recursive Multiplications:** $7T\left(\frac{n}{2}\right)$ time.
 
 
