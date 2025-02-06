@@ -225,3 +225,8 @@ Using the submatrices from the partitioning step and the $S_i$ matrices, compute
 
 This step takes $7T\left(\frac{n}{2}\right)$ time.
 
+### Step 4: Combining the Products to Form the Final Matrix
+Update the four submatrices of $C$ using the computed $P_i$ matrices with additions and subtractions (each update takes $\Theta(n^2)$ time):
+
+
+
