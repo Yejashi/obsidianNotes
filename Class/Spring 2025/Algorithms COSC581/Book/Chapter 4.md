@@ -38,6 +38,8 @@ $T(n) = 8T\left(\frac{n}{2}\right)+ \Theta(1)$
 
 This solves to:
 
+$T(n) = \Theta(n^3)$  
+
 which is no faster than the naive $O(n^3)$ approach.
 
 #### Strassen’s Algorithm
