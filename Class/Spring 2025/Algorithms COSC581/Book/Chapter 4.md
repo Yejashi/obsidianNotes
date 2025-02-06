@@ -20,3 +20,4 @@ A recurrence generally has two or more cases:
 A recurrence $T(n)$ is called **algorithmic** if, for a sufficiently large threshold constant $n_0 > 0$, it satisfies:
 1. For all $n < n_0$, we have $T(n) = \Theta(1)$.
 2. For all $n \geq n_0$, every recursive call eventually reaches a base case in finite time.
+
