@@ -31,9 +31,7 @@ These conditions ensure that the recurrence represents a correct divide-and-conq
 ### Applications: Matrix Multiplication
 
 We analyze two divide-and-conquer algorithms for multiplying $n \times n$ matrices.
-
 #### Simple Divide-and-Conquer Matrix Multiplication
-
 This algorithm divides a problem of size $n$ into four subproblems of size $n/2$, leading to the recurrence:
 
 This solves to:
