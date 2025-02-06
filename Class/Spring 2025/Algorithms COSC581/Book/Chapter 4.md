@@ -56,4 +56,6 @@ $T(n) = 7T\left(\frac{n}{2}\right) + \Theta(n^2)$
 
 Solving this recurrence gives:
 
+$T(n) = \Omega(n^log7)$ 
+
 which is asymptotically faster than the naive method.
