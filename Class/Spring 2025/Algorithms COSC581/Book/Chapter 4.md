@@ -351,3 +351,5 @@ and suppose we guess $T(n) = O(n)$. A naive induction might set
 
 ![[Pasted image 20250206062440.png]]
 
+but substitution yields
+
