@@ -28,3 +28,17 @@ These conditions ensure that the recurrence represents a correct divide-and-conq
 - Asymptotic solutions usually remain unchanged when omitting floors and ceilings.
 - If a recurrence is given as an inequality, its solution is expressed using Big-O notation for upper bounds and Omega notation for lower bounds.
 
+### Applications: Matrix Multiplication
+We analyze two divide-and-conquer algorithms for multiplying $n \times n$ matrices.
+#### Simple Divide-and-Conquer Matrix Multiplication
+This algorithm divides a problem of size $n$ into four subproblems of size $n/2$, leading to the recurrence:
+This solves to:
+which is no faster than the naive $O(n^3)$ approach.
+
+#### Strassen’s Algorithm
+
+Strassen’s algorithm improves efficiency by dividing the problem into seven subproblems of size $n/2$:
+
+Solving this recurrence gives:
+
+which is asymptotically faster than the naive method.
