@@ -296,5 +296,5 @@ _Note:_ It is crucial **not** to use asymptotic notation (like $O(n \lg n)$) dir
     Assume the hypothesis holds for all values smaller than $n$. In particular, for $n \ge 2n_0$, it holds for $\lfloor n/2 \rfloor$:
 		$T(⌊n/2⌋)≤c⌊n/2⌋log⌊n/2⌋.$
 2. **Substitution into the Recurrence:**  
-Substitute the hypothesis into the recurrence:
+	Substitute the hypothesis into the recurrence:
 
