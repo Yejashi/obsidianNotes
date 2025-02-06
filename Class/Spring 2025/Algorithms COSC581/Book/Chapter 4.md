@@ -341,3 +341,7 @@ Another approach is to first establish loose upper and lower bounds and then nar
 
 Sometimes your initial guess is nearly correct, but the induction does not work out because the inductive hypothesis is not strong enough. In such cases, **subtracting a lower-order term** from your guess can strengthen the hypothesis.
 
+#### Example
+
+Consider the recurrence
+
