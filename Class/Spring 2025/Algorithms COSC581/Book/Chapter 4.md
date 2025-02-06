@@ -72,3 +72,13 @@ Each method has its advantages and is applicable to different types of recurrenc
 
 ## 4.1 Matrix Multiplying Matrices
 
+### Matrix Multiplication Using Divide-and-Conquer
+
+#### Introduction
+
+Matrix multiplication is a fundamental operation in computational mathematics. Given two square matrices, we can compute their product using various techniques. This document explores the traditional approach and a divide-and-conquer strategy for matrix multiplication.
+
+### Standard Matrix Multiplication
+
+Let matrices $A = (a_{ik})$ and $B = (b_{kj})$ be square matrices of size $n \times n$. Their product, denoted as $C = A \times B$, is also an $n \times n$ matrix, where each element is computed as:
+
