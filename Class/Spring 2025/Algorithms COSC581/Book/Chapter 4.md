@@ -82,3 +82,5 @@ Matrix multiplication is a fundamental operation in computational mathematics. G
 
 Let matrices $A = (a_{ik})$ and $B = (b_{kj})$ be square matrices of size $n \times n$. Their product, denoted as $C = A \times B$, is also an $n \times n$ matrix, where each element is computed as:
 
+![[Pasted image 20250206054154.png]]
+
