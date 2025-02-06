@@ -97,3 +97,5 @@ MATRIX-MULTIPLY(A, B, C, n)
 4.             C[i][j] = C[i][j] + A[i][k] * B[k][j]
 ```
 
+Each iteration of the triply nested loop performs a constant-time operation, leading to an overall time complexity of $\mathcal{O}(n^3)$.
+
