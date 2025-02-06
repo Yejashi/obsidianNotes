@@ -167,3 +167,19 @@ Strassen’s algorithm for matrix multiplication is a groundbreaking approach th
 
     one multiplication and two additions (or a subtraction, which is similar to addition with a sign change) suffice. Although the saving is marginal for scalars, the advantage grows for large matrices.
 
+### Divide-and-Conquer Strategy
+
+Strassen’s algorithm uses the divide-and-conquer method, similar to the approach in the standard recursive matrix multiplication algorithm (often called MATRIX-MULTIPLY-RECURSIVE), but it strategically reduces the number of recursive multiplications:
+
+- **Partitioning:**  
+    Given three $n \times n$ matrices $A$, $B$, and $C$ (with $C = A \times B$), where $n$ is an exact power of 2, the matrices are partitioned into four submatrices of size $\frac{n}{2} \times \frac{n}{2}$.
+    
+- **Reduction in Multiplications:**  
+    Instead of performing eight multiplications on these submatrices, Strassen’s algorithm cleverly computes only seven multiplications and uses additional matrix additions and subtractions (which are less costly) to combine the results.
+    
+- **Recurrence Relation:**  
+    The algorithm’s running time is captured by the recurrence  
+    T(n)=7T(n2)+Θ(n2).T(n) = 7T\left(\frac{n}{2}\right) + \Theta(n^2).T(n)=7T(2n​)+Θ(n2).  
+    By applying the master theorem, this recurrence solves to  
+    T(n)=Θ(nlg⁡7)≈O(n2.81),T(n) = \Theta(n^{\lg 7}) \approx O(n^{2.81}),T(n)=Θ(nlg7)≈O(n2.81),  
+    which is an asymptotic improvement over the traditional $O(n^3)$ method.
