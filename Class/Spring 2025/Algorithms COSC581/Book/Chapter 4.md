@@ -110,3 +110,4 @@ The product can be expressed as:
 ![[Pasted image 20250206054525.png]]
 
 This method requires eight recursive multiplications and four additions of submatrices of size $n/2 \times n/2$.
+
