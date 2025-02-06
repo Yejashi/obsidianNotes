@@ -189,10 +189,23 @@ Strassen’s algorithm uses the divide-and-conquer method, similar to the approa
 The algorithm proceeds in four main steps:
 
 ### Step 1: Base Case and Partitioning
-
 - **Base Case:**  
     If $n = 1$, each matrix has a single element. The algorithm performs one scalar multiplication and one scalar addition (as in the MATRIX-MULTIPLY-RECURSIVE algorithm) in constant time, denoted as $\Theta(1)$.
     
 - **Partitioning:**  
     For $n > 1$, the input matrices $A$, $B$, and the output matrix $C$ are partitioned into four submatrices of size $\frac{n}{2} \times \frac{n}{2}$, as described by the standard partitioning equation.
 
+### Step 2: Creating Auxiliary Matrices
+- **Matrix Creation:**  
+    Create 10 auxiliary matrices, $S_1, S_2, \ldots, S_{10}$, where each $S_i$ is defined as the sum or difference of two of the submatrices from the partitioned matrices. For example:
+    
+    - $S_1 = B_{12} - B_{22}$
+    - $S_2 = A_{11} + A_{12}$
+    - $S_3 = A_{21} + A_{22}$
+    - $S_4 = B_{21} - B_{11}$
+    - $S_5 = A_{11} + A_{22}$
+    - $S_6 = B_{11} + B_{22}$
+    - $S_7 = A_{12} - A_{22}$
+    - $S_8 = B_{21} + B_{22}$
+    - $S_9 = A_{11} - A_{21}$
+    - $S_{10} = B_{11} + B_{12}$
