@@ -69,3 +69,5 @@ After studying matrix multiplication, we explore mathematical tools for solving 
 4. **Iterative Method (Section 4.6)**: Iteratively expand the recurrence and identify patterns.
 
 Each method has its advantages and is applicable to different types of recurrences.
+
+## 4.1 
