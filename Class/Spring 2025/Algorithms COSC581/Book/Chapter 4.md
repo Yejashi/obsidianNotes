@@ -184,3 +184,14 @@ Strassen’s algorithm uses the divide-and-conquer method, similar to the approa
     $T(n) = \Theta(n^{\lg 7}) \approx O(n^{2.81})$
     which is an asymptotic improvement over the traditional $O(n^3)$ method.
 
+### Detailed Algorithm Steps
+
+The algorithm proceeds in four main steps:
+
+### Step 1: Base Case and Partitioning
+
+- **Base Case:**  
+    If $n = 1$, each matrix has a single element. The algorithm performs one scalar multiplication and one scalar addition (as in the MATRIX-MULTIPLY-RECURSIVE algorithm) in constant time, denoted as $\Theta(1)$.
+    
+- **Partitioning:**  
+    For $n > 1$, the input matrices $A$, $B$, and the output matrix $C$ are partitioned into four submatrices of size $\frac{n}{2} \times \frac{n}{2}$, as described by the standard partitioning equation.
