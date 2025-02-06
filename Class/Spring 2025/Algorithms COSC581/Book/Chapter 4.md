@@ -316,3 +316,19 @@ Thus, the inductive hypothesis holds for all $n \ge 2$, implying:
 
 ![[Pasted image 20250206062211.png]]
 
+### Making a Good Guess
+
+There is no general method to correctly guess the tightest asymptotic solution for an arbitrary recurrence. Good guesses are developed through experience, practice, and sometimes creativity. Some techniques include:
+
+- **Recurrence-Solving Heuristics:**  
+    Familiarity with common recurrences can lead to reasonable guesses.
+    
+- **Recursion Trees:**  
+    These help visualize the recurrence and guide your guess.
+    
+- **Comparing with Known Recurrences:**  
+    If the recurrence resembles a known one (for example, merge sort), a similar solution may be a good starting point.
+
+For example, consider the recurrence:
+
+
