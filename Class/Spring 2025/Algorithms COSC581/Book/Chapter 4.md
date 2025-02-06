@@ -345,3 +345,6 @@ Sometimes your initial guess is nearly correct, but the induction does not work 
 
 Consider the recurrence
 
+![[Pasted image 20250206062416.png]]
+
+and suppose we guess $T(n) = O(n)$. A naive induction might set
