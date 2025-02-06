@@ -36,7 +36,7 @@ These conditions ensure that the recurrence represents a correct divide-and-conq
 
 We analyze two divide-and-conquer algorithms for multiplying $n \times n$ matrices.
 #### Simple Divide-and-Conquer Matrix Multiplication
-This algorithm divides a problem of size $n$ into four subproblems of size $n/2$, leading to the recurrence:
+Section 4.1 presents an algorithm that divides a problem of size $n$ into four subproblems of size $n/2$, leading to the recurrence:
 
 $T(n) = 8T\left(\frac{n}{2}\right)+ \Theta(1)$  
 
