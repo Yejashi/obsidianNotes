@@ -42,7 +42,7 @@ The running time of the algorithm can be characterized by the recurrence:
 
 $T(n) = 8T\left(\frac{n}{2}\right)+ \Theta(1)$  
 
-This solves to:
+Which turns out to have the solution :
 
 $T(n) = \Theta(n^3)$  
 
