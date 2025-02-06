@@ -72,3 +72,5 @@ Decision tree for evaluating algorithms
 stirlings approximation
 
 record moves, key comparisons
+
+radix sort
