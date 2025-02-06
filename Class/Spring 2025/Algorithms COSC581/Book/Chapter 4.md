@@ -212,3 +212,16 @@ The algorithm proceeds in four main steps:
 - **Initialization of Product Matrices:**  
 	Additionally, create seven matrices $P_1, P_2, \ldots, P_7$ (initialized to zero) to hold the results of the seven recursive multiplications. The creation and initialization of these 17 matrices require $\Theta(n^2)$ time.
 
+### Step 3: Recursive Multiplications
+Using the submatrices from the partitioning step and the $S_i$ matrices, compute the following seven products recursively (each product involves multiplying two $\frac{n}{2} \times \frac{n}{2}$ matrices):
+
+- $P_1 = A_{11} \times S_1$, which represents $A_{11} \times (B_{12} - B_{22})$
+- $P_2 = S_2 \times B_{22}$, which represents $(A_{11} + A_{12}) \times B_{22}$
+- $P_3 = S_3 \times B_{11}$, which represents $(A_{21} + A_{22}) \times B_{11}$
+- $P_4 = A_{22} \times S_4$, which represents $A_{22} \times (B_{21} - B_{11})$
+- $P_5 = S_5 \times S_6$, which represents $(A_{11} + A_{22}) \times (B_{11} + B_{22})$
+- $P_6 = S_7 \times S_8$, which represents $(A_{12} - A_{22}) \times (B_{21} + B_{22})$
+- $P_7 = S_9 \times S_{10}$, which represents $(A_{11} - A_{21}) \times (B_{11} + B_{12})$
+
+This step takes $7T\left(\frac{n}{2}\right)$ time.
+
