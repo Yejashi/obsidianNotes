@@ -271,5 +271,8 @@ The substitution method can be used to establish either an upper bound or a lowe
 ### Example: An Asymptotic Upper Bound
 
 Consider the recurrence
-	$T(n) = 2\, T\!\left(\frac{n}{2}\right) + \Theta(n)$
+
+$T(n) = 2\, T\!\left(\frac{n}{2}\right) + \Theta(n)$
+
+This recurrence is similar to that for merge sort (with the floor function ensuring $T(n)$ is defined on the integers). We guess that
 
