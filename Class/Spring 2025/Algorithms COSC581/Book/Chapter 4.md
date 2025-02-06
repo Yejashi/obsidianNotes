@@ -275,6 +275,6 @@ Consider the recurrence
 $T(n) = 2\, T\!\left(\frac{n}{2}\right) + \Theta(n)$
 
 This recurrence is similar to that for merge sort (with the floor function ensuring $T(n)$ is defined on the integers). We guess that:
-
+$T(n)=O(nlogn)$
 
 
