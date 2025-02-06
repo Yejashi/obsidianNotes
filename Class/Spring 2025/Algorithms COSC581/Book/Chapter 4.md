@@ -107,3 +107,4 @@ We divide each matrix into four equal-sized submatrices:
 
 The product can be expressed as:
 
+![[Pasted image 20250206054525.png]]
