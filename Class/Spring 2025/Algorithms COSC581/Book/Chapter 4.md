@@ -16,7 +16,6 @@ A recurrence generally has two or more cases:
 - **Base case**: Defines the stopping condition where no recursion is required.
 - **Recursive case**: Defines how the function calls itself with smaller arguments.
 
-For example, the recurrence for merge sort is given in Section 2.3.2 of _Introduction to Algorithms_.
 #### Algorithmic Recurrences
 A recurrence $T(n)$ is called **algorithmic** if, for a sufficiently large threshold constant $n_0 > 0$, it satisfies:
 1. For all $n < n_0$, we have $T(n) = \Theta(1)$.
