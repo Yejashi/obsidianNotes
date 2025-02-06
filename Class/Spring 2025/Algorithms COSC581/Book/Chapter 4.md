@@ -267,3 +267,5 @@ This method is called the _substitution method_ because you substitute your gues
 ### Using the Substitution Method to Establish Bounds
 
 The substitution method can be used to establish either an upper bound or a lower bound for a recurrence. It is generally advisable to prove one bound at a time. For instance, you might first prove an $O$-bound and then prove an $\Omega$-bound; together, these yield a $\Theta$-bound (as seen in Theorem 3.1 in the textbook).
+
+
