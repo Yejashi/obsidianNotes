@@ -314,4 +314,5 @@ we ensure that:
 
 Thus, the inductive hypothesis holds for all $n \ge 2$, implying:
 
+![[Pasted image 20250206062211.png]]
 
