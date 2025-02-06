@@ -99,3 +99,8 @@ MATRIX-MULTIPLY(A, B, C, n)
 
 Each iteration of the triply nested loop performs a constant-time operation, leading to an overall time complexity of $\mathcal{O}(n^3)$.
 
+### Divide-and-Conquer Matrix Multiplication
+For a more efficient approach, we can use the divide-and-conquer method. This involves partitioning the matrices into smaller submatrices and recursively computing their products.
+#### Matrix Partitioning
+We divide each matrix into four equal-sized submatrices:
+
