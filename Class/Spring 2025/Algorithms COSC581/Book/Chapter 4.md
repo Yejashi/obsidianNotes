@@ -310,5 +310,7 @@ For the base cases (when $n_0 \le n < 2n_0$), the recurrence is defined as algor
 ![[Pasted image 20250206062126.png]]
 we ensure that:
 
+![[Pasted image 20250206062147.png]]
+
 
 
