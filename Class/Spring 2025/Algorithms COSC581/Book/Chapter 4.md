@@ -70,4 +70,5 @@ After studying matrix multiplication, we explore mathematical tools for solving 
 
 Each method has its advantages and is applicable to different types of recurrences.
 
-## 4.1 
+## 4.1 Matrix Multiplying Matricies
+
