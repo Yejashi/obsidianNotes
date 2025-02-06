@@ -65,7 +65,7 @@ After studying matrix multiplication, we explore mathematical tools for solving 
 
 1. **Substitution Method (Section 4.3)**: Guess the form of the solution and prove it using mathematical induction.
 2. **Recursion-Tree Method (Section 4.4)**: Expand the recurrence into a tree and sum the costs across all levels.
-3. **Master Theorem (Section 4.5)**: Provides a direct formula for solving recurrences of the form:
+3. **Master Theorem (Section 4.5)**: Provides a direct formula for solving recurrences of the form: $T(n) = aT(n/b)$ 
 4. **Iterative Method (Section 4.6)**: Iteratively expand the recurrence and identify patterns.
 
 Each method has its advantages and is applicable to different types of recurrences.
