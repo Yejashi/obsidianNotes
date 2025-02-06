@@ -143,3 +143,7 @@ Using the Master Theorem, we find that:
 
 which is the same as the standard matrix multiplication algorithm. However, further improvements (e.g., Strassen’s algorithm) can reduce this complexity.
 
+### Conclusion
+
+The divide-and-conquer method provides a structured approach to matrix multiplication and lays the groundwork for more efficient algorithms such as Strassen’s method. However, due to the overhead of recursive calls and submatrix partitioning, it does not improve the asymptotic complexity over the naive approach.
+
