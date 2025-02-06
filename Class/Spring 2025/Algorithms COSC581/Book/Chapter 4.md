@@ -131,3 +131,7 @@ MATRIX-MULTIPLY-RECURSIVE(A, B, C, n)
 13.    MATRIX-MULTIPLY-RECURSIVE(A22, B22, C22, n/2)
 ```
 
+### Time Complexity Analysis
+
+Let $T(n)$ represent the worst-case time complexity for multiplying two $n \times n$ matrices recursively. The recurrence relation is:
+
