@@ -142,3 +142,4 @@ Using the Master Theorem, we find that:
 ![[Pasted image 20250206054752.png]]
 
 which is the same as the standard matrix multiplication algorithm. However, further improvements (e.g., Strassen’s algorithm) can reduce this complexity.
+
