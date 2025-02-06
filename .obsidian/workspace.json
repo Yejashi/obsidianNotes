@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Chapter 3"
             }
+          },
+          {
+            "id": "6eaf43424da89115",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "homework_1"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "f1638e7e2ee12635",
@@ -217,17 +229,20 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "59717987c3cdd123",
+  "active": "8d835dbfdaf90a85",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/textbook_algorithms.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
+    "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
+    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
+    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 3.md",
+    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 4.md",
+    "Class/Spring 2025/Algorithms COSC581/textbook_algorithms.pdf",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 2.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
-    "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
     "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2",
@@ -237,13 +252,10 @@
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
     "conflict-files-obsidian-git.md",
     "C++/Lambda Functions.md",
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf",
     "Meta/Attachments/Pasted image 20250130114230.png",
     "Class/Spring 2025/Algorithms COSC581/Notes/Asymptotic Notation.md",
     "Class/Spring 2025/Algorithms COSC581/Notes",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 4.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Konigsberg Problem.md",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
     "Progress Writing/Progress.md",
     "[Direct Acyclic Graphs (DAGs).md",
     "Meta/Attachments/unnamed.jpg",
@@ -251,7 +263,6 @@
     "Meta/Attachments/IMG_1204.jpg",
     "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lecture 2.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Lectures",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 3.md",
     "Progress Writing",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
