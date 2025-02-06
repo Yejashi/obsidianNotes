@@ -245,3 +245,10 @@ $T(n) = \Theta(n^{\lg 7}) \approx O(n^{2.81})$
 
 Thus, Strassen’s algorithm asymptotically outperforms the standard $O(n^3)$ matrix multiplication algorithms by reducing the number of multiplications required at each recursive step, even though it increases the number of additions. This trade-off is highly beneficial for large matrices where multiplication dominates the running time.
 
+### Summary
+
+Strassen’s algorithm is a seminal divide-and-conquer method that:
+- Reduces the number of recursive multiplications from 8 to 7.
+- Introduces 10 auxiliary matrices for sums and differences.
+- Combines the seven computed products to form the final matrix.
+- Achieves a running time of $O(n^{2.81})$, thereby beating the conventional $O(n^3)$ methods.
