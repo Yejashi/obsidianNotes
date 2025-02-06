@@ -52,6 +52,8 @@ Although this divide-and- conquer algorithm is no faster than the straightforwar
 
 Strassen’s algorithm improves efficiency by dividing the problem into seven subproblems of size $n/2$:
 
+$T(n) $
+
 Solving this recurrence gives:
 
 which is asymptotically faster than the naive method.
