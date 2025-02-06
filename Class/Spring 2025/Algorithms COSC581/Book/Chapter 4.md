@@ -299,5 +299,6 @@ _Note:_ It is crucial **not** to use asymptotic notation (like $O(n \lg n)$) dir
 	Substitute the hypothesis into the recurrence:
 		![[Pasted image 20250206061901.png]]
 
-
+	To conclude that
+		
 
