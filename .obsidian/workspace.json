@@ -11,12 +11,14 @@
             "id": "cb4744ee469b6e3d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf"
+                "file": "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "textbook_algorithms"
+              "icon": "lucide-file",
+              "title": "Chapter 3"
             }
           }
         ]
@@ -188,8 +190,9 @@
   },
   "active": "cb4744ee469b6e3d",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
+    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
     "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
     "conflict-files-obsidian-git.md",
     "New RAJAPerf Paper.md",
     "Meta/Attachments/Pasted image 20250205144612.png",
@@ -231,7 +234,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Glossary.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Incidence Matrix.md"
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1"
   ]
 }
