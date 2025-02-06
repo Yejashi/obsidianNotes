@@ -135,3 +135,5 @@ MATRIX-MULTIPLY-RECURSIVE(A, B, C, n)
 
 Let $T(n)$ represent the worst-case time complexity for multiplying two $n \times n$ matrices recursively. The recurrence relation is:
 
+![[Pasted image 20250206054705.png]]
+
