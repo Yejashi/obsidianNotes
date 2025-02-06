@@ -195,3 +195,4 @@ The algorithm proceeds in four main steps:
     
 - **Partitioning:**  
     For $n > 1$, the input matrices $A$, $B$, and the output matrix $C$ are partitioned into four submatrices of size $\frac{n}{2} \times \frac{n}{2}$, as described by the standard partitioning equation.
+
