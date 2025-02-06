@@ -180,6 +180,6 @@ Strassen’s algorithm uses the divide-and-conquer method, similar to the approa
 - **Recurrence Relation:**  
     The algorithm’s running time is captured by the recurrence :
      $T(n) = 7T\left(\frac{n}{2}\right) + \Theta(n^2)$
-    By applying the master theorem, this recurrence solves to  
+    By applying the master theorem, this recurrence solves to :
     T(n)=Θ(nlg⁡7)≈O(n2.81),T(n) = \Theta(n^{\lg 7}) \approx O(n^{2.81}),T(n)=Θ(nlg7)≈O(n2.81),  
     which is an asymptotic improvement over the traditional $O(n^3)$ method.
