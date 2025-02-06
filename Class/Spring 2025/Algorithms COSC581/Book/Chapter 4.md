@@ -105,4 +105,5 @@ For a more efficient approach, we can use the divide-and-conquer method. This in
 We divide each matrix into four equal-sized submatrices:
 ![[Pasted image 20250206054502.png]]
 
+The product can be expressed as:
 
