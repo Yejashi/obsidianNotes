@@ -55,6 +55,7 @@ Strassen’s algorithm improves efficiency by dividing the problem into seven su
 $T(n) = 7T\left(\frac{n}{2}\right) + \Theta(n^2)$ 
 
 Solving this recurrence gives:
-
+![[Pasted image 20250206050233.png]]
 
 which is asymptotically faster than the naive method.
+
