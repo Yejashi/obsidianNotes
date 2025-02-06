@@ -34,7 +34,7 @@ We analyze two divide-and-conquer algorithms for multiplying $n \times n$ matric
 #### Simple Divide-and-Conquer Matrix Multiplication
 This algorithm divides a problem of size $n$ into four subproblems of size $n/2$, leading to the recurrence:
 
-$T(n) = 8T\frac{n}{2}+ \Omega(1)$ 
+$T(n) = 8T\frac{n}{2}+ \theta(1)$  
 
 This solves to:
 
