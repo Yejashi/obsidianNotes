@@ -43,62 +43,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "480277d9291f92b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "hw2_answers"
-            }
-          },
-          {
-            "id": "3ad90cfd65473b89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Topological Sort.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Topological Sort"
-            }
-          },
-          {
-            "id": "056733f2c88ad5c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Depth First Search (DFS).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Depth First Search (DFS)"
-            }
-          },
-          {
-            "id": "cf018e078e04f5a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Breath First Search (BFS).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Breath First Search (BFS)"
-            }
-          },
-          {
             "id": "39cc2d17bbbc4d1a",
             "type": "leaf",
             "state": {
