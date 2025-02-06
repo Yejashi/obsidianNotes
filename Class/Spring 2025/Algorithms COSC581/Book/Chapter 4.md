@@ -210,4 +210,5 @@ The algorithm proceeds in four main steps:
     - $S_9 = A_{11} - A_{21}$
     - $S_{10} = B_{11} + B_{12}$
 - **Initialization of Product Matrices:**  
-Additionally, create seven matrices $P_1, P_2, \ldots, P_7$ (initialized to zero) to hold the results of the seven recursive multiplications. The creation and initialization of these 17 matrices require $\Theta(n^2)$ time.
+	Additionally, create seven matrices $P_1, P_2, \ldots, P_7$ (initialized to zero) to hold the results of the seven recursive multiplications. The creation and initialization of these 17 matrices require $\Theta(n^2)$ time.
+
