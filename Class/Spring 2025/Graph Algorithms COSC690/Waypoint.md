@@ -4,7 +4,7 @@
 
 ### TODO
 #### Homeworks
-- Homework 2 - Due  Feb 5
+- Homework 3 - Due  Feb 12
 
 ### Table of Contents
 

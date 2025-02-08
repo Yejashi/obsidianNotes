@@ -4,57 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "546e4e9eefa07eb6",
+        "id": "7eb41e19717e0988",
         "type": "tabs",
         "children": [
           {
-            "id": "cb4744ee469b6e3d",
+            "id": "c884ada4c80ae1bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Book/Glossary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 3"
+              "title": "Glossary"
             }
           },
           {
-            "id": "24c81adc14820808",
+            "id": "a7d643e10028b03f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 4"
+              "title": "Waypoint"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "9e74080cd150c1d5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5e331021bf3382f9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "textbook_algorithms"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -107,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -218,13 +199,16 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d18aa2dedfd56615",
+  "active": "a7d643e10028b03f",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Glossary.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lectures.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
+    "conflict-files-obsidian-git.md",
     "Meta/Attachments/Pasted image 20250206062545.png",
     "Meta/Attachments/Pasted image 20250206062529.png",
     "Meta/Attachments/Pasted image 20250206062503.png",
@@ -266,7 +250,6 @@
     "Progress Writing",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/hw1_answers.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Introduction/Glossary.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1"
   ]
 }
