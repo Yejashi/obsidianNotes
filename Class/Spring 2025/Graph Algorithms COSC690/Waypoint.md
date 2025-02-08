@@ -8,7 +8,7 @@
 
 ### Table of Contents
 
-[[Glossary]]
+[[Graph Algorithms Glossary]]
 #### Introduction
 
 [[Konigsberg Problem]]
