@@ -43,4 +43,4 @@ Steps:
 - When a remark tells me the location, add to the metadata of the current module call path
 - Example:
 	- proxy.cpp: main->wrapper->foo
-	- file1.cpp: foo
+	- file1.cpp: foo->bar->loop
