@@ -45,4 +45,7 @@ Steps:
 	- proxy.cpp: main->wrapper->foo[file1.cpp]
 	- file1.cpp: foo->bar->loop
 	- file2.cpp: foo->foobar
-	- 
+	- Remarks
+		- loop-vectorize: in bar at file1.cpp
+	- Merging:
+		- main->wrapper->
