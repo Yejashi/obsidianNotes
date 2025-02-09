@@ -48,4 +48,4 @@ Steps:
 	- Remarks
 		- loop-vectorize: in bar at file1.cpp
 	- Merging:
-		- main->wrapper->
+		- main->wrapper->foo[file1.cpp]->bar->loop
