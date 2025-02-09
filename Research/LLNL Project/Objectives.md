@@ -36,3 +36,8 @@ The potential workflow of getting the data to thicket goes as follows:
 - Run the application and store the `cali` file containing the CCT.
 	- Make sure to output the lines that correspond to the regions.
 - Create a reader that maps the lines to the region.
+
+
+Steps:
+- Build entire call path for every function
+- When a remark tells me the location, add to the metadata of the current module call path
