@@ -119,3 +119,10 @@ Answer
 - avoid considerable of non optimal sub solutions
 - avoid re computation of optimal sub solutions
 - trade space for time
+
+Variables
+- at stage i
+	- si = state variable
+	- di = decision variable
+	- ri = return variable
+- where a * superscript denotes optimization
