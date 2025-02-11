@@ -131,3 +131,9 @@ A process diagram
 ![[Pasted image 20250211164659.png]]
 - this is the so called backwards approach
 - The optimum return ri*(si) = in or max{ri + ri-1 * (si-1)}), wherethe optimum decision is di*
+
+
+richard bellman
+
+THe principle of optimzlity
+An optimum decision sequence must have the property that for stage i no matter how erver chosen si and di the subsequent decisions di+1, di+2,...dn will be best possible for si and di
