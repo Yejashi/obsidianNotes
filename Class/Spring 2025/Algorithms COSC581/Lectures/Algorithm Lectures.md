@@ -126,3 +126,6 @@ Variables
 	- di = decision variable
 	- ri = return variable
 - where a * superscript denotes optimization
+
+A process diagram
+
