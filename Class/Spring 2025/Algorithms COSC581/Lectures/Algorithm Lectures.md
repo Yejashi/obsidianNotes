@@ -142,3 +142,5 @@ DP Table Format
 ![[Pasted image 20250211165305.png]]
 
 COlumn headers -> decisions you make
+For the o1 knapsact problem there are 5 column headers
+	Row header, column headers, o decision, 1 descision, best decision
