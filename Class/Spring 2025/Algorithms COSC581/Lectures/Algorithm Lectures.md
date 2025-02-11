@@ -91,3 +91,9 @@ DP Amenability: Multi Stage Decision Process
 Classic examples
 - job sequencing
 - tape utilization
+
+Classic example of dynamic programming is **The Knapsack Problem**
+- Given a list of items and a knapsack capacity
+- each item has a value and size
+- pack to maximize value while respecting capacity
+- a simple greedy algorithm suffices
