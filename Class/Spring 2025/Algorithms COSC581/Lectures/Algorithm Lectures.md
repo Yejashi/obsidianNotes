@@ -82,3 +82,8 @@ chapter 10, elementary datastructures
 ### Lecture 7
 
 DYNAMIC PROGRAMMING
+
+DP Amenability: Multi Stage Decision Process
+- N stages
+- d decision choices per stage
+	- complexity O($d^n$)
