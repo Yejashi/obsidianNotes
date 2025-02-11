@@ -87,3 +87,7 @@ DP Amenability: Multi Stage Decision Process
 - N stages
 - d decision choices per stage
 	- complexity O($d^n$)
+
+Classic examples
+- job sequencing
+- tape utilization
