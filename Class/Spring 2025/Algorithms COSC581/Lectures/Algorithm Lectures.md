@@ -77,3 +77,6 @@ radix sort
 
 chapter 10, elementary datastructures
 - 
+
+
+### Lecture 7
