@@ -111,3 +111,5 @@ Issues
 - how to set up DP forumulation?
 - hot to keep track of partial solutions?
 - hot to ensure that all possibilities are considered?
+- hot to keep from looping?
+- hot to do all this efficiently?
