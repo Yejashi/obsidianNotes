@@ -141,3 +141,4 @@ An optimum decision sequence must have the property that for stage i no matter h
 DP Table Format
 ![[Pasted image 20250211165305.png]]
 
+COlumn headers -> decisions you make
