@@ -80,3 +80,5 @@ chapter 10, elementary datastructures
 
 
 ### Lecture 7
+
+DYNAMIC PROGRAMMING
