@@ -128,6 +128,6 @@ Variables
 - where a * superscript denotes optimization
 
 A process diagram
-
+![[Pasted image 20250211164659.png]]
 - this is the so called backwards approach
 - The optimum return ri*(si) = in or max{ri + ri-1 * (si-1)}), wherethe optimum decision is di*
