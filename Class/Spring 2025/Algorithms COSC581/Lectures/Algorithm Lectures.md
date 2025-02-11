@@ -113,3 +113,9 @@ Issues
 - hot to ensure that all possibilities are considered?
 - hot to keep from looping?
 - hot to do all this efficiently?
+
+Answer
+- keep a dp table for each stage
+- avoid considerable of non optimal sub solutions
+- avoid re computation of optimal sub solutions
+- trade space for time
