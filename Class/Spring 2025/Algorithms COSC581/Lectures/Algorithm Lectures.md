@@ -130,4 +130,4 @@ Variables
 A process diagram
 
 - this is the so called backwards approach
-- The optimum return ri*(si) = in or max{ri + ri-1 * (si-1)}),
+- The optimum return ri*(si) = in or max{ri + ri-1 * (si-1)}), wherethe optimum decision is di*
