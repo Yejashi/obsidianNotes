@@ -97,3 +97,5 @@ Classic example of dynamic programming is **The Knapsack Problem**
 - each item has a value and size
 - pack to maximize value while respecting capacity
 - a simple greedy algorithm suffices
+
+Consider the 0/1 version
