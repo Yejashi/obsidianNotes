@@ -106,4 +106,8 @@ Consider the 0/1 version of the problem
 		- view each item as a stage
 		- each stage has but two options
 		- its a multistage decision process
-- 
+
+Issues
+- how to set up DP forumulation?
+- hot to keep track of partial solutions?
+- hot to ensure that all possibilities are considered?
