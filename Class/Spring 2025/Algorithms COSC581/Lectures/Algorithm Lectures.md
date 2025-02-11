@@ -138,3 +138,6 @@ richard bellman
 THe principle of optimzlity
 An optimum decision sequence must have the property that for stage i no matter how erver chosen si and di the subsequent decisions di+1, di+2,...dn will be best possible for si and di
 
+DP Table Format
+![[Pasted image 20250211165305.png]]
+
