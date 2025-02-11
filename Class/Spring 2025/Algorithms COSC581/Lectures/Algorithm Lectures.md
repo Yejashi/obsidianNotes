@@ -145,3 +145,4 @@ COlumn headers -> decisions you make
 For the o1 knapsact problem there are 5 column headers
 	Row header, column headers, o decision, 1 descision, best decision
 For homerwork, a table for each stage
+
