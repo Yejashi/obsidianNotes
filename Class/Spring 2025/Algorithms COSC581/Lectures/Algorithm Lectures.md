@@ -98,4 +98,12 @@ Classic example of dynamic programming is **The Knapsack Problem**
 - pack to maximize value while respecting capacity
 - a simple greedy algorithm suffices
 
-Consider the 0/1 version
+Consider the 0/1 version of the problem
+- fracntional items are not permitted
+- algorithms
+	- whichh goes firs  then second etc ... O(n!)
+	- item 1 yes/no item 2 yes/no .. O(2^n)
+		- view each item as a stage
+		- each stage has but two options
+		- its a multistage decision process
+- 
