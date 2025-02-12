@@ -9,6 +9,9 @@ Graph A is not planar as evidenced by Euler's formula.
 B.)
 ![[Pasted image 20250212151234.png]]
 
+Graph B is planar as seen by redrawing the original graph to have no overlapping  
+edges using Fary’s theorem.
+
 
 
 C.)
