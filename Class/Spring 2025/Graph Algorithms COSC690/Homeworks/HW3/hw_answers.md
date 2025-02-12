@@ -12,6 +12,7 @@ B.)
 Graph B is planar as seen by redrawing the original graph to have no overlapping  
 edges using Fary’s theorem.
 
+![[Pasted image 20250212152405.png]]
 
 
 C.)
