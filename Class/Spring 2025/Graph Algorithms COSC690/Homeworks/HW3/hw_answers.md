@@ -31,7 +31,7 @@ Graph C is non planar because there is no way to draw it in a planar manner.
 ![[Pasted image 20250212153742.png]]
 Q3 has a genus of 0 which makes it planar on the other hand Q4 has a genus of 1 because it has a subgrah for K33.
 
-### Consider the following graph orders:
+### 4. Consider the following graph orders:
 
 **A:** How large must w be for the w × w grid graph to contain K5 as a subgraph?
 
