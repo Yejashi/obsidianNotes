@@ -21,3 +21,6 @@ C.)
 ![[Pasted image 20250212152856.png]]
 Graph C is non planar because there is no way to draw it in a planar manner.
 
+
+### 
+![[Pasted image 20250212153227.png]]
