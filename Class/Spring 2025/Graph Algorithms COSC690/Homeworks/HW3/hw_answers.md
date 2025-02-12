@@ -34,3 +34,7 @@ Q3 has a genus of 0 which makes it planar on the other hand Q4 has a genus of 1 
 ### Consider the following graph orders:
 
 **A:** How large must w be for the w × w grid graph to contain K5 as a subgraph?
+
+It's impossible, no matter how large a grid gets it's always planar by definition since its a grid.
+
+B: 
