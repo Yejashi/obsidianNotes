@@ -18,3 +18,4 @@ edges using Fary’s theorem.
 C.)
 ![[Pasted image 20250212151252.png]]
 
+![[Pasted image 20250212152856.png]]
