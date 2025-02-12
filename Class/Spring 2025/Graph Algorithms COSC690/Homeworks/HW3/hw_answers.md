@@ -8,3 +8,4 @@ B.)
 ![[Pasted image 20250212151234.png]]
 
 C.)
+![[Pasted image 20250212151252.png]]
