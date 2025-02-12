@@ -37,4 +37,5 @@ Q3 has a genus of 0 which makes it planar on the other hand Q4 has a genus of 1 
 
 It's impossible, no matter how large a grid gets it's always planar by definition since its a grid.
 
-B: 
+B: Determine whether K4 is contained topologically in K3,3,4.
+
