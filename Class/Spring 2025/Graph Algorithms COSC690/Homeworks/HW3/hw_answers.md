@@ -39,4 +39,8 @@ It's impossible, no matter how large a grid gets it's always planar by definitio
 
 B: Determine whether K4 is contained topologically in K3,3,4.
 
-Since K4 is bipartite there is no vertex with degree two that can be removed to allow subdivision removal. 
+Since K4 is bipartite there is no vertex with degree two that can be removed to allow subdivision removal. As such it's not possible for K4 to be contained topolgically in K334.
+
+C: Determine whether K5 is a minor of the Wagner graph. Is K5 immersed in the
+Wagner graph?
+
