@@ -44,4 +44,4 @@ Since K4 is bipartite there is no vertex with degree two that can be removed to 
 C: Determine whether K5 is a minor of the Wagner graph. Is K5 immersed in the
 Wagner graph?
 
-K5 wasn't proven to be a minor of the Wagner graph because no combination of vertex deletions, edge deletions, or contractions resulted in K5. Similarly, K5 wasn't shown to be immersed in the Wagner graph since no set of edge lifts produced K5.
+K5 isn't a minor of the Wagner graph because no combination of vertex deletions, edge deletions, or contractions results in K5. Similarly, K5 can't  to be immersed in the Wagner graph since no set of edge lifts produced K5.
