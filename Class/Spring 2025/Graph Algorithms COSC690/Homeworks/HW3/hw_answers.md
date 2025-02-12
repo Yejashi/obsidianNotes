@@ -39,4 +39,4 @@ It's impossible, no matter how large a grid gets it's always planar by definitio
 
 B: Determine whether K4 is contained topologically in K3,3,4.
 
-Since K4 is bipartite there is no vertex with degree two that can be removed 
+Since K4 is bipartite there is no vertex with degree two that can be removed to allow subdivision removal. 
