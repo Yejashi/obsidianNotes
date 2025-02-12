@@ -4,7 +4,7 @@ A.)
 ![[Pasted image 20250212151213.png]]
 
 ![[Pasted image 20250212152210.png]]
-
+Graph A is not planar as evidenced by Euler's formula.
 
 B.)
 ![[Pasted image 20250212151234.png]]
