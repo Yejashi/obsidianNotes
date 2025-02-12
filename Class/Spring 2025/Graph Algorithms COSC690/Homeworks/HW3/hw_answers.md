@@ -2,3 +2,5 @@
 planar, draw a F ́ary embedding of the graph.
 
 A.)
+![[Pasted image 20250212151213.png]]
+
