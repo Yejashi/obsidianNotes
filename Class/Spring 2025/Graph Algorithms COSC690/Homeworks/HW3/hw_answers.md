@@ -26,3 +26,5 @@ Graph C is non planar because there is no way to draw it in a planar manner.
 
 ![[Pasted image 20250212153227.png]]
 
+### What is the (orientable) genus of Q3 (the binary 3-cube)? What about Q4? Explain with illustrations.
+
