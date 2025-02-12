@@ -22,7 +22,7 @@ C.)
 Graph C is non planar because there is no way to draw it in a planar manner.
 
 
-### Find a planar bipartite graph such that every vertex has degree 3.
+### 2. Find a planar bipartite graph such that every vertex has degree 3.
 
 ![[Pasted image 20250212153227.png]]
 
