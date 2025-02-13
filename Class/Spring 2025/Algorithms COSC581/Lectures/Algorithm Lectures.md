@@ -151,3 +151,5 @@ A goog example - reliable design - well known within the Operations Research COm
 
 ## Lecture 8
 
+![[Pasted image 20250213160806.png]]
+
