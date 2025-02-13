@@ -157,3 +157,4 @@ So how do we build the dp tables?
 
 Rows? We know the state variable range. it's [0, 105]
 
+Columns? We need to know what values a decision
