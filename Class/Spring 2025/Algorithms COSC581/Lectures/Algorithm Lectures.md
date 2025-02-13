@@ -167,3 +167,5 @@ Columns? We need to know what values a decision variable can take. Use mi <= i l
 
 So 
 - the reliability is maximized at .648
+- realized with the solution m1 = 1 and m2 = m3 = 2
+- and at a cost of 100 < c = 105
