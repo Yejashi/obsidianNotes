@@ -153,3 +153,7 @@ A goog example - reliable design - well known within the Operations Research COm
 
 ![[Pasted image 20250213160806.png]]
 
+So how do we build the dp tables?
+
+Rows? We know the state variable range. it's [0, 105]
+
