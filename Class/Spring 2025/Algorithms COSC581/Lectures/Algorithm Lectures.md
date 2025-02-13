@@ -163,3 +163,7 @@ Columns? We need to know what values a decision variable can take. Use mi <= i l
 
 ![[Pasted image 20250213161926.png]]
 
+![[Pasted image 20250213162803.png]]
+
+So 
+- the reliability is maximized at .648
