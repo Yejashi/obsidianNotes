@@ -159,4 +159,5 @@ Rows? We know the state variable range. it's [0, 105]
 
 Columns? We need to know what values a decision variable can take. Use mi <= i loor(C - Sum(1 <= j <= n)ci + ci) / ci). we need to find m1 in [1,2], m2 in [1,3] and m3 in [1,3]
 
-stage 1
+![[Pasted image 20250213161519.png]]
+
