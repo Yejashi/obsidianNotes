@@ -151,8 +151,3 @@ A goog example - reliable design - well known within the Operations Research COm
 
 ## Lecture 8
 
-Now on to our example's specifics
-- n=3
-- c=105
-- c1=30, c2=15, c2=20
-- 
