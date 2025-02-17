@@ -111,7 +111,6 @@ One of the hallmark examples in DP is the **Knapsack Problem**:
 
 #### 4. Key Challenges in Formulating a DP Solution
 When setting up a DP formulation, several practical issues must be addressed:
-
 - **Formulation:** How to define the state, decision, and return variables that capture the essence of the problem.
 - **Tracking Partial Solutions:** Efficiently keeping track of solutions to subproblems (often via a DP table).
 - **Ensuring Completeness:** Making sure that all possible decision sequences are considered without unnecessary repetition.
