@@ -198,6 +198,9 @@ For example, suppose:
 
 Then $m_i$ is 1 for all i, and $\prod_{i=1}^n \Phi_i(m_i)$ = 0.35 (system reliability)
 
+#### 2. Modeling Device Replication
+
+
 
 
 ## Lecture 8
