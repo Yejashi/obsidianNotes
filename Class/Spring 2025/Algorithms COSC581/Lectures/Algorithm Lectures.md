@@ -237,7 +237,7 @@ Consider the following system parameters:
 **3.1 Feasible Replication Limits**
 
 ![[Pasted image 20250217054204.png]]
-
+![[Pasted image 20250217071740.png]]
 #### Building the DP Tables
 
 The DP approach proceeds in stages, one for each device type. The overall state is represented by the remaining budget, which ranges from 0 to 105.
