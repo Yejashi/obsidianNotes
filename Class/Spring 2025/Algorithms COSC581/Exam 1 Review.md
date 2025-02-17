@@ -33,6 +33,7 @@ Know how to build recurrences based on pseudocode.
 - Quicksort
 
 ### 6. Median of Medians
+Derive recurrence relation
 
 
 
