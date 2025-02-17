@@ -99,7 +99,15 @@ Dynamic programming has been successfully applied in various fields. Some classi
 - **Tape Utilization:** Optimally storing data on tape where order and grouping affect retrieval efficiency.
 
 #### 3. The Knapsack Problem as a DP Example
-
+One of the hallmark examples in DP is the **Knapsack Problem**:
+- **Problem Statement:**  
+    Given a set of items—each with an associated value and size—and a knapsack with a fixed capacity, select a subset of items that maximizes the total value without exceeding the capacity.
+    
+- **Fractional vs. 0/1 Knapsack:**
+    - In the _fractional knapsack problem_, items can be divided; a simple greedy algorithm (choosing items based on value-to-weight ratio) finds the optimum.
+    - In the _0/1 knapsack problem_, items are indivisible (each item is either taken or left).
+        - A naive approach would consider every item’s inclusion (yes/no), leading to O(2n)O(2^n)O(2n) possibilities.
+        - Here, each item can be viewed as a stage with two decisions (include or exclude), making it a natural multi-stage decision process.
 
 Classic example of dynamic programming is **The Knapsack Problem**
 - Given a list of items and a knapsack capacity
