@@ -243,7 +243,7 @@ The DP approach proceeds in stages, one for each device type. The overall state 
     - $m_2$ uses 60 units.
 - **Reliability:**
     - Φ1(1)=0.9
-    - $\Phi_1(2)=0.99$ (since 1−(0.1)2=0.991-(0.1)^2=0.991−(0.1)2=0.99)
+    - $\Phi_1(2)=0.99$ (since $1-(0.1)^2=0.99$)
 - **DP Table:**  
     The table rows represent remaining budget intervals (e.g., [30,59][30,59][30,59], [60,70][60,70][60,70]) and columns represent the possible decisions. The table records the reliability values and marks the optimal decision d1∗d_1^*d1∗​.
 
