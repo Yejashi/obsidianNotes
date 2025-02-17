@@ -124,7 +124,6 @@ When setting up a DP formulation, several practical issues must be addressed:
 
 #### 5. Notation and Variables in DP
 At each stage i of a DP formulation, we typically define:
-
 - **$s_i$(State Variable):** Represents the condition or configuration of the system at stage i.
 - $d_i$ **(Decision Variable):** The choice made at stage i.
 - **$r_i$​ (Return Variable):** The cumulative “reward” or cost from stage i onward.
@@ -133,8 +132,8 @@ An asterisk (e.g., $r_i^*$, $d_i^*$) denotes the **optimal** value or decision f
 
 
 #### 6. The Backwards Approach and Process Diagram
-
-
+Dynamic programming often uses a _backwards_ (or “backward induction”) approach:
+- **Concept:** Start at the final stage where the outcome is known, and work backwards to determine the optimal decision at each preceding stage.
 
 A process diagram
 ![[Pasted image 20250211164659.png]]
