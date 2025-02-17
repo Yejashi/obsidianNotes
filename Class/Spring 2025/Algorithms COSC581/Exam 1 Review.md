@@ -8,3 +8,4 @@ L'hopitals Rule
 
 ### Sorting
 - Know the table
+- Call sequences for recursive ones
