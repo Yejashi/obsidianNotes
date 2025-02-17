@@ -202,7 +202,8 @@ Then $m_i$ is 1 for all i, and $\prod_{i=1}^n \Phi_i(m_i)$ = 0.35 (system reliab
 
 If a single device of type iii has reliability $\Phi_i(1)$, then the probability of failure is
 
-> $1 - \Phi_i(1)$
+<center>$1 - \Phi_i(1)$</center>
+
 
 
 
