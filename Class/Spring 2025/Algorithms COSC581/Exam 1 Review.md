@@ -5,7 +5,10 @@ L'hopitals Rule
 
 
 ### 2. Master Theorem & Solving Recurrances
--  
+
+example of case 3
+- f(n) = 2T($n/2$) + $\Theta(n^2)$ 
+- b = 2 
 
 ### 3. Sorting
 - Know the table
