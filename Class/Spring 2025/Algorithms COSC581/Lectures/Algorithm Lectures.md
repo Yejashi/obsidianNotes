@@ -132,12 +132,7 @@ At each stage i of a DP formulation, we typically define:
 An asterisk (e.g., $r_i^*$, $d_i^*$) denotes the **optimal** value or decision for that stage.
 
 
-Variables
-- at stage i
-	- si = state variable
-	- di = decision variable
-	- ri = return variable
-- where a * superscript denotes optimization
+
 
 A process diagram
 ![[Pasted image 20250211164659.png]]
