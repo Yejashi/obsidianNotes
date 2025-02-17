@@ -216,9 +216,7 @@ Each device’s replication is further constrained by the overall cost. In gener
 
 which implies
 
-s
-
-mi≤⌊C−∑j=1ncj+cici⌋.m_i \leq \left\lfloor \frac{C - \sum_{j=1}^{n} c_j + c_i}{c_i} \right\rfloor.mi​≤⌊ci​C−∑j=1n​cj​+ci​​⌋.
+	$m_i \leq \left\lfloor \frac{C - \sum_{j=1}^{n} c_j + c_i}{c_i} \right\rfloor$
 #### 3. A Specific Example
 Consider the following system parameters:
 - **Number of Device Types:** $n=3$
