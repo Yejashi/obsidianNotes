@@ -250,6 +250,8 @@ The DP approach proceeds in stages, one for each device type. The overall state 
 ##### Stage 2: Decive Type 2
 
 
+
+
 ## Lecture 8
 
 ![[Pasted image 20250213160806.png]]
