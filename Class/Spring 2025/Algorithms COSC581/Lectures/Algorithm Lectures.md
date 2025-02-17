@@ -206,6 +206,7 @@ Assuming independent failures, the probability that all $m_i$ copies fail is $(1
 Thus, the reliability when using $m_i$​ copies is: $\Phi_i(m_i) = 1 - \left(1 - \Phi_i(1)\right)^{m_i}$
 
 
+
 ## Lecture 8
 
 ![[Pasted image 20250213160806.png]]
