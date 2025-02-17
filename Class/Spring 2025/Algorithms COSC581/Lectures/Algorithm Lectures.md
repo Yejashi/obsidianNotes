@@ -220,7 +220,7 @@ which implies
 
 
 #### 3. A Specific Example
-Problam At Hand: If there is some total cost C, 
+Problem At Hand: If there is some total cost C, and we have n device types, 
 Consider the following system parameters:
 - **Number of Device Types:** $n=3$
 - **Total Budget:** $C=105$
