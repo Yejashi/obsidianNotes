@@ -257,7 +257,7 @@ The DP approach proceeds in stages, one for each device type. The overall state 
     - For one copy: $\Phi_2(1)=0.8$.
     - For two copies: $\Phi_2(2)=1 - (0.2)^2 \approx 0.96$ (the notes use values like 0.864, 0.8928, which may result from additional problem-specific details).
 - **DP Table:**  
-    The DP table for stage 2 is built for different remaining budget ranges (e.g., [45,59][45,59][45,59], [60,64][60,64][60,64], etc.), with each cell recording the best reliability achievable and the optimal decision d2∗d_2^*d2∗​.
+    The DP table for stage 2 is built for different remaining budget ranges (e.g., [45,59], [60,64], etc.), with each cell recording the best reliability achievable and the optimal decision $d_2^*$​.
 
 
 ## Lecture 8
