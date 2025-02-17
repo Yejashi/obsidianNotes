@@ -190,7 +190,7 @@ We are given:
 - **Cost Constraint:** The total cost must not exceed C :  $\sum_{i=1}^n c_i m_i \leq C$
 - **Decision Variables:** Each $m_i$​ must be a positive integer.
 
-For example, suppose n=10 and C=10. And $c_i$=1 while Φi(1)=0.9 for all i.
+For example, suppose n=10 and C=10. And $c_i$=1 while $\Phi_i$(1)=0.9 for all i.
 
 ## Lecture 8
 
