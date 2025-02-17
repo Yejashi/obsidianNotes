@@ -85,6 +85,14 @@ chapter 10, elementary datastructures
 
 Dynamic programming (DP) is an algorithmic paradigm used to solve complex problems by breaking them into simpler, overlapping subproblems. It is especially powerful for multi-stage decision processes, where the final solution is built step by step from solutions to smaller subproblems.
 
+#### 1. DP Amenability: Multi-Stage Decision Process
+Many optimization problems can be naturally divided into stages. In a typical multi-stage decision process:
+
+- **Stages:** The problem is divided into NNN stages.
+- **Decision Options:** At each stage, you have ddd possible decisions.
+- **Brute-Force Complexity:** Without DP, you might explore O(dN)O(d^N)O(dN) possible decision sequences.
+- **Dynamic Programming Advantage:** DP avoids redundant work by storing intermediate results and building the overall solution efficiently.
+
 DP Amenability: Multi Stage Decision Process
 - N stages
 - d decision choices per stage
