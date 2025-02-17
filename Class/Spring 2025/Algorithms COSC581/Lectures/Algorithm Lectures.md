@@ -126,7 +126,7 @@ When setting up a DP formulation, several practical issues must be addressed:
 At each stage iii of a DP formulation, we typically define:
 
 - **$s_i$(State Variable):** Represents the condition or configuration of the system at stage i.
-- $d_i$ (Decision Variable):** The choice made at stage iii.
+- $d_i$ **(Decision Variable):** The choice made at stage iii.
 - **rir_iri​ (Return Variable):** The cumulative “reward” or cost from stage iii onward.
 
 An asterisk (e.g., ri∗r_i^*ri∗​ or di∗d_i^*di∗​) denotes the **optimal** value or decision for that stage.
