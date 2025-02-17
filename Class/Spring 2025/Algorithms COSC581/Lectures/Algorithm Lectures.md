@@ -178,7 +178,7 @@ For the 0/1 knapsack problem example, the DP table is organized with five key co
 ## Lecture 8
 
 A Good Example – Reliability Design – Well Known within the Operations Research Community.
-- s
+- The goal is to determine the optimal replication (number of copies) of various device types—arranged in series—with each device having multiple copies in parallel to enhance reliability, all while adhering to a total cost constraint.
 ## Lecture 8
 
 ![[Pasted image 20250213160806.png]]
