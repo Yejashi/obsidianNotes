@@ -220,7 +220,8 @@ which implies
 
 
 #### 3. A Specific Example
-Problem At Hand: If there is some total cost C, and we have n device types, 
+> Problem At Hand: If there is some total cost C, and we have n device types, then how many copies of each device should i buy to maximize the total system reliability.
+
 Consider the following system parameters:
 - **Number of Device Types:** $n=3$
 - **Total Budget:** $C=105$
