@@ -250,7 +250,14 @@ The DP approach proceeds in stages, one for each device type. The overall state 
 ##### Stage 2: Decive Type 2
 ![[Pasted image 20250217055514.png]]
 
-
+- **Decision d2d_2d2​:** Choose m2=1,2,m_2 = 1, 2,m2​=1,2, or 333 copies.
+- **Cost Incurred:**  
+    Each copy costs 15; so possible additional costs are 15, 30, or 45.
+- **Reliability:**
+    - For one copy: Φ2(1)=0.8\Phi_2(1)=0.8Φ2​(1)=0.8.
+    - For two copies: Φ2(2)=1−(0.2)2≈0.96\Phi_2(2)=1 - (0.2)^2 \approx 0.96Φ2​(2)=1−(0.2)2≈0.96 (the notes use values like 0.864, 0.8928, which may result from additional problem-specific details).
+- **DP Table:**  
+    The DP table for stage 2 is built for different remaining budget ranges (e.g., [45,59][45,59][45,59], [60,64][60,64][60,64], etc.), with each cell recording the best reliability achievable and the optimal decision d2∗d_2^*d2∗​.
 
 
 ## Lecture 8
