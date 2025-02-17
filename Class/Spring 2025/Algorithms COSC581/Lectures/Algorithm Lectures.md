@@ -196,7 +196,7 @@ For example, suppose:
 - $c_i$=1 (cost per device) 
 - while $\Phi_i$(1)=0.9 (reliability of a single device) for all i.
 
-Then $m_i$ is 1 for all i, and 
+Then $m_i$ is 1 for all i, and $\prod_{i=1}^n \Phi_i(m_i)$
 
 ## Lecture 8
 
