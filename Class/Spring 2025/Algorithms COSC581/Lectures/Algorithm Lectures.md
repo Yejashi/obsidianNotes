@@ -235,6 +235,8 @@ Consider the following system parameters:
 
 The DP approach proceeds in stages, one for each device type. The overall state is represented by the remaining budget, which ranges from 0 to 105.
 
+
+
 ## Lecture 8
 
 ![[Pasted image 20250213160806.png]]
