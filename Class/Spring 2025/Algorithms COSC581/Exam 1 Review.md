@@ -24,6 +24,7 @@ Count sort
 - List of 5 items
 - put into spot, remove, put back
 - goal is to save record moves 
+- Origninal counting sourt as done by DOn Kenith
 
 ### 4. Dynamic Programming
 Runtime of dynamic programming
