@@ -110,7 +110,19 @@ One of the hallmark examples in DP is the **Knapsack Problem**:
         - Here, each item can be viewed as a stage with two decisions (include or exclude), making it a natural multi-stage decision process.
 
 #### 4. Key Challenges in Formulating a DP Solution
+When setting up a DP formulation, several practical issues must be addressed:
 
+- **Formulation:** How to define the state, decision, and return variables that capture the essence of the problem.
+- **Tracking Partial Solutions:** Efficiently keeping track of solutions to subproblems (often via a DP table).
+- **Ensuring Completeness:** Making sure that all possible decision sequences are considered without unnecessary repetition.
+- **Avoiding Loops:** Preventing infinite loops or redundant recalculations.
+- **Efficiency:** Balancing the trade-off between time and space—DP often uses extra memory (to store subproblem solutions) to save computational time.
+
+**Solution Strategy:**
+
+- Use a DP table (or memoization) for each stage.
+- Prune or avoid considering suboptimal partial solutions.
+- Store (cache) intermediate results so that each subproblem is solved only once—this is the essence of “trading space for time.”
 
 
 Issues
