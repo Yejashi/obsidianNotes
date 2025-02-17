@@ -173,12 +173,7 @@ For the 0/1 knapsack problem example, the DP table is organized with five key co
 - **1 Decision Column:** Shows the result if you decide to include the item.
 - **Best Decision Column:** Indicates the optimal decision (either 0 or 1) for that stage.
 
-COlumn headers -> decisions you make
-For the o1 knapsact problem there are 5 column headers
-	Row header, column headers, o decision, 1 descision, best decision
-For homerwork, a table for each stage
-
-
+**For homework, a table for each stage.**
 
 ## Lecture 8
 
