@@ -153,6 +153,10 @@ In other words, if you have an optimal path (or decision sequence) from stage 1 
 This principle underpins the recursive structure of the DP formulation.
 
 
+#### DP Table Format and Example Structure
+
+
+
 
 
 DP Table Format
