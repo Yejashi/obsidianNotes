@@ -5,8 +5,7 @@ L'hopitals Rule
 
 
 ### 2. Master Theorem & Solving Recurrances
-
-- 
+-  
 
 ### 3. Sorting
 - Know the table
