@@ -229,6 +229,8 @@ Consider the following system parameters:
 
 **3.1 Feasible Replication Limits**
 
+![[Pasted image 20250217054204.png]]
+
 
 
 ## Lecture 8
