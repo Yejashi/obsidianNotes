@@ -184,8 +184,8 @@ A Good Example – Reliability Design – Well Known within the Operations Resea
 We are given:
 
 - **Device Types:** n different types, each connected in series.
-- **Replication:** For each device type i, you can choose mim_imi​ copies arranged in parallel.
-- **Costs:** Each copy of device type iii has cost cic_ici​.
+- **Replication:** For each device type i, you can choose $m_i$​ copies arranged in parallel.
+- **Costs:** Each copy of device type iii has cost $c_i​$.
 - **Reliability:** The reliability of a single device of type iii is Φi(1)\Phi_i(1)Φi​(1).
 - **System Reliability:** Since devices are in series, the overall system reliability is the product of the reliabilities at each stage: System Reliability=∏i=1nΦi(mi)\text{System Reliability} = \prod_{i=1}^n \Phi_i(m_i)System Reliability=i=1∏n​Φi​(mi​)
 - **Cost Constraint:** The total cost must not exceed CCC: ∑i=1ncimi≤C\sum_{i=1}^n c_i m_i \leq Ci=1∑n​ci​mi​≤C
