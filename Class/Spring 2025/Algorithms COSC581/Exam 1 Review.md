@@ -52,7 +52,7 @@ Derive recurrence relation
 	- 10/7
 	- Cn + T(n/7) + T(10/14)
 - if 9 rows
-	- 
+	- Cn + T(n/9) + T(13n/18)
 5 7 9
 
 all odd numbers 5 or greater, linear
