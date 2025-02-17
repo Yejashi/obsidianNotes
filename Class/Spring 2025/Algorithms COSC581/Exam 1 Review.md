@@ -32,4 +32,7 @@ Know how to build recurrences based on pseudocode.
 - Merge sort
 - Quicksort
 
+### 6. Median of Medians
+
+
 
