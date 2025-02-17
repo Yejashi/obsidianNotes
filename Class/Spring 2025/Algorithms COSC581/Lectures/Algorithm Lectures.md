@@ -172,7 +172,6 @@ For the o1 knapsact problem there are 5 column headers
 For homerwork, a table for each stage
 
 
-A goog example - reliable design - well known within the Operations Research COmmunity
 
 ## Lecture 8
 
