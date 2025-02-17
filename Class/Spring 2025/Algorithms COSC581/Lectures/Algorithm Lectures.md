@@ -204,7 +204,10 @@ If a single device of type i has reliability $\Phi_i(1)$, then the probability o
 Assuming independent failures, the probability that all $m_i$ copies fail is $(1 - \Phi_i(1))^{m_i}$.
 
 Thus, the reliability when using mim_imi​ copies is: 
-Φi​(mi​)=1−(1−Φi​(1))mi​.
+
+Thus, the reliability when using mim_imi​ copies is:
+
+Φi(mi)=1−(1−Φi(1))mi.\Phi_i(m_i) = 1 - \left(1 - \Phi_i(1)\right)^{m_i}.Φi​(mi​)=1−(1−Φi​(1))mi​.
 
 ## Lecture 8
 
