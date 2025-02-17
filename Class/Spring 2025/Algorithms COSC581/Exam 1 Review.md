@@ -22,7 +22,7 @@ example of case 3
 
 Count sort
 - List of 5 items
-- 
+- put into spot, remove, put back
 
 ### 4. Dynamic Programming
 Runtime of dynamic programming
