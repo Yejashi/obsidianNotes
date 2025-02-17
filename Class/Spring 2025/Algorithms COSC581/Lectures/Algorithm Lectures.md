@@ -205,9 +205,8 @@ Assuming independent failures, the probability that all $m_i$ copies fail is $(1
 
 Thus, the reliability when using mim_imi​ copies is: 
 
-Thus, the reliability when using mim_imi​ copies is:
+Thus, the reliability when using mim_imi​ copies is: $\Phi_i(m_i) = 1 - \left(1 - \Phi_i(1)\right)^{m_i}$
 
-\Phi_i(m_i) = 1 - \left(1 - \Phi_i(1)\right)^{m_i}
 
 ## Lecture 8
 
