@@ -8,7 +8,10 @@ L'hopitals Rule
 
 example of case 3
 - f(n) = 2T($n/2$) + $\Theta(n^2)$ 
-- b = 2 
+- a = 2 
+- b = 1/2
+- f(n) = n^2
+- 
 
 ### 3. Sorting
 - Know the table
