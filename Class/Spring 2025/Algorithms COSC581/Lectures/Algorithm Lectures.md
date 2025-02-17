@@ -109,7 +109,9 @@ One of the hallmark examples in DP is the **Knapsack Problem**:
         - A naive approach would consider every item’s inclusion (yes/no), leading to $O(2^n)$ possibilities.
         - Here, each item can be viewed as a stage with two decisions (include or exclude), making it a natural multi-stage decision process.
 
-#### 4. 
+#### 4. Key Challenges in Formulating a DP Solution
+
+
 
 Issues
 - how to set up DP forumulation?
