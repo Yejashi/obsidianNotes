@@ -177,6 +177,9 @@ For the 0/1 knapsack problem example, the DP table is organized with five key co
 
 ## Lecture 8
 
+
+## Lecture 8
+
 ![[Pasted image 20250213160806.png]]
 
 So how do we build the dp tables?
