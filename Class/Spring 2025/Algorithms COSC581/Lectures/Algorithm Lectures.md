@@ -245,7 +245,7 @@ The DP approach proceeds in stages, one for each device type. The overall state 
     - Φ1(1)=0.9
     - $\Phi_1(2)=0.99$ (since $1-(0.1)^2=0.99$)
 - **DP Table:**  
-    The table rows represent remaining budget intervals (e.g., [30,59], [60,70]) and columns represent the possible decisions. The table records the reliability values and marks the optimal decision d_1^*d1∗​.
+    The table rows represent remaining budget intervals (e.g., [30,59], [60,70]) and columns represent the possible decisions. The table records the reliability values and marks the optimal decision $d_1^*$​.
 
 
 ## Lecture 8
