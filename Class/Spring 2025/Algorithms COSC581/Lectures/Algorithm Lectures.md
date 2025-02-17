@@ -214,7 +214,11 @@ _Example:_ If Φi(1)=0.9, then for $m_i=2$:
 Each device’s replication is further constrained by the overall cost. In general, for device type i:
 	$c_i m_i \leq C - \sum_{\substack{j=1 \\ j\neq i}}^n c_j$
 
+which implies
 
+s
+
+mi≤⌊C−∑j=1ncj+cici⌋.m_i \leq \left\lfloor \frac{C - \sum_{j=1}^{n} c_j + c_i}{c_i} \right\rfloor.mi​≤⌊ci​C−∑j=1n​cj​+ci​​⌋.
 #### 3. A Specific Example
 Consider the following system parameters:
 - **Number of Device Types:** $n=3$
