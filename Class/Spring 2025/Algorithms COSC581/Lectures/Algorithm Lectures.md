@@ -83,6 +83,8 @@ chapter 10, elementary datastructures
 
 #### DYNAMIC PROGRAMMING
 
+Dynamic programming (DP) is an algorithmic paradigm used to solve complex problems by breaking them into simpler, overlapping subproblems. It is especially powerful for multi-stage decision processes, where the final solution is built step by step from solutions to smaller subproblems.
+
 DP Amenability: Multi Stage Decision Process
 - N stages
 - d decision choices per stage
