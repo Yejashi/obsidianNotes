@@ -231,6 +231,8 @@ Consider the following system parameters:
 
 ![[Pasted image 20250217054204.png]]
 
+#### Building the DP Tables
+
 
 
 ## Lecture 8
