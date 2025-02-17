@@ -49,6 +49,8 @@ Know how to build recurrences based on pseudocode.
 Derive recurrence relation
 - if 7 rows
 	- n/7 
+	- 10/7
+	- T(n/7) T(10/14)
 5 7 9
 
 all odd numbers 5 or greater, linear
