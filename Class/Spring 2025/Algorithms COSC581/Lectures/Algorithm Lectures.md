@@ -93,10 +93,7 @@ Many optimization problems can be naturally divided into stages. In a typical mu
 - **Brute-Force Complexity:** Without DP, you might explore $O(d^N)$ possible decision sequences.
 - **Dynamic Programming Advantage:** DP avoids redundant work by storing intermediate results and building the overall solution efficiently.
 
-DP Amenability: Multi Stage Decision Process
-- N stages
-- d decision choices per stage
-	- complexity O($d^n$)
+
 
 Classic examples
 - job sequencing
