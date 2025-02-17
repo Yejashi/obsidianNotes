@@ -99,6 +99,8 @@ Dynamic programming has been successfully applied in various fields. Some classi
 - **Tape Utilization:** Optimally storing data on tape where order and grouping affect retrieval efficiency.
 
 #### 3. The Knapsack Problem as a DP Example
+
+
 Classic example of dynamic programming is **The Knapsack Problem**
 - Given a list of items and a knapsack capacity
 - each item has a value and size
