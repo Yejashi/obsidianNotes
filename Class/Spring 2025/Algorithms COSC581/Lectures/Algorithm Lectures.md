@@ -213,7 +213,7 @@ _Example:_ If Φi(1)=0.9, then for $m_i=2$:
 Consider the following system parameters:
 - **Number of Device Types:** n=3
 - **Total Budget:** C=105
-- **Costs:** c1=30c_1 = 30c1​=30, c2=15c_2 = 15c2​=15, c3=20c_3 = 20c3​=20
+- **Costs:** $c_{1}= 30, c_{2} = 15, c_{3}= 20$ 
 - **Single-Device Reliabilities:**  
     Φ1(1)=0.9,Φ2(1)=0.8,Φ3(1)=0.5\Phi_1(1)=0.9,\quad \Phi_2(1)=0.8,\quad \Phi_3(1)=0.5Φ1​(1)=0.9,Φ2​(1)=0.8,Φ3​(1)=0.5
 
