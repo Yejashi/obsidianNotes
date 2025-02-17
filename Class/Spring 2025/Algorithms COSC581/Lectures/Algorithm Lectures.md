@@ -213,6 +213,9 @@ _Example:_ If Φi(1)=0.9, then for $m_i=2$:
 **Upper Bound on Copies**
 Each device’s replication is further constrained by the overall cost. In general, for device type i:
 
+iii:
+
+\leq C - \sum_{\substack{j=1 \\ j\neq i}}^n c_j,ci​mi​≤C−j=1j=i​∑n​c
 #### 3. A Specific Example
 Consider the following system parameters:
 - **Number of Device Types:** $n=3$
