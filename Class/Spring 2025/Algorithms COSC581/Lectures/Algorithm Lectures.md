@@ -122,19 +122,9 @@ When setting up a DP formulation, several practical issues must be addressed:
 - Prune or avoid considering suboptimal partial solutions.
 - Store (cache) intermediate results so that each subproblem is solved only once—this is the essence of “trading space for time.”
 
+#### 5. Notation and Variables in DP
 
-Issues
-- how to set up DP forumulation?
-- hot to keep track of partial solutions?
-- hot to ensure that all possibilities are considered?
-- hot to keep from looping?
-- hot to do all this efficiently?
 
-Answer
-- keep a dp table for each stage
-- avoid considerable of non optimal sub solutions
-- avoid re computation of optimal sub solutions
-- trade space for time
 
 Variables
 - at stage i
