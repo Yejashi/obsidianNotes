@@ -250,7 +250,7 @@ The DP approach proceeds in stages, one for each device type. The overall state 
 ##### Stage 2: Device Type 2
 ![[Pasted image 20250217055514.png]]
 
-- **Decision $d_2$:** Choose m2=1,2,m_2 = 1, 2,m2​=1,2, or 333 copies.
+- **Decision $d_2$:** Choose $m_{2}= 1,2$ or 3 copies.
 - **Cost Incurred:**  
     Each copy costs 15; so possible additional costs are 15, 30, or 45.
 - **Reliability:**
