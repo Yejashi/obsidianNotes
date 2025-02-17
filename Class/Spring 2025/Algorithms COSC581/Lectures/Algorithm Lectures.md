@@ -129,7 +129,7 @@ At each stage iii of a DP formulation, we typically define:
 - $d_i$ **(Decision Variable):** The choice made at stage i.
 - **$r_i$​ (Return Variable):** The cumulative “reward” or cost from stage i onward.
 
-An asterisk (e.g., r_i^*ri∗​ or di∗d_i^*di∗​) denotes the **optimal** value or decision for that stage.
+An asterisk (e.g., $r_i^*ri$∗​ or di∗d_i^*di∗​) denotes the **optimal** value or decision for that stage.
 
 
 Variables
