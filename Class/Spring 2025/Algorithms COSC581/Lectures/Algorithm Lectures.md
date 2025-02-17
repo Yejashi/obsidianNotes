@@ -93,12 +93,12 @@ Many optimization problems can be naturally divided into stages. In a typical mu
 - **Brute-Force Complexity:** Without DP, you might explore $O(d^N)$ possible decision sequences.
 - **Dynamic Programming Advantage:** DP avoids redundant work by storing intermediate results and building the overall solution efficiently.
 
-#### Classic Examples of DP
+#### 2. Classic Examples of DP
 Dynamic programming has been successfully applied in various fields. Some classic examples include:
 - **Job Sequencing:** Scheduling tasks in an order that optimizes overall performance or cost.
 - **Tape Utilization:** Optimally storing data on tape where order and grouping affect retrieval efficiency.
 
-
+#### 3. The Knapsack Problem as a DP Example
 Classic example of dynamic programming is **The Knapsack Problem**
 - Given a list of items and a knapsack capacity
 - each item has a value and size
