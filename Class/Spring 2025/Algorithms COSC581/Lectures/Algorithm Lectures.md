@@ -218,6 +218,11 @@ which implies
 
 	$m_i \leq \left\lfloor \frac{C - \sum_{j=1}^{n} c_j + c_i}{c_i} \right\rfloor$
 
+Regardless, we know that we must at the very least take one copy of each device.
+- Suppose we have a total budget C of 100.
+- Suppose we have $c_1$ = 10 $c_{2}=20$ $c_3=10$ , then at the very least we must spend at least 10 + 20 + 10 = 40 on single copies.
+- The remaining budget of 60 can be allocated on copies to maximze 
+
 
 #### 3. A Specific Example
 > Problem At Hand: If there is some total cost C, and we have n device types, then how many copies of each device should i buy to maximize the total system reliability.
