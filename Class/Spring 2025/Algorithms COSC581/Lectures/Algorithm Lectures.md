@@ -248,6 +248,7 @@ The DP approach proceeds in stages, one for each device type. The overall state 
     The table rows represent remaining budget intervals (e.g., [30,59], [60,70]) and columns represent the possible decisions. The table records the reliability values and marks the optimal decision $d_1^*$​.
 
 ##### Stage 2: Decive Type 2
+![[Pasted image 20250217055514.png]]
 
 
 
