@@ -217,6 +217,7 @@ Consider the following system parameters:
 - **Single-Device Reliabilities:**  
     $\Phi_1(1)=0.9,\quad \Phi_2(1)=0.8,\quad \Phi_3(1)=0.5$
 
+
 ## Lecture 8
 
 ![[Pasted image 20250213160806.png]]
