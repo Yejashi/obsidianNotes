@@ -148,7 +148,7 @@ Dynamic programming is built on **Bellman's Principle of Optimality**, which sta
 
 > _An optimal decision sequence has the property that, regardless of the initial state and decision, the remaining decisions must form an optimal sequence for the resulting state._
 
-In other words, if you have an optimal path (or decision sequence) from stage 1 to NNN, then for any intermediate stage iii, the remaining sequence from iii to NNN must also be optimal given the state at stage iii.
+In other words, if you have an optimal path (or decision sequence) from stage 1 to N, then for any intermediate stage iii, the remaining sequence from iii to NNN must also be optimal given the state at stage iii.
 
 This principle underpins the recursive structure of the DP formulation.
 
