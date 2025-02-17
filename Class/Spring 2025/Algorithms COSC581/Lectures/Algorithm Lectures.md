@@ -162,7 +162,9 @@ When implementing a DP solution (for example, for the 0/1 knapsack problem), the
 
 ![[Pasted image 20250211165305.png]]
 
-
+For the 0/1 knapsack problem:
+- The table has one dimension for the items (each item being a stage) and another for the remaining capacity.
+- The table is filled using a recurrence relation that compares the value of including an item versus excluding it.
 
 COlumn headers -> decisions you make
 For the o1 knapsact problem there are 5 column headers
