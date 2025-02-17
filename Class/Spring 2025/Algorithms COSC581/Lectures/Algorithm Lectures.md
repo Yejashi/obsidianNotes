@@ -132,6 +132,8 @@ At each stage i of a DP formulation, we typically define:
 An asterisk (e.g., $r_i^*$, $d_i^*$) denotes the **optimal** value or decision for that stage.
 
 
+#### 6. The Backwards Approach and Process Diagram
+
 
 
 A process diagram
