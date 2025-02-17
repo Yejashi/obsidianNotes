@@ -188,7 +188,7 @@ We are given:
 - **Reliability:** The reliability of a single device of type i is $\Phi_i(1)$.
 - **System Reliability:** Since devices are in series, the overall system reliability is the product of the reliabilities at each stage: $\text{System Reliability} = \prod_{i=1}^n \Phi_i(m_i)$
 - **Cost Constraint:** The total cost must not exceed $\sum_{i=1}^n c_i m_i \leq C$
-- **Decision Variables:** Each mim_imi​ must be a positive integer.
+- **Decision Variables:** Each $m_i$​ must be a positive integer.
 
 
 ## Lecture 8
