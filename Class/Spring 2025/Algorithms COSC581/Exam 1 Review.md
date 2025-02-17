@@ -47,6 +47,7 @@ Know how to build recurrences based on pseudocode.
 
 ### 6. Median of Medians
 Derive recurrence relation
+- recurrence n/5  
 5 7 9
 
 all odd numbers 5 or greater, linear
