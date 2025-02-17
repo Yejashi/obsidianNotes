@@ -233,7 +233,7 @@ Consider the following system parameters:
 
 #### Building the DP Tables
 
-
+The DP approach proceeds in stages, one for each device type. The overall state is represented by the remaining budget, which ranges from 0 to 105.
 
 ## Lecture 8
 
