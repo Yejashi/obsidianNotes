@@ -207,7 +207,7 @@ Thus, the reliability when using mim_imi​ copies is:
 
 Thus, the reliability when using mim_imi​ copies is:
 
-Φi(mi)=1−(1−Φi(1))mi.\Phi_i(m_i) = 1 - \left(1 - \Phi_i(1)\right)^{m_i}.Φi​(mi​)=1−(1−Φi​(1))mi​.
+\Phi_i(m_i) = 1 - \left(1 - \Phi_i(1)\right)^{m_i}
 
 ## Lecture 8
 
