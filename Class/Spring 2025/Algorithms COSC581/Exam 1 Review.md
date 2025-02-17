@@ -7,4 +7,4 @@ L'hopitals Rule
 ### 2. Master Theorem & Solving Recurrances
 
 ### Sorting
-
+- Know the table
