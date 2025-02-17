@@ -205,6 +205,8 @@ If a single device of type iii has reliability $\Phi_i(1)$, then the probability
 $1 - \Phi_i(1)$
 
 
+
+
 ## Lecture 8
 
 ![[Pasted image 20250213160806.png]]
