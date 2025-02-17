@@ -9,7 +9,7 @@ L'hopitals Rule
 example of case 3
 - f(n) = 2T($n/2$) + $\Theta(n^2)$ 
 - a = 2 
-- b = 1/2
+- b = 2
 - f(n) = n^2
 - n^logb1 = n
 - lim n^2/n^
