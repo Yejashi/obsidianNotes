@@ -20,6 +20,10 @@ example of case 3
 	- Merge sort
 	- Heap sort (build the heap)
 
+Count sort
+- List of 5 items
+- 
+
 ### 4. Dynamic Programming
 Runtime of dynamic programming
 - O($d^n$)
