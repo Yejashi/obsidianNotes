@@ -143,6 +143,9 @@ Imagine a flowchart where:
 
 ![[Pasted image 20250211164659.png]]
 
+#### 7. Bellman's Principle of Optimality
+
+
 richard bellman
 
 THe principle of optimzlity
