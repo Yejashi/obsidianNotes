@@ -210,7 +210,7 @@ Thus, the reliability when using $m_i$​ copies is: $\Phi_i(m_i) = 1 - \left(1 
 _Example:_ If Φi(1)=0.9, then for $m_i=2$: 
 	$\Phi_i(2) = 1 - (0.1)^2 = 0.99$
 
-**Upper Bound on Copies**
+**2.2 Upper Bound on Copies**
 Each device’s replication is further constrained by the overall cost. In general, for device type i:
 	$c_i m_i \leq C - \sum_{\substack{j=1 \\ j\neq i}}^n c_j$
 
