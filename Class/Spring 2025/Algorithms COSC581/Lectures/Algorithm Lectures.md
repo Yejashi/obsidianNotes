@@ -138,7 +138,7 @@ Dynamic programming often uses a _backwards_ (or “backward induction”) appro
 **Process Diagram (Conceptual):**  
 Imagine a flowchart where:
 - The final stage provides a known return.
-- At each stage iii, you compute the optimal return $r_i^*(s_i)$ as: $r_i^*(s_i) = \max_{d_i \in D(s_i)} \left\{ r_i(s_i, d_i) + r_{i+1}^*(s_{i+1}) \right\}$
+- At each stage i, you compute the optimal return $r_i^*(s_i)$ as: $r_i^*(s_i) = \max_{d_i \in D(s_i)} \left\{ r_i(s_i, d_i) + r_{i+1}^*(s_{i+1}) \right\}$
 - The decision  $d_i^*$ that maximizes this expression is the optimal decision at stage i.
 
 ![[Pasted image 20250211164659.png]]
