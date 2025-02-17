@@ -162,6 +162,8 @@ When implementing a DP solution (for example, for the 0/1 knapsack problem), the
 
 ![[Pasted image 20250211165305.png]]
 
+
+
 COlumn headers -> decisions you make
 For the o1 knapsact problem there are 5 column headers
 	Row header, column headers, o decision, 1 descision, best decision
