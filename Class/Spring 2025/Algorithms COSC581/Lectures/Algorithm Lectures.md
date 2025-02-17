@@ -155,7 +155,10 @@ This principle underpins the recursive structure of the DP formulation.
 
 #### DP Table Format and Example Structure
 
-
+When implementing a DP solution (for example, for the 0/1 knapsack problem), the DP table is structured as follows:
+- **Rows:** Often represent the state (or remaining capacity in knapsack problems).
+- **Columns:** Represent the decisions (or items being considered).
+- **Entries:** Each cell in the table stores the optimal value (or cost) achievable with a given state and set of decisions.
 
 
 
