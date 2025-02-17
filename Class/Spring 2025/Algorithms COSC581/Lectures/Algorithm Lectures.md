@@ -109,20 +109,7 @@ One of the hallmark examples in DP is the **Knapsack Problem**:
         - A naive approach would consider every item’s inclusion (yes/no), leading to $O(2^n)$ possibilities.
         - Here, each item can be viewed as a stage with two decisions (include or exclude), making it a natural multi-stage decision process.
 
-Classic example of dynamic programming is **The Knapsack Problem**
-- Given a list of items and a knapsack capacity
-- each item has a value and size
-- pack to maximize value while respecting capacity
-- a simple greedy algorithm suffices
-
-Consider the 0/1 version of the problem
-- fracntional items are not permitted
-- algorithms
-	- whichh goes firs  then second etc ... O(n!)
-	- item 1 yes/no item 2 yes/no .. O(2^n)
-		- view each item as a stage
-		- each stage has but two options
-		- its a multistage decision process
+#### 4. 
 
 Issues
 - how to set up DP forumulation?
