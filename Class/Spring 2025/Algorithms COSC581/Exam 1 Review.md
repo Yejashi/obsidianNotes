@@ -30,7 +30,13 @@ Principal of Optimality
 ### 5. Algorithms
 Know how to build recurrences based on pseudocode.
 - Merge sort
+	- merge sort
+	- merge sort 
+	- merge
 - Quicksort
+	- partition 
+	- quick sort
+	- quick sort
 
 ### 6. Median of Medians
 Derive recurrence relation
