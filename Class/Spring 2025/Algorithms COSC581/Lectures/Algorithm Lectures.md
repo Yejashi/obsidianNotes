@@ -199,8 +199,7 @@ For example, suppose:
 Then $m_i$ is 1 for all i, and $\prod_{i=1}^n \Phi_i(m_i)$ = 0.35 (system reliability)
 
 #### 2. Modeling Device Replication
-
-If a single device of type i has reliability $\Phi_i(1)$, then the probability of failure is $1 - \Phi_i(1)$
+If a single device of type i has reliability $\Phi_i(1)$, then the probability of failure is $1 - \Phi_i(1)$.
 
 
 
