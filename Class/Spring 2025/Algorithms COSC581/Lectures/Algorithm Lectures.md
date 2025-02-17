@@ -227,6 +227,9 @@ Consider the following system parameters:
 - **Single-Device Reliabilities:**  
     $\Phi_1(1)=0.9,\quad \Phi_2(1)=0.8,\quad \Phi_3(1)=0.5$
 
+**3.1 Feasible Replication Limits**
+
+
 
 ## Lecture 8
 
