@@ -221,7 +221,7 @@ which implies
 Regardless, we know that we must at the very least take one copy of each device.
 - Suppose we have a total budget C of 100.
 - Suppose we have $c_1$ = 10 $c_{2}=20$ $c_3=10$ , then at the very least we must spend at least 10 + 20 + 10 = 40 on single copies.
-- The remaining budget of 60 can be allocated on copies to maximze 
+- The remaining budget of 60 can be allocated on copies to maximize reliability. 
 
 
 #### 3. A Specific Example
