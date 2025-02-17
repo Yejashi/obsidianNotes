@@ -237,7 +237,7 @@ The DP approach proceeds in stages, one for each device type. The overall state 
 
 ##### Stage 1: Device Type 1
 ![[Pasted image 20250217054717.png]]
-- **Decision $d_1$​:** Choose m1=1m_1 = 1m1​=1 or 222 copies.
+- **Decision $d_1$​:** Choose $m_{1}= 1$ or $2$ copies.
 - **Cost Incurred:**
     - m1=1m_1 = 1m1​=1 uses 30 units;
     - m1=2m_1 = 2m1​=2 uses 60 units.
