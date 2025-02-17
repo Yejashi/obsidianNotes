@@ -106,7 +106,7 @@ One of the hallmark examples in DP is the **Knapsack Problem**:
 - **Fractional vs. 0/1 Knapsack:**
     - In the _fractional knapsack problem_, items can be divided; a simple greedy algorithm (choosing items based on value-to-weight ratio) finds the optimum.
     - In the _0/1 knapsack problem_, items are indivisible (each item is either taken or left).
-        - A naive approach would consider every item’s inclusion (yes/no), leading to O(2n)O(2^n)O(2n) possibilities.
+        - A naive approach would consider every item’s inclusion (yes/no), leading to $O(2^n)$ possibilities.
         - Here, each item can be viewed as a stage with two decisions (include or exclude), making it a natural multi-stage decision process.
 
 Classic example of dynamic programming is **The Knapsack Problem**
