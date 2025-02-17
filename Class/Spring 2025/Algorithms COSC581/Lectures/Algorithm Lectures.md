@@ -1,4 +1,4 @@
-### Lecture 5
+## Lecture 5
 
 How do measure ?
 - Worst cast
@@ -65,7 +65,7 @@ it turns out that t(n) is o(n)
 So we can make quicksort o(nlogn) even in the worst case. And a more careful look at our figure reveals that the last termis actually a wee but smaller at T(7n/10)
 
 
-### Lecture 6
+## Lecture 6
 
 Decision tree for evaluating algorithms
 
@@ -79,7 +79,7 @@ chapter 10, elementary datastructures
 - 
 
 
-### Lecture 7
+## Lecture 7
 
 DYNAMIC PROGRAMMING
 
