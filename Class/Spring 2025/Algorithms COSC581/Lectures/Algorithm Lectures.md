@@ -239,8 +239,8 @@ The DP approach proceeds in stages, one for each device type. The overall state 
 ![[Pasted image 20250217054717.png]]
 - **Decision $d_1$​:** Choose $m_{1}= 1$ or $2$ copies.
 - **Cost Incurred:**
-    - $m_1$ uses 30 units;
-    - $m_2$ uses 60 units.
+    - $m_{1}= 1$ uses 30 units;
+    - $m_{1} = 2$ uses 60 units.
 - **Reliability:**
     - Φ1(1)=0.9
     - $\Phi_1(2)=0.99$ (since $1-(0.1)^2=0.99$)
