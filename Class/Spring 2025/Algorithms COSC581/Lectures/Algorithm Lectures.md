@@ -98,9 +98,6 @@ Dynamic programming has been successfully applied in various fields. Some classi
 - **Job Sequencing:** Scheduling tasks in an order that optimizes overall performance or cost.
 - **Tape Utilization:** Optimally storing data on tape where order and grouping affect retrieval efficiency.
 
-Classic examples
-- job sequencing
-- tape utilization
 
 Classic example of dynamic programming is **The Knapsack Problem**
 - Given a list of items and a knapsack capacity
