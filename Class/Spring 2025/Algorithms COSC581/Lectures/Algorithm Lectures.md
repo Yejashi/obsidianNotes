@@ -136,7 +136,6 @@ Dynamic programming often uses a _backwards_ (or “backward induction”) appro
 - **Concept:** Start at the final stage where the outcome is known, and work backwards to determine the optimal decision at each preceding stage.
 
 
-![[Pasted image 20250211164659.png]]
 - this is the so called backwards approach
 - The optimum return ri*(si) = in or max{ri + ri-1 * (si-1)}), wherethe optimum decision is di*
 
@@ -147,6 +146,7 @@ Imagine a flowchart where:
 - At each stage iii, you compute the optimal return $r_i^*(s_i)$ as: $r_i^*(s_i) = \max_{d_i \in D(s_i)} \left\{ r_i(s_i, d_i) + r_{i+1}^*(s_{i+1}) \right\}$
 - The decision di∗d_i^*di∗​ that maximizes this expression is the optimal decision at stage iii.
 
+![[Pasted image 20250211164659.png]]
 
 richard bellman
 
