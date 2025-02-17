@@ -182,7 +182,6 @@ A Good Example – Reliability Design – Well Known within the Operations Resea
 
 #### 1. Problem Formulation
 We are given:
-
 - **Device Types:** n different types, each connected in series.
 - **Replication:** For each device type i, you can choose $m_i$​ copies arranged in parallel.
 - **Costs:** Each copy of device type i has cost $c_i​$.
