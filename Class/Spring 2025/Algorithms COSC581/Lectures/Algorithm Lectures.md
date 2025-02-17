@@ -208,6 +208,7 @@ Thus, the reliability when using $m_i$​ copies is: $\Phi_i(m_i) = 1 - \left(1 
 _Example:_ If Φi(1)=0.9, then for $m_i=2$: 
 	$\Phi_i(2) = 1 - (0.1)^2 = 0.99$
 
+
 ## Lecture 8
 
 ![[Pasted image 20250213160806.png]]
