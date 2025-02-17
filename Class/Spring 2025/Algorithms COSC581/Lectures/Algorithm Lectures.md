@@ -166,6 +166,13 @@ For the 0/1 knapsack problem:
 - The table has one dimension for the items (each item being a stage) and another for the remaining capacity.
 - The table is filled using a recurrence relation that compares the value of including an item versus excluding it.
 
+For the 0/1 knapsack problem example, the DP table is organized with five key columns:
+- **Row Header:** Identifies the current stage or state.
+- **Decision Parameter Headers:** Label the different decision scenarios.
+- **0 Decision Column:** Shows the result if you decide _not_ to include the item.
+- **1 Decision Column:** Shows the result if you decide to include the item.
+- **Best Decision Column:** Indicates the optimal decision (either 0 or 1) for that stage.
+
 COlumn headers -> decisions you make
 For the o1 knapsact problem there are 5 column headers
 	Row header, column headers, o decision, 1 descision, best decision
