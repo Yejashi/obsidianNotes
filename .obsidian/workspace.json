@@ -6,7 +6,6 @@
       {
         "id": "1d994c24e50b8f7d",
         "type": "tabs",
-        "dimension": 42.94117647058824,
         "children": [
           {
             "id": "b7f6292ca7c310a4",
@@ -14,47 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
+                "file": "Research/Papers/Dynist/Dyninst paper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 4"
+              "title": "Dyninst paper"
             }
           }
         ]
-      },
-      {
-        "id": "80e922de7bc1d1dd",
-        "type": "tabs",
-        "dimension": 57.05882352941177,
-        "children": [
-          {
-            "id": "f1f74f33ca686b06",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "textbook_algorithms"
-            }
-          },
-          {
-            "id": "d7dd269375022c91",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "asymptotics-cheatsheet"
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,17 +183,16 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "b7f6292ca7c310a4",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
-    "conflict-files-obsidian-git.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Graph Algorithms Glossary.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
+    "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
+    "conflict-files-obsidian-git.md",
+    "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Graph Algorithms Glossary.md",
     "Meta/Attachments/Pasted image 20250206062545.png",
     "Meta/Attachments/Pasted image 20250206062529.png",
     "Meta/Attachments/Pasted image 20250206062503.png",
