@@ -16,4 +16,5 @@ L'hopitals Rule
 Runtime of dynamic programming
 - O($d^n$)
 
-
+Principal of Optimality
+- 
