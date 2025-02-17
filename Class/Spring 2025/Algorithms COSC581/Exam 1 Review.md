@@ -17,4 +17,6 @@ Runtime of dynamic programming
 - O($d^n$)
 
 Principal of Optimality
-- At the optimum solution, you can go to any stage i such that, no matter the value of $s_i$ and $d_i$ 
+- At the optimum solution, you can go to any stage i such that, no matter the value of $s_i$ and $d_i$ , the subsequent decisions $d_i+1$, $d_i+2$, ... $d_n$ are optimal.
+
+
