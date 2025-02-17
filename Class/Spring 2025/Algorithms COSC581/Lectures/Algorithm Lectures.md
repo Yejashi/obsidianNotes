@@ -118,7 +118,6 @@ When setting up a DP formulation, several practical issues must be addressed:
 - **Efficiency:** Balancing the trade-off between time and space—DP often uses extra memory (to store subproblem solutions) to save computational time.
 
 **Solution Strategy:**
-
 - Use a DP table (or memoization) for each stage.
 - Prune or avoid considering suboptimal partial solutions.
 - Store (cache) intermediate results so that each subproblem is solved only once—this is the essence of “trading space for time.”
