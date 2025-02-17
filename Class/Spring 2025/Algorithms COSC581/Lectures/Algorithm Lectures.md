@@ -237,7 +237,15 @@ The DP approach proceeds in stages, one for each device type. The overall state 
 
 ##### Stage 1: Device Type 1
 ![[Pasted image 20250217054717.png]]
-
+- **Decision $d_1$​:** Choose m1=1m_1 = 1m1​=1 or 222 copies.
+- **Cost Incurred:**
+    - m1=1m_1 = 1m1​=1 uses 30 units;
+    - m1=2m_1 = 2m1​=2 uses 60 units.
+- **Reliability:**
+    - Φ1(1)=0.9\Phi_1(1)=0.9Φ1​(1)=0.9
+    - Φ1(2)=0.99\Phi_1(2)=0.99Φ1​(2)=0.99 (since 1−(0.1)2=0.991-(0.1)^2=0.991−(0.1)2=0.99)
+- **DP Table:**  
+    The table rows represent remaining budget intervals (e.g., [30,59][30,59][30,59], [60,70][60,70][60,70]) and columns represent the possible decisions. The table records the reliability values and marks the optimal decision d1∗d_1^*d1∗​.
 
 
 ## Lecture 8
