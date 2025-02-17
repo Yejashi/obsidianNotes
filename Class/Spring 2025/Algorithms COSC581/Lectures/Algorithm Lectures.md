@@ -160,9 +160,6 @@ When implementing a DP solution (for example, for the 0/1 knapsack problem), the
 - **Columns:** Represent the decisions (or items being considered).
 - **Entries:** Each cell in the table stores the optimal value (or cost) achievable with a given state and set of decisions.
 
-
-
-DP Table Format
 ![[Pasted image 20250211165305.png]]
 
 COlumn headers -> decisions you make
