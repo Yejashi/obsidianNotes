@@ -89,7 +89,7 @@ Dynamic programming (DP) is an algorithmic paradigm used to solve complex proble
 Many optimization problems can be naturally divided into stages. In a typical multi-stage decision process:
 
 - **Stages:** The problem is divided into N stages.
-- **Decision Options:** At each stage, you have ddd possible decisions.
+- **Decision Options:** At each stage, you have d possible decisions.
 - **Brute-Force Complexity:** Without DP, you might explore $O(d^N)$ possible decision sequences.
 - **Dynamic Programming Advantage:** DP avoids redundant work by storing intermediate results and building the overall solution efficiently.
 
