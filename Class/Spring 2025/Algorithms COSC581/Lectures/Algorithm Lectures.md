@@ -81,7 +81,7 @@ chapter 10, elementary datastructures
 
 ## Lecture 7
 
-DYNAMIC PROGRAMMING
+#### DYNAMIC PROGRAMMING
 
 DP Amenability: Multi Stage Decision Process
 - N stages
