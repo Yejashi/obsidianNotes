@@ -54,7 +54,9 @@ example of case 3
 
 Let $a \geq 1$ and $b > 1$  be constants, let $f(n)$ be a function, and let $T(n)$ defined by the recurrence:
 	$T(n) = aT\left(\frac{n}{b}\right) + f(n)$ 
-where 
+where we intercept $n/b$ to be ceil($n/b$) or floor($n/b$).
+
+Then $T(n)$ has the following asymptotic bounds:
 
 
 ### 3. Sorting
