@@ -57,11 +57,11 @@ Let $a \geq 1$ and $b > 1$  be constants, let $f(n)$ be a function, and let $T(n
 where we intercept $n/b$ to be ceil($n/b$) or floor($n/b$).
 
 Then $T(n)$ has the following asymptotic bounds:
-- **Case 1:** if $f(n) = O(n^{log_{b}a - \epsilon})$  for some constant $\epsilon > 0$, then 
+- **Case 1:** if $f(n) = O(n^{log_{b}a - \epsilon})$  for some constant $\epsilon > 0$, then:
 		$T(n) = \Theta(n^{log_{b}a})$ 
-- **Case 2:** if $f(n) = \Theta(n^{log_{b}a})$ , then 
+- **Case 2:** if $f(n) = \Theta(n^{log_{b}a})$ , then:
 		$T(n) = \Theta(n^{log_{b}a}lgn)$ 
-- **Case 3:** if $f(n) = \Omega(n^{log_{b}a + \epsilon})$  for some constant $\epsilon > 0$, AND if $af(n/b) \leq cf(n)$ for some c < 1 as n -> $\infty$ , then
+- **Case 3:** if $f(n) = \Omega(n^{log_{b}a + \epsilon})$  for some constant $\epsilon > 0$, AND if $af(n/b) \leq cf(n)$ for some c < 1 as n -> $\infty$ , then:
 		$T(n) = \Theta(n^{log_{b}a})$ 
 
 
