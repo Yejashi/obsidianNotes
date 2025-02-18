@@ -67,6 +67,13 @@ So we can make quicksort o(nlogn) even in the worst case. And a more careful loo
 ## Lecture 5
 
 #### 1. Performance Measures
+When analyzing algorithms, we often evaluate performance using several measures:
+- **Worst-case performance:** The maximum time (or number of operations) an algorithm takes on any input of size _n_. For example, in Quicksort the worst-case time is Θ(_n_²) when the pivot is chosen very poorly.
+- **Average-case performance:** The expected performance when averaged over all inputs (or all random choices). For Quicksort, under assumptions such as distinct keys and all permutations being equally likely, the average number of comparisons is approximately 1.39 _n_ log₂ _n_.
+- **Stability:** Whether an algorithm preserves the relative order of equal elements.
+- **Other considerations:** In some cases, external factors (like “out-of-core” processing when data exceeds main memory) must also be measured.
+
+.
 
 ## Lecture 6
 
