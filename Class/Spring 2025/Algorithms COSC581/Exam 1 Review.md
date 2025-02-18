@@ -77,7 +77,7 @@ Examples for each case:
 		$n^{log_{4}16}$ = $n^2$
 		$f(n) = \Theta(n^2)$ 
 		lim $n^2/n^2$ = 1 does not equal $\infty, 0$ 
-- 
+		$T(n^2lgn)$ 
 
 ### 3. Sorting
 
