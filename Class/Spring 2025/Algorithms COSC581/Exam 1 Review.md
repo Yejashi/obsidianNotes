@@ -12,7 +12,8 @@ $f = \Omega(g)$
 $f = o(g)$ 
 - f grows strictly slower than g
 $f = \omega(g)$ 
-- 
+- f grows faster than g
+
 
 
 ### 2. Master Theorem & Solving Recurrances
