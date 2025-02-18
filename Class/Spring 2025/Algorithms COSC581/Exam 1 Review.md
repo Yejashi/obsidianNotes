@@ -17,7 +17,8 @@ $f = \omega(g)$
 f ~ g
 - f / g approaches 1
 
-##### 
+##### Limits
+$\lim_{n \to }$ 
 
 
 
