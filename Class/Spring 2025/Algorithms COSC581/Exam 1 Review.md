@@ -3,7 +3,7 @@
 L'hopitals Rule
 > derivative of a log
 
-Asmptotic Notation
+##### Asmptotic Notation
 f = $\Theta(g)$
 - f grows at the same rate as g
 $f = O(g)$ 
@@ -17,7 +17,7 @@ $f = \omega(g)$
 f ~ g
 - f / g approaches 1
 
-
+##### 
 
 
 
