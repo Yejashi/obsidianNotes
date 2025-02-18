@@ -65,7 +65,7 @@ Then $T(n)$ has the following asymptotic bounds:
 		$T(n) = \Theta(f(n))$ 
 
 Little Trick:
-
+$f(n)$ often takes the form: $f(n) = n^klog_{p}n$  
 
 ### 3. Sorting
 - Know the table
