@@ -53,7 +53,7 @@ example of case 3
 - lim n^2/n^
 
 Let $a \geq 1$ and $b > 1$  be constants, let $f(n)$ be a function, and let $T(n)$ defined by the recurrence:
-	$T(n) = aT\left(\frac{n}{b}\right)$ 
+	$T(n) = aT\left(\frac{n}{b}\right) + f(n)$ 
 
 
 ### 3. Sorting
