@@ -178,4 +178,4 @@ State and justify your best lower bound on comparison based sorting.
 - The best lower bound on comparison-based sorting is Ω(n log n), justified by the decision tree model: since a comparison sort must distinguish between n! possible orderings, the height of the decision tree (representing the worst-case number of comparisons) is at least log₂(n!) = Ω(n log n) by Stirling’s approximation.
 
 What is the largest number of multiplies we could incur when multiplying tow 10x10 matricies and still be faster than Strassen's algorithm?
-- Strassen's algorithms is: O
+- Strassen's algorithms is: O($n^{2.81}$) 
