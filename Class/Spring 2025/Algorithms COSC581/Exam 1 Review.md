@@ -61,6 +61,8 @@ Then $T(n)$ has the following asymptotic bounds:
 		$T(n) = \Theta(n^{log_{b}a})$ 
 - **Case 2:** if $f(n) = \Theta(n^{log_{b}a})$ , then 
 		$T(n) = \Theta(n^{log_{b}a}lgn)$ 
+- **Case 3:** if $f(n) = O(n^{log_{b}a + \epsilon})$  for some constant $\epsilon > 0$, then 
+		$T(n) = \Theta(n^{log_{b}a})$ 
 
 
 
