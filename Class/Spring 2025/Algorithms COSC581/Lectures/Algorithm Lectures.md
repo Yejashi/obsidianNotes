@@ -118,6 +118,8 @@ A common idea to “cure” Quicksort’s worst-case is to improve the pivot sel
 		![[Pasted image 20250218042134.png]]
 A more refined analysis (sometimes showing the recursive term is closer to T(7_n_/10)) proves that _t(n)_ is O(_n_), i.e., linear.
 
+![[IMG_1213.jpg]]
+
 ## Lecture 6
 
 Decision tree for evaluating algorithms
