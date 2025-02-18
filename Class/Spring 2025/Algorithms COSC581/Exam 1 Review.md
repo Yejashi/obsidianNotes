@@ -162,5 +162,3 @@ Derive recurrence relation
 
 all odd numbers 5 or greater, linear
 
-
-Look at Langston's website
