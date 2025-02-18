@@ -66,7 +66,11 @@ Then $T(n)$ has the following asymptotic bounds:
 
 Examples for each case:
 	**Case 1:**
-	s
+	**Case 2:**
+		$T(n) = 16T(\frac{n}{4}) + n^2$ 
+		a = 16 b = 4 f(n) = $n^2$ 
+		$n^{log_{4}16}$ = $n^2$
+		
 
 ### 3. Sorting
 
