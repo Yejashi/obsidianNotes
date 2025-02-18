@@ -180,3 +180,4 @@ State and justify your best lower bound on comparison based sorting.
 What is the largest number of multiplies we could incur when multiplying tow 5x5 matricies and still be faster than Strassen's algorithm?
 - Strassen's algorithms is: O($n^{2.81}$) 
 - Answer: $O(5^{2.81})$
+
