@@ -95,7 +95,7 @@ Examples for each case:
 | **Radix Sort**                          | O($$)           | O($$)        | No          | No        | No         | O($$)        | ?            |
 | **Bucket Sort**                         | O($$)           | O($$)        | No          | No        | No         | O($$)        | ?            |
 
-Call sequences for some sorting algorithms :
+**Call sequences for some sorting algorithms :**
 - Merge sort
 	- merge sort
 	- merge sort
