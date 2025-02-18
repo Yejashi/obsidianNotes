@@ -93,6 +93,8 @@ Thus, while the worst-case performance of Quicksort is quadratic, its average-ca
 
 
 
+#### 3. Improving Worst-Case Behavior: Median Selection Strategies
+
 
 
 ## Lecture 6
