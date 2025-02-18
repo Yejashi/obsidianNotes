@@ -44,14 +44,6 @@ if $\lim_{n \to \infty} f(n) = \infty$ and $\lim_{n \to \infty} g(n) = \infty$
 
 ### 2. Master Theorem & Solving Recurrances
 
-example of case 3
-- f(n) = 2T($n/2$) + $\Theta(n^2)$ 
-- a = 2 
-- b = 2
-- f(n) = n^2
-- n^logb1 = n
-- lim n^2/n^
-
 Let $a \geq 1$ and $b > 1$  be constants, let $f(n)$ be a function, and let $T(n)$ defined by the recurrence:
 	$T(n) = aT\left(\frac{n}{b}\right) + f(n)$ 
 where we intercept $n/b$ to be ceil($n/b$) or floor($n/b$).
