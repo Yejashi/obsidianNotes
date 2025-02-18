@@ -13,6 +13,8 @@ $f = o(g)$
 - f grows strictly slower than g
 $f = \omega(g)$ 
 - f grows faster than g
+f ~ g
+- f / g approaches 1
 
 
 
