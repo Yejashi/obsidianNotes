@@ -18,6 +18,8 @@ f ~ g
 
 
 
+
+
 ### 2. Master Theorem & Solving Recurrances
 
 example of case 3
