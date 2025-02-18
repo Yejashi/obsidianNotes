@@ -111,6 +111,8 @@ Examples for each case:
 ##### Count sort
 Counting sort is a non‐comparison sorting algorithm that works by “counting” how many times each value appears in your input, then using that information to directly place each item into its correct position in the output array. 
 
+**List of 5 items**:
+
 
 
 Count sort
