@@ -82,8 +82,10 @@ Examples for each case:
 	**Case 3:**
 		$T(n) = 2T\left(\frac{n}{2}\right)+ \Theta(n^2)$ 
 		a = 2 b = 2 f(n) = $\Theta(n^2)$ 
-		
-- 
+		$n^{log_{2}2} = n^1$ 
+		f(n) = $\Theta(n^{2)} = \Omega(n^{1 + 1})$ 
+		lim $n^2/n^2$ = 1 does not equal 0
+		T(n) = $\Theta(n^2)$ 
 
 ### 3. Sorting
 
