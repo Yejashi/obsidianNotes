@@ -175,3 +175,4 @@ State and justify your best upper bound on comparison based sorting.
 - The best upper bound on comparison-based sorting is O(n log n), justified by the decision tree model: any comparison sort must distinguish between n! possible orderings, requiring at least log₂(n!) = O(n log n) comparisons in the worst case. Merge Sort and Heap Sort achieve this bound, proving it is asymptotically tight.
 
 State and justify your best lower bound on comparison based sorting.
+- The best lower bound on comparison-based sorting is Ω(n log n), justified by the decision tree model: since a comparison sort must distinguish between n! possible orderings, the height of the decision tree (representing the worst-case number of comparisons) is at least log₂(n!) = Ω(n log n) by Stirling’s approximation.
