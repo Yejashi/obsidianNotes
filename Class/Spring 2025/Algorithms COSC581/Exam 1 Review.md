@@ -131,7 +131,7 @@ This phrase captures the essence of counting sort’s two‐phase approach:
 
 
 **Goal is to save record Moves**
-
+By counting the occurrences first and then calculating positions, counting sort minimizes the number of data moves. Instead of repeatedly swapping or shifting records (as happens in many comparison-based sorts), each item is moved exactly once from the input into its final sorted position.
 
 Count sort
 - List of 5 items
