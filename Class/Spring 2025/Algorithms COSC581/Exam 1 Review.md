@@ -30,8 +30,8 @@ $\lim_{n \to \infty} \frac{f(n)}{g(n)} \neq 0$
 $\lim_{n \to \infty} \frac{f(n)}{g(n)} = 1$
 - f ~ g
 
-$\lim_{n \to \infty} \frac{f(n)}{g(n)} \neq 0$
-- $f = \Omega(g)$
+$\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$
+- $f = o(g)$
 
 
 
