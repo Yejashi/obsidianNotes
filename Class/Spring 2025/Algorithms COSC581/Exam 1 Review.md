@@ -68,7 +68,8 @@ Examples for each case:
 	**Case 1:**
 		$T(n) = 2T\left(\frac{n}{4}\right)+ 1$ 
 		a = 2, b = 4, f(n) = 1
-		
+		$n^{log_{4}2} = n^{1/2}$ 
+		O(n^{1/2} - 1) 
 	**Case 2:**
 		$T(n) = 16T(\frac{n}{4}) + n^2$ 
 		a = 16 b = 4 f(n) = $n^2$ 
