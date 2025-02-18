@@ -38,7 +38,8 @@ $\lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty$
 
 ##### L'hopital's rule
 if $\lim_{n \to \infty} f(n) = \infty$ and $\lim_{n \to \infty} g(n) = \infty$ 
-	then: $\lim_{n \to \infty} \frac{f'(n)}{g'(n)}$ = $\lim_{n \to \infty} \frac{f(n)}{g(n)}$
+	then: $\lim_{n \to \infty} \frac{f'(n)}{g'(n)}$ = $\lim_{n \to \infty} \frac{f^\prime(n)}{g^\prime(n)}$
+	
 	
 
 
