@@ -36,6 +36,8 @@ $\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$
 $\lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty$
 - $f = \omega(g)$
 
+##### L'hopital's rule
+
 
 ### 2. Master Theorem & Solving Recurrances
 
