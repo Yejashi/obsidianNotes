@@ -94,8 +94,8 @@ Examples for each case:
 | **Quick Sort**                    | O($n^2$)        | O($n^2$)       | No          | No        | No         | O($n\log n$) | ?            |
 | **Radix Sort**                    | O($$)        | O($$)       | No          | No        | No         | O($$) | ?            |
 | **Bucket Sort**                    | O($$)        | O($$)       | No          | No        | No         | O($$) | ?            |
-- Know the table
-- Call sequences for recursive ones
+
+Call sequences for recursive ones
 	- Merge sort
 	- Heap sort (build the heap)
 
