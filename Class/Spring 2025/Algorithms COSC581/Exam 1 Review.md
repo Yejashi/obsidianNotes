@@ -124,6 +124,10 @@ For example, if your list is:
 
 **Put into spot, remove, put back**
 This phrase captures the essence of counting sort’s two‐phase approach:
+1. **Counting Phase (“put into” the count array):**  
+	You create an auxiliary array (the “count” array) whose indices represent each possible key. You then “place” each item by incrementing the count at the index corresponding to its key. (You don’t literally remove items from your original list, but you “account” for them.)
+2. **Placing Phase (“remove, put back”):**  
+	After counting, you compute a cumulative (or prefix) sum of the counts. This cumulative count tells you exactly where in the output array each key’s block begins and ends (this is what we mean by “ranking the file” or determining the first and last positions for each key). Finally, you iterate over the original array—typically in reverse to preserve stability—and “put back” each element into its correct spot in a new, sorted output array, decrementing the corresponding count as you go.
 
 Count sort
 - List of 5 items
