@@ -269,23 +269,3 @@ columns: decisions
     The DP table for stage 2 is built for different remaining budget ranges (e.g., [45,59], [60,64], etc.), with each cell recording the best reliability achievable and the optimal decision $d_2^*$​.
 
 
-## Lecture 8
-
-![[Pasted image 20250213160806.png]]
-
-So how do we build the dp tables?
-
-Rows? We know the state variable range. it's [0, 105]
-
-Columns? We need to know what values a decision variable can take. Use mi <= i loor(C - Sum(1 <= j <= n)ci + ci) / ci). we need to find m1 in [1,2], m2 in [1,3] and m3 in [1,3]
-
-![[Pasted image 20250213161519.png]]
-
-![[Pasted image 20250213161926.png]]
-
-![[Pasted image 20250213162803.png]]
-
-So 
-- the reliability is maximized at .648
-- realized with the solution m1 = 1 and m2 = m3 = 2
-- and at a cost of 100 < c = 105
