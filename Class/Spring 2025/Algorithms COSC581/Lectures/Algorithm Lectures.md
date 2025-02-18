@@ -95,6 +95,8 @@ Thus, while the worst-case performance of Quicksort is quadratic, its average-ca
 
 #### 3. Improving Worst-Case Behavior: Median Selection Strategies
 
+A common idea to “cure” Quicksort’s worst-case is to improve the pivot selection. The lecture presented several algorithms to select the median (or, more generally, to find the k‑th smallest element) which can then be used as a pivot. These algorithms include:
+
 
 
 ## Lecture 6
