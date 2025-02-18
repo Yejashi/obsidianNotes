@@ -73,6 +73,15 @@ When analyzing algorithms, we often evaluate performance using several measures:
 - **Stability:** Whether an algorithm preserves the relative order of equal elements.
 - **Other considerations:** In some cases, external factors (like “out-of-core” processing when data exceeds main memory) must also be measured.
 
+### Assumptions and Recurrence
+
+For Quicksort’s average-case analysis we assume:
+
+- **Distinct keys:** No duplicates.
+- **Uniform randomness:** All input permutations are equally likely (or a random pivot is chosen each time).
+
+Let _F(n)_ denote the average number of comparisons to sort _n_ elements. One can show that
+
 
 
 
