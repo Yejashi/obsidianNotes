@@ -23,6 +23,8 @@ $\lim_{n \to \infty} \frac{f(n)}{g(n)} \neq 0, \infty$
 
 
 $\lim_{n \to \infty} \frac{f(n)}{g(n)} \neq 0$
+- $f = O(g)$
+
 
 
 
