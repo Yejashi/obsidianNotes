@@ -111,7 +111,7 @@ A common idea to “cure” Quicksort’s worst-case is to improve the pivot sel
 
 ##### Algorithm 4: Median-of-Medians (Deterministic Linear‑Time Selection)
 - **Method:**
-    1. **Divide:** Partition the array into ⎡_n_/r⎤ subarrays of size _r_ (with _r_ typically chosen as 5, which empirical and theoretical analyses suggest is a good constant).
+    1. **Divide:** Partition the array into ⎡n/r⎤ subarrays of size _r_ (with _r_ typically chosen as 5, which empirical and theoretical analyses suggest is a good constant).
     2. **Conquer Locally:** Find the median of each subarray (which takes constant time per subarray since _r_ is fixed).
     3. **Recursion:** Recursively determine the median of these medians; denote it as _m_.
     4. **Partition:** Use _m_ as a pivot to partition the original array.
