@@ -65,6 +65,8 @@ Then $T(n)$ has the following asymptotic bounds:
 		$T(n) = \Theta(f(n))$ 
 
 Examples for each case:
+**Case 1:**
+	
 ### 3. Sorting
 
 | Algorithm                         | Key Comparisons  | Record Moves   | Extra Space | Stability | Simplicity | Best Case | Average Case |
