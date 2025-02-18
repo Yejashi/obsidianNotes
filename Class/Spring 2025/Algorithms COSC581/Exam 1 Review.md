@@ -82,24 +82,28 @@ Examples for each case:
 
 ### 3. Sorting
 
-| Algorithm                         | Key Comparisons  | Record Moves   | Extra Space | Stability | Simplicity | Best Case | Average Case |
-|----------------------------------|------------------|----------------|-------------|-----------|------------|------------|--------------|
-| **Bubble Sort**                  | O($n^2$)        | O($n^2$)       | No          | Yes       | Very       | O($n$)     | ?            |
-| **Insertion Sort (Straight)**     | O($n^2$)        | O($n^2$)       | No          | Yes       | Very       | O($n$)     | ?            |
-| **Insertion Sort (Binary, Huge Files)** | O($n\log n$) | O($n^2$)       | No          | Yes       | Yes-ish    | O($n$)     | O($n\log n$) |
-| **Counting Sort** (Knuth’s version) | O($n^2$)      | O($n$)         | Yes         | Yes       | Yes        | O($n^2$)   | O($n^2$)     |
-| **Shell Sort (Diminishing Increment)** | O($n^{1.5}$) | ?              | No          | No        | No         | ?          | ?            |
-| **Merge Sort**                    | O($n\log n$)    | O($n\log n$)   | Yes         | Yes       | Yes        | O($n\log n$) | O($n\log n$) |
-| **Heap Sort**                     | O($n\log n$)    | O($n\log n$)   | No          | No        | Not really | O($n\log n$) | O($n\log n$) |
-| **Quick Sort**                    | O($n^2$)        | O($n^2$)       | No          | No        | No         | O($n\log n$) | ?            |
-| **Radix Sort**                    | O($$)        | O($$)       | No          | No        | No         | O($$) | ?            |
-| **Bucket Sort**                    | O($$)        | O($$)       | No          | No        | No         | O($$) | ?            |
+| Algorithm                               | Key Comparisons | Record Moves | Extra Space | Stability | Simplicity | Best Case    | Average Case |
+| --------------------------------------- | --------------- | ------------ | ----------- | --------- | ---------- | ------------ | ------------ |
+| **Bubble Sort**                         | O($n^2$)        | O($n^2$)     | No          | Yes       | Very       | O($n$)       | ?            |
+| **Insertion Sort (Straight)**           | O($n^2$)        | O($n^2$)     | No          | Yes       | Very       | O($n$)       | ?            |
+| **Insertion Sort (Binary, Huge Files)** | O($n\log n$)    | O($n^2$)     | No          | Yes       | Yes-ish    | O($n$)       | O($n\log n$) |
+| **Counting Sort** (Knuth’s version)     | O($n^2$)        | O($n$)       | Yes         | Yes       | Yes        | O($n^2$)     | O($n^2$)     |
+| **Shell Sort (Diminishing Increment)**  | O($n^{1.5}$)    | ?            | No          | No        | No         | ?            | ?            |
+| **Merge Sort**                          | O($n\log n$)    | O($n\log n$) | Yes         | Yes       | Yes        | O($n\log n$) | O($n\log n$) |
+| **Heap Sort**                           | O($n\log n$)    | O($n\log n$) | No          | No        | Not really | O($n\log n$) | O($n\log n$) |
+| **Quick Sort**                          | O($n^2$)        | O($n^2$)     | No          | No        | No         | O($n\log n$) | ?            |
+| **Radix Sort**                          | O($$)           | O($$)        | No          | No        | No         | O($$)        | ?            |
+| **Bucket Sort**                         | O($$)           | O($$)        | No          | No        | No         | O($$)        | ?            |
 
-Call sequences for recursive sorting algorithms ones:
+Call sequences for some sorting algorithms :
 - Merge sort
 	- merge sort
 	- merge sort
 	- merge
+- quicksort
+	- partition
+	- quicksort
+	- quicksort
 - Heap sort (build the heap)
 	- heapify
 	- sort
