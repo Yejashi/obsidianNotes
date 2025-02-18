@@ -52,7 +52,7 @@ example of case 3
 - n^logb1 = n
 - lim n^2/n^
 
-
+Let $a \geq 1$ 
 
 
 ### 3. Sorting
