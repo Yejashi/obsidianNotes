@@ -85,6 +85,8 @@ Let _F(n)_ denote the average number of comparisons to sort _n_ elements. One ca
 By symmetry (since the two recursive calls are “mirrors” of each other), this simplifies to
 ![[Pasted image 20250218041803.png]]
 
+This recurrence is a first-order homogeneous relation that—after a suitable change of variable and an asymptotic analysis (often converting the sum into an integral)—can be shown to yield
+
 
 
 
