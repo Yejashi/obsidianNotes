@@ -57,7 +57,7 @@ Let $a \geq 1$ and $b > 1$  be constants, let $f(n)$ be a function, and let $T(n
 where we intercept $n/b$ to be ceil($n/b$) or floor($n/b$).
 
 Then $T(n)$ has the following asymptotic bounds:
-- **Case 1:** if $f(n) = O(n^{log{b}{a}})$  
+- **Case 1:** if $f(n) = O(n^{log_{a})$  
 - 
 
 
