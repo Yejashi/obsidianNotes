@@ -40,6 +40,7 @@ $\lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty$
 if $\lim_{n \to \infty} f(n) = \infty$ and $\lim_{n \to \infty} g(n) = \infty$ 
 	then: $\lim_{n \to \infty} \frac{f'(n)}{g'(n)}$ = $\lim_{n \to \infty} \frac{f^\prime(n)}{g^\prime(n)}$
 
+![[Pasted image 20250217221427.png]]
 
 
 
