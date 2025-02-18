@@ -33,6 +33,8 @@ $\lim_{n \to \infty} \frac{f(n)}{g(n)} = 1$
 $\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$
 - $f = o(g)$
 
+$\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$
+- $f = o(g)$
 
 
 ### 2. Master Theorem & Solving Recurrances
