@@ -108,6 +108,9 @@ Examples for each case:
 	- heapify
 	- sort
 
+##### Count sort
+
+
 Count sort
 - List of 5 items
 - put into spot, remove, put back
