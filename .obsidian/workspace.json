@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Algorithm Lectures"
             }
+          },
+          {
+            "id": "062052201b5b22d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,20 +202,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b7f6292ca7c310a4",
+  "active": "062052201b5b22d2",
   "lastOpenFiles": [
-    "Research/Papers/Dynist/Dyninst paper.md",
+    "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "conflict-files-obsidian-git.md",
+    "Meta/Attachments/Pasted image 20250218042134.png",
+    "Meta/Attachments/Pasted image 20250218041821.png",
+    "Meta/Attachments/Pasted image 20250218041803.png",
+    "Meta/Attachments/Pasted image 20250218041747.png",
+    "Meta/Attachments/Pasted image 20250218041315.png",
+    "Meta/Attachments/Pasted image 20250217221427.png",
+    "Research/Papers/Dynist/Dyninst paper.md",
     "Meta/Attachments/Pasted image 20250217071740.png",
     "Meta/Attachments/Pasted image 20250217055514.png",
     "Meta/Attachments/Pasted image 20250217054717.png",
     "Meta/Attachments/Pasted image 20250217054204.png",
-    "Meta/Attachments/Pasted image 20250213162803.png",
-    "Meta/Attachments/Pasted image 20250213161926.png",
-    "Meta/Attachments/Pasted image 20250213161519.png",
-    "Meta/Attachments/Pasted image 20250213160806.png",
-    "Meta/Attachments/Pasted image 20250212153742.png",
-    "Meta/Attachments/Pasted image 20250212153227.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3",
     "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
@@ -228,10 +244,8 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Graph (data structure).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/1. Introduction/Konigsberg Problem.md",
     "Excalidraw/Drawing 2025-02-04 16.38.07.excalidraw.md",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
-    "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2",
     "Class/Spring 2025/Algorithms COSC581/textbook_algorithms.pdf",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf"

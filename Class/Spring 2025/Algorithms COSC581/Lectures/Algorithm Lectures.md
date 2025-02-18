@@ -1,69 +1,59 @@
 ## Lecture 5
 
-How do measure ?
-- Worst cast
-- Average case
-- Stability
-- Other? For example, out of core.
+#### 1. Performance Measures
+When analyzing algorithms, we often evaluate performance using several measures:
+- **Worst-case performance:** The maximum time (or number of operations) an algorithm takes on any input of size _n_. For example, in Quicksort the worst-case time is Θ(_n_²) when the pivot is chosen very poorly.
+- **Average-case performance:** The expected performance when averaged over all inputs (or all random choices). For Quicksort, under assumptions such as distinct keys and all permutations being equally likely, the average number of comparisons is approximately 1.39 _n_ log₂ _n_.
+- **Stability:** Whether an algorithm preserves the relative order of equal elements.
+- **Other considerations:** In some cases, external factors (like “out-of-core” processing when data exceeds main memory) must also be measured.
 
-Average case analysis of quicksort
-- Assume keys are distinct
-- Assume all permutations are equally likely
+#### 2. Average-Case Analysis of Quicksort
+**Assumptions and Recurrence**
 
-Let F(n) denote the average number of comparisons required
+For Quicksort’s average-case analysis we assume:
 
-Then F(n) = (n-1) + (1/n) * $\sum$ (i = 1, n) [F(i-1) + F(n-i])]
- 
- which by symmetry = (n-1) + (2/n)$\sum$ (i=1,n)[F(i-1)]
- - this is a first order homogenous recurrence
- - It requires a change of variable
- - Then uses asymptotics (~) to convert a series to an itegral.
- - And finally find that F(n) is about 1.39 nlog2n   
+- **Distinct keys:** No duplicates.
+- **Uniform randomness:** All input permutations are equally likely (or a random pivot is chosen each time).
 
-Back to quicksort
-- Its average case is excellent.
-	- But the analysis assumes that keys are distinct, and that all permutation are equally likely.
-	- MOreover, the worst case is truly awful.
-		- Can we address this?
-		- And if so, is the cure worse than the disease.
-Algorithm 1
-- Identify the smallest, then the next smallest, etc
-- COntinue until we find the nearest $n/2$ smallest.
+Let _F(n)_ denote the average number of comparisons to sort _n_ elements. One can show that
+![[Pasted image 20250218041747.png]]
+By symmetry (since the two recursive calls are “mirrors” of each other), this simplifies to
+![[Pasted image 20250218041803.png]]
 
-Algorithm 2
-- Sort the file
-- Use the item at location $n/2$ .
+This recurrence is a first-order homogeneous relation that—after a suitable change of variable and an asymptotic analysis (often converting the sum into an integral)—can be shown to yield
 
-Algorithm 3:
-- Pseudo-randomly pick a small set of elements
-- Use their median as a proxy
+![[Pasted image 20250218041821.png]]
+Thus, while the worst-case performance of Quicksort is quadratic, its average-case performance is excellent.
 
-Algorithm 4.
-- Break the file into subfiles
-- Find the median of each suffle
-- Compute the median of medians
 
-The median of medians approach
-- CHoose an r > 1 (for file size)
-- As we'll see, it turn out that 5 is a good choice
-- Divide L into n/r subfiles
-- Find the median of each subfile
-- Find the median of medians
+
+#### 3. Improving Worst-Case Behavior: Median Selection Strategies
+
+A common idea to “cure” Quicksort’s worst-case is to improve the pivot selection. The lecture presented several algorithms to select the median (or, more generally, to find the k‑th smallest element) which can then be used as a pivot. These algorithms include:
+
+##### Algorithm 1: Sequential Selection
+- **Method:** Identify the smallest element, then the next smallest, and so on until the median (the n/2‑th smallest element) is found.
+- **Note:** This method is inefficient (linear selection done sequentially without additional structure).
+
+##### Algorithm 2: Full Sorting
+- **Method:** Sort the entire file (using any comparison-based sort) and then choose the element at the n/2‑th position.
+- **Note:** While correct, it uses O(_n_ log _n_) time—more work than necessary if only the median is required.
+
+##### Algorithm 3: Random Sampling
+- **Method:** Pseudo‑randomly select a small subset of elements and use their median as a proxy for the true median.
+- **Note:** This is fast but may yield a poor pivot if the sample is not representative.
+
+##### Algorithm 4: Median-of-Medians (Deterministic Linear‑Time Selection)
+- **Method:**
+    1. **Divide:** Partition the array into ⎡n/r⎤ subarrays of size _r_ (with _r_ typically chosen as 5, which empirical and theoretical analyses suggest is a good constant).
+    2. **Conquer Locally:** Find the median of each subarray (which takes constant time per subarray since _r_ is fixed).
+    3. **Recursion:** Recursively determine the median of these medians; denote it as _m_.
+    4. **Partition:** Use _m_ as a pivot to partition the original array.
+- **Analysis:** By careful examination, one can show that every element in the “lower” partition is ≤ _m_ and every element in the “upper” partition is ≥ _m_. In fact, one can prove that each partition has at least _n_/4 elements. This leads to a recurrence for the worst-case time:
+		![[Pasted image 20250218042134.png]]
+A more refined analysis (sometimes showing the recursive term is closer to T(7_n_/10)) proves that _t(n)_ is O(_n_), i.e., linear.
 
 ![[IMG_1213.jpg]]
-
-Obserbe:
-- Every element o A is at most m
-- Every elemend of D is at least m
-- Partition with m, and L  is split into two subfiles each with n/4 or more elements
-Hence the recurrence:
-- t(n) = c1n for small n
-- t(n) = c2n + t(n/5) + t(3n/4) otherwise
--          [find mednian] + [find m]  +  [find the kth largest element]
-it turns out that t(n) is o(n)
-
-So we can make quicksort o(nlogn) even in the worst case. And a more careful look at our figure reveals that the last termis actually a wee but smaller at T(7n/10)
-
 
 ## Lecture 6
 
@@ -269,23 +259,3 @@ columns: decisions
     The DP table for stage 2 is built for different remaining budget ranges (e.g., [45,59], [60,64], etc.), with each cell recording the best reliability achievable and the optimal decision $d_2^*$​.
 
 
-## Lecture 8
-
-![[Pasted image 20250213160806.png]]
-
-So how do we build the dp tables?
-
-Rows? We know the state variable range. it's [0, 105]
-
-Columns? We need to know what values a decision variable can take. Use mi <= i loor(C - Sum(1 <= j <= n)ci + ci) / ci). we need to find m1 in [1,2], m2 in [1,3] and m3 in [1,3]
-
-![[Pasted image 20250213161519.png]]
-
-![[Pasted image 20250213161926.png]]
-
-![[Pasted image 20250213162803.png]]
-
-So 
-- the reliability is maximized at .648
-- realized with the solution m1 = 1 and m2 = m3 = 2
-- and at a cost of 100 < c = 105
