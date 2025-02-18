@@ -18,7 +18,7 @@ f ~ g
 - f / g approaches 1
 
 ##### Limits
-$\lim_{n \to \infty} f(n)/g(n)$  
+$\lim_{n \to \infty} f\frac{n}{g(n)}$  
 
 
 
