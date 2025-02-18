@@ -116,7 +116,7 @@ A common idea to “cure” Quicksort’s worst-case is to improve the pivot sel
     3. **Recursion:** Recursively determine the median of these medians; denote it as _m_.
     4. **Partition:** Use _m_ as a pivot to partition the original array.
 - **Analysis:** By careful examination, one can show that every element in the “lower” partition is ≤ _m_ and every element in the “upper” partition is ≥ _m_. In fact, one can prove that each partition has at least _n_/4 elements. This leads to a recurrence for the worst-case time:
-
+	![[Pasted image 20250218042134.png]]
 ## Lecture 6
 
 Decision tree for evaluating algorithms
