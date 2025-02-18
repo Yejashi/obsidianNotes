@@ -117,10 +117,6 @@ Imagine you have a small list (say, 5 items) where the keys (or values) come fro
 Counting sort is particularly efficient when the range of possible keys isn’t huge compared 
 to the number of items.
 
-For example, if your list is:
-```
-3, 1, 4, 1, 2
-```
 
 **Put into spot, remove, put back**
 This phrase captures the essence of counting sort’s two‐phase approach:
@@ -132,6 +128,8 @@ This phrase captures the essence of counting sort’s two‐phase approach:
 
 **Goal is to save record Moves**
 By counting the occurrences first and then calculating positions, counting sort minimizes the number of data moves. Instead of repeatedly swapping or shifting records (as happens in many comparison-based sorts), each item is moved exactly once from the input into its final sorted position.
+
+
 
 
 
