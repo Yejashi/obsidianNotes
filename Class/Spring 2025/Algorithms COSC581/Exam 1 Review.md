@@ -129,6 +129,10 @@ This phrase captures the essence of counting sort’s two‐phase approach:
 2. **Placing Phase (“remove, put back”):**  
 	After counting, you compute a cumulative (or prefix) sum of the counts. This cumulative count tells you exactly where in the output array each key’s block begins and ends (this is what we mean by “ranking the file” or determining the first and last positions for each key). Finally, you iterate over the original array—typically in reverse to preserve stability—and “put back” each element into its correct spot in a new, sorted output array, decrementing the corresponding count as you go.
 
+
+**Goal is to save record Moves**
+
+
 Count sort
 - List of 5 items
 - put into spot, remove, put back
