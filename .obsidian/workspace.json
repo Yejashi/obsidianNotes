@@ -186,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,8 +202,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a7d643e10028b03f",
+  "active": "020db7076d3db4d7",
   "lastOpenFiles": [
+    "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
+    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "Meta/Attachments/Pasted image 20250217071740.png",
     "Meta/Attachments/Pasted image 20250217055514.png",
@@ -218,7 +219,6 @@
     "Meta/Attachments/Pasted image 20250213161926.png",
     "Meta/Attachments/Pasted image 20250213161519.png",
     "Meta/Attachments/Pasted image 20250213160806.png",
-    "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
     "Meta/Attachments/Pasted image 20250212153742.png",
     "Meta/Attachments/Pasted image 20250212153227.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
@@ -228,7 +228,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Graph Algorithms Glossary.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lectures.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
-    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
     "New RAJAPerf Paper.md",
