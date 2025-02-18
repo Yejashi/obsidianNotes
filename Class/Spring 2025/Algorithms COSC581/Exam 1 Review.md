@@ -70,6 +70,7 @@ Examples for each case:
 		$T(n) = 16T(\frac{n}{4}) + n^2$ 
 		a = 16 b = 4 f(n) = $n^2$ 
 		$n^{log_{4}16}$ = $n^2$
+		$f(n) = \Theta(n^2)$ 
 		
 
 ### 3. Sorting
