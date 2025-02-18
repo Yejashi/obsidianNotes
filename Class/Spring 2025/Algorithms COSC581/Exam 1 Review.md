@@ -58,7 +58,7 @@ where we intercept $n/b$ to be ceil($n/b$) or floor($n/b$).
 
 Then $T(n)$ has the following asymptotic bounds:
 - **Case 1:** if $f(n) = O(n^{log_{b}a - \epsilon})$  for some constant $\epsilon > 0$, then 
-		$T(n) = O(n^{log_{b}a}lgn)$ 
+		$T(n) = O(n^{log_{b}a})$ 
 - **Case 2:** if $f(n) = \Theta(n^{log_{b}a})$ , then 
 		$T(n) = \Theta(n^{log_{b}a}lgn)$ 
 
