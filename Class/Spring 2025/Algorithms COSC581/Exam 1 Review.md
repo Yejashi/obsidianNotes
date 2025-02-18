@@ -122,7 +122,8 @@ For example, if your list is:
 3, 1, 4, 1, 2
 ```
 
-
+**Put into spot, remove, put back**
+This phrase captures the essence of counting sort’s two‐phase approach:
 
 Count sort
 - List of 5 items
