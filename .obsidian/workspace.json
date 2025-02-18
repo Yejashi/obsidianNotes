@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.51103591918945
+    "width": 237.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -186,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,10 +204,48 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
+  "floating": {
+    "id": "124690fa4796e26c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ebecaf5ca21d045d",
+        "type": "window",
+        "children": [
+          {
+            "id": "09c1f6d685cf0859",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c5d43317097d852b",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "asymptotics-cheatsheet"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 6,
+        "y": 85,
+        "width": 1271,
+        "height": 1349,
+        "maximize": false,
+        "zoom": 1
+      }
+    ]
+  },
   "active": "a7d643e10028b03f",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
+    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "Meta/Attachments/Pasted image 20250217071740.png",
     "Meta/Attachments/Pasted image 20250217055514.png",
@@ -237,7 +277,6 @@
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 2.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
-    "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
     "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",

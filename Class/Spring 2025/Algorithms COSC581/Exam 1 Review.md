@@ -3,7 +3,10 @@
 L'hopitals Rule
 > derivative of a log
 
-
+f = $\Theta(g)$
+- f grows at the same rate as g
+$f = O(g)$ 
+- f grows no faster than g
 
 
 
