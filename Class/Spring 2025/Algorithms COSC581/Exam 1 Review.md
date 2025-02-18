@@ -95,9 +95,13 @@ Examples for each case:
 | **Radix Sort**                    | O($$)        | O($$)       | No          | No        | No         | O($$) | ?            |
 | **Bucket Sort**                    | O($$)        | O($$)       | No          | No        | No         | O($$) | ?            |
 
-Call sequences for recursive ones
-	- Merge sort
-	- Heap sort (build the heap)
+Call sequences for recursive sorting algorithms ones:
+- Merge sort
+	- merge sort
+	- merge sort
+	- merge
+- Heap sort (build the heap)
+	- 
 
 Count sort
 - List of 5 items
