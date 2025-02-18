@@ -117,7 +117,7 @@ A common idea to “cure” Quicksort’s worst-case is to improve the pivot sel
     4. **Partition:** Use _m_ as a pivot to partition the original array.
 - **Analysis:** By careful examination, one can show that every element in the “lower” partition is ≤ _m_ and every element in the “upper” partition is ≥ _m_. In fact, one can prove that each partition has at least _n_/4 elements. This leads to a recurrence for the worst-case time:
 		![[Pasted image 20250218042134.png]]
-
+A more refined analysis (sometimes showing the recursive term is closer to T(7_n_/10)) proves that _t(n)_ is O(_n_), i.e., linear.
 
 ## Lecture 6
 
