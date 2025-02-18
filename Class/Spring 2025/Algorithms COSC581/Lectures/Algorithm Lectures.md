@@ -97,7 +97,26 @@ Thus, while the worst-case performance of Quicksort is quadratic, its average-ca
 
 A common idea to “cure” Quicksort’s worst-case is to improve the pivot selection. The lecture presented several algorithms to select the median (or, more generally, to find the k‑th smallest element) which can then be used as a pivot. These algorithms include:
 
+##### Algorithm 1: Sequential Selection
+- **Method:** Identify the smallest element, then the next smallest, and so on until the median (the n/2‑th smallest element) is found.
+- **Note:** This method is inefficient (linear selection done sequentially without additional structure).
 
+##### Algorithm 2: Full Sorting
+- **Method:** Sort the entire file (using any comparison-based sort) and then choose the element at the n/2‑th position.
+- **Note:** While correct, it uses O(_n_ log _n_) time—more work than necessary if only the median is required.
+
+##### Algorithm 3: Random Sampling
+- **Method:** Pseudo‑randomly select a small subset of elements and use their median as a proxy for the true median.
+- **Note:** This is fast but may yield a poor pivot if the sample is not representative.
+
+##### Algorithm 4: Median-of-Medians (Deterministic Linear‑Time Selection)
+- **Method:**
+    
+    1. **Divide:** Partition the array into ⎡_n_/r⎤ subarrays of size _r_ (with _r_ typically chosen as 5, which empirical and theoretical analyses suggest is a good constant).
+    2. **Conquer Locally:** Find the median of each subarray (which takes constant time per subarray since _r_ is fixed).
+    3. **Recursion:** Recursively determine the median of these medians; denote it as _m_.
+    4. **Partition:** Use _m_ as a pivot to partition the original array.
+- **Analysis:** By careful examination, one can show that every element in the “lower” partition is ≤ _m_ and every element in the “upper” partition is ≥ _m_. In fact, one can prove that each partition has at least _n_/4 elements. This leads to a recurrence for the worst-case time:
 
 ## Lecture 6
 
