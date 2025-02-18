@@ -52,7 +52,8 @@ example of case 3
 - n^logb1 = n
 - lim n^2/n^
 
-Let $a \geq 1$ and $b > 1$  be constants, let $f(n)$ be a function, and let $T(n)$ 
+Let $a \geq 1$ and $b > 1$  be constants, let $f(n)$ be a function, and let $T(n)$ defined by the recurrence:
+	$T(n) = aT(\frac{n}{b})$ 
 
 
 ### 3. Sorting
