@@ -204,43 +204,6 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "floating": {
-    "id": "124690fa4796e26c",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ebecaf5ca21d045d",
-        "type": "window",
-        "children": [
-          {
-            "id": "09c1f6d685cf0859",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c5d43317097d852b",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "asymptotics-cheatsheet"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 6,
-        "y": 85,
-        "width": 1271,
-        "height": 1349,
-        "maximize": false,
-        "zoom": 1
-      }
-    ]
-  },
   "active": "a7d643e10028b03f",
   "lastOpenFiles": [
     "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
