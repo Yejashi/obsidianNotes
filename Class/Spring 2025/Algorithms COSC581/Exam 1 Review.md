@@ -18,7 +18,7 @@ f ~ g
 - f / g approaches 1
 
 ##### Limits
-
+$\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0, \infty$
 
 
 ### 2. Master Theorem & Solving Recurrances

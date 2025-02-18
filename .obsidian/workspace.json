@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.51103591918945
+    "width": 237.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -202,6 +203,43 @@
       "obsidian-projects:Open projects": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
+  },
+  "floating": {
+    "id": "d82ae641de2070be",
+    "type": "floating",
+    "children": [
+      {
+        "id": "f92e5d184bd251f4",
+        "type": "window",
+        "children": [
+          {
+            "id": "9f535798e8f3dd81",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6168753310b0e7c0",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "asymptotics-cheatsheet"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 6,
+        "y": 85,
+        "width": 1271,
+        "height": 1349,
+        "maximize": false,
+        "zoom": 1
+      }
+    ]
   },
   "active": "a7d643e10028b03f",
   "lastOpenFiles": [
