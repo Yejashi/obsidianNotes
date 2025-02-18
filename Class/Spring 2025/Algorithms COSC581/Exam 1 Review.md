@@ -172,4 +172,6 @@ Median-of-Medians (Deterministic Linear‑Time Selection)
 ### 6. Misc
 
 State and justify your best upper bound on comparison based sorting.
-- 
+- The best upper bound on comparison-based sorting is O(n log n), justified by the decision tree model: any comparison sort must distinguish between n! possible orderings, requiring at least log₂(n!) = O(n log n) comparisons in the worst case. Merge Sort and Heap Sort achieve this bound, proving it is asymptotically tight.
+
+State and justify your best lower bound on comparison based sorting.
