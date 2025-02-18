@@ -80,7 +80,9 @@ Examples for each case:
 		lim $n^2/n^2$ = 1 does not equal $\infty, 0$ 
 		$T(n) = \Theta(n^2lgn)$ 
 	**Case 3:**
-		$2T\left(\frac{n}{2}\right)+ \Theta(n^2)$ 
+		$T(n) = 2T\left(\frac{n}{2}\right)+ \Theta(n^2)$ 
+		a = 2 b = 2 f(n) = $\Theta(n^2)$ 
+		
 - 
 
 ### 3. Sorting
