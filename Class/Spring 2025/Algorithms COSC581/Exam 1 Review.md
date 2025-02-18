@@ -52,7 +52,7 @@ example of case 3
 - n^logb1 = n
 - lim n^2/n^
 
-Let $a \geq 1$ 
+Let $a \geq 1$ and $b > 1$  be constants, let $f(n)$ be a function, and let $T(n)$ 
 
 
 ### 3. Sorting
