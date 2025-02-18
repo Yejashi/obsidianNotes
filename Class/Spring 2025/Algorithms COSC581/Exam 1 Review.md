@@ -10,7 +10,9 @@ $f = O(g)$
 $f = \Omega(g)$
 - f grows at least as fast as g
 $f = o(g)$ 
-- f grows strictly 
+- f grows strictly slower than g
+$f = \omega(g)$ 
+- 
 
 
 ### 2. Master Theorem & Solving Recurrances
