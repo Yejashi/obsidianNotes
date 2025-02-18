@@ -101,7 +101,8 @@ Call sequences for recursive sorting algorithms ones:
 	- merge sort
 	- merge
 - Heap sort (build the heap)
-	- 
+	- heapify
+	- sort
 
 Count sort
 - List of 5 items
