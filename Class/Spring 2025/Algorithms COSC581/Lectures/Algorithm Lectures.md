@@ -87,6 +87,10 @@ By symmetry (since the two recursive calls are “mirrors” of each other), thi
 
 This recurrence is a first-order homogeneous relation that—after a suitable change of variable and an asymptotic analysis (often converting the sum into an integral)—can be shown to yield
 
+![[Pasted image 20250218041821.png]]
+Thus, while the worst-case performance of Quicksort is quadratic, its average-case performance is excellent.
+
+
 
 
 
