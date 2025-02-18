@@ -64,6 +64,7 @@ Then $T(n)$ has the following asymptotic bounds:
 - **Case 3:** if $f(n) = \Omega(n^{log_{b}a + \epsilon})$  for some constant $\epsilon > 0$, AND if $af(n/b) \leq cf(n)$ for some c < 1 as n -> $\infty$ , then:
 		$T(n) = \Theta(f(n))$ 
 
+Little Trick:
 
 
 ### 3. Sorting
