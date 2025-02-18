@@ -71,7 +71,7 @@ Examples for each case:
 		a = 16 b = 4 f(n) = $n^2$ 
 		$n^{log_{4}16}$ = $n^2$
 		$f(n) = \Theta(n^2)$ 
-		
+		lim $n^2/n^2$ = 1 does not equal $\infty, 0$ 
 
 ### 3. Sorting
 
