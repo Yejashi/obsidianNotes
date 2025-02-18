@@ -66,6 +66,7 @@ So we can make quicksort o(nlogn) even in the worst case. And a more careful loo
 
 ## Lecture 5
 
+#### 1. Performance Measures
 
 ## Lecture 6
 
