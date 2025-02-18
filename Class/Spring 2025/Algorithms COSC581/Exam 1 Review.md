@@ -169,3 +169,7 @@ Median-of-Medians (Deterministic Linear‑Time Selection)
     3. **Recursion:** Recursively determine the median of these medians; denote it as _m_.
     4. **Partition:** Use _m_ as a pivot to partition the original array.
 
+### 6. Misc
+
+State and justify your best upper bound on comparison based sorting.
+- 
