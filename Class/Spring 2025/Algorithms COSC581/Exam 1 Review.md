@@ -1,7 +1,5 @@
 
 ### 1. Asymptotics
-L'hopitals Rule
-> derivative of a log
 
 ##### Asmptotic Notation
 f = $\Theta(g)$
