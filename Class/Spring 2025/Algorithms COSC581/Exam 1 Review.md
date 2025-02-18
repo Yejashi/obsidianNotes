@@ -19,7 +19,10 @@ f ~ g
 
 ##### Limits
 $\lim_{n \to \infty} \frac{f(n)}{g(n)} \neq 0, \infty$
-- $f = \Omega(g)$
+- $f = \Theta(g)$
+
+
+$\lim_{n \to \infty} \frac{f(n)}{g(n)} \neq 0, \infty$
 
 
 
