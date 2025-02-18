@@ -37,7 +37,7 @@ $\lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty$
 - $f = \omega(g)$
 
 ##### L'hopital's rule
-\lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty
+if $\lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty$
 
 ### 2. Master Theorem & Solving Recurrances
 
