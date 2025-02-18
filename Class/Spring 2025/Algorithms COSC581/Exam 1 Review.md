@@ -77,7 +77,7 @@ Examples for each case:
 		$n^{log_{2}2} = n^1$ 
 		f(n) = $\Theta(n^{2)} = \Omega(n^{1 + 1})$ 
 		lim $n^2/n^2$ = 1 does not equal 0
-		$2f(\frac{n}{2})$
+		$2f\left(\frac{n}{2}\right) \leq \frac{1}{2}$  
 		T(n) = $\Theta(n^2)$ 
 
 ### 3. Sorting
