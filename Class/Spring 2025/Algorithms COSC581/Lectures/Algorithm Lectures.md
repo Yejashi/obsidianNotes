@@ -81,6 +81,9 @@ For Quicksort’s average-case analysis we assume:
 - **Uniform randomness:** All input permutations are equally likely (or a random pivot is chosen each time).
 
 Let _F(n)_ denote the average number of comparisons to sort _n_ elements. One can show that
+![[Pasted image 20250218041747.png]]
+By symmetry (since the two recursive calls are “mirrors” of each other), this simplifies to
+![[Pasted image 20250218041803.png]]
 
 
 
