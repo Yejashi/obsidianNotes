@@ -183,8 +183,7 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
   "floating": {
@@ -212,23 +211,37 @@
                   "icon": "lucide-file",
                   "title": "Exam 1 Review"
                 }
+              },
+              {
+                "id": "33703415473f52be",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.8.7"
+                  },
+                  "icon": "lucide-book-up",
+                  "title": "Release Notes 1.8.7"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
-        "x": 8,
-        "y": 75,
+        "x": 1284,
+        "y": 40,
         "width": 1268,
-        "height": 997,
+        "height": 1032,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "bed91c35aac9a8a3",
+  "active": "33703415473f52be",
   "lastOpenFiles": [
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
     "conflict-files-obsidian-git.md",
     "Meta/Attachments/Pasted image 20250218042134.png",
     "Meta/Attachments/Pasted image 20250218041821.png",
@@ -243,7 +256,6 @@
     "Meta/Attachments/Pasted image 20250217054204.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3",
-    "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
     "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
     "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
