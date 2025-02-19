@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "7087d4e9fe68f6cd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
+          },
+          {
             "id": "616a6b09cdcd5dd2",
             "type": "leaf",
             "state": {
@@ -50,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -218,44 +230,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "floating": {
-    "id": "d82ae641de2070be",
-    "type": "floating",
-    "children": [
-      {
-        "id": "f92e5d184bd251f4",
-        "type": "window",
-        "children": [
-          {
-            "id": "9f535798e8f3dd81",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "6168753310b0e7c0",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "asymptotics-cheatsheet"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 6,
-        "y": 85,
-        "width": 1271,
-        "height": 1349,
-        "maximize": false,
-        "zoom": 1
-      }
-    ]
-  },
-  "active": "a7d643e10028b03f",
+  "active": "7087d4e9fe68f6cd",
   "lastOpenFiles": [
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
