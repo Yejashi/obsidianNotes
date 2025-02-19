@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
                 "mode": "source",
                 "source": false
               },
@@ -188,11 +188,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "b984cdb28261d840",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Graph Algorithms Glossary.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
     "conflict-files-obsidian-git.md",
@@ -234,7 +235,6 @@
     "Class/Spring 2025/Algorithms COSC581/Notes/Asymptotic Notation.md",
     "Class/Spring 2025/Algorithms COSC581/Notes",
     "Class/Spring 2025/Graph Algorithms COSC690/Lectures",
-    "Progress Writing",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW1/cs594_690_spring25_hw1.pdf"
+    "Progress Writing"
   ]
 }
