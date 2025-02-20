@@ -183,11 +183,14 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b7f6292ca7c310a4",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Research/Projects/Untitled",
+    "Research/Projects",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
@@ -231,8 +234,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/1. Introduction/Konigsberg Problem.md",
     "Excalidraw/Drawing 2025-02-04 16.38.07.excalidraw.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2",
-    "Class/Spring 2025/Algorithms COSC581/textbook_algorithms.pdf"
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2"
   ]
 }
