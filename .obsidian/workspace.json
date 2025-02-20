@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "General Comments"
             }
+          },
+          {
+            "id": "9e86f6ae0bf2d872",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-20 17.14.11.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,10 +200,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b7f6292ca7c310a4",
+  "active": "9e86f6ae0bf2d872",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
     "Research/Projects/SBM/General Comments.md",
+    "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
     "Research/Projects/SBM",
     "Research/Projects",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
@@ -233,7 +247,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Graph (data structure).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/1. Introduction/Konigsberg Problem.md",
-    "Excalidraw/Drawing 2025-02-04 16.38.07.excalidraw.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md"
+    "Excalidraw/Drawing 2025-02-04 16.38.07.excalidraw.md"
   ]
 }
