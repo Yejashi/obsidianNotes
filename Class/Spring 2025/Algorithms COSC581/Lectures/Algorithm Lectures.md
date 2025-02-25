@@ -266,5 +266,7 @@ columns: decisions
 **Network**:
 - We have arcs not edges
 	- the arcs are weights, so a weighted directed graph
-- WIth special nodes
-	- 
+- Special features
+	- One node labeled s which stands for source.
+	- source usuallly having indegree zero
+	- sink (t) usually having outdegree zero.
