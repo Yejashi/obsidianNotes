@@ -285,3 +285,11 @@ The ford fulkerson algorithm
 	- until t is reached
 - increase the flow along this path using the smallest weight labeled differential (aka residiual)
 - repeat this process until there are not more flow augmenting paths
+
+Observations
+- with each iteration, a conservation of flow is maintained at all interla ndes
+this is analogous to khidchoffs current law
+
+see pdf page 698 for the basic ford fulkerson method
+	study the examples 
+	the algorithm can be found on page 708
