@@ -259,3 +259,12 @@ columns: decisions
     The DP table for stage 2 is built for different remaining budget ranges (e.g., [45,59], [60,64], etc.), with each cell recording the best reliability achievable and the optimal decision $d_2^*$​.
 
 
+# POST EXAM 1
+
+### Network flow
+
+**Network**:
+- We have arcs not edges
+	- the arcs are weights, so a weighted directed graph
+- WIth special nodes
+	- 
