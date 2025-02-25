@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Exam 1 Review"
             }
+          },
+          {
+            "id": "4fbb24331893c7d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,27 +188,34 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "281c3205ae7fa20f",
+  "active": "4fbb24331893c7d0",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
+    "conflict-files-obsidian-git.md",
+    "Research/Projects/SBM/General Comments.md",
+    "Research/Projects/SBM",
+    "Research/Projects",
+    "Meta/Attachments/Pasted image 20250218042134.png",
+    "Meta/Attachments/Pasted image 20250218041821.png",
+    "Meta/Attachments/Pasted image 20250218041803.png",
+    "Meta/Attachments/Pasted image 20250218041747.png",
+    "Meta/Attachments/Pasted image 20250218041315.png",
+    "Meta/Attachments/Pasted image 20250217221427.png",
+    "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4",
     "Meta/Attachments/Pasted image 20250217071740.png",
     "Meta/Attachments/Pasted image 20250217055514.png",
     "Meta/Attachments/Pasted image 20250217054717.png",
     "Meta/Attachments/Pasted image 20250217054204.png",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
-    "Meta/Attachments/Pasted image 20250213162803.png",
-    "Meta/Attachments/Pasted image 20250213161926.png",
-    "Meta/Attachments/Pasted image 20250213161519.png",
-    "Meta/Attachments/Pasted image 20250213160806.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
-    "Meta/Attachments/Pasted image 20250212153742.png",
-    "Meta/Attachments/Pasted image 20250212153227.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Graph Algorithms Glossary.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lectures.md",
@@ -215,13 +237,8 @@
     "Class/Spring 2025/Algorithms COSC581/Notes",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Lectures",
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
     "[Direct Acyclic Graphs (DAGs).md",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 3.md",
-    "Class/Spring 2025/Algorithms COSC581/algorithms_text_book.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
-    "Class/Spring 2025/Algorithms/asymptotics-cheatsheet.pdf",
-    "Class/Spring 2025/Algorithms/Lectures/Lecture 2.md"
+    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 3.md"
   ]
 }
