@@ -270,3 +270,7 @@ columns: decisions
 	- One node labeled s which stands for source.
 	- source usuallly having indegree zero
 	- sink (t) usually having outdegree zero.
+Flow:
+- An arch labeling of a network
+- capacities must be obeyed (label <= weight)
+
