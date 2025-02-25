@@ -274,3 +274,14 @@ Flow:
 - An arch labeling of a network
 - capacities must be obeyed (label <= weight)
 
+Maximum flow problem
+- take as input of a network
+- return an arc ...
+The ford fulkerson algorithm
+- start with a labeling that obeys all capcacities
+- find a flow augmenting path if any exist for example
+	- begin at s
+	- perform a greedy label and scan
+	- until t is reached
+- increase the flow along this path using the smallest weight labeled differential (aka residiual)
+- repeat this process until there are not more flow augmenting paths
