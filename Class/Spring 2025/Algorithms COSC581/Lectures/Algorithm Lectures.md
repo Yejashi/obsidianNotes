@@ -293,3 +293,4 @@ this is analogous to khidchoffs current law
 see pdf page 698 for the basic ford fulkerson method
 	study the examples 
 	the algorithm can be found on page 708
+
