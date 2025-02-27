@@ -317,3 +317,8 @@ Boolean MAtrix Decidability
 - compute maximum flow
 
 **Linear Programming**:
+Programing: old term = solve by tabulation
+Mathematica programmming
+	-numeric formulation (e.g not categorical)
+	fund best solution (so its a form of optimization)
+	
