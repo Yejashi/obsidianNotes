@@ -296,3 +296,8 @@ see pdf page 698 for the basic ford fulkerson method
 	the algorithm can be found on page 708
 
 ## Lecture 10
+Maximum bipartite matching
+- start with a finite, simple, undireted bipartite graph
+- Add s and t, connecting s to every vertex in the left partite set, and t to every vertex in the right partite set
+- Replace all edges with left to right arcs
+- set all arcs weights to 1
