@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Algorithm Lectures"
             }
-          },
-          {
-            "id": "e4cc2a1007a89fb9",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,10 +173,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e4cc2a1007a89fb9",
+  "active": "281c3205ae7fa20f",
   "lastOpenFiles": [
     "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
     "conflict-files-obsidian-git.md",
