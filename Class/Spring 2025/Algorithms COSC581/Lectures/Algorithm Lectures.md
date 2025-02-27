@@ -315,3 +315,5 @@ Boolean MAtrix Decidability
 - the goal is todecide whether there exists a boolean matrix with exactly these rows and column sums
 - build a network from a complete mxn bipartite graph
 - compute maximum flow
+
+**Linear Programming**:
