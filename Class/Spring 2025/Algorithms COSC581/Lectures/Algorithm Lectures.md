@@ -310,3 +310,8 @@ Edge connectivity
 	- let the other verticies in turn play the role of t
 	- the minimum of all maximum flows found now represents the edge connectivity
 	- why do we not have to try every vertex or s?
+Boolean MAtrix Decidability
+- start with a set of m rows and sums (r1, ...rm) and a set of n columns (c1...cn) whiere Eri = Eci 
+- the goal is todecide whether there exists a boolean matrix with exactly these rows and column sums
+- build a network from a complete mxn bipartite graph
+- compute maximum flow
