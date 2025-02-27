@@ -321,4 +321,10 @@ Programing: old term = solve by tabulation
 Mathematica programmming
 	-numeric formulation (e.g not categorical)
 	fund best solution (so its a form of optimization)
-	
+
+General LP Framework
+- variables: x1, x2, ..
+- Objective Function: maximuze or minimuze some combination of variables
+- Constraints: restrictions on variables
+- All relationships linear (no products or powers) 
+- See terms of pdf page 875
