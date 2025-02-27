@@ -328,3 +328,9 @@ General LP Framework
 - Constraints: restrictions on variables
 - All relationships linear (no products or powers) 
 - See terms of pdf page 875
+
+Top of pdfpage 878
+- note how the constraints make cutting planes
+- the shaded are (feasible region) is  2D simplex
+- note the moving dotted X1+X2 lines and the optimum
+- actually some corner must be the optimum
