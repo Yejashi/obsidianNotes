@@ -301,3 +301,12 @@ Maximum bipartite matching
 - Add s and t, connecting s to every vertex in the left partite set, and t to every vertex in the right partite set
 - Replace all edges with left to right arcs
 - set all arcs weights to 1
+
+Edge connectivity
+- Start with a finite simple undirected graph
+- replace eahc edge with two arcs, all weghts set to 1
+- The placement of s and t are not so obvious
+	- fix s arbitrarly
+	- let the other verticies in turn play the role of t
+	- the minimum of all maximum flows found now represents the edge connectivity
+	- why do we not have to try every vertex or s?
