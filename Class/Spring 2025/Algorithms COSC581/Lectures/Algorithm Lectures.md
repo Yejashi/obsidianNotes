@@ -261,6 +261,7 @@ columns: decisions
 
 # POST EXAM 1
 
+## Lecture 9
 ### Network flow
 
 **Network**:
@@ -294,3 +295,4 @@ see pdf page 698 for the basic ford fulkerson method
 	study the examples 
 	the algorithm can be found on page 708
 
+## Lecture 10
