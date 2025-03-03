@@ -264,36 +264,6 @@ columns: decisions
 ## Lecture 9
 ### Network flow
 
-**Network**:
-- We have arcs not edges
-	- the arcs are weights, so a weighted directed graph
-- Special features
-	- One node labeled s which stands for source.
-	- source usuallly having indegree zero
-	- sink (t) usually having outdegree zero.
-Flow:
-- An arch labeling of a network
-- capacities must be obeyed (label <= weight)
-
-Maximum flow problem
-- take as input of a network
-- return an arc ...
-The ford fulkerson algorithm
-- start with a labeling that obeys all capcacities
-- find a flow augmenting path if any exist for example
-	- begin at s
-	- perform a greedy label and scan
-	- until t is reached
-- increase the flow along this path using the smallest weight labeled differential (aka residiual)
-- repeat this process until there are not more flow augmenting paths
-
-Observations
-- with each iteration, a conservation of flow is maintained at all interla ndes
-this is analogous to khidchoffs current law
-
-see pdf page 698 for the basic ford fulkerson method
-	study the examples 
-	the algorithm can be found on page 708
 
 ## Lecture 10
 Maximum bipartite matching
