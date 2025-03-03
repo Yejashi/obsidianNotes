@@ -264,6 +264,40 @@ columns: decisions
 ## Lecture 9
 ### Network flow
 
+#### **Network**
+
+- A network is represented as a **weighted directed graph** with **arcs** instead of edges.
+- Special nodes:
+    - **Source (s)**: Usually has an **in-degree of zero**.
+    - **Sink (t)**: Usually has an **out-degree of zero**.
+
+#### **Flow**
+
+- A labeling of arcs in the network that represents flow.
+- The assigned flow must **not exceed** the arc’s capacity (i.e., `flow ≤ capacity`).
+
+#### **Maximum Flow Problem**
+
+- Given a network, determine the maximum possible flow from **source (s) to sink (t)** while respecting capacity constraints.
+
+#### **Ford-Fulkerson Algorithm**
+
+1. Start with an initial flow that satisfies capacity constraints.
+2. **Find an augmenting path** (if one exists):
+    - Begin at **s**.
+    - Use a **greedy labeling and scanning** approach.
+    - Continue until reaching **t**.
+3. Increase the flow along this path by the **smallest residual capacity** (bottleneck capacity).
+4. Repeat until no more augmenting paths exist.
+
+#### **Observations**
+
+- Flow is conserved at all **internal nodes**, following **Kirchhoff’s Current Law**.
+
+📖 **Reference:**
+
+- **Basic Ford-Fulkerson method:** See PDF **page 698**.
+- **Algorithm details and examples:** See **page 708**.
 
 ## Lecture 10
 Maximum bipartite matching
