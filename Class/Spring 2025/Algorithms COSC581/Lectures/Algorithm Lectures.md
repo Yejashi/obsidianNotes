@@ -300,3 +300,55 @@ columns: decisions
 - **Algorithm details and examples:** See **page 708**.
 
 ## Lecture 10
+### **Maximum Bipartite Matching**
+
+1. Begin with a **finite, simple, undirected bipartite graph**.
+2. Add two special nodes:
+    - **Source (s)**, connected to every vertex in the **left partite set**.
+    - **Sink (t)**, connected to every vertex in the **right partite set**.
+3. Replace all edges with **directed arcs** from **left to right**.
+4. Assign a **weight of 1** to all arcs.
+
+### **Edge Connectivity**
+
+1. Start with a **finite, simple, undirected graph**.
+2. Replace each edge with **two directed arcs**, both assigned a **weight of 1**.
+3. Choosing **s and t**:
+    - Fix **s** arbitrarily.
+    - Let each remaining vertex, one at a time, act as **t**.
+    - The **minimum of all computed maximum flows** represents the **edge connectivity**.
+4. **Why not try every vertex as s?**
+    - Once **s** is fixed, iterating over potential **t** values suffices to determine edge connectivity.
+
+### **Boolean Matrix Decidability**
+
+- Given:
+    - **m rows** with sums **(r₁, ..., rₘ)**.
+    - **n columns** with sums **(c₁, ..., cₙ)**, ensuring **∑rᵢ = ∑cⱼ**.
+- Goal:
+    - Determine if a **Boolean matrix** exists that satisfies these row and column sums.
+- Approach:
+    - Construct a **network** from a **complete m × n bipartite graph**.
+    - Compute the **maximum flow** to check feasibility.
+
+### **Linear Programming (LP)**
+
+- **Programming** (old term): Originally meant **solving via tabulation**.
+- **Mathematical Programming**:
+    - **Numerical formulation** (not categorical).
+    - **Optimization problem**: Finding the best solution.
+
+#### **General LP Framework**
+
+- **Variables**: x1,x2,…x_1, x_2, \dotsx1​,x2​,…
+- **Objective Function**: Maximize or minimize a **linear combination** of variables.
+- **Constraints**: Restrictions on variables, ensuring feasibility.
+- **Key Property**: All relationships must be **linear** (no products or powers).
+- **Reference**: See **PDF page 875** for terminology.
+
+#### **Geometric Interpretation (PDF page 878)**
+
+- Constraints define **cutting planes**.
+- The **feasible region** forms a **2D simplex** (shaded area).
+- The **moving dotted lines** (e.g., x1+x2x_1 + x_2x1​+x2​) indicate possible optima.
+- The **optimal solution** always lies at **a corner of the feasible region**.
