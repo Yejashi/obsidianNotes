@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d32e459ff88bf1a5",
+        "id": "7c757882e750a79f",
         "type": "tabs",
         "children": [
           {
-            "id": "281c3205ae7fa20f",
+            "id": "b984cdb28261d840",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algorithm Lectures"
+              "title": "hw_answers"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "disable",
+                "query": "opt none",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5026054382324
+    "width": 237.51103591918945
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -155,6 +155,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "afc91e3d01671c9e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
         "currentTab": 4
@@ -166,65 +176,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-projects:Open projects": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "281c3205ae7fa20f",
+  "active": "b984cdb28261d840",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
-    "conflict-files-obsidian-git.md",
     "Research/Projects/SBM/General Comments.md",
     "Research/Projects/SBM",
     "Research/Projects",
+    "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Graph Algorithms Glossary.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
+    "conflict-files-obsidian-git.md",
+    "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "Meta/Attachments/Pasted image 20250218042134.png",
     "Meta/Attachments/Pasted image 20250218041821.png",
     "Meta/Attachments/Pasted image 20250218041803.png",
     "Meta/Attachments/Pasted image 20250218041747.png",
     "Meta/Attachments/Pasted image 20250218041315.png",
+    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 4.md",
+    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 3.md",
+    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
+    "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
     "Meta/Attachments/Pasted image 20250217221427.png",
-    "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4",
     "Meta/Attachments/Pasted image 20250217071740.png",
     "Meta/Attachments/Pasted image 20250217055514.png",
     "Meta/Attachments/Pasted image 20250217054717.png",
     "Meta/Attachments/Pasted image 20250217054204.png",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
+    "Research/LLNL Project/Objectives.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Graph Algorithms Glossary.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lectures.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 2.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Glossary.md",
-    "Excalidraw/Drawing 2025-02-04 16.38.07.excalidraw.md",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 4.md",
-    "Progress Writing/Progress.md",
-    "New RAJAPerf Paper.md",
-    "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2",
-    "Class/Spring 2025/Algorithms COSC581/textbook_algorithms.pdf",
-    "Progress Writing",
-    "Class/Spring 2025/Algorithms COSC581/Notes/Asymptotic Notation.md",
-    "Class/Spring 2025/Algorithms COSC581/Notes",
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
+    "Research/LLNL Project/Misc.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lectures.md",
+    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
+    "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
+    "New RAJAPerf Paper.md",
+    "Excalidraw/Drawing 2025-02-04 16.38.07.excalidraw.md",
+    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/homework_1.pdf",
     "Class/Spring 2025/Algorithms COSC581/Waypoint.md",
-    "[Direct Acyclic Graphs (DAGs).md",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 3.md"
+    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 2.md",
+    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
+    "Research/LLVM/Passes/Pass Instrumentation/Writing Pass Instrumentations.md",
+    "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
+    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW1/hw1_answers.md",
+    "Class/Spring 2025/Algorithms COSC581/Notes"
   ]
 }
