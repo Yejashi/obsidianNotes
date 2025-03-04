@@ -371,3 +371,5 @@ Classic CS Example
 So what of polynomial multiplication?
 - Let A, B denote polynomials in x, each of degree n
 - Want C = A * B (a polynomial in x of degree 2n)
+
+Direct vs Indirect Comutations
