@@ -358,4 +358,5 @@ Section 29.3 from edition 3.
 An example of the simplex algorithm.
 Standard form slack form.
 
-**Polynomial Multiplication and **
+**Polynomial Multiplication and Fast Fourier Transform**
+[FIll out the rest based on his writeup]
