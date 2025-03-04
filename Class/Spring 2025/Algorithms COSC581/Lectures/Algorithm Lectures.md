@@ -340,7 +340,7 @@ columns: decisions
 
 #### **General LP Framework**
 
-- **Variables**: x1,x2,…x_1, x_2, \dotsx1​,x2​,…
+- **Variables**: x1,x2,…x_1, x_2,
 - **Objective Function**: Maximize or minimize a **linear combination** of variables.
 - **Constraints**: Restrictions on variables, ensuring feasibility.
 - **Key Property**: All relationships must be **linear** (no products or powers).
