@@ -374,4 +374,11 @@ So what of polynomial multiplication?
 
 Direct vs Indirect Comutations
 
-	A and B , can multiply them together will give polynomial C but takes n^2 time
+A and B , can multiply them together will give polynomial C but takes n^2 time
+
+glossing
+- regroup alternating terms
+- change of variable (n = N/2)
+- Turn on polynomial of degree N-1 into two polynomials of degree  N/2-1
+- Resultant recurrence is T(N) = 2T(N/2) + O(N)
+- So T(N) is O(NlogN)
