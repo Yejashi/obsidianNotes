@@ -352,3 +352,6 @@ columns: decisions
 - The **feasible region** forms a **2D simplex** (shaded area).
 - The **moving dotted lines** (e.g., x1+x2x_1 + x_2x1​+x2​) indicate possible optima.
 - The **optimal solution** always lies at **a corner of the feasible region**.
+
+## Lecture 11
+Section 29.3 from edition 3. 
