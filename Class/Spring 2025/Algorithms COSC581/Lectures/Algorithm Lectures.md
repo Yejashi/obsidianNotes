@@ -374,4 +374,4 @@ So what of polynomial multiplication?
 
 Direct vs Indirect Comutations
 
-A and B , can multiply them together will give polynomial C but takes n^2 time.
+A and B , can multiply them together will give polynomial C but takes n^2 time
