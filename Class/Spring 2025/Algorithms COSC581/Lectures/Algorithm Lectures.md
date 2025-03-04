@@ -355,5 +355,5 @@ columns: decisions
 
 ## Lecture 11
 Section 29.3 from edition 3. 
-An example of the simplex algorithm
-Standard form slack form
+An example of the simplex algorithm.
+Standard form slack form.
