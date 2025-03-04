@@ -264,73 +264,91 @@ columns: decisions
 ## Lecture 9
 ### Network flow
 
-**Network**:
-- We have arcs not edges
-	- the arcs are weights, so a weighted directed graph
-- Special features
-	- One node labeled s which stands for source.
-	- source usuallly having indegree zero
-	- sink (t) usually having outdegree zero.
-Flow:
-- An arch labeling of a network
-- capacities must be obeyed (label <= weight)
+#### **Network**
 
-Maximum flow problem
-- take as input of a network
-- return an arc ...
-The ford fulkerson algorithm
-- start with a labeling that obeys all capcacities
-- find a flow augmenting path if any exist for example
-	- begin at s
-	- perform a greedy label and scan
-	- until t is reached
-- increase the flow along this path using the smallest weight labeled differential (aka residiual)
-- repeat this process until there are not more flow augmenting paths
+- A network is represented as a **weighted directed graph** with **arcs** instead of edges.
+- Special nodes:
+    - **Source (s)**: Usually has an **in-degree of zero**.
+    - **Sink (t)**: Usually has an **out-degree of zero**.
 
-Observations
-- with each iteration, a conservation of flow is maintained at all interla ndes
-this is analogous to khidchoffs current law
+#### **Flow**
 
-see pdf page 698 for the basic ford fulkerson method
-	study the examples 
-	the algorithm can be found on page 708
+- A labeling of arcs in the network that represents flow.
+- The assigned flow must **not exceed** the arc’s capacity (i.e., `flow ≤ capacity`).
+
+#### **Maximum Flow Problem**
+
+- Given a network, determine the maximum possible flow from **source (s) to sink (t)** while respecting capacity constraints.
+
+#### **Ford-Fulkerson Algorithm**
+
+1. Start with an initial flow that satisfies capacity constraints.
+2. **Find an augmenting path** (if one exists):
+    - Begin at **s**.
+    - Use a **greedy labeling and scanning** approach.
+    - Continue until reaching **t**.
+3. Increase the flow along this path by the **smallest residual capacity** (bottleneck capacity).
+4. Repeat until no more augmenting paths exist.
+
+#### **Observations**
+
+- Flow is conserved at all **internal nodes**, following **Kirchhoff’s Current Law**.
+
+📖 **Reference:**
+
+- **Basic Ford-Fulkerson method:** See PDF **page 698**.
+- **Algorithm details and examples:** See **page 708**.
 
 ## Lecture 10
-Maximum bipartite matching
-- start with a finite, simple, undireted bipartite graph
-- Add s and t, connecting s to every vertex in the left partite set, and t to every vertex in the right partite set
-- Replace all edges with left to right arcs
-- set all arcs weights to 1
+### **Maximum Bipartite Matching**
 
-Edge connectivity
-- Start with a finite simple undirected graph
-- replace eahc edge with two arcs, all weghts set to 1
-- The placement of s and t are not so obvious
-	- fix s arbitrarly
-	- let the other verticies in turn play the role of t
-	- the minimum of all maximum flows found now represents the edge connectivity
-	- why do we not have to try every vertex or s?
-Boolean MAtrix Decidability
-- start with a set of m rows and sums (r1, ...rm) and a set of n columns (c1...cn) whiere Eri = Eci 
-- the goal is todecide whether there exists a boolean matrix with exactly these rows and column sums
-- build a network from a complete mxn bipartite graph
-- compute maximum flow
+1. Begin with a **finite, simple, undirected bipartite graph**.
+2. Add two special nodes:
+    - **Source (s)**, connected to every vertex in the **left partite set**.
+    - **Sink (t)**, connected to every vertex in the **right partite set**.
+3. Replace all edges with **directed arcs** from **left to right**.
+4. Assign a **weight of 1** to all arcs.
 
-**Linear Programming**:
-Programing: old term = solve by tabulation
-Mathematica programmming
-	-numeric formulation (e.g not categorical)
-	fund best solution (so its a form of optimization)
+### **Edge Connectivity**
 
-General LP Framework
-- variables: x1, x2, ..
-- Objective Function: maximuze or minimuze some combination of variables
-- Constraints: restrictions on variables
-- All relationships linear (no products or powers) 
-- See terms of pdf page 875
+1. Start with a **finite, simple, undirected graph**.
+2. Replace each edge with **two directed arcs**, both assigned a **weight of 1**.
+3. Choosing **s and t**:
+    - Fix **s** arbitrarily.
+    - Let each remaining vertex, one at a time, act as **t**.
+    - The **minimum of all computed maximum flows** represents the **edge connectivity**.
+4. **Why not try every vertex as s?**
+    - Once **s** is fixed, iterating over potential **t** values suffices to determine edge connectivity.
 
-Top of pdfpage 878
-- note how the constraints make cutting planes
-- the shaded are (feasible region) is  2D simplex
-- note the moving dotted X1+X2 lines and the optimum
-- actually some corner must be the optimum
+### **Boolean Matrix Decidability**
+
+- Given:
+    - **m rows** with sums **(r₁, ..., rₘ)**.
+    - **n columns** with sums **(c₁, ..., cₙ)**, ensuring **∑rᵢ = ∑cⱼ**.
+- Goal:
+    - Determine if a **Boolean matrix** exists that satisfies these row and column sums.
+- Approach:
+    - Construct a **network** from a **complete m × n bipartite graph**.
+    - Compute the **maximum flow** to check feasibility.
+
+### **Linear Programming (LP)**
+
+- **Programming** (old term): Originally meant **solving via tabulation**.
+- **Mathematical Programming**:
+    - **Numerical formulation** (not categorical).
+    - **Optimization problem**: Finding the best solution.
+
+#### **General LP Framework**
+
+- **Variables**: x1,x2,…x_1, x_2, \dotsx1​,x2​,…
+- **Objective Function**: Maximize or minimize a **linear combination** of variables.
+- **Constraints**: Restrictions on variables, ensuring feasibility.
+- **Key Property**: All relationships must be **linear** (no products or powers).
+- **Reference**: See **PDF page 875** for terminology.
+
+#### **Geometric Interpretation (PDF page 878)**
+
+- Constraints define **cutting planes**.
+- The **feasible region** forms a **2D simplex** (shaded area).
+- The **moving dotted lines** (e.g., x1+x2x_1 + x_2x1​+x2​) indicate possible optima.
+- The **optimal solution** always lies at **a corner of the feasible region**.
