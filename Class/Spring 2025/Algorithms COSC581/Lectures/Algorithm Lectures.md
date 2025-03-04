@@ -360,3 +360,10 @@ Standard form slack form.
 
 **Polynomial Multiplication and Fast Fourier Transform**
 [FIll out the rest based on his writeup]
+
+Classic CS Example
+- Compute i = j + k
+- But j and k come as zoned decimal representations
+	- g = CVB (convert to binary)
+	- h = A(add)
+	- g^-1 = CVD (convert to decimal and patch sign)
