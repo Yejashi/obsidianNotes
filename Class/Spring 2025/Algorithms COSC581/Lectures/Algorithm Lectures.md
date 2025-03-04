@@ -367,3 +367,4 @@ Classic CS Example
 	- g = CVB (convert to binary)
 	- h = A(add)
 	- g^-1 = CVD (convert to decimal and patch sign)
+		- 
