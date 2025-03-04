@@ -373,3 +373,5 @@ So what of polynomial multiplication?
 - Want C = A * B (a polynomial in x of degree 2n)
 
 Direct vs Indirect Comutations
+
+A and B , can multiply them together will give polynomial C but takes n^2 time.
