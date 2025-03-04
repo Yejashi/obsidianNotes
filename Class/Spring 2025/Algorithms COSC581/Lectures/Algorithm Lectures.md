@@ -382,3 +382,6 @@ glossing
 - Turn on polynomial of degree N-1 into two polynomials of degree  N/2-1
 - Resultant recurrence is T(N) = 2T(N/2) + O(N)
 - So T(N) is O(NlogN)
+
+In Closing
+- 
