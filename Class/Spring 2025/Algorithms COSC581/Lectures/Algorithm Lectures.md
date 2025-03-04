@@ -367,4 +367,7 @@ Classic CS Example
 	- g = CVB (convert to binary)
 	- h = A(add)
 	- g^-1 = CVD (convert to decimal and patch sign)
-		- 
+
+So what of polynomial multiplication?
+- Let A, B denote polynomials in x, each of degree n
+- Want C = A * B (a polynomial in x of degree 2n)
