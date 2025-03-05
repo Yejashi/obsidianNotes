@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "hw_answers"
             }
+          },
+          {
+            "id": "27acaf1b26f045d7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-05 15.49.47.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-05 15.49.47.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "1d994c24e50b8f7d",
@@ -236,12 +249,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3bf927f97d70a6aa",
+  "active": "27acaf1b26f045d7",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
+    "Excalidraw/Drawing 2025-03-05 15.49.47.excalidraw.md",
     "Meta/Attachments/Pasted image 20250305143833.png",
     "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md",
     "Excalidraw/Drawing 2025-03-05 13.13.03.excalidraw.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
     "Meta/Attachments/Pasted image 20250305123601.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6",
     "conflict-files-obsidian-git.md",
@@ -262,7 +276,6 @@
     "Research/Papers/Dynist/Dyninst paper.md",
     "Meta/Attachments/Pasted image 20250217071740.png",
     "Meta/Attachments/Pasted image 20250217055514.png",
-    "Meta/Attachments/Pasted image 20250217054717.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
