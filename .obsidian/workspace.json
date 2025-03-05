@@ -25,12 +25,12 @@
             "id": "9e86f6ae0bf2d872",
             "type": "leaf",
             "state": {
-              "type": "excalidraw-loading",
+              "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Loading Excalidraw... Drawing 2025-02-20 17.14.11.excalidraw"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-20 17.14.11.excalidraw"
             }
           }
         ]
@@ -195,13 +195,14 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b7f6292ca7c310a4",
+  "active": "6307902803346c5e",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
     "Research/Projects/SBM/General Comments.md",
+    "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
     "Research/Projects/SBM",
     "Research/Projects",
