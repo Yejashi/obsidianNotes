@@ -6,6 +6,7 @@
       {
         "id": "a732ac9163833f52",
         "type": "tabs",
+        "dimension": 16.33986928104575,
         "children": [
           {
             "id": "3bf927f97d70a6aa",
@@ -26,6 +27,7 @@
       {
         "id": "1d994c24e50b8f7d",
         "type": "tabs",
+        "dimension": 83.66013071895425,
         "children": [
           {
             "id": "b7f6292ca7c310a4",
@@ -111,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -204,7 +207,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,11 +224,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3bf927f97d70a6aa",
+  "active": "9d2dcb0e7d8c9ce8",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
     "Meta/Attachments/Pasted image 20250305123601.png",
     "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6",
     "conflict-files-obsidian-git.md",
     "Research/Projects/SBM/General Comments.md",
@@ -245,7 +249,6 @@
     "Meta/Attachments/Pasted image 20250217071740.png",
     "Meta/Attachments/Pasted image 20250217055514.png",
     "Meta/Attachments/Pasted image 20250217054717.png",
-    "Meta/Attachments/Pasted image 20250217054204.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
