@@ -54,9 +54,21 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2025-03-05 12.18.04.excalidraw"
             }
+          },
+          {
+            "id": "4c509692069ce2de",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-05 13.13.03.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-05 13.13.03.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -224,11 +236,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9d2dcb0e7d8c9ce8",
+  "active": "4c509692069ce2de",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-05 13.13.03.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
     "Meta/Attachments/Pasted image 20250305123601.png",
-    "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6",
     "conflict-files-obsidian-git.md",
     "Research/Projects/SBM/General Comments.md",
