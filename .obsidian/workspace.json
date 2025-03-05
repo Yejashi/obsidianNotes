@@ -22,18 +22,19 @@
             }
           },
           {
-            "id": "9e86f6ae0bf2d872",
+            "id": "9d2dcb0e7d8c9ce8",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md"
+                "file": "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-20 17.14.11.excalidraw"
+              "title": "Drawing 2025-03-05 12.18.04.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,10 +200,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "9d2dcb0e7d8c9ce8",
   "lastOpenFiles": [
-    "Research/Projects/SBM/General Comments.md",
     "conflict-files-obsidian-git.md",
+    "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md",
+    "Research/Projects/SBM/General Comments.md",
     "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
     "Research/Projects/SBM",
@@ -245,7 +247,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/1. Introduction/Direct Acyclic Graphs (DAGs).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Graph (data structure).md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/1. Introduction/Konigsberg Problem.md",
-    "Excalidraw/Drawing 2025-02-04 16.38.07.excalidraw.md"
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/1. Introduction/Konigsberg Problem.md"
   ]
 }
