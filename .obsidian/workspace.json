@@ -25,16 +25,15 @@
             "id": "9e86f6ae0bf2d872",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "excalidraw-loading",
               "state": {
                 "file": "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-20 17.14.11.excalidraw"
+              "icon": "lucide-file",
+              "title": "Loading Excalidraw... Drawing 2025-02-20 17.14.11.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,11 +195,10 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "802e88b6839fd222",
+  "active": "b7f6292ca7c310a4",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
     "Research/Projects/SBM/General Comments.md",
