@@ -6,4 +6,4 @@ The maximum flow is 4.
 ## Question 2
 
 ![[Pasted image 20250305143833.png]]
-a.) The edge connectivity of the undirected graph is 2. This can be found by converting it to a directed graph where all the edges are bidirectional and have 
+a.) The edge connectivity of the undirected graph is 2. This can be found by converting it to a directed graph where all the edges are bidirectional and have a capacity of 1. Then it's simply a matter of finding the maximum network flow and and using the min max
