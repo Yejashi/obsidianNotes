@@ -259,3 +259,129 @@ columns: decisions
     The DP table for stage 2 is built for different remaining budget ranges (e.g., [45,59], [60,64], etc.), with each cell recording the best reliability achievable and the optimal decision $d_2^*$​.
 
 
+# POST EXAM 1
+
+## Lecture 9
+### Network flow
+
+#### **Network**
+
+- A network is represented as a **weighted directed graph** with **arcs** instead of edges.
+- Special nodes:
+    - **Source (s)**: Usually has an **in-degree of zero**.
+    - **Sink (t)**: Usually has an **out-degree of zero**.
+
+#### **Flow**
+
+- A labeling of arcs in the network that represents flow.
+- The assigned flow must **not exceed** the arc’s capacity (i.e., `flow ≤ capacity`).
+
+#### **Maximum Flow Problem**
+
+- Given a network, determine the maximum possible flow from **source (s) to sink (t)** while respecting capacity constraints.
+
+#### **Ford-Fulkerson Algorithm**
+
+1. Start with an initial flow that satisfies capacity constraints.
+2. **Find an augmenting path** (if one exists):
+    - Begin at **s**.
+    - Use a **greedy labeling and scanning** approach.
+    - Continue until reaching **t**.
+3. Increase the flow along this path by the **smallest residual capacity** (bottleneck capacity).
+4. Repeat until no more augmenting paths exist.
+
+#### **Observations**
+
+- Flow is conserved at all **internal nodes**, following **Kirchhoff’s Current Law**.
+
+📖 **Reference:**
+
+- **Basic Ford-Fulkerson method:** See PDF **page 698**.
+- **Algorithm details and examples:** See **page 708**.
+
+## Lecture 10
+### **Maximum Bipartite Matching**
+
+1. Begin with a **finite, simple, undirected bipartite graph**.
+2. Add two special nodes:
+    - **Source (s)**, connected to every vertex in the **left partite set**.
+    - **Sink (t)**, connected to every vertex in the **right partite set**.
+3. Replace all edges with **directed arcs** from **left to right**.
+4. Assign a **weight of 1** to all arcs.
+
+### **Edge Connectivity**
+
+1. Start with a **finite, simple, undirected graph**.
+2. Replace each edge with **two directed arcs**, both assigned a **weight of 1**.
+3. Choosing **s and t**:
+    - Fix **s** arbitrarily.
+    - Let each remaining vertex, one at a time, act as **t**.
+    - The **minimum of all computed maximum flows** represents the **edge connectivity**.
+4. **Why not try every vertex as s?**
+    - Once **s** is fixed, iterating over potential **t** values suffices to determine edge connectivity.
+
+### **Boolean Matrix Decidability**
+
+- Given:
+    - **m rows** with sums **(r₁, ..., rₘ)**.
+    - **n columns** with sums **(c₁, ..., cₙ)**, ensuring **∑rᵢ = ∑cⱼ**.
+- Goal:
+    - Determine if a **Boolean matrix** exists that satisfies these row and column sums.
+- Approach:
+    - Construct a **network** from a **complete m × n bipartite graph**.
+    - Compute the **maximum flow** to check feasibility.
+
+### **Linear Programming (LP)**
+
+- **Programming** (old term): Originally meant **solving via tabulation**.
+- **Mathematical Programming**:
+    - **Numerical formulation** (not categorical).
+    - **Optimization problem**: Finding the best solution.
+
+#### **General LP Framework**
+
+- **Variables**: x1,x2,…x_1, x_2,
+- **Objective Function**: Maximize or minimize a **linear combination** of variables.
+- **Constraints**: Restrictions on variables, ensuring feasibility.
+- **Key Property**: All relationships must be **linear** (no products or powers).
+- **Reference**: See **PDF page 875** for terminology.
+
+#### **Geometric Interpretation (PDF page 878)**
+
+- Constraints define **cutting planes**.
+- The **feasible region** forms a **2D simplex** (shaded area).
+- The **moving dotted lines** (e.g., x1+x2x_1 + x_2x1​+x2​) indicate possible optima.
+- The **optimal solution** always lies at **a corner of the feasible region**.
+
+## Lecture 11
+Section 29.3 from edition 3. 
+An example of the simplex algorithm.
+Standard form slack form.
+
+**Polynomial Multiplication and Fast Fourier Transform**
+[FIll out the rest based on his writeup]
+
+Classic CS Example
+- Compute i = j + k
+- But j and k come as zoned decimal representations
+	- g = CVB (convert to binary)
+	- h = A(add)
+	- g^-1 = CVD (convert to decimal and patch sign)
+
+So what of polynomial multiplication?
+- Let A, B denote polynomials in x, each of degree n
+- Want C = A * B (a polynomial in x of degree 2n)
+
+Direct vs Indirect Comutations
+
+A and B , can multiply them together will give polynomial C but takes n^2 time
+
+glossing
+- regroup alternating terms
+- change of variable (n = N/2)
+- Turn on polynomial of degree N-1 into two polynomials of degree  N/2-1
+- Resultant recurrence is T(N) = 2T(N/2) + O(N)
+- So T(N) is O(NlogN)
+
+In Closing
+- 
