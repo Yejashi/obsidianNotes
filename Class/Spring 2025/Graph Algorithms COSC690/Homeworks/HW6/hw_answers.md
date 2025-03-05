@@ -15,3 +15,4 @@ Line Graph:
 ![[Pasted image 20250305160028.png]]
 
 Dual Graph:
+![[Pasted image 20250305160052.png]]
