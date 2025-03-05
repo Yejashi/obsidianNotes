@@ -11,3 +11,7 @@ a.) The edge connectivity of the undirected graph is 2. This can be found by con
 b.) It suffices to arbitrarily choose s and allow the other vertices to serve as t because, regardless of the choice of s, the calculation must ultimately account for the vertex t that yields the minimum maximum flow. This approach ensures that the edge connectivity is accurately determined while simplifying the process by avoiding the need to evaluate every possible s-t pair.
 
 ## Question 3
+Line Graph:
+![[Pasted image 20250305160028.png]]
+
+Dual Graph:
