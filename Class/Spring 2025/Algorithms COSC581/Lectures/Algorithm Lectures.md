@@ -389,6 +389,7 @@ In Closing
 #### Cryptology
 
 There is only one provably unbreakable crypt system.
-- 
+- **One time bad**
+	- Choose a bit stream and xor that bit stream with a bad
 
 
