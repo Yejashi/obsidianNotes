@@ -72,4 +72,4 @@ The paper i attached above shows an application of a polynomial regression model
 
 We will go over the history of how things like this are done, what the state of the art is,  and finally talk about its applications in domain science, like the usage of the SBM model for performance modeling.
 
-I encourage you both to 
+I encourage you both to read the above paper
