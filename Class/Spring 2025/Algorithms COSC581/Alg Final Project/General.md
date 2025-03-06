@@ -30,11 +30,11 @@ For three data points:
 
 Now, for each row, we write out the polynomial terms:
 
-|1 (constant)|xxx|yyy|x2x^2x2|xyxyxy|y2y^2y2|zzz|
-|---|---|---|---|---|---|---|
-|1|1|2|1|2|4|5|
-|1|2|3|4|6|9|8|
-|1|3|4|9|12|16|12|
+| 1 (constant) | x   | y   | x2x^2x2 | xyxyxy | y2y^2y2 | zzz |
+| ------------ | --- | --- | ------- | ------ | ------- | --- |
+| 1            | 1   | 2   | 1       | 2      | 4       | 5   |
+| 1            | 2   | 3   | 4       | 6      | 9       | 8   |
+| 1            | 3   | 4   | 9       | 12     | 16      | 12  |
 
 This matrix is called **XXX**:
 
