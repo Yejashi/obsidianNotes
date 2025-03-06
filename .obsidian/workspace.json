@@ -20,8 +20,35 @@
               "icon": "lucide-file",
               "title": "simplex example"
             }
+          },
+          {
+            "id": "fa028037c67a91ef",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "textbook_algorithms"
+            }
+          },
+          {
+            "id": "e99d99389973c78c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Algorithm Lectures"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -177,10 +204,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9947f52fec5b1bb9",
+  "active": "e99d99389973c78c",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
+    "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
     "Class/Spring 2025/Algorithms COSC581/simplex example.md",
+    "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
     "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Alg Final Project",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
@@ -214,7 +242,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lectures.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 2.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Glossary.md",
@@ -222,7 +249,6 @@
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 4.md",
     "Progress Writing/Progress.md",
     "New RAJAPerf Paper.md",
-    "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2",
     "Class/Spring 2025/Algorithms COSC581/textbook_algorithms.pdf"
   ]
