@@ -14,7 +14,7 @@ A polynomial equation that models performance (z) could look like this:
 $z = \beta_1 + \beta_2 x + \beta_3 y + \beta_4 x^2 + \beta_5 xy + \beta_6 y^2$
 
 - The β values (coefficients) are **unknown** and need to be solved for.
-- The terms like x2x^2x2, xyxyxy, and y2y^2y2 capture **nonlinear effects**.
+- The terms like $x^2$, xy, and y^2 capture **nonlinear effects**.
 
 ### **Step 2: Representing the Data in a Matrix**
 
