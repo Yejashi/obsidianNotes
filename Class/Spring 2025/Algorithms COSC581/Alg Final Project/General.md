@@ -6,8 +6,8 @@ We have some **input variables** (e.g., problem size, number of threads) and a *
 
 Let's say we have two input variables:
 
-- xxx (e.g., number of threads)
-- yyy (e.g., problem size)
+- x (e.g., number of threads)
+- y (e.g., problem size)
 
 A polynomial equation that models performance (zzz) could look like this:
 
