@@ -76,4 +76,4 @@ I encourage you both to read the above paper and brush up very lightly on your l
 
 Overall, we're just creating a set of slide based on surface level exploration and that's about it.
 
-Our presentation is slotted for May 1 (round 2)
+Our presentation is slotted for May 1 (round 2), but ideally i'd like to just get this over with as soon as possible so we have ample time to plan around it.
