@@ -36,7 +36,7 @@ Now, for each row, we write out the polynomial terms:
 | 1            | 2   | 3   | 4     | 6   | 9     | 8   |
 | 1            | 3   | 4   | 9     | 12  | 16    | 12  |
 
-This matrix is called **XXX**:
+This matrix is called **X**:
 
 $X = \begin{bmatrix} 1 & 1 & 2 & 1 & 2 & 4 \\ 1 & 2 & 3 & 4 & 6 & 9 \\ 1 & 3 & 4 & 9 & 12 & 16 \end{bmatrix}$
 
