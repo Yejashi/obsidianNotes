@@ -72,4 +72,8 @@ The paper i attached above shows an application of a polynomial regression model
 
 We will go over the history of how things like this are done, what the state of the art is,  and finally talk about its applications in domain science, like the usage of the SBM model for performance modeling.
 
-I encourage you both to read the above paper
+I encourage you both to read the above paper and brush up very lightly on your linear algebra, i've practically forgotten much of it so i'll have to refresh as well, haha.
+
+Overall, we're just creating a set of slide based on surface level exploration and that's about it.
+
+Our presentation is slotted for May 1 (round 2)
