@@ -11,7 +11,7 @@ Let's say we have two input variables:
 
 A polynomial equation that models performance (z) could look like this:
 
-z = \beta_1 + \beta_2 x + \beta_3 y + \beta_4 x^2 + \beta_5 xy + \beta_6 y^2z=β1​+β2​x+β3​y+β4​x2+β5​xy+β6​y2
+$z = \beta_1 + \beta_2 x + \beta_3 y + \beta_4 x^2 + \beta_5 xy + \beta_6 y^2$
 
 - The β\betaβ values (coefficients) are **unknown** and need to be solved for.
 - The terms like x2x^2x2, xyxyxy, and y2y^2y2 capture **nonlinear effects**.
