@@ -406,6 +406,6 @@ Unique factorization theorem ( aka fundemental theorem of ...)
 - every integer n > 1 can be uniquely written as n = $\prod$ 1 to l p^1^2
 - prove through induction
 
-Theorem: There is exists infinetly many primes
+Theorem: There is exists infinitely  many primes
 
 
