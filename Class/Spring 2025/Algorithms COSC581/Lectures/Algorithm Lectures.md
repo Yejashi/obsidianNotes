@@ -407,6 +407,6 @@ Unique factorization theorem ( aka fundemental theorem of ...)
 - prove through induction
 
 Theorem: There is exists infinitely  many primes
-- Contradiction based: assume its false, 
+- Contradiction based: assume its false, take the product of all the prime numbers and add 1 
 
 
