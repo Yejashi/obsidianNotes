@@ -22,11 +22,11 @@ Imagine we collect several observations. Each row represents one observation, wh
 
 For three data points:
 
-|xxx|yyy|zzz (measured)|
-|---|---|---|
-|1|2|5|
-|2|3|8|
-|3|4|12|
+| x   | y   | z (measured) |
+| --- | --- | ------------ |
+| 1   | 2   | 5            |
+| 2   | 3   | 8            |
+| 3   | 4   | 12           |
 
 Now, for each row, we write out the polynomial terms:
 
