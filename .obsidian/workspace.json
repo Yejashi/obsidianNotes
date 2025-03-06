@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
+                "file": "Class/Spring 2025/Algorithms COSC581/simplex example.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General"
+              "title": "simplex example"
             }
           }
         ]
@@ -179,8 +179,9 @@
   },
   "active": "9947f52fec5b1bb9",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
+    "Class/Spring 2025/Algorithms COSC581/simplex example.md",
+    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Alg Final Project",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "Meta/Attachments/Pasted image 20250305160052.png",
@@ -223,7 +224,6 @@
     "New RAJAPerf Paper.md",
     "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2",
-    "Class/Spring 2025/Algorithms COSC581/textbook_algorithms.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Notes/Asymptotic Notation.md"
+    "Class/Spring 2025/Algorithms COSC581/textbook_algorithms.pdf"
   ]
 }
