@@ -48,9 +48,9 @@ Our unknowns (β\betaβ) are:
 
 $\beta = \begin{bmatrix} \beta_1 \\ \beta_2 \\ \beta_3 \\ \beta_4 \\ \beta_5 \\ \beta_6 \end{bmatrix}$
 
-### **Step 3: Solving for β\betaβ Using Least Squares**
+### **Step 3: Solving for β Using Least Squares**
 
-We need to find β\betaβ that best fits the equation:
+We need to find β that best fits the equation:
 
 Xβ=ZX \beta = ZXβ=Z
 
