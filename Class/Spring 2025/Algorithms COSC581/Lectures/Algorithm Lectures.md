@@ -393,4 +393,6 @@ There is only one provably unbreakable crypt system.
 	- Choose a bit stream and xor that bit stream with a pad. 
 	- Downsides: It's not repeatable
 
+Chapter ? Number Theory and Algorithm Design
+
 
