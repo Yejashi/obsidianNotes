@@ -52,7 +52,7 @@ $\beta = \begin{bmatrix} \beta_1 \\ \beta_2 \\ \beta_3 \\ \beta_4 \\ \beta_5 \\ 
 
 We need to find β that best fits the equation:
 
-Xβ=ZX \beta = ZXβ=Z
+$X \beta = Z$
 
 Since we may not have an exact solution, we solve **the least squares problem**:
 
