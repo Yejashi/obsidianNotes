@@ -58,4 +58,5 @@ Since we may not have an exact solution, we solve **the least squares problem**:
 
 $(X^T X) \beta = X^T Z$
 
-We solve this system using methods like **LU decomposition** or **QR decomposition**, which are just ways to efficiently compute β\betaβ.
+We solve this system using methods like **LU decomposition** or **QR decomposition**, which are just ways to efficiently compute β.
+
