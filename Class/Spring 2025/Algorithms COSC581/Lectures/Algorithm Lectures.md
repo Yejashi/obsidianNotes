@@ -400,6 +400,6 @@ Let m,n denote Positive Integers
 Definitions:
 We say m divines n if and only if n is congruent to 0 mod n
 
-
+n is prime if and onlyf if m/n ,m = 1 or m = n otherwise m is composite
 
 
