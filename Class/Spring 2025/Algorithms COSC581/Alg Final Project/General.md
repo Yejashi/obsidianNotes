@@ -1,4 +1,3 @@
-### **What Are We Trying to Do?**
 
 We have some **input variables** (e.g., problem size, number of threads) and a **performance measurement** (e.g., runtime). Our goal is to **find a polynomial function** that best predicts the performance based on these inputs.
 
