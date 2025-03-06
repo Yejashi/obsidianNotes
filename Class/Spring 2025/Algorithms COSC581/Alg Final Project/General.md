@@ -38,4 +38,5 @@ Now, for each row, we write out the polynomial terms:
 
 This matrix is called **XXX**:
 
-X=[11212412346913491216]X = \begin{bmatrix} 1 & 1 & 2 & 1 & 2 & 4 \\ 1 & 2 & 3 & 4 & 6 & 9 \\ 1 & 3 & 4 & 9 & 12 & 16 \end{bmatrix}X=
+$X = \begin{bmatrix} 1 & 1 & 2 & 1 & 2 & 4 \\ 1 & 2 & 3 & 4 & 6 & 9 \\ 1 & 3 & 4 & 9 & 12 & 16 \end{bmatrix}$
+
