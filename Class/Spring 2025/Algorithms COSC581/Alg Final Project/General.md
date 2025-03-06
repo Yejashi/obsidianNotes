@@ -18,7 +18,7 @@ $z = \beta_1 + \beta_2 x + \beta_3 y + \beta_4 x^2 + \beta_5 xy + \beta_6 y^2$
 
 ### **Step 2: Representing the Data in a Matrix**
 
-Imagine we collect several observations. Each row represents one observation, where we record xxx, yyy, and the actual measured zzz (performance).
+Imagine we collect several observations. Each row represents one observation, where we record x, y, and the actual measured z (performance).
 
 For three data points:
 
