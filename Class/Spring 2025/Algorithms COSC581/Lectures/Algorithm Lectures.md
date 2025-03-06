@@ -386,4 +386,9 @@ glossing
 In Closing
 
 ## Lecture 12
-#### Cryptography
+#### Cryptology
+
+There is only one provably unbreakable crypt system.
+- 
+
+
