@@ -68,4 +68,6 @@ $z = \beta_1 + \beta_2 x + \beta_3 y + \beta_4 x^2 + \beta_5 xy + \beta_6 y^2$
 
 ### So, what are we doing for this project?
 
-The paper i attached above shows an application of a polynomial regression model in the form of the SBM model. Our goal will be to 
+The paper i attached above shows an application of a polynomial regression model in the form of the SBM model. Our goal will be to explore from an algorithmic sense how polynomial regression models are solved using linear algebra. 
+
+We will go over the history of how things like this are done, 
