@@ -44,3 +44,7 @@ And our target **Z** (measured performance values) is:
 
 $Z = \begin{bmatrix} 5 \\ 8 \\ 12 \end{bmatrix}$
 
+Our unknowns (β\betaβ) are:
+
+$\beta = \begin{bmatrix} \beta_1 \\ \beta_2 \\ \beta_3 \\ \beta_4 \\ \beta_5 \\ \beta_6 \end{bmatrix}$
+
