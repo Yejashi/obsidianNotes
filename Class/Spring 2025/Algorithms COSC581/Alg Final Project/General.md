@@ -40,3 +40,7 @@ This matrix is called **X**:
 
 $X = \begin{bmatrix} 1 & 1 & 2 & 1 & 2 & 4 \\ 1 & 2 & 3 & 4 & 6 & 9 \\ 1 & 3 & 4 & 9 & 12 & 16 \end{bmatrix}$
 
+And our target **Z** (measured performance values) is:
+
+$Z = \begin{bmatrix} 5 \\ 8 \\ 12 \end{bmatrix}$
+
