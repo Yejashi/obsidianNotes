@@ -61,7 +61,11 @@ We solve this system using methods like **LU decomposition** or **QR decompositi
 
 ### **Step 4: Using the Model to Predict New Values**
 
-Once we solve for β, we can predict performance (zzz) for any new xxx, yyy:
+Once we solve for β, we can predict performance (z) for any new x, y:
 
 $z = \beta_1 + \beta_2 x + \beta_3 y + \beta_4 x^2 + \beta_5 xy + \beta_6 y^2$
 
+
+### So, what are we doing for this project?
+
+The paper i attached above shows 
