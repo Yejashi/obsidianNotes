@@ -9,7 +9,7 @@ Let's say we have two input variables:
 - x (e.g., number of threads)
 - y (e.g., problem size)
 
-A polynomial equation that models performance (zzz) could look like this:
+A polynomial equation that models performance (z) could look like this:
 
 z=β1+β2x+β3y+β4x2+β5xy+β6y2z = \beta_1 + \beta_2 x + \beta_3 y + \beta_4 x^2 + \beta_5 xy + \beta_6 y^2z=β1​+β2​x+β3​y+β4​x2+β5​xy+β6​y2
 
