@@ -395,4 +395,9 @@ There is only one provably unbreakable crypt system.
 
 Chapter ? Number Theory and Algorithm Design
 
+Let m,n denote Positive Integers
+
+Definitions:
+We say m divines n if and only if n is congruent to 0 mod n
+
 
