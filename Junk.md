@@ -1,0 +1,2 @@
+### 03/06/2025 - Jack's Talk
+I have a question. First and foremost, good talk Jack. I had a question regarding the dhasbords you showed. How flexible are the NSDF dashboard? So, suppose a new university wanted to collaborate with NSDF and show off their data, are you now required to create a dedicated dashboard for them? IF so 
