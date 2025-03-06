@@ -403,6 +403,7 @@ We say m divines n if and only if n is congruent to 0 mod n
 n is prime if and only if m/n ,m = 1 or m = n otherwise m is composite
 
 Unique factorization theorem ( aka fundemental theorem of ...)
-- every integer n > 1 can be uniquely written as n = $\prod$ 1 to l p^1^2  
+- every integer n > 1 can be uniquely written as n = $\prod$ 1 to l p^1^2
+- prove through inductio
 
 
