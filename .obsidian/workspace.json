@@ -47,12 +47,10 @@
             "id": "9d2dcb0e7d8c9ce8",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-05 12.18.04.excalidraw"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -125,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -236,14 +233,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3bf927f97d70a6aa",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Class/Spring 2025/Algorithms COSC581/Untitled",
+    "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
     "Meta/Attachments/Pasted image 20250305160052.png",
     "Meta/Attachments/Pasted image 20250305160028.png",
     "Excalidraw/Drawing 2025-03-05 15.49.47.excalidraw.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
     "Meta/Attachments/Pasted image 20250305143833.png",
-    "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md",
     "Excalidraw/Drawing 2025-03-05 13.13.03.excalidraw.md",
     "Meta/Attachments/Pasted image 20250305123601.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6",
@@ -263,7 +261,6 @@
     "Meta/Attachments/Pasted image 20250218041315.png",
     "Meta/Attachments/Pasted image 20250217221427.png",
     "Research/Papers/Dynist/Dyninst paper.md",
-    "Meta/Attachments/Pasted image 20250217071740.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
