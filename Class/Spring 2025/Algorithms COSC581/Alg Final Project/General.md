@@ -60,3 +60,8 @@ $(X^T X) \beta = X^T Z$
 
 We solve this system using methods like **LU decomposition** or **QR decomposition**, which are just ways to efficiently compute β.
 
+### **Step 4: Using the Model to Predict New Values**
+
+Once we solve for β, we can predict performance (zzz) for any new xxx, yyy:
+
+z=β1+β2x+β3y+β4x2+β5xy+β6y2z = \beta_1 + \beta_2 x + \beta_3 y + \beta_4 x^2 + \beta_5 xy + \beta_6 y^2z=β1​+β2​x+β3​y+β4​x2+β5​xy+β6​y2
