@@ -384,4 +384,29 @@ glossing
 - So T(N) is O(NlogN)
 
 In Closing
-- 
+
+## Lecture 12
+#### Cryptology
+
+There is only one provably unbreakable crypt system.
+- **One time bad**
+	- Choose a bit stream and xor that bit stream with a pad. 
+	- Downsides: It's not repeatable
+
+Chapter ? Number Theory and Algorithm Design
+
+Let m,n denote Positive Integers
+
+Definitions:
+We say m divines n if and only if n is congruent to 0 mod n
+
+n is prime if and only if m/n ,m = 1 or m = n otherwise m is composite
+
+Unique factorization theorem ( aka fundemental theorem of ...)
+- every integer n > 1 can be uniquely written as n = $\prod$ 1 to l p^1^2
+- prove through induction
+
+Theorem: There is exists infinitely  many primes
+- Contradiction based: assume its false, take the product of all the prime numbers and add 1, the new number is prime
+
+

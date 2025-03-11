@@ -1,4 +1,3 @@
-### **What Are We Trying to Do?**
 
 We have some **input variables** (e.g., problem size, number of threads) and a **performance measurement** (e.g., runtime). Our goal is to **find a polynomial function** that best predicts the performance based on these inputs.
 
@@ -62,7 +61,19 @@ We solve this system using methods like **LU decomposition** or **QR decompositi
 
 ### **Step 4: Using the Model to Predict New Values**
 
-Once we solve for β, we can predict performance (zzz) for any new xxx, yyy:
+Once we solve for β, we can predict performance (z) for any new x, y:
 
 $z = \beta_1 + \beta_2 x + \beta_3 y + \beta_4 x^2 + \beta_5 xy + \beta_6 y^2$
 
+
+### So, what are we doing for this project?
+
+The paper i attached above shows an application of a polynomial regression model in the form of the SBM model. Our goal will be to explore from an algorithmic sense how polynomial regression models are solved using linear algebra. 
+
+We will go over the history of how things like this are done, what the state of the art is,  and finally talk about its applications in domain science, like the usage of the SBM model for performance modeling.
+
+I encourage you both to read the above paper and brush up very lightly on your linear algebra, i've practically forgotten much of it so i'll have to refresh as well, haha.
+
+Overall, we're just creating a set of slide based on surface level exploration and that's about it.
+
+Our presentation is slotted for May 1 (round 2), but ideally i'd like to just get this over with as soon as possible (in the next couple of weeks) so we have ample time to plan around it.
