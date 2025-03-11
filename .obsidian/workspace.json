@@ -18,8 +18,21 @@
               "icon": "lucide-file-text",
               "title": "textbook_algorithms"
             }
+          },
+          {
+            "id": "8c42f4b551eb4c9d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6/cs581_spring_2025_hw6-update-v2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "cs581_spring_2025_hw6-update-v2"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,8 +198,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "8c42f4b551eb4c9d",
   "lastOpenFiles": [
+    "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6/cs581_spring_2025_hw6-update-v2.pdf",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6",
     "Research/Projects/SBM/General Comments.md",
     "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
@@ -220,7 +235,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
     "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Graph Algorithms Glossary.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
@@ -231,7 +245,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Depth First Search (DFS).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Edge Connectivity.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Incidence Matrix.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Glossary.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs"
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/Glossary.md"
   ]
 }
