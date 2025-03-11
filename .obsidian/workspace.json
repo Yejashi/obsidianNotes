@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "1324f47a2111f889",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
+          },
+          {
             "id": "4c509692069ce2de",
             "type": "leaf",
             "state": {
@@ -48,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -210,11 +222,10 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "9d2dcb0e7d8c9ce8",
+  "active": "1324f47a2111f889",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
