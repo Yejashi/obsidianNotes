@@ -4,63 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1d994c24e50b8f7d",
+        "id": "72fbc0ba00c0e581",
         "type": "tabs",
         "children": [
           {
-            "id": "b7f6292ca7c310a4",
+            "id": "d124503839cd6900",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Research/Projects/SBM/General Comments.md",
-                "mode": "source",
-                "source": false
+                "file": "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf"
               },
-              "icon": "lucide-file",
-              "title": "General Comments"
-            }
-          },
-          {
-            "id": "9d2dcb0e7d8c9ce8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "General"
-            }
-          },
-          {
-            "id": "1324f47a2111f889",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
-            }
-          },
-          {
-            "id": "4c509692069ce2de",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-03-05 13.13.03.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-05 13.13.03.excalidraw"
+              "icon": "lucide-file-text",
+              "title": "textbook_algorithms"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,11 +185,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6",
+    "Research/Projects/SBM/General Comments.md",
+    "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
+    "Excalidraw/Drawing 2025-03-05 13.13.03.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/simplex example.md",
-    "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
     "Junk.md",
     "Class/Spring 2025/Algorithms COSC581/Alg Final Project",
     "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md",
@@ -239,10 +201,8 @@
     "Meta/Attachments/Pasted image 20250305160028.png",
     "Excalidraw/Drawing 2025-03-05 15.49.47.excalidraw.md",
     "Meta/Attachments/Pasted image 20250305143833.png",
-    "Excalidraw/Drawing 2025-03-05 13.13.03.excalidraw.md",
     "Meta/Attachments/Pasted image 20250305123601.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6",
-    "Research/Projects/SBM/General Comments.md",
     "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
     "Research/Projects/SBM",
@@ -272,7 +232,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Edge Connectivity.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/2. Graph Representations and Data Structures/Incidence Matrix.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Glossary.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/1. Introduction/Graph Theory.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs"
   ]
 }
