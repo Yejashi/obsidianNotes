@@ -52,7 +52,6 @@ DyninstAPI is structured around key abstractions for working with program binari
 ### Examples of DyninstAPI Usage
 
 To illustrate how DyninstAPI is used, here are basic examples of function instrumentation:
-
 #### 1. Setting Up a Mutator
 
 A mutator program starts by creating an instance of the `BPatch` class, which provides global access to DyninstAPI functionalities:
