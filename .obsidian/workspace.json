@@ -18,7 +18,13 @@
               "icon": "lucide-file-text",
               "title": "textbook_algorithms"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "f546129a76a3e7f6",
+        "type": "tabs",
+        "children": [
           {
             "id": "8c42f4b551eb4c9d",
             "type": "leaf",
@@ -31,8 +37,7 @@
               "title": "cs581_spring_2025_hw6-update-v2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,14 +199,13 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
   "active": "8c42f4b551eb4c9d",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6/cs581_spring_2025_hw6-update-v2.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6",
     "Research/Projects/SBM/General Comments.md",
     "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
