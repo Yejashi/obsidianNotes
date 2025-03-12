@@ -11,10 +11,14 @@
             "id": "712e5a1b5efca09a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Research/Tools/Dyninst/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ]
@@ -183,8 +187,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "712e5a1b5efca09a",
   "lastOpenFiles": [
+    "Research/Papers/Dynist/Dyninst paper.md",
+    "Research/Tools/Dyninst/Untitled.md",
     "Research/Tools/Dyninst",
     "Research/Tools",
     "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
@@ -218,9 +224,7 @@
     "Meta/Attachments/Pasted image 20250218041747.png",
     "Meta/Attachments/Pasted image 20250218041315.png",
     "Meta/Attachments/Pasted image 20250217221427.png",
-    "Research/Papers/Dynist/Dyninst paper.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Graph Algorithms Glossary.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
