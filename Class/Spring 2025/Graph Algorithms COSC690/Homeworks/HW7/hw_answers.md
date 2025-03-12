@@ -5,3 +5,5 @@ Graph isomorphism is a structure-preserving bijection. $G$ is isomorphic to $H$ 
 3. Determine if there exists a planar graph that is isomorphic to both its geometric dual and its line graph. Justify your answer.
 
 ### Question 2
+Find a valid tree-decomposition of the following graph. What is the treewidth of the
+graph?
