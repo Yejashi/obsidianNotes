@@ -35,17 +35,14 @@ DyninstAPI is structured around key abstractions for working with program binari
         - **Process abstraction**: Captures runtime details like threads and stack state.
         - **Binary abstraction**: Represents on-disk executables and their dependencies.
 4. **Function and Variable Abstractions**:
-    
     - Functions contain **points** for inserting instrumentation.
     - Functions also include **control flow graph** (CFG) details such as loops, basic blocks, and edges.
     - If debug information is available, additional details such as function parameters, variable types, and source code lines are accessible.
     - The complete set of functions and variables in a mutatee is called an **image**.
 5. **Type System**:
-    
     - DyninstAPI uses a simple type system based on structural equivalence.
     - If debug symbols are available in a supported format, the API performs type checking on inserted code.
 6. **Handling Function Overlap**:
-    
     - Due to compiler optimizations, multiple functions may share code or have multiple entry points.
     - DyninstAPI treats each function (`BPatch_function`) as having a single entry point.
     - Ensures that inserted instrumentation executes only within its designated function context.
