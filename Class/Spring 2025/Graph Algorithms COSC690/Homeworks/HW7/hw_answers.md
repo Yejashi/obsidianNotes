@@ -4,7 +4,7 @@ Graph isomorphism is a structure-preserving bijection. $G$ is isomorphic to $H$ 
    ![[Pasted image 20250312134316.png]]
    Planar graphs that have the same number of faces as vertices seem to always produce isomorphic geometric duals.
 2. Characterize graphs that are isomorphic to their own line graphs.
-   Cycle graphs ($C\subn$)
+   Cycle graphs ($C_n$)
 3. Determine if there exists a planar graph that is isomorphic to both its geometric dual and its line graph. Justify your answer.
 
 ### Question 2
