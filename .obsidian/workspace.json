@@ -200,18 +200,19 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "d124503839cd6900",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6/cs581_spring_2025_hw6-update-v2.pdf",
+    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6/cs581_spring_2025_hw6-update-v2.pdf",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6",
     "Research/Projects/SBM/General Comments.md",
     "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
     "Excalidraw/Drawing 2025-03-05 13.13.03.excalidraw.md",
-    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/simplex example.md",
     "Junk.md",
     "Class/Spring 2025/Algorithms COSC581/Alg Final Project",
@@ -244,7 +245,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Graph Algorithms Glossary.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Topological Sort.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_690.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Connected Components.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Vertex Connectivity.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Depth First Search (DFS).md",
