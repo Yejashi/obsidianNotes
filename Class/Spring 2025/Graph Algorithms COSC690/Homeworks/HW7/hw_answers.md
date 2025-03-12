@@ -15,3 +15,4 @@ Find a valid tree-decomposition of the following graph. What is the treewidth of
 graph?
 ![[Pasted image 20250312123144.png]]
 
+![[Pasted image 20250312153906.png]]
