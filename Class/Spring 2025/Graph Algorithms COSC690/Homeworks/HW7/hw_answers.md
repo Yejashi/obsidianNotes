@@ -9,7 +9,7 @@ Graph isomorphism is a structure-preserving bijection. $G$ is isomorphic to $H$ 
    Cycle graphs ($C_n$) with $n >= 3$ are always isomorphic to their own line graphs.
 
 3. Determine if there exists a planar graph that is isomorphic to both its geometric dual and its line graph. Justify your answer.
-
+   It's not possible for a planar graph to be isomorphic to both its geometric dual and its line graph because a self-dual graph must have an equal number of vertices and faces, which limits its structure. For a graph to be isomorphic to its line graph, it must have a very specific degree pattern that regular graphs like cycles and cliques follow. Since no planar graph can meet both the dual and line graph conditions simultaneously, such a graph doesn't exist.
 ### Question 2
 Find a valid tree-decomposition of the following graph. What is the treewidth of the
 graph?
