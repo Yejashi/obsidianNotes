@@ -20,6 +20,16 @@
               "icon": "lucide-file",
               "title": "Dyninst General"
             }
+          },
+          {
+            "id": "54790584c578a10f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ]
       }
@@ -189,8 +199,8 @@
   },
   "active": "712e5a1b5efca09a",
   "lastOpenFiles": [
-    "Research/Papers/Dynist/Dyninst paper.md",
     "Research/Tools/Dyninst/Dyninst General.md",
+    "Research/Papers/Dynist/Dyninst paper.md",
     "Research/Tools/Dyninst",
     "Research/Tools",
     "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
