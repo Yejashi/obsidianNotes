@@ -30,7 +30,6 @@ DyninstAPI is structured around key abstractions for working with program binari
     - A **point** is a location in a program where instrumentation can be inserted (e.g., function entry points).
     - A **snippet** is an executable code segment to be inserted at a specified point (e.g., incrementing a counter).
 3. **Address Space Abstraction**:
-    
     - Represents processes (for dynamic instrumentation) or binaries (for static instrumentation).
     - Extends to include:
         - **Process abstraction**: Captures runtime details like threads and stack state.
