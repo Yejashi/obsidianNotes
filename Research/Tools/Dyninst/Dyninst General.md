@@ -125,14 +125,3 @@ app->insertSnippet(*instrumentation, *points);
 - `insertSnippet` inserts the code at the specified instrumentation points.
 
 ---
-
-### Summary
-
-DyninstAPI provides a powerful way to insert and modify code in running applications or static binaries. Its key features include:
-
-- Dynamic and static instrumentation.
-- Process and binary abstractions.
-- Fine-grained control over function and variable instrumentation.
-- Type-aware code insertion when debugging symbols are available.
-
-By leveraging DyninstAPI, users can perform advanced debugging, performance analysis, and runtime application modifications efficiently.
