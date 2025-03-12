@@ -37,7 +37,7 @@ DyninstAPI is structured around key abstractions for working with program binari
 4. **Function and Variable Abstractions**:
     - Functions contain **points** for inserting instrumentation.
     - Functions also include **control flow graph** (CFG) details such as loops, basic blocks, and edges.
-    - If debug information is available, additional details such as function parameters, variable types, and source code lines are accessible.
+    - If debug information is available, additional details such as f**unction parameters, variable types, and source code lines are accessible**.
     - The complete set of functions and variables in a mutatee is called an **image**.
 5. **Type System**:
     - DyninstAPI uses a simple type system based on structural equivalence.
