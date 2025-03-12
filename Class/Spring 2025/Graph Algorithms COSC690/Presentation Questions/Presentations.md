@@ -1,7 +1,7 @@
 ### Presentation 1
 Which canonization algorithm works very well under the specific constraints of molecule canonization? Why?
 
-Morgan canonicalization.
+Morgan canonicalization. 
 
 What strategy does NAUTY's algorithm employ to achieve canonization?
 
