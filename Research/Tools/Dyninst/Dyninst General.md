@@ -63,7 +63,6 @@ BPatch bpatch;
 Instrumentation is done through a `BPatch_addressSpace` object, which allows operations on both running processes and on-disk binaries:
 
 - **Attaching to a Running Process**:
-    
     ```cpp
     BPatch_process *appProc = bpatch.processAttach(name, processId);
     ```
