@@ -24,11 +24,9 @@ The API aims to provide a **machine-independent interface** for runtime and stat
 DyninstAPI is structured around key abstractions for working with program binaries and processes:
 
 1. **Mutator and Mutatee**:
-    
     - The **mutator** is the process that uses DyninstAPI to modify an application.
     - The **mutatee** is the application being modified (either a running process or an on-disk binary).
 2. **Instrumentation Points and Snippets**:
-    
     - A **point** is a location in a program where instrumentation can be inserted (e.g., function entry points).
     - A **snippet** is an executable code segment to be inserted at a specified point (e.g., incrementing a counter).
 3. **Address Space Abstraction**:
