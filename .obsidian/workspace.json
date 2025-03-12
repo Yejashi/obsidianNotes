@@ -4,37 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "72fbc0ba00c0e581",
+        "id": "5225eea0dce04548",
         "type": "tabs",
         "children": [
           {
-            "id": "d124503839cd6900",
+            "id": "712e5a1b5efca09a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "textbook_algorithms"
-            }
-          }
-        ]
-      },
-      {
-        "id": "f546129a76a3e7f6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8c42f4b551eb4c9d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6/cs581_spring_2025_hw6-update-v2.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "cs581_spring_2025_hw6-update-v2"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -94,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -204,10 +183,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d124503839cd6900",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Research/Tools/Dyninst",
+    "Research/Tools",
     "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
+    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6/cs581_spring_2025_hw6-update-v2.pdf",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6",
     "Research/Projects/SBM/General Comments.md",
@@ -241,7 +222,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3",
     "Class/Spring 2025/Algorithms COSC581/Book/Chapter 4.md",
-    "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Graph Algorithms Glossary.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Topological Sort.md",
