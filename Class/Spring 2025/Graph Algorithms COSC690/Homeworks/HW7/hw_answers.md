@@ -7,3 +7,5 @@ Graph isomorphism is a structure-preserving bijection. $G$ is isomorphic to $H$ 
 ### Question 2
 Find a valid tree-decomposition of the following graph. What is the treewidth of the
 graph?
+![[Pasted image 20250312123144.png]]
+
