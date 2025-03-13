@@ -419,5 +419,6 @@ Fermat's Little Theorem
 
 RSA
 - If i give you n, you can't find p and q
+- totient of n
 
 
