@@ -417,6 +417,7 @@ Going over RSA.
 Fermat's Little Theorem
 - n doesn't have to prime
 
-If i give you n, you can't find p and q
+RSA
+- If i give you n, you can't find p and q
 
 
