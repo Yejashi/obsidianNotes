@@ -410,6 +410,10 @@ Theorem: There is exists infinitely  many primes
 - Contradiction based: assume its false, take the product of all the prime numbers and add 1, the new number is prime
 
 
-### Lecture 13
+## Lecture 13
+
+Going over RSA.
+
+
 
 
