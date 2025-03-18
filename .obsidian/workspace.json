@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "46be6b2fe31be394",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-18 11.17.05.excalidraw"
+            }
+          },
+          {
             "id": "54790584c578a10f",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,10 +210,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "712e5a1b5efca09a",
+  "active": "46be6b2fe31be394",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lectures.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
+    "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lectures.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW7/hw_answers.md",
     "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions",
@@ -243,7 +257,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Topological Sort.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Connected Components.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Vertex Connectivity.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/3. Graph Exploration and Vertex Ordering/Depth First Search (DFS).md"
+    "Class/Spring 2025/Graph Algorithms COSC690/Book/4. Connectivity of Undirected Graphs/Vertex Connectivity.md"
   ]
 }
