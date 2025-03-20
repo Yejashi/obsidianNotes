@@ -410,3 +410,15 @@ Theorem: There is exists infinitely  many primes
 - Contradiction based: assume its false, take the product of all the prime numbers and add 1, the new number is prime
 
 
+## Lecture 13
+
+Going over RSA.
+
+Fermat's Little Theorem
+- n doesn't have to prime
+
+RSA
+- If i give you n, you can't find p and q
+- totient of n
+
+
