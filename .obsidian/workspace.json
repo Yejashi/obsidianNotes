@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algorithm Lectures"
+              "title": "hw_answers"
+            }
+          },
+          {
+            "id": "22765093060fb730",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 460.5026054382324
+    "width": 343.5026054382324
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -187,8 +200,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "Meta/Attachments/Pasted image 20250305160052.png",
     "Meta/Attachments/Pasted image 20250305160028.png",
     "Meta/Attachments/Pasted image 20250305143833.png",
@@ -215,7 +229,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Book/Graph Algorithms Glossary.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
     "conflict-files-obsidian-git.md",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "Meta/Attachments/Pasted image 20250218042134.png",
     "Meta/Attachments/Pasted image 20250218041821.png",
     "Meta/Attachments/Pasted image 20250218041803.png",
@@ -226,7 +239,6 @@
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
     "Class/Spring 2025/Algorithms COSC581/asymptotics-cheatsheet.pdf",
     "Meta/Attachments/Pasted image 20250217221427.png",
-    "Meta/Attachments/Pasted image 20250217071740.png",
     "Research/LLNL Project/Objectives.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3",
     "Research/LLNL Project/Misc.md",
