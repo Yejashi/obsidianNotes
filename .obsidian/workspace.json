@@ -37,14 +37,12 @@
             "id": "e99d99389973c78c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Algorithm Lectures"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-18 11.17.05.excalidraw"
             }
           }
         ],
@@ -206,8 +204,8 @@
   },
   "active": "e99d99389973c78c",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
+    "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions",
