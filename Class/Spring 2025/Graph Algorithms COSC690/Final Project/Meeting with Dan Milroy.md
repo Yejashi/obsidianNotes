@@ -20,3 +20,7 @@ Try it on a really small resource graph first.
 - 10 nodes, 18 cores each
 - couple of job specifications
 
+If we can make progress on this, then we can scale it up.
+
+
+Should we reimplement the the sub graph isompophism seperately?
