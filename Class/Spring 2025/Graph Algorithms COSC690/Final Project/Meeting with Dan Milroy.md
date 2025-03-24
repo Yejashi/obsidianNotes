@@ -36,4 +36,4 @@ Just to reiterate
 Back to motivation
 - Will run into scaling problem with fluxion
 - Fractale project
-	- Multi cluster scheduling, we'll eventually run into a scaling problem with the current fluxion (low throgphout)
+	- Multi cluster scheduling, we'll eventually run into a scaling problem with the current fluxion (low throughout)
