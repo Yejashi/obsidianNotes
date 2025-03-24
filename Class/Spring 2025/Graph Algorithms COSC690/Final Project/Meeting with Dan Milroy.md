@@ -46,7 +46,6 @@ For project:
 	- Figuring out how to model the resoucers
 		- Take a simple resouce graph, and represent that with an NN
 
-
 Step 1:
 - represent resource graph with NN
 Step 2:
