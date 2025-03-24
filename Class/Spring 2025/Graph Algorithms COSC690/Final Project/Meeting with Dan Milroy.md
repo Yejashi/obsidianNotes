@@ -49,4 +49,5 @@ For project:
 
 Step 1:
 - represent resource graph with NN
-- 
+Step 2:
+- See if NN represents output as compared to regular fluxion
