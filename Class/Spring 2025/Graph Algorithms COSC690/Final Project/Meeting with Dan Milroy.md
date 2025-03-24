@@ -27,3 +27,8 @@ What would not be acceptable
 - Job one node A, all
 	- If request 2 cant mape to also node a
 	- Need to encode strong constraints.
+
+Just to reiterate
+- How do you introduce hard constraitns in GNN's?
+	- Used in drug discovery all the time, reference
+
