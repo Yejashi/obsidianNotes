@@ -44,6 +44,16 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2025-03-18 11.17.05.excalidraw"
             }
+          },
+          {
+            "id": "a1dae9c78c028910",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
         "currentTab": 2
@@ -103,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5026054382324
+    "width": 200
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -205,9 +215,9 @@
   },
   "active": "e99d99389973c78c",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "conflict-files-obsidian-git.md",
-    "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions",
     "Research/Tools/Dyninst/Dyninst General.md",
