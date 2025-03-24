@@ -50,5 +50,5 @@ For project:
 Step 1:
 - represent resource graph with NN
 Step 2:
-- See if NN represents output as compared to regular fluxion
+- See if NN represents output as compared to regular Fluxion
 	- What is acceptable, what is not
