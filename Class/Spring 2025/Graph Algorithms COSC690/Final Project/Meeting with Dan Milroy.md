@@ -31,4 +31,9 @@ What would not be acceptable
 Just to reiterate
 - How do you introduce hard constraitns in GNN's?
 	- Used in drug discovery all the time, reference
-	- Maybe encode the output and try to submit that to an actual flux instance 
+	- Maybe encode the output and try to submit that to an actual flux instance ans see if that queues?
+
+Back to motivation
+- Will run into scaling problem with fluxion
+- Fractale project
+	- Multi cluster scheduling, we'll eventually run into a scaling problem with the current fluxion (low throgphout)
