@@ -11,4 +11,9 @@ Proposal
 	- Model the same resource graph (node, cores, sockets, gpus)
 	- Perform subgraph isomporhism with a graph NN approch on that graph
 		- see whether we can return a similar or ideally idenital mathch with what fulixion coems up with.
-		- 
+
+Basically
+- compare match allocatied output for a resource query to the output of the network
+	- fixed resource graph and small job set
+
+Try it on a really small resource graph first.
