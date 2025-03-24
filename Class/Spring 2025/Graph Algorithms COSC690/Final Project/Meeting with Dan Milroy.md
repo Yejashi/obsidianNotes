@@ -43,5 +43,5 @@ For project:
 - History  Neural Networks
 - Implementation of  NN for scheduling with fluxion
 - Comparison with non NN fluxion and NN fluxion
-	- Figuring out how to mdoel the resoucers
-	- 
+	- Figuring out how to model the resoucers
+		- Take a simple resouce graph, and represent that with an NN
