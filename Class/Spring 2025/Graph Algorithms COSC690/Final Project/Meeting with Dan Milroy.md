@@ -17,3 +17,6 @@ Basically
 	- fixed resource graph and small job set
 
 Try it on a really small resource graph first.
+- 10 nodes, 18 cores each
+- couple of job specifications
+
