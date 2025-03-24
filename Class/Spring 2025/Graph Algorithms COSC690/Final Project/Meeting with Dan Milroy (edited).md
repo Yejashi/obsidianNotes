@@ -2,8 +2,6 @@
 
 Fluxion, while effective for many workloads, has inherent scalability limitations due to its reliance on depth-first search (DFS) during resource traversal and matching. As we approach the later stages of the Fractale project—especially with its multi-cluster scheduling needs—these limitations are expected to hinder throughput and efficiency.
 
-Moreover, Fluxion’s current constraint satisfaction mechanism is not well-suited for mixed-integer linear programming (MILP)-style problems, limiting its adaptability in complex scheduling scenarios.
-
 ---
 
 ### Proposal
