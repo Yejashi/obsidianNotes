@@ -38,3 +38,8 @@ Back to motivation
 - Fractale project
 	- Multi cluster scheduling, we'll eventually run into a scaling problem with the current fluxion (low throughout due to searching for matches with DFS)
 
+For project:
+- History of Sub Graph Isomorphism
+- History Graph Neural Networks
+- Implementation of Graph NN for scheduling with fluxion
+- Comparison with non NN fluxion and NN fluxion
