@@ -25,7 +25,7 @@ If we can make progress on this, then we can scale it up.
 What would not be acceptable
 - moltiple matches for the sam resources
 - Job one node A, all
-	- If request 2 cant mape to also node a
+	- If request 2 cant map to also node a
 	- Need to encode strong constraints.
 
 Just to reiterate
