@@ -31,4 +31,4 @@ What would not be acceptable
 Just to reiterate
 - How do you introduce hard constraitns in GNN's?
 	- Used in drug discovery all the time, reference
-
+	- Maybe encode the output and try to submit that to an actual flux instance 
