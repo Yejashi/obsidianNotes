@@ -40,6 +40,8 @@ Back to motivation
 
 For project:
 - History of Sub Graph Isomorphism
-- History Graph Neural Networks
-- Implementation of Graph NN for scheduling with fluxion
+- History  Neural Networks
+- Implementation of  NN for scheduling with fluxion
 - Comparison with non NN fluxion and NN fluxion
+	- Figuring out how to mdoel the resoucers
+	- 
