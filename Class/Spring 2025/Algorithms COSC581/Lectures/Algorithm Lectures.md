@@ -543,3 +543,16 @@ When you run a Turing machine, three things can happen:
     
 - (A ∨ B) = true, (¬A ∨ C) = true → formula is **satisfiable**.
 
+- SAT was the **first problem shown to be NP-complete**, by **Stephen Cook** (1971) and independently by **Leonid Levin**. This result is known as the **Cook-Levin Theorem**.
+    
+    - It means that every problem in NP can be **converted into SAT** in polynomial time.
+        
+- SAT is often written in **Conjunctive Normal Form (CNF)**:
+    
+    - A conjunction (AND) of clauses, each of which is a disjunction (OR) of literals (variables or their negations).
+        
+    - Example:
+```
+`(A ∨ ¬B) ∧ (¬A ∨ C ∨ D)`
+```
+
