@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy (edited).md",
+                "file": "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Meeting with Dan Milroy (edited)"
+              "title": "Algorithm Lectures"
             }
           },
           {
@@ -211,13 +211,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "e99d99389973c78c",
   "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy (edited).md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Resource Query.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
