@@ -456,3 +456,7 @@ recursively enumberable -> it's complement could not be recurively enumerable
 you can't have r.e r.e
 
 
+Deterministic and Nondeterministic turing machines
+
+Evidence for acceptance? Yes
+Evidence for time? Unknown
