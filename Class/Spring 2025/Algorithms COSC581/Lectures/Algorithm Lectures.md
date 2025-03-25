@@ -451,4 +451,5 @@ If a language is reursive it's r.e,, the problem is we don't know if it always h
 
 recursive -> it's complement is recursive
 
-recursively enumberable -> it's complement could not be 
+recursively enumberable -> it's complement could not be recurively enumerable
+
