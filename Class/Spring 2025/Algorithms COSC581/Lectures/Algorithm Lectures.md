@@ -432,3 +432,6 @@ NP-completeness
 The turning machine as a model of computational
 
 Any of our models can be infinite decriptors with finite ...
+
+When you run a turning machine three things can happen, only one is good. You want to halt.
+
