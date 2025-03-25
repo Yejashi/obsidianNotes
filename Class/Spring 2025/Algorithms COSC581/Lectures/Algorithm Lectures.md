@@ -425,5 +425,8 @@ RSA
 
 ### Lecture 14
 
-### Complexity Theory
+### Complexity theory
 
+NP-completeness
+
+The turning machine as a model of computational
