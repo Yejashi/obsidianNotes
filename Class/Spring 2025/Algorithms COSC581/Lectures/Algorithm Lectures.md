@@ -460,3 +460,6 @@ Deterministic and Nondeterministic turing machines
 
 Evidence for acceptance? Yes
 Evidence for time? Unknown
+
+P: those problems that can be solved in poly time in a deterministic turing machine
+NP: same for non deterministic turning machine or equivalently, those problems whose problems can be checked in poly time on a deterministic turing machine
