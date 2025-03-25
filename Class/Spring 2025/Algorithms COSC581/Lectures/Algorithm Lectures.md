@@ -447,4 +447,8 @@ If something is recursive, it just it will eventually halt by answering yes or n
 
 Recursively enumerable if only ...
 
-If there is a turnig machine that runs forever on some strings, you can
+If a language is reursive it's r.e,, the problem is we don't know if it always halts.
+
+recursive -> it's complement is recursive
+
+recursively enumberable -> it's complement could not be 
