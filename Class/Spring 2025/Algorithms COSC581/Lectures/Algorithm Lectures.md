@@ -447,3 +447,4 @@ If something is recursive, it just it will eventually halt by answering yes or n
 
 Recursively enumerable if only ...
 
+If there is a turnig machine that runs forever on some strings, you can
