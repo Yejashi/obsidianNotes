@@ -425,12 +425,12 @@ RSA
 
 ### Lecture 14
 
-## **Complexity Theory**
+### **Complexity Theory**
 
 ### **Turing Machines**
 
 - A **Turing Machine** is a theoretical model of computation used to define what can be computed.
-    
+
 - All major models of computation (like lambda calculus, RAM machines) are equivalent in power to Turing Machines.
     
 - These models can represent **infinite sets** or behaviors using **finite descriptions** (like rules or instructions).
