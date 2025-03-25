@@ -443,7 +443,7 @@ r.e. not r.e.
 not r.e. not r.e.
 
 
-If something is recursive, it just it will eventually halt. 
+If something is recursive, it just it will eventually halt by answering yes or no. 
 
 Recursively enumerable if only ...
 
