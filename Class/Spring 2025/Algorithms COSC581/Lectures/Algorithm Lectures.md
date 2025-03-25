@@ -467,3 +467,5 @@ NP: same for non deterministic turning machine or equivalently, those problems w
 So P is a subset of NP? yes
 
 But is it a proper subset? Unknown
+- IF p is equal to np, what does that mean?
+- 
