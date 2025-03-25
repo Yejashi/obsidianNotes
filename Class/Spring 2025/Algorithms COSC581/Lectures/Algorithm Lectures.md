@@ -563,3 +563,87 @@ When you run a Turing machine, three things can happen:
     - Many NP-completeness proofs reduce from 3-SAT.
         
 - To prove your own problem is NP-hard, you show that SAT (or 3-SAT or another NP-complete problem) can be transformed into your problem using a polynomial-time reduction.
+  
+#### **Three Notions in Computational Problems**
+
+In complexity theory, many problems can be framed in three related ways: **decision**, **optimization**, and **search**. These are different formulations of the same underlying problem and often relate to one another in interesting ways.
+
+### 1. **Decision Problems**
+
+- These are **yes/no** questions.
+    
+- The core of the **NP** complexity class — NP is defined in terms of decision problems.
+    
+- Solving the decision version can often help solve the other two forms.
+    
+
+### 2. **Optimization Problems**
+
+- Goal is to **maximize or minimize** some objective.
+    
+- Often harder than decision versions because they require finding the **best** among many valid solutions.
+    
+- Typically not in NP unless the optimal solution can be verified efficiently.
+    
+
+### 3. **Search Problems**
+
+- Given that a solution **exists**, find **one** such solution.
+    
+- Search problems often reduce to decision problems by binary search or iterative checking.
+    
+
+---
+
+### **Examples**
+
+#### 1. **Constrained Boolean SAT (e.g., "at most _k_ variables assigned True")**
+
+- **Decision**: Is there an assignment of truth values to variables such that the formula is satisfied **and** at most **k** variables are set to **true**?
+    
+- **Optimization**: What is the **maximum number of clauses** that can be satisfied while keeping at most **k** variables true?
+    
+- **Search**: Given that such an assignment exists, **find** one.
+    
+
+> This version of SAT becomes a type of **constrained optimization** and can be much harder than standard SAT.
+
+---
+
+#### 2. **Longest Path Problem**
+
+- **Definition**: Given a graph and two vertices **s** and **t**, what is the **longest simple path** from **s** to **t** (i.e., no repeated nodes)?
+    
+- **Decision**: Is there a simple path from **s** to **t** of length at least **k**?
+    
+- **Optimization**: What is the **maximum length** of a simple path between **s** and **t**?
+    
+- **Search**: Given a length **k**, **find** such a path if it exists.
+    
+
+> Note: The **longest path problem** in general graphs is **NP-hard** (unlike shortest path which is easy).
+
+---
+
+#### 3. **Vertex Cover**
+
+- **Definition**: A **vertex cover** in a graph is a set of vertices such that every edge has at least one endpoint in the set.
+    
+- **Decision**: Does the graph have a vertex cover of size ≤ **k**?
+    
+- **Optimization**: What is the **minimum size** of a vertex cover?
+    
+- **Search**: **Find** a vertex cover of size ≤ **k**, assuming one exists.
+    
+
+> The decision version of vertex cover is **NP-complete**.
+
+---
+
+### Summary Table
+
+|Problem|Decision Form|Optimization Form|Search Form|
+|---|---|---|---|
+|SAT (k True)|Satisfiable with ≤ k true variables?|Max clauses satisfied under ≤ k true vars|Find satisfying assignment|
+|Longest Path|Path from s to t of length ≥ k?|Longest simple path from s to t|Find a path of length ≥ k|
+|Vertex Cover|Cover of size ≤ k?|Smallest possible vertex cover|Find cover of size ≤ k|
