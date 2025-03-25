@@ -473,3 +473,12 @@ But is it a proper subset? Unknown
 R is NP-hard if Left to the Righ for all L in NP
 
 R is NP-complete if it is both NP-hard and in NP
+
+Polynomial time reducibility: L reducible R
+
+So R is at least as hard as L
+
+But note the assymetry
+
+R is Np-hard if L reducible R for all Lin NP
+R is NP-complete if it is both NP-hard and in NP
