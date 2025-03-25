@@ -539,3 +539,7 @@ When you run a Turing machine, three things can happen:
 `(A ∨ B) ∧ (¬A ∨ C)`
 ```
 
+- Try assigning A = false, B = true, C = false.
+    
+- (A ∨ B) = true, (¬A ∨ C) = true → formula is **satisfiable**.
+
