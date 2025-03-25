@@ -536,4 +536,6 @@ When you run a Turing machine, three things can happen:
 - Example:
 
 ```
+`(A ∨ B) ∧ (¬A ∨ C)`
 ```
+
