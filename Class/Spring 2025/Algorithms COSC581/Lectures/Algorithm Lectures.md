@@ -484,3 +484,5 @@ R is Np-hard if L reducible R for all Lin NP
 R is NP-complete if it is both NP-hard and in NP
 
 Boolean satisfiability - Cook, levin
+
+How can you show a problem is np-hard, turn any problem in NP and turn it into my rpoblem?
