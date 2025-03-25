@@ -470,4 +470,6 @@ But is it a proper subset? Unknown
 - IF p is equal to np, what does that mean?
 	- all those difficult problems can be solved in polynomial time
 
-R is NP-hard if L 
+R is NP-hard if Left to the Righ for all L in NP
+
+R is NP-complete if it is both NP-hard and in NP
