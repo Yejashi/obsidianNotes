@@ -435,3 +435,11 @@ Any of our models can be infinite decriptors with finite ...
 
 When you run a turning machine three things can happen, only one is good. You want to halt.
 
+Recursive vs Recursively Enumeratable
+L L'sComplement
+Recursive recursive
+r.e. not r.e.
+not r.e. not r.e.
+
+
+If something is recursive, it just it will eventually halt. 
