@@ -482,3 +482,5 @@ But note the assymetry
 
 R is Np-hard if L reducible R for all Lin NP
 R is NP-complete if it is both NP-hard and in NP
+
+Boolean satisfiability - Cook, levin
