@@ -453,3 +453,6 @@ recursive -> it's complement is recursive
 
 recursively enumberable -> it's complement could not be recurively enumerable
 
+you can't have r.e r.e
+
+
