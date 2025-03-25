@@ -556,3 +556,10 @@ When you run a Turing machine, three things can happen:
 `(A ∨ ¬B) ∧ (¬A ∨ C ∨ D)`
 ```
 
+- **3-SAT** is a special case where each clause has exactly 3 literals.
+    
+    - Even **3-SAT** is NP-complete.
+        
+    - Many NP-completeness proofs reduce from 3-SAT.
+        
+- To prove your own problem is NP-hard, you show that SAT (or 3-SAT or another NP-complete problem) can be transformed into your problem using a polynomial-time reduction.
