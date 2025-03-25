@@ -468,4 +468,4 @@ So P is a subset of NP? yes
 
 But is it a proper subset? Unknown
 - IF p is equal to np, what does that mean?
-- 
+	- all those difficult problems can be solved in polynomial time
