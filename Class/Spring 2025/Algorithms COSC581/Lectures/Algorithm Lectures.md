@@ -425,72 +425,112 @@ RSA
 
 ### Lecture 14
 
-### Complexity theory
+## **Complexity Theory**
 
-NP-completeness
+### **Turing Machines**
 
-The turning machine as a model of computational
+- A **Turing Machine** is a theoretical model of computation used to define what can be computed.
+    
+- All major models of computation (like lambda calculus, RAM machines) are equivalent in power to Turing Machines.
+    
+- These models can represent **infinite sets** or behaviors using **finite descriptions** (like rules or instructions).
+    
 
-Any of our models can be infinite decriptors with finite ...
+### **What Happens When You Run a Turing Machine?**
 
-When you run a turning machine three things can happen, only one is good. You want to halt.
+When you run a Turing machine, three things can happen:
 
-Recursive vs Recursively Enumeratable
-Turn the folowing into a table:
-L L'sComplement
-Recursive recursive
-r.e. not r.e.
-not r.e. not r.e.
+1. It **halts and accepts** the input (good).
+    
+2. It **halts and rejects** the input.
+    
+3. It **runs forever** (bad — no useful output).
+    
 
+---
 
-If something is recursive, it just it will eventually halt by answering yes or no. 
+### **Recursive vs. Recursively Enumerable Languages**
 
-Recursively enumerable if only ...
+|Language (L)|Complement (L̅)|Classification|
+|---|---|---|
+|Recursive|Recursive|Both recursive|
+|R.E.|Not R.E.|Complement not R.E.|
+|Not R.E.|Not R.E.|Neither is R.E.|
 
-If a language is reursive it's r.e,, the problem is we don't know if it always halts.
+- A language is **recursive** if there exists a Turing machine that always halts and correctly answers **yes** or **no** for any input.
+    
+- A language is **recursively enumerable (R.E.)** if there's a Turing machine that:
+    
+    - **Halts and accepts** strings in the language.
+        
+    - Might **run forever** on strings not in the language.
+        
+- If a language is recursive, it's also R.E.
+    
+- If a language is R.E., its complement might not be.
+    
+- A language and its complement can't **both** be R.E. unless the language is actually recursive.
+    
 
-recursive -> it's complement is recursive
+---
 
-recursively enumberable -> it's complement could not be recurively enumerable
+### **Deterministic vs. Nondeterministic Turing Machines**
 
-you can't have r.e r.e
+|Feature|Deterministic TM|Nondeterministic TM|
+|---|---|---|
+|Behavior|One possible path|Multiple branching paths|
+|Acceptance evidence|Yes|Yes|
+|Time bound known?|Yes|Not necessarily|
 
+---
 
-Deterministic and Nondeterministic turing machines
+### **P and NP**
 
-Evidence for acceptance? Yes
-Evidence for time? Unknown
+- **P**: Class of problems solvable in **polynomial time** using a **deterministic Turing machine**.
+    
+- **NP**: Class of problems solvable in polynomial time by a **nondeterministic Turing machine**, or equivalently, problems where **given a solution**, we can **verify** it in polynomial time using a deterministic machine.
+    
 
-P: those problems that can be solved in poly time in a deterministic turing machine
-NP: same for non deterministic turning machine or equivalently, those problems whose problems can be checked in poly time on a deterministic turing machine
+**P ⊆ NP**, because anything you can do deterministically, you can do nondeterministically.
 
-So P is a subset of NP? yes
+**Is P = NP?** Nobody knows.
 
-But is it a proper subset? Unknown
-- IF p is equal to np, what does that mean?
-	- all those difficult problems can be solved in polynomial time
+- If **P = NP**, it would mean that all the hard problems in NP can actually be solved efficiently — not just verified.
+    
 
-R is NP-hard if Left to the Righ for all L in NP
+---
 
-R is NP-complete if it is both NP-hard and in NP
+### **NP-Hard and NP-Complete**
 
-Polynomial time reducibility: L reducible R
+- **Polynomial-Time Reducibility (≤ₚ)**:
+    
+    - We say a problem **L reduces to R** if we can transform instances of **L** into instances of **R** using a polynomial-time algorithm.
+        
+    - This shows **R is at least as hard** as **L**.
+        
+    - Important: Reductions are **one-way**, not symmetric.
+        
+- **NP-Hard**:
+    
+    - A problem **R** is NP-Hard if every problem in NP reduces to it.
+        
+    - In other words, R is at least as hard as **every** problem in NP.
+        
+- **NP-Complete**:
+    
+    - A problem is NP-Complete if it is:
+        
+        1. **NP-Hard**
+            
+        2. **Also in NP**
+            
 
-So R is at least as hard as L
+---
 
-But note the assymetry
+### **Boolean Satisfiability (SAT)**
 
-R is Np-hard if L reducible R for all Lin NP
-R is NP-complete if it is both NP-hard and in NP
-
-Boolean satisfiability - Cook, levin
-
-How can you show a problem is np-hard, turn any problem in NP and turn it into my rpoblem?
-
-Three notions: decision, optimization, search
-
-Examples:
-- constrained Boolean SAT - at most k variable can be assiged True
-- longest path
-- vertex cover
-
+- The **Boolean Satisfiability Problem** (SAT) asks:
+    
+    > Is there a way to assign true/false values to variables in a Boolean formula so that the formula evaluates to **true**?
+    
+- Example:
