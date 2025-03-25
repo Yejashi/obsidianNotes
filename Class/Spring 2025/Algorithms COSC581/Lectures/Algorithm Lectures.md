@@ -486,3 +486,11 @@ R is NP-complete if it is both NP-hard and in NP
 Boolean satisfiability - Cook, levin
 
 How can you show a problem is np-hard, turn any problem in NP and turn it into my rpoblem?
+
+Three notions: decision, optimization, search
+
+Examples:
+- constrained Boolean SAT - at most k variable can be assiged True
+- longest path
+- vertex cover
+
