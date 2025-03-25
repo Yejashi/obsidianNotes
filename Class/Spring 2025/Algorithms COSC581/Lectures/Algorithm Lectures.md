@@ -527,10 +527,3 @@ When you run a Turing machine, three things can happen:
 
 ---
 
-### **Boolean Satisfiability (SAT)**
-
-- The **Boolean Satisfiability Problem** (SAT) asks:
-    
-    > Is there a way to assign true/false values to variables in a Boolean formula so that the formula evaluates to **true**?
-    
-- Example:
