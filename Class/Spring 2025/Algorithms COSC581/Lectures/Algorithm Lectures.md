@@ -431,4 +431,4 @@ NP-completeness
 
 The turning machine as a model of computational
 
-Any of our 
+Any of our models can be infinite decriptors with finite ...
