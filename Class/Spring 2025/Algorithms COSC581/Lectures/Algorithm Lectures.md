@@ -443,3 +443,5 @@ not r.e. not r.e.
 
 
 If something is recursive, it just it will eventually halt. 
+
+Recursively enumerable if only ...
