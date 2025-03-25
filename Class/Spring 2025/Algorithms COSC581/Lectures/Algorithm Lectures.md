@@ -534,3 +534,6 @@ When you run a Turing machine, three things can happen:
     > Is there a way to assign true/false values to variables in a Boolean formula so that the formula evaluates to **true**?
     
 - Example:
+
+```
+```
