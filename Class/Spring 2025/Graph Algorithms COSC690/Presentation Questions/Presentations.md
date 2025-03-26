@@ -21,3 +21,5 @@ Why is it Max Min and not Min Max?
 
 
 Who is the father of Eugenics?
+
+Sir Francis Galton
