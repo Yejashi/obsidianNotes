@@ -10,3 +10,6 @@ NAUTY's algorithms uses tree pruning to achieve canonicalization.
 What are the five steps our program takes to generate an IUPAC name?
 FInd the longest carbon chain.
 Identify functional groups.
+
+
+
