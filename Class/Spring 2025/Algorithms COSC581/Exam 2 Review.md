@@ -882,3 +882,5 @@ RSA is a **public-key encryption system** that relies on the difficulty of **fac
 - The security of RSA relies on the fact that **factoring nnn into ppp and qqq** is **computationally hard** when ppp and qqq are very large (hundreds or thousands of bits).
     
 - While anyone can see eee and nnn, without knowing ppp and qqq, it's **infeasible to compute ϕ(n)\phi(n)ϕ(n)**, and thus **impossible to compute ddd** efficiently.
+
+
