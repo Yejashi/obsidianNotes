@@ -137,29 +137,20 @@
 #### Maximum Bipartite Matching
 
 - Convert bipartite graph to a flow network:
-    
     - $s \rightarrow$ left set, right set $\rightarrow t$.
-        
     - Edge capacity = 1.
-        
     - Run max-flow: matching size = flow value.
-        
 
 #### Edge Connectivity
 
 - Measures **minimum number of edges** to remove to disconnect a graph.
-    
 - Convert edges to two arcs with unit capacity.
-    
 - Run flow from one node to all others.
-    
 
 #### All-Pairs Connectivity
 
 - Run flow between all pairs $(a, b)$.
-    
 - Helps compute global edge resilience of the network.
-    
 
 ---
 
@@ -168,22 +159,15 @@
 #### Problem
 
 - Given row sums ${r_1, ..., r_m}$ and column sums ${c_1, ..., c_n}$:
-    
     - Does a Boolean matrix exist such that each row has $r_i$ 1s and each column has $c_j$ 1s?
-        
 
 #### Flow-Based Solution
 
 - Build bipartite graph (rows $\rightarrow$ columns).
-    
 - Add source $\rightarrow$ row nodes (capacity = $r_i$).
-    
 - Add column nodes $\rightarrow$ sink (capacity = $c_j$).
-    
 - Edges from rows to columns have capacity 1.
-    
 - If max-flow = total number of 1s, such a matrix exists.
-    
 
 ---
 
@@ -192,41 +176,29 @@
 #### Overview
 
 - **Optimization technique** with **linear objective** and **linear constraints**.
-    
 - Examples: resource allocation, scheduling, and economics.
-    
 
 #### Forms
 
 - **Standard Form**: Maximize $c^T x$ subject to $Ax \leq b$, $x \geq 0$
-    
 - **Slack Form**: Converts inequalities to equalities by adding **slack variables**.
-    
 
 #### Solutions
 
 - **Feasible**: Satisfies all constraints.
-    
 - **Infeasible**: Violates at least one constraint.
-    
 - **Optimal**: Feasible with best objective value.
-    
 
 #### Simplex Algorithm
 
 - Explores vertices of the feasible region.
-    
 - Moves to adjacent vertices with better objective value.
-    
 - Guaranteed to find the optimal solution at a corner.
-    
 
 #### Interior-Point Methods
 
 - Navigate inside the feasible region.
-    
 - Asymptotically better for **large-scale LPs**.
-    
 
 ---
 
@@ -235,20 +207,14 @@
 #### Problem
 
 - Multiply $A(x)$ and $B(x)$ (degree $\leq n$): naive time = $O(n^2)$.
-    
 
 #### Fast Fourier Transform (FFT)
 
 - Evaluates polynomials at **roots of unity**.
-    
 - Uses **DFT**: Aj=∑k=0N−1ake−2πijk/NA_j = \sum_{k=0}^{N-1} a_k e^{-2\pi i jk/N}
-    
 - Inverse FFT recovers coefficients.
-    
 - Time: $O(n \log n)$.
-    
 - Leverages symmetry in complex numbers.
-    
 
 ---
 
@@ -257,37 +223,24 @@
 #### One-Time Pad
 
 - XOR message with a truly random key of same length.
-    
 - **Provably unbreakable**, but requires key to be used once.
-    
 
 #### Number Theory Foundations
 
 - **Divisibility**: $m \mid n \Leftrightarrow n \equiv 0 \mod m$
-    
 - **Prime**: Has exactly two distinct positive divisors.
-    
 - **Unique Factorization Theorem**: Any $n > 1$ is a product of primes.
-    
 - **Infinitely many primes**: Proven via contradiction (Euclid).
-    
 - **Fermat’s Little Theorem**: $a^{p-1} \equiv 1 \mod p$ if $p$ is prime and $p \nmid a$
-    
 
 #### RSA Algorithm
 
 1. Pick large primes $p$, $q$
-    
 2. $n = pq$, $\phi(n) = (p - 1)(q - 1)$
-    
 3. Choose $e$ such that $\gcd(e, \phi(n)) = 1$
-    
 4. Find $d$ such that $ed \equiv 1 \mod \phi(n)$
-    
 5. **Encrypt**: $C = M^e \mod n$
-    
 6. **Decrypt**: $M = C^d \mod n$
-    
 
 ---
 
@@ -296,55 +249,37 @@
 #### Turing Machines
 
 - Abstract machine model that formalizes computation.
-    
 - Can **accept**, **reject**, or **run forever**.
-    
 
 #### Language Classes
 
 - **Recursive**: Machine always halts.
-    
 - **Recursively Enumerable (RE)**: Machine halts only on strings in the language.
-    
 - If both a language and its complement are RE, the language is recursive.
-    
 
 #### P vs. NP
 
 - **P**: Problems solvable in polynomial time.
-    
 - **NP**: Problems verifiable in polynomial time.
-    
 - Unknown if $P = NP$.
-    
 
 #### NP-Hard / NP-Complete
 
 - **NP-Hard**: At least as hard as the hardest problems in NP.
-    
 - **NP-Complete**: In NP and NP-Hard.
-    
 - Use **reductions** to show NP-completeness.
-    
 
 #### SAT (Boolean Satisfiability)
 
 - First known NP-complete problem.
-    
 - **3-SAT**: Every clause has 3 literals; still NP-complete.
-    
 - Used in many complexity reductions.
-    
 
 #### Decision, Optimization, and Search
 
 - **Decision**: Yes/No
-    
 - **Optimization**: Find best solution
-    
 - **Search**: Find one solution
-    
 - Often reductions exist between them.
-    
 
 ---
