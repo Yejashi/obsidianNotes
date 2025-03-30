@@ -127,21 +127,13 @@
 ### **1. Flow Network Basics**
 - A **flow network** is a **directed graph (digraph)** with non-negative arc weights representing **capacities** (i.e., upper bounds on flow).
 - It includes two **special vertices**:
-    
     - **Source (s)**: Usually has **in-degree 0**; it is the origin of flow.
-        
     - **Sink (t)**: Usually has **out-degree 0**; it is the destination for flow.
-        
 - A graph is only a flow network if:
-    
     - It has exactly one **source** and one **sink**.
-        
     - **Flow conservation** holds:
-        
         - Total flow out of **source** = total flow into **sink**.
-            
         - All **intermediate nodes** must have equal incoming and outgoing flow.
-            
 
 ---
 
