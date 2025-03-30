@@ -125,7 +125,6 @@
 ---
 
 ### **1. Flow Network Basics**
-
 - A **flow network** is a **directed graph (digraph)** with non-negative arc weights representing **capacities** (i.e., upper bounds on flow).
     
 - It includes two **special vertices**:
