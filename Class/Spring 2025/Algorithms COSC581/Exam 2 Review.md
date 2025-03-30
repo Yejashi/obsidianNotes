@@ -5,7 +5,7 @@ Greedy Algorithms
 - Often recursive
 - Used for difficult problem
 
-### Huffman Coding
+#### Huffman Coding
 
 ## Graph Algorithms
 - Represented with adjacency matrix or adjacency list
