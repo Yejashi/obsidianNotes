@@ -32,9 +32,23 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2025-03-18 11.17.05.excalidraw"
             }
+          },
+          {
+            "id": "5361c22a312a8d7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,11 +214,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "97254f5941b2bdcf",
+  "active": "020db7076d3db4d7",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
-    "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
     "conflict-files-obsidian-git.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Waypoint.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Resource Query.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy (edited).md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Final Project",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2 Review.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2 Review (blah).md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2 Review (Edited).md",
+    "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
     "Research/Tools/Dyninst/Dyninst General.md",
     "Research/Tools/Dyninst",
     "Research/Tools",
@@ -235,18 +257,10 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
     "Research/Projects/SBM/General Comments.md",
     "Research/Projects/SBM",
-    "Research/Projects",
     "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Graph Algorithms Glossary.md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
     "Meta/Attachments/Pasted image 20250218042134.png",
-    "Meta/Attachments/Pasted image 20250218041821.png",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 4.md",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 3.md",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
-    "Research/LLNL Project/Objectives.md",
-    "Research/LLNL Project/Misc.md"
+    "Meta/Attachments/Pasted image 20250218041821.png"
   ]
 }

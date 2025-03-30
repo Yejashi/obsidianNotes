@@ -10,3 +10,16 @@ NAUTY's algorithms uses tree pruning to achieve canonicalization.
 What are the five steps our program takes to generate an IUPAC name?
 FInd the longest carbon chain.
 Identify functional groups.
+
+
+### Presentation 2
+
+What is the parameter being optimized for out Level 1 approach?
+THe scoring algirithm, BIC.
+
+Why is it Max Min and not Min Max?
+Selects a parent/child candidate with the maximum of the mimumum associations across conditioning sets.
+
+Who is the father of Eugenics?
+
+Sir Francis Galton
