@@ -45,17 +45,11 @@
 ### **Graph Searching**
 
 #### **Breadth-First Search (BFS)**
-
 - Explores graph level by level.
-    
 - **Finds shortest paths** in unweighted graphs.
-    
 - **Traversal order**: left to right or level-wise.
-    
 - **Edge types**:
-    
     - Can include **cross-edges** (link different branches).
-        
     - Cannot include **back-edges** (edges pointing back to ancestors).
         
 
