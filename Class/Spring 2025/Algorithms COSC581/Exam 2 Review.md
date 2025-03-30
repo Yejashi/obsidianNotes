@@ -71,13 +71,9 @@
 ---
 
 ### **Hypergraph**
-
 - Generalization of a graph.
-    
 - **Edges (hyperedges)** can connect **more than two vertices**.
-    
 - Used for higher-fidelity modeling in complex systems.
-    
 
 ---
 
