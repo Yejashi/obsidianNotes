@@ -51,20 +51,12 @@
 - **Edge types**:
     - Can include **cross-edges** (link different branches).
     - Cannot include **back-edges** (edges pointing back to ancestors).
-        
-
 #### **Depth-First Search (DFS)**
-
 - Explores as deep as possible before backtracking.
-    
 - **Traversal order**: dives into one branch fully before moving to another.
-    
 - **Edge types**:
-    
     - Allows **back-edges** → indicate **cycles**.
-        
     - No **cross-edges** in DFS tree.
-        
 
 ---
 
