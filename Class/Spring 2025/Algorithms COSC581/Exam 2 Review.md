@@ -94,11 +94,8 @@
 ---
 
 ### **Single-Source Shortest Path**
-
 - **Objective**: Find the shortest path from a given source vertex to all other vertices.
-    
 - Common algorithms include **Dijkstra's** and **Bellman-Ford**.
-    
 - Measures **time or cost** to reach each node from the source.
     
 
