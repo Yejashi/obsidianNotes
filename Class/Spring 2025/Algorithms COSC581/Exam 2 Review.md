@@ -97,24 +97,17 @@
 - **Objective**: Find the shortest path from a given source vertex to all other vertices.
 - Common algorithms include **Dijkstra's** and **Bellman-Ford**.
 - Measures **time or cost** to reach each node from the source.
-    
 
 ---
 
 ### **Connectivity in Graphs**
 
 - **Matrix Powering**:
-    
     - Raise the **adjacency matrix** to powers to find connectivity (i.e., paths of certain lengths).
-        
 - **Warshall’s Algorithm / Floyd-Warshall Algorithm**:
-    
     - Solves **transitive closure** (reachability) and **all-pairs shortest paths**.
-        
     - Dynamic programming-based approach.
-        
     - Efficient for dense graphs.
-        
 
 ---
 
