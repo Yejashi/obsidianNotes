@@ -526,3 +526,190 @@ Every LP problem consists of:
 |Non-Basic Variable|Starts at 0, used in pivoting|
 |Simplex Algorithm|Moves from corner to corner to find optimum|
 |Interior Point Method|Alternative that moves through interior|
+### Polynomial Multiplication and the Fast Fourier Transform (FFT)
+
+---
+
+### The Problem
+
+You’re given two polynomials:
+
+- A(x)A(x)A(x) and B(x)B(x)B(x), each of degree ≤ nnn
+    
+- Goal: Compute C(x)=A(x)⋅B(x)C(x) = A(x) \cdot B(x)C(x)=A(x)⋅B(x)
+    
+    - C(x)C(x)C(x) will have **degree ≤ 2n**
+        
+
+---
+
+### Direct Polynomial Multiplication
+
+- Multiply term by term:  
+    Each term in AAA gets multiplied by each term in BBB
+    
+- Time complexity:
+    
+    O(n2)O(n^2)O(n2)
+
+---
+
+### Can We Do Better?
+
+Yes — **using the idea of transforming the problem**, just like in classic CS tricks.
+
+### Transform-Based Strategy
+
+We use a general idea:
+
+- Compute y=f(x)y = f(x)y=f(x)
+    
+- Instead of computing fff directly, we use:
+    
+    y=g−1(h(g(x)))y = g^{-1}(h(g(x)))y=g−1(h(g(x)))
+- Where:
+    
+    - ggg = **transform**
+        
+    - hhh = do something easier in transformed space
+        
+    - g−1g^{-1}g−1 = **inverse transform**
+        
+
+**Classic CS Example** (for context):  
+Add two decimal numbers stored in “zoned decimal” format.
+
+- ggg: convert to binary
+    
+- hhh: add
+    
+- g−1g^{-1}g−1: convert back to decimal
+    
+
+---
+
+### Applying This to Polynomials
+
+Let’s define a strategy:
+
+1. **Transform both polynomials into point-value form**: evaluate them at some points
+    
+2. **Multiply the evaluations point-by-point**
+    
+3. **Use inverse transform to get back to coefficients**
+    
+
+---
+
+### Polynomial Evaluation
+
+- A polynomial of degree ddd is fully determined by its values at **d + 1 points**
+    
+- So to multiply A(x)A(x)A(x) and B(x)B(x)B(x) (degree ≤ nnn), we evaluate both at **2n+12n + 12n+1** distinct points
+    
+
+#### Direct Evaluation and Interpolation
+
+- Evaluation = plugging values in: takes O(n)O(n)O(n) per point → O(n2)O(n^2)O(n2) total
+    
+- Interpolation = converting back from point-values to coefficients → also O(n2)O(n^2)O(n2)
+    
+
+> So, **direct evaluation + interpolation is no faster** than multiplying the coefficients.
+
+---
+
+### The Secret: Carefully Chosen Points
+
+- What if we **pick the points** cleverly to take advantage of symmetry?
+    
+- This leads to the **Discrete Fourier Transform (DFT)** and **Fast Fourier Transform (FFT)**
+    
+
+---
+
+### The FFT and DFT
+
+#### What is the DFT?
+
+Given:
+
+- A list of values: a0,a1,...,aN−1a_0, a_1, ..., a_{N-1}a0​,a1​,...,aN−1​
+    
+
+The DFT produces:
+
+Aj=∑k=0N−1ak⋅e−2πijk/NA_j = \sum_{k=0}^{N-1} a_k \cdot e^{-2\pi i jk / N}Aj​=k=0∑N−1​ak​⋅e−2πijk/N
+
+- Think of this as evaluating a polynomial at NNN special points on the **complex unit circle**
+    
+- Those points are:  
+    ω0,ω1,ω2,...,ωN−1\omega^0, \omega^1, \omega^2, ..., \omega^{N-1}ω0,ω1,ω2,...,ωN−1, where  
+    ω=e2πi/N\omega = e^{2\pi i / N}ω=e2πi/N is a **primitive Nth root of unity**
+    
+
+#### Why It Helps
+
+- The trick: those roots of unity have **algebraic symmetry**.
+    
+- Using them lets us evaluate (and interpolate) in **O(Nlog⁡N)O(N \log N)O(NlogN)** time via the **FFT**.
+    
+
+---
+
+### Key Observations
+
+- **DFT = evaluate polynomial at complex roots of unity**
+    
+- **Inverse DFT = interpolate from those values**
+    
+- If NNN is a power of 2, we can:
+    
+    - **Divide** the polynomial into even and odd terms
+        
+    - **Recursively apply FFT**
+        
+    - Combine results using symmetry:
+        
+        T(N)=2T(N/2)+O(N)⇒T(N)=O(Nlog⁡N)T(N) = 2T(N/2) + O(N) \Rightarrow T(N) = O(N \log N)T(N)=2T(N/2)+O(N)⇒T(N)=O(NlogN)
+
+---
+
+### Intuition Behind FFT
+
+Let’s say:
+
+a(x)=a0+a1x+a2x2+⋯+aN−1xN−1a(x) = a_0 + a_1x + a_2x^2 + \cdots + a_{N-1}x^{N-1}a(x)=a0​+a1​x+a2​x2+⋯+aN−1​xN−1
+
+- Instead of plugging in arbitrary values of xxx, we plug in complex roots of unity:
+    
+    x=ωj=e2πij/Nx = \omega^j = e^{2\pi i j / N}x=ωj=e2πij/N
+- Thanks to properties like:
+    
+    ωj+N/2=−ωj\omega^{j+N/2} = -\omega^jωj+N/2=−ωj
+    
+    we can **regroup terms**, **cancel nicely**, and compute recursively.
+    
+
+---
+
+### Final Takeaways
+
+- **Polynomial multiplication** becomes:
+    
+    1. Use FFT to evaluate AAA and BBB
+        
+    2. Multiply the evaluations (component-wise)
+        
+    3. Use inverse FFT to get coefficients of CCC
+        
+- **Time Complexity**:
+    
+    O(Nlog⁡N)(instead of O(N2))O(N \log N) \quad \text{(instead of } O(N^2) \text{)}O(NlogN)(instead of O(N2))
+- **Fine print**:
+    
+    - FFT uses **complex numbers**, which can cause **precision errors**
+        
+    - Often implemented using **sine and cosine** rather than complex exponentials
+      
+      
