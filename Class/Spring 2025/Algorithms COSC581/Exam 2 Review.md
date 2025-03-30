@@ -304,20 +304,15 @@ We reduce the problem to a **maximum flow** problem using a flow network.
 ### Running the Max Flow Algorithm
 
 - Use any **max-flow algorithm** (like Ford-Fulkerson or Edmonds-Karp)
-    
 - Calculate the **maximum flow from sss to ttt**
-    
 
 ---
 
 ### Decision Rule
 
 - If the **max flow equals** the total number of ones (i.e., ∑ri\sum r_i∑ri​), then:
-    
     - ✅ **Yes**, the Boolean matrix **exists**
-        
 - Otherwise:
-    
     - ❌ **No**, such a matrix **does not exist**
         
 
@@ -326,11 +321,8 @@ We reduce the problem to a **maximum flow** problem using a flow network.
 ### Why It Works
 
 - Flow from RiR_iRi​ to CjC_jCj​ means a 1 is placed in position (i,j)(i, j)(i,j)
-    
 - Row sums are enforced by the capacity from sss to rows
-    
 - Column sums are enforced by the capacity from columns to ttt
-    
 - Capacity 1 ensures only 0 or 1 can go through a cell — matching Boolean values
     
 
@@ -342,9 +334,7 @@ Row sums: {2,1}\{2, 1\}{2,1}
 Column sums: {1,1,1}\{1, 1, 1\}{1,1,1}
 
 1. Connect source to row1 (cap 2), row2 (cap 1)
-    
 2. Connect each row to all 3 columns (cap 1)
-    
 3. Connect columns to sink (each cap 1)
     
 
