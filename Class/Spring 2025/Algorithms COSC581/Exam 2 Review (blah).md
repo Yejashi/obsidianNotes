@@ -5,24 +5,16 @@
 ### Greedy Algorithms
 
 - A **greedy algorithm** builds up a solution piece by piece, always choosing the option that looks the best at the moment.
-    
 - **Key property**: It never reconsiders choices; it assumes that by choosing local optimums, it reaches the global optimum.
-    
 - **Often recursive** and fast.
-    
 - Works well for certain optimization problems but doesn’t always give the best solution.
-    
 - **Example**: Huffman Coding — constructs an optimal prefix code based on character frequencies.
-    
 
 ### Huffman Coding
 
 - **Goal**: Efficient data compression.
-    
 - Assigns **shorter codes to more frequent characters**.
-    
 - Saves **20%–90%** in space depending on input distribution.
-    
 - Builds a binary tree where leaf nodes represent characters.
     
 - Constructed using a **greedy algorithm** — combine least frequent elements iteratively.

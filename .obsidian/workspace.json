@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Algorithm Lectures"
             }
+          },
+          {
+            "id": "febf4692c61ea09d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/Exam 2 Review.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Exam 2 Review"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5225eea0dce04548",
@@ -207,12 +222,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f44265b59bd7aaf5",
+  "active": "712e5a1b5efca09a",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Exam 2 Review (blah).md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2 Review (Edited).md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2 Review.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2 Review (blah).md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2 Review (Edited).md",
     "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
     "conflict-files-obsidian-git.md",
