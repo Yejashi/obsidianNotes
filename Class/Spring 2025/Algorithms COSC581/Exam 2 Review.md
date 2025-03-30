@@ -29,19 +29,12 @@
 ---
 
 ### **Graph Algorithms**
-
 - **Graph Representation**:
-    
     - **Adjacency Matrix**: 2D matrix indicating direct connections between vertices.
-        
     - **Adjacency List**: List where each vertex points to a list of connected vertices.
-        
     - **Incident Matrix**:
-        
         - Binary matrix.
-            
         - **Rows** represent **vertices**.
-            
         - **Columns** represent **edges**.
             
 - **Graph Formats**:
