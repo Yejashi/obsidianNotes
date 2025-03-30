@@ -43,8 +43,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,10 +209,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "093d45ce848eee8f",
+  "active": "ab7137cb8f790d52",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
+    "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lectures.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW7/hw_answers.md",
     "conflict-files-obsidian-git.md",
