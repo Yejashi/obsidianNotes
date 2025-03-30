@@ -18,6 +18,21 @@ Greedy Algorithms
 	- Don’t use an adjacency matrix
 	- Use a DIMACS format
 
+Graph Searching
+- Breadth-first search = shortest paths
+	- Left to right
+	- You can have cross-edges
+	- Can’t have back-edges
+- Depth-first search = “deeper” search
+	- Deepest and as fast as you can
+	- No cross-edges
+	- Can have back-edges
+		- Back-edges are cycles
+- Topological Sort
+	- A directed acyclic graph = no cycles
+	- Edges also called arcs
+	- All vertices are arranged on x-axis and will go in that direction
+	- Hypergraph - higher fidelity graph
 
 
 
