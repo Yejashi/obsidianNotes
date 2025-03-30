@@ -138,21 +138,14 @@
 ---
 
 ### **2. Flow Definitions**
-
 - A **flow** is a function f(u,v)f(u, v)f(u,v) assigning a real number (flow value) to each arc such that:
-    
     - **Capacity constraint**: f(u,v)≤c(u,v)f(u, v) \leq c(u, v)f(u,v)≤c(u,v)
-        
     - **Skew symmetry**: f(u,v)=−f(v,u)f(u, v) = -f(v, u)f(u,v)=−f(v,u)
-        
     - **Flow conservation**: For all u≠s,tu \not= s, tu=s,t:
-        
         ∑vf(u,v)=0\sum_{v} f(u, v) = 0v∑​f(u,v)=0
-        
         (i.e., inflow = outflow for all intermediate vertices)
         
 - The **value of a flow** is the **net flow into the sink** (or net out of the source), which remains constant during flow operations.
-    
 
 ---
 
