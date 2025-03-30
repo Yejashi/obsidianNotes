@@ -37,7 +37,9 @@ Graph Searching
 #### Minimum Spanning Trees
 - If trees are connected then it’s a forest
 - Minimum-spanning-tree means that there are edge weights
-- 
+	- To compute the smallest spanning tree you would sort it
+		- If you sort using Prim’s or Kruskal’s algorithm (runs in the O(E log V)
+		- 
 
 
 
