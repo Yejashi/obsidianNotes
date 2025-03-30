@@ -23,11 +23,8 @@
 ### **Coding Theory**
 
 - **Human Error**:
-    
     - Most common source of errors in coding and communication systems.
-        
     - Emphasis on designing codes to **detect and correct** errors caused by human mistakes.
-        
 
 ---
 
