@@ -10,8 +10,8 @@ Greedy Algorithms
 ## Graph Algorithms
 - Represented with adjacency matrix or adjacency list
 - Link list can cause pointers to point to 
-- Incident Matrix
-- Binary matrix
+	- Incident Matrix
+	- Binary matrix
 - Row with each vertex
 - Vertex for every edge
 - Sending graph
