@@ -1,17 +1,13 @@
 ### Greedy Algorithms
-
 - Makes the best local choice at each step, aiming for global optimality.
 - Often recursive and used in optimization problems.
 - May not always give the best solution.
 - **Example**: Huffman Coding (data compression).
 ### Huffman Coding
-
 - Uses variable-length codes for characters.
 - Compresses data efficiently (20%–90%).
 - Builds a binary tree from character frequencies using a greedy algorithm.
-
 ### Coding Theory
-
 - Focuses on detecting and correcting errors in communication.
 - Human error is the most common source of errors.
 
