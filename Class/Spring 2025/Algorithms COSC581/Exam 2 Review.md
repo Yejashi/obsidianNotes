@@ -119,3 +119,224 @@
         `ax^3 + bx^2 + cx + d`
     - Horner’s form:  
         `(((a)x + b)x + c)x + d`
+
+### **Network Flow**
+
+---
+
+### **1. Flow Network Basics**
+
+- A **flow network** is a **directed graph (digraph)** with non-negative arc weights representing **capacities** (i.e., upper bounds on flow).
+    
+- It includes two **special vertices**:
+    
+    - **Source (s)**: Usually has **in-degree 0**; it is the origin of flow.
+        
+    - **Sink (t)**: Usually has **out-degree 0**; it is the destination for flow.
+        
+- A graph is only a flow network if:
+    
+    - It has exactly one **source** and one **sink**.
+        
+    - **Flow conservation** holds:
+        
+        - Total flow out of **source** = total flow into **sink**.
+            
+        - All **intermediate nodes** must have equal incoming and outgoing flow.
+            
+
+---
+
+### **2. Flow Definitions**
+
+- A **flow** is a function f(u,v)f(u, v)f(u,v) assigning a real number (flow value) to each arc such that:
+    
+    - **Capacity constraint**: f(u,v)≤c(u,v)f(u, v) \leq c(u, v)f(u,v)≤c(u,v)
+        
+    - **Skew symmetry**: f(u,v)=−f(v,u)f(u, v) = -f(v, u)f(u,v)=−f(v,u)
+        
+    - **Flow conservation**: For all u≠s,tu \not= s, tu=s,t:
+        
+        ∑vf(u,v)=0\sum_{v} f(u, v) = 0v∑​f(u,v)=0
+        
+        (i.e., inflow = outflow for all intermediate vertices)
+        
+- The **value of a flow** is the **net flow into the sink** (or net out of the source), which remains constant during flow operations.
+    
+
+---
+
+### **3. Augmenting Paths**
+
+- A **path from s to t** along which additional flow can be added.
+    
+- Conditions:
+    
+    - Each edge along the path has **residual capacity** (i.e., not full).
+        
+    - Residual capacity = capacity − current flow.
+        
+- **Augmentation**:
+    
+    - Find a path from **s to t** in the **residual graph**.
+        
+    - Determine the **minimum residual capacity** on that path (called the **bottleneck**).
+        
+    - **Increase the flow** along that path by the bottleneck value.
+        
+- If augmenting paths exist, the system is **not yet stable** (can still increase flow).
+    
+
+---
+
+### **4. Ford-Fulkerson Algorithm**
+
+#### **Goal**: Find the **maximum flow** from sss to ttt.
+
+**Procedure**:
+
+1. **Initialize** all flows to zero.
+    
+2. While an **augmenting path** exists:
+    
+    - Use a **search algorithm** (e.g., DFS or BFS) to find a path in the residual graph.
+        
+    - Identify the **minimum residual capacity** along that path.
+        
+    - **Augment** the flow along the path.
+        
+    - Update the **residual graph**, including adding **backward edges** to allow reversal of previous flow.
+        
+3. **Repeat** until no augmenting path exists.
+    
+
+**Properties**:
+
+- **Flow conservation** is maintained at each step.
+    
+- Algorithm terminates when **no augmenting paths remain**.
+    
+- Runtime depends on path selection:
+    
+    - If using **BFS** for shortest augmenting path, we get the **Edmonds-Karp algorithm**, which runs in:
+        
+        O(VE2)O(VE^2)O(VE2)
+
+---
+
+### **5. Residual Graph**
+
+- A graph showing **available capacities** for further augmentation.
+    
+- Includes:
+    
+    - **Forward edges**: capacity = original capacity − current flow.
+        
+    - **Backward edges**: capacity = current flow (to allow undoing flow).
+        
+- Used to find **augmenting paths** in the Ford-Fulkerson process.
+    
+
+---
+
+### **6. Max-Flow Min-Cut Theorem**
+
+- States that the **maximum flow** from sss to ttt is equal to the **minimum capacity** of a **cut** that separates sss from ttt.
+    
+- A **cut** is a partition of vertices into two disjoint sets:
+    
+    - One containing sss, and the other containing ttt.
+        
+- The **capacity of the cut** is the sum of the capacities of edges going from the source side to the sink side.
+    
+- **Visual metaphor**: A vertical slicing plane that disconnects sss from ttt.
+    
+- This theorem guarantees **optimality** of Ford-Fulkerson's result.
+    
+
+---
+
+### **7. Applications of Network Flow**
+
+---
+
+#### **7.1 Maximum Bipartite Matching**
+
+- **Bipartite Graph**:
+    
+    - Two disjoint sets UUU and VVV.
+        
+    - Edges only go between UUU and VVV, not within.
+        
+- **Goal**: Find the **largest matching** — set of edges with no shared vertices.
+    
+
+**Steps Using Flow Network**:
+
+1. Start with an undirected bipartite graph.
+    
+2. Add a **source sss**, connect it to each node in set UUU.
+    
+3. Add a **sink ttt**, and connect each node in set VVV to it.
+    
+4. Replace undirected edges (u,v)(u, v)(u,v) with **directed arcs u→vu \rightarrow vu→v**.
+    
+5. Set **capacity = 1** for all arcs.
+    
+6. Run **Ford-Fulkerson** to compute max flow.
+    
+7. The value of the flow = **maximum matching size**.
+    
+
+- **Min-Cut Theorem** ensures the matching found is optimal.
+    
+
+---
+
+#### **7.2 Edge Connectivity**
+
+- **Edge Connectivity**: The minimum number of edges that must be removed to **disconnect** the graph.
+    
+
+**Flow-Based Approach**:
+
+1. Convert the undirected graph to a directed graph:
+    
+    - Each edge becomes **two directed arcs** (one in each direction), each with **capacity = 1**.
+        
+2. Choose an arbitrary node as **source (s)**.
+    
+3. For **every other node ttt** in the graph:
+    
+    - Compute the **maximum flow from sss to ttt**.
+        
+4. The **minimum of all max flows** found = the **edge connectivity** of the graph.
+    
+
+**Notes**:
+
+- You don’t have to try every pair of (s,t)(s, t)(s,t).
+    
+    - It’s sufficient to **fix one node as sss** and try all others as ttt, due to symmetry.
+        
+
+---
+
+#### **7.3 All-Pairs Connectivity via Max Flow**
+
+- Goal: Measure **connectivity between every pair** of vertices.
+    
+
+**Procedure**:
+
+1. Convert graph to a **flow network** with **unit capacities**.
+    
+2. For **every pair (a,b)(a, b)(a,b)**:
+    
+    - Treat aaa as source, bbb as sink.
+        
+    - Compute the **maximum flow** from aaa to bbb.
+        
+3. Record the minimum flow among all such pairs — this gives **global connectivity**.
+    
+4. **Important constraint**: You can **reuse vertices**, but not **reuse edges** for the same flow.
