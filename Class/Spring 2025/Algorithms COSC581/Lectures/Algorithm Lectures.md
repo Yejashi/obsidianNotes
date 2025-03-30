@@ -422,3 +422,228 @@ RSA
 - totient of n
 
 
+
+### Lecture 14
+
+### **Complexity Theory**
+
+### **Turing Machines**
+
+- A **Turing Machine** is a theoretical model of computation used to define what can be computed.
+
+- All major models of computation (like lambda calculus, RAM machines) are equivalent in power to Turing Machines.
+    
+- These models can represent **infinite sets** or behaviors using **finite descriptions** (like rules or instructions).
+    
+
+### **What Happens When You Run a Turing Machine?**
+
+When you run a Turing machine, three things can happen:
+
+1. It **halts and accepts** the input (good).
+    
+2. It **halts and rejects** the input.
+    
+3. It **runs forever** (bad — no useful output).
+    
+
+---
+
+### **Recursive vs. Recursively Enumerable Languages**
+
+|Language (L)|Complement (L̅)|Classification|
+|---|---|---|
+|Recursive|Recursive|Both recursive|
+|R.E.|Not R.E.|Complement not R.E.|
+|Not R.E.|Not R.E.|Neither is R.E.|
+
+- A language is **recursive** if there exists a Turing machine that always halts and correctly answers **yes** or **no** for any input.
+    
+- A language is **recursively enumerable (R.E.)** if there's a Turing machine that:
+    
+    - **Halts and accepts** strings in the language.
+        
+    - Might **run forever** on strings not in the language.
+        
+- If a language is recursive, it's also R.E.
+    
+- If a language is R.E., its complement might not be.
+    
+- A language and its complement can't **both** be R.E. unless the language is actually recursive.
+    
+
+---
+
+### **Deterministic vs. Nondeterministic Turing Machines**
+
+|Feature|Deterministic TM|Nondeterministic TM|
+|---|---|---|
+|Behavior|One possible path|Multiple branching paths|
+|Acceptance evidence|Yes|Yes|
+|Time bound known?|Yes|Not necessarily|
+
+---
+
+### **P and NP**
+
+- **P**: Class of problems solvable in **polynomial time** using a **deterministic Turing machine**.
+    
+- **NP**: Class of problems solvable in polynomial time by a **nondeterministic Turing machine**, or equivalently, problems where **given a solution**, we can **verify** it in polynomial time using a deterministic machine.
+    
+
+**P ⊆ NP**, because anything you can do deterministically, you can do nondeterministically.
+
+**Is P = NP?** Nobody knows.
+
+- If **P = NP**, it would mean that all the hard problems in NP can actually be solved efficiently — not just verified.
+    
+
+---
+
+### **NP-Hard and NP-Complete**
+
+- **Polynomial-Time Reducibility (≤ₚ)**:
+    
+    - We say a problem **L reduces to R** if we can transform instances of **L** into instances of **R** using a polynomial-time algorithm.
+        
+    - This shows **R is at least as hard** as **L**.
+        
+    - Important: Reductions are **one-way**, not symmetric.
+        
+- **NP-Hard**:
+    
+    - A problem **R** is NP-Hard if every problem in NP reduces to it.
+        
+    - In other words, R is at least as hard as **every** problem in NP.
+        
+- **NP-Complete**:
+    
+    - A problem is NP-Complete if it is:
+        
+        1. **NP-Hard**
+            
+        2. **Also in NP**
+            
+
+---
+
+### **Boolean Satisfiability (SAT)**
+
+- The **Boolean Satisfiability Problem** (SAT) asks:
+    
+    > Is there a way to assign true/false values to variables in a Boolean formula so that the formula evaluates to **true**?
+    
+- Example:
+
+```
+`(A ∨ B) ∧ (¬A ∨ C)`
+```
+
+- Try assigning A = false, B = true, C = false.
+    
+- (A ∨ B) = true, (¬A ∨ C) = true → formula is **satisfiable**.
+
+- SAT was the **first problem shown to be NP-complete**, by **Stephen Cook** (1971) and independently by **Leonid Levin**. This result is known as the **Cook-Levin Theorem**.
+    
+    - It means that every problem in NP can be **converted into SAT** in polynomial time.
+        
+- SAT is often written in **Conjunctive Normal Form (CNF)**:
+    
+    - A conjunction (AND) of clauses, each of which is a disjunction (OR) of literals (variables or their negations).
+        
+    - Example:
+```
+`(A ∨ ¬B) ∧ (¬A ∨ C ∨ D)`
+```
+
+- **3-SAT** is a special case where each clause has exactly 3 literals.
+    
+    - Even **3-SAT** is NP-complete.
+        
+    - Many NP-completeness proofs reduce from 3-SAT.
+        
+- To prove your own problem is NP-hard, you show that SAT (or 3-SAT or another NP-complete problem) can be transformed into your problem using a polynomial-time reduction.
+  
+#### **Three Notions in Computational Problems**
+
+In complexity theory, many problems can be framed in three related ways: **decision**, **optimization**, and **search**. These are different formulations of the same underlying problem and often relate to one another in interesting ways.
+
+### 1. **Decision Problems**
+
+- These are **yes/no** questions.
+    
+- The core of the **NP** complexity class — NP is defined in terms of decision problems.
+    
+- Solving the decision version can often help solve the other two forms.
+    
+
+### 2. **Optimization Problems**
+
+- Goal is to **maximize or minimize** some objective.
+    
+- Often harder than decision versions because they require finding the **best** among many valid solutions.
+    
+- Typically not in NP unless the optimal solution can be verified efficiently.
+    
+
+### 3. **Search Problems**
+
+- Given that a solution **exists**, find **one** such solution.
+    
+- Search problems often reduce to decision problems by binary search or iterative checking.
+    
+
+---
+
+### **Examples**
+
+#### 1. **Constrained Boolean SAT (e.g., "at most _k_ variables assigned True")**
+
+- **Decision**: Is there an assignment of truth values to variables such that the formula is satisfied **and** at most **k** variables are set to **true**?
+    
+- **Optimization**: What is the **maximum number of clauses** that can be satisfied while keeping at most **k** variables true?
+    
+- **Search**: Given that such an assignment exists, **find** one.
+    
+
+> This version of SAT becomes a type of **constrained optimization** and can be much harder than standard SAT.
+
+---
+
+#### 2. **Longest Path Problem**
+
+- **Definition**: Given a graph and two vertices **s** and **t**, what is the **longest simple path** from **s** to **t** (i.e., no repeated nodes)?
+    
+- **Decision**: Is there a simple path from **s** to **t** of length at least **k**?
+    
+- **Optimization**: What is the **maximum length** of a simple path between **s** and **t**?
+    
+- **Search**: Given a length **k**, **find** such a path if it exists.
+    
+
+> Note: The **longest path problem** in general graphs is **NP-hard** (unlike shortest path which is easy).
+
+---
+
+#### 3. **Vertex Cover**
+
+- **Definition**: A **vertex cover** in a graph is a set of vertices such that every edge has at least one endpoint in the set.
+    
+- **Decision**: Does the graph have a vertex cover of size ≤ **k**?
+    
+- **Optimization**: What is the **minimum size** of a vertex cover?
+    
+- **Search**: **Find** a vertex cover of size ≤ **k**, assuming one exists.
+    
+
+> The decision version of vertex cover is **NP-complete**.
+
+---
+
+### Summary Table
+
+|Problem|Decision Form|Optimization Form|Search Form|
+|---|---|---|---|
+|SAT (k True)|Satisfiable with ≤ k true variables?|Max clauses satisfied under ≤ k true vars|Find satisfying assignment|
+|Longest Path|Path from s to t of length ≥ k?|Longest simple path from s to t|Find a path of length ≥ k|
+|Vertex Cover|Cover of size ≤ k?|Smallest possible vertex cover|Find cover of size ≤ k|
