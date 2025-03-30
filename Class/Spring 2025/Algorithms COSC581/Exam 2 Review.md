@@ -713,3 +713,172 @@ a(x)=a0+a1x+a2x2+⋯+aN−1xN−1a(x) = a_0 + a_1x + a_2x^2 + \cdots + a_{N-1}x^
     - Often implemented using **sine and cosine** rather than complex exponentials
       
       
+### Cryptology
+
+Cryptology is the science of **securing communication** through:
+
+- **Cryptography**: creating secure messages
+    
+- **Cryptanalysis**: breaking or analyzing encrypted messages
+    
+
+---
+
+### The Only Provably Unbreakable Cipher
+
+#### **One-Time Pad**
+
+- You generate a **random bitstream** the same length as your message.
+    
+- Then, you **XOR** the message with the bitstream (pad).
+    
+- **Encryption**:  
+    C=M⊕KC = M \oplus KC=M⊕K (ciphertext = message XOR pad)
+    
+- **Decryption**:  
+    M=C⊕KM = C \oplus KM=C⊕K
+    
+
+**Why it’s secure**:
+
+- If the pad is truly random, never reused, and kept secret, it's **provably unbreakable**.
+    
+
+**Drawbacks**:
+
+- You need a **new random pad for every message**.
+    
+- Requires **secure transmission of the pad**, which defeats the point of encryption if you're not careful.
+    
+
+---
+
+### Number Theory Foundations (used in RSA)
+
+Let m,nm, nm,n be positive integers.
+
+#### **Divisibility**:
+
+- m∣nm \mid nm∣n (read as "m divides n") if:
+    
+    n≡0 (mod m)n \equiv 0 \ (\text{mod } m)n≡0 (mod m)
+    
+    That is, no remainder when nnn is divided by mmm.
+    
+
+#### **Prime Numbers**:
+
+- A number ppp is **prime** if its only positive divisors are **1** and **p**.
+    
+- Otherwise, it's **composite**.
+    
+
+#### **Unique Factorization Theorem (Fundamental Theorem of Arithmetic)**:
+
+- Every integer n>1n > 1n>1 can be uniquely expressed as a product of prime powers:
+    
+    n=p1e1⋅p2e2⋅⋯⋅pkekn = p_1^{e_1} \cdot p_2^{e_2} \cdot \cdots \cdot p_k^{e_k}n=p1e1​​⋅p2e2​​⋅⋯⋅pkek​​
+- Proved by **mathematical induction**.
+    
+- This is **critical** for RSA — factoring large numbers is hard, but multiplication is easy.
+    
+
+---
+
+### There Are Infinitely Many Primes
+
+**Theorem**:
+
+- There are **infinitely many prime numbers**.
+    
+
+**Proof by contradiction (Euclid’s proof)**:
+
+1. Assume there are only finitely many primes: p1,p2,...,pnp_1, p_2, ..., p_np1​,p2​,...,pn​
+    
+2. Let N=p1⋅p2⋅...⋅pn+1N = p_1 \cdot p_2 \cdot ... \cdot p_n + 1N=p1​⋅p2​⋅...⋅pn​+1
+    
+3. NNN is not divisible by any of the primes in the list → contradiction
+    
+4. So there must be more primes → **infinitely many**
+    
+
+---
+
+### Fermat’s Little Theorem
+
+- Let ppp be a **prime** and aaa an integer such that p∤ap \nmid ap∤a, then:
+    
+    ap−1≡1 (mod p)a^{p-1} \equiv 1 \ (\text{mod } p)ap−1≡1 (mod p)
+- This is used in **RSA** to prove correctness of decryption.
+    
+
+---
+
+### RSA Encryption
+
+#### Overview
+
+RSA is a **public-key encryption system** that relies on the difficulty of **factoring large integers**.
+
+---
+
+#### RSA Key Generation
+
+1. **Choose two large primes**:
+    
+    p,qp, qp,q
+2. Compute:
+    
+    n=p⋅qn = p \cdot qn=p⋅q
+    - This is part of the **public key**
+        
+    - It's hard to factor back into ppp and qqq
+        
+3. Compute Euler’s **totient function**:
+    
+    ϕ(n)=(p−1)(q−1)\phi(n) = (p - 1)(q - 1)ϕ(n)=(p−1)(q−1)
+    - This is the number of integers < nnn that are relatively prime to nnn
+        
+4. Choose an **encryption exponent** eee:
+    
+    1<e<ϕ(n),such that gcd⁡(e,ϕ(n))=11 < e < \phi(n), \quad \text{such that } \gcd(e, \phi(n)) = 11<e<ϕ(n),such that gcd(e,ϕ(n))=1
+5. Compute the **decryption exponent** ddd:
+    
+    d≡e−1 (mod ϕ(n))d \equiv e^{-1} \ (\text{mod } \phi(n))d≡e−1 (mod ϕ(n))
+    - This means: d⋅e≡1mod  ϕ(n)d \cdot e \equiv 1 \mod \phi(n)d⋅e≡1modϕ(n)
+        
+
+---
+
+#### RSA Keys
+
+- **Public key**: (e,n)(e, n)(e,n)
+    
+- **Private key**: (d,n)(d, n)(d,n)
+    
+
+---
+
+#### Encryption and Decryption
+
+- **Encrypt a message** MMM (where 0<M<n0 < M < n0<M<n):
+    
+    C=Memod  nC = M^e \mod nC=Memodn
+- **Decrypt the ciphertext**:
+    
+    M=Cdmod  nM = C^d \mod nM=Cdmodn
+
+**Why it works**:
+
+- Based on Fermat's Little Theorem and Euler’s theorem:
+    
+    Med≡M (mod n)M^{ed} \equiv M \ (\text{mod } n)Med≡M (mod n)
+
+---
+
+### Why RSA Is Secure
+
+- The security of RSA relies on the fact that **factoring nnn into ppp and qqq** is **computationally hard** when ppp and qqq are very large (hundreds or thousands of bits).
+    
+- While anyone can see eee and nnn, without knowing ppp and qqq, it's **infeasible to compute ϕ(n)\phi(n)ϕ(n)**, and thus **impossible to compute ddd** efficiently.
