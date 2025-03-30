@@ -78,31 +78,18 @@
 ---
 
 ### **Minimum Spanning Trees (MST)**
-
 - **Definition**: A subset of edges connecting all vertices in a weighted, undirected graph with minimum total edge weight.
-    
 - **If not all vertices are connected**, it’s a **forest**.
-    
 - **Algorithms**:
-    
     - **Kruskal’s Algorithm**:
-        
         - Sorts all edges.
-            
         - Adds the **smallest weight edge** that doesn’t create a cycle.
-            
         - Time complexity: **O(E log V)**.
-            
     - **Prim’s Algorithm**:
-        
         - Starts from a vertex and grows the MST by adding the **cheapest edge** connecting the tree to a new vertex.
-            
         - Skips edges that would form cycles.
-            
         - Also **O(E log V)** using priority queues.
-            
 - **Bandwidth**: Refers to the **longest edge** in the path — often minimized in MST variants.
-    
 
 ---
 
