@@ -34,7 +34,8 @@ Graph Searching
 	- All vertices are arranged on x-axis and will go in that direction
 	- Hypergraph - higher fidelity graph
 
-
+#### Minimum Spanning Trees
+- 
 
 
 
