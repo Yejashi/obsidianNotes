@@ -164,7 +164,7 @@
 
 ### **4. Ford-Fulkerson Algorithm**
 
-#### **Goal**: Find the **maximum flow** from sss to ttt.
+#### **Goal**: Find the **maximum flow** from s to t.
 
 **Procedure**:
 1. **Initialize** all flows to zero.
