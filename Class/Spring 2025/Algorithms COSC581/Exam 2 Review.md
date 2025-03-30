@@ -6,3 +6,5 @@ Greedy Algorithms
 - Used for difficult problem
 
 ### Huffman Coding
+
+## Graph Algorithms
