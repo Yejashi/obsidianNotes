@@ -5,3 +5,4 @@ Greedy Algorithms
 - Often recursive
 - Used for difficult problem
 
+### Huffman Coding
