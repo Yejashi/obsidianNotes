@@ -16,18 +16,13 @@
 - Assigns **shorter codes to more frequent characters**.
 - Saves **20%–90%** in space depending on input distribution.
 - Builds a binary tree where leaf nodes represent characters.
-    
 - Constructed using a **greedy algorithm** — combine least frequent elements iteratively.
-    
 
 ### Coding Theory
 
 - Studies how to detect and correct errors in data transmission.
-    
 - Includes **error-correcting codes** and **error-detecting codes**.
-    
 - **Human error** is the most frequent type; coding theory helps mitigate its effects.
-    
 
 ---
 
@@ -36,84 +31,53 @@
 #### Representations
 
 - **Adjacency Matrix**: $O(V^2)$ space; good for dense graphs.
-    
 - **Adjacency List**: Efficient for sparse graphs.
-    
 - **Incidence Matrix**: Binary matrix; rows = vertices, columns = edges.
-    
 - **DIMACS format**: Standardized format used in competitions and algorithm benchmarks.
-    
 
 #### Search
 
 - **BFS (Breadth-First Search)**:
-    
     - Explores level by level.
-        
     - Finds shortest paths in unweighted graphs.
-        
     - May include **cross-edges** but not **back-edges**.
-        
 - **DFS (Depth-First Search)**:
-    
     - Explores deeply first.
-        
     - Can detect **cycles** via **back-edges**.
-        
     - DFS tree doesn’t include cross-edges.
-        
-
 #### Topological Sort
 
 - Applies to **DAGs (Directed Acyclic Graphs)**.
-    
 - Sorts vertices so for each edge $u \rightarrow v$, $u$ comes before $v$.
-    
 - Used in **task scheduling**, **build systems**, and **dependency resolution**.
-    
 
 #### Hypergraph
 
 - A **hypergraph** allows edges (called **hyperedges**) to connect more than two vertices.
-    
 - Useful for modeling **multi-way relationships**, e.g., in database theory and VLSI design.
-    
 
 ---
 
 ### Minimum Spanning Tree (MST)
 
 - A **spanning tree** connects all vertices with **minimum total edge weight**.
-    
 - Used in network design, clustering, etc.
-    
 - **Prim’s Algorithm**:
-    
     - Grows MST from a start vertex.
-        
     - Selects the **smallest edge** connecting the tree to a new vertex.
-        
 - **Kruskal’s Algorithm**:
-    
     - Sorts all edges by weight.
-        
     - Adds the **next smallest edge** if it doesn’t form a cycle.
-        
     - Both use Union-Find or priority queues; runtime: $O(E \log V)$.
-        
 
 ---
 
 ### Single-Source Shortest Path
 
 - **Goal**: Find shortest path from one vertex to all others.
-    
 - **Dijkstra’s Algorithm**: Efficient for graphs with **non-negative weights**.
-    
 - **Bellman-Ford Algorithm**: Handles graphs with **negative edge weights**.
-    
 - Used in routing protocols, maps, and AI navigation.
-    
 
 ---
 
