@@ -210,82 +210,53 @@
 ---
 
 #### **7.1 Maximum Bipartite Matching**
-
 - **Bipartite Graph**:
-    
     - Two disjoint sets UUU and VVV.
-        
     - Edges only go between UUU and VVV, not within.
-        
 - **Goal**: Find the **largest matching** — set of edges with no shared vertices.
     
 
 **Steps Using Flow Network**:
-
 1. Start with an undirected bipartite graph.
-    
 2. Add a **source sss**, connect it to each node in set UUU.
-    
 3. Add a **sink ttt**, and connect each node in set VVV to it.
-    
 4. Replace undirected edges (u,v)(u, v)(u,v) with **directed arcs u→vu \rightarrow vu→v**.
-    
 5. Set **capacity = 1** for all arcs.
-    
 6. Run **Ford-Fulkerson** to compute max flow.
-    
 7. The value of the flow = **maximum matching size**.
-    
 
 - **Min-Cut Theorem** ensures the matching found is optimal.
-    
 
 ---
 
 #### **7.2 Edge Connectivity**
 
 - **Edge Connectivity**: The minimum number of edges that must be removed to **disconnect** the graph.
-    
 
 **Flow-Based Approach**:
-
 1. Convert the undirected graph to a directed graph:
-    
     - Each edge becomes **two directed arcs** (one in each direction), each with **capacity = 1**.
-        
 2. Choose an arbitrary node as **source (s)**.
-    
 3. For **every other node ttt** in the graph:
-    
     - Compute the **maximum flow from sss to ttt**.
-        
 4. The **minimum of all max flows** found = the **edge connectivity** of the graph.
-    
 
 **Notes**:
-
 - You don’t have to try every pair of (s,t)(s, t)(s,t).
-    
     - It’s sufficient to **fix one node as sss** and try all others as ttt, due to symmetry.
-        
 
 ---
 
 #### **7.3 All-Pairs Connectivity via Max Flow**
 
 - Goal: Measure **connectivity between every pair** of vertices.
-    
 
 **Procedure**:
 
 1. Convert graph to a **flow network** with **unit capacities**.
-    
 2. For **every pair (a,b)(a, b)(a,b)**:
-    
     - Treat aaa as source, bbb as sink.
-        
     - Compute the **maximum flow** from aaa to bbb.
-        
 3. Record the minimum flow among all such pairs — this gives **global connectivity**.
-    
 4. **Important constraint**: You can **reuse vertices**, but not **reuse edges** for the same flow.
+
