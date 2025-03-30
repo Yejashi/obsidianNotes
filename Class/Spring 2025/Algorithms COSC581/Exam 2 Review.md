@@ -340,3 +340,189 @@ Column sums: {1,1,1}\{1, 1, 1\}{1,1,1}
 
 If the max flow is 3, the matrix exists.
 
+### Linear Programming
+
+---
+
+### What is Linear Programming?
+
+- **"Programming"** here is an old term that means **"planning"** or **"solving by tabulation."**
+    
+- A type of **Mathematical Optimization** that deals with:
+    
+    - **Numerical (not categorical)** variables
+        
+    - Finding the **best outcome** (max or min) under a set of constraints
+        
+
+---
+
+### Types of Mathematical Programming
+
+- **Linear Programming (LP)** – all relationships are linear
+    
+- **Quadratic Programming** – involves squared terms
+    
+- **Nonlinear Programming** – nonlinear relationships
+    
+- **Dynamic Programming** – solves problems by breaking them down recursively
+    
+
+---
+
+### General LP Framework
+
+Every LP problem consists of:
+
+1. **Variables**: x1,x2,…,xnx_1, x_2, \ldots, x_nx1​,x2​,…,xn​
+    
+2. **Objective Function**:
+    
+    - A linear function to **maximize** or **minimize**  
+        Example: Maximize 3x1+5x23x_1 + 5x_23x1​+5x2​
+        
+3. **Constraints**:
+    
+    - Restrictions on variable values, written as **linear inequalities or equalities**  
+        Example:  
+        x1+x2≤5x_1 + x_2 \leq 5x1​+x2​≤5  
+        x1≥0,x2≥0x_1 \geq 0, x_2 \geq 0x1​≥0,x2​≥0
+        
+
+> All relationships in LP must be **linear** — no squares, products, logs, etc.
+
+---
+
+### Standard Form vs. Slack Form
+
+#### Standard Form:
+
+- All constraints are **“≤”** inequalities.
+    
+- Objective is to **maximize**.
+    
+- All variables ≥0\geq 0≥0.
+    
+
+#### Slack Form:
+
+- Inequalities are turned into **equalities** by adding **slack variables**.
+    
+- Example:
+    
+    x1+x2≤5⇒x1+x2+s1=5x_1 + x_2 \leq 5 \quad \Rightarrow \quad x_1 + x_2 + s_1 = 5x1​+x2​≤5⇒x1​+x2​+s1​=5
+    - s1s_1s1​ is a **slack variable** representing unused space.
+        
+
+#### Terms:
+
+- **Basic variables**: Start on the **left** of the equations (e.g., slack variables).
+    
+- **Non-basic variables**: On the **right**; initially set to **0**.
+    
+
+---
+
+### Types of Solutions
+
+- **Feasible Solution**: Satisfies **all constraints**.
+    
+- **Infeasible Solution**: Violates **at least one constraint**.
+    
+- **Optimal Solution**: A feasible solution with the **best objective value** (max or min).
+    
+
+---
+
+### Visualizing LP in 2D (Simplex Geometry)
+
+- Constraints form **cutting planes** that define a **feasible region** (a polygon or polyhedron).
+    
+- In 2D, this region looks like a **shaded polygon**.
+    
+- The **Simplex Algorithm** explores **corners (vertices)** of this region.
+    
+
+---
+
+### The Simplex Algorithm
+
+- A popular method for solving LP problems.
+    
+- Works by:
+    
+    1. Starting at a **corner point** of the feasible region.
+        
+    2. Checking **adjacent corners** to see if the objective improves.
+        
+    3. **Moving** to a better corner until none improve.
+        
+- Guarantees the optimum is at one of the **vertices**.
+    
+- **Usually fast in practice**, even though there are rare worst-case examples where it's slow.
+    
+
+---
+
+### Why the Simplex Works
+
+- The feasible region (solution space) is a **convex polytope**.
+    
+- The **optimum** of a linear function over a convex shape lies at one of the **vertices**.
+    
+- Simplex moves from one vertex to another, improving the objective each time.
+    
+
+---
+
+### Pivoting in Simplex
+
+- **Pivot step**: Choose a non-basic variable (currently zero) to **increase**.
+    
+- Increase until it hits a constraint (becomes "tight").
+    
+- One basic variable will become non-basic (swap roles).
+    
+- Repeat until no improvement possible.
+    
+
+---
+
+### Interior-Point Methods
+
+- An alternative to Simplex, especially good for **very large problems**.
+    
+- Works by moving **inside** the feasible region rather than along its edges.
+    
+- Often **faster than Simplex** in high-dimensional cases.
+    
+- Not used as often in small/medium LP problems.
+    
+
+---
+
+### Integer Linear Programming (ILP)
+
+- When variables must take **integer values**.
+    
+- Much harder — **NP-complete**.
+    
+- You lose the ability to use techniques like Simplex directly.
+    
+- LP is "easy", but ILP is **computationally expensive**.
+    
+
+---
+
+### Summary
+
+|Concept|Meaning|
+|---|---|
+|Objective Function|The function you want to maximize or minimize|
+|Constraints|Rules the solution must follow|
+|Feasible Region|Set of all solutions that satisfy constraints|
+|Slack Variable|Added to turn inequalities into equalities|
+|Basic Variable|Initially has a value (like slack)|
+|Non-Basic Variable|Starts at 0, used in pivoting|
+|Simplex Algorithm|Moves from corner to corner to find optimum|
+|Interior Point Method|Alternative that moves through interior|
