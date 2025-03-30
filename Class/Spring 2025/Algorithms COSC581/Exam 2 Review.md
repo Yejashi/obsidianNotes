@@ -61,19 +61,12 @@
 ---
 
 ### **Topological Sort**
-
 - **Graph Type**: Works on **Directed Acyclic Graphs (DAGs)**.
-    
 - **Goal**: Linearly order vertices such that for every directed edge `u → v`, vertex `u` comes before `v`.
-    
 - **Edge Terminology**: Directed edges are also known as **arcs**.
-    
 - **Visualization**:
-    
     - Vertices arranged along the x-axis to represent flow.
-        
 - **Use Case**: Task scheduling, dependency resolution.
-    
 
 ---
 
