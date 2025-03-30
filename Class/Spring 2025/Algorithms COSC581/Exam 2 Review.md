@@ -185,34 +185,23 @@
 ---
 
 ### **5. Residual Graph**
-
 - A graph showing **available capacities** for further augmentation.
-    
 - Includes:
-    
     - **Forward edges**: capacity = original capacity − current flow.
-        
     - **Backward edges**: capacity = current flow (to allow undoing flow).
         
 - Used to find **augmenting paths** in the Ford-Fulkerson process.
-    
 
 ---
 
 ### **6. Max-Flow Min-Cut Theorem**
 
 - States that the **maximum flow** from sss to ttt is equal to the **minimum capacity** of a **cut** that separates sss from ttt.
-    
 - A **cut** is a partition of vertices into two disjoint sets:
-    
     - One containing sss, and the other containing ttt.
-        
 - The **capacity of the cut** is the sum of the capacities of edges going from the source side to the sink side.
-    
 - **Visual metaphor**: A vertical slicing plane that disconnects sss from ttt.
-    
 - This theorem guarantees **optimality** of Ford-Fulkerson's result.
-    
 
 ---
 
