@@ -39,7 +39,6 @@
 - **Graph Formats**:
     - Avoid adjacency matrix for **sparse or large graphs**.
     - Use **DIMACS format** for input/output in standardized graph algorithm problems.
-        
 
 ---
 
