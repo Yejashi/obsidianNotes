@@ -36,6 +36,7 @@ Graph Searching
 
 #### Minimum Spanning Trees
 - If trees are connected then it’s a forest
+- Minimum-spanning-tree means that there are edge weights
 - 
 
 
