@@ -26,14 +26,10 @@
 - **DFS**: Explores deeply first; allows back-edges (indicating cycles), no cross-edges.
 
 #### Topological Sort
-
 - Works on DAGs (Directed Acyclic Graphs).
-    
 - Orders nodes such that for every edge u → v, u comes before v.
-    
 
 #### Hypergraph
-
 - A general graph where an edge (hyperedge) can connect more than two vertices.
     
 
