@@ -150,25 +150,15 @@
 ---
 
 ### **3. Augmenting Paths**
-
 - A **path from s to t** along which additional flow can be added.
-    
 - Conditions:
-    
     - Each edge along the path has **residual capacity** (i.e., not full).
-        
     - Residual capacity = capacity − current flow.
-        
 - **Augmentation**:
-    
     - Find a path from **s to t** in the **residual graph**.
-        
     - Determine the **minimum residual capacity** on that path (called the **bottleneck**).
-        
     - **Increase the flow** along that path by the bottleneck value.
-        
 - If augmenting paths exist, the system is **not yet stable** (can still increase flow).
-    
 
 ---
 
@@ -177,32 +167,19 @@
 #### **Goal**: Find the **maximum flow** from sss to ttt.
 
 **Procedure**:
-
 1. **Initialize** all flows to zero.
-    
 2. While an **augmenting path** exists:
-    
     - Use a **search algorithm** (e.g., DFS or BFS) to find a path in the residual graph.
-        
     - Identify the **minimum residual capacity** along that path.
-        
     - **Augment** the flow along the path.
-        
     - Update the **residual graph**, including adding **backward edges** to allow reversal of previous flow.
-        
 3. **Repeat** until no augmenting path exists.
-    
 
 **Properties**:
-
 - **Flow conservation** is maintained at each step.
-    
 - Algorithm terminates when **no augmenting paths remain**.
-    
 - Runtime depends on path selection:
-    
     - If using **BFS** for shortest augmenting path, we get the **Edmonds-Karp algorithm**, which runs in:
-        
         O(VE2)O(VE^2)O(VE2)
 
 ---
