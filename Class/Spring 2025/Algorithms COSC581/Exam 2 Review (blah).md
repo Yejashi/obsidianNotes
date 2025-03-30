@@ -84,30 +84,20 @@
 ### Connectivity in Graphs
 
 - **Matrix Powering**:
-    
     - Repeated multiplication of the **adjacency matrix** finds reachability.
-        
 - **Floyd-Warshall Algorithm**:
-    
     - Computes **all-pairs shortest paths**.
-        
     - Dynamic programming algorithm.
-        
     - Useful for dense graphs; runs in $O(V^3)$.
-        
 
 ---
 
 ### Horner's Rule
 
 - Efficient polynomial evaluation using nested multiplication.
-    
 - Example:
-    
     - $ax^3 + bx^2 + cx + d$ becomes $(((a)x + b)x + c)x + d$.
-        
 - Reduces number of operations from $O(n^2)$ to $O(n)$.
-    
 
 ---
 
@@ -116,43 +106,29 @@
 #### Flow Network Basics
 
 - A **flow network** is a directed graph with capacities.
-    
 - Has a **source (s)** and **sink (t)**.
-    
 - Must obey:
-    
     - **Capacity constraint**: $0 \leq f(u,v) \leq c(u,v)$
-        
     - **Skew symmetry**: $f(u,v) = -f(v,u)$
-        
     - **Flow conservation**: Sum of inflow = outflow at intermediate nodes.
-        
 
 #### Augmenting Paths
 
 - Path from $s$ to $t$ where additional flow can be pushed.
-    
 - Use **residual graph** (remaining capacity).
-    
 - Flow is increased along the bottleneck (minimum capacity on the path).
-    
 
 #### Ford-Fulkerson Algorithm
 
 1. Start with 0 flow.
-    
 2. While an augmenting path exists, augment flow.
-    
 3. Update residual graph.
-    
 
 - **Edmonds-Karp** version uses BFS: $O(VE^2)$.
-    
 
 #### Max-Flow Min-Cut Theorem
 
 - Maximum flow from $s$ to $t$ equals the **minimum cut capacity** that separates $s$ and $t$.
-    
 
 ---
 
