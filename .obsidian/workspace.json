@@ -25,12 +25,12 @@
             "id": "22765093060fb730",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "excalidraw",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md"
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-18 11.17.05.excalidraw"
             }
           }
         ],
@@ -200,8 +200,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "97254f5941b2bdcf",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
+    "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "Research/Tools/Dyninst/Dyninst General.md",
     "Research/Tools/Dyninst",
@@ -210,7 +212,6 @@
     "Meta/Attachments/Pasted image 20250312135412.png",
     "Meta/Attachments/Pasted image 20250312134316.png",
     "Meta/Attachments/Pasted image 20250312123144.png",
-    "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW7/hw_answers.md",
@@ -246,7 +247,6 @@
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 3.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Lecture 2.md",
     "Research/LLNL Project/Objectives.md",
-    "Research/LLNL Project/Misc.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md"
+    "Research/LLNL Project/Misc.md"
   ]
 }
