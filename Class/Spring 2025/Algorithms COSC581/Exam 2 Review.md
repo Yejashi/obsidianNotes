@@ -35,6 +35,7 @@ Graph Searching
 	- Hypergraph - higher fidelity graph
 
 #### Minimum Spanning Trees
+- If trees are connected then it’s a forest
 - 
 
 
