@@ -9,19 +9,12 @@
 ---
 
 ### **Huffman Codes**
-
 - **Purpose**: Data compression technique using variable-length codes for different characters.
-    
 - **Compression Efficiency**:
-    
     - Saves **20% to 90%** in space, depending on the frequency distribution of input data.
-        
 - **Algorithmic Approach**:
-    
     - Uses a **greedy algorithm** to construct the code tree.
-        
     - Builds the **Huffman tree from the bottom up**, starting with the least frequent characters.
-        
 
 ---
 
