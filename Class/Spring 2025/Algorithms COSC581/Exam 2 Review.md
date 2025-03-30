@@ -268,21 +268,14 @@
 ### What’s the Problem?
 
 You’re given:
-
 - A list of **row sums**: {r1,r2,...,rm}\{r_1, r_2, ..., r_m\}{r1​,r2​,...,rm​}
-    
 - A list of **column sums**: {c1,c2,...,cn}\{c_1, c_2, ..., c_n\}{c1​,c2​,...,cn​}
-    
 - Where:
-    
     ∑ri=∑cj\sum r_i = \sum c_j∑ri​=∑cj​
 
 **Goal**: Decide if there's a Boolean matrix (only 0s and 1s) of size m×nm \times nm×n such that:
-
 - Each row iii has exactly rir_iri​ ones.
-    
 - Each column jjj has exactly cjc_jcj​ ones.
-    
 
 ---
 
@@ -293,29 +286,18 @@ We reduce the problem to a **maximum flow** problem using a flow network.
 #### Step-by-Step:
 
 1. **Create a Bipartite Graph**:
-    
     - Left side: one node for each row R1,R2,...,RmR_1, R_2, ..., R_mR1​,R2​,...,Rm​
-        
     - Right side: one node for each column C1,C2,...,CnC_1, C_2, ..., C_nC1​,C2​,...,Cn​
-        
     - Connect each row to every column (complete bipartite graph)
         
 2. **Add Source and Sink**:
-    
     - Add a **source node** sss
-        
         - Connect s→Ris \rightarrow R_is→Ri​ with capacity rir_iri​
-            
     - Add a **sink node** ttt
-        
         - Connect Cj→tC_j \rightarrow tCj​→t with capacity cjc_jcj​
-            
 3. **Connect Rows to Columns**:
-    
     - For every possible matrix cell (i,j)(i, j)(i,j), add an edge:
-        
         - Ri→CjR_i \rightarrow C_jRi​→Cj​ with **capacity 1**
-            
 
 ---
 
