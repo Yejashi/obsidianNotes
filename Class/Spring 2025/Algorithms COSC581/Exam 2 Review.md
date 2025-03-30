@@ -261,5 +261,110 @@
 4. **Important constraint**: You can **reuse vertices**, but not **reuse edges** for the same flow.
 
 
+### Boolean Matrix Decidability
 
+---
+
+### What’s the Problem?
+
+You’re given:
+
+- A list of **row sums**: {r1,r2,...,rm}\{r_1, r_2, ..., r_m\}{r1​,r2​,...,rm​}
+    
+- A list of **column sums**: {c1,c2,...,cn}\{c_1, c_2, ..., c_n\}{c1​,c2​,...,cn​}
+    
+- Where:
+    
+    ∑ri=∑cj\sum r_i = \sum c_j∑ri​=∑cj​
+
+**Goal**: Decide if there's a Boolean matrix (only 0s and 1s) of size m×nm \times nm×n such that:
+
+- Each row iii has exactly rir_iri​ ones.
+    
+- Each column jjj has exactly cjc_jcj​ ones.
+    
+
+---
+
+### Turning It Into a Flow Problem
+
+We reduce the problem to a **maximum flow** problem using a flow network.
+
+#### Step-by-Step:
+
+1. **Create a Bipartite Graph**:
+    
+    - Left side: one node for each row R1,R2,...,RmR_1, R_2, ..., R_mR1​,R2​,...,Rm​
+        
+    - Right side: one node for each column C1,C2,...,CnC_1, C_2, ..., C_nC1​,C2​,...,Cn​
+        
+    - Connect each row to every column (complete bipartite graph)
+        
+2. **Add Source and Sink**:
+    
+    - Add a **source node** sss
+        
+        - Connect s→Ris \rightarrow R_is→Ri​ with capacity rir_iri​
+            
+    - Add a **sink node** ttt
+        
+        - Connect Cj→tC_j \rightarrow tCj​→t with capacity cjc_jcj​
+            
+3. **Connect Rows to Columns**:
+    
+    - For every possible matrix cell (i,j)(i, j)(i,j), add an edge:
+        
+        - Ri→CjR_i \rightarrow C_jRi​→Cj​ with **capacity 1**
+            
+
+---
+
+### Running the Max Flow Algorithm
+
+- Use any **max-flow algorithm** (like Ford-Fulkerson or Edmonds-Karp)
+    
+- Calculate the **maximum flow from sss to ttt**
+    
+
+---
+
+### Decision Rule
+
+- If the **max flow equals** the total number of ones (i.e., ∑ri\sum r_i∑ri​), then:
+    
+    - ✅ **Yes**, the Boolean matrix **exists**
+        
+- Otherwise:
+    
+    - ❌ **No**, such a matrix **does not exist**
+        
+
+---
+
+### Why It Works
+
+- Flow from RiR_iRi​ to CjC_jCj​ means a 1 is placed in position (i,j)(i, j)(i,j)
+    
+- Row sums are enforced by the capacity from sss to rows
+    
+- Column sums are enforced by the capacity from columns to ttt
+    
+- Capacity 1 ensures only 0 or 1 can go through a cell — matching Boolean values
+    
+
+---
+
+### Example
+
+Row sums: {2,1}\{2, 1\}{2,1}  
+Column sums: {1,1,1}\{1, 1, 1\}{1,1,1}
+
+1. Connect source to row1 (cap 2), row2 (cap 1)
+    
+2. Connect each row to all 3 columns (cap 1)
+    
+3. Connect columns to sink (each cap 1)
+    
+
+If the max flow is 3, the matrix exists.
 
