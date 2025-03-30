@@ -1,16 +1,10 @@
 ### **Greedy Algorithms**
 - **Definition**: An algorithmic paradigm that makes the locally optimal choice at each step with the hope of finding the global optimum.
-    
 - **Nature**:
-    
     - Often **recursive** in design.
-        
     - Effective for **optimization problems**.
-        
     - Not guaranteed to provide the best solution in all cases but works well for certain problems.
-        
 - **Key Use Case**: Huffman Coding.
-    
 
 ---
 
