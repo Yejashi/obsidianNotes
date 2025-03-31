@@ -23,7 +23,8 @@ Design a Huffman Code for a text file.
 ### Network Flow
 Given an adjacency matrix, use network flow (maximum flow) to find a perfect bipartite matching.
 
-[How to do it](https://www.youtube.com/watch?v=HWHjQdNC-7Y&t=131s)
+[How to do it: 1](https://www.youtube.com/watch?v=HWHjQdNC-7Y&t=131s)
+[How to do it: 2](https://www.youtube.com/watch?v=HWHjQdNC-7Y&t=131s)
 
 [Maximum Flow with Ford Fulkerson ](https://www.youtube.com/watch?v=HWHjQdNC-7Y&t=131s)
 
