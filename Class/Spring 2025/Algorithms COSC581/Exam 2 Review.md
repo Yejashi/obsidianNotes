@@ -127,6 +127,19 @@ This is just a grid (matrix) where:
 
 **Example:**
 
+```
+A -- B
+|
+C
+
+Adjacency matrix:
+   A B C
+A [0 1 1]
+B [1 0 0]
+C [1 0 0]
+
+```
+
 ---
 
 ### **Horner's Rule**
