@@ -109,7 +109,6 @@
     - Dynamic programming-based approach.
     - Efficient for dense graphs.
 
-#### 🔗 **Connectivity in Graphs**
 
 This just means: can you get from one node (vertex) in a graph to another?
 
@@ -123,11 +122,8 @@ Every graph can be represented by an **adjacency matrix**.
 This is just a grid (matrix) where:
 
 - Each row/column represents a node.
-    
 - A `1` means there’s a direct edge (connection) between the nodes.
-    
 - A `0` means no direct connection.
-    
 
 **Example:**
 
