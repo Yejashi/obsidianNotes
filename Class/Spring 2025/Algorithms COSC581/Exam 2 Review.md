@@ -140,7 +140,51 @@ C [1 0 0]
 
 ```
 
+Now here's the trick:
 
+- If you **raise** this matrix to a power, like A2A^2A2, you get info about paths of **length 2**.
+    
+- A3A^3A3 gives info about paths of **length 3**, and so on.
+    
+
+So, **matrix powering helps find if paths of a certain length exist** between nodes.
+
+---
+
+#### ⚡ **Warshall’s Algorithm / Floyd-Warshall Algorithm**
+
+Let’s split these:
+
+##### ✅ Warshall's Algorithm
+
+- Solves **transitive closure**:  
+    Can you **reach** one node from another, ignoring path length?
+    
+- It updates the matrix so that if you can go from A to B, and B to C, it marks that A can go to C too.
+    
+
+> It's like checking all possible "friend of a friend" connections.
+
+##### 🛣️ Floyd-Warshall Algorithm
+
+- Does a bit more: it finds the **shortest paths between all pairs of nodes**.
+    
+- Still works with matrices.
+    
+- Uses **dynamic programming** (breaking down the problem into smaller subproblems and solving them efficiently).
+    
+
+> Best when you have a **dense graph** (many edges), because it looks at all possible connections.
+
+---
+
+#### 📋 Summary
+
+| Concept              | What it does                                   | Useful for…              |
+| -------------------- | ---------------------------------------------- | ------------------------ |
+| Matrix Powering      | Finds if paths of certain lengths exist        | Connectivity over steps  |
+| Warshall’s Algorithm | Finds if you can reach any node from any other | General reachability     |
+| Floyd-Warshall       | Finds shortest paths between all pairs         | All-pairs shortest paths |
 
 ---
 
