@@ -177,7 +177,7 @@ Let’s split these:
 
 ---
 
-### **Horner's Rule**
+### **Horner's Rule** [IFFY]
 - **Purpose**: Efficient polynomial evaluation.
 - **Method**: Parentheses are added strategically to reduce the number of operations.
 - **Example**:
