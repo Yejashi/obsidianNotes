@@ -4,61 +4,86 @@
     "type": "split",
     "children": [
       {
-        "id": "854769ea3b9a42c2",
+        "id": "9071388b54775497",
         "type": "tabs",
         "children": [
           {
-            "id": "9947f52fec5b1bb9",
+            "id": "f44265b59bd7aaf5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/simplex example.md",
+                "file": "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "simplex example"
+              "title": "Algorithm Lectures"
             }
           },
           {
-            "id": "fa028037c67a91ef",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "textbook_algorithms"
-            }
-          },
-          {
-            "id": "e99d99389973c78c",
+            "id": "febf4692c61ea09d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
+                "file": "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class Review"
+              "title": "Exam 2 Review"
             }
           },
           {
-            "id": "a1dae9c78c028910",
+            "id": "ae16a1eb5df6f444",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Prev Exam Topics"
             }
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "5225eea0dce04548",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "712e5a1b5efca09a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Exam 1 Review"
+            }
+          },
+          {
+            "id": "36ac7bae498cbfe5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "exam2_1"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "disable",
+                "query": "connected graph",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 290.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -192,6 +217,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "afc91e3d01671c9e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
         "currentTab": 4
@@ -202,19 +237,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-projects:Open projects": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-<<<<<<< HEAD
   "floating": {
     "id": "fe49cf8b4c262bf5",
     "type": "floating",
@@ -256,63 +290,51 @@
   },
   "active": "ae16a1eb5df6f444",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Deep Research.md",
-=======
-  "active": "e99d99389973c78c",
-  "lastOpenFiles": [
-    "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
-    "conflict-files-obsidian-git.md",
-    "Excalidraw/Drawing 2025-03-31 09.27.51.excalidraw.md",
->>>>>>> origin/main
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (blah).md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (Edited).md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Deep Research.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2",
+    "Excalidraw/Drawing 2025-03-31 09.27.51.excalidraw.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (Edited).md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy (edited).md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Resource Query.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy (edited).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project",
     "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lectures.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW7/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions",
-    "Research/Tools/Dyninst/Dyninst General.md",
-    "Research/Tools/Dyninst",
-    "Research/Tools",
     "Meta/Attachments/Pasted image 20250312153906.png",
     "Meta/Attachments/Pasted image 20250312135412.png",
     "Meta/Attachments/Pasted image 20250312134316.png",
     "Meta/Attachments/Pasted image 20250312123144.png",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW7/hw_answers.md",
+    "Research/Tools/Dyninst/Dyninst General.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW7",
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6/cs581_spring_2025_hw6-update-v2.pdf",
-    "Class/Spring 2025/Algorithms COSC581/simplex example.md",
-<<<<<<< HEAD
-    "Junk.md",
-=======
+    "Research/Papers/Dynist/Dyninst paper.md",
+    "Research/Tools/Dyninst",
+    "Research/Tools",
+    "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
+    "Research/Projects/SBM/General Comments.md",
     "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
->>>>>>> origin/main
+    "Excalidraw/Drawing 2025-03-05 13.13.03.excalidraw.md",
+    "Class/Spring 2025/Algorithms COSC581/simplex example.md",
+    "Junk.md",
     "Meta/Attachments/Pasted image 20250305160052.png",
     "Meta/Attachments/Pasted image 20250305160028.png",
     "Meta/Attachments/Pasted image 20250305143833.png",
     "Meta/Attachments/Pasted image 20250305123601.png",
-    "Excalidraw/Drawing 2025-03-05 15.49.47.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-05 13.13.03.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
-    "Research/Projects/SBM/General Comments.md",
     "Meta/Attachments/Pasted image 20250218042134.png",
-    "Meta/Attachments/Pasted image 20250218041821.png",
-    "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md"
+    "Meta/Attachments/Pasted image 20250218041821.png"
   ]
 }
