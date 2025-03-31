@@ -14,3 +14,5 @@ FFT
 - Power Spectrum
 	- transfer from the frequency domain to the time domain
 - Square thing
+
+BFS tree DFS tree
