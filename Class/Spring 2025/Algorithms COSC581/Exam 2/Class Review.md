@@ -11,3 +11,4 @@ co prime smaller than 20
 FFT
 - symmetry
 - 3rd edition 906-908
+- Power Spectrum
