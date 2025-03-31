@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
+                "file": "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Presentations"
+              "title": "Class Review"
             }
           },
           {
@@ -214,9 +214,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "e99d99389973c78c",
   "lastOpenFiles": [
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
     "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2025-03-31 09.27.51.excalidraw.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
@@ -260,7 +261,6 @@
     "Research/Projects/SBM/General Comments.md",
     "Meta/Attachments/Pasted image 20250218042134.png",
     "Meta/Attachments/Pasted image 20250218041821.png",
-    "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md"
+    "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md"
   ]
 }
