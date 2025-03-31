@@ -48,6 +48,20 @@
             }
           },
           {
+            "id": "256e3e1c44c3533b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
             "id": "a1dae9c78c028910",
             "type": "leaf",
             "state": {
@@ -58,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -198,8 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,20 +224,31 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e99d99389973c78c",
+  "active": "256e3e1c44c3533b",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
+    "conflict-files-obsidian-git.md",
+    "Excalidraw/Drawing 2025-03-31 09.27.51.excalidraw.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (blah).md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (Edited).md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Deep Research.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy (edited).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Resource Query.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project",
     "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
-    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions",
     "Research/Tools/Dyninst/Dyninst General.md",
     "Research/Tools/Dyninst",
@@ -236,11 +260,8 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW7/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW7",
     "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6/cs581_spring_2025_hw6-update-v2.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Homeworks/HW6",
-    "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
     "Class/Spring 2025/Algorithms COSC581/simplex example.md",
     "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
-    "Class/Spring 2025/Algorithms COSC581/Alg Final Project",
     "Meta/Attachments/Pasted image 20250305160052.png",
     "Meta/Attachments/Pasted image 20250305160028.png",
     "Meta/Attachments/Pasted image 20250305143833.png",
@@ -249,18 +270,11 @@
     "Excalidraw/Drawing 2025-03-05 13.13.03.excalidraw.md",
     "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6",
     "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
     "Research/Projects/SBM/General Comments.md",
     "Meta/Attachments/Pasted image 20250218042134.png",
     "Meta/Attachments/Pasted image 20250218041821.png",
     "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW2/hw2_answers.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Book/Graph Algorithms Glossary.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lectures.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 1.md",
-    "Class/Spring 2025/Algorithms COSC581/Book/Chapter 3.md"
+    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md"
   ]
 }
