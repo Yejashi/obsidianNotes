@@ -141,8 +141,8 @@ C [1 0 0]
 ```
 
 Now here's the trick:
-- If you **raise** this matrix to a power, like A2A^2A2, you get info about paths of **length 2**.
-- A3A^3A3 gives info about paths of **length 3**, and so on.
+- If you **raise** this matrix to a power, like A^2, you get info about paths of **length 2**.
+-A^3 gives info about paths of **length 3**, and so on.
 
 So, **matrix powering helps find if paths of a certain length exist** between nodes.
 
