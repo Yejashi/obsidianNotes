@@ -262,7 +262,7 @@ Let’s split these:
 
 ### **6. Max-Flow Min-Cut Theorem**
 
-- States that the **maximum flow** from sss to ttt is equal to the **minimum capacity** of a **cut** that separates sss from ttt.
+- States that the **maximum flow** from s to t is equal to the **minimum capacity** of a **cut** that separates s from t.
 - A **cut** is a partition of vertices into two disjoint sets:
     - One containing sss, and the other containing ttt.
 - The **capacity of the cut** is the sum of the capacities of edges going from the source side to the sink side.
