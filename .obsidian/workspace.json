@@ -55,8 +55,21 @@
               "icon": "lucide-file",
               "title": "Exam 2 Review (blah)"
             }
+          },
+          {
+            "id": "13bf394eddbd4100",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-31 09.27.51.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-31 09.27.51.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,10 +235,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "13bf394eddbd4100",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Exam 2 Review (blah).md",
     "conflict-files-obsidian-git.md",
+    "Excalidraw/Drawing 2025-03-31 09.27.51.excalidraw.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2 Review (blah).md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2 Deep Research.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2 Review (Edited).md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2 Review.md",
@@ -267,7 +281,6 @@
     "Meta/Attachments/Pasted image 20250305143833.png",
     "Meta/Attachments/Pasted image 20250305123601.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6",
-    "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
     "Meta/Attachments/Pasted image 20250218042134.png",
     "Meta/Attachments/Pasted image 20250218041821.png"
   ]
