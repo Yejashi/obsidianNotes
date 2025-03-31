@@ -6,3 +6,8 @@ Simplex Problem
 RSA
 get totient
 co prime smaller than 20
+
+
+FFT
+- symmetry
+- 
