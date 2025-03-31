@@ -4,3 +4,4 @@ Simplex Problem
 - When all coefficients are negative, it's maximized
 
 RSA
+get totient
