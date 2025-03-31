@@ -69,8 +69,21 @@
               "icon": "lucide-file",
               "title": "Exam 1 Review"
             }
+          },
+          {
+            "id": "36ac7bae498cbfe5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "exam2_1"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -236,13 +249,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ae16a1eb5df6f444",
+  "active": "36ac7bae498cbfe5",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Deep Research.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Deep Research.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (blah).md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2",
@@ -277,7 +290,6 @@
     "Class/Spring 2025/Algorithms COSC581/simplex example.md",
     "Junk.md",
     "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
     "Meta/Attachments/Pasted image 20250305160052.png",
     "Meta/Attachments/Pasted image 20250305160028.png",
     "Meta/Attachments/Pasted image 20250305143833.png",
