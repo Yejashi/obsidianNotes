@@ -159,13 +159,9 @@ Let’s split these:
 > It's like checking all possible "friend of a friend" connections.
 
 ##### 🛣️ Floyd-Warshall Algorithm
-
 - Does a bit more: it finds the **shortest paths between all pairs of nodes**.
-    
 - Still works with matrices.
-    
 - Uses **dynamic programming** (breaking down the problem into smaller subproblems and solving them efficiently).
-    
 
 > Best when you have a **dense graph** (many edges), because it looks at all possible connections.
 
