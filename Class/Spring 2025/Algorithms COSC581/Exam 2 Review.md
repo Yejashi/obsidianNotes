@@ -109,16 +109,82 @@
     - Dynamic programming-based approach.
     - Efficient for dense graphs.
 
+
+This just means: can you get from one node (vertex) in a graph to another?
+
+Imagine a map of cities (nodes), and roads (edges) connecting them. **Connectivity** asks: is there **a route** between two cities?
+
 ---
 
-### **Horner's Rule**
+#### 🧮 **Matrix Powering**
+
+Every graph can be represented by an **adjacency matrix**.  
+This is just a grid (matrix) where:
+
+- Each row/column represents a node.
+- A `1` means there’s a direct edge (connection) between the nodes.
+- A `0` means no direct connection.
+
+**Example:**
+
+```
+A -- B
+|
+C
+
+Adjacency matrix:
+   A B C
+A [0 1 1]
+B [1 0 0]
+C [1 0 0]
+
+```
+
+Now here's the trick:
+- If you **raise** this matrix to a power, like A^2, you get info about paths of **length 2**.
+-A^3 gives info about paths of **length 3**, and so on.
+
+So, **matrix powering helps find if paths of a certain length exist** between nodes.
+
+---
+
+#### ⚡ **Warshall’s Algorithm / Floyd-Warshall Algorithm**
+
+Let’s split these:
+##### ✅ Warshall's Algorithm
+- Solves **transitive closure**:  
+    Can you **reach** one node from another, ignoring path length?
+- It updates the matrix so that if you can go from A to B, and B to C, it marks that A can go to C too.
+
+> It's like checking all possible "friend of a friend" connections.
+
+##### 🛣️ Floyd-Warshall Algorithm
+- Does a bit more: it finds the **shortest paths between all pairs of nodes**.
+- Still works with matrices.
+- Uses **dynamic programming** (breaking down the problem into smaller subproblems and solving them efficiently).
+
+> Best when you have a **dense graph** (many edges), because it looks at all possible connections.
+
+---
+
+#### 📋 Summary
+
+| Concept              | What it does                                   | Useful for…              |
+| -------------------- | ---------------------------------------------- | ------------------------ |
+| Matrix Powering      | Finds if paths of certain lengths exist        | Connectivity over steps  |
+| Warshall’s Algorithm | Finds if you can reach any node from any other | General reachability     |
+| Floyd-Warshall       | Finds shortest paths between all pairs         | All-pairs shortest paths |
+
+---
+
+### **Horner's Rule** [IFFY]
 - **Purpose**: Efficient polynomial evaluation.
 - **Method**: Parentheses are added strategically to reduce the number of operations.
 - **Example**:
     - Instead of computing:  
-        `ax^3 + bx^2 + cx + d`
+        $ax^3 + bx^2 + cx + d$
     - Horner’s form:  
-        `(((a)x + b)x + c)x + d`
+        $(((a)x + b)x + c)x + d$
 
 ### **Network Flow**
 
@@ -196,9 +262,9 @@
 
 ### **6. Max-Flow Min-Cut Theorem**
 
-- States that the **maximum flow** from sss to ttt is equal to the **minimum capacity** of a **cut** that separates sss from ttt.
+- States that the **maximum flow** from s to t is equal to the **minimum capacity** of a **cut** that separates s from t.
 - A **cut** is a partition of vertices into two disjoint sets:
-    - One containing sss, and the other containing ttt.
+    - One containing s, and the other containing t.
 - The **capacity of the cut** is the sum of the capacities of edges going from the source side to the sink side.
 - **Visual metaphor**: A vertical slicing plane that disconnects sss from ttt.
 - This theorem guarantees **optimality** of Ford-Fulkerson's result.
