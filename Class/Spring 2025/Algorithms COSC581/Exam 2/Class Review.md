@@ -16,3 +16,5 @@ FFT
 - Square thing
 
 BFS tree DFS tree
+
+Reductions, Self Reductions, NP Completeness
