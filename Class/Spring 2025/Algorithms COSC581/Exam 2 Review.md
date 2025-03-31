@@ -151,14 +151,11 @@ So, **matrix powering helps find if paths of a certain length exist** between no
 #### ⚡ **Warshall’s Algorithm / Floyd-Warshall Algorithm**
 
 Let’s split these:
-
 ##### ✅ Warshall's Algorithm
 
 - Solves **transitive closure**:  
     Can you **reach** one node from another, ignoring path length?
-    
 - It updates the matrix so that if you can go from A to B, and B to C, it marks that A can go to C too.
-    
 
 > It's like checking all possible "friend of a friend" connections.
 
