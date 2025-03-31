@@ -12,3 +12,4 @@ FFT
 - symmetry
 - 3rd edition 906-908
 - Power Spectrum
+	- transfer from the frequency domain to the time domain
