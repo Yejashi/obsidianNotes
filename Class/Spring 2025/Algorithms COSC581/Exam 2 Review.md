@@ -264,7 +264,7 @@ Let’s split these:
 
 - States that the **maximum flow** from s to t is equal to the **minimum capacity** of a **cut** that separates s from t.
 - A **cut** is a partition of vertices into two disjoint sets:
-    - One containing sss, and the other containing ttt.
+    - One containing s, and the other containing t.
 - The **capacity of the cut** is the sum of the capacities of edges going from the source side to the sink side.
 - **Visual metaphor**: A vertical slicing plane that disconnects sss from ttt.
 - This theorem guarantees **optimality** of Ford-Fulkerson's result.
