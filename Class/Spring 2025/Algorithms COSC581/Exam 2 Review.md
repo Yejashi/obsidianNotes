@@ -182,9 +182,9 @@ Let’s split these:
 - **Method**: Parentheses are added strategically to reduce the number of operations.
 - **Example**:
     - Instead of computing:  
-        `ax^3 + bx^2 + cx + d`
+        $ax^3 + bx^2 + cx + d$
     - Horner’s form:  
-        `(((a)x + b)x + c)x + d`
+        $(((a)x + b)x + c)x + d$
 
 ### **Network Flow**
 
