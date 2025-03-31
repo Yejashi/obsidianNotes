@@ -22,3 +22,5 @@ Design a Huffman Code for a text file.
     - The resulting binary codes are the Huffman codes for each character.
 ### Network Flow
 Given an adjacency matrix, use network flow (maximum flow) to find a perfect bipartite matching.
+
+https://www.youtube.com/watch?v=HWHjQdNC-7Y&t=131s
