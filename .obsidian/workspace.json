@@ -138,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "connected graph",
+                "query": "horner",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +159,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -273,7 +274,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ae16a1eb5df6f444",
+  "active": "d18aa2dedfd56615",
   "lastOpenFiles": [
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",

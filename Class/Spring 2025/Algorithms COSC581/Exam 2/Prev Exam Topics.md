@@ -56,3 +56,4 @@ The FFT can reduce the time to multiply  polynomials to $\Theta(nlgn)$
 - Instead of A(x) = $a_{0}+a_1x+a_2{x^2}+a_3x^3$   
 - Do: A(x) = $a_{0}+ x(a_1+x(a_2+x(a_3)))$ 
 - Now, no exponents, just multiplications and additions
+
