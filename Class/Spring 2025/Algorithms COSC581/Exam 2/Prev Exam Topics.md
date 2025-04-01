@@ -53,4 +53,4 @@ The FFT can reduce the time to multiply  polynomials to $\Theta(nlgn)$
 
 **Horner's Rule:** Rewrites the polynomial so that i can be evaluated faster.
 - Factor it out into parenthesis and solve starting form the inner most parentheses.
-- Instead of A(x) = $a_{0}+$
+- Instead of A(x) = $a_{0}+a_1+$ 
