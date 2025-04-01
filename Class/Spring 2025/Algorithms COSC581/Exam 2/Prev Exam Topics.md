@@ -94,7 +94,7 @@ State the Cook-Levin Theorem?
 Background:
 **RSA**
 ![[Pasted image 20250401014857.png]]
-
+![[Pasted image 20250401014947.png]]
 
 
 ![[Pasted image 20250401011249.png]]
