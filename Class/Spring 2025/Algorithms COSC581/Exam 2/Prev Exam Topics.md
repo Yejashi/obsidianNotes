@@ -57,3 +57,12 @@ The FFT can reduce the time to multiply  polynomials to $\Theta(nlgn)$
 - Do: A(x) = $a_{0}+ x(a_1+x(a_2+x(a_3)))$ 
 - Now, no exponents, just multiplications and additions
 
+**Point Value Representation:** Instead of writing a polynomial using coefficient, you can describe them as a list of inputs and outputs.
+
+**Interpolation:** If you want to go back to coefficient form from point value pairs
+- coefficient -> point value = Evaluation (plug in values)
+- point value -> coefficient = Interpolation (find formula)
+
+How to use FFT to multiply two polynomials.
+- Switch from coefficient representation to point by value representation.
+
