@@ -66,3 +66,4 @@ The FFT can reduce the time to multiply  polynomials to $\Theta(nlgn)$
 How to use FFT to multiply two polynomials.
 - Switch from coefficient representation to point by value representation.
 
+![[Pasted image 20250401003857.png]]
