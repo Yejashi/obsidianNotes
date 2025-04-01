@@ -21,14 +21,16 @@ Design a Huffman Code for a text file.
     - Moving right = add '1'.
     - The resulting binary codes are the Huffman codes for each character.
 ### Network Flow
-Given an adjacency matrix, use network flow (maximum flow) to find a perfect bipartite matching.
+**Given an adjacency matrix, use network flow (maximum flow) to find a perfect bipartite matching.**
 
 [How to do it: 1](https://www.youtube.com/watch?v=HWHjQdNC-7Y&t=131s)
 [How to do it: 2](https://www.youtube.com/watch?v=x2BdRml5lmc)
 
 [Maximum Flow with Ford Fulkerson ](https://www.youtube.com/watch?v=HWHjQdNC-7Y&t=131s)
 
-Use network flow (show your work) to find a 4 x 4 Boolean matrix whose row sums are (2,2,2,3) and whose column sums are (1,2,3,3), if any such a matrix exists. 
+**Use network flow (show your work) to find a 4 x 4 Boolean matrix whose row sums are (2,2,2,3) and whose column sums are (1,2,3,3), if any such a matrix exists.** 
+
+
 ### Linear Programming
 
 Step 1. Convert to standard form
