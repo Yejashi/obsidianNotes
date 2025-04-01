@@ -80,3 +80,6 @@ What is the Satisfiability Problem?
 
 What does it mean to say that a problem is NP-hard?
 - A problem is **NP-hard** if every problem in NP can be reduced to it in polynomial time, meaning it is at least as hard as the hardest problems in NP.
+
+What does it mean to say that a problem is NP-complete?
+- A problem is **NP-complete** if it is both in NP and NP-hard.
