@@ -69,17 +69,21 @@ How to use FFT to multiply two polynomials.
 ![[Pasted image 20250401003857.png]]
 
 **The Fast Fourier Transform. Explain where in its derivation the FFT employs mathematical symmetry to multiply two polynomials of degree n in O(nlogn) time.**
-- The FFT uses the **symmetry of the complex nnnth roots of unity** to speed up computation.
-- By the **Halving Lemma**, if nnn is even, then squaring the nnn roots of unity gives the n/2n/2n/2 roots of unity:
+- he FFT uses the **symmetry of the complex $n$th roots of unity** to speed up computation.
+    
+- By the **Halving Lemma**, if $n$ is even, then squaring the $n$ roots of unity gives the $n/2$ roots of unity:  
     (ωnk)2=ωn/2k(\omega_n^k)^2 = \omega_{n/2}^k(ωnk​)2=ωn/2k​
-- This symmetry allows FFT to **recursively divide** the DFT of size nnn into two DFTs of size n/2n/2n/2.
-- The polynomial is split into even and odd parts:
+    
+- This symmetry allows FFT to **recursively divide** the DFT of size $n$ into two DFTs of size $n/2$.
+    
+- The polynomial is split into even and odd parts:  
     A(x)=A(0)(x2)+xA(1)(x2)A(x) = A^{(0)}(x^2) + x A^{(1)}(x^2)A(x)=A(0)(x2)+xA(1)(x2)
-- FFT evaluates the polynomial at the nnn roots of unity: ωn0,ωn1,…,ωnn−1\omega_n^0, \omega_n^1, \ldots, \omega_n^{n-1}ωn0​,ωn1​,…,ωnn−1​.
     
-- Due to symmetry, we only need to evaluate the first n/2n/2n/2 roots, then reuse them:
+- FFT evaluates the polynomial at the $n$ roots of unity: $\omega_n^0, \omega_n^1, \ldots, \omega_n^{n-1}$.
     
+- Due to symmetry, we only need to evaluate the first $n/2$ roots, then reuse them:  
     ωnk+n/2=−ωnk\omega_n^{k + n/2} = -\omega_n^kωnk+n/2​=−ωnk​
+    
 - Each recursive step has **the same form but half the size**, enabling a **divide-and-conquer** approach.
     
-- This structure lets the FFT compute the DFT in **O(nlog⁡n)O(n \log n)O(nlogn)** time instead of O(n2)O(n^2)O(n2).
+- This structure lets the FFT compute the DFT in **$O(n \log n)$** time instead of $O(n^2)$.
