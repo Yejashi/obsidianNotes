@@ -106,8 +106,7 @@
               "title": "exam2_3"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -277,11 +276,11 @@
   },
   "active": "ae16a1eb5df6f444",
   "lastOpenFiles": [
-    "Meta/Attachments/Pasted image 20250401003857.png",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
+    "Meta/Attachments/Pasted image 20250401003857.png",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
@@ -321,7 +320,6 @@
     "Meta/Attachments/Pasted image 20250305160028.png",
     "Meta/Attachments/Pasted image 20250305143833.png",
     "Meta/Attachments/Pasted image 20250305123601.png",
-    "Meta/Attachments/Pasted image 20250218042134.png",
-    "Meta/Attachments/Pasted image 20250218041821.png"
+    "Meta/Attachments/Pasted image 20250218042134.png"
   ]
 }
