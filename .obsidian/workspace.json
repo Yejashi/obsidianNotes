@@ -39,6 +39,56 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Prev Exam Topics"
+            }
+          },
+          {
+            "id": "7aad1e00dc59a096",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "exam2_1"
+            }
+          },
+          {
+            "id": "69b84920e0c1b721",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "exam2_2"
+            }
+          },
+          {
+            "id": "5e0249c463554383",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "exam2_3"
+            }
+          },
+          {
+            "id": "e58669a962646150",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
                 "mode": "source",
                 "source": false
@@ -214,9 +264,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "e99d99389973c78c",
   "lastOpenFiles": [
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
     "conflict-files-obsidian-git.md",
     "Meta/Attachments/Pasted image 20250401014947.png",
     "Meta/Attachments/Pasted image 20250401014857.png",
@@ -226,11 +281,6 @@
     "Meta/Attachments/Pasted image 20250401003857.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
     "Excalidraw/Drawing 2025-03-31 09.27.51.excalidraw.md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (blah).md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (Edited).md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Deep Research.md",
