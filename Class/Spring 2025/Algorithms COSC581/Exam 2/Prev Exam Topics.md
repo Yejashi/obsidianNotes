@@ -44,3 +44,9 @@ Step 5. Pivot [A] with [B], rewrite [A] as [B]
 - Plug in [A] into all equations
 
 ### Fast Fourier Transform
+The FFT can reduce the time to multiply  polynomials to $\Theta(nlgn)$ 
+
+**Time domain:** A function mapping time to amplitude.
+
+**Frequency Domain:** Represents a signal in terms of it's constituent frequencies.
+- Shows how much of the signal lies within each frequency band.
