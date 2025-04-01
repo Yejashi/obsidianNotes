@@ -91,11 +91,15 @@ State the Cook-Levin Theorem?
 
 ### Cryptology
 
+Background:
+
+
+
 ![[Pasted image 20250401011249.png]]
 
-Encode message 3 in RSA crypto system with n = 91 and E = 5
+**Encode message 3 in RSA crypto system with n = 91 and E = 5**
 
-Consider an RSA crypto scheme with n = 35 and E = 5.
+**Consider an RSA crypto scheme with n = 35 and E = 5.**
 - List a valid value for D.
 - Encode messages 3, 4 and 5.
 - List two messages that are always unencryptable.
