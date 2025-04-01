@@ -67,3 +67,4 @@ How to use FFT to multiply two polynomials.
 - Switch from coefficient representation to point by value representation.
 
 ![[Pasted image 20250401003857.png]]
+
