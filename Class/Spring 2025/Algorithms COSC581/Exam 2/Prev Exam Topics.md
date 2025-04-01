@@ -76,4 +76,4 @@ How to use FFT to multiply two polynomials.
 ### Complexity Theory
 
 What is the Satisfiability Problem?
-- 
+- The satisfiability problem asks whether there exists a truth assignment to variables that makes a given Boolean formula true.
