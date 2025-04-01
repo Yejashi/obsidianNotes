@@ -83,3 +83,6 @@ What does it mean to say that a problem is NP-hard?
 
 What does it mean to say that a problem is NP-complete?
 - A problem is **NP-complete** if it is both in NP and NP-hard.
+
+State the Cook-Levin Theorem?
+- The **Cook-Levin Theorem** states that the Boolean satisfiability problem (SAT) is NP-complete.
