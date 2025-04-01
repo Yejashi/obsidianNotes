@@ -38,3 +38,7 @@ Step 2. Convert to slack form.
 - Right = non basic vars
 Step 3. In objective function, choose non basic variable that can contribute the most.
 - Largest positive positive coefficient [A]
+Step 4. Choose constraing with tightest bound [B]
+- Min ratio role, which [A] hits zero first
+Step 5. Pivot [A] with [B], rewrite [A] as [B]
+- Plug in [A] into all equations
