@@ -91,5 +91,5 @@ State the Cook-Levin Theorem?
 
 ### Cryptology
 
-**State (do not prove) Fermat's Little Theorem**
-- If n is prime, then
+![[Pasted image 20250401011249.png]]
+
