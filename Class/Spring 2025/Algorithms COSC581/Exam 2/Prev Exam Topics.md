@@ -69,3 +69,5 @@ How to use FFT to multiply two polynomials.
 ![[Pasted image 20250401003857.png]]
 
 The Fast Fourier Transform. Explain where in its derivation the FFT employs mathematical symmetry to multiply two polynomials of degree n in O(nlogn) time.
+
+Due to halving lemma
