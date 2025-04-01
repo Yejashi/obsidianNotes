@@ -86,3 +86,4 @@ What does it mean to say that a problem is NP-complete?
 
 State the Cook-Levin Theorem?
 - The **Cook-Levin Theorem** states that the Boolean satisfiability problem (SAT) is NP-complete.
+

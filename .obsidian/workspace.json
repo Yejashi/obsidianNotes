@@ -106,7 +106,8 @@
               "title": "exam2_3"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -274,12 +275,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ae16a1eb5df6f444",
+  "active": "eaea7c4fae81761f",
   "lastOpenFiles": [
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
     "Meta/Attachments/Pasted image 20250401004928.png",
     "Meta/Attachments/Pasted image 20250401004846.png",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
     "Meta/Attachments/Pasted image 20250401003857.png",
@@ -320,7 +321,6 @@
     "Class/Spring 2025/Algorithms COSC581/simplex example.md",
     "Meta/Attachments/Pasted image 20250305160052.png",
     "Meta/Attachments/Pasted image 20250305160028.png",
-    "Meta/Attachments/Pasted image 20250305143833.png",
-    "Meta/Attachments/Pasted image 20250305123601.png"
+    "Meta/Attachments/Pasted image 20250305143833.png"
   ]
 }
