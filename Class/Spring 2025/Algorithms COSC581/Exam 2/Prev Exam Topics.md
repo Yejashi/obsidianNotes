@@ -28,8 +28,7 @@ Given an adjacency matrix, use network flow (maximum flow) to find a perfect bip
 
 [Maximum Flow with Ford Fulkerson ](https://www.youtube.com/watch?v=HWHjQdNC-7Y&t=131s)
 
-
-
+Use network flow (show your work) to find a 4 x 4 Boolean matrix whose row sums are (2,2,2,3) and whose column sums are (1,2,3,3), if any such a matrix exists. 
 ### Linear Programming
 
 Step 1. Convert to standard form
