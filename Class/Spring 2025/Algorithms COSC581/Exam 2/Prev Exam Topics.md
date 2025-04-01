@@ -93,3 +93,4 @@ State the Cook-Levin Theorem?
 
 ![[Pasted image 20250401011249.png]]
 
+Encode message 3 in RSA crypto system with n = 91 and E = 5
