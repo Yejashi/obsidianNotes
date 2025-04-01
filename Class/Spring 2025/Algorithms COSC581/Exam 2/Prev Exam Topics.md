@@ -31,4 +31,10 @@ Given an adjacency matrix, use network flow (maximum flow) to find a perfect bip
 
 ### Linear Programming
 
-
+Step 1. Convert to standard form
+- If minimization, multiply by -1.
+Step 2. Convert to slack form.
+- Left = basic vars
+- Right = non basic vars
+Step 3. In objective function, choose non basic variable that can contribute the most.
+- Largest positive positive coefficient [A]
