@@ -100,3 +100,4 @@ Consider an RSA crypto scheme with n = 35 and E = 5.
 - Encode messages 3, 4 and 5.
 - List two messages that are always unencryptable.
 	- 0 and 1.
+- List another message unencryptable under this scheme.
