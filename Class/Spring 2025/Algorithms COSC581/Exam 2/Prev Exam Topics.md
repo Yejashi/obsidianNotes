@@ -77,3 +77,6 @@ How to use FFT to multiply two polynomials.
 
 What is the Satisfiability Problem?
 - The satisfiability problem asks whether there exists a truth assignment to variables that makes a given Boolean formula true.
+
+What does it mean to say that a problem is NP-hard?
+- A problem is **NP-hard** if every problem in NP can be reduced to it in polynomial time, meaning it is at least as hard as the hardest problems in NP.
