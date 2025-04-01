@@ -92,6 +92,8 @@ State the Cook-Levin Theorem?
 ### Cryptology
 
 Background:
+**RSA**
+![[Pasted image 20250401014857.png]]
 
 
 
