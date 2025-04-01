@@ -99,6 +99,7 @@ Background:
 
 
 ![[Pasted image 20250401011249.png]]
+If n is prime then, ...
  This is used in **RSA** to prove correctness of decryption.
 
 **Encode message 3 in RSA crypto system with n = 91 and E = 5**
