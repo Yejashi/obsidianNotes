@@ -28,6 +28,7 @@ Sir Francis Galton
 ### Presentation 3
 What are the 3 fundamental layers in GNNs?
 - Message passing layer
+- Local pooling layer
 Local pooling
 Global pooling
 
