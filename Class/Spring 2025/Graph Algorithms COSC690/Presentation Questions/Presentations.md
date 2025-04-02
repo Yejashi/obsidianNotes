@@ -29,8 +29,7 @@ Sir Francis Galton
 What are the 3 fundamental layers in GNNs?
 - Message passing layer
 - Local pooling layer
-Local pooling
-Global pooling
+- Global pooling layer
 
 What are the limitations of GNNs?
 What is the problem with too many message passing layers?
