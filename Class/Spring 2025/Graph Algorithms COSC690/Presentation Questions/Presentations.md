@@ -49,5 +49,6 @@ What is the difference between IP (integer program), MILP (mixed integer linear 
 - LP, take away all the integers requirements and making continious.
 
 What type of graph can we convert an MILP and MINLP to?
+- Weighted di-graph.
 
 What graph property can we leverage to improve performance on unit constraint problems (specifically with loss of ac line contingencies)?
