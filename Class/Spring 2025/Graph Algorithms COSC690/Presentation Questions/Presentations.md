@@ -44,7 +44,7 @@ email: kneupan1@vols.utk.edu
 ### Presentation 4
 
 What is the difference between IP (integer program), MILP (mixed integer linear programm), and LR (linear relaxation)?
-- 
+- MILP some of the 
 
 What type of graph can we convert an MILP and MINLP to?
 
