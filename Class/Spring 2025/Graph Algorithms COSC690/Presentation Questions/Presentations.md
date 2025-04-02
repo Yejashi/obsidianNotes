@@ -25,6 +25,6 @@ Who is the father of Eugenics?
 Sir Francis Galton
 
 
-What are th 3 fundemental layers in GNNs?
+What are the 3 fundemental layers in GNNs?
 What are the limitations of GNNs?
 What is the roblem with too many message passing layers?
