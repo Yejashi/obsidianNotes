@@ -27,6 +27,9 @@ Sir Francis Galton
 
 ### Presentation 3
 What are the 3 fundamental layers in GNNs?
+Permutation equivarent message passing
+Local pooling
+Global pooling
 What are the limitations of GNNs?
 What is the problem with too many message passing layers?
 
