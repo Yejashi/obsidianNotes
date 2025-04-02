@@ -46,7 +46,7 @@ email: kneupan1@vols.utk.edu
 What is the difference between IP (integer program), MILP (mixed integer linear programm), and LR (linear relaxation)?
 - IP, all the decision variables are required to be integers.
 - MILP some of the decision variables are required to be integers.
-- LP, 
+- LP, take away all the integers requirements and making continious.
 
 What type of graph can we convert an MILP and MINLP to?
 
