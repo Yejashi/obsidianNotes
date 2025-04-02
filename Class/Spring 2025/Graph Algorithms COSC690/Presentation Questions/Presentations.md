@@ -32,6 +32,10 @@ What are the 3 fundamental layers in GNNs?
 - Global pooling layer
 
 What are the limitations of GNNs?
+- Limited expressiveness
+- Long range dependencies
+- Over smoothing
+
 What is the problem with too many message passing layers?
 
 email: kneupan1@vols.utk.edu
