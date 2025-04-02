@@ -53,5 +53,6 @@ What type of graph can we convert an MILP and MINLP to?
 
 What graph property can we leverage to improve performance on unit constraint problems (specifically with loss of ac line contingencies)?
 - Compactness and tightness.
+- k-edge connected graph.
 
 Email: nsheets1@vols.utk.edu
