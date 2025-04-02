@@ -52,4 +52,4 @@ What type of graph can we convert an MILP and MINLP to?
 - Weighted di-graph.
 
 What graph property can we leverage to improve performance on unit constraint problems (specifically with loss of ac line contingencies)?
-- Compactnessand tightness.
+- Compactness and tightness.
