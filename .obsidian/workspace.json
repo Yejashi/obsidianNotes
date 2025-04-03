@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "opt none",
+                "query": "ford",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,6 +189,11 @@
   },
   "active": "f471f85a5dc9bc7d",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-03-05 15.49.47.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-05 13.13.03.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md",
+    "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2 Review.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2 Deep Research.md",
     "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
@@ -197,7 +202,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy (edited).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2 Review.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2 Review (blah).md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2 Review (Edited).md",
     "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
@@ -218,9 +222,6 @@
     "Meta/Attachments/Pasted image 20250305143833.png",
     "Meta/Attachments/Pasted image 20250305123601.png",
     "Junk.md",
-    "Excalidraw/Drawing 2025-03-05 15.49.47.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-05 13.13.03.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6",
     "Class/Spring 2025/Algorithms COSC581/simplex example.md",
@@ -231,7 +232,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW4/hw_answers.md",
     "Research/Projects/SBM/General Comments.md",
     "Research/Projects/SBM",
-    "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW3/hw_answers.md",
     "Meta/Attachments/Pasted image 20250218042134.png",
     "Meta/Attachments/Pasted image 20250218041821.png"
