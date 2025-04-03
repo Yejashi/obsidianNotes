@@ -18,8 +18,21 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2025-04-03 17.40.56.excalidraw"
             }
+          },
+          {
+            "id": "9cb0588fb69de5d7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-04-03 17.55.39.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-04-03 17.55.39.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,10 +198,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3225778933b54e14",
+  "active": "9cb0588fb69de5d7",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
+    "Excalidraw/Drawing 2025-04-03 17.55.39.excalidraw.md",
+    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2 Review.md",
     "Meta/Attachments/Pasted image 20250401014947.png",
     "Meta/Attachments/Pasted image 20250401014857.png",
@@ -230,7 +244,6 @@
     "Meta/Attachments/Pasted image 20250312123144.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW7/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW7",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6"
   ]
