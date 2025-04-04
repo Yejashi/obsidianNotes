@@ -73,14 +73,12 @@
             "id": "e99d99389973c78c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Presentations"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-04-03 17.40.56.excalidraw"
             }
           },
           {
@@ -267,6 +265,7 @@
   "active": "e99d99389973c78c",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2025-04-03 17.55.39.excalidraw.md",
+    "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
     "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
@@ -281,7 +280,6 @@
     "Meta/Attachments/Pasted image 20250401004928.png",
     "Meta/Attachments/Pasted image 20250401004846.png",
     "Meta/Attachments/Pasted image 20250401003857.png",
-    "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
     "Excalidraw/Drawing 2025-03-31 09.27.51.excalidraw.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (blah).md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (Edited).md",
