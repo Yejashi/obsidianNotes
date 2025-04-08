@@ -73,12 +73,12 @@
             "id": "e99d99389973c78c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw-loading",
+              "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Loading Excalidraw... Drawing 2025-04-03 17.40.56.excalidraw"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-04-03 17.40.56.excalidraw"
             }
           },
           {
@@ -258,14 +258,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "e99d99389973c78c",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
     "Excalidraw/Drawing 2025-04-03 17.55.39.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
-    "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
