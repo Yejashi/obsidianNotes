@@ -58,16 +58,11 @@ Email: nsheets1@vols.utk.edu
 ### Presentation 6
 
  Match each algorithm to the method it uses:
- - Left-Right Planarity Test
- - Hopcroft-Trajan
- - Boyer-Myrvold
  - Path addition -> Hopcroft-Tarjan
  - Vertex addition -> (Lemur Even Cederbaum, Shih-Hsu, LR-planarity)
  - Edge addition -> Boyer-Myrvold
 
 What is a BC-tree?
-B = block
-C = cut point
 A tree decomposition where all nodes are cut vertex or biconnected component itself. edgesare weherever the articulation point bags.
 Decomposition of a graph where all vertecies are cut vertex or biconnected component (or block) and edges connect verticies to the blocks they belong.
 
