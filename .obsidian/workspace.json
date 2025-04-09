@@ -73,12 +73,14 @@
             "id": "e99d99389973c78c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md"
+                "file": "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-04-03 17.40.56.excalidraw"
+              "icon": "lucide-file",
+              "title": "Presentations"
             }
           },
           {
