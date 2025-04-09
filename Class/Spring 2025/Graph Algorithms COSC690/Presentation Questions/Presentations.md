@@ -69,7 +69,7 @@ What is a BC-tree?
 B = block
 C = cut point
 A tree decomposition where all nodes are cut vertex or biconnected component itself. edgesare weherever the articulation point bags.
-Decomposition of a graph where all vertecies are cut vertex or biconnected component (or block) and edges conn
+Decomposition of a graph where all vertecies are cut vertex or biconnected component (or block) and edges connect verticies to the blocks they belong.
 
 
 PQ - store info about family of permutations of a graph
