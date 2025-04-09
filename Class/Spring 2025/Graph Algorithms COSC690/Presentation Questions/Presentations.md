@@ -68,3 +68,6 @@ Email: nsheets1@vols.utk.edu
 What is a BC-tree?
 
 Give an example of  vertex-addition algorithm
+
+
+Email: rlawren9@vols.utk.edu
