@@ -67,4 +67,4 @@ Email: nsheets1@vols.utk.edu
 
 What is a BC-tree?
 
-Give an example of  vertex
+Give an example of  vertex-
