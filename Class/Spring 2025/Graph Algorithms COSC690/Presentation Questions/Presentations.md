@@ -61,9 +61,9 @@ Email: nsheets1@vols.utk.edu
  - Left-Right Planarity Test
  - Hopcroft-Trajan
  - Boyer-Myrvold
- - Path addition
- - Vertex addition
- - Edge addition
+ - Path addition - Hopcroft-Tarjan
+ - Vertex addition - (Lemur Even Cederbaum, Shih-Hsu, LR-planarity)
+ - Edge addition - Boyer-Myrvold
 
 What is a BC-tree?
 
