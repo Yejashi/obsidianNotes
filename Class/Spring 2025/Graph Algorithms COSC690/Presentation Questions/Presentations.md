@@ -57,4 +57,14 @@ What graph property can we leverage to improve performance on unit constraint pr
 Email: nsheets1@vols.utk.edu
 ### Presentation 6
 
- 
+ Match each algorithm to the method it uses:
+ - Left-Right Planarity Test
+ - Hopcroft-Trajan
+ - Boyer-Myrvold
+ - Path addition
+ - Vertex addition
+ - Edge addition
+
+What is a BC-tree?
+
+Give an example of  vertex
