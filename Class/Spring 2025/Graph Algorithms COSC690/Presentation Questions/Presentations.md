@@ -66,6 +66,7 @@ What is a BC-tree?
 Decomposition of a graph where all vertecies are cut vertex or biconnected component (or block) and edges connect verticies to the blocks they belong.
 
 Give an example of  vertex-addition algorithm
+LR-Planarity
 
 
 Email: rlawren9@vols.utk.edu
