@@ -67,6 +67,9 @@ Email: nsheets1@vols.utk.edu
 
 What is a BC-tree?
 
+PQ - store info about family of permutations of a graph
+
+
 Give an example of  vertex-addition algorithm
 
 
