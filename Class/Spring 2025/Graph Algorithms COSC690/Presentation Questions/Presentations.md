@@ -66,7 +66,9 @@ Email: nsheets1@vols.utk.edu
  - Edge addition -> Boyer-Myrvold
 
 What is a BC-tree?
-Biconnected graph
+B = block
+C = cut point
+A tree decomposition where all nodes are cut vertex or biconnected component itself. edgesare weherever the articulation point bags.
 
 
 PQ - store info about family of permutations of a graph
