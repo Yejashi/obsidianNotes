@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "5225eea0dce04548",
@@ -144,8 +144,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -308,18 +307,18 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "46e9548417fdb04f",
+  "active": "36ac7bae498cbfe5",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (Edited).md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (Edited).md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (blah).md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
     "Meta/Attachments/Pasted image 20250401014947.png",
     "Meta/Attachments/Pasted image 20250401014857.png",
@@ -331,7 +330,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
     "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Deep Research.md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (blah).md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2",
     "Excalidraw/Drawing 2025-03-31 09.27.51.excalidraw.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
