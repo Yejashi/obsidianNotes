@@ -111,6 +111,20 @@
             }
           },
           {
+            "id": "ccf641abd6437b3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
             "id": "eaea7c4fae81761f",
             "type": "leaf",
             "state": {
@@ -144,7 +158,8 @@
               "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -294,8 +309,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -307,12 +321,16 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "36ac7bae498cbfe5",
+  "active": "ccf641abd6437b3c",
   "lastOpenFiles": [
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
+    "conflict-files-obsidian-git.md",
+    "Excalidraw/Drawing 2025-04-03 17.55.39.excalidraw.md",
+    "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
@@ -328,7 +346,6 @@
     "Meta/Attachments/Pasted image 20250401003857.png",
     "Class/Spring 2025/Algorithms COSC581/Exam 1 Review.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW6/hw_answers.md",
-    "conflict-files-obsidian-git.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Deep Research.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2",
     "Excalidraw/Drawing 2025-03-31 09.27.51.excalidraw.md",
@@ -354,8 +371,6 @@
     "Research/Tools",
     "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
     "Research/Projects/SBM/General Comments.md",
-    "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
-    "Excalidraw/Drawing 2025-03-05 13.13.03.excalidraw.md",
-    "Class/Spring 2025/Algorithms COSC581/simplex example.md"
+    "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md"
   ]
 }

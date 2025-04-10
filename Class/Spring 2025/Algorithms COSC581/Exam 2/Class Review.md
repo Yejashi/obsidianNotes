@@ -13,6 +13,7 @@ FFT
 - 3rd edition 906-908
 - Power Spectrum
 	- transfer from the frequency domain to the time domain
+	- |FFT(X)|^2
 - Square thing
 
 BFS tree DFS tree
