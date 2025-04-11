@@ -89,7 +89,7 @@ With these basic ideas in mind, we’re ready to delve into how these techniques
 
 - **Legendre & Gauss – Least Squares (1805–1809):** The method of least squares, fundamental to regression, was first published by Adrien-Marie Legendre in 1805 and later by Carl Friedrich Gauss in 1809​[en.wikipedia.org](https://en.wikipedia.org/wiki/Polynomial_regression#:~:text=squares.%20The%20least,The%20first%20design%20of%20an). It provided a way to find the best-fit curve (or line) by minimizing squared errors. This set the stage for all polynomial regression techniques.
     
-- **Early Linear Algebra (19th–20th Century):** Development of matrix theory enabled solving linear systems systematically.  $A\mathbf{x}=\mathbf{b}$. By mid-20th century, decompositions were introduced for numerical stability:
+- **Early Linear Algebra (19th–20th Century):** Development of matrix theory enabled solving linear systems systematically. Gaussian elimination (Gauss/Jordan) became a standard method for solving $A\mathbf{x}=\mathbf{b}$. By mid-20th century, decompositions were introduced for numerical stability:
     
     - LU decomposition (algorithms by Doolittle, Crout, etc.) to factor matrices into lower and upper triangular form.
         
