@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "5225eea0dce04548",
@@ -306,23 +306,23 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "36ac7bae498cbfe5",
   "lastOpenFiles": [
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
+    "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2025-04-03 17.55.39.excalidraw.md",
     "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (Edited).md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (blah).md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
     "Meta/Attachments/Pasted image 20250401014947.png",
     "Meta/Attachments/Pasted image 20250401014857.png",
     "Meta/Attachments/Pasted image 20250401011249.png",
@@ -334,7 +334,6 @@
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Deep Research.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2",
     "Excalidraw/Drawing 2025-03-31 09.27.51.excalidraw.md",
-    "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Resource Query.md",
