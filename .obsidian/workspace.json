@@ -102,12 +102,14 @@
             "id": "36ac7bae498cbfe5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf"
+                "file": "Class/Spring 2025/Algorithms COSC581/Alg Final Project/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "exam2_1"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           },
           {
@@ -306,13 +308,16 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "36ac7bae498cbfe5",
   "lastOpenFiles": [
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
+    "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
+    "Class/Spring 2025/Algorithms COSC581/Alg Final Project/Untitled.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
@@ -354,7 +359,6 @@
     "Research/Tools/Dyninst",
     "Research/Tools",
     "Class/Spring 2025/Algorithms COSC581/Book/textbook_algorithms.pdf",
-    "Research/Projects/SBM/General Comments.md",
-    "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md"
+    "Research/Projects/SBM/General Comments.md"
   ]
 }
