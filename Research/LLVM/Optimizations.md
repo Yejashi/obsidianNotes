@@ -69,3 +69,55 @@ The tail call elimination pass (**tailcallelim**) examines function calls that o
 
 
 ## How optimizations vary
+### Between -O2 and -O3
+
+Both -O2 and -O3 enable a similar core set of optimizations. However, -O3 adjusts the same passes to be more aggressive in their application. Key differences include:
+
+- **More Aggressive Inlining:**
+    
+    - At -O3, the threshold for inlining is increased. This means that larger or more complex functions are more likely to be inlined, potentially boosting performance even if the binary size grows.
+        
+- **Enhanced Loop Optimizations:**
+    
+    - -O3 relaxes the thresholds for loop transformations such as unrolling and vectorization. As a result, loops that might be left untouched or only minimally optimized at -O2 can be further optimized under -O3, sometimes resulting in faster execution at the cost of increased code size.
+        
+- **Additional Target-Specific and Interprocedural Optimizations:**
+    
+    - There are also extra target-specific tweaks and broader interprocedural optimizations enabled at -O3. These adjustments further refine the heuristics of the optimizations to extract more performance from the code.
+        
+
+---
+
+### Between -O1 and -O2
+
+The jump from -O1 to -O2 primarily involves the introduction of additional optimization passes and more aggressive tuning. The changes include:
+
+- **Additional Loop Transformations:**
+    
+    - While -O1 applies basic loop optimizations, -O2 introduces more advanced techniques such as loop unrolling, loop unswitching, and in some cases, vectorization, which can enhance performance in compute-intensive loops.
+        
+- **Enhanced Inlining:**
+    
+    - Both levels perform inlining, but -O2 uses a more aggressive approach. More functions are inlined compared to -O1, contributing to improved runtime performance by reducing function call overhead.
+        
+- **More Extensive Global Optimizations:**
+    
+    - At -O2, the optimizer performs more comprehensive interprocedural and global analyses, such as advanced constant propagation and better dead code elimination. These optimizations improve the overall efficiency of the generated code.
+        
+- **Additional Target-Specific Tweaks:**
+    
+    - -O2 also enables extra target-specific optimizations that tailor the code generation more closely to the underlying hardware, further boosting performance beyond what is achieved at -O1.
+        
+
+---
+
+### Summary
+
+- **-O1** offers a balanced approach, applying basic optimizations with minimal impact on compile time.
+    
+- **-O2** builds on -O1 by adding more sophisticated optimizations—particularly for loops, inlining, and global code analysis—providing better performance while modestly increasing compile time and binary size.
+    
+- **-O3** pushes these optimizations further by relaxing thresholds and enabling extra aggressive passes, which can lead to even higher performance at the potential expense of longer compile times and larger binaries.
+    
+
+Each level is designed with different trade-offs in mind: **-O1** prioritizes compile speed and moderate performance improvements, **-O2** strikes a balance between performance and compile time, and **-O3** aims for maximum performance where binary size and compile time are less of a concern.
