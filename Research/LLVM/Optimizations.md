@@ -65,3 +65,7 @@ Global Value Numbering (**GVN**) is an optimization pass that identifies and eli
 
 The tail call elimination pass (**tailcallelim**) examines function calls that occur in tail position and transforms them into jumps instead of regular calls. By reusing the current function’s stack frame for the callee, it reduces call overhead and prevents the call stack from growing—especially beneficial for recursive functions.  
 **Applied at:** Tail call elimination is typically performed starting at **-O1** and is enhanced at higher optimization levels like **-O2** and **-O3**.
+
+
+
+## How optimizations vary
