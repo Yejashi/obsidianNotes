@@ -6,4 +6,5 @@
 
 Note: There are different types of inlining: i.e partial inlining
 
+##### Loop-vectorize
 The **loop-vectorize** pass in LLVM automatically transforms a loop so that several iterations can be executed in parallel using SIMD instructions. It does this by analyzing the loop to ensure that it’s safe to combine iterations, then rewrites the loop body to operate on vector types (loading/storing multiple values at once) and adjusts the loop’s induction variable to increment by the vector width rather than one.
