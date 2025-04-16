@@ -74,17 +74,12 @@ The tail call elimination pass (**tailcallelim**) examines function calls that o
 Both -O2 and -O3 enable a similar core set of optimizations. However, -O3 adjusts the same passes to be more aggressive in their application. Key differences include:
 
 - **More Aggressive Inlining:**
-    
     - At -O3, the threshold for inlining is increased. This means that larger or more complex functions are more likely to be inlined, potentially boosting performance even if the binary size grows.
-        
 - **Enhanced Loop Optimizations:**
-    
     - -O3 relaxes the thresholds for loop transformations such as unrolling and vectorization. As a result, loops that might be left untouched or only minimally optimized at -O2 can be further optimized under -O3, sometimes resulting in faster execution at the cost of increased code size.
-        
 - **Additional Target-Specific and Interprocedural Optimizations:**
     
     - There are also extra target-specific tweaks and broader interprocedural optimizations enabled at -O3. These adjustments further refine the heuristics of the optimizations to extract more performance from the code.
-        
 
 ---
 
