@@ -27,24 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Waypoint.md",
+                "file": "Research/LLVM/Optimizations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Waypoint"
-            }
-          },
-          {
-            "id": "1346f1a4fc69d343",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-04-15 13.11.19.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-04-15 13.11.19.excalidraw"
+              "title": "Optimizations"
             }
           },
           {
@@ -82,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -248,10 +236,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c90c6fdec0457242",
+  "active": "ff425baf247b36c1",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-04-15 13.11.19.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Waypoint.md",
+    "Research/LLVM/Optimizations.md",
+    "Excalidraw/Drawing 2025-04-15 13.11.19.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/GNNs.md",
     "Class/Spring 2025/Algorithms COSC581/Alg Final Project/General.md",
@@ -291,7 +280,6 @@
     "Meta/Attachments/Pasted image 20250312153906.png",
     "Meta/Attachments/Pasted image 20250312135412.png",
     "Meta/Attachments/Pasted image 20250312134316.png",
-    "Research/Tools/Dyninst/Dyninst General.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW7",
     "Research/Tools/Dyninst",
     "Research/Tools",
