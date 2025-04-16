@@ -6,7 +6,7 @@
 
 Note: There are different types of inlining: i.e partial inlining
 
-##### Loop-vectorize
+##### loop-vectorize
 The **loop-vectorize** pass in LLVM automatically transforms a loop so that several iterations can be executed in parallel using SIMD instructions. It does this by analyzing the loop to ensure that it’s safe to combine iterations, then rewrites the loop body to operate on vector types (loading/storing multiple values at once) and adjusts the loop’s induction variable to increment by the vector width rather than one.
 
 ##### loop-idiom
@@ -14,3 +14,4 @@ The **loop idiom** recognition pass in LLVM examines loops to see if they match 
 
 ##### regalloc
 Register allocation (abbreviated as "**regalloc**") is the compiler phase responsible for mapping the program’s virtual registers—which can be arbitrarily many in the intermediate representation—to a limited number of physical registers available on the target machine. This pass must decide which values remain in registers and which are temporarily stored (spilled) to memory when registers are scarce. An efficient register allocator minimizes the costly memory accesses and helps generate faster code, often using algorithms such as graph-coloring or linear scan to perform this mapping.
+
