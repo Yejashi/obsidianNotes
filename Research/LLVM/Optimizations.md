@@ -17,3 +17,4 @@ Register allocation (abbreviated as "**regalloc**") is the compiler phase respon
 
 ##### slp-vectorizer
 The SLP (Superword Level Parallelism) vectorizer is an LLVM optimization pass that identifies groups of independent scalar operations within a basic block that perform the same computation and can be executed in parallel. It then packs these operations into a single SIMD (Single Instruction, Multiple Data) instruction, effectively reducing the instruction count and improving data throughput. This approach is particularly effective for optimizing loops or blocks of code where the same operation is applied to multiple data elements.
+
