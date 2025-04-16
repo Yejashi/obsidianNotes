@@ -24,4 +24,5 @@ Global Value Numbering (**GVN**) is an optimization pass that identifies and eli
 ##### loop-unrolling
 **Loop unrolling** is an optimization that replicates the loop body multiple times to reduce the overhead associated with loop control (like incrementing and branch checking). By doing this, fewer iterations are needed, and the loop’s control logic is executed less frequently. This transformation can expose opportunities for further optimizations such as vectorization or improved instruction scheduling, but it may also lead to increased code size if overused.
 
-
+##### TTI
+**TTI** (Target Transform Info) is an LLVM interface that supplies target-specific cost information to optimization passes. It allows these passes to query details about the target’s architecture—such as the cost of arithmetic operations, memory access penalties, or vectorization capabilities—so that they can make informed decisions about which transformations will improve performance on that specific hardware. This enables the compiler to tailor optimizations like inlining, loop transformations, or vectorization based on the target’s characteristics.
