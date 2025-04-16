@@ -26,3 +26,6 @@ Global Value Numbering (**GVN**) is an optimization pass that identifies and eli
 
 ##### TTI
 **TTI** (Target Transform Info) is an LLVM interface that supplies target-specific cost information to optimization passes. It allows these passes to query details about the target’s architecture—such as the cost of arithmetic operations, memory access penalties, or vectorization capabilities—so that they can make informed decisions about which transformations will improve performance on that specific hardware. This enables the compiler to tailor optimizations like inlining, loop transformations, or vectorization based on the target’s characteristics.
+
+##### tailcallelim
+The tail call elimination pass in LLVM examines function calls that occur as the last operation (i.e. in tail position) and transforms them into jumps instead of regular calls. By reusing the current function’s stack frame for the tail-called function, this optimization reduces call overhead and prevents the growth of the call stack—which is particularly beneficial for recursive functions.
