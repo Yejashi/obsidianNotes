@@ -84,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -250,8 +250,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1d9e64f5d1e2f60b",
+  "active": "ff425baf247b36c1",
   "lastOpenFiles": [
+    "Research/Papers/Dynist/Dyninst paper.md",
     "Research/LLVM/Optimizations.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Waypoint.md",
     "Excalidraw/Drawing 2025-04-15 13.11.19.excalidraw.md",
@@ -289,7 +290,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project",
     "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Lectures/GA Lectures.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW7/hw_answers.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions",
     "Meta/Attachments/Pasted image 20250312153906.png",
     "Meta/Attachments/Pasted image 20250312135412.png",
