@@ -27,4 +27,5 @@ x = "Hi"   # now x is a string — totally fine in dynamic typing
 
 #### Strong vs. Weak Typing
 
+**Dynamic Typing**
 
