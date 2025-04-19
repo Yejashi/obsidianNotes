@@ -42,3 +42,5 @@ x = "Hi"   # now x is a string — totally fine in dynamic typing
 ```
 
 
+#### Manifest vs. Inferred Typing
+
