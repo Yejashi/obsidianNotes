@@ -32,12 +32,16 @@ x = "Hi"   # now x is a string — totally fine in dynamic typing
 - More strict about mixing types.
 - Example: **Python, Java**
 
-```cpp
+```
 "5" + 5  # TypeError in Python (can't add str and int)
 ```
 
 **Weak Typing**
 - Implicit type conversions are allowed.
 - Example: **JavaScript, C**
+```cpp
+
+int x = 5;  // Statically typed: x is an int
+```
 
 
