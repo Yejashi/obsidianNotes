@@ -11,6 +11,13 @@
 int x = 5;  // Statically typed: x is an int
 ```
 
+**Dynamic Typing**
+- Types are checked at **runtime**.
+- More flexibility; variables can hold different types.
+- Example languages: **Python, JavaScript, Ruby**
+- Pros: Concise, good for quick prototyping.
+- Cons: Errors show up only at runtime.
+
 
 
 
