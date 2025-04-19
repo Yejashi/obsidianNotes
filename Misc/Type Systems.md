@@ -55,4 +55,8 @@ int x = 10;
 **Type Inference**
 - Compiler infers types automatically.
 - Example: **Haskell, Rust, Scala, OCaml**
+```rust
+let x = 10;  // Compiler infers that x is an integer
+```
+
 
