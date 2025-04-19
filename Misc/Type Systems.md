@@ -44,3 +44,12 @@ x = "Hi"   # now x is a string — totally fine in dynamic typing
 
 #### Manifest vs. Inferred Typing
 
+**Manifest Typing**
+- You explicitly declare types.
+- Example: **Java, C**
+
+```cpp
+int x = 10;
+```
+
+
