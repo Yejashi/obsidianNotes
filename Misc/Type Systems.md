@@ -28,4 +28,8 @@ x = "Hi"   # now x is a string — totally fine in dynamic typing
 #### Strong vs. Weak Typing
 
 **Dynamic Typing**
+- Prevents type coercion unless explicitly allowed.
+- More strict about mixing types.
+- Example: **Python, Java**
+
 
