@@ -23,8 +23,6 @@ x = 5      # x is an int
 x = "Hi"   # now x is a string — totally fine in dynamic typing
 ```
 
-
-
 #### Strong vs. Weak Typing
 
 **Strong Typing**
@@ -39,9 +37,8 @@ x = "Hi"   # now x is a string — totally fine in dynamic typing
 **Weak Typing**
 - Implicit type conversions are allowed.
 - Example: **JavaScript, C**
-```cpp
-
-int x = 5;  // Statically typed: x is an int
+```javascript
+"5" + 5  // "55" — JavaScript coerces the number to a string
 ```
 
 
