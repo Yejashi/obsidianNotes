@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1072f91377db40e4",
+        "id": "4ad65b0a9e7e8ebd",
         "type": "tabs",
         "children": [
           {
-            "id": "41ea5176ae667296",
+            "id": "f5bf3c2a0f23c11f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -187,10 +187,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "41ea5176ae667296",
+  "active": "f5bf3c2a0f23c11f",
   "lastOpenFiles": [
-    "Rust/Rust General.md",
     "Misc/Type Systems.md",
+    "Rust/Rust General.md",
     "Rust/Cargo.md",
     "Rust/Waypoint.md",
     "Rust",
