@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9ef47e924d67d0c9",
+        "id": "1072f91377db40e4",
         "type": "tabs",
         "children": [
           {
-            "id": "3225778933b54e14",
+            "id": "41ea5176ae667296",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-04-03 17.40.56.excalidraw"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -185,10 +183,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
+    "Untitled",
     "conflict-files-obsidian-git.md",
+    "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
     "Research/LLVM/Optimizations.md",
     "Meta/Attachments/Pasted image 20250411170121.png",
     "Excalidraw/Drawing 2025-04-15 13.11.19.excalidraw.md",
@@ -224,7 +223,6 @@
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Meeting with Dan Milroy (edited).md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2 Review (blah).md",
     "Research/Tools/Dyninst",
     "Research/Tools",
     "Meta/Attachments/Pasted image 20250312153906.png",
