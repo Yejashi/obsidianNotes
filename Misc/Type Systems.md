@@ -52,4 +52,7 @@ x = "Hi"   # now x is a string — totally fine in dynamic typing
 int x = 10;
 ```
 
+**Type Inference**
+- Compiler infers types automatically.
+- Example: **Haskell, Rust, Scala, OCaml**
 
