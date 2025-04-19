@@ -18,6 +18,9 @@ int x = 5;  // Statically typed: x is an int
 - Pros: Concise, good for quick prototyping.
 - Cons: Errors show up only at runtime.
 
+```cpp
+
+```
 
 
 
