@@ -6,6 +6,10 @@ Pass Arguments:  -tti -verify
 Pass Arguments:  -targetlibinfo -tti -assumption-cache-tracker -profile-summary-info -annotation2metadata -forceattrs -basiccg -always-inline -barrier -annotation-remarks -verify
 ```
 
+```bash
+(base) [bogale2@dane7:build]$ opt -O0 -disable-output -print-pipeline-passes junk.cpp 
+verify,always-inline,function(coro-early),cgscc(coro-split),function(coro-cleanup),function(annotation-remarks),verify
+```
 
 ## -O1
 ```bash
