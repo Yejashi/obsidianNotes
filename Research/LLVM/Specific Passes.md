@@ -12,7 +12,6 @@ verify,always-inline,function(coro-early),cgscc(coro-split),function(coro-cleanu
 ```
 
 
-
 ## -O1
 ```bash
 (base) [bogale2@dane7:build]$ llvm-as < /dev/null   | opt -enable-new-pm=0 -O1 -disable-output -debug-pass=Arguments
@@ -24,6 +23,9 @@ Pass Arguments:  -targetlibinfo -domtree -loops -postdomtree -branch-prob -block
 Pass Arguments:  -targetlibinfo -domtree -loops -lazy-branch-prob -lazy-block-freq
 ```
 
+```bash
+
+```
 
 ## -O2
 
