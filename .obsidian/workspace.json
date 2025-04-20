@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4ad65b0a9e7e8ebd",
+        "id": "af3becb432433572",
         "type": "tabs",
         "children": [
           {
-            "id": "f5bf3c2a0f23c11f",
+            "id": "0a74ace28f0e006d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misc/Type Systems.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Type Systems"
+              "title": "New tab"
             }
           }
         ]
@@ -187,8 +183,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f5bf3c2a0f23c11f",
+  "active": "0a74ace28f0e006d",
   "lastOpenFiles": [
+    "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Misc/Type Systems.md",
     "Rust/Rust General.md",
     "Rust/Cargo.md",
@@ -226,7 +223,6 @@
     "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2 Deep Research.md",
     "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Waypoint.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project",
     "Research/Tools/Dyninst",
     "Research/Tools",
