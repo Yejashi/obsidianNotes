@@ -11,10 +11,14 @@
             "id": "0a74ace28f0e006d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Research/LLVM/Specific Passes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Specific Passes"
             }
           }
         ]
@@ -185,6 +189,8 @@
   },
   "active": "0a74ace28f0e006d",
   "lastOpenFiles": [
+    "Research/LLVM/Optimizations.md",
+    "Research/LLVM/Specific Passes.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Misc/Type Systems.md",
     "Rust/Rust General.md",
@@ -193,7 +199,6 @@
     "Rust",
     "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
-    "Research/LLVM/Optimizations.md",
     "Meta/Attachments/Pasted image 20250411170121.png",
     "Excalidraw/Drawing 2025-04-15 13.11.19.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/GNNs.md",
@@ -222,7 +227,6 @@
     "Excalidraw/Drawing 2025-03-05 12.18.04.excalidraw.md",
     "Excalidraw/Drawing 2025-02-20 17.14.11.excalidraw.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2 Deep Research.md",
-    "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project",
     "Research/Tools/Dyninst",
     "Research/Tools",
