@@ -71,5 +71,7 @@ We represent the _pooling_ operation by the letter ρ, and denote that we are
 
 So If we only have edge-level features, and are trying to predict binary node information, we can use pooling to route (or pass) information to where it needs to go. 
 
+If we only have node-level features, and need to predict a binary global property, we need to gather all available node information together and aggregate them. This is similar to Global Average Pooling layers in CNNs. The same can be done for edges.
+
 
 
