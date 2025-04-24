@@ -57,3 +57,6 @@ Because a GNN does not update the connectivity of the input graph, we can descri
 
 ### GNN Predictions by Pooling Information
 
+We have built a simple GNN, but how do we make predictions in any of the tasks we described above?
+
+We will consider the case of binary classification, but this framework can easily be extended to the multi-class or regression case. If the task is to make binary predictions on nodes, and the graph already contains node information, the approach is straightforward — for each node embedding, apply a linear classifier.
