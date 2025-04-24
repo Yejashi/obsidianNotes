@@ -24,3 +24,7 @@ Following the image analogy, node-level prediction problems are analogous to ima
 > Note: Can this be used to determine the N candidate nodes that might be compose a candidate subgraph?
 
 ### Edge-level Task
+
+The remaining prediction problem in graphs is edge prediction.
+
+One example of edge-level inference is in image scene understanding. Beyond identifying objects in an image, deep learning models can be used to predict the relationship between them. We can phrase this as an edge-level classification: given nodes that represent the objects in the image, we wish to predict which of these nodes share an edge or what the value of that edge is. If we wish to discover connections between entities, we could consider the graph fully connected and based on their predicted value prune edges to arrive at a sparse graph.
