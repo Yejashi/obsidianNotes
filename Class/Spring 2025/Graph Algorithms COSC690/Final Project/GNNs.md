@@ -54,3 +54,5 @@ This GNN uses a separate multilayer perceptron (MLP) (or your favorite different
 As is common with neural networks modules or layers, we can stack these GNN layers together.
 
 Because a GNN does not update the connectivity of the input graph, we can describe the output graph of a GNN with the same adjacency list and the same number of feature vectors as the input graph. But, the output graph has updated embeddings, since the GNN has updated each of the node, edge and global-context representations.
+
+###
