@@ -21,3 +21,5 @@ A classic example of a node-level prediction problem is Zach’s karate club. Th
 
 Following the image analogy, node-level prediction problems are analogous to image segmentation, where we are trying to label the role of each pixel in an image. With text, a similar task would be predicting the parts-of-speech of each word in a sentence (e.g. noun, verb, adverb, etc).
 
+> Note: Can this be used to determine the N candidate nodes that might be compose a candidate subgraph?
+
