@@ -82,4 +82,8 @@ Message passing works in three steps: 
 2. Aggregate all messages via an aggregate function (like sum).
 3. All pooled messages are passed through an _update function_, usually a learned neural network.
 
+Just as pooling can be applied to either nodes or edges, message passing can occur between either nodes or edges.
+
+These steps are key for leveraging the connectivity of graphs. We will build more elaborate variants of message passing in GNN layers that yield GNN models of increasing expressiveness and power.
+
 
