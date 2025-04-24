@@ -47,4 +47,6 @@ Now that the graph’s description is in a matrix format that is **permutation i
 
 ### The Simplest GNN
 
+We will start with the simplest GNN architecture, one where we learn new embeddings for all graph attributes (nodes, edges, global), but where we do not yet use the connectivity of the graph.
+
 
