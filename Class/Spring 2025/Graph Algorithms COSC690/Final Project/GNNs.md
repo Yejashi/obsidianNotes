@@ -11,5 +11,9 @@ In a graph-level task, our goal is to predict the property of an entire graph. F
 
 > Note: Can this be used to query whether a subgraph exists within a graph?
 
+This is analogous to image classification problems with MNIST and CIFAR, where we want to associate a label to an entire image. With text, a similar problem is sentiment analysis where we want to identify the mood or emotion of an entire sentence at once.
+
+### Node-level task
+
 
 
