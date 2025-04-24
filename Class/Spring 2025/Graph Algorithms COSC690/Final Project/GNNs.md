@@ -15,5 +15,7 @@ This is analogous to image classification problems with MNIST and CIFAR, where w
 
 ### Node-level task
 
+Node-level tasks are concerned with predicting the identity or role of each node within a graph.
+
 
 
