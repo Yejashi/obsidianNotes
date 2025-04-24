@@ -77,5 +77,9 @@ If we only have node-level features, and need to predict a binary global propert
 
 We could make more sophisticated predictions by using pooling within the GNN layer, in order to make our learned embeddings aware of graph connectivity. We can do this using message passing, where neighboring nodes or edges exchange information and influence each other’s updated embeddings.
 
+Message passing works in three steps: 
+1. For each node in the graph, _gather_ all the neighboring node embeddings (or messages), which is the g function described above.
+2. Aggregate all messages via an aggregate function (like sum).
+3. All pooled messages are passed through an _update function_, usually a learned neural network.
 
 
