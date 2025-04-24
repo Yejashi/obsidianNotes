@@ -69,3 +69,7 @@ Pooling proceeds in two steps:
 
 We represent the _pooling_ operation by the letter ρ, and denote that we are gathering information from edges to nodes as pEn→Vn.
 
+So If we only have edge-level features, and are trying to predict binary node information, we can use pooling to route (or pass) information to where it needs to go. 
+
+
+
