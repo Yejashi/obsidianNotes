@@ -23,3 +23,4 @@ Following the image analogy, node-level prediction problems are analogous to ima
 
 > Note: Can this be used to determine the N candidate nodes that might be compose a candidate subgraph?
 
+### Edge-level Task
