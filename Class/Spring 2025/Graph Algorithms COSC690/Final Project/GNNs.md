@@ -8,3 +8,6 @@ For the three levels of prediction problems described above (graph-level, node-l
 
 ### Graph-level Task
 In a graph-level task, our goal is to predict the property of an entire graph. For example, for a molecule represented as a graph, we might want to predict what the molecule smells like, or whether it will bind to a receptor implicated in a disease.
+
+> 
+
