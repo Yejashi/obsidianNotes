@@ -60,3 +60,10 @@ Because a GNN does not update the connectivity of the input graph, we can descri
 We have built a simple GNN, but how do we make predictions in any of the tasks we described above?
 
 We will consider the case of binary classification, but this framework can easily be extended to the multi-class or regression case. If the task is to make binary predictions on nodes, and the graph already contains node information, the approach is straightforward — for each node embedding, apply a linear classifier.
+
+However, it is not always so simple. For instance, you might have information in the graph stored in edges, but no information in nodes, but still need to make predictions on nodes. We need a way to collect information from edges and give them to nodes for prediction. We can do this by pooling. 
+
+Pooling proceeds in two steps:
+1. For each item to be pooled, gather each of their embeddings and concatenate them into a matrix.
+2. The gathered embeddings are then aggregated, usually via a sum operation.
+
