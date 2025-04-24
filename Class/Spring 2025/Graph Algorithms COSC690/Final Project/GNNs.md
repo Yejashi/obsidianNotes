@@ -73,5 +73,7 @@ So If we only have edge-level features, and are trying to predict binary node in
 
 If we only have node-level features, and need to predict a binary global property, we need to gather all available node information together and aggregate them. This is similar to Global Average Pooling layers in CNNs. The same can be done for edges.
 
+### Passing Messages Between Parts of the Graph
+
 
 
