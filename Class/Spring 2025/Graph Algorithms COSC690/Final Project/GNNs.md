@@ -38,3 +38,4 @@ Machine learning models typically take rectangular or grid-like arrays as input.
 
 Another problem is that there are many adjacency matrices that can encode the same connectivity, and there is no guarantee that these different matrices would produce the same result in a deep neural network (that is to say, they are not **permutation invariant**).
 
+One elegant and memory-efficient way of representing sparse matrices is as adjacency lists. These describe the connectivity of edge ek between nodes ni and nj as a tuple (i,j) in the k-th entry of an adjacency list. Since we expect the number of edges to be much lower than the number of entries for an adjacency matrix (n2nodes), we avoid computation and storage on the disconnected parts of the graph.
