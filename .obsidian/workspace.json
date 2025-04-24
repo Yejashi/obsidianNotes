@@ -96,7 +96,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -264,7 +264,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c87968d773e995fb",
+  "active": "ff425baf247b36c1",
   "lastOpenFiles": [
     "Research/LLVM/Optimizations.md",
     "Rust/Waypoint.md",
