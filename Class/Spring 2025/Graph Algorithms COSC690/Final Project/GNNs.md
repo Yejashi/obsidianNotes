@@ -67,3 +67,5 @@ Pooling proceeds in two steps:
 1. For each item to be pooled, gather each of their embeddings and concatenate them into a matrix.
 2. The gathered embeddings are then aggregated, usually via a sum operation.
 
+We represent the _pooling_ operation by the letter ρ, and denote that we are gathering information from edges to nodes as pEn→Vn.
+
