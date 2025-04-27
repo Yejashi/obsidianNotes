@@ -23,3 +23,6 @@ In summary, we make the following contributions:
 - We develop an anchor matching mechanism based on anchor embeddings and design an efficient parallel matching growth algorithm to obtain locations of all exact matches in Section 4.
 - We design a cost-model-based DFS query plan to enhance the parallel matching growth algorithm in Section 5.
 - We conduct experiments on 6 real-world and 3 synthetic datasets to evaluate the effectiveness and efficiency of GNN-AE in Section 6.
+
+### Section 2
+
