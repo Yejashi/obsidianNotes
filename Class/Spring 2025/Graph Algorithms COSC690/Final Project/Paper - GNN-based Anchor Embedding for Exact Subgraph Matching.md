@@ -17,3 +17,5 @@ GNN-AE does not rely on query graphs to train the model, and the proposed trunca
 
 To retrieve locations of all exact matches, we propose an **anchor matching mechanism** based on **anchor embeddings** and design a parallel matching growth algorithm. At last, we also propose a cost model-based DFS query plan to enhance parallel matching growth.
 
+In summary, we make the following contributions:
+- We propose a novel GNN-AE framework for exact subgraph matching via GNN-based anchor embeddings in Section 2.
