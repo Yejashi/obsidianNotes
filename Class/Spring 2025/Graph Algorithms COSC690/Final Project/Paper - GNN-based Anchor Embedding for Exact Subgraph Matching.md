@@ -20,3 +20,5 @@ To retrieve locations of all exact matches, we propose an **anchor matching mech
 In summary, we make the following contributions:
 - We propose a novel GNN-AE framework for exact subgraph matching via GNN-based anchor embeddings in Section 2.
 - We propose the anchor concept in subgraph matching and design effective anchor (graph & path) embedding techniques for exact subgraph retrieval in Section 3.
+- We develop an anchor matching mechanism based on anchor embeddings and design an efficient parallel matching growth algorithm to obtain locations of all exact matches in Section 4.
+- 
