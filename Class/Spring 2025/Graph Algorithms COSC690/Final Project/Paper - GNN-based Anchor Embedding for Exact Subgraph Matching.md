@@ -7,4 +7,5 @@ Prior works on the exact subgraph matching problem usually followed the explorat
 
 ![[Pasted image 20250427134334.png]]
 
-As shown in Figure 2, in GNN-AE, we first propose a series of concepts related to anchor, including anchor, anchor graph/path, etc. We design effective anchor embedding techniques (including anchor graph embedding, and anchor path embedding) based on anchor concepts and GNN models, which transform the subgraph matching problem into a search problem in the embedding space
+As shown in Figure 2, in GNN-AE, we first propose a series of concepts related to anchor, including anchor, anchor graph/path, etc. We design effective anchor embedding techniques (including anchor graph embedding, and anchor path embedding) based on anchor concepts and GNN models, which transform the subgraph matching problem into a search problem in the embedding space.
+
