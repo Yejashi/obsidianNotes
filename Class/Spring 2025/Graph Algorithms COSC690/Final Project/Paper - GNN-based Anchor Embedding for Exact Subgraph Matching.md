@@ -10,3 +10,6 @@ Prior works on the exact subgraph matching problem usually followed the explorat
 As shown in Figure 2, in GNN-AE, we first propose a series of concepts related to anchor, including anchor, anchor graph/path, etc. We design effective anchor embedding techniques (including anchor graph embedding, and anchor path embedding) based on anchor concepts and GNN models, which transform the subgraph matching problem into a search problem in the embedding space.
 
  If two anchor graphs/paths in the subgraph matching have an isomorphic relationship, they are mapped to the same embedding vector. 
+
+Based on this principle, we can guarantee a 100% matching (i.e., candidate anchors) recall ratio for each query anchor without introducing false dismissals.
+
