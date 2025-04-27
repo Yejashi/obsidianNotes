@@ -3,4 +3,5 @@ Subgraph matching is a fundamental problem in graph data management. Given a dat
 
 Prior works on the exact subgraph matching problem usually followed the exploration-based or the join-based methodology . The exploration-based methods adopt the backtracking search, which maps query nodes to data nodes and iteratively extends intermediate results to find all matches. The join-based methods convert the subgraph query to a relational query, and evaluate the multi-way join to obtain all results.
 
-**Our Contributions:**
+**Our Contributions:** In this paper, we study the exact subgraph matching problem on the large-scale data graph and propose a novel GNN-AE (GNN-based Anchor Embedding) framework for exact and efficient subgraph matching. In contrast to existing GNN-based approaches for approximate subgraph matching without theoretical guarantees of accuracy, our GNN-AE can obtain exact results for subgraph matching and retrieve the locations of all matches.
+
