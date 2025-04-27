@@ -15,4 +15,4 @@ Based on this principle, we can guarantee a 100% matching (i.e., candidate ancho
 
 GNN-AE does not rely on query graphs to train the model, and the proposed truncated GNN model training technique enables GNN-AE to have a low offline computation cost.
 
-To retrieve locations of all exact matches, we propose an anchor matching mechanism based on anchor embeddings and design a
+To retrieve locations of all exact matches, we propose an anchor matching mechanism based on anchor embeddings and design a parallel matching growth algorithm. At last, we also propose a costmodel-based DFS query plan to enhance parallel matching growth.
