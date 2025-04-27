@@ -13,3 +13,5 @@ As shown in Figure 2, in GNN-AE, we first propose a series of concepts related t
 
 Based on this principle, we can guarantee a 100% matching (i.e., candidate anchors) recall ratio for each query anchor without introducing false dismissals.
 
+GNN-AE does not rely on query graphs to train the model, and the proposed truncated GNN model training technique enables GNN-AE to have a low offline computation cost.
+
