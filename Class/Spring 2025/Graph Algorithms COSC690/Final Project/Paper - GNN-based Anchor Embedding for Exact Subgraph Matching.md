@@ -5,3 +5,5 @@ Prior works on the exact subgraph matching problem usually followed the explorat
 
 **Our Contributions:** In this paper, we study the exact subgraph matching problem on the large-scale data graph and propose a novel GNN-AE (GNN-based Anchor Embedding) framework for exact and efficient subgraph matching. In contrast to existing GNN-based approaches for approximate subgraph matching without theoretical guarantees of accuracy, our GNN-AE can obtain exact results for subgraph matching and retrieve the locations of all matches.
 
+![[Pasted image 20250427134334.png]]
+
