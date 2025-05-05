@@ -63,6 +63,7 @@ Global Value Numbering (**GVN**) is an optimization pass that identifies and eli
 
 The **sdagisel** pass (short for _SelectionDAG Instruction Selection_) is a backend code generation pass that translates LLVM's intermediate representation (IR) into target-specific machine instructions. It works by lowering IR to a Selection Directed Acyclic Graph (SelectionDAG), which expresses operations and data dependencies in a form suited for pattern matching against the target's instruction set. By matching DAG nodes to patterns, `sdagisel` emits optimized machine instructions tailored for the target architecture. This pass is a key step in converting IR into executable machine code.
 
+**Applied at:** This pass is active during **code generation** and runs at **all optimization levels, including -O0**, since instruction selection is necessary to produce machine code.
 
 ---
 
