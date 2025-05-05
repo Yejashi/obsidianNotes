@@ -59,6 +59,9 @@ Global Value Numbering (**GVN**) is an optimization pass that identifies and eli
 **TTI** (Target Transform Info) is an LLVM interface that supplies target-specific cost information (such as the cost of arithmetic operations, memory accesses, and vector operations) to various optimization passes. This helps the compiler decide which transformations will yield performance gains on the specific hardware target.  
 **Applied at:** TTI is used by nearly all optimizations in **-O1** and higher, guiding decisions across the optimization pipeline.
 
+##### 
+
+
 ---
 
 ##### tailcallelim
