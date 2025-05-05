@@ -122,3 +122,12 @@ The jump from -O1 to -O2 primarily involves the introduction of additional optim
     
 
 Each level is designed with different trade-offs in mind: **-O1** prioritizes compile speed and moderate performance improvements, **-O2** strikes a balance between performance and compile time, and **-O3** aims for maximum performance where binary size and compile time are less of a concern.
+
+
+Note:
+> Higher levels **enable more passes**, but do not guarantee that all passes from lower levels will behave the same or always fire.
+
+Passes can be:
+- **skipped** (because they are subsumed or blocked by other passes),
+- **altered in heuristics** (more or less aggressive),
+- or **forced to no-op** (if not profitable anymore in aggressive contexts).
