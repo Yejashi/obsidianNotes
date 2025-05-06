@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Compilers/Books/Engineering a Compiler/Waypoint.md",
+                "file": "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Overview of Translation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Waypoint"
+              "title": "Overview of Translation"
             }
           },
           {
@@ -204,10 +204,10 @@
   },
   "active": "3d49866ca6a5f67b",
   "lastOpenFiles": [
+    "Research/Compilers/Books/Engineering a Compiler/Waypoint.md",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Overview of Translation.md",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Compiler Structure.md",
     "Meta/Attachments/Pasted image 20250506155150.png",
-    "Research/Compilers/Books/Engineering a Compiler/Waypoint.md",
     "Meta/Attachments/Pasted image 20250506152916.png",
     "Meta/Attachments/Pasted image 20250506114036.png",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Introduction.md",
