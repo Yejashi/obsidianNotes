@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Compilers/Books/Engineering a Compiler/Waypoint.md",
+                "file": "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Waypoint"
+              "title": "Introduction"
             }
           }
         ]
@@ -190,8 +190,9 @@
   },
   "active": "3d49866ca6a5f67b",
   "lastOpenFiles": [
-    "Research/Compilers/Books/Engineering a Compiler/Chapter 1",
     "Research/Compilers/Books/Engineering a Compiler/Waypoint.md",
+    "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Introduction.md",
+    "Research/Compilers/Books/Engineering a Compiler/Chapter 1",
     "Research/Compilers/General.md",
     "Research/Compilers/Books/Engineering a Compiler",
     "Research/Compilers/Books",
@@ -234,7 +235,6 @@
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
     "Meta/Attachments/Pasted image 20250401014947.png",
     "Class/Spring 2025/Algorithms COSC581/Exam 2",
-    "Class/Spring 2025/Graph Algorithms COSC690/Final Project",
-    "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions"
+    "Class/Spring 2025/Graph Algorithms COSC690/Final Project"
   ]
 }
