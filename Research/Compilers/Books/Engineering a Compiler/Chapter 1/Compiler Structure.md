@@ -4,4 +4,5 @@ The distinct nature of these two tasks suggests a division of labor and leads to
 
 ![[Pasted image 20250506114036.png]]
 
-The front end focuses on understanding the source-language program.  
+The front end focuses on understanding the source-language program.  The back end focuses on mapping programs to the target machine. This separation of concerns has several important implications for the design and implementation of compilers.
+
