@@ -6,5 +6,5 @@ The distinct nature of these two tasks suggests a division of labor and leads to
 
 The front end focuses on understanding the source-language program.  The back end focuses on mapping programs to the target machine. This separation of concerns has several important implications for the design and implementation of compilers.
 
-The front end must encode its knowledge of the source program in some structure for later use by the back end.
+The front end must encode its knowledge of the source program in some structure for later use by the back end.  This intermediate representation (ir)IR A compiler uses some set of data structures to represent the code that it processes. That form is called an intermediate representation, or IR becomes the compiler’s definitive representation for the code it is translating.
 
