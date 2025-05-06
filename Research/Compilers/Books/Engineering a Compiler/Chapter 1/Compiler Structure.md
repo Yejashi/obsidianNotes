@@ -9,3 +9,4 @@ The front end focuses on understanding the source-language program.  The back en
 The front end must encode its knowledge of the source program in some structure for later use by the back end. This **intermediate representation** (IR) becomes the compiler's definitive representation for the code it's translating.
 
 
+
