@@ -39,12 +39,14 @@
             "id": "1cc87bae0e23dd22",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-05-05 11.59.07.excalidraw.md"
+                "file": "Research/LLVM/Optimizations.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-05-05 11.59.07.excalidraw"
+              "icon": "lucide-file",
+              "title": "Optimizations"
             }
           },
           {
@@ -114,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sdagisel",
+                "query": "licm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -252,8 +254,9 @@
   },
   "active": "1cc87bae0e23dd22",
   "lastOpenFiles": [
-    "Research/LLVM/Optimizations.md",
+    "Research/LLVM/Specific Passes.md",
     "Excalidraw/Drawing 2025-05-05 11.59.07.excalidraw.md",
+    "Research/LLVM/Optimizations.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Paper - GNN-based Anchor Embedding for Exact Subgraph Matching.md",
@@ -263,7 +266,6 @@
     "Rust/Rust General.md",
     "Rust/Cargo.md",
     "Rust",
-    "Research/LLVM/Specific Passes.md",
     "Misc/Type Systems.md",
     "Research/Papers/Dynist/Dyninst paper.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Waypoint.md",
