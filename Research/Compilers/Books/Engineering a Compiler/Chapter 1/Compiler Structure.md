@@ -16,5 +16,7 @@ Introducing an IR makes it possible to add more phases to compilation. The compi
 
 ![[Pasted image 20250506152916.png]]
 
-The optimizer is an ir-to-ir transformer that tries to improve the ir program in some way.
+The optimizer is an ir-to-ir transformer that tries to improve the ir program in some way. The optimizer can make one or more passes over the ir, analyze the ir, and rewrite the ir. 
+
+
 
