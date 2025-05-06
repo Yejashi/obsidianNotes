@@ -22,5 +22,7 @@ The optimizer is an ir-to-ir transformer that tries to improve the ir program in
 
 In practice, the conceptual division of a compiler into three phases, a front end, a middle section or optimizer, and a back end, is useful. The problems addressed by these phases are different. The front end is concerned with understanding the source program and recording the results of its analysis into ir form. The optimizer section focuses on improving the ir form. The back end must map the transformed ir program onto the bounded resources of the target machine in a way that leads to efficient use of those resources.
 
+![[Pasted image 20250506155150.png]]
+
 
 
