@@ -10,4 +10,6 @@ The front end must encode its knowledge of the source program in some structure 
 
 At each point in compilation, the compiler will have a **definitive representation**. It may, in fact, use several different irs as compilation progresses, but **at each point, one representation will be the definitive ir**. We think of the definitive ir as the **version of the program passed between independent phases of the compiler**, like the ir passed **from the front end to the back end** in the preceding drawing.
 
+***
+
 
