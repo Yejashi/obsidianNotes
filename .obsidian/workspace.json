@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Optimizations.md",
+                "file": "Progress Writing/Progress.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Optimizations"
+              "title": "Progress"
             }
           },
           {
@@ -251,12 +251,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "1cc87bae0e23dd22",
   "lastOpenFiles": [
+    "Research/LLVM/Optimizations.md",
     "Compilers",
     "Research/LLVM/Specific Passes.md",
     "Excalidraw/Drawing 2025-05-05 11.59.07.excalidraw.md",
-    "Research/LLVM/Optimizations.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Paper - GNN-based Anchor Embedding for Exact Subgraph Matching.md",
@@ -297,7 +297,6 @@
     "Meta/Attachments/Pasted image 20250312153906.png",
     "Meta/Attachments/Pasted image 20250312135412.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Homeworks/HW7",
-    "Research/Tools/Dyninst",
-    "Research/Tools"
+    "Research/Tools/Dyninst"
   ]
 }
