@@ -11,14 +11,12 @@
             "id": "b4aa14d0af45a502",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "New RAJAPerf Paper.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "New RAJAPerf Paper"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-18 11.17.05.excalidraw"
             }
           }
         ]
@@ -188,8 +186,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "b4aa14d0af45a502",
   "lastOpenFiles": [
+    "TODO.md",
+    "Pass Manager.md",
+    "New RAJAPerf Paper.md",
     "Junk.md",
     "[Direct Acyclic Graphs (DAGs).md",
     "Progress Writing/Progress.md",
@@ -220,9 +221,6 @@
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
     "Class/Spring 2025/Algorithms COSC581/Lectures/Algorithm Lectures.md",
-    "Excalidraw/Drawing 2025-04-03 17.55.39.excalidraw.md",
-    "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (Edited).md",
     "Meta/Attachments/Pasted image 20250401014947.png",
     "Meta/Attachments/Pasted image 20250401014857.png",
     "Meta/Attachments/Pasted image 20250401011249.png",
