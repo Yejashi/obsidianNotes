@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Compiler Structure.md",
+                "file": "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Compiler Structure"
+              "title": "Untitled"
             }
           }
         ],
@@ -205,9 +205,10 @@
   },
   "active": "328c696848496160",
   "lastOpenFiles": [
+    "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Compiler Structure.md",
+    "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Untitled.md",
     "Meta/Attachments/Pasted image 20250506155150.png",
     "Research/Compilers/Books/Engineering a Compiler/Waypoint.md",
-    "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Compiler Structure.md",
     "Meta/Attachments/Pasted image 20250506152916.png",
     "Meta/Attachments/Pasted image 20250506114036.png",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Introduction.md",
@@ -238,7 +239,6 @@
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Paper - GNN-based Anchor Embedding for Exact Subgraph Matching.md",
-    "Meta/Attachments/Pasted image 20250427134334.png",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/GNNs.md",
     "Rust/Waypoint.md",
     "Rust/Rust General.md",
