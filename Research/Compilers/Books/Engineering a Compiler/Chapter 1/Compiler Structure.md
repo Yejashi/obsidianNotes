@@ -12,4 +12,5 @@ At each point in compilation, the compiler will have a **definitive representati
 
 ***
 
+Introducing an IR makes it possible to add more phases to compilation. The compiler writer can insert a third phase between the front end and the back end. This middle section, or optimizer, takes an IR program as its input and produces a semantically equivalent IR program as its output. By using the IR as an interface, the compiler writer can insert this third phase with minimal disruption to the front end and back end. This leads to the following compiler structure, termed a **three‐phase compiler**.
 
