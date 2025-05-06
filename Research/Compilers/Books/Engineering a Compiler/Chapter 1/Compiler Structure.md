@@ -2,3 +2,5 @@ As the single-box model suggests, a compiler must both understand the source pro
 
 The distinct nature of these two tasks suggests a division of labor and leads to a design that decomposes compilation into two major pieces: a front end and a back end.
 
+![[Pasted image 20250506114036.png]]
+
