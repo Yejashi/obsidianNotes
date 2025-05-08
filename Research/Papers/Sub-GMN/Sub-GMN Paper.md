@@ -114,3 +114,5 @@ If you want to compare nodes from Query Graph and Data Graph → you can’t com
 You need to:
 - Encode node attributes
 - Encode node structure (its neighbors)
+-->  into a vector representation (embedding).
+
