@@ -278,4 +278,4 @@ Per GCN layer --> so if 3 layers --> 3 such tensors.
 Why do we need this step?
 - Similarity Tensor is too big (many k scores).
 - We want → single number per (query, data) node pair → matching matrix.
---> 
+--> Solution: 1x1 convolution (basically a learned linear combination across k dimensions).
