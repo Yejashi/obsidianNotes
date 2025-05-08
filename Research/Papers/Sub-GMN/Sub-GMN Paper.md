@@ -75,4 +75,4 @@ Which maps nodes in Q to nodes in G, such that:
     → (m(ua), m(ub)) ∈ E(G)
     → AND their edge features match
 ```
-
+This means → if Q has edge between A and B, their matched nodes in G must also be connected.
