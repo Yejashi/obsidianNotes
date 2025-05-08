@@ -17,3 +17,7 @@ Prior methods (Saga, Tale, G-Finder) used **heuristics**:
 - Can only match query graphs seen during training.
 This means → no generalization to new query graphs.
 
+#### Sub-GMN: Proposed Solution
+- Takes a pair of graphs (data, query) --> so new query graphs are supported at inference.
+- Learns none-to-node similarity (matching matrix) --> not just binary classification.
+- 
