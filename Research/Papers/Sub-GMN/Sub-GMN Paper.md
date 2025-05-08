@@ -116,3 +116,9 @@ You need to:
 - Encode node structure (its neighbors)
 -->  into a vector representation (embedding).
 
+##### How does GCN work?
+Formula (you see this everywhere):
+```
+H^(l+1) = f ( A_hat × H^l × W^l )
+```
+
