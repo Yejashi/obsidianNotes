@@ -167,3 +167,5 @@ Where:
 - `V` --> linear transformation on concatenated `e1` and `e1`.
 - `b` --> bias
 - `f` --> non-linearity (sigmoid, etc)
+
+
