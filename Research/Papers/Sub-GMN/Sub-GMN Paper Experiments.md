@@ -7,5 +7,4 @@ This allows them to control:
 
 #### Dataset 1 -> Fixed query graph
 - The same query graph `Q` is used across all samples.
-- The authors used synthetic datasets (auto-generated graphs) for controlled experiments.
-This allows them to control:
+- Each data graph `G` is generated randomly, and the query graph `Q` is embedded into it.
