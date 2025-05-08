@@ -154,4 +154,4 @@ Simple methods:
 - Cosine similarity → too simple
 --> They only capture simple relations.
 
-
+NTN --> more powerful -->learns complex relation patters
