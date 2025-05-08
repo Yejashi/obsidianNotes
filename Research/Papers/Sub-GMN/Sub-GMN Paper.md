@@ -14,4 +14,4 @@ Prior methods (Saga, Tale, G-Finder) used **heuristics**:
 
 #### Limitations of prior GNN-based Subgraph Matchers
 - GNN and FGNN → binary classification on nodes → yes/no only → does not give node-to-node mapping.
-- 
+- Can only match query graphs seen during training.
