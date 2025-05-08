@@ -234,8 +234,8 @@ g(e1, e2) = f( e1^T W[1:k] e2 + V [e1; e2] + b )
 ```
 
 Where:
-- e1, e2 → embeddings of query + data node.
-- W[1:k] → k different slices → each compares nodes differently.
-- V → learns linear relations.
-- f → activation.
+- `e1`, `e2` → embeddings of query + data node.
+- `W[1:k]` → k different slices → each compares nodes differently.
+- `V` → learns linear relations.
+- `f` → activation.
 
