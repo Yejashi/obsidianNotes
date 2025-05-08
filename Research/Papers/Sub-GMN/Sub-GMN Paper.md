@@ -213,3 +213,14 @@ This gives us → two sets of embeddings → ready for comparison.
 #### Stage 2 - Similarity Tensor (NTN + Attention)
 
 Now that we have embeddings for Query Graph and Data Graph nodes:
+--> Need to compare every pair (query node, data node) → get a similarity score.
+
+Example:
+```
+Q nodes → [A, B, C]
+G nodes → [X, Y, Z, W]
+
+We want:
+[A vs X], [A vs Y], ..., [C vs W] → Similarity Scores
+```
+
