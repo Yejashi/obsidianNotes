@@ -239,3 +239,4 @@ Where:
 - `V` → learns linear relations.
 - `f` → activation.
 
+Output → k similarity scores → richer than single number.
