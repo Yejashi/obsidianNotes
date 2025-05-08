@@ -290,3 +290,12 @@ Final processing:
 Loss = || predicted - ground-truth ||_F
 ```
 - During inference → For each query node → select **argmax (highest probability)** → predicted matched node.
+
+### Overall Pipeline
+```
+[Query Graph + Data Graph] → 
+    [GCN] → Node Embeddings →
+        [NTN + Attention] → Similarity Tensor →
+            [1x1 Conv + Softmax] → Matching Matrix →
+                [Inference] → Predicted Node-to-Node Matches
+```
