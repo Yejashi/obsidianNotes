@@ -28,4 +28,4 @@ This means → no generalization to new query graphs.
 Result:
 - Can match any new query graph.
 - Produces node-to-node mapping (matching matrix).
-- 
+
