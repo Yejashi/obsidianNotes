@@ -242,4 +242,7 @@ Where:
 Output → k similarity scores → richer than single number.
 
 #### Step 2 --> Node to Node Attention
+NTN produces similarity → but every pair treated independently so far. 
+We also want to model:
+
 
