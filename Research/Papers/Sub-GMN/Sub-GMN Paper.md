@@ -109,3 +109,4 @@ Q node B → G node Z
 
 ##### Why Do We Need Embeddings?
 
+If you want to compare nodes from Query Graph and Data Graph → you can’t compare raw node ids → meaningless.
