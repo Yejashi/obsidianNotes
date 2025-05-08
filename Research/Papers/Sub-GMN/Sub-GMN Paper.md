@@ -152,5 +152,6 @@ How to compare them? → You need a similarity function.
 Simple methods:
 - Dot product → too simple
 - Cosine similarity → too simple
+--> They only capture simple relations.
 
 
