@@ -46,4 +46,20 @@ To compare performance:
 - F1-Score: How precise and complete the node-to-node matching is.
 - Running time: How fast the model runs → important for scalability.
 
+#### How is Accuracy Calculated?
+For each data graph:
+- `NOCC` = number of correctly classified nodes (i.e., in query graph).
+- `TNON` = total number of nodes in data graph.
+```
+acccuraacy = NOCC / TNON
+```
+
+#### How is F1-Score Calculated?
+```
+F1 = 2 * (Precision * Recall) / (Precision + Recall)
+
+Precision = correct matches / all predicted matches
+Recall = correct matches / all actual matches
+```
+
 
