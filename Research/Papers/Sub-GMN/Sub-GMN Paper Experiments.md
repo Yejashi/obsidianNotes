@@ -23,3 +23,4 @@ Why?
 -> 8000 training / 1000 validation / 1000 test samples
 
 ### Baseline Methods
+To show Sub-GMN is better, they compare against two older GNN-based subgraph matching models:
