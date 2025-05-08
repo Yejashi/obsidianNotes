@@ -211,3 +211,5 @@ Data Graph → GCN → Node embeddings → Hg
 This gives us → two sets of embeddings → ready for comparison.
 
 #### Stage 2 - Similarity Tensor (NTN + Attention)
+
+Now that we have embeddings for Query Graph and Data Graph nodes:
