@@ -141,4 +141,11 @@ Multiple layers → aggregate multi-hop neighbors.
 
 > In Sub-GMN → same GCN (shared weights) is used for query graph and data graph → so embeddings are comparable.
 
+#### C) Neural Tensor Network (NTN)
+Now you have:
+```
+Query node embedding → e1
+Data graph node embedding → e2
+```
+
 
