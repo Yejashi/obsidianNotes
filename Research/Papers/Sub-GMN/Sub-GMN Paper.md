@@ -263,3 +263,7 @@ This allows → global context to influence matching.
 Final Similarity = NTN output * Attention weight
 ```
 
+This means:
+- NTN → rich pairwise similarity
+- Attention → global node importance (dependency/context awareness)
+- Combined → context-aware similarity score
