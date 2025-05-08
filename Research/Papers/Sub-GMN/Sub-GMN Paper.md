@@ -107,3 +107,5 @@ Q node B → G node Z
 
 #### B) Graph Convolutional Networks (GCN)
 
+##### Why Do We Need Embeddings?
+
