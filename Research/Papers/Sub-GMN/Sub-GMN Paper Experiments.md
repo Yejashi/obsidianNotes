@@ -33,6 +33,7 @@ Limitation of these baselines
 
 ### Parameter Settings
 Model hyperparameters:
-- 
+- GCN → 3 layers → each outputs 128 dimensional embeddings
+- Activation functions → ELU (first 2 layers), Softmax (last layer)
 
 
