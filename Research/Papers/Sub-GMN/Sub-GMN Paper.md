@@ -199,3 +199,6 @@ Where:
 - `A_hat` --> normalized adjacency matrix (how nodes are connected)
 - `W^l` --> learnable weight matrix
 - `f` --> activation function (ReLU, ELU, etc)
+
+Why shared weights between query graph and data graph?
+- If Q and G both use the same GCN weights → nodes that have similar structures → produce similar embeddings → makes comparison fair.
