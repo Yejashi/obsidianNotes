@@ -155,3 +155,5 @@ Simple methods:
 --> They only capture simple relations.
 
 NTN --> more powerful -->learns complex relation patters
+
+
