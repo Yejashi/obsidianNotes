@@ -301,8 +301,10 @@ Loss = || predicted - ground-truth ||_F
 ```
 
 ### Important Takeaways
-- GCN → encodes nodes → captures structure + features
-- NTN → compares nodes → learns complex matching patterns
-- **Attention → adds context → makes node comparisons aware of global graph**
-- **1x1 Conv + softmax → compress + predict Matching Matrix**
+- **GCN** → encodes nodes → captures structure + features
+- **NTN** → compares nodes → learns complex matching patterns
+- **Attention** → adds context → makes node comparisons aware of global graph
+- **1x1 Conv** + softmax → compress + predict Matching Matrix
+
+
 
