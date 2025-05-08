@@ -34,6 +34,7 @@ Result:
 ### 2. Preliminary
 
 #### A) Subgraph Matching and Matching Matrix
+##### What is a graph?
 A graph is:
 ```
 Graph G = (V, E, F)
@@ -52,3 +53,8 @@ F = {A: [1, 0], B: [0, 1], C: [0.5, 0.5]}
 ```
 
 
+##### What is subgraph matching formally?
+Given:
+- Query graph --> Q
+- Data graph --> G
+You want to find a solution `m`:
