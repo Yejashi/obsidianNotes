@@ -38,5 +38,6 @@ Model hyperparameters:
 - NTN → k=16 (16 similarity dimensions per node pair)
 - Optimizer → Adam, learning rate = 0.001
 - Batch size → 128
+- Training iterations → 5000 → best model selected by validation loss
 
 
