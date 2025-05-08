@@ -69,4 +69,4 @@ Which maps nodes in Q to nodes in G, such that:
 ∀u ∈ V(Q): F(u) == F(m(u))
 ```
 
-(2) 
+(2) Edge match → connected nodes are also connected in data graph
