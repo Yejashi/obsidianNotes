@@ -79,3 +79,7 @@ Sub-GMN → +12% better → also MUCH more stable (GNN accuracy varied wildly �
 |Sub-GMN|~99%|
 Sub-GMN → +3% better → much more stable especially when query and data graphs are very different.
 
+|Task|FGNN|Sub-GMN|
+|---|---|---|
+|Small graph|6ms|1ms|
+|Large graph (300 nodes)|300ms|35ms|
