@@ -85,3 +85,8 @@ Sub-GMN → +3% better → much more stable especially when query and data graph
 |Large graph (300 nodes)|300ms|35ms|
 Sub-GMN is 20–40x faster than FGNN, especially on large graphs.
 
+#### Results on Dataset 2 (Variable Query Graph)
+|Metric|Sub-GMN|
+|---|---|
+|Accuracy|~96.9%|
+|F1-score|~0.95|
