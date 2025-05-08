@@ -70,3 +70,11 @@ F1-Score is important because it measures exact matching accuracy → this is th
 |---|---|
 |GNN|~84%|
 |Sub-GMN|~98%|
+Sub-GMN → +12% better → also MUCH more stable (GNN accuracy varied wildly → unstable on different query sizes).
+
+#### Compared with FGNN (Dataset 2)
+|Model|Average Accuracy|
+|---|---|
+|FGNN|~96%|
+|Sub-GMN|~99%|
+Sub-GMN → +3% better → much more stable especially when query and data graphs are very different.
