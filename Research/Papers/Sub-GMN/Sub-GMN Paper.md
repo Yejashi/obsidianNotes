@@ -257,3 +257,9 @@ Where:
 - `softmax` --> ensures that attention over data nodes sums to 1 → interpretable probability.
 
 This allows → global context to influence matching.
+
+#### Step 3 --> Combine NTN and Attention
+```
+Final Similarity = NTN output * Attention weight
+```
+
