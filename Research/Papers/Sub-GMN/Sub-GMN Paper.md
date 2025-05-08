@@ -58,3 +58,6 @@ Given:
 - Query graph --> Q
 - Data graph --> G
 You want to find a solution `m`:
+```
+m : V(Q)
+```
