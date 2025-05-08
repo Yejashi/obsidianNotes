@@ -176,3 +176,4 @@ NTN can learn patterns like:
 
 ### 3. Model
 
+What is the purpose of Sub-GMN (in plain language)?
