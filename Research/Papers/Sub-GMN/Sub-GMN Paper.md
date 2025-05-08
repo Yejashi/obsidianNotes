@@ -224,3 +224,4 @@ We want:
 [A vs X], [A vs Y], ..., [C vs W] → Similarity Scores
 ```
 
+##### Step 1 --> Neural Tensor Network?
