@@ -231,7 +231,7 @@ Why not just dot product or cosine similarity?
 
 
 Where:
-    e1, e2 → embeddings of query + data node.
-    W[1:k] → k different slices → each compares nodes differently.
-    V → learns linear relations.
-    f → activation.
+- e1, e2 → embeddings of query + data node.
+- W[1:k] → k different slices → each compares nodes differently.
+- V → learns linear relations.
+- f → activation.
