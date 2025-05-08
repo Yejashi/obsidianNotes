@@ -164,3 +164,4 @@ g(e1, e2) = f ( e1^T × W[1:k] × e2 + V × [e1; e2] + b )
 
 Where:
 - `W[1:k]` --> tensor --> k learnable matrices --> each slice compares e1 and e2 differently.
+- `V`A --> linear transformation on concatenated e1 and e1.
