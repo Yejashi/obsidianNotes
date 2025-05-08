@@ -34,4 +34,14 @@ Result:
 ### 2. Preliminary
 
 #### A) Subgraph Matching and Matching Matrix
+A graph is:
+```sql
+Graph G = (V, E, F)
+
+Where:
+V → set of nodes
+E → set of edges (connections between nodes)
+F → feature function → assigns each node or edge a feature vector (optional metadata)
+```
+
 
