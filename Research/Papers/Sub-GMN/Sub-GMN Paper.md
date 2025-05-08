@@ -139,5 +139,6 @@ Multiple layers → aggregate multi-hop neighbors.
 - Captures node features.
 - Produces embeddings of same size for all graphs --> needed to compare nodes Q and G
 
+> In Sub-GMN → same GCN (shared weights) is used for query graph and data graph → so embeddings are comparable.
 
 
