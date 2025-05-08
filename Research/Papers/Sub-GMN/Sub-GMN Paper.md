@@ -94,4 +94,9 @@ Example:
 | ---- | ---- | ---- | ---- |
 | Q: A | 0    | 1    | 0    |
 | Q: B | 0    | 0    | 1    |
+Meaning:
+```
+Q node A → G node Y
+Q node B → G node Z
+```
 
