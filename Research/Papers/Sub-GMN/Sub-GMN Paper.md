@@ -174,4 +174,5 @@ NTN can learn patterns like:
 - "If feature X in query matches feature Y in data → this is important."
 - "If neighbor pattern is similar → boost score."
 
+### 3. Model
 
