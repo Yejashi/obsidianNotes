@@ -201,4 +201,7 @@ Where:
 - `f` --> activation function (ReLU, ELU, etc)
 
 Why shared weights between query graph and data graph?
-- If Q and G both use the same GCN weights → nodes that have similar structures → produce similar embeddings → makes comparison fair.
+- If `Q` and `G` both use the same GCN weights → nodes that have similar structures → produce similar embeddings → makes comparison fair.
+```
+
+```
