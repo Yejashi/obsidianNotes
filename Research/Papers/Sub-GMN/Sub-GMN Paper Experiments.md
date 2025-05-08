@@ -17,3 +17,6 @@ Why?
 #### Dataset 2 -> Variable query graph
 - A new random query graph is generated for each sample.
 - Embedded into a random data graph.
+
+Why?
+- 
