@@ -225,3 +225,6 @@ We want:
 ```
 
 ##### Step 1 --> Neural Tensor Network?
+Why not just dot product or cosine similarity?
+- Too simple → can’t capture complex patterns (ex: "same feature, different neighbors" or "different features, same neighbors").
+
