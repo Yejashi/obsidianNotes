@@ -20,4 +20,6 @@ This means → no generalization to new query graphs.
 #### Sub-GMN: Proposed Solution
 - Takes a pair of graphs (data, query) --> so new query graphs are supported at inference.
 - Learns none-to-node similarity (matching matrix) --> not just binary classification.
-- 
+- Combines:
+	- GCN --> to embed nodes
+	- Neural Tensor Network (NTN) --> to compute pairwise node similarity
