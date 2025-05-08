@@ -64,4 +64,5 @@ Recall = correct matches / all actual matches
 
 F1-Score is important because it measures exact matching accuracy → this is the true test for subgraph matching.
 
-###
+### Results
+
