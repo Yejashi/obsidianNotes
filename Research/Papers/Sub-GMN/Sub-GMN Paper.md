@@ -188,3 +188,4 @@ Stage 2 → Compare node pairs to compute similarity (NTN + Attention)
 Stage 3 → Compress similarity → produce Matching Matrix
 ```
 
+#### Stage 1 - Node Embedding (with GCN)
