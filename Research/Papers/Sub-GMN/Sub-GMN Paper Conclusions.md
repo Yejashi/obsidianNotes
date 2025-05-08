@@ -11,3 +11,4 @@ BUT → real-world graphs (social networks, large molecules, knowledge graphs) c
 Possible solutions → smarter batching, hierarchical matching, sampling, etc.
 
 
+#### Cross-graph propagation mechanism
