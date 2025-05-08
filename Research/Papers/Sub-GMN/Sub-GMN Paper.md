@@ -35,7 +35,7 @@ Result:
 
 #### A) Subgraph Matching and Matching Matrix
 A graph is:
-```sql
+```
 Graph G = (V, E, F)
 
 Where:
@@ -46,4 +46,9 @@ F → feature function → assigns each node or edge a feature vector (optional 
 
 Example:
 ```
+V = {A, B, C}
+E = {(A, B), (B, C)}
+F = {A: [1, 0], B: [0, 1], C: [0.5, 0.5]}
 ```
+
+
