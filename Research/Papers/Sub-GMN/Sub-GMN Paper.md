@@ -256,3 +256,4 @@ Where:
 - `Hg` --> data node embeddings
 - `softmax` --> Eures that attention over data nodes sums to 1 → interpretable probability.
 
+This allows → global context to influence matching.
