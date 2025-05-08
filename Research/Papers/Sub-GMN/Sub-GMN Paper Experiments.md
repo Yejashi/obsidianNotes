@@ -36,5 +36,6 @@ Model hyperparameters:
 - GCN → 3 layers → each outputs 128 dimensional embeddings
 - Activation functions → ELU (first 2 layers), Softmax (last layer)
 - NTN → k=16 (16 similarity dimensions per node pair)
+- 
 
 
