@@ -273,3 +273,4 @@ At this point we have **Similarity Tensor** dimsnesions:
 [Query nodes] x [Data nodes] x [k similarity scores]
 ```
 Per GCN layer --> so if 3 layers --> 3 such tensors.
+
