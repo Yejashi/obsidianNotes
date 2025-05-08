@@ -135,5 +135,9 @@ What happens:
 Multiple layers → aggregate multi-hop neighbors.
 
 ##### Why is This Good?
+- Captures local structure --> neighbors info.
+- Captures node features.
+- Produces embeddings of same size for all graphs --> needed to compare nodes Q and G
+
 
 
