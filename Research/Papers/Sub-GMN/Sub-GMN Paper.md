@@ -246,5 +246,13 @@ NTN produces similarity → but every pair treated independently so far.  We als
 
 Attention mechanism solves this → gives per-query node weight distribution over data nodes.
 
+Formula:
+```
+ATT = softmax( f2 ( Hq × Hg^T / sqrt(d) ) )
+```
 
+Where:
+- `Hq` --> query node embeddings
+- `Hg` --> data node embeddings
+- `softmax` --> Eures that attention over data nodes sums to 1 → interpretable probability.
 
