@@ -40,4 +40,10 @@ Model hyperparameters:
 - Batch size → 128
 - Training iterations → 5000 → best model selected by validation loss
 
+### Evaluation Metrics
+To compare performance:
+- Accuracy: Classification → whether a data graph node is part of query graph.
+- F1-Score: How precise and complete the node-to-node matching is.
+- Running time: How fast the model runs → important for scalability.
+
 
