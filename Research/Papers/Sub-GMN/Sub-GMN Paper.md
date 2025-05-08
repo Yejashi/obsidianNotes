@@ -105,4 +105,4 @@ Q node B → G node Z
 > In inference → Model outputs Matching Matrix → gives node-to-node mappings.
 
 
-
+#### B) 
