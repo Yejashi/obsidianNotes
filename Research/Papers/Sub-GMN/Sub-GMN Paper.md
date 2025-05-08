@@ -121,4 +121,6 @@ Formula (you see this everywhere):
 ```
 H^(l+1) = f( A_hat × H^l × W^l )
 ```
-
+Where:
+- `H^l` --> node embeddings at layer `l` (initially -> raw features)
+- `A_hat` --> normalized adjacency matrix
