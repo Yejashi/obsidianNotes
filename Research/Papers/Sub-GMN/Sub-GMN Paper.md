@@ -100,3 +100,4 @@ Q node A → G node Y
 Q node B → G node Z
 ```
 
+This is the core target of the Sub-GMN model → Predict this Matching Matrix.
