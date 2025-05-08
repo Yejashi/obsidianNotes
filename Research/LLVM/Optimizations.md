@@ -59,6 +59,12 @@ Global Value Numbering (**GVN**) is an optimization pass that identifies and eli
 **TTI** (Target Transform Info) is an LLVM interface that supplies target-specific cost information (such as the cost of arithmetic operations, memory accesses, and vector operations) to various optimization passes. This helps the compiler decide which transformations will yield performance gains on the specific hardware target.  
 **Applied at:** TTI is used by nearly all optimizations in **-O1** and higher, guiding decisions across the optimization pipeline.
 
+##### sdagisel
+
+The **sdagisel** pass (short for _SelectionDAG Instruction Selection_) is a backend code generation pass that translates LLVM's intermediate representation (IR) into target-specific machine instructions. It works by lowering IR to a Selection Directed Acyclic Graph (SelectionDAG), which expresses operations and data dependencies in a form suited for pattern matching against the target's instruction set. By matching DAG nodes to patterns, `sdagisel` emits optimized machine instructions tailored for the target architecture. This pass is a key step in converting IR into executable machine code.
+
+**Applied at:** This pass is active during **code generation** and runs at **all optimization levels, including -O0**, since instruction selection is necessary to produce machine code.
+
 ---
 
 ##### tailcallelim
@@ -116,3 +122,12 @@ The jump from -O1 to -O2 primarily involves the introduction of additional optim
     
 
 Each level is designed with different trade-offs in mind: **-O1** prioritizes compile speed and moderate performance improvements, **-O2** strikes a balance between performance and compile time, and **-O3** aims for maximum performance where binary size and compile time are less of a concern.
+
+
+Note:
+> Higher levels **enable more passes**, but do not guarantee that all passes from lower levels will behave the same or always fire.
+
+Passes can be:
+- **skipped** (because they are subsumed or blocked by other passes),
+- **altered in heuristics** (more or less aggressive),
+- or **forced to no-op** (if not profitable anymore in aggressive contexts).
