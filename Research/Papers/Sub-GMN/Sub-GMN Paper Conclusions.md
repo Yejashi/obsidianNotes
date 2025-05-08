@@ -12,3 +12,7 @@ Possible solutions → smarter batching, hierarchical matching, sampling, etc.
 
 
 #### Cross-graph propagation mechanism
+Currently -> Sub-GMN treats:
+- Query graph → GCN → embeddings
+- Data graph → GCN → embeddings
+Then 
