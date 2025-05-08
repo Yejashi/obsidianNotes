@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "af3becb432433572",
+        "id": "14cda32627d88a99",
         "type": "tabs",
         "children": [
           {
-            "id": "0a74ace28f0e006d",
+            "id": "675105c7ec8814eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research/LLVM/Specific Passes.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Specific Passes"
+              "title": "New tab"
             }
           }
         ]
@@ -187,8 +183,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0a74ace28f0e006d",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Research/Papers/Untitled",
+    "Research/LLVM/Specific Passes.md",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Overview of Translation.md",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Compiler Structure.md",
     "Research/Compilers/Books/Engineering a Compiler/Waypoint.md",
@@ -202,7 +200,6 @@
     "Excalidraw/Drawing 2025-05-05 11.59.07.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Paper - GNN-based Anchor Embedding for Exact Subgraph Matching.md",
     "Research/LLVM/General.md",
-    "Research/LLVM/Specific Passes.md",
     "Research/LLVM/Common Terminology.md",
     "Research/LLVM/Optimizations.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
@@ -231,7 +228,6 @@
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (blah).md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review (Edited).md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project",
     "Research/Tools/Dyninst"
