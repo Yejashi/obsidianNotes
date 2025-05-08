@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
+                "file": "Research/Papers/Sub-GMN/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sub-GMN Paper General"
+              "title": "Untitled"
             }
           }
         ]
@@ -188,10 +188,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "675105c7ec8814eb",
   "lastOpenFiles": [
-    "Research/Benchpark/Dalal/Objectives.md",
     "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
+    "Research/Papers/Sub-GMN/Untitled.md",
+    "Research/Benchpark/Dalal/Objectives.md",
     "Research/Papers/Dynist/Dyninst paper.md",
     "Research/Papers/Sub-GMN",
     "Research/LLVM/Specific Passes.md",
@@ -233,7 +234,6 @@
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
     "Class/Spring 2025/Algorithms COSC581/Exam 2",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project"
   ]
