@@ -274,3 +274,4 @@ At this point we have **Similarity Tensor** dimsnesions:
 ```
 Per GCN layer --> so if 3 layers --> 3 such tensors.
 
+#### Stage 3 - Output Matching Matrix
