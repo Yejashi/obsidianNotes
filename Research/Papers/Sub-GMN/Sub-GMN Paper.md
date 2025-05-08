@@ -31,5 +31,6 @@ Result:
 - Can match any new query graph.
 - Produces node-to-node mapping (matching matrix).
 
-### 2. 
+### 2. Preliminary
+
 
