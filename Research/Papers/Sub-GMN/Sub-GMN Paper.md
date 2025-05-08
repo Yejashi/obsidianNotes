@@ -168,4 +168,4 @@ Where:
 - `b` --> bias
 - `f` --> non-linearity (sigmoid, etc)
 
-
+Output → k scores → similarity representation across k dimensions.
