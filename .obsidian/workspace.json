@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Papers/Sub-GMN/Sub-GMN Paper.md",
+                "file": "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sub-GMN Paper"
+              "title": "Sub-GMN Paper General"
             }
           }
         ]
@@ -188,10 +188,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "675105c7ec8814eb",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
     "Research/Benchpark/Dalal/Objectives.md",
-    "Research/Papers/Sub-GMN/Sub-GMN Paper.md",
+    "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
     "Research/Papers/Dynist/Dyninst paper.md",
     "Research/Papers/Sub-GMN",
     "Research/LLVM/Specific Passes.md",
