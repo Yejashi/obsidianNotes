@@ -305,6 +305,3 @@ Loss = || predicted - ground-truth ||_F
 - **NTN** → compares nodes → learns complex matching patterns
 - **Attention** → adds context → makes node comparisons aware of global graph
 - **1x1 Conv** + softmax → compress + predict Matching Matrix
-
-
-
