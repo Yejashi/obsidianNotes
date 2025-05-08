@@ -25,6 +25,12 @@ Why?
 ### Baseline Methods
 To show Sub-GMN is better, they compare against two older GNN-based subgraph matching models:
 - GNN: Binary classification → does node belong to subgraph (yes/no).
-- FGNN: 
+- FGNN: Same → binary → also does not output node-to-node mapping.
+
+Limitation of these baselines
+- They do NOT produce node-to-node mappings and only work with fixed query graphs (same as during training).
+-> Sub-GMN → produces full node-to-node mapping and works with any query graph → much more flexible.
+
+
 
 
