@@ -151,4 +151,6 @@ Data graph node embedding → e2
 How to compare them? → You need a similarity function.
 Simple methods:
 - Dot product → too simple
-- 
+- Cosine similarity → too simple
+
+
