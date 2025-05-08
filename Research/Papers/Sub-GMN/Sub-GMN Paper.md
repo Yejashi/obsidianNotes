@@ -100,4 +100,9 @@ Q node A → G node Y
 Q node B → G node Z
 ```
 
-This is the core target of the Sub-GMN model → Predict this Matching Matrix.
+> This is the core target of the Sub-GMN model → Predict this Matching Matrix.
+> In training → Ground-truth Matching Matrix is used as supervision (model learns to predict it).
+> In inference → Model outputs Matching Matrix → gives node-to-node mappings.
+
+
+
