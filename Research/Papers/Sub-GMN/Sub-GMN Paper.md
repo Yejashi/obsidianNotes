@@ -283,3 +283,5 @@ Why do we need this step?
 Concat (Similarity Tensor from all GCN layers) → 1x1 Conv → (Query x Data) Matching Matrix
 ```
 
+Final processing:
+- Apply `softmax` → row-wise (for each query node → scores across data nodes sum to 1 → interpretable as probability).
