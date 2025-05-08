@@ -64,4 +64,4 @@ m : V(Q) -> V(G)
 ```
 
 Which maps nodes in Q to nodes in G, such that:
-(1) Node match --> 
+(1) Node match --> node features match
