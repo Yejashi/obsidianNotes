@@ -22,3 +22,4 @@ Why?
 - Tests Sub-GMN’s generalization ability → can it handle unseen query graphs at test time?
 -> 8000 training / 1000 validation / 1000 test samples
 
+### Baseline Methods
