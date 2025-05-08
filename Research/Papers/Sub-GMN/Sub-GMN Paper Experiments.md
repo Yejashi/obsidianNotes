@@ -90,3 +90,4 @@ Sub-GMN is 20–40x faster than FGNN, especially on large graphs.
 |---|---|
 |Accuracy|~96.9%|
 |F1-score|~0.95|
+ Most important point → Sub-GMN works even when query graph is different in every sample → TRUE generalization ability.
