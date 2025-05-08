@@ -267,3 +267,8 @@ This means:
 - NTN → rich pairwise similarity
 - Attention → global node importance (dependency/context awareness)
 - Combined → context-aware similarity score
+
+At this point we have **Similarity Tensor** dimsnesions:
+```
+[Query nodes] x [Data nodes] x [k similarity scores]
+```
