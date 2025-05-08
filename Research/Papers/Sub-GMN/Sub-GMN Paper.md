@@ -156,4 +156,10 @@ Simple methods:
 
 NTN --> more powerful -->learns complex relation patters
 
-##### 
+##### What Does NTN Do?
+Formula:
+```
+g(e1, e2) = f ( e1^T × W[1:k] × e2 + V × [e1; e2] + b )
+```
+
+
