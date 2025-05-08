@@ -130,5 +130,7 @@ Where:
 What happens:
 - Aggregate neighbor embeddings → sum / mean / weighted sum.
 - Apply linear transformation.
-- 
+- Apply non-linear activation → produce new embedding.
+
+
 
