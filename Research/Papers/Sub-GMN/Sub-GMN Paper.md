@@ -190,3 +190,12 @@ Stage 3 → Compress similarity → produce Matching Matrix
 
 #### Stage 1 - Node Embedding (with GCN)
 
+Formula (revisited):
+```
+H^(l+1) = f( A_hat × H^l × W^l )
+```
+Where:
+- `H^l` --> node embeddings at layer `l` (initially -> raw features)
+- `A_hat` --> normalized adjacency matrix (how nodes are connected)
+- `W^l` --> learnable weight matrix
+- `f` --> activation function (ReLU, ELU, etc)
