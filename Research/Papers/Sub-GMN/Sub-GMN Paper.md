@@ -156,4 +156,4 @@ Simple methods:
 
 NTN --> more powerful -->learns complex relation patters
 
-
+##### 
