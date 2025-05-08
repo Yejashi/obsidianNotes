@@ -181,3 +181,10 @@ What is the purpose of Sub-GMN (in plain language)?
 - For each query graph node → figure out which node(s) in the data graph it best matches.
 - Output → a Matching Matrix (Query node vs Data node → probabilities).
 
+Overview: The model has **three stages**, each carefully building toward the final matching matrix:
+```
+Stage 1 → Create node embeddings (GCN)
+Stage 2 → Compare node pairs to compute similarity (NTN + Attention)
+Stage 3 → Compress similarity → produce Matching Matrix
+```
+
