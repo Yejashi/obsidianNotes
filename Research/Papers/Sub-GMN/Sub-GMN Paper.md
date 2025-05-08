@@ -90,8 +90,8 @@ M[i][j] → 1 if query node i maps to data node j
 
 Example:
 
-| G: X | G: Y | G: Z |     |
-| ---- | ---- | ---- | --- |
-| Q: A | 0    | 1    | 0   |
-| Q: B | 0    | 0    | 1   |
+|      | G: X | G: Y | G: Z |
+| ---- | ---- | ---- | ---- |
+| Q: A | 0    | 1    | 0    |
+| Q: B | 0    | 0    | 1    |
 
