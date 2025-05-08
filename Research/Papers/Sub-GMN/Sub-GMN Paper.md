@@ -57,7 +57,11 @@ F = {A: [1, 0], B: [0, 1], C: [0.5, 0.5]}
 Given:
 - Query graph --> Q
 - Data graph --> G
+
 You want to find a solution `m`:
 ```
-m : V(Q)
+m : V(Q) -> V(G)
 ```
+
+Which maps nodes in Q to nodes in G, such that:
+(1) Node match --> 
