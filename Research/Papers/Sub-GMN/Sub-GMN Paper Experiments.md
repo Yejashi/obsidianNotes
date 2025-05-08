@@ -12,3 +12,4 @@ This allows them to control:
 
 Why?
 - Tests ability of Sub-GMN to find the same pattern in different noisy graphs.
+--> 200 training / 200 validation / 200 test samples
