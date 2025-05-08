@@ -241,7 +241,7 @@ Where:
 
 Output → k similarity scores → richer than single number.
 
-#### Step 2 --> Node to Node Attention
+##### Step 2 --> Node to Node Attention
 NTN produces similarity → but every pair treated independently so far.  We also want to model: "Given query node A → which data node is overall most important?"
 
 Attention mechanism solves this → gives per-query node weight distribution over data nodes.
@@ -258,7 +258,7 @@ Where:
 
 This allows → global context to influence matching.
 
-#### Step 3 --> Combine NTN and Attention
+##### Step 3 --> Combine NTN and Attention
 ```
 Final Similarity = NTN output * Attention weight
 ```
