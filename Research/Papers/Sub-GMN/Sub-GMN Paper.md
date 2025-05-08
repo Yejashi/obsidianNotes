@@ -12,8 +12,4 @@ Prior methods (Saga, Tale, G-Finder) used **heuristics**:
 - Expand neighbors using rules.
 - Enumerate possible matches.
 
-#### Deep Learning Methods for Graphs
-- GNN (Graph Neural Network) → learns node embeddings.
-- GCN (Graph Convolutional Network) → aggregates neighbor information
-- GAT (Graph Attention Network) → weights neighbors differently.
-
+#### Limitations of prior GNN-based Subgraph Matchers
