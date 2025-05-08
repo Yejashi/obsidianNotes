@@ -285,3 +285,4 @@ Concat (Similarity Tensor from all GCN layers) → 1x1 Conv → (Query x Data) M
 
 Final processing:
 - Apply `softmax` → row-wise (for each query node → scores across data nodes sum to 1 → interpretable as probability).
+- During training → Matching Matrix is compared to ground-truth using Frobenius norm (L2 loss).
