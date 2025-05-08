@@ -24,3 +24,8 @@ Why?
 
 ### Baseline Methods
 To show Sub-GMN is better, they compare against two older GNN-based subgraph matching models:
+|Model|Description|
+|---|---|
+|GNN|Binary classification → does node belong to subgraph (yes/no).|
+|FGNN|Same → binary → also does not output node-to-node mapping.|
+
