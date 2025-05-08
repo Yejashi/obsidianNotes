@@ -8,4 +8,7 @@ To solve the practical version of the problem, we allow "approximate" matches:
 - Find close enough subgraphs, even if they aren't exactly isomorphic.
 
 Prior methods (Saga, Tale, G-Finder) used **heuristics**:
-- 
+- Select a seed node.
+- Expand neighbors using rules.
+- Enumerate possible matches.
+
