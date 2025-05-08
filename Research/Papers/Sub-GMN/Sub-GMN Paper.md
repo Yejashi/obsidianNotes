@@ -25,4 +25,7 @@ This means → no generalization to new query graphs.
 	- Neural Tensor Network (NTN) --> to compute pairwise node similarity
 	- Attention --> to make comparisons context-aware
 
-Result
+Result:
+- Can match any new query graph.
+- Produces node-to-node mapping (matching matrix).
+- 
