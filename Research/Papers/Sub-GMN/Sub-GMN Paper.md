@@ -16,3 +16,4 @@ Prior methods (Saga, Tale, G-Finder) used **heuristics**:
 - GNN and FGNN → binary classification on nodes → yes/no only → does not give node-to-node mapping.
 - Can only match query graphs seen during training.
 This means → no generalization to new query graphs.
+
