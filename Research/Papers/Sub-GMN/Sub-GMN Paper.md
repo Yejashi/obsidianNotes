@@ -130,4 +130,5 @@ Where:
 What happens:
 - Aggregate neighbor embeddings → sum / mean / weighted sum.
 - Apply linear transformation.
+- 
 
