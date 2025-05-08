@@ -119,6 +119,6 @@ You need to:
 ##### How does GCN work?
 Formula (you see this everywhere):
 ```
-H^(l+1) = f ( A_hat × H^l × W^l )
+H^(l+1) = f( A_hat × H^l × W^l )
 ```
 
