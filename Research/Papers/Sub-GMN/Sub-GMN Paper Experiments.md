@@ -31,6 +31,8 @@ Limitation of these baselines
 - They do NOT produce node-to-node mappings and only work with fixed query graphs (same as during training).
 -> Sub-GMN → produces full node-to-node mapping and works with any query graph → much more flexible.
 
-
+### Parameter Settings
+Model hyperparameters:
+- 
 
 
