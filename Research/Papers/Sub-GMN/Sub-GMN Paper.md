@@ -289,4 +289,4 @@ Final processing:
 ```
 Loss = || predicted - ground-truth ||_F
 ```
-- During inference → For each query node → select argmax (highest probability) → predicted matched node.
+- During inference → For each query node → select **argmax (highest probability)** → predicted matched node.
