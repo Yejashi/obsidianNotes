@@ -19,4 +19,6 @@ Why?
 - Embedded into a random data graph.
 
 Why?
-- 
+- Tests Sub-GMN’s generalization ability → can it handle unseen query graphs at test time?
+
+-> 
