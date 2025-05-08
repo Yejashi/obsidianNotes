@@ -272,3 +272,4 @@ At this point we have **Similarity Tensor** dimsnesions:
 ```
 [Query nodes] x [Data nodes] x [k similarity scores]
 ```
+
