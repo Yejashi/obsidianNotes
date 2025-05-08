@@ -66,4 +66,7 @@ F1-Score is important because it measures exact matching accuracy → this is th
 
 ### Results
 #### Compared with GNN (Dataset 1)
-
+|Model|Average Accuracy|
+|---|---|
+|GNN|~84%|
+|Sub-GMN|~98%|
