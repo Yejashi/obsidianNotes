@@ -132,5 +132,8 @@ What happens:
 - Apply linear transformation.
 - Apply non-linear activation → produce new embedding.
 
+Multiple layers → aggregate multi-hop neighbors.
+
+##### Why is This Good?
 
 
