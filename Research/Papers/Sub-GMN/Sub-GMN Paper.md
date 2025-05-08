@@ -148,4 +148,5 @@ Query node embedding → e1
 Data graph node embedding → e2
 ```
 
+How to compare them? → You need a similarity function.
 
