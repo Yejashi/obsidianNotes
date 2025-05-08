@@ -15,4 +15,7 @@ Possible solutions → smarter batching, hierarchical matching, sampling, etc.
 Currently -> Sub-GMN treats:
 - Query graph → GCN → embeddings
 - Data graph → GCN → embeddings
-Then 
+Then → they are compared via NTN + Attention.
+
+But → this process does not directly allow information to flow between the query graph and data graph while embedding.
+→ Possible limitation → may miss subtle relationships that require considering query+data graph together at embedding time.
