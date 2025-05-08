@@ -70,3 +70,9 @@ Which maps nodes in Q to nodes in G, such that:
 ```
 
 (2) Edge match → connected nodes are also connected in data graph
+```
+∀ (ua, ub) ∈ E(Q):
+    → (m(ua), m(ub)) ∈ E(G)
+    → AND their edge features match
+```
+
