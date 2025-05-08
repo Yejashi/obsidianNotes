@@ -177,3 +177,5 @@ NTN can learn patterns like:
 ### 3. Model
 
 What is the purpose of Sub-GMN (in plain language)?
+- Take a pair of graphs → (Query Graph Q, Data Graph G).
+- For each query graph node → figure out which node(s) in the data graph it best matches.
