@@ -76,3 +76,15 @@ Which maps nodes in Q to nodes in G, such that:
     → AND their edge features match
 ```
 This means → if Q has edge between A and B, their matched nodes in G must also be connected.
+
+##### Matching Matrix *
+When you find a valid mapping 'm', you can write it down as a Matching Matrix M
+```
+M → Shape (n, m)
+n → # nodes in query graph Q
+m → # nodes in data graph G
+
+M[i][j] → 1 if query node i maps to data node j
+          0 otherwise
+```
+
