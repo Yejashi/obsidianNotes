@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Sub-GMN Paper Experiments"
             }
+          },
+          {
+            "id": "ed81c732da0ae046",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +201,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "675105c7ec8814eb",
+  "active": "ed81c732da0ae046",
   "lastOpenFiles": [
     "Research/Papers/Sub-GMN/Sub-GMN Paper Conclusions.md",
     "Research/Papers/Sub-GMN/Sub-GMN Paper Experiments.md",
