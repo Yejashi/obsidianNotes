@@ -51,3 +51,4 @@ The optimizer analyzes the ir form of the code to discover facts about that cont
 Efficiency can have many meanings. The classic notion of optimization is to reduce the application’s running time. In other contexts, the optimizer might try to reduce the size of the compiled code, or other properties such as the energy that the processor consumes evaluating the code. All of these strategies target efficiency.
 
 ##### Analysis
+Most optimizations consist of an analysis and a transformation. 
