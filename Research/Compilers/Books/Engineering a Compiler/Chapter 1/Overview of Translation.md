@@ -46,3 +46,5 @@ The final issue handled in the front end of a compiler is the generation of an i
 
 When the front end emits ir for the input program, it handles the statements one at a time, in the order that they are encountered. Thus, the initial ir program contains general implementation strategies that will work in any surrounding context that the compiler might generate
 
+The optimizer analyzes the ir form of the code to discover facts about that context and uses that contextual knowledge to rewrite the code so that it computes the same answer in a more efficient way.
+
