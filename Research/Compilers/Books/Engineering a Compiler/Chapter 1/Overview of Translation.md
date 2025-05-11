@@ -40,3 +40,5 @@ might be syntactically well-formed, but if b and d are character strings, the se
 
 ### Intermediate Representations
 
+The final issue handled in the front end of a compiler is the generation of an ir form of the code.
+
