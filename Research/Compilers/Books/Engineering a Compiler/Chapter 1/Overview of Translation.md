@@ -52,3 +52,6 @@ Efficiency can have many meanings. The classic notion of optimization is to redu
 
 ##### Analysis
 Most optimizations consist of an analysis and a transformation. 
+
+The analysis determines where the compiler can safely and profitably apply the technique.
+
