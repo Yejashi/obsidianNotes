@@ -30,4 +30,4 @@ The derivation proves that the sentence “Compilers are engineered objects.” 
 
 A grammatically correct sentence can be meaningless. For example, the sentence “Rocks are green vegetables” has the same parts of speech in the same order as “Compilers are engineered objects,” but has no rational meaning. To understand the difference between these two sentences requires contextual knowledge about software systems, rocks, and vegetables.
 
-
+The semantic models that compilers use to reason about programming languages 
