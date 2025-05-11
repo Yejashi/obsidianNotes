@@ -61,3 +61,5 @@ Compilers use several kinds of analysis to support transformations. Data flow an
 
 **Dependence analysis** uses number-theoretic tests to reason about the values that can be assumed by subscript expressions.
 ##### Transformation
+To improve the code, the compiler must go beyond analyzing it.
+
