@@ -72,4 +72,4 @@ for the target machine.
 
 ##### Instruction Selection
 
-The first stage of code generation rewrites the IR operations into 
+The first stage of code generation rewrites the IR operations into target machine operations, 
