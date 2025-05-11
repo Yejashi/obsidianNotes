@@ -13,4 +13,5 @@ Two separate passes in the front end, called the ***scanner and the parser***, d
 
 **Scanner**: the compiler pass that converts a string of characters into a stream of words
 
+Consider a sentence like “Compilers are engineered objects.” 
 
