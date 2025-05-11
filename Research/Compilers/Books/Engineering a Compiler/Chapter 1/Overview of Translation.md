@@ -70,3 +70,4 @@ The compiler must use the results of analysis to rewrite the code into a more ef
 The compiler’s back end traverses the ir form of the code and emits code
 for the target machine.
 
+##### Instruction Selection
