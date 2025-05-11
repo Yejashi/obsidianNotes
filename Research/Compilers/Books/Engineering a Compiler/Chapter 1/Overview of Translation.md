@@ -59,4 +59,5 @@ Compilers use several kinds of analysis to support transformations. Data flow an
 
 Data-flow analyzers typically solve a system of simultaneous set equations that are derived from the structure of the code being translated.
 
-Dependence analysis uses number-theoretic tests to reason about the values that can be 
+Dependence analysis uses number-theoretic tests to reason about the values that can be assumed by subscript expressions.
+
