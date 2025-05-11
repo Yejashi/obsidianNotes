@@ -74,7 +74,7 @@ for the target machine.
 
 The first stage of code generation rewrites the IR operations into target machine operations, a process called **instruction selection**. 
 
-Istruction selection maps each ir operation, in its context, into one or more target machine operations.
+Instruction selection maps each ir operation, in its context, into one or more target machine operations.
 
 
 
