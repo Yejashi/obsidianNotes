@@ -32,4 +32,7 @@ A grammatically correct sentence can be meaningless. For example, the sentence â
 
 The semantic models that compilers use to reason about programming languages are simpler than the models needed to understand natural language.
 
+A compiler builds mathematical models that detect specific kinds of inconsistency in a program. Compilers check for consistency of type; for example, the expression:
+```
 
+```
