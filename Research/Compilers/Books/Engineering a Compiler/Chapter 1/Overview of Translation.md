@@ -22,3 +22,5 @@ A scanner would convert the example sentence into the following stream of classi
 (noun,“Compilers”), (verb,“are”), (adjective,“engineered”), (noun,“objects”), (endmark,“.”)
 ```
 
+In the next step, the compiler tries to match the stream of categorized words
+against the rules that specify syntax for the input language.
