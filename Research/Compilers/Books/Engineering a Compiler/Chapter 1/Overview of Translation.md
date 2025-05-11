@@ -43,3 +43,6 @@ might be syntactically well-formed, but if b and d are character strings, the se
 The final issue handled in the front end of a compiler is the generation of an ir form of the code.
 
 ### The Optimizer
+
+When the front end emits ir for the input program, it handles the statements one at a time, in the order that they are encountered. Thus, the initial ir program contains general implementation strategies that will work in any surrounding context that the compiler might generate
+
