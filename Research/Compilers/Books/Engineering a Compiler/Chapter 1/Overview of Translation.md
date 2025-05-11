@@ -15,3 +15,4 @@ Two separate passes in the front end, called the ***scanner and the parser***, d
 
 Consider a sentence like “Compilers are engineered objects.” 
 
+The scanner takes a stream of characters and converts it to a stream of classified words -- 
