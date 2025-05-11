@@ -7,3 +7,5 @@ Before the compiler can translate an expression into executable target machine c
 #### Checking Syntax
 To check the syntax of the input program, the compiler must compare the program’s structure against a definition for the language.
 
+Mathematically, the source language is a set, usually infinite, of strings defined by some finite set of rules, called a *grammar*.
+
