@@ -34,5 +34,7 @@ The semantic models that compilers use to reason about programming languages are
 
 A compiler builds mathematical models that detect specific kinds of inconsistency in a program. Compilers check for consistency of type; for example, the expression:
 ```
-
+a ← a × 2 × b × c × d
 ```
+
+
