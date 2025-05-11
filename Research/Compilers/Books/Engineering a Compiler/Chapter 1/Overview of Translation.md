@@ -11,3 +11,4 @@ Mathematically, the source language is a set, usually infinite, of strings defin
 
 Two separate passes in the front end, called the ***scanner and the parser***, determine whether or not the input code is, in fact, a member of the set of valid programs defined by the grammar.
 
+**Scanner**: 
