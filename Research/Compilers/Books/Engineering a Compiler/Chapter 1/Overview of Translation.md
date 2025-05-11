@@ -38,5 +38,5 @@ a ← a × 2 × b × c × d
 ```
 might be syntactically well-formed, but if b and d are character strings, the sentence might still be invalid.
 
-
+### Intermediate Representations
 
