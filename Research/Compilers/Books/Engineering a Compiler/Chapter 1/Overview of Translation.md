@@ -58,3 +58,5 @@ The analysis determines where the compiler can safely and profitably apply the t
 Compilers use several kinds of analysis to support transformations. Data flow analysis reasons, at compile time,  about the flow of values at runtime. 
 
 Data-flow analyzers typically solve a system of simultaneous set equations that are derived from the structure of the code being translated.
+
+Dependence analysis uses number-theoretic tests to reason about the values that can be 
