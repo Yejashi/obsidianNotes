@@ -9,4 +9,4 @@ To check the syntax of the input program, the compiler must compare the programâ
 
 Mathematically, the source language is a set, usually infinite, of strings defined by some finite set of rules, called a *grammar*.
 
-Two separate passes in the front end, called the **scanner and the parser**, determine whether or not the input code is, in fact, a member of the set of valid programs defined by the grammar.
+Two separate passes in the front end, called the ***scanner and the parser***, determine whether or not the input code is, in fact, a member of the set of valid programs defined by the grammar.
