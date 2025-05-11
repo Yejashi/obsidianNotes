@@ -71,3 +71,5 @@ The compiler’s back end traverses the ir form of the code and emits code
 for the target machine.
 
 ##### Instruction Selection
+
+The first stage of code generation rewrites the IR operations into 
