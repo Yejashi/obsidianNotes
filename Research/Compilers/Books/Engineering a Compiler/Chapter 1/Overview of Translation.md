@@ -17,3 +17,8 @@ Consider a sentence like “Compilers are engineered objects.”
 
 The scanner takes a stream of characters and converts it to a stream of classified words -- that is, pairs of the form (p,s), where p is the word’s part of speech and s is its spelling.
 
+A scanner would convert the example sentence into the following stream of classified words:
+```
+(noun,“Compilers”), (verb,“are”), (adjective,“engineered”), (noun,“objects”), (endmark,“.”)
+```
+
