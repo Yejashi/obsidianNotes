@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "728552c2ab7a6ac0",
+        "id": "1fa7f0b1dce6a9d9",
         "type": "tabs",
         "children": [
           {
-            "id": "391b3153ead80a54",
+            "id": "ec582a071e6e5bfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
+                "file": "Research/LLVM/Specific Passes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sub-GMN Paper General"
-            }
-          },
-          {
-            "id": "10bb3ce92af7ade8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "title": "Specific Passes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "disable",
+                "query": "licm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 252.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -168,74 +155,85 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "afc91e3d01671c9e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-projects:Open projects": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "ec582a071e6e5bfe",
   "lastOpenFiles": [
+    "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Overview of Translation.md",
+    "Research/LLVM/Optimizations.md",
+    "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
     "conflict-files-obsidian-git.md",
     "Meta/Attachments/Pasted image 20250510213919.png",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
-    "Rust/Waypoint.md",
-    "Rust/Rust General.md",
-    "Rust/Cargo.md",
-    "Rust",
-    "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
     "Research/Papers/Sub-GMN/Sub-GMN Paper Experiments.md",
     "Research/Papers/Sub-GMN/Sub-GMN Paper Conclusions.md",
     "Research/Papers/Sub-GMN",
     "Research/LLVM/Specific Passes.md",
-    "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Overview of Translation.md",
-    "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Compiler Structure.md",
+    "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-31 09.27.51.excalidraw.md",
+    "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
+    "Excalidraw/Drawing 2025-04-03 17.55.39.excalidraw.md",
+    "Excalidraw/Drawing 2025-05-05 11.59.07.excalidraw.md",
     "Research/Compilers/Books/Engineering a Compiler/Waypoint.md",
-    "Research/Compilers/Books/Engineering a Compiler/Chapter 1",
-    "Research/Compilers/Books/Engineering a Compiler",
-    "Research/Compilers/Books",
-    "Misc/Type Systems.md",
+    "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Compiler Structure.md",
     "Meta/Attachments/Pasted image 20250506155150.png",
     "Meta/Attachments/Pasted image 20250506152916.png",
     "Meta/Attachments/Pasted image 20250506114036.png",
-    "Meta/Attachments/Pasted image 20250427134334.png",
-    "Excalidraw/Drawing 2025-05-05 11.59.07.excalidraw.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Paper - GNN-based Anchor Embedding for Exact Subgraph Matching.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Presentation Questions/Presentations.md",
-    "Research/LLVM/Optimizations.md",
-    "Excalidraw/Drawing 2025-04-15 13.11.19.excalidraw.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/GNNs.md",
-    "Meta/Attachments/Pasted image 20250411170121.png",
-    "Class/Spring 2025/Algorithms COSC581/Alg Final Project/S.md",
-    "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
-    "Excalidraw/Drawing 2025-04-03 17.55.39.excalidraw.md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
+    "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Introduction.md",
+    "Research/Compilers/Books/Engineering a Compiler/Chapter 1",
+    "Research/Compilers/General.md",
+    "Research/Compilers/Books/Engineering a Compiler",
+    "Research/Compilers/Books",
+    "Ricing/Tiling Window Managers/WM-General.md",
+    "Ricing/NixOS/NixOS-General.md",
+    "Meta/Attachments/Pasted image 20250212153742.png",
+    "Meta/Attachments/Pasted image 20250206062147.png",
+    "Meta/Attachments/Pasted image 20250205140534.png",
+    "Meta/Attachments/Pasted image 20250205111804.png",
+    "Meta/Attachments/Pasted image 20250126154154.png",
+    "Meta/Attachments/Pasted image 20241215112610.png",
+    "TODO.md",
+    "Pass Manager.md",
+    "New RAJAPerf Paper.md",
+    "Junk.md",
+    "[Direct Acyclic Graphs (DAGs).md",
+    "Progress Writing/Progress.md",
+    "Compilers",
     "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_2.pdf",
-    "Meta/Attachments/Pasted image 20250401014947.png",
-    "Meta/Attachments/Pasted image 20250401014857.png",
-    "Meta/Attachments/Pasted image 20250401011249.png",
-    "Meta/Attachments/Pasted image 20250401004928.png",
-    "Excalidraw/Drawing 2025-03-31 09.27.51.excalidraw.md",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2",
-    "Class/Spring 2025/Graph Algorithms COSC690/Final Project"
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
+    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Paper - GNN-based Anchor Embedding for Exact Subgraph Matching.md",
+    "Rust",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
+    "Class/Spring 2025/Algorithms COSC581/Exam 2"
   ]
 }
