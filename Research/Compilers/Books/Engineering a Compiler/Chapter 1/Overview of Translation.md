@@ -76,5 +76,6 @@ The first stage of code generation rewrites the IR operations into target machin
 
 Instruction selection maps each ir operation, in its context, into one or more target machine operations.
 
+##### Register Allocation
 
 
