@@ -11,10 +11,12 @@
             "id": "e4ab9c35d63924c8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "bioinformatice_tb"
             }
           }
         ]
@@ -174,11 +176,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "e4ab9c35d63924c8",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books",
     "Class/Year 2/Fall 2025/Bio Informatics Computing",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561",
     "Class/Year 2/Fall 2025",
@@ -199,7 +202,6 @@
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Overview of Translation.md",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Compiler Structure.md",
     "Research/Compilers/Books/Engineering a Compiler/Waypoint.md",
-    "Research/Compilers/Books/Engineering a Compiler/Chapter 1",
     "Misc/Type Systems.md",
     "Meta/Attachments/Pasted image 20250506155150.png",
     "Meta/Attachments/Pasted image 20250506152916.png",
