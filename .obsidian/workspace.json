@@ -11,10 +11,12 @@
             "id": "9a380fce4b899096",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "dragon_book_2ed"
             }
           }
         ]
@@ -174,8 +176,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "9a380fce4b899096",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561",
     "Class/Year 2/Fall 2025",
@@ -216,7 +219,6 @@
     "Excalidraw/Drawing 2025-04-03 17.55.39.excalidraw.md",
     "Class/Year 1/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
     "Class/Year 1/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
-    "Class/Year 1/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
     "Meta/Attachments/Pasted image 20250401014947.png",
     "Meta/Attachments/Pasted image 20250401014857.png",
     "Meta/Attachments/Pasted image 20250401011249.png",
