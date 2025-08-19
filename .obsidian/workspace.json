@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7a79b5604ed19d82",
+        "id": "902b720431cce096",
         "type": "tabs",
         "children": [
           {
-            "id": "189c2b1807c97f33",
+            "id": "9a380fce4b899096",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.10"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -172,11 +170,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "189c2b1807c97f33",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561",
     "Class/Year 2/Fall 2025",
     "Class/Year 2",
@@ -217,7 +217,6 @@
     "Class/Year 1/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
     "Class/Year 1/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
     "Class/Year 1/Spring 2025/Algorithms COSC581/Exam 2/exam2_1.pdf",
-    "Class/Year 1/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf",
     "Meta/Attachments/Pasted image 20250401014947.png",
     "Meta/Attachments/Pasted image 20250401014857.png",
     "Meta/Attachments/Pasted image 20250401011249.png",
