@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "902b720431cce096",
+        "id": "6ae1b2f2510477eb",
         "type": "tabs",
         "children": [
           {
-            "id": "9a380fce4b899096",
+            "id": "e4ab9c35d63924c8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "dragon_book_2ed"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -178,6 +176,7 @@
   },
   "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books",
     "Class/Year 2/Fall 2025/Bio Informatics Computing",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books",
@@ -201,7 +200,6 @@
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Compiler Structure.md",
     "Research/Compilers/Books/Engineering a Compiler/Waypoint.md",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1",
-    "Research/Compilers/Books/Engineering a Compiler",
     "Misc/Type Systems.md",
     "Meta/Attachments/Pasted image 20250506155150.png",
     "Meta/Attachments/Pasted image 20250506152916.png",
