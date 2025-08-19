@@ -11,10 +11,12 @@
             "id": "189c2b1807c97f33",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
             }
           }
         ]
@@ -161,6 +163,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-projects:Open projects": false,
       "switcher:Open quick switcher": false,
@@ -169,11 +172,10 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "189c2b1807c97f33",
   "lastOpenFiles": [
     "Class/Year 2/Fall 2025/Compilers Construction COSC561",
     "Class/Year 2/Fall 2025",
