@@ -15,4 +15,7 @@ Markov stuff
 - Count al necluitodes
 	- There are CA AT TA AT
 - P(T | A) = 1
+- P(C | A) = 0
+- P(G | A) = 0
+- 
 
