@@ -11,14 +11,12 @@
             "id": "1465a08028c26f56",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Notes"
+              "icon": "lucide-file-text",
+              "title": "hw1"
             }
           }
         ]
@@ -179,12 +177,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "1465a08028c26f56",
   "lastOpenFiles": [
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/Untitled",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw1.pdf",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Notes.md",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books",
@@ -192,7 +190,6 @@
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561",
     "Class/Year 2/Fall 2025",
-    "Class/Year 2",
     "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
     "conflict-files-obsidian-git.md",
     "Meta/Attachments/Pasted image 20250510213919.png",
