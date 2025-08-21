@@ -11,12 +11,14 @@
             "id": "1465a08028c26f56",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf"
+                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "hw1"
+              "icon": "lucide-file",
+              "title": "report"
             }
           }
         ]
@@ -179,9 +181,10 @@
   },
   "active": "1465a08028c26f56",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Notes.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
@@ -219,7 +222,6 @@
     "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
     "Excalidraw/Drawing 2025-04-03 17.55.39.excalidraw.md",
     "Class/Year 1/Spring 2025/Algorithms COSC581/Exam 2/Prev Exam Topics.md",
-    "Class/Year 1/Spring 2025/Algorithms COSC581/Exam 2/Exam 2 Review.md",
     "Meta/Attachments/Pasted image 20250401014947.png",
     "Meta/Attachments/Pasted image 20250401014857.png",
     "Meta/Attachments/Pasted image 20250401011249.png",
