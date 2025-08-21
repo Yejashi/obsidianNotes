@@ -12,4 +12,7 @@ For neiandrethal do p(A) * p(T) ...
 
 Markov stuff
 - C A T A T
+- Count al necluitodes
+	- There are CA AT TA AT
+- P(T | A) = 1
 
