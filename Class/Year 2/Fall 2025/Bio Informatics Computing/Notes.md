@@ -5,3 +5,5 @@ When finding the the other strand of DNA
 - Then reverse it
 	- This is because 5 prime have to be on the left and 3 prime on right
 
+For neiandrethal do p(A) * p(T) ...
+
