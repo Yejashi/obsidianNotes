@@ -17,5 +17,6 @@ Markov stuff
 - P(T | A) = 1
 - P(C | A) = 0
 - P(G | A) = 0
-- 
+
+Downoad NC_0014161
 
