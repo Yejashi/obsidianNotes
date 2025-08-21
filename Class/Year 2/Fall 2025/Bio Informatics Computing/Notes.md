@@ -11,5 +11,5 @@ For neiandrethal do p(A) * p(T) ...
 - calculate probability of a t c g's.
 
 Markov stuff
-- A
+- C A T A T
 
