@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6ae1b2f2510477eb",
+        "id": "34e1131d6ef987a7",
         "type": "tabs",
         "children": [
           {
-            "id": "e4ab9c35d63924c8",
+            "id": "e6183bb66c2e6ff3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "bioinformatice_tb"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -172,14 +170,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e4ab9c35d63924c8",
+  "active": "e6183bb66c2e6ff3",
   "lastOpenFiles": [
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books",
     "Class/Year 2/Fall 2025/Bio Informatics Computing",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books",
