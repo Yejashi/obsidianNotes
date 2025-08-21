@@ -9,5 +9,7 @@ For neiandrethal do p(A) * p(T) ...
 
 2 sequences
 - calculate probability of a t c g's.
-- 
+
+Markov stuff
+- A
 
