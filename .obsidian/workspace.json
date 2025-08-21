@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "34e1131d6ef987a7",
+        "id": "e70c54c050730b2c",
         "type": "tabs",
         "children": [
           {
-            "id": "e6183bb66c2e6ff3",
+            "id": "1465a08028c26f56",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf"
+                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "dragon_book_2ed"
+              "icon": "lucide-file",
+              "title": "Notes"
             }
           }
         ]
@@ -159,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,8 +179,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e6183bb66c2e6ff3",
+  "active": "1465a08028c26f56",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Notes.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books",
@@ -197,7 +201,6 @@
     "Rust",
     "Research/Papers/Sub-GMN/Sub-GMN Paper Experiments.md",
     "Research/Papers/Sub-GMN/Sub-GMN Paper Conclusions.md",
-    "Research/Papers/Sub-GMN",
     "Research/LLVM/Specific Passes.md",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Overview of Translation.md",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Compiler Structure.md",
