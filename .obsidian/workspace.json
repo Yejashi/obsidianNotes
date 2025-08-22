@@ -11,14 +11,12 @@
             "id": "1465a08028c26f56",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Notes"
+              "icon": "lucide-file-text",
+              "title": "hw1"
             }
           }
         ]
@@ -175,15 +173,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "1465a08028c26f56",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Notes.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Notes.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
