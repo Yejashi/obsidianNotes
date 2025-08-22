@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Optimizations.md",
+                "file": "Research/LLVM/Specific Passes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Optimizations"
+              "title": "Specific Passes"
             }
           }
         ],
@@ -200,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,10 +218,10 @@
   },
   "active": "b5935685f6dc774e",
   "lastOpenFiles": [
-    "Research/LLVM/Control Flow Graph.md",
     "Research/LLVM/Optimizations.md",
-    "Research/LLVM/Specific Passes.md",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Overview of Translation.md",
+    "Research/LLVM/Control Flow Graph.md",
+    "Research/LLVM/Specific Passes.md",
     "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
     "conflict-files-obsidian-git.md",
     "Meta/Attachments/Pasted image 20250510213919.png",
