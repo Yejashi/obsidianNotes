@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5026054382324
+    "width": 314.5026054382324
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -183,8 +183,7 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
   "active": "00881883fdf1c57e",
