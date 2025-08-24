@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Intermediate Representation (IR)/Untitled.md",
+                "file": "Research/LLVM/Intermediate Representation (IR)/Terminator Instruction Types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Terminator Instruction Types"
             }
           }
         ]
@@ -192,7 +192,7 @@
   "active": "00881883fdf1c57e",
   "lastOpenFiles": [
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
-    "Research/LLVM/Intermediate Representation (IR)/Untitled.md",
+    "Research/LLVM/Intermediate Representation (IR)/Terminator Instruction Types.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
