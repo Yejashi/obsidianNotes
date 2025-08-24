@@ -59,7 +59,8 @@ indirectbr i8* %addr, [label %bb1, label %bb2, label %bb3]
 - **Purpose**: Function call with _exception handling support_.
 - **Details**:
 	- Similar to `call`, but has **two successors**:
-		- Every non-`void` function must end with a `ret` returning a value.
+		- _normal destination_ (if call returns normally),
+		- 
 - **Example**:
 ```
 define i32 @foo(i32 %x) {
