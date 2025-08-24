@@ -36,11 +36,11 @@ br i1 %cond, label %iftrue, label %iffalse
 	- Always has a _default_ destination if no case matches.
 - **Example**:
 ```
-define i32 @foo(i32 %x) {
-entry:
-  %add = add i32 %x, 1
-  ret i32 %add
-}
+switch i32 %val, label %default [
+  i32 0, label %case0
+  i32 1, label %case1
+]
+
 ```
 
 
