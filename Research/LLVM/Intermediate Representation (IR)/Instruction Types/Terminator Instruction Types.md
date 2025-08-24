@@ -32,7 +32,7 @@ br i1 %cond, label %iftrue, label %iffalse
 `switch` (SwitchInst)
 - **Purpose**: Multi-way branch based on an integer value (generalization of `br`).
 - **Details**:
-	- Either returns a value of the function’s return type, or `void`.
+	- Compares a value against multiple constant cases.
 	- Every non-`void` function must end with a `ret` returning a value.
 - **Example**:
 ```
