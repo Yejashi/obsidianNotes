@@ -11,12 +11,14 @@
             "id": "00881883fdf1c57e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf"
+                "file": "Research/LLVM/Intermediate Representation (IR)/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "hw1"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -189,10 +191,11 @@
   },
   "active": "00881883fdf1c57e",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
+    "Research/LLVM/Intermediate Representation (IR)/Untitled.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Compiler Structure.md",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Overview of Translation.md",
@@ -229,11 +232,9 @@
     "Excalidraw/Drawing 2025-04-15 13.11.19.excalidraw.md",
     "Class/Spring 2025/Graph Algorithms COSC690/Final Project/GNNs.md",
     "Class/Spring 2025/Algorithms COSC581/Alg Final Project/S.md",
-    "Excalidraw/Drawing 2025-04-03 17.55.39.excalidraw.md",
     "Meta/Attachments/Pasted image 20250401014947.png",
     "Meta/Attachments/Pasted image 20250401014857.png",
     "Meta/Attachments/Pasted image 20250401011249.png",
-    "Meta/Attachments/Pasted image 20250401004928.png",
-    "Class/Spring 2025/Algorithms COSC581/Exam 2/exam2_3.pdf"
+    "Meta/Attachments/Pasted image 20250401004928.png"
   ]
 }
