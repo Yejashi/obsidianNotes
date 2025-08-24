@@ -86,9 +86,9 @@ resume { i8*, i32 } %lp
 
 
 `unreachable` (UnreachableInst)
-- **Purpose**: End a function by returning control (and possibly a value) to the caller.
+- **Purpose**: Marks code paths that can **never be executed**.
 - **Details**:
-	- Either returns a value of the function’s return type, or `void`.
+	- Tells the optimizer that control flow should never reach here.
 	- Every non-`void` function must end with a `ret` returning a value.
 - **Example**:
 ```
