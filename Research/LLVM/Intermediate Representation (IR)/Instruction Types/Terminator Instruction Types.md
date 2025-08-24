@@ -12,8 +12,8 @@ entry:
 }
 ```
 
-`ret` (**ReturnInst**)
-- **Purpose**: End a function by returning control (and possibly a value) to the caller.
+`br` (BranchInst)
+- **Purpose**: Explicit jump to another basic block.
 - **Details**:
 	- Either returns a value of the function’s return type, or `void`.
 	- Every non-`void` function must end with a `ret` returning a value.
