@@ -25,7 +25,6 @@ br label %target
 ; conditional
 %cond = icmp eq i32 %x, 0
 br i1 %cond, label %iftrue, label %iffalse
-
 ```
 
 
@@ -40,7 +39,6 @@ switch i32 %val, label %default [
   i32 0, label %case0
   i32 1, label %case1
 ]
-
 ```
 
 
@@ -66,7 +64,6 @@ indirectbr i8* %addr, [label %bb1, label %bb2, label %bb3]
 ```
 invoke void @may_throw()
         to label %ok unwind label %lpad
-
 ```
 
 
@@ -80,7 +77,6 @@ invoke void @may_throw()
 %lp = landingpad { i8*, i32 }
         cleanup
 resume { i8*, i32 } %lp
-
 ```
 
 
@@ -89,14 +85,12 @@ resume { i8*, i32 } %lp
 - **Purpose**: Marks code paths that can **never be executed**.
 - **Details**:
 	- Tells the optimizer that control flow should never reach here.
-	- Every non-`void` function must end with a `ret` returning a value.
+	- Often used after `llvm.trap`, failed `assume`, or impossible switches.
+	- No successors.
 - **Example**:
 ```
-define i32 @foo(i32 %x) {
-entry:
-  %add = add i32 %x, 1
-  ret i32 %add
-}
+call void @llvm.trap()
+unreachable
 ```
 
 
