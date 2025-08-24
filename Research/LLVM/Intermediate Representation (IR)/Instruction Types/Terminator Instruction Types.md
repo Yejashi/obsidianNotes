@@ -30,7 +30,7 @@ br i1 %cond, label %iftrue, label %iffalse
 
 
 `switch` (SwitchInst)
-- **Purpose**: End a function by returning control (and possibly a value) to the caller.
+- **Purpose**: Multi-way branch based on an integer value (generalization of `br`).
 - **Details**:
 	- Either returns a value of the function’s return type, or `void`.
 	- Every non-`void` function must end with a `ret` returning a value.
