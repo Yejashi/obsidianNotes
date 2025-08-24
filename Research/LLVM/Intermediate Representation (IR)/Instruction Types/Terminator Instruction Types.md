@@ -61,13 +61,12 @@ indirectbr i8* %addr, [label %bb1, label %bb2, label %bb3]
 	- Similar to `call`, but has **two successors**:
 		- _normal destination_ (if call returns normally),
 		- exception destination (if it throws).
+	- Used in EH personality functions + landing pads.
 - **Example**:
 ```
-define i32 @foo(i32 %x) {
-entry:
-  %add = add i32 %x, 1
-  ret i32 %add
-}
+invoke void @may_throw()
+        to label %ok unwind label %lpad
+
 ```
 
 
