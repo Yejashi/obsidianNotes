@@ -1,4 +1,4 @@
-ret (ReturnInst)
+`ret` (**ReturnInst**)
 - **Purpose**: End a function by returning control (and possibly a value) to the caller.
 - **Details**:
 	- Either returns a value of the function’s return type, or `void`.
