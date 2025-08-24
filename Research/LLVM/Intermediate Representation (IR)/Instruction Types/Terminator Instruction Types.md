@@ -60,7 +60,7 @@ indirectbr i8* %addr, [label %bb1, label %bb2, label %bb3]
 - **Details**:
 	- Similar to `call`, but has **two successors**:
 		- _normal destination_ (if call returns normally),
-		- exception destination_ (if it throws).
+		- exception destination (if it throws).
 - **Example**:
 ```
 define i32 @foo(i32 %x) {
