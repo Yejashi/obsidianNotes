@@ -15,7 +15,7 @@ entry:
 `br` (BranchInst)
 - **Purpose**: Explicit jump to another basic block.
 - **Details**:
-	- Either returns a value of the function’s return type, or `void`.
+	- Can be **unconditional** (one successor) or **conditional** (two successors).
 	- Every non-`void` function must end with a `ret` returning a value.
 - **Example**:
 ```
