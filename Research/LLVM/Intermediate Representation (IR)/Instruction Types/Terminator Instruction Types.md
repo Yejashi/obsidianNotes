@@ -33,7 +33,7 @@ br i1 %cond, label %iftrue, label %iffalse
 - **Purpose**: Multi-way branch based on an integer value (generalization of `br`).
 - **Details**:
 	- Compares a value against multiple constant cases.
-	- Every non-`void` function must end with a `ret` returning a value.
+	- Always has a _default_ destination if no case matches.
 - **Example**:
 ```
 define i32 @foo(i32 %x) {
