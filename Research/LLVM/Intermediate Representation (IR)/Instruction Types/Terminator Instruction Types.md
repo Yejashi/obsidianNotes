@@ -55,8 +55,8 @@ indirectbr i8* %addr, [label %bb1, label %bb2, label %bb3]
 ```
 
 
-`ret` (**ReturnInst**)
-- **Purpose**: End a function by returning control (and possibly a value) to the caller.
+`invoke` (InvokeInst)
+- **Purpose**: Function call with _exception handling support_.
 - **Details**:
 	- Either returns a value of the function’s return type, or `void`.
 	- Every non-`void` function must end with a `ret` returning a value.
