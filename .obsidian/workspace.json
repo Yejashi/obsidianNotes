@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5,
-    "collapsed": true
+    "width": 252.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -187,10 +186,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
     "conflict-files-obsidian-git.md",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
     "Untitled.base",
     "Untitled 2.base",
     "Untitled 1.base",
