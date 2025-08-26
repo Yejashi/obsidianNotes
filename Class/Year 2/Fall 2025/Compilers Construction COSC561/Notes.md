@@ -15,3 +15,5 @@ Optimizations
 
 Look into symbol table
 - Chained symbol table
+
+A parse tree is just an application of a context free grammar
