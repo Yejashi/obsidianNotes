@@ -23,5 +23,8 @@ Downoad NC_0014161
 
 ## Aug 26 2025
 
-
+Two kinds of homology:
+- ORthologous - speciation based split
+- Paralagous - gene duplication-basedsplit
+	- fork or clone
 
