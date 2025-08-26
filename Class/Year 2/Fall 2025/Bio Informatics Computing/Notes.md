@@ -20,3 +20,29 @@ Markov stuff
 
 Downoad NC_0014161
 
+
+## Aug 26 2025
+
+Two kinds of homology:
+- ORthologous - speciation based split
+	- changes in same repo
+- Paralagous - gene duplication-basedsplit
+	- fork or clone
+
+Global alignment
+- also called pairwise alignmenet
+- Intuitive goal:
+	- related sequences will share many (most?) character. To maximizr this we introduce gaps represented by "-"
+S: CAT
+T: AT-
+T' - AT
+
+Moving the gap increased the alignment
+
+Two simple rules:
+1. when you have a gap, it must correspond with a non gap character. cant have gap with a gap.
+2. To distinguish good alignment from bad, we introduce scoring function.
+Alignment lenth cant be longer than sum of two sequences.
+
+
+
