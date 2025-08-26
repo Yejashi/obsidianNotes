@@ -14,3 +14,4 @@ Optimizations
 - Break them up into phases
 
 Look into symbol table
+- Chained symbol table
