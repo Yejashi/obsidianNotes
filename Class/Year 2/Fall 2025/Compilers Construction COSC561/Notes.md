@@ -13,4 +13,4 @@ Semantic analysis
 Optimizations
 - Break them up into phases
 
-Look into sumbol table
+Look into symbol table
