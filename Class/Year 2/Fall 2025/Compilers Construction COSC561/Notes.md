@@ -19,3 +19,4 @@ Look into symbol table
 A parse tree is just an application of a context free grammar
 
 If you can have more than one parse tere for a given string, then the language is **ambigious**
+- Eliminate this by defining precidence and associativity
