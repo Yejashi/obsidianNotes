@@ -41,5 +41,6 @@ Moving the gap increased the alignment
 
 Two simple rules:
 1. when you have a gap, it must correspond with a non gap character. cant have gap with a gap.
-2. To distinguish good alignment from bad, we introduce scoring function
+2. To distinguish good alignment from bad, we introduce scoring function.
+Alignment lenth cant be longer than sum of two sequences.
 
