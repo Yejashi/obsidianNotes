@@ -12,4 +12,6 @@ Semantic analysis
 
 Optimizations
 - Break them up into phases
+
+Lexical Analysis Terms
 - 
