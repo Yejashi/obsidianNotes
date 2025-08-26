@@ -29,5 +29,17 @@ Two kinds of homology:
 - Paralagous - gene duplication-basedsplit
 	- fork or clone
 
+Global alignment
+- also called pairwise alignmenet
+- Intuitive goal:
+	- related sequences will share many (most?) character. To maximizr this we introduce gaps represented by "-"
+S: CAT
+T: AT-
+T' - AT
 
+Moving the gap increased the alignment
+
+Two simple rules:
+1. when you have a gap, it must correspond with a non gap character. cant have gap with a gap.
+2. 
 
