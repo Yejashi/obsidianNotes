@@ -6,3 +6,7 @@ Three types of tokens
 - Operators
 - Delimiters
 
+Semantic analysis
+- Checks for errors that cant be checked through syntax analusis alone
+- Determines where conversions need to be performed
+
