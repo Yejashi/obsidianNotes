@@ -11,10 +11,14 @@
             "id": "d56366f0293b774d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Notes"
             }
           }
         ]
@@ -176,6 +180,7 @@
   },
   "active": "d56366f0293b774d",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
     "Untitled.base",
     "Untitled 2.base",
     "Untitled 1.base",
@@ -189,7 +194,6 @@
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing",
     "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
     "conflict-files-obsidian-git.md",
     "Meta/Attachments/Pasted image 20250510213919.png",
