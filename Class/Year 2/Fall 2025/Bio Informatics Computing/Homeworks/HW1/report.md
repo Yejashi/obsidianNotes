@@ -130,4 +130,5 @@ options:
   -h, --help            show this help message and exit
 ```
 
+By default, `markov_generator.py` takes `human_mito.fasta` as input and writes to `markov_simulated.fasta`.
 
