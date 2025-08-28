@@ -90,4 +90,15 @@ I have successfully downloaded both NC_012920 (`human_mito.fasta`) and AF25446 (
 I implemented `model_probability.py` which trains a multinomial model and a third order Markov model on the Human genome, and outputs the log-probability of both models for the Neandrethal sequence.
 
 ```
+usage: model_probability.py [-h] [training_genome_file] [test_genome_file]
+
+Sequence probability modeling of genome sequences
+
+positional arguments:
+  training_genome_file
+  test_genome_file
+
+options:
+  -h, --help            show this help message and exit
 ```
+
