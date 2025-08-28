@@ -102,4 +102,5 @@ options:
   -h, --help            show this help message and exit
 ```
 
-By default, `model_probability.py` takes human_mito.fasta for training_genome_file and neander_sample.fasta for test_genome_file.
+By default, `model_probability.py` takes human_mito.fasta for training_genome_file and `neander_sample.fasta` for test_genome_file.
+
