@@ -24,6 +24,7 @@ If you can have more than one parse tere for a given string, then the language i
 ## Aug 28 2025
 
 Know infix and  postfix notation
+- Eliminates the need for parenthesis
 
 Know top down parsing
 
