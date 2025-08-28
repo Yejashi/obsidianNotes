@@ -20,3 +20,12 @@ A parse tree is just an application of a context free grammar
 
 If you can have more than one parse tere for a given string, then the language is **ambigious**
 - Eliminate this by defining precidence and associativity
+
+## Aug 28 2025
+
+Know infix and  postfix notation
+
+Know top down parsing
+
+Know recursive descent parsing
+
