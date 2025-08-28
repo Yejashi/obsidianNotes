@@ -112,4 +112,6 @@ Markov Log Probability: -451.7966057821609
 ```
 
 Discussion:
+The multinomial and Markov models produce similar log-probabilities, with the Markov model slightly less negative, reflecting that it captures short-range dependencies better. However, since the models are trained only on a single sequence without smoothing, they may overfit and fail to generalize to unseen bases. Unknown bases (e.g., “N”) would also pose problems unless explicitly handled.
+
 
