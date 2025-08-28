@@ -33,7 +33,6 @@ Reverse-complements a genome.
     
 
 **Options:**
-
 - `-h, --help` – Show help message and exit
 ```
     
