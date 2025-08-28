@@ -11,12 +11,14 @@
             "id": "b755c22cd96531c8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf"
+                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "hw1"
+              "icon": "lucide-file",
+              "title": "report"
             }
           },
           {
@@ -31,8 +33,7 @@
               "title": "Release Notes 1.9.12"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5,
-    "collapsed": true
+    "width": 252.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -201,8 +201,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b1392b616abe4258",
+  "active": "b755c22cd96531c8",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
     "conflict-files-obsidian-git.md",
     "Research/LLVM/Optimizations.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
@@ -212,7 +213,6 @@
     "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
     "Research/LLVM/Intermediate Representation (IR)/Static Single Assignment (SSA).md",
     "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
     "Untitled.base",
     "Untitled 2.base",
     "Untitled 1.base",
@@ -247,7 +247,6 @@
     "Meta/Attachments/Pasted image 20250205111804.png",
     "Meta/Attachments/Pasted image 20250126154154.png",
     "Meta/Attachments/Pasted image 20241215112610.png",
-    "TODO.md",
     "Compilers"
   ]
 }

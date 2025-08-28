@@ -1,7 +1,26 @@
-multinomial
-prob(X) * prob(Y) ...
+# COSC594 – Homework 1 Report
+
+**Name:** Befikir Bogale  
+**Class:** COSC594  
+**Assignment:** Homework 1  
+
+---
+
+## 1. Academic Integrity Statement  
+I have read and agree to the terms of the COSC 494/594 Honor Code.  
+
+---
+
+## 2. Retrieve a Genome Sequence  
+Downloaded NC_001416.1 and saved it as `lambda.fasta`.  
+
+---
+
+## 3. Reverse Complement Generator  
+I implemented the reverse complement generator in Python. The executable is `reverse_complement.py`.  
+
+**Usage:**  
+```bash
+reverse_complement.py [-h] [input_file_path] [output_file_path]
 
 
-Markov
-prob(A) * prob(X) * prob(x | AX)
-randomly generate the first three then generate the markove models
