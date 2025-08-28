@@ -22,7 +22,6 @@ I implemented the reverse complement generator in Python. The executable is `rev
 **Usage:**  
 ```bash
 reverse_complement.py [-h] [input_file_path] [output_file_path]
-```
 
 Reverse-complements a genome.
 
@@ -36,6 +35,7 @@ Reverse-complements a genome.
 **Options:**
 
 - `-h, --help` – Show help message and exit
+```
     
 
 By default, `reverse_complement.py` takes `lambda.fasta` for input and writes to `lambda.rev.fasta`.
