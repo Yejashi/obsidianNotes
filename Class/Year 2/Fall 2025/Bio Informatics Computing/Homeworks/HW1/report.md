@@ -104,3 +104,11 @@ options:
 
 By default, `model_probability.py` takes human_mito.fasta for training_genome_file and `neander_sample.fasta` for test_genome_file.
 
+Example use case:
+```
+> ./model_probability.py 
+Multinomial Log Probability: -452.6623122326925
+Markov Log Probability: -451.7966057821609
+```
+
+
