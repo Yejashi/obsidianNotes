@@ -53,3 +53,5 @@ options:
 ```
 
 By default, frequency_analysis.py takes lambda.fasta for input_file_path
+
+Summary table for `lambda.fasta`:
