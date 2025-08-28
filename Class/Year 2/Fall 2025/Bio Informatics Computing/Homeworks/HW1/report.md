@@ -86,3 +86,5 @@ TT           |   0.06896765015154327
 ## 5.  Additional Sequences
 I have successfully downloaded both NC_012920 (`human_mito.fasta`) and AF25446 (`neander_sample.fasta`).
 
+## 6. Sequence Probability Modeling
+I implemented `model_probability.py` which trains a multinomial model and a third order Markov model on the Human genome, and outputs the log-probability of both models for the Neandrethal sequence.
