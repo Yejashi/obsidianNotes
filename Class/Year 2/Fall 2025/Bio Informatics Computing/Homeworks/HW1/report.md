@@ -84,4 +84,5 @@ TT           |   0.06896765015154327
 ```
 
 ## 5.  Additional Sequences
-I have successfully downloaded both NC_012920 (human_mito.fasta) and AF25446 (`neander_sample.fasta`).
+I have successfully downloaded both NC_012920 (`human_mito.fasta`) and AF25446 (`neander_sample.fasta`).
+
