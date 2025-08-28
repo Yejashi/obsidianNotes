@@ -112,7 +112,7 @@ Markov Log Probability: -451.7966057821609
 ```
 
 Discussion:
-The multinomial and Markov models produce similar log-probabilities, with the Markov model slightly less negative, reflecting that it captures short-range dependencies better. 
+The multinomial and Markov models produce similar log-probabilities, with the Markov model slightly less negative. This is probable because the Markov model captures short-range dependencies well since it has a three Nucleotide context as opposed to the multinomial model which only knows about independent Nucleotides. 
 
 ## 7. Markov-Based Random Sequence Generator
 I implemented `markov_generator.py`, which uses the model from Task 6 to generate a synthetic DNA sequence of 20,000 bases.
