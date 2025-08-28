@@ -36,7 +36,7 @@ options:
 
 By default, `reverse_complement.py` takes `lambda.fasta` for input and writes to `lambda.rev.fasta`.
 
-## 4. Reverse Complement Generator  
+## 4. Nucleotide and Dinucleotide Frequencies
 
 I calculated the nucleotide and dinucleotide frequencies in python. The executable is frequency_analysis.py
 
