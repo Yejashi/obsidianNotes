@@ -23,4 +23,3 @@ I implemented the reverse complement generator in Python. The executable is `rev
 ```bash
 reverse_complement.py [-h] [input_file_path] [output_file_path]
 
-
