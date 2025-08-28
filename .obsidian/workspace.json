@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Notes"
             }
+          },
+          {
+            "id": "79d26af6d20d9ea2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,11 +201,10 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0663e81f3b3d9a3",
+  "active": "79d26af6d20d9ea2",
   "lastOpenFiles": [
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
