@@ -32,6 +32,18 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.9.12"
             }
+          },
+          {
+            "id": "4186c23fc94f8fa3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "hw1"
+            }
           }
         ]
       }
@@ -202,9 +214,9 @@
   },
   "active": "b755c22cd96531c8",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
+    "conflict-files-obsidian-git.md",
     "Research/LLVM/Optimizations.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
     "Research/LLVM/Intermediate Representation (IR)/Instruction Types/Terminator Instruction Types.md",
@@ -240,7 +252,6 @@
     "Research/Compilers/Books/Engineering a Compiler",
     "Research/Compilers/Books",
     "Ricing/Tiling Window Managers/WM-General.md",
-    "Ricing/NixOS/NixOS-General.md",
     "Meta/Attachments/Pasted image 20250212153742.png",
     "Meta/Attachments/Pasted image 20250206062147.png",
     "Meta/Attachments/Pasted image 20250205140534.png",
