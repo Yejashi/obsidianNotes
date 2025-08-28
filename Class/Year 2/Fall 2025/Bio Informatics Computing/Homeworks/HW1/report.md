@@ -35,3 +35,5 @@ options:
     
 
 By default, `reverse_complement.py` takes `lambda.fasta` for input and writes to `lambda.rev.fasta`.
+
+## 4. Reverse Complement Generator  
