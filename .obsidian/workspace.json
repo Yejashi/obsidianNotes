@@ -36,15 +36,17 @@
             }
           },
           {
-            "id": "79d26af6d20d9ea2",
+            "id": "1f414c6762d66bb0",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
         ],
@@ -201,11 +203,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "79d26af6d20d9ea2",
+  "active": "1f414c6762d66bb0",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Notes.md",
+    "conflict-files-obsidian-git.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
@@ -214,14 +219,12 @@
     "Untitled 1.base",
     "Research/LLVM/Intermediate Representation (IR)/Instruction Types/Terminator Instruction Types.md",
     "Research/LLVM/Intermediate Representation (IR)/Instruction Types",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Notes.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books",
     "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
-    "conflict-files-obsidian-git.md",
     "Meta/Attachments/Pasted image 20250510213919.png",
     "Class/Year 1/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
     "Rust/Waypoint.md",
