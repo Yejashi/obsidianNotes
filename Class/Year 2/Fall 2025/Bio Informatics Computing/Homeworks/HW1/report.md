@@ -118,5 +118,16 @@ The multinomial and Markov models produce similar log-probabilities, with the Ma
 I implemented `markov_generator.py`, which uses the model from Task 6 to generate a synthetic DNA sequence of 20,000 bases.
 
 ```
+usage: markov_generator.py [-h] [training_genome_file] [synthetic_output_file]
+
+Generates a sequence of 20,000 bases on a training sequence.
+
+positional arguments:
+  training_genome_file
+  synthetic_output_file
+
+options:
+  -h, --help            show this help message and exit
 ```
+
 
