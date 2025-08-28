@@ -29,3 +29,5 @@ Know top down parsing
 
 Know recursive descent parsing
 
+Lefr recursing means the very first symbol in the grammer recurses on itself
+
