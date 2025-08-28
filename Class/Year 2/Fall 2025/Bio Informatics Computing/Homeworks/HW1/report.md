@@ -52,3 +52,4 @@ options:
   -h, --help       show this help message and exit
 ```
 
+By default, frequency_analysis.py takes lambda.fasta for input_file_path
