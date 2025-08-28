@@ -21,7 +21,16 @@ I implemented the reverse complement generator in Python. The executable is `rev
 
 **Usage:**  
 ```bash
+usage: reverse_complement.py [-h] [input_file_path] [output_file_path]
 
+Reverse-complement a genome
+
+positional arguments:
+  input_file_path
+  output_file_path
+
+options:
+  -h, --help        show this help message and exit
 ```
     
 
