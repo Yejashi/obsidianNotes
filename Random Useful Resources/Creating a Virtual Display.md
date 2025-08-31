@@ -31,44 +31,35 @@ An EDID (Extended Display Identification Data) file simulates a monitor. You can
 ## Step 2: Place the EDID File
 
 1. Create a directory for EDID files:
-    
     ```bash
     sudo mkdir -p /usr/lib/firmware/edid
     ```
-    
 2. Copy your chosen EDID file to this directory. For example:
-    
     ```bash
     sudo cp samsung-q800t-hdmi2.1 /usr/lib/firmware/edid/
     ```
-    
 
 ---
 
 ## Step 3: Configure Kernel Parameters
 
 1. Identify your GPU's free HDMI or DP output:
-    
     ```bash
     for p in /sys/class/drm/*/status; do con=${p%/status}; echo -n "${con#*/card?-}: "; cat $p; done
     ```
-    
     Replace `HDMI-A-1` in the next step with the appropriate output.
     
 2. Add the following kernel parameters (see [arch wiki](https://wiki.archlinux.org/title/Kernel_parameters) or [endeavour os discovery](https://discovery.endeavouros.com/installation/systemd-boot/2022/12/)):
-    
     ```bash
     drm.edid_firmware=HDMI-A-1:edid/samsung-q800t-hdmi2.1 video=HDMI-A-1:e
     ```
     
 3. Update your `mkinitcpio.conf` file to include the EDID file:
-    
     ```bash
     FILES=(/usr/lib/firmware/edid/samsung-q800t-hdmi2.1)
     ```
     
 4. Regenerate the initramfs:
-    
     ```bash
     sudo mkinitcpio -P
     ```
