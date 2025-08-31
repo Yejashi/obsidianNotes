@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "report"
             }
+          },
+          {
+            "id": "ded22a5e966d7bfd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -204,7 +216,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eb1bf0fe76aaf5a7",
+  "active": "ded22a5e966d7bfd",
   "lastOpenFiles": [
     "Research/LLVM/Intermediate Representation (IR)/Instruction Types/Terminator Instruction Types.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
