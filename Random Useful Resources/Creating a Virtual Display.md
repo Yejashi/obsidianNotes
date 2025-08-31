@@ -1,0 +1,1 @@
+Source: https://www.azdanov.dev/articles/2025/how-to-create-a-virtual-display-for-sunshine-on-arch-linux
