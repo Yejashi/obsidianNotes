@@ -49,5 +49,8 @@ Alignment lenth cant be longer than sum of two sequences.
 
 Linear space alignment
 
+HW2
+- 
+
 
 
