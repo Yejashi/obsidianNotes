@@ -52,6 +52,8 @@ Linear space alignment
 HW2
 - Blct utility
 	- blast -> nucleotide blast
+	- standard databases
+	- somewhat similar
 
 
 
