@@ -45,4 +45,8 @@ Two simple rules:
 Alignment lenth cant be longer than sum of two sequences.
 
 
+## Sep 02 2025
+
+
+
 

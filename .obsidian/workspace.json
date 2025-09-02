@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
+                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Notes.md",
                 "mode": "source",
                 "source": false
               },
@@ -203,13 +203,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "e1ef6d08da7f1961",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
+    "conflict-files-obsidian-git.md",
     "Random Useful Resources/Creating a Virtual Display.md",
     "Random Useful Resources",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Notes.md",
