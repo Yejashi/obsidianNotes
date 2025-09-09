@@ -36,4 +36,6 @@ Chapter 2 dragon book
 
 ## Sep 09 2025
 
+Remember transition diagram and transition table
+
 
