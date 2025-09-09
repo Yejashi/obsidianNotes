@@ -43,4 +43,6 @@ Once stats have been distinguished you cant recombine them
 **HW1 Recommendations**
 - Keep a global cur_char (int)
 -  Ideally keep track of line and column (cur and previous)
-- 
+- Convenience routines
+	- get_char -> wrapper for get fgetc
+	- 
