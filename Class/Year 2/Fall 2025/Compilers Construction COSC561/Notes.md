@@ -46,3 +46,4 @@ Once stats have been distinguished you cant recombine them
 - Convenience routines
 	- get_char -> wrapper for get fgetc
 	- wrapper for unget_char
+	- peek_char
