@@ -38,4 +38,4 @@ Chapter 2 dragon book
 
 Remember transition diagram and transition table
 
-p
+Once stats have been distinguished you cant recombine them
