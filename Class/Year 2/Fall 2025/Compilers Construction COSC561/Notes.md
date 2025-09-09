@@ -39,3 +39,7 @@ Chapter 2 dragon book
 Remember transition diagram and transition table
 
 Once stats have been distinguished you cant recombine them
+
+**HW1 Recommendations**
+- Keep a global cur_char (int)
+- 
