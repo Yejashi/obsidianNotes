@@ -22,9 +22,28 @@ positional arguments:
 options:
   -h, --help     show this help message and exit
 ```
-    
 
 By default, `globalign.py` takes `drosophila.fasta` and `human_gene.fasta` for input.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 4. Nucleotide and Dinucleotide Frequencies
 I calculated the nucleotide and dinucleotide frequencies in python. The executable is frequency_analysis.py
