@@ -360,7 +360,7 @@ Compared to my local alignment implementation which had a length of alignment of
 ```
 Accession: 21306
 Species: Anopheles coluzzii
-Function
+Function: sodium channel protein para 
 ```
 
 
