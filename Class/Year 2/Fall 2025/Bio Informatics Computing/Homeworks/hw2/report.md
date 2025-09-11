@@ -380,5 +380,5 @@ Function: sodium channel protein para
 ```
 Accession: XP_049294820.1
 Species: Anopheles funestus
-Function: sodium channel protein para 
+Function: sodium channel protein para isoform X10 
 ```
