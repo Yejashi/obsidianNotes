@@ -353,7 +353,7 @@ Compared to my local alignment implementation which had a length of alignment of
 
 
 
-## 6. BLAST Comparison
+## 6. BLAST of Mystery Sequence
 
 
 
