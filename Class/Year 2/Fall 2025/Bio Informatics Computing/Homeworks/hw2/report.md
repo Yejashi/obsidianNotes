@@ -378,7 +378,7 @@ Function: sodium channel protein para
 **Blastx**
 1.
 ```
-Accession: XM_049606281.1
+Accession: XP_049294820.1
 Species: Anopheles coluzzii
 Function: sodium channel protein para 
 ```
