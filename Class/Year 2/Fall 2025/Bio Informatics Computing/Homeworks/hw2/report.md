@@ -311,7 +311,7 @@ GGTTCTCAAACCGTCGAGCAAAATGGC-GT
 ```
 
 **Discussion:**
-
+The first immediate thing is that the score is much better in local alignment (820) when compared to global alignment (-1016)
 ## 4 and 7. End-Gap Free Alignment
 I implemented End-Gap free alignment in Python. The executable is `egfalign.py`.  
 
