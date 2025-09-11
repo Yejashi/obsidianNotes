@@ -332,6 +332,13 @@ options:
 By default, `localign.py` takes `human_mito.fasta` and `neander_mito.fasta` for input.
 
 **Output:**
+```
+===================================
+     END-GAP-FREE ALIGNMENT        
+Scoring: match=+2, mismatch=-1, gap=-2
+Alignment score: 620
+===================================
+```
 
 ## 5. BLAST Comparison
 
