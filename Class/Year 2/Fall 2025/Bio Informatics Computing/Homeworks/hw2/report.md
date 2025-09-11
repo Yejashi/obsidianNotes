@@ -25,6 +25,8 @@ options:
 
 By default, `globalign.py` takes `drosophila.fasta` and `human_gene.fasta` for input.
 
+**Alignment Output:**
+
 
 ## 3. Local Alignment Implementation
 I implemented local alignment in Python. The executable is `localign.py`.  
