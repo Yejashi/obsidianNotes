@@ -349,7 +349,7 @@ Identity Percentage: 73.43%
 E-value: 4e-65
 
 **Discussion:**
-
+Compared to my local alignment implementation which had a length of alignment of 
 
 
 
