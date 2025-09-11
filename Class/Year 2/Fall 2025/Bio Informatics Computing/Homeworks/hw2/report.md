@@ -358,7 +358,7 @@ Compared to my local alignment implementation which had a length of alignment of
 **Blastn**:
 1.
 ```
-Acession
+Accession: 
 Species
 Function
 ```
