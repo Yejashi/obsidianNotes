@@ -358,7 +358,7 @@ Compared to my local alignment implementation which had a length of alignment of
 **Blastn**:
 1.
 ```
-Accession: 21306
+Accession: XM_049606281.1
 Species: Anopheles coluzzii
 Function: sodium channel protein para 
 ```
