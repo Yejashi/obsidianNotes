@@ -364,7 +364,7 @@ Function: sodium channel protein para
 ```
 2.
 ```
-Accession: 21306
+Accession: XM_061651125.1
 Species: Anopheles coluzzii
 Function: sodium channel protein para 
 ```
