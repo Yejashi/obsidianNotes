@@ -371,20 +371,14 @@ Function: sodium channel protein para
 3.
 ```
 Accession: XM_049606278.1
-Species:  Anopheles gambiae  coluzzii
+Species: Anopheles coluzzii
 Function: sodium channel protein para 
 ```
 
-
-
-
-
+**Blastx**
+1.
 ```
-Acession
-Species
-Function
+Accession: XM_049606281.1
+Species: Anopheles coluzzii
+Function: sodium channel protein para 
 ```
-
-
-
-
