@@ -7,11 +7,6 @@
 ---
 
 ## 2. Global Alignment Implementation
-Downloaded NC_001416.1 and saved it as `lambda.fasta`.  
-
----
-
-## 3. Reverse Complement Generator  
 I implemented the reverse complement generator in Python. The executable is `reverse_complement.py`.  
 
 **Usage:**  
