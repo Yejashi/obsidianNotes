@@ -349,7 +349,7 @@ Identity Percentage: 73.43%
 E-value: 4e-65
 
 **Discussion:**
-Compared to my local alignment implementation which had a length of alignment of 1360
+Compared to my local alignment implementation which had a length of alignment of 1360, the BLAST utility had a length of alignment of 1269 which is somewhat smaller. I think this might be because the BLAST utility uses some heuristics that compute the value differently.
 
 
 
