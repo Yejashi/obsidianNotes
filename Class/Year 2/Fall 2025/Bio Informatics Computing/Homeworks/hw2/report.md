@@ -26,7 +26,179 @@ options:
 By default, `globalign.py` takes `drosophila.fasta` and `human_gene.fasta` for input.
 
 **Alignment Output:**
+```
+❯ ./globalign.py 
+===================================
+           GLOBAL ALIGNMENT        
+Scoring: match=+2, mismatch=-1, gap=-2
+Alignment length: 2848
+Alignment score:  -1016
+===================================
 
+TTCGCACGGCGTGCGTTTGGCTGAACACAGCAGTCTCTTGGCTAAAGCTTTCATGAGCAGTGCATGTAAT
+     |           | ||   | | | |||     |  |   |     |   ||| | | | |    
+-----A-----------T-GC---AGA-A-CAG-----T--C---A-----C---AGC-G-G-A-G----
+
+AAAAACTGAGATCCAACTATGTTTACATTGCAACCAACTCCAACTGCTATAGGCACCGTGGTTCCCCCAT
+      |  |     |  |    | ||  |       ||    | |   |  |    || | |    | |
+------T--G-----A--A----T-CA--G-------CT----C-G--GT--G----GT-G-T----CTT
+
+GGTCAGCGGGAACATTGATAGAGCGCCTGCCGTCTTTAGAAGACATGGCTCACAAGGGTCACAGTGGAGT
+ |||| ||||  |       | ||  ||| |  |    |  ||| |  | |||      | | | | || 
+TGTCAACGGG--C-------G-GCCACTG-C--C----G--GAC-T--C-CAC------C-C-G-GCAG-
+
+AAATCAGCTGGGTGGCGTTTTTGTTGGAGGAAGGCCTTTGCCAGATTCAACACGGCAAAAAATTGTCGAA
+  |  |          |   ||| |  | | | | |  |   ||  || |||  ||        |  |  
+--A--A----------G--ATTG-T--A-G-A-G-C--T---AG-CTC-ACA--GC--------G--G--
+
+CTGGCACATTCTGGAGCTCGGCCATGTGATATTTCTCGAATTCTGCAAGTATCAAATGGATGTGTGAGCA
+  ||| |   |  | || | |   || || ||||| ||||||||||| || || || ||||||||||| |
+--GGC-C---C--G-GC-C-G---TGCGACATTTCCCGAATTCTGCAGGTGTCCAACGGATGTGTGAGTA
+
+AAATTCTCGGGAGGTATTATGAAACAGGAAGCATACGACCACGTGCTATCGGAGGATCCAAGCCACGTGT
+||||||| || |||||||| |    | | | | |  |    | | | |||  | ||  |   |||   | 
+AAATTCTGGGCAGGTATTACG----A-G-A-C-T--G---GC-T-CCATC--A-GA--C---CCA---G-
+
+GGCCACAGCCGAAGTCGTTAGCAAAATTTCGCAGTACAAACGCGAGTGTCCTAGCATATTTGCTTGGGAA
+|| || |  ||  || |   |       |   |||  |||| |||  |    ||  ||   ||    |  
+GG-CA-A-TCG--GT-G---G-------T---AGT--AAAC-CGA--G----AG--TA---GC----G--
+
+ATTCGGGATAGATTACTTCAGGAGAACGTTTGTACTAACGATAATATACCAAGTGTGTCCTCAATAAACC
+|  |         | |  |   |||| | |||||  | | | || ||    |    | || |     |  
+A--C---------T-C--C---AGAA-G-TTGTA--AGC-A-AA-AT----A----G-CC-C-----A--
+
+GTGTATTGAGAAACTTGGCTGCGCAAAAGGAGCAGCAAAGCACGGGATCCGGGAGCTCCAGCACATCCGC
+  ||| |    ||       |||     ||||  ||    | |  | |||   | ||   |  | |  | 
+--GTA-T----AA-------GCG-----GGAG-TGC----C-C--G-TCC---ATCT-TTG--C-T-TG-
+
+CGGCAACTCAATCAGCGCAAAAGTGTCTGTCAGCATCGGTGGCAACGTGAGCAATGTGGCAAGCGGATCG
+ ||  |   ||||  ||    |      |  | ||      |  |  | | |  |||  |   | ||  |
+-GG--A---AATC--CG----A------G--A-CA------G--A--TTA-C--TGT--C---C-GA--G
+
+AGAGGCACGTTGAGCTCTTCCACCGATCTTATGCAGACAGCCACTCCTCTTAACTCTTCGGAAAGCGGTG
+ | ||   | |   ||  |  ||| |    |  | || |   |     | | |  |  |   |||| || 
+-G-GG---G-T---CT-GT--ACC-A----A--C-GATA---A-----CAT-A--C--C---AAGC-GT-
+
+GCGCAACGAACTCCGGGGAGGGTAGTGAACAGGAGGCGATTTACGAGAAGCTTCGGCTGTTAAATACTCA
+  |   |  | | |    |    | | |||| ||   | | | ||  || | | |||       ||  | 
+--G--TC--A-T-C----A----A-TAAACA-GA---GTTCTTCG-CAA-CCT-GGC-------TA-GC-
+
+GCACGCTGCAGGACCAGGACCACTGGAGCCTGCCAGAGCAGCGCCCTTGGTAGGTCAATCACCCAACCAC
+| |    |||  | || |   | ||| | | | |||| | | |  | | |||  |  ||     ||  | 
+G-A-AAAGCA--A-CA-G---A-TGG-G-C-G-CAGA-C-G-G--CAT-GTA--T-GAT-----AA--A-
+
+CTAGGAACCCGATCCAGCCACCCCCAGCTGGTGCACGGTAACCATCAGGCACTACAGCAGCATCAACAGC
+||   ||   |     |        |     |     ||     |   | |  || |  |        ||
+CT---AA---G-----G--------A-----T-----GT-----T---G-A--AC-G--G--------GC
+
+AGAGCTGGCCGCCCCGTCACTATTCCGGATCTTGGTACCCCACCTCTCTTAGCGAAATACCCATCTCATC
+|||     |||    |  |  |     |  | |||                | |       || | |  |
+AGA-----CCG----G--A--A-----G--C-TGG----------------G-G-------CA-C-C--C
+
+GGCTCCCAATATCGCATCCGTTACGGCGTATGCATCAGGACCTTCACTTGCTCACTCACTGAGTCCACCC
+ |  |||    | |     |||   | |||| |  | ||          |       |||   |      
+-G--CCC----T-G-----GTT---G-GTAT-C--C-GG----------G------GACT---T------
+
+AACGACATCAAAAGCCTGGCCAGTATCGGTCACCAGAGAAACTGCCCCGTTGCAACGGAGGACATACATT
+  ||         |  | |||||    ||    |     ||     ||  |   ||    |     |   
+--CG---------G--T-GCCAG----GG----C-----AA-----CC--T---AC----G-----C---
+
+TAAAAAAAGAACTTGATGGTCATCAGTCCGATGAAACGGGCTCCGGTGAAGGTGAAAACTCCAATGGTGG
+         ||   ||||| | |  | || | | ||       | | ||| | |         | || ||
+---------AA---GATGG-C-T--G-CC-A-GCAA-------CAG-GAA-G-G---------A-GG-GG
+
+CGCTTCAAATATAGGAAACACTGAGGATGATCAAGCTCGGCTCATACTAAAAAGAAAGTTGCAACGCAAT
+ |          | |    |  ||  || | ||| ||   | ||| |         |||| |||||  | 
+-G----------A-G----A--GA--AT-ACCAA-CT---C-CAT-C---------AGTTCCAACG-GA-
+
+CGAACATCTTTCACGAACGACCAGATAGACAGTCTTGAAAAAGAGTTTGAACGAACACACTATCCAGATG
+ ||| |   |||| | | |   ||   | |  ||      || |   ||  ||     ||| | ||| ||
+-GAAGA---TTCA-G-ATG---AG---G-C--TC------AA-A---TG--CG-----ACT-T-CAGCTG
+
+TTTTTGCCCGCGAACGTTTGGCTGGAAAGATTGGGTTGCCAGAGGCAAGAATTCAGGTTTGGTTCTCAAA
+     |  || |||      |||| |||||          | |    ||||  ||    |  || |   |
+---AAG--CG-GAA------GCTGCAAAGA----------A-A---TAGAA--CA----TCCTT-T---A
+
+CCGTCGAGCAAAATGGCGTCGCGAGGAGAAGCTGCGAAACCAGCGAAGAACACCAAATTCCACAGGAGCT
+ |  |   |  ||         ||| | ||  |  |     |  |  |  | ||    |      | |  
+-C--C---C--AA---------GAGCA-AA--T-TG-----A--G--G--C-CC----T------G-G--
+
+AGTGCAACTTCTTCCTCTACATCGGCAACCGCCTCTTTGACTGACAGCCCTAACAGCCTAAGTGCTTGTT
+|  |  |           | |   |  |  |    |||||  |  ||    |||  ||  |    ||  |
+A--G--A-----------A-A---G--A--G----TTTGA--G--AG----AAC--CC--A----TT-AT
+
+CCTCGCTGCTGTCCGGATCAGCTGGGGGTCCCTCAGTCAGTACCATTAATGGCTTATCGTCTCCAAGCAC
+||  | || |||     |    |    |  || | |  ||    |  ||  |   |    ||   ||  |
+CC-AGATG-TGT-----T----T----G--CC-C-G--AG----A--AA--G---A----CT---AG--C
+
+ATTGTCTACTAATGTCAATGCTCCAACGCTTGGCGCTGGGATCGATAGCTCTGAAAGCCCAACACCAATC
+|  | |  | ||    ||   |   |             ||||  || | ||| |||  | | |  ||| 
+A--G-C--C-AA----AA---T---A-------------GATC--TA-C-CTG-AAG--C-A-A-GAAT-
+
+CCGCACATTCGGCCTAGCTGCACCTCTGACAATGACAATGGTCGTCAAAGTGAAGATTGCAGAAGAGTTT
+    |||   ||  ||  ||       |    |     |  |  ||    |  | | | | |||| |   
+----ACA---GG--TA--TG-------G----T-----T--T--TC----T--A-A-T-C-GAAG-G---
+
+GTTCTCCATGCCCACTTGGCGTTGGCGGGCATCAAAATACTCATCATATCCAGAGCAATGGTCACGCCCA
+|    |||     |  | | |  |  | | |  |||| ||| |  | || ||||| ||  |  |    | 
+G----CCA-----A-AT-G-G-AGAAGAG-AAGAAAA-ACTGAGGA-AT-CAGAG-AA--G--A----C-
+
+AGGTCATGCACTTGTTCCTGCCATTTCGCCACGACTCAATTTTAATAGTGGTAGTTTCGGCGCGATGTAC
+||| |   ||         | ||      ||| || |        ||||  ||  ||   | |    || 
+AGG-C---CA---------G-CA-----ACAC-AC-C--------TAGTCATA--TT---C-C----TA-
+
+TCCAACATGCATCATACGGCGTTATCCATGAGCGATTCATATGGGGCGGTTACGCCGATTCCGAGCTTTA
+|    || |||   ||    ||| | |   ||| |  |        |    |    |  |    | | | 
+T----CA-GCA--GTA----GTT-T-C---AGC-A--C--------C----A----G--T----G-TCT-
+
+ACCACTCAGCTGTCGGTCCGCTGGCTCCGCCATCGCCAATACCGCAACAGGGCGATCTTACCCCTTCCTC
+||||   |         ||  |   |   |||    | | ||| | ||    | | |  |       | |
+ACCA---A---------CCAAT---T---CCA----C-A-ACC-C-AC----C-A-C--A-------C-C
+
+GTTATATCCGTGCCACATGACCCTACGACCCCCTCCGATGGCTCCCGCTCACCATCACATCGTGCCGGGT
+| | | ||| |  | | |     | | |       | ||  ||   |     | || ||   |     ||
+GGT-T-TCC-T--C-C-T-----T-C-A-------C-AT--CT---G----GC-TC-CA---T-----GT
+
+GACGGTGGCAGACCTGCGGGCGTTGGCCTAGGCAGTGGCCAATCTGCGAATTTGGGAGCAAGCTGCAGCG
+     |||  |  |  ||  |    | | |  ||   |||  ||  | ||      | | | || |||| 
+-----TGG--G--C--CGAAC---AGAC-A--CA---GCC-CTC-AC-AA------A-C-ACCTACAGC-
+
+GATCGGGATACGAAGTGCTATCTGCCTACGCGTTGCCACCGCCCCCTATGGCGTCGAGCTCTGCTGCTGA
+|  |    | |    |||   | ||||| ||    ||| |  | || |||||    | | ||||  || |
+G--C----T-C----TGC---C-GCCTATGC----CCAGCTTCACC-ATGGCAAATAAC-CTGC--CT-A
+
+TTCAAGCTTCTCAGCCGCGTCCAGTGCCAGCGCTAATGTGACCCCACATCACACCATAGCCCAAGAATCA
+| ||| |  | |  ||  ||||    ||||| |  |   |||| | | ||| | | |   ||  |   ||
+TGCAA-C--C-C--CC-AGTCC----CCAGC-C--A---GACCTC-C-TCATA-C-T---CC-TG---CA
+
+TGCCCCTCTCCGTGTTCAAGCGCGAGCCACTTTGGAGTTGCTCACAGTTCTGGGTTTTCGTCCGACCCGA
+||   ||  ||     | | | | |||| | || | | ||   | |    | ||     |  ||    | 
+TG---CT-GCC-----C-A-C-C-AGCC-C-TTCG-G-TG---A-A----T-GG-----G--CG----G-
+
+TTTCACCGGCTGTATCTTCGTATGCACATATGAGCTACAATTACGCGTCGTCCGCTAACACCATGACGCC
+    |   | | ||   | | ||  ||       ||||    || |  |  || |   || ||| |    
+----A---G-T-TA---T-G-AT--AC-------CTAC----AC-C--C--CC-C---CA-CAT-A----
+
+TTCCTCCGCCAGCGGCACATCAGCACACGTGGCCCCGGGAAAACAACAGTTCTTCGCCTCCTGTTTCTAC
+    |  | ||   |   | || ||||  |        |     ||||| ||   |    |     | | 
+----T--G-CA---G---A-CA-CACA--T--------G-----AACAG-TC--AG----C-----C-A-
+
+TCACCGTGGGTCTAGGAACAGACTGGCGATTTGAGCAGAGAAGCACTGCGAAAGGACTATTTACATAGTT
+  |   |  |    ||  |  ||   |    |   | | |  ||||  |      ||   || |      
+--A---T--G----GG--C--AC---C----T---C-G-G--GCAC--C------AC---TT-C------
+
+GAATGTATATCTAAAGGAGGCCATAATAAATCGAATTTACATATCTCTTGAAAAATAATGGAGGTTGTAG
+      | | |   ||||   |        ||  |||| |    | |           |   || ||| |
+------A-A-C---AGGA---C--------TC--ATTT-C----C-C----------CT---GG-TGT-G
+
+AAAAATACATTTGTATGTATAAATTATATAGTTCCGCCCATTAAATCCAATCTATAGTGTAGAATAATTG
+     | ||   |  | |   | ||  | ||||   |||   || |  || |       | | || | | 
+-----T-CA---G--T-T-CCAGTT-CA-AGTT---CCC-GGAAGT-GAA-C------CT-G-AT-A-T-
+
+GTGTAAATTAAATGATATAATTTTGACAAATAAAAAAAAAAAAAAAAA
+|| | || | | ||    ||  || || | |               ||
+GTCTCAA-T-ACTG-GCCAAGATT-AC-AGT---------------AA
+```
 
 ## 3. Local Alignment Implementation
 I implemented local alignment in Python. The executable is `localign.py`.  
