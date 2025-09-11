@@ -63,7 +63,7 @@ options:
   -h, --help     show this help message and exit
 ```
 
-By default, `localign.py` takes `drosophila.fasta` and `human_gene.fasta` for input.
+By default, `localign.py` takes `human_mito.fasta` and `neander_mito.fasta` for input.
 
 
 
