@@ -356,7 +356,12 @@ Compared to my local alignment implementation which had a length of alignment of
 ## 6. BLAST of Mystery Sequence
 
 **Blastn**:
-1. 
+1.
+```
+Acession
+Species
+Function
+```
 
 
 
