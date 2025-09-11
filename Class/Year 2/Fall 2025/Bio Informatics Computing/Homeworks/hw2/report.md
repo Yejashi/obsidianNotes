@@ -311,7 +311,7 @@ GGTTCTCAAACCGTCGAGCAAAATGGC-GT
 ```
 
 **Discussion:**
-The first immediate thing is that the score is much better in local alignment (820) when compared to global alignment (-1016).  From what i can see, this is because a lot of penalties are incurred when forcing a full length alignment as opposed to a local one which implies that there might be a good evidence of local homology. In terms of length, again the local alignment fares better. 
+The first immediate thing is that the score is much better in local alignment (820) when compared to global alignment (-1016).  From what i can see, this is because a lot of penalties are incurred when forcing a full length alignment as opposed to a local one which implies that there might be a good evidence of local homology. In terms of length, again the local alignment fares better. Moreover, 
 ## 4 and 7. End-Gap Free Alignment
 I implemented End-Gap free alignment in Python. The executable is `egfalign.py`.  
 
