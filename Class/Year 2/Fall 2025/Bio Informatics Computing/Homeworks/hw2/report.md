@@ -386,7 +386,7 @@ Function: sodium channel protein para isoform X10
 2.
 ```
 Accession: XP_038108858.1
-Species: Anopheles funestus
+Species: Culex quinquefasciatus
 Function: sodium channel protein para isoform X10 
 ```
 1.
