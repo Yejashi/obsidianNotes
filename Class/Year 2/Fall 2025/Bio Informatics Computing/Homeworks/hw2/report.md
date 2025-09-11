@@ -6,11 +6,6 @@
 
 ---
 
-## 1. Academic Integrity Statement  
-I have read and agree to the terms of the COSC 494/594 Honor Code.  
-
----
-
 ## 2. Retrieve a Genome Sequence  
 Downloaded NC_001416.1 and saved it as `lambda.fasta`.  
 
