@@ -46,8 +46,8 @@ options:
 By default, `localign.py` takes `drosophila.fasta` and `human_gene.fasta` for input.
 
 
-## 4 and 7. Local Alignment Implementation
-I implemented local alignment in Python. The executable is `localign.py`.  
+## 4 and 7. End-Gap Free Alignment
+I implemented End-Gap free alignment in Python. The executable is `localign.py`.  
 
 **Usage:**  
 ```bash
