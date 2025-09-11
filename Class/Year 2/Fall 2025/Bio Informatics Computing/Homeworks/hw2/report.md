@@ -51,9 +51,9 @@ I implemented End-Gap free alignment in Python. The executable is `egfalign.py`.
 
 **Usage:**  
 ```bash
-usage: localign.py [-h] [query_fasta] [subject_fasta]
+usage: egfalign.py [-h] [query_fasta] [subject_fasta]
 
-Local alignment of two DNA sequences
+End-Gap free alignment of two DNA sequences
 
 positional arguments:
   query_fasta
