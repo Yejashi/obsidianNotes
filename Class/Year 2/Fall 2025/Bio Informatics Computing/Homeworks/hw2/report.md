@@ -24,7 +24,7 @@ options:
 ```
     
 
-By default, `globalign.py` takes `drosophila.fasta` and `human_gene.fasta` for input and writes to `lambda.rev.fasta`.
+By default, `globalign.py` takes `drosophila.fasta` and `human_gene.fasta` for input.
 
 ## 4. Nucleotide and Dinucleotide Frequencies
 I calculated the nucleotide and dinucleotide frequencies in python. The executable is frequency_analysis.py
