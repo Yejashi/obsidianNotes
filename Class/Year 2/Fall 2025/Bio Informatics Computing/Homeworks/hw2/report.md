@@ -6,7 +6,7 @@
 
 ---
 
-## 2. Retrieve a Genome Sequence  
+## 2. Global Alignment Implementation
 Downloaded NC_001416.1 and saved it as `lambda.fasta`.  
 
 ---
