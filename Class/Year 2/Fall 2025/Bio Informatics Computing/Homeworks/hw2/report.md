@@ -359,7 +359,7 @@ Compared to my local alignment implementation which had a length of alignment of
 1.
 ```
 Accession: 21306
-Species
+Species: Anopheles coluzzii
 Function
 ```
 
