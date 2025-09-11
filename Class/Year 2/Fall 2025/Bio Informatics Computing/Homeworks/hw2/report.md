@@ -68,8 +68,8 @@ By default, `localign.py` takes `human_mito.fasta` and `neander_mito.fasta` for 
 ## 5. BLAST Comparison
 
 Length of Alignment:  1269
-Identity Percentage:
-E-value:
+Identity Percentage: 73.43%
+E-value: 4e-65
 
 
 
