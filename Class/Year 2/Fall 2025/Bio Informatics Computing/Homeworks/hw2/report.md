@@ -46,6 +46,24 @@ options:
 By default, `localign.py` takes `drosophila.fasta` and `human_gene.fasta` for input.
 
 
+## 3. Local Alignment Implementation
+I implemented local alignment in Python. The executable is `localign.py`.  
+
+**Usage:**  
+```bash
+usage: localign.py [-h] [query_fasta] [subject_fasta]
+
+Local alignment of two DNA sequences
+
+positional arguments:
+  query_fasta
+  subject_fasta
+
+options:
+  -h, --help     show this help message and exit
+```
+
+By default, `localign.py` takes `drosophila.fasta` and `human_gene.fasta` for input.
 
 
 
