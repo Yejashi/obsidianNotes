@@ -346,6 +346,8 @@ Length of Alignment:  1269
 Identity Percentage: 73.43%
 E-value: 4e-65
 
+**Discussion:**
+
 
 
 
