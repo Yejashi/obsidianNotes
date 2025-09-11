@@ -2,7 +2,7 @@
 
 **Name:** Befikir Bogale  
 **Class:** COSC594  
-**Assignment:** Homework 1  
+**Assignment:** Homework 2
 
 ---
 

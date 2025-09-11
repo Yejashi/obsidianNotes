@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report 1.md",
+                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "report 1"
+              "title": "report"
             }
           },
           {
@@ -212,10 +212,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "b755c22cd96531c8",
   "lastOpenFiles": [
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report 1.md",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2",
     "conflict-files-obsidian-git.md",
     "Random Useful Resources/Creating a Virtual Display.md",
