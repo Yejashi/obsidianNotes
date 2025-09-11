@@ -47,7 +47,7 @@ By default, `localign.py` takes `drosophila.fasta` and `human_gene.fasta` for in
 
 
 ## 4 and 7. End-Gap Free Alignment
-I implemented End-Gap free alignment in Python. The executable is `localign.py`.  
+I implemented End-Gap free alignment in Python. The executable is `egfalign.py`.  
 
 **Usage:**  
 ```bash
