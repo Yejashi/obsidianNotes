@@ -309,6 +309,7 @@ GGTTCTCAAACCGTCGAGCAAAATGGC-GT
  | ||||||  | | |  ||| ||  | ||
 -G-TCTCAATAC-T-GGCCAAGATTACAGT
 ```
+
 ## 4 and 7. End-Gap Free Alignment
 I implemented End-Gap free alignment in Python. The executable is `egfalign.py`.  
 
