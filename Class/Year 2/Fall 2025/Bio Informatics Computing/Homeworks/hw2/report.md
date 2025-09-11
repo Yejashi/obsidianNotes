@@ -31,9 +31,9 @@ I implemented local alignment in Python. The executable is `localign.py`.
 
 **Usage:**  
 ```bash
-usage: globalign.py [-h] [query_fasta] [subject_fasta]
+usage: localign.py [-h] [query_fasta] [subject_fasta]
 
-Global alignment of two DNA sequences
+Local alignment of two DNA sequences
 
 positional arguments:
   query_fasta
