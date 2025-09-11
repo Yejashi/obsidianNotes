@@ -11,16 +11,16 @@ I implemented global alignment in Python. The executable is `globalign.py`.
 
 **Usage:**  
 ```bash
-usage: reverse_complement.py [-h] [input_file_path] [output_file_path]
+usage: globalign.py [-h] [query_fasta] [subject_fasta]
 
-Reverse-complement a genome
+Global alignment of two DNA sequences
 
 positional arguments:
-  input_file_path
-  output_file_path
+  query_fasta
+  subject_fasta
 
 options:
-  -h, --help        show this help message and exit
+  -h, --help     show this help message and exit
 ```
     
 
