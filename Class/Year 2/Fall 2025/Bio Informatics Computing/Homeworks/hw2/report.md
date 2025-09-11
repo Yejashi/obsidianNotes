@@ -349,7 +349,11 @@ Identity Percentage: 73.43%
 E-value: 4e-65
 
 **Discussion:**
-Compared to my local alignment implementation which had a length of alignment of 1360, the BLAST utility had a length of alignment of 1269 which is somewhat smaller. I think this might be because the BLAST utility uses some heuristics that compute the value differently. On the other hand, since the e value is very small it shows that it is unlikely that this sequence could happen by change. Moreover, the 73.43% identity percentage shows that the two sequentes are related.
+Compared to my local alignment implementation which had a length of alignment of 1360, the BLAST utility had a length of alignment of 1269 which is somewhat smaller. I think this might be because the BLAST utility uses some heuristics that compute the value differently. On the other hand, since the e value is very small it shows that it is unlikely that this sequence could happen by change. Moreover, the 73.43% identity percentage shows that the two sequences are related.
+
+
+
+## 6. BLAST Comparison
 
 
 
