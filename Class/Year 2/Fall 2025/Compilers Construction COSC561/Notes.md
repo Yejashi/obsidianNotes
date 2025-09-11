@@ -34,3 +34,16 @@ Lefr recursing means the very first symbol in the grammer recurses on itself
 
 Chapter 2 dragon book
 
+## Sep 09 2025
+
+Remember transition diagram and transition table
+
+Once stats have been distinguished you cant recombine them
+
+**HW1 Recommendations**
+- Keep a global cur_char (int)
+-  Ideally keep track of line and column (cur and previous)
+- Convenience routines
+	- get_char -> wrapper for get fgetc
+	- wrapper for unget_char
+	- peek_char

@@ -45,4 +45,18 @@ Two simple rules:
 Alignment lenth cant be longer than sum of two sequences.
 
 
+## Sep 02 2025
+
+Linear space alignment
+
+HW2
+- Blct utility
+	- blast -> nucleotide blast
+	- standard databases
+	- somewhat similar
+
+
+## Sep 04 2025
+
+
 
