@@ -331,6 +331,8 @@ options:
 
 By default, `localign.py` takes `human_mito.fasta` and `neander_mito.fasta` for input.
 
+Note: I am giving the same program for tasks 4 and 7 since my initial implementation used linear space since i only keep track of single columns of both sequences at a time.
+
 **Output:**
 ```
 ===================================
