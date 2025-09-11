@@ -65,6 +65,8 @@ options:
 
 By default, `localign.py` takes `human_mito.fasta` and `neander_mito.fasta` for input.
 
+## 6. 
+I implemented End-Gap free alignment in Python. The executable is `egfalign.py`.  
 
 
 
