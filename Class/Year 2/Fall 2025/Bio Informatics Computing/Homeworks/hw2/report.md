@@ -7,7 +7,7 @@
 ---
 
 ## 2. Global Alignment Implementation
-I implemented the reverse complement generator in Python. The executable is `reverse_complement.py`.  
+I implemented global alignment in Python. The executable is `globalign.py`.  
 
 **Usage:**  
 ```bash
