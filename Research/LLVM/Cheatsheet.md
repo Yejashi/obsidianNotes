@@ -20,5 +20,5 @@ clang example.s -o example
 
 **Demangle Symbol**
 ```
-llvm-cxxfilt -n
+llvm-cxxfilt -n "mangled_name_here"
 ```
