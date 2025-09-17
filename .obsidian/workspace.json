@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
+                "file": "Research/LLVM/Cheatsheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "report"
+              "title": "Cheatsheet"
             }
           },
           {
@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5,
-    "collapsed": true
+    "width": 252.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -196,7 +195,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,8 +215,8 @@
   },
   "active": "b755c22cd96531c8",
   "lastOpenFiles": [
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2",
     "conflict-files-obsidian-git.md",
     "Random Useful Resources/Creating a Virtual Display.md",

@@ -17,3 +17,8 @@ llc optimized.bc -o example.s
 ```bash
 clang example.s -o example
 ```
+
+**Demangle Symbol**
+```
+llvm-cxxfilt -n
+```
