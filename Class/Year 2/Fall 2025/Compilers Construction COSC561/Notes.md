@@ -47,3 +47,6 @@ Once stats have been distinguished you cant recombine them
 	- get_char -> wrapper for get fgetc
 	- wrapper for unget_char
 	- peek_char
+
+## Sep 09 2025
+Look into Chomsky Hierarchy
