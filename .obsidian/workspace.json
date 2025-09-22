@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Specific Passes.md",
+                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Specific Passes"
+              "title": "Notes"
             }
           }
         ],
@@ -203,10 +203,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b755c22cd96531c8",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "Research/LLVM/Cheatsheet.md",
+    "Class/Year 2/Fall 2025/Midterm",
     "Research/LLVM/Specific Passes.md",
+    "Research/LLVM/Cheatsheet.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
