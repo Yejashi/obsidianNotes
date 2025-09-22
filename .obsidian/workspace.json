@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b755c22cd96531c8",
+            "id": "d04f4c451b8ed0d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,30 +22,21 @@
             }
           },
           {
-            "id": "b1392b616abe4258",
+            "id": "b755c22cd96531c8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "Research/LLVM/Specific Passes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
-            }
-          },
-          {
-            "id": "4186c23fc94f8fa3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "hw1"
+              "icon": "lucide-file",
+              "title": "Specific Passes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,17 +206,18 @@
   },
   "active": "b755c22cd96531c8",
   "lastOpenFiles": [
+    "Research/LLVM/Cheatsheet.md",
+    "Research/LLVM/Specific Passes.md",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2",
     "conflict-files-obsidian-git.md",
     "Random Useful Resources/Creating a Virtual Display.md",
     "Random Useful Resources",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
     "Research/LLVM/Optimizations.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
     "Research/LLVM/Intermediate Representation (IR)/Instruction Types/Terminator Instruction Types.md",
-    "Research/LLVM/Specific Passes.md",
     "Research/LLVM/Passes/General Passes.md",
     "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
     "Research/LLVM/Intermediate Representation (IR)/Static Single Assignment (SSA).md",
@@ -251,9 +243,7 @@
     "Meta/Attachments/Pasted image 20250506155150.png",
     "Meta/Attachments/Pasted image 20250506152916.png",
     "Meta/Attachments/Pasted image 20250506114036.png",
-    "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Introduction.md",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1",
-    "Research/Compilers/General.md",
     "Research/Compilers/Books/Engineering a Compiler",
     "Meta/Attachments/Pasted image 20250212153742.png",
     "Meta/Attachments/Pasted image 20250206062147.png",
