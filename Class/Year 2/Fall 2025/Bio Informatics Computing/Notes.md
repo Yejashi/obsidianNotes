@@ -60,3 +60,6 @@ HW2
 
 
 
+### Sep 23
+
+Midterm 
