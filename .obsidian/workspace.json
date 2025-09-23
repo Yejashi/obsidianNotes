@@ -18,8 +18,23 @@
               "icon": "lucide-file-text",
               "title": "bioinformatice_tb"
             }
+          },
+          {
+            "id": "afb6507f09c25549",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,11 +197,20 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "429bf5d71e65bcd2",
+  "active": "afb6507f09c25549",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
+    "conflict-files-obsidian-git.md",
+    "Class/Year 2/Fall 2025/Midterm/Study Guide.pdf",
+    "Class/Year 2/Fall 2025/Midterm",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/hw3.pdf",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3",
     "Random Useful Resources/Creating a Virtual Display.md",
     "Random Useful Resources/Untitled",
     "Random Useful Resources",
@@ -196,12 +220,8 @@
     "Research/LLVM/Intermediate Representation (IR)/Instruction Types",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
     "Untitled 2.base",
-    "Untitled 1.base",
-    "Untitled.base",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Compiler Structure.md",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Overview of Translation.md",
-    "conflict-files-obsidian-git.md",
     "Research/Compilers/Books/Engineering a Compiler/Waypoint.md",
     "Meta/Attachments/Pasted image 20250510213919.png",
     "Research/Papers/Sub-GMN/Sub-GMN Paper Experiments.md",
@@ -209,9 +229,7 @@
     "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
     "Research/Benchpark/Dalal/Objectives.md",
     "Research/Papers/Dynist/Dyninst paper.md",
-    "Research/Papers/Sub-GMN",
     "Research/LLVM/Specific Passes.md",
-    "Research/Compilers/Books/Engineering a Compiler/Chapter 1",
     "Meta/Attachments/Pasted image 20250506155150.png",
     "Meta/Attachments/Pasted image 20250506152916.png",
     "Meta/Attachments/Pasted image 20250506114036.png",
@@ -226,9 +244,7 @@
     "Rust/Rust General.md",
     "Rust/Cargo.md",
     "Rust/Waypoint.md",
-    "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
     "Meta/Attachments/Pasted image 20250411170121.png",
-    "Excalidraw/Drawing 2025-04-15 13.11.19.excalidraw.md",
     "Meta/Attachments/Pasted image 20250401014947.png",
     "Meta/Attachments/Pasted image 20250401014857.png",
     "Meta/Attachments/Pasted image 20250401011249.png",

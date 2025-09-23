@@ -60,3 +60,10 @@ HW2
 
 
 
+### Sep 23
+
+Midterm topics
+- HMM (forward & viterbi))
+- Sequence alignment
+- Markov models
+- Sequence stats
