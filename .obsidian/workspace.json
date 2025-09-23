@@ -18,23 +18,8 @@
               "icon": "lucide-file-text",
               "title": "bioinformatice_tb"
             }
-          },
-          {
-            "id": "afb6507f09c25549",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +186,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "afb6507f09c25549",
+  "active": "020db7076d3db4d7",
   "lastOpenFiles": [
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
     "conflict-files-obsidian-git.md",
