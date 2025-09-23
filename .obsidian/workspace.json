@@ -62,23 +62,9 @@
               "icon": "lucide-file",
               "title": "Notes"
             }
-          },
-          {
-            "id": "cc581f5eb0b6bbe1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -235,10 +221,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cc581f5eb0b6bbe1",
+  "active": "fbacbad78d665121",
   "lastOpenFiles": [
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
     "conflict-files-obsidian-git.md",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
     "Class/Year 2/Fall 2025/Midterm/Study Guide.pdf",
     "Class/Year 2/Fall 2025/Midterm",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
