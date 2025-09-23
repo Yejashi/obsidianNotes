@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "Notes"
             }
+          },
+          {
+            "id": "cc581f5eb0b6bbe1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -217,14 +231,19 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fbacbad78d665121",
+  "active": "cc581f5eb0b6bbe1",
   "lastOpenFiles": [
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Notes.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
     "conflict-files-obsidian-git.md",
+    "Class/Year 2/Fall 2025/Midterm/Study Guide.pdf",
+    "Class/Year 2/Fall 2025/Midterm",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Notes.md",
     "Random Useful Resources/Creating a Virtual Display.md",
     "Random Useful Resources",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
@@ -235,9 +254,6 @@
     "Research/LLVM/Intermediate Representation (IR)/Instruction Types/Terminator Instruction Types.md",
     "Research/LLVM/Intermediate Representation (IR)/Instruction Types",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
     "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
     "Meta/Attachments/Pasted image 20250510213919.png",
     "Class/Year 1/Spring 2025/Algorithms COSC581/Exam 2/Class Review.md",
@@ -262,8 +278,6 @@
     "Excalidraw/Drawing 2025-04-15 13.11.19.excalidraw.md",
     "Class/Year 1/Spring 2025/Graph Algorithms COSC690/Final Project/GNNs.md",
     "Meta/Attachments/Pasted image 20250411170121.png",
-    "Class/Year 1/Spring 2025/Algorithms COSC581/Alg Final Project/S.md",
-    "Excalidraw/Drawing 2025-04-03 17.40.56.excalidraw.md",
     "Meta/Attachments/Pasted image 20250401014947.png",
     "Meta/Attachments/Pasted image 20250401014857.png",
     "Meta/Attachments/Pasted image 20250401011249.png",
