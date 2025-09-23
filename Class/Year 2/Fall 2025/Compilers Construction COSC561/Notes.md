@@ -52,3 +52,6 @@ Once stats have been distinguished you cant recombine them
 Look into Chomsky Hierarchy
 
 
+### Sep 23
+
+Stop at slide 56
