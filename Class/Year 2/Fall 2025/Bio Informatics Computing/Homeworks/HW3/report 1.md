@@ -27,7 +27,7 @@ options:
 
 Example output:
 ```
-(base) bbogale:hydra12 ~/CLASS/Fall2025/BioInformatics/hw3> ./casino_simulator.py                       <-  1:40PM
+./casino_simulator.py          
 Printing Sequence of length 300
 4 6 1 6 6 3 6 6 6 6 
 3 4 6 6 3 6 6 2 6 2 
