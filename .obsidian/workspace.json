@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 252.5,
+    "collapsed": true
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -196,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,14 +211,13 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "607adc1bd2029eee",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Research/LLVM/Specific Passes.md",
+    "conflict-files-obsidian-git.md",
     "Research/LLVM/Common Terminology.md",
     "Research/LLVM/Cheatsheet.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/hw3.pdf",
