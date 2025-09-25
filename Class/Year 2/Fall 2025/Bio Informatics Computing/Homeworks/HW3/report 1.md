@@ -6,7 +6,7 @@
 
 ---
 
-## 2. Global Alignment Implementation
+## 1
 I implemented global alignment in Python. The executable is `globalign.py`.  
 
 **Usage:**  
