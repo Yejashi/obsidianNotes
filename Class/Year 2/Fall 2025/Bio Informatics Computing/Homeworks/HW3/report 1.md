@@ -60,4 +60,5 @@ Printing Sequence of length 300
 4 2 1 1 5 3 4 4 4 5 
 3 6 3 5 1 6 5 2 1 1 
 ```
-## 3. Simulate a Hidden Markov Model
+## 3. Forward Algorithm – Compute Probabilities
+
