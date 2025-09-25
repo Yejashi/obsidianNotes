@@ -24,3 +24,5 @@ options:
   --seed SEED      Optional random seed for reproducible sequences.
   --output OUTPUT  Optional file name to dump the sequence.
 ```
+
+Example output:
