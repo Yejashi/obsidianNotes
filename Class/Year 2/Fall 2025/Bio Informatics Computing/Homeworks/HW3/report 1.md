@@ -78,5 +78,8 @@ options:
 
 **Outputs:**
 ```
+./forward.py casino.benchmark1.txt 
+4.756429038528061e-233
+
 
 ```
