@@ -105,3 +105,7 @@ options:
 
 ## 6. GLIMMER Gene Prediction
 
+I have stored the relevant `*.predict` files for the sequences:
+- **ames:** ames.predict
+- **ames_ancestor:** ames_ancestor.predict
+
