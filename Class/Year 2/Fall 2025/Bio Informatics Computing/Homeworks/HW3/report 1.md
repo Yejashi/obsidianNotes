@@ -65,5 +65,13 @@ I implemented the forward algorithm  in Python. The executable is `forward.py`.
 
 **Usage:**  
 ```
+usage: forward.py [-h] input_file
 
+Apply forward algorithm on HMM.
+
+positional arguments:
+  input_file  Path to the benchmark file
+
+options:
+  -h, --help  show this help message and exit
 ```
