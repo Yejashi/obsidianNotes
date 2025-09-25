@@ -91,5 +91,14 @@ I implemented the viterbi algorithm  in Python. The executable is `viterbi.py`.
 
 **Usage:**
 ```
+usage: viterbi.py [-h] input_file
 
+Apply Viterbi algorithm a roll sequence.
+
+positional arguments:
+  input_file  Path to the benchmark file
+
+options:
+  -h, --help  show this help message and exit
 ```
+
