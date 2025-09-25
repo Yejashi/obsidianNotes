@@ -6,8 +6,8 @@
 
 ---
 
-## 1
-I implemented global alignment in Python. The executable is `globalign.py`.  
+## 1. Simulate a Hidden Markov Model
+I implemented global alignment in Python. The executable is `casino_simulator.py`.  
 
 **Usage:**  
 ```bash
