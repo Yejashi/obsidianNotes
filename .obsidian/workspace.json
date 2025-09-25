@@ -37,12 +37,14 @@
             "id": "607adc1bd2029eee",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf"
+                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/report 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "bioinformatice_tb"
+              "icon": "lucide-file",
+              "title": "report 1"
             }
           }
         ],
@@ -103,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5,
-    "collapsed": true
+    "width": 252.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -211,23 +212,25 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "607adc1bd2029eee",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/report 1.md",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/hw3.pdf",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
     "Research/LLVM/Specific Passes.md",
     "conflict-files-obsidian-git.md",
     "Research/LLVM/Common Terminology.md",
     "Research/LLVM/Cheatsheet.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/hw3.pdf",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3",
     "Class/Year 2/Fall 2025/Midterm/Study Guide.pdf",
     "Class/Year 2/Fall 2025/Midterm",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2",
     "Random Useful Resources/Creating a Virtual Display.md",
@@ -252,7 +255,6 @@
     "Excalidraw/Drawing 2025-04-03 17.55.39.excalidraw.md",
     "Excalidraw/Drawing 2025-05-05 11.59.07.excalidraw.md",
     "Research/Compilers/Books/Engineering a Compiler/Waypoint.md",
-    "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Compiler Structure.md",
     "Meta/Attachments/Pasted image 20250506155150.png",
     "Meta/Attachments/Pasted image 20250506152916.png",
     "Meta/Attachments/Pasted image 20250506114036.png",
