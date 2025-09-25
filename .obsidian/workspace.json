@@ -105,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 252.5,
+    "collapsed": true
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -216,7 +217,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "607adc1bd2029eee",
   "lastOpenFiles": [
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/report 1.md",

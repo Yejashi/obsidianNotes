@@ -11,14 +11,16 @@ I implemented global alignment in Python. The executable is `globalign.py`.
 
 **Usage:**  
 ```bash
-usage: globalign.py [-h] [query_fasta] [subject_fasta]
+usage: casino_simulator.py [-h] [--show-states] [--seed SEED] [--output OUTPUT] [sequence_length]
 
-Global alignment of two DNA sequences
+Generates a random sequence of dice rolls.
 
 positional arguments:
-  query_fasta
-  subject_fasta
+  sequence_length  Length of the sequence to generate (default: 300)
 
 options:
-  -h, --help     show this help message and exit
+  -h, --help       show this help message and exit
+  --show-states    If set, also show which die (F or L) produced each roll.
+  --seed SEED      Optional random seed for reproducible sequences.
+  --output OUTPUT  Optional file name to dump the sequence.
 ```
