@@ -63,3 +63,7 @@ Printing Sequence of length 300
 ## 3. Forward Algorithm – Compute Probabilities
 I implemented the forward algorithm  in Python. The executable is `forward.py`.  
 
+**Usage:**  
+```
+
+```
