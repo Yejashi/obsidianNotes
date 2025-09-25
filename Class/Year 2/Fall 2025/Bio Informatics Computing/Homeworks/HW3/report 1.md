@@ -1,6 +1,6 @@
 # COSC594 – Homework 3 Report
 
-**Name:** Befikir Bogale  
+**Name:** Befikir T. Bogale  
 **Class:** COSC594  
 **Assignment:** Homework 3
 
