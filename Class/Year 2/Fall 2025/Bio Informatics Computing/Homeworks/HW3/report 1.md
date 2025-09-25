@@ -102,3 +102,5 @@ options:
   -h, --help  show this help message and exit
 ```
 
+
+## 6. GLIMMER Gene Prediction
