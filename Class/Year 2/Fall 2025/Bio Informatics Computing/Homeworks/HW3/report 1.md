@@ -104,9 +104,4 @@ options:
 
 
 ## 6. GLIMMER Gene Prediction
-
-I have stored the relevant `*.predict` files for the sequences:
-- **ames:** ames.predict
-- **ames_ancestor:** ames_ancestor.predict
-
-For ames i noticed 5568 predicted genes. On the other hand i noticed  5564 genes for ames_ancestor.
+I have stored the relevant `*.predict` files for the sequences, specifically **ames.predict** for the ames sequence and **ames_ancestor.predict** for the ames_ancestor sequence. In reviewing the results, I observed that the ames sequence contains 5,568 predicted genes, while the ames_ancestor sequence has a slightly lower count of 5,564 predicted genes.
