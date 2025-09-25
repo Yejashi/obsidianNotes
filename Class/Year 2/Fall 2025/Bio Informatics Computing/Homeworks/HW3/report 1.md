@@ -109,4 +109,4 @@ I have stored the relevant `*.predict` files for the sequences:
 - **ames:** ames.predict
 - **ames_ancestor:** ames_ancestor.predict
 
-For ames i noted 
+For ames i noticed 5568 predicted genes. On the other hand i noticed  5564 genes for ames_ancestor.
