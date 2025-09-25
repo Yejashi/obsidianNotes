@@ -87,4 +87,9 @@ options:
 
 
 ## 4. Viterbi Decoding
-I implemented the forward algorithm  in Python. The executable is `forward.py`.  
+I implemented the viterbi algorithm  in Python. The executable is `viterbi.py`.  
+
+**Usage:**
+```
+
+```
