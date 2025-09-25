@@ -85,3 +85,6 @@ options:
 4.1246705338340785e-233
 ```
 
+
+## 4. Viterbi Decoding
+I implemented the forward algorithm  in Python. The executable is `forward.py`.  
