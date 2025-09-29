@@ -138,7 +138,7 @@ Note: I might have messed up one of the steps but you get the idea. Don't be a _
 
 ##### Study Guide Short Response H
 ![[Pasted image 20250929173051.png]]
-
+In a Markov model, the probability of a sequence is the product of many terms.
 
 
 
