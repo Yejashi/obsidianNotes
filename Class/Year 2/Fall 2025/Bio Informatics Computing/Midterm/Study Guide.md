@@ -88,3 +88,6 @@ Dinucleotices are pairs of consecutive nucleotidecs (e.g. AG, CT, etc). The dinu
 	- X = [AT, AT] = 2
 	- Y = [AT, AT] = 2
 	- Y / X = 1
+
+#### Markov Models
+#### Hidden Markov Models
