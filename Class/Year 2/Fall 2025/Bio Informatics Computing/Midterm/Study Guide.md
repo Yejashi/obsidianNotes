@@ -39,5 +39,5 @@ Solution:
 **Note:**
 - S1: Set the top row and left column to 0:
 	- This allows alignments to start anywhere
-- S2: 
+- S2: Calculate the alignment between gaps, 
 
