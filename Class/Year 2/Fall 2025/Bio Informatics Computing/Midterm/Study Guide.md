@@ -117,3 +117,7 @@ HMM Structure:
 Key property:
 - You cannot see the states; you only see the outputs
 - The model links the outputs back to the hidden process that produced them
+
+![[Pasted image 20250929160010.png]]
+
+In the dishonest casino the hidden states is whether the 
