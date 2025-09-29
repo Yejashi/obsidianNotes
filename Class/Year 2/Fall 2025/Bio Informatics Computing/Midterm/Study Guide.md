@@ -68,7 +68,9 @@ Solution:
 
 ##### Study Guide Short Response I
 ![[Pasted image 20250929173553.png]]
-
+Global: Align entire sequences from beginning to end.
+Local: Find the best matching subsequences within larger sequences.
+End-Gap: 
 
 #### **Multinomial models** 
 A multinomial model is any probabilistic/statistical model that assumes data (counts, frequencies, categories) are generated from a multinomial distribution.
