@@ -181,7 +181,7 @@ You choose the last element (lower right) and do a backtrace to find the optimal
 The **Viterbi algorithm** is a **dynamic programming algorithm** used with **Hidden Markov Models (HMMs)** to find the **most likely sequence of hidden states** (the _Viterbi path_) that could have produced a given sequence of observations.
 
 The Viterbi algorithm answers the question:
-- Given an HMM MMM and an observation sequence O=O1O2…OTO = O_1 O_2 \dots O_TO=O1​O2​…OT​, what is the **most likely hidden state sequence** Q=q1q2…qTQ = q_1 q_2 \dots q_TQ=q1​q2​…qT​ that produced OOO?
+- Given an HMM $M$ and an observation sequence $O = O_1 O_2 \dots O_T​$​, what is the **most likely hidden state sequence** Q=q1q2…qTQ = q_1 q_2 \dots q_TQ=q1​q2​…qT​ that produced OOO?
     - TLDR: If you have a model and some output, what is the **best guess of the hidden path** that generated that output?
         - In the dishonest casino example, we have a fair die and a loaded die.
             - Suppose we get the following rolls [1,6,6,6,2,4,1].
