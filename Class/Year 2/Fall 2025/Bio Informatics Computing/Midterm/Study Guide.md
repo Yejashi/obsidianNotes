@@ -131,3 +131,4 @@ The forward algorithm answers the question:
 
 ##### Study Guide Short Response G
 ![[Pasted image 20250929160246.png]]
+
