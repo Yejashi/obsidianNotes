@@ -70,7 +70,7 @@ Solution:
 ![[Pasted image 20250929173553.png]]
 Global: Align entire sequences from beginning to end.
 Local: Find the best matching subsequences within larger sequences.
-End-Gap: Align sequences without punishing *gaps at the ends or beginnings*, but still require aligning everything in the middle
+End-Gap: Align sequences without punishing **gaps at the ends or beginnings**, but still require aligning everything in the middle
 
 #### **Multinomial models** 
 A multinomial model is any probabilistic/statistical model that assumes data (counts, frequencies, categories) are generated from a multinomial distribution.
