@@ -119,6 +119,7 @@ Key property:
 - The model links the outputs back to the hidden process that produced them
 
 ![[Pasted image 20250929160010.png]]
+##### **Forward Algorithm**
 
 In the dishonest casino the hidden states is whether the die is loaded or fair. The emission is the roll from the current die with the probability distribution as shown above.
 
