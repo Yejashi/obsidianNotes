@@ -136,7 +136,7 @@ The forward algorithm answers the question:
 
 Note: I might have messed up one of the steps but you get the idea. Don't be a _[obscene slur here]_ idiot on the exam.
 
-##### Study Guide Short Response G
+##### Study Guide Short Response H
 ![[Pasted image 20250929173051.png]]
 
 
