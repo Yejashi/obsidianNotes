@@ -101,7 +101,7 @@ Structure:
 - This makes it a memoryless process (the “Markov property”).
 
 
-#### Hidden Markov Models
+#### Hidden Markov Models (HMM)
 In a standard Markov chain, you can **see the states directly** (e.g., “today is sunny, tomorrow will be rainy”).
 
 But in many real problems, the **states are hidden** — you can’t observe them directly. Instead, you only see **outputs (emissions)** that depend on the hidden states.
