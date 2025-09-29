@@ -65,6 +65,11 @@ Solution:
 - tldr: emphasize _entire sequences_
 **Local alignment** looks for the **best matching subsequences** inside the two sequences. It doesn’t force the whole sequences to line up — it just finds the **highest-scoring region of similarity**, which is useful if only part of the sequences are related.
 - emphasize _best matching subsequences_
+
+##### Study Guide Short Response I
+![[Pasted image 20250929173553.png]]
+
+
 #### **Multinomial models** 
 A multinomial model is any probabilistic/statistical model that assumes data (counts, frequencies, categories) are generated from a multinomial distribution.
 
