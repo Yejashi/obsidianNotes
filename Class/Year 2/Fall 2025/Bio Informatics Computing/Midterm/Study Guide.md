@@ -114,7 +114,6 @@ HMM Structure:
 	- At each step, the hidden state generates an **observable symbol** (e.g., a nucleotide, a die roll, a word in text)
 - Initial distribution
 	- Probabilities of starting in each hidden state
-
 Key property:
 - You cannot see the states; you only see the outputs
 - The model links the outputs back to the hidden process that produced them
