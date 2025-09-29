@@ -30,7 +30,10 @@ Solution:
 	- When we dont want to penalize leading or trailing gaps
 	- subtrings
 ##### **Local Alignment**
+![[Pasted image 20250929142904.png]]
 - Definition: Finds the best matching sub-sequences within the larger sequences
 - Smith–Waterman algorithm
 - When used:
 	- When sequences differ in length or only have shared conserved regions
+
+
