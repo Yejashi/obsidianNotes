@@ -66,4 +66,4 @@ Solution:
 
 ##### Study Guide Short Response 1
 ![[Pasted image 20250929150612.png]]
-
+Dinucleotices are pairs of consecutive nucleotidecs ()
