@@ -124,8 +124,7 @@ Orders of Markov Chains
 
 ##### Study Guide Short Response I
 ![[Pasted image 20250929173933.png]]
-
-
+- 
 
 #### Hidden Markov Models (HMM)
 In a standard Markov chain, you can **see the states directly** (e.g., “today is sunny, tomorrow will be rainy”).
