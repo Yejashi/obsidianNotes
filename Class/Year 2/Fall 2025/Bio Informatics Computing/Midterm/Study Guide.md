@@ -19,4 +19,5 @@ Solution:
 	- When sequences are of similar length and you want to compare them across their entire span
 
 ##### **Local Alignment**
+- Definition: Finds the best matching subsequences within the larger sequences
 - 
