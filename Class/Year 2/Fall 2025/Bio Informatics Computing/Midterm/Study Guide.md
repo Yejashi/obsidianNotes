@@ -73,8 +73,8 @@ Dinucleotices are pairs of consecutive nucleotidecs (e.g. AG, CT, etc). The dinu
 ![[Pasted image 20250929151222.png]]
 - To calculate this we must first find the number of nucleotides where A occurs in the first position. (x)
 - Then given these nucleotides we must count how many of them are TA. (y)
-- Then we can calculate x/y to get the probability.
+- Then we can calculate y/x to get the probability.
 - In this case:
 	- X = [AT, AT] = 2
 	- Y = [AT, AT] = 2
-	- X / Y = 1
+	- Y / X = 1
