@@ -118,7 +118,9 @@ Orders of Markov Chains
 - First Order
 	- The next state depends only on the **current state**
 	- P(St+1​∣St​,St−1​,…,S1​)=P(St+1​∣St​)
-- 
+- Second-order Markov chain
+	- The next state depends on the **current state and one step further back**
+	- P(St+1​∣St​,St−1​,…,S1​)=P(St+1​∣St​,St−1​)
 
 
 #### Hidden Markov Models (HMM)
