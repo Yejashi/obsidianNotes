@@ -178,6 +178,9 @@ In a Markov model, the probability of a sequence is the product of many terms. A
 You choose the last element (lower right) and do a backtrace to find the optimal sequence alignment.
 
 ##### **Viterbi Algorithm**
+The **Viterbi algorithm** is a **dynamic programming algorithm** used with **Hidden Markov Models (HMMs)** to find the **most likely sequence of hidden states** (the _Viterbi path_) that could have produced a given sequence of observations.
+
+
 ##### Study Guide Long Response VII
 Note: I'm using the same HMM as "Study Guide Short Response G".
 ![[Pasted image 20250929182552.png]]
