@@ -122,6 +122,10 @@ Orders of Markov Chains
 	- The next state depends on the **current state and one step further back**
 	- P(St+1​∣St​,St−1​,…,S1​)=P(St+1​∣St​,St−1​)
 
+##### Study Guide Short Response I
+![[Pasted image 20250929173933.png]]
+
+
 
 #### Hidden Markov Models (HMM)
 In a standard Markov chain, you can **see the states directly** (e.g., “today is sunny, tomorrow will be rainy”).
@@ -168,6 +172,4 @@ In a Markov model, the probability of a sequence is the product of many terms. A
 
 You choose the last element (lower right) and do a backtrace to find the optimal sequence alignment.
 
-##### Study Guide Short Response I
-![[Pasted image 20250929173933.png]]
 
