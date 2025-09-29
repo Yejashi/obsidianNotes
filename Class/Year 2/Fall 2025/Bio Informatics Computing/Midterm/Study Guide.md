@@ -22,6 +22,7 @@ Solution:
 	- When sequences are of similar length and you want to compare them across their entire span
 
 ##### End-gap Free Alignment
+![[Pasted image 20250929141424.png]]
 - Also semi-global
 - Definition: A special case of semiglobal. The alignment is optimized without penalizing leading or trailing gaps
 ##### **Local Alignment**
