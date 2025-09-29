@@ -92,10 +92,13 @@ Dinucleotices are pairs of consecutive nucleotidecs (e.g. AG, CT, etc). The dinu
 #### Markov Models
 A Markov model is a way to describe systems that evolve step by step, where the future depends only on the present, not on the full past history.
 
+![[Pasted image 20250929154514.png]]
+
 Structure:
 - A Markov model has a finite set of states.
 - The system starts in some state (often chosen according to a probability distribution
 - At each step, it moves to the next state based on transition probabilities that depend only on the current state (not how you got there).
 - This makes it a memoryless process (the “Markov property”).
+
 
 #### Hidden Markov Models
