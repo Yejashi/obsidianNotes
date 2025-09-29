@@ -122,3 +122,4 @@ Key property:
 
 In the dishonest casino the hidden states is whether the die is loaded or fair. The emission is the roll from the current die with the probability distribution as shown above.
 
+![[Pasted image 20250929160246.png]]
