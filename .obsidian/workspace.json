@@ -4,8 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "5d5d835108fb5799",
+        "type": "tabs",
+        "dimension": 44.38848920863309,
+        "children": [
+          {
+            "id": "e3ad4a5107f5c695",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "COSC461 Study Guide"
+            }
+          }
+        ]
+      },
+      {
         "id": "6c4c12d8c3c69263",
         "type": "tabs",
+        "dimension": 55.611510791366904,
         "children": [
           {
             "id": "b755c22cd96531c8",
@@ -62,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +139,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 252.5,
+    "collapsed": true
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -230,10 +251,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d62bb537d8944a41",
+  "active": "b8ba58c151ffa269",
   "lastOpenFiles": [
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/Study Guide.md",
+    "Meta/Attachments/Pasted image 20250929190113.png",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/Study Guide.md",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/hw3.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/Study Guide.md",
     "Meta/Attachments/Pasted image 20250929183317.png",
     "Meta/Attachments/Pasted image 20250929182552.png",
@@ -246,7 +269,6 @@
     "Meta/Attachments/Pasted image 20250929173051.png",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/COSC494 Study Guide.pdf",
     "Meta/Attachments/Pasted image 20250929172817.png",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/hw3.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/report 1.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
