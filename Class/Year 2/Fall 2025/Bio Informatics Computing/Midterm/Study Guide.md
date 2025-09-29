@@ -13,4 +13,5 @@ Solution:
 
 #### **Alignment**
 ##### Global Alignment
+- Definition: Aligns sequences end-to-end, from the first nucleotide/amino acid to the last
 - 
