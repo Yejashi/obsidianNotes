@@ -27,6 +27,7 @@ Solution:
 - Definition: A special case of semiglobal. The alignment is optimized without penalizing leading or trailing gaps
 - When used:
 	- When we dont want to penalize leading or trailing gaps
+	- subtrings
 ##### **Local Alignment**
 - Definition: Finds the best matching sub-sequences within the larger sequences
 - Smith–Waterman algorithm
