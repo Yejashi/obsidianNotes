@@ -7,5 +7,5 @@ For example:
 String = (())
 
 Derivation 1:
-S --> 
+S --> (S)
 ```
