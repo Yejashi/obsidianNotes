@@ -10,9 +10,10 @@ Derivation 1:
 S --> (S) --> ()
 
 Derivation 2:
-S --> SS --> (S)S --> (S) --> ()
+S --> SS --> (S)S --> ()S --> ()
 ```
 
+Note: Use the same derivation scheme both times (e.g leftmost)
 
 ![[Pasted image 20250929190737.png]]
 
