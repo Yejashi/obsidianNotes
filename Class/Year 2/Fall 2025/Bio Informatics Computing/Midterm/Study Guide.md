@@ -114,7 +114,8 @@ A **Markov chain** is a special type of Markov model where:
 - The probability of moving to the next state depends on the **previous states** (the “order” defines how many).
 The key property is the **Markov property**: the future depends only on a limited history, not the full past
 
-
+Orders of Markov Chains
+- The next state depends only on the **current state**
 
 
 #### Hidden Markov Models (HMM)
