@@ -69,7 +69,7 @@ Solution:
 ##### Study Guide Short Response I
 ![[Pasted image 20250929173553.png]]
 Global: Align entire sequences from beginning to end.
-Local: Find the best matching subsequences within larger sequences.
+Local: Find the best matching sub-sequences within larger sequences.
 End-Gap: Align sequences without punishing **gaps at the ends or beginnings**, but still require aligning everything in the middle
 
 #### **Multinomial models** 
