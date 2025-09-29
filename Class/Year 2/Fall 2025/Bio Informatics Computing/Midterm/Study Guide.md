@@ -17,4 +17,6 @@ Solution:
 - Needleman–Wunsch algorithm
 - When used:
 	- When sequences are of similar length and you want to compare them across their entire span
+
+##### **Local Alignment**
 - 
