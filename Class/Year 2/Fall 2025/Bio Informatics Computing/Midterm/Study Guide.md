@@ -94,5 +94,6 @@ A Markov model is a way to describe systems that evolve step by step, where the 
 
 Structure:
 - A Markov model has a finite set of states.
+- The system starts in some state (often chosen according to a probability distribution
 - 
 #### Hidden Markov Models
