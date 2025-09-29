@@ -119,6 +119,7 @@ Key property:
 - The model links the outputs back to the hidden process that produced them
 
 ![[Pasted image 20250929160010.png]]
+In the dishonest casino the hidden states is whether the die is loaded or fair. The emission is the roll from the current die with the probability distribution as shown above.
 ##### **Forward Algorithm**
 The forward algorithm answers the question:
 - Given an HMM $M$ and an observation sequence $O = O_1 O_2 \dots O_T​$, what is the probability $P(O∣M)$ that the model generates the sequence?
@@ -128,6 +129,5 @@ The forward algorithm answers the question:
 			- The forward algorithm will tell you the probability that model can output that output?
 			- In the forward algorithm you know everything about the algorithm, even the hidden states? 
 
-In the dishonest casino the hidden states is whether the die is loaded or fair. The emission is the roll from the current die with the probability distribution as shown above.
 
 ![[Pasted image 20250929160246.png]]
