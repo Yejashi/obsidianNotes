@@ -108,4 +108,4 @@ But in many real problems, the **states are hidden** — you can’t observe the
 
 HMM Structure:
 - Hidden  States
-	- 
+	- Finite set of states you don’t directly observe (e.g., coding vs non-coding DNA, fair die vs loaded die)
