@@ -40,6 +40,7 @@ Solution:
 - S1: Set the top row and left column to 0:
 	- This allows alignments to start anywhere
 - S2: Calculate the alignment between gaps, diag and choose the max between (match, mismatch, gap, zero)
+- S3: When doing a trace back start from the largest numbers anywhere in the matrix
 ![[Pasted image 20250929144501.png]]
 
 
