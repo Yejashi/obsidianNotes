@@ -37,7 +37,7 @@ Solution:
 	- When sequences differ in length or only have shared conserved regions
 
 **Note:**
-- Set the top row and left column to 0:
+- S1: Set the top row and left column to 0:
 	- This allows alignments to start anywhere
-- 
+- S2: 
 
