@@ -5,7 +5,7 @@
 	- Get matching nucleotide for every nucleotide (A->T C->G)
 		- It is currently in 3'->5' format
 	- Reverse to turn into 5'->3' format.
-##### Study Guide Question 2
+##### Study Guide Multiple Choice Question 2
 ![[Pasted image 20250929130223.png]]
 Solution:
 - 5' CATAT 3'
