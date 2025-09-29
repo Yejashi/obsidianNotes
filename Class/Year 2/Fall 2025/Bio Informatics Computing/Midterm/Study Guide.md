@@ -42,7 +42,7 @@ Solution:
 - S2: Calculate the alignment between gaps, diag and choose the max between (match, mismatch, gap, zero)
 - S3: When doing a trace back start from the largest numbers anywhere in the matrix
 ![[Pasted image 20250929144501.png]]
-
+##### Study Guide Question 2
 ![[Pasted image 20250929144733.png]]
 Solution:
 - D 
