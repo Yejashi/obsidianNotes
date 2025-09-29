@@ -129,4 +129,5 @@ The forward algorithm answers the question:
 			- The forward algorithm will tell you the probability that model can output that output?
 			- In the forward algorithm you know everything about the algorithm, even the hidden states? 
 
+##### Study Guide Short Response G
 ![[Pasted image 20250929160246.png]]
