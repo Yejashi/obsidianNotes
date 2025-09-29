@@ -4,6 +4,24 @@
     "type": "split",
     "children": [
       {
+        "id": "c91f6b6c3929b026",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "607adc1bd2029eee",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/COSC494 Study Guide.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "COSC494 Study Guide"
+            }
+          }
+        ]
+      },
+      {
         "id": "6c4c12d8c3c69263",
         "type": "tabs",
         "children": [
@@ -34,7 +52,7 @@
             }
           },
           {
-            "id": "607adc1bd2029eee",
+            "id": "d62bb537d8944a41",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -216,12 +234,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "607adc1bd2029eee",
+  "active": "d62bb537d8944a41",
   "lastOpenFiles": [
+    "Meta/Attachments/Pasted image 20250929130223.png",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/COSC494 Study Guide.pdf",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/Study Guide.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/hw3.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/report 1.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/Study Guide.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/Study Guide.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
@@ -244,7 +263,6 @@
     "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
     "Research/LLVM/Intermediate Representation (IR)/Static Single Assignment (SSA).md",
     "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
-    "Untitled.base",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Overview of Translation.md",
     "Research/LLVM/Control Flow Graph.md",
     "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
