@@ -198,7 +198,6 @@ Note: I'm using the same HMM as "Study Guide Short Response G".
 A suffix tree is a special kind of compressed trie (keyword tree) built from all suffixes of a string.
 ![[Pasted image 20250929183317.png]]
 
-
 Genome alignment application
 - To align two genomes, you can build a **generalized suffix tree** (tree for both sequences).
 - Shared substrings appear as internal nodes with leaves from both genomes.
