@@ -117,7 +117,7 @@ The key property is the **Markov property**: the future depends only on a limite
 Orders of Markov Chains
 - First Order
 	- The next state depends only on the **current state**
-	- P()
+	- P($S_t+1$ )
 
 
 #### Hidden Markov Models (HMM)
