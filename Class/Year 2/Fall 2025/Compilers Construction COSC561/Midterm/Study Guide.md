@@ -10,7 +10,7 @@ Derivation 1:
 S --> (S) --> ()
 
 Derivation 2:
-S --> SS --> (S)S --> (S) --> ((S)) --> (())
+S --> SS --> (S)S --> (S) --> ()
 ```
 
 
