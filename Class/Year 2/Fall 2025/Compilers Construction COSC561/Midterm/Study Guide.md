@@ -2,3 +2,7 @@
 
 A grammar is considered ambiguous if you can derive the same string from it.
 
+For example:
+```
+
+```
