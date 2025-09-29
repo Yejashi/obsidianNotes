@@ -1,3 +1,11 @@
+### Notes
+**epsilon closure:**
+- Set of NFA states reachable from NFA state $s$ on e-transitions alone
+
+
+
+
+### Study Guide
 ![[Pasted image 20250929190113.png]]
 
 A grammar is considered ambiguous if you can derive the same string from it.
