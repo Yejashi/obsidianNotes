@@ -54,6 +54,7 @@ Solution:
 - b
 ![[Pasted image 20250929150249.png]]
 ##### Study Guide Short Response 1
+![[Pasted image 20250929151222.png]]
 
 
 #### **Multinomial models** 
