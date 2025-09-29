@@ -122,6 +122,11 @@ Key property:
 ##### **Forward Algorithm**
 The forward algorithm answers the question:
 - Given an HMM $M$ and an observation sequence $O = O_1 O_2 \dots O_T​$, what is the probability $P(O∣M)$ that the model generates the sequence?
+	- TLDR: If you have a model and some output what is the probability that model can output that output?
+		- In the dishonest casino (above image), we have a loaded die and fair die. 
+			- Suppose we get the following rolls [1, 6, 6, 6, 2 , 4, 1].
+			- The forward algorithm will tell you the probability that model can output that output?
+			- In the forward algorithm you know everything about the algorithm, even the hidden states? 
 
 In the dishonest casino the hidden states is whether the die is loaded or fair. The emission is the roll from the current die with the probability distribution as shown above.
 
