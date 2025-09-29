@@ -50,6 +50,7 @@ Solution:
 ![[Pasted image 20250929144501.png]]
 ##### Study Guide Long Response Questions I
 ![[Pasted image 20250929174843.png]]
+![[Pasted image 20250929180439.png]]
 
 
 ##### Study Guide Multiple Choice Question 2
