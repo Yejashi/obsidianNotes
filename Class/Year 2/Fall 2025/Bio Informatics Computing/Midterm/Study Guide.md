@@ -20,12 +20,12 @@ Solution:
 - When used:
 	- When sequences are of similar length and you want to compare them across their entire span
 
+##### End-gap Free Alignment
+- Also semi-global
+- Definition: A special case of semiglobal. The alignment is optimized without penalizing leading or trailing gaps
+- 
 ##### **Local Alignment**
 - Definition: Finds the best matching sub-sequences within the larger sequences
 - Smith–Waterman algorithm
 - When used:
 	- When sequences differ in length or only have shared conserved regions
-
-##### End-gap Free Alignment
-- Definition: A special case of semiglobal. The alignment is optimized without penalizing leading or trailing gaps
-- 
