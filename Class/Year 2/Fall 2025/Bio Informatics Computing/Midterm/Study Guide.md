@@ -117,3 +117,4 @@ HMM Structure:
 
 Key property:
 - You cannot see the states; you only see the outputs
+- The model links the outputs back to the hidden process that produced them
