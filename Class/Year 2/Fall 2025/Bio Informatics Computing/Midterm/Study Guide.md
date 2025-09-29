@@ -20,4 +20,6 @@ Solution:
 
 ##### **Local Alignment**
 - Definition: Finds the best matching subsequences within the larger sequences
-- 
+- Smith–Waterman algorithm
+- When used:
+	  
