@@ -14,6 +14,7 @@ Solution:
 #### **Alignment**
 ![[Pasted image 20250929131247.png]]
 ##### Global Alignment
+![[Pasted image 20250929131401.png]]
 - Definition: Aligns sequences end-to-end, from the first nucleotide/amino acid to the last
 - Needleman–Wunsch algorithm
 - When used:
