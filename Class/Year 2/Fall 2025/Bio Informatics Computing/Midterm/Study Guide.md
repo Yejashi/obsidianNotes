@@ -102,3 +102,5 @@ Structure:
 
 
 #### Hidden Markov Models
+In a standard Markov chain, you can **see the states directly** (e.g., “today is sunny, tomorrow will be rainy”).
+
