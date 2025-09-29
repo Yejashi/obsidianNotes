@@ -133,3 +133,4 @@ The forward algorithm answers the question:
 ![[Pasted image 20250929160246.png]]
 ![[Pasted image 20250929172312.png]]
 
+![[Pasted image 20250929172817.png]]
