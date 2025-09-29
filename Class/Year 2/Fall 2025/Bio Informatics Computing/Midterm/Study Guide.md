@@ -51,3 +51,6 @@ Solution:
 
 #### **Multinomial models** 
 A multinomial model is any probabilistic/statistical model that assumes data (counts, frequencies, categories) are generated from a multinomial distribution.
+
+Basically every point has a probability and the chance you get something depends on that array of probabilities.
+
