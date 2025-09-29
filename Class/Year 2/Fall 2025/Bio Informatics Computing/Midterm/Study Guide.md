@@ -16,4 +16,5 @@ Solution:
 - Definition: Aligns sequences end-to-end, from the first nucleotide/amino acid to the last
 - Needleman–Wunsch algorithm
 - When used:
-	- 
+	- When sequences are of similar length and you want to compare them across their entire span
+- 
