@@ -134,7 +134,7 @@ The forward algorithm answers the question:
 ![[Pasted image 20250929172312.png]]
 ![[Pasted image 20250929172817.png]]
 
-Note: I might have messed up one of the steps but you get the idea. Don't be a _[obscene slur here_ idiot on the exam.
+Note: I might have messed up one of the steps but you get the idea. Don't be a _[obscene slur here]_ idiot on the exam.
 
 ##### Study Guide Short Response G
 ![[Pasted image 20250929173051.png]]
