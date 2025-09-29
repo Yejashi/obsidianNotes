@@ -24,4 +24,7 @@ Solution:
 - Smith–Waterman algorithm
 - When used:
 	- When sequences differ in length or only have shared conserved regions
-- Example:
+
+##### End-gap Free Alignment
+- Definition: A special case of semiglobal. The alignment is optimized without penalizing leading or trailing gaps
+- 
