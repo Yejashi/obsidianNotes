@@ -15,7 +15,7 @@ Solution:
 Solution:
 - 5' ATGACATTTG 3'
 - 3' TACTGTAAAC 5'
-- 
+- 5' CAAATGTCAT 3'
 
 #### **Alignment**
 ![[Pasted image 20250929131247.png]]
