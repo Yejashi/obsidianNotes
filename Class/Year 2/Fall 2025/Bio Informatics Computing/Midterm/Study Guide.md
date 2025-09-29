@@ -120,4 +120,5 @@ Key property:
 
 ![[Pasted image 20250929160010.png]]
 
-In the dishonest casino the hidden states is whether the 
+In the dishonest casino the hidden states is whether the die is loaded or fair. The emission is the roll from the current die with the probability distribution as shown above.
+
