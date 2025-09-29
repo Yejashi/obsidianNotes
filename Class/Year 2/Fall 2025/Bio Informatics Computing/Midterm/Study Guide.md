@@ -49,6 +49,8 @@ Solution:
 - D 
 	- The maximum value of the last row and column
 ##### Study Guide Question 4
+![[Pasted image 20250929145526.png]]
+
 
 
 #### **Multinomial models** 
