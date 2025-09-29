@@ -186,7 +186,7 @@ The Viterbi algorithm answers the question:
         - In the dishonest casino example, we have a fair die and a loaded die.
             - Suppose we get the following rolls [1,6,6,6,2,4,1].
             - The Viterbi algorithm will tell you the **most probable sequence of hidden states (fair vs. loaded)** that explains those rolls.
-            - Unlike the Forward algorithm (which sums over _all_ possible hidden paths to get P(O∣M)P(O|M)P(O∣M)), the Viterbi algorithm uses **dynamic programming with backpointers** to trace back the **single best path**.
+            - Unlike the Forward algorithm (which sums over _all_ possible hidden paths to get $P(O∣M)$, the Viterbi algorithm uses **dynamic programming with backpointers** to trace back the **single best path**.
 ##### Study Guide Long Response VII
 Note: I'm using the same HMM as "Study Guide Short Response G".
 ![[Pasted image 20250929182552.png]]
