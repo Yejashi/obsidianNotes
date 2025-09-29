@@ -124,7 +124,8 @@ Orders of Markov Chains
 
 ##### Study Guide Short Response I
 ![[Pasted image 20250929173933.png]]
-- 
+- **Low order (1st)**: simple, efficient, but may miss longer patterns
+- **Higher order (2nd, 3rd, …)**: captures more structure, but requires many more transition probabilities → needs more data to estimate.
 
 #### Hidden Markov Models (HMM)
 In a standard Markov chain, you can **see the states directly** (e.g., “today is sunny, tomorrow will be rainy”).
