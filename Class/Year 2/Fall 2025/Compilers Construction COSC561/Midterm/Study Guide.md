@@ -1,6 +1,10 @@
 ### Notes
+#### Regular expressions
 **epsilon closure:**
 - Set of NFA states reachable from NFA state $s$ on e-transitions alone
+
+**Thompson Construction**:
+- Way to convert a regular expression to an NFA
 
 
 
