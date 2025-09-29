@@ -77,3 +77,4 @@ Dinucleotices are pairs of consecutive nucleotidecs (e.g. AG, CT, etc). The dinu
 - In this case:
 	- X = [AT, AT] = 2
 	- Y = [AT, AT] = 2
+	- X / Y = 1
