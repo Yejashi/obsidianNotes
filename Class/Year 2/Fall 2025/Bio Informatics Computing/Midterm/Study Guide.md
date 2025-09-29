@@ -19,7 +19,8 @@ Solution:
 	- When sequences are of similar length and you want to compare them across their entire span
 
 ##### **Local Alignment**
-- Definition: Finds the best matching subsequences within the larger sequences
+- Definition: Finds the best matching sub-sequences within the larger sequences
 - Smith–Waterman algorithm
 - When used:
-	  
+	- When sequences differ in length or only have shared conserved regions
+	- 
