@@ -53,8 +53,6 @@ Solution:
 Solution:
 - b
 ![[Pasted image 20250929150249.png]]
-##### Study Guide Short Response 1
-![[Pasted image 20250929151222.png]]
 
 
 #### **Multinomial models** 
@@ -67,9 +65,9 @@ Basically every point has a probability and the chance you get something depends
 Solution:
 - P(A) = 2/4 P(T) = 1/4 P(G) = 1/4
 - Answer = a =  P(A) = 2/4
-
-
-
 ##### Study Guide Short Response 1
 ![[Pasted image 20250929150612.png]]
 Dinucleotices are pairs of consecutive nucleotidecs (e.g. AG, CT, etc). The dinucleotide frequence tells you the probability of a given Dinucleotide occurring within a sequence. It is calculated by taking the total number of occurances of a given sequence and dividing by the number of dinucleotides in the sequence.
+
+##### Study Guide Short Response 1
+![[Pasted image 20250929151222.png]]
