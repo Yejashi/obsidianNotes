@@ -57,7 +57,9 @@ Solution:
 ##### Study Guide Short Response E
 ![[Pasted image 20250929152344.png]]
 **Global alignment** tries to align **entire sequences from end to end**, even if that means introducing gaps or mismatches. It’s best when the two sequences are of **similar length and overall related**.
+- tldr: emphasize _entire sequences_
 **Local alignment** looks for the **best matching subsequences** inside the two sequences. It doesn’t force the whole sequences to line up — it just finds the **highest-scoring region of similarity**, which is useful if only part of the sequences are related.
+- emphasize _best matching subsequences_
 #### **Multinomial models** 
 A multinomial model is any probabilistic/statistical model that assumes data (counts, frequencies, categories) are generated from a multinomial distribution.
 
