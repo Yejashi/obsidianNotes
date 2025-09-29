@@ -107,6 +107,8 @@ Structure:
 - At each step, it moves to the next state based on transition probabilities that depend only on the current state (not how you got there).
 - This makes it a memoryless process (the “Markov property”).
 
+**Markov Chains**
+
 
 #### Hidden Markov Models (HMM)
 In a standard Markov chain, you can **see the states directly** (e.g., “today is sunny, tomorrow will be rainy”).
