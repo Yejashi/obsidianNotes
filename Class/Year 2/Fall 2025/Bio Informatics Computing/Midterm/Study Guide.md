@@ -54,8 +54,9 @@ Solution:
 - b
 ![[Pasted image 20250929150249.png]]
 
-##### Study Guide Question 3
+##### Study Guide Short Response E
 ![[Pasted image 20250929152344.png]]
+
 #### **Multinomial models** 
 A multinomial model is any probabilistic/statistical model that assumes data (counts, frequencies, categories) are generated from a multinomial distribution.
 
