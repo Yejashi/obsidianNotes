@@ -51,6 +51,7 @@ Solution:
 ##### Study Guide Question 4
 ![[Pasted image 20250929145526.png]]
 
+![[Pasted image 20250929150249.png]]
 
 
 #### **Multinomial models** 
