@@ -111,4 +111,6 @@ HMM Structure:
 	- Finite set of states you don’t directly observe (e.g., coding vs non-coding DNA, fair die vs loaded die)
 	- They evolve according to a Markov chain with **state transition probabilities**
 - Observations (emissions)
-	- At each step, the hidden state generates an **observable symbol** (e.g., a nucleotide, a die roll, a word in text).
+	- At each step, the hidden state generates an **observable symbol** (e.g., a nucleotide, a die roll, a word in text)
+- Initial distribution
+	- Probabilities of starting in each hidden state
