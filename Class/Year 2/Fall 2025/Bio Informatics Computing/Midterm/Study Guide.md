@@ -64,3 +64,5 @@ Solution:
 - P(A) = 2/4 P(T) = 1/4 P(G) = 1/4
 - Answer = a =  P(A) = 2/4
 
+
+
