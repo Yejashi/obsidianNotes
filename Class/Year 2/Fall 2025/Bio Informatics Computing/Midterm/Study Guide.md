@@ -1,4 +1,3 @@
-
 #### **Reverse compliment**
 - DNA comes in 5'->3' format.
 - To get reverse complement:
