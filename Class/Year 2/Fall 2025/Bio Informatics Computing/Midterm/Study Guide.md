@@ -49,3 +49,4 @@ Solution:
 - D 
 	- The maximum value of the last row and column
 
+#### Multinomial models
