@@ -106,3 +106,6 @@ In a standard Markov chain, you can **see the states directly** (e.g., “today 
 
 But in many real problems, the **states are hidden** — you can’t observe them directly. Instead, you only see **outputs (emissions)** that depend on the hidden states.
 
+HMM Structure:
+- Hidden  States
+	- 
