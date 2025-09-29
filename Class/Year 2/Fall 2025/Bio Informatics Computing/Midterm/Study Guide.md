@@ -121,7 +121,7 @@ Key property:
 ![[Pasted image 20250929160010.png]]
 ##### **Forward Algorithm**
 The forward algorithm answers the question:
-- Given an HMM and an observation sequence $O = O_1 O_2 \dots O_T​$, what is the probability $P(O∣M)$ that the model generates the sequence?
+- Given an HMM $M$ and an observation sequence $O = O_1 O_2 \dots O_T​$, what is the probability $P(O∣M)$ that the model generates the sequence?
 
 In the dishonest casino the hidden states is whether the die is loaded or fair. The emission is the roll from the current die with the probability distribution as shown above.
 
