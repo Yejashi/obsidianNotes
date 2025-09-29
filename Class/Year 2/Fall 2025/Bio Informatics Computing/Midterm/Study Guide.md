@@ -24,7 +24,6 @@ Solution:
 ##### End-gap Free Alignment
 - Also semi-global
 - Definition: A special case of semiglobal. The alignment is optimized without penalizing leading or trailing gaps
-- 
 ##### **Local Alignment**
 - Definition: Finds the best matching sub-sequences within the larger sequences
 - Smith–Waterman algorithm

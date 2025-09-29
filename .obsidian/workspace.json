@@ -6,6 +6,7 @@
       {
         "id": "c91f6b6c3929b026",
         "type": "tabs",
+        "dimension": 45.06472491909385,
         "children": [
           {
             "id": "607adc1bd2029eee",
@@ -24,6 +25,7 @@
       {
         "id": "6c4c12d8c3c69263",
         "type": "tabs",
+        "dimension": 54.93527508090615,
         "children": [
           {
             "id": "b755c22cd96531c8",
@@ -237,9 +239,9 @@
   },
   "active": "d62bb537d8944a41",
   "lastOpenFiles": [
-    "Meta/Attachments/Pasted image 20250929135944.png",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/COSC494 Study Guide.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/Study Guide.md",
+    "Meta/Attachments/Pasted image 20250929135944.png",
     "Meta/Attachments/Pasted image 20250929131401.png",
     "Meta/Attachments/Pasted image 20250929131247.png",
     "Meta/Attachments/Pasted image 20250929130223.png",
@@ -281,7 +283,6 @@
     "Meta/Attachments/Pasted image 20250506152916.png",
     "Meta/Attachments/Pasted image 20250506114036.png",
     "Meta/Attachments/Pasted image 20250212153742.png",
-    "Meta/Attachments/Pasted image 20250206062147.png",
-    "Meta/Attachments/Pasted image 20250205140534.png"
+    "Meta/Attachments/Pasted image 20250206062147.png"
   ]
 }
