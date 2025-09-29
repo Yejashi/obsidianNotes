@@ -5,4 +5,4 @@
 - To get reverse complement:
 	- Get matching nucleotide for every nucleotide (A->T C->G)
 		- It is currently in 3' 5' format
-	- Reverse to turn into 
+	- Reverse to turn into 5' 3' format.
