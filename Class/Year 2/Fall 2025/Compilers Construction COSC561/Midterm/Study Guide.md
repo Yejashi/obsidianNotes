@@ -1,1 +1,4 @@
 ![[Pasted image 20250929190113.png]]
+
+A grammar is considered ambiguous if you can derive the same string from it.
+
