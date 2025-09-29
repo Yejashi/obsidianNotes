@@ -56,7 +56,8 @@ Solution:
 
 ##### Study Guide Short Response E
 ![[Pasted image 20250929152344.png]]
-Global alignment wants to find as many matching matches for two sequences of the same length. Local alignment wants to find as many matching sub sequences for two sequences.
+**Global alignment** tries to align **entire sequences from end to end**, even if that means introducing gaps or mismatches. It’s best when the two sequences are of **similar length and overall related**.
+
 #### **Multinomial models** 
 A multinomial model is any probabilistic/statistical model that assumes data (counts, frequencies, categories) are generated from a multinomial distribution.
 
