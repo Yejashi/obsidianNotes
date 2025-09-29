@@ -12,6 +12,7 @@ Solution:
 - 5' ATATG 3'
 
 #### **Alignment**
+![[Pasted image 20250929131247.png]]
 ##### Global Alignment
 - Definition: Aligns sequences end-to-end, from the first nucleotide/amino acid to the last
 - Needleman–Wunsch algorithm
