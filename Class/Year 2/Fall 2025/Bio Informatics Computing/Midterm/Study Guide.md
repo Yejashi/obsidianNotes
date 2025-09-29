@@ -50,7 +50,7 @@ Solution:
 ![[Pasted image 20250929144501.png]]
 ##### Study Guide Long Response Questions I
 ![[Pasted image 20250929174843.png]]
-
+![[Pasted image 20250929181423.png]]
 Idk if i did this right...sigh.
 
 ##### Study Guide Multiple Choice Question 2
