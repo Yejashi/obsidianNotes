@@ -132,5 +132,8 @@ The forward algorithm answers the question:
 ##### Study Guide Short Response G
 ![[Pasted image 20250929160246.png]]
 ![[Pasted image 20250929172312.png]]
-
 ![[Pasted image 20250929172817.png]]
+
+Note: I might have messed up one of the steps but you get the idea. Don't be a regarded idiot on the exam.
+
+
