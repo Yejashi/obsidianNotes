@@ -12,3 +12,4 @@ Solution:
 - 5' ATATG 3'
 
 #### **Alignment**
+##### Global Alignment
