@@ -25,6 +25,8 @@ Solution:
 ![[Pasted image 20250929141424.png]]
 - Also semi-global
 - Definition: A special case of semiglobal. The alignment is optimized without penalizing leading or trailing gaps
+- When used:
+	- When we dont want to penalize leading or trailing gaps
 ##### **Local Alignment**
 - Definition: Finds the best matching sub-sequences within the larger sequences
 - Smith–Waterman algorithm
