@@ -57,6 +57,5 @@ Basically every point has a probability and the chance you get something depends
 ##### Study Guide Question 3
 ![[Pasted image 20250929145250.png]]
 Solution:
-- P(A) = 2/4
-- P(T) = 1/4
-- P(G) = 1/4
+- P(A) = 2/4 P(T) = 1/4 P(G) = 1/4
+- 
