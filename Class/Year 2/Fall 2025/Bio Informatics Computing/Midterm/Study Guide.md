@@ -90,5 +90,9 @@ Dinucleotices are pairs of consecutive nucleotidecs (e.g. AG, CT, etc). The dinu
 	- Y / X = 1
 
 #### Markov Models
+A Markov model is a way to describe systems that evolve step by step, where the future depends only on the present, not on the full past history.
 
+Structure:
+- A Markov model has a finite set of states.
+- 
 #### Hidden Markov Models
