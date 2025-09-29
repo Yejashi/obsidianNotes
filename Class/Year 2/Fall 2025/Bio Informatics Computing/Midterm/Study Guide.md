@@ -190,10 +190,6 @@ The Viterbi algorithm answers the question:
 ##### Study Guide Long Response VII
 Note: I'm using the same HMM as "Study Guide Short Response G".
 ![[Pasted image 20250929182552.png]]
-
-
-
-
 #### Suffix Trees
 A suffix tree is a special kind of compressed trie (keyword tree) built from all suffixes of a string.
 ![[Pasted image 20250929183317.png]]
