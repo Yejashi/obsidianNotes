@@ -144,7 +144,7 @@ In a Markov model, the probability of a sequence is the product of many terms. A
 ##### Study Guide Short Response I
 ![[Pasted image 20250929173318.png]]
 
-You choose the last element (lower right)
+You choose the last element (lower right) and do a backtrace to find the optimal sequence alignment.
 
 
 
