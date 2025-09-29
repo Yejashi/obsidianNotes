@@ -112,6 +112,8 @@ A **Markov chain** is a special type of Markov model where:
 - You have a finite set of **states**.
 - The system moves between states in **discrete time steps**.
 - The probability of moving to the next state depends on the **previous states** (the “order” defines how many).
+The key property is the **Markov property**: the future depends only on a limited history, not the full past
+
 
 
 
