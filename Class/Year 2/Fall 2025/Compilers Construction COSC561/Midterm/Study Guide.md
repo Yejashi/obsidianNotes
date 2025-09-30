@@ -160,4 +160,6 @@ S --> SS --> (S)S --> ()S --> ()
 
 7. Why use grammars for language specification?
 	1. Grammars formally define the **syntax rules** of a language in a clear, mathematical way.
-	2. 
+	2. Grammars provide the blueprint for building **parsers and compilers**, since parsing algorithms directly operate on grammar rules
+
+8. ive an example of syntactic checking and type checking.
