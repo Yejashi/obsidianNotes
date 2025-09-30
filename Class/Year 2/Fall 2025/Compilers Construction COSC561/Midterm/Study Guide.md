@@ -47,6 +47,7 @@
 		- Replace the production of Aj in Ai -> Aj
 		- Remove immediate left recursion
 		- Remove epsilon
+![[Pasted image 20250930033225.png]]
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
