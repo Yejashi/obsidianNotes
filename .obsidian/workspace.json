@@ -6,7 +6,7 @@
       {
         "id": "aa9d08524e74c6e5",
         "type": "tabs",
-        "dimension": 41.891891891891895,
+        "dimension": 50,
         "children": [
           {
             "id": "5c12e3cd49441d5f",
@@ -23,12 +23,12 @@
         ]
       },
       {
-        "id": "af5c01cef1f5d080",
+        "id": "3d3757feed0d194a",
         "type": "tabs",
-        "dimension": 58.108108108108105,
+        "dimension": 50,
         "children": [
           {
-            "id": "9ae74074b8df174b",
+            "id": "8799324c2e5e697d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5,
-    "collapsed": true
+    "width": 408.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -210,11 +209,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9ae74074b8df174b",
+  "active": "8799324c2e5e697d",
   "lastOpenFiles": [
-    "Meta/Attachments/Pasted image 20250930071035.png",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/Study Guide.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/Study Guide.md",
+    "Meta/Attachments/Pasted image 20250930071035.png",
     "Meta/Attachments/Pasted image 20250930053022.png",
     "Meta/Attachments/Pasted image 20250930052803.png",
     "Meta/Attachments/Pasted image 20250930052505.png",
@@ -225,8 +225,6 @@
     "Meta/Attachments/Pasted image 20250930044137.png",
     "Meta/Attachments/Pasted image 20250930044119.png",
     "Meta/Attachments/Pasted image 20250930044057.png",
-    "Meta/Attachments/Pasted image 20250930044038.png",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/Study Guide.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/hw3.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/COSC494 Study Guide.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/report 1.md",
