@@ -31,6 +31,7 @@
 - If you have everything as an accepting state, you would just group everything into one state
 - If you have a dead state
 	- Use the dead state to distinguish
+	- For everything in the alphabet, the dead state goes to itself
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
