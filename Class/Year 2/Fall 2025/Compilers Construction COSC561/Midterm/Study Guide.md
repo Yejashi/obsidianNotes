@@ -171,4 +171,5 @@ S --> SS --> (S)S --> ()S --> ()
 	1. For each non terminal write a function that chooses a production using lookahead
 	2. Use a match helper that checks the lookahead type and consumes it if it matches
 
-10. 
+10. What is precedence climbing? How does it work in a recursive descent parser?
+	1. 
