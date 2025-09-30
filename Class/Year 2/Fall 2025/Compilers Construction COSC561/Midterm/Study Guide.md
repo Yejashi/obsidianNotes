@@ -145,3 +145,6 @@ S --> SS --> (S)S --> ()S --> ()
 	- **Intermediate Code Generator:** Translates the parse tree into an intermediate representation (IR) closer to machine code but still abstract.
 	- **Code Optimizer:** Improves the intermediate code for efficiency (speed, memory usage, etc.) without changing its behavior.
 	- **Code Generator:** Converts optimized IR into target machine code and generates the final executable.
+
+4. What is importance of intermediate code in compiler construction?
+	1. 
