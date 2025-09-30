@@ -18,6 +18,7 @@
 	- Then calculate its epsilon closure
 		- Call that a new state
 		- Mark it
+- Anything that includes an accepting state will be an accepting state
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
