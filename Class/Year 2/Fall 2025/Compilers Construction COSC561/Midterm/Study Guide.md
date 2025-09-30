@@ -15,6 +15,7 @@
 	- All of the states reachable through epsilon transitions alone
 - While there is an unmaked state
 	- For each symbol a compute move(T, a)
+	- Then calculate its epsilon closure
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
