@@ -37,6 +37,7 @@
 - Replace A -> Aa| B with
 	- A -> BA'
 	- A' -> aA'|e
+- Basically identify what should be A, a, and B and do the replacement
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
