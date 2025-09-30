@@ -44,7 +44,7 @@
 - Visit each non terminal (i)
 	- For the first one, you can eliminate the immediate left recursion
 	- For the others (j)
-		- Replace Ai -> Aj with 
+		- Replace the production of Aj in Ai -> Aj
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
