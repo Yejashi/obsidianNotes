@@ -42,3 +42,5 @@ S --> SS --> (S)S --> ()S --> ()
 
 ![[Pasted image 20250930013026.png]]
 
+**Algorithm**
+- 
