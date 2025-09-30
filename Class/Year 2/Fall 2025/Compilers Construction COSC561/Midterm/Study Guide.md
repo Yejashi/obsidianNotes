@@ -40,7 +40,11 @@
 - Basically identify what should be A, a, and B and do the replacement
 
 **General Algorithm**:
-- Enumerate non terminals
+- Create a list of non terminal to enumerate
+- Visit each non terminal
+	- For the first one, you can eliminate the immediate left recursion
+	- For the others
+		- Replace 
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
