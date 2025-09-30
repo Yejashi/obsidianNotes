@@ -172,7 +172,7 @@ S --> SS --> (S)S --> ()S --> ()
 	2. Use a match helper that checks the lookahead type and consumes it if it matches
 
 10. What is precedence climbing? How does it work in a recursive descent parser?
-	1. s
+	1. MIn - > MAx
 
 11. How is bottom-up parsing different from top-down parsing?
 	1. Top down:
