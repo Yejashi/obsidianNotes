@@ -71,7 +71,7 @@ It predicts which production rule to apply using a lookahead of some number of i
 	  Steps:
 		- For FOLLOW(X) look where X is in the right hand side then follow the rules.
 	 ![[Pasted image 20250930053022.png]] 
-- 
+- ![[Pasted image 20250930071035.png]]
 ### Study Guide ![[Pasted image 20250929190113.png]]
 
 A grammar is considered ambiguous if you can derive the same string from it.
