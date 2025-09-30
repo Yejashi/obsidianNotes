@@ -138,9 +138,9 @@ S --> SS --> (S)S --> ()S --> ()
 	1. 
 
 3. Name and provide a one-line description of the six compiler phases
-	1. Scanner -> Tuns input into tokens
-	2. Parser -> Ensures that the program is in the launguage defined 
-	3. Intermediate code generator
-	4. Optimizer
-	5. Code generator
-	6. peeohole optimizer
+	- **Lexical Analyzer (Scanner):** Breaks the source code into tokens (keywords, identifiers, operators, etc.).
+	- **Syntax Analyzer (Parser):** Checks the token stream against grammar rules to build a parse tree.
+	- **Semantic Analyzer:** Ensures correctness of meaning (type checking, scope resolution, etc.).
+	- **Intermediate Code Generator:** Translates the parse tree into an intermediate representation (IR) closer to machine code but still abstract.
+	- **Code Optimizer:** Improves the intermediate code for efficiency (speed, memory usage, etc.) without changing its behavior.
+	- **Code Generator:** Converts optimized IR into target machine code and generates the final executable.
