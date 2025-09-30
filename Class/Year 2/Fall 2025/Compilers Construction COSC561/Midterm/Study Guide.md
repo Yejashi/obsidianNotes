@@ -151,6 +151,6 @@ S --> SS --> (S)S --> ()S --> ()
 	2. Without IR, building a direct compiler for _m_ source languages and _n_ target machines would require _m × n_ translators, but with IR you only need _m + n_ (each language to IR, and IR to each machine).
 
 5. Explain assemblers, linkers, loaders
-	1. Assembler: Translates **assembly language** (low-level human-readable code) into **machine code** (object code)..
+	1. Assembler: Translates **assembly language** (low-level human-readable code) into **machine code** (object code).
 	2. Combines multiple object files and libraries into a **single executable**. Resolves symbol references
-	3. Part of the operating system that **loads the executable into memory** for execution.
+	3. Part of the operating system that **loads the executable into memory** for execution. Sets up memory addresses, initializes registers, and hands control to the program’s start point.
