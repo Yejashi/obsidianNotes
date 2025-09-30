@@ -16,6 +16,8 @@
 - While there is an unmaked state
 	- For each symbol a compute move(T, a)
 	- Then calculate its epsilon closure
+		- Call that a new state
+		- Mark it
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
