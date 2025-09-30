@@ -14,7 +14,7 @@
 - Start by getting epsilon closure of the start state
 	- All of the states reachable through epsilon transitions alone
 - While there is an unmaked state
-	- For each symbol compute 
+	- For each symbol a compute move(T, a)
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
