@@ -164,4 +164,7 @@ S --> SS --> (S)S --> ()S --> ()
 
 8. Give an example of syntactic checking and type checking.
 	1. int x = ;   // ❌ Syntax error: missing expression after '='
-	2. 
+	2. int x = "hello";   // ❌ Type error: assigning a string to an int
+	   int y = 5 + "hi";  // ❌ Type error: cannot add int and string
+
+
