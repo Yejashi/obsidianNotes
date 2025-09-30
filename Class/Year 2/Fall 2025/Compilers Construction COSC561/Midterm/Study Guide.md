@@ -142,5 +142,5 @@ S --> SS --> (S)S --> ()S --> ()
 	2. Parser -> Ensures that the program is in the launguage defined 
 	3. Intermediate code generator
 	4. Optimizer
-	5. COde generator
+	5. Code generator
 	6. peeohole optimizer
