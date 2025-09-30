@@ -45,8 +45,8 @@
 	- For the first one, you can eliminate the immediate left recursion
 	- For the visited (j)
 		- Replace the production of Aj in Ai -> Aj
-		- Remove immediate left recursion
-		- Remove epsilon
+	- Remove immediate left recursion
+	- Remove epsilon
 ![[Pasted image 20250930033225.png]]
 
 ### Study Guide
