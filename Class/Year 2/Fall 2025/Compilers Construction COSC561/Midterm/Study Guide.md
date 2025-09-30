@@ -8,7 +8,8 @@
 	![[Pasted image 20250929194349.png]]
 
 ### Converting NFA to DFA
-
+- Create empty transition table
+- Start by putting start state
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
