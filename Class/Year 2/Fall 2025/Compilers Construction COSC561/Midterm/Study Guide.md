@@ -175,4 +175,7 @@ S --> SS --> (S)S --> ()S --> ()
 	1. s
 
 11. How is bottom-up parsing different from top-down parsing?
-	1. 
+	1. Top down:
+		1. Starts from start symbol
+	2. Bottom up
+		1. Starts from input tokens
