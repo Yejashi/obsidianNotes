@@ -33,7 +33,8 @@
 	- Use the dead state to distinguish
 	- For everything in the alphabet, the dead state goes to itself
 ### Eliminating Left Recursion
-
+**Immediate Left Recursion**:
+- Replace A -> Aa
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
