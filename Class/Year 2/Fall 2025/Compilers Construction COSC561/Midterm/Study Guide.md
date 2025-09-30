@@ -174,4 +174,5 @@ S --> SS --> (S)S --> ()S --> ()
 10. What is precedence climbing? How does it work in a recursive descent parser?
 	1. s
 
-11. 
+11. How is bottom-up parsing different from top-down parsing?
+	1. 
