@@ -156,4 +156,4 @@ S --> SS --> (S)S --> ()S --> ()
 	3. Part of the operating system that **loads the executable into memory** for execution. Sets up memory addresses, initializes registers, and hands control to the program’s start point.
 
 6. Explain recursive-decent parsing.
-	1. Recursive-descent parsing is a **top-down parsing technique** where the parser consists of a set of mutually recursive procedures (or functions), one for each nonterminal in the grammar,
+	1. Recursive-descent parsing is a **top-down parsing technique** where the parser consists of a set of mutually recursive procedures (or functions), one for each nonterminal in the grammar.
