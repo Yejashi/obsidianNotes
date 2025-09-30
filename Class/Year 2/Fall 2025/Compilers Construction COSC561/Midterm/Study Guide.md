@@ -182,4 +182,6 @@ S --> SS --> (S)S --> ()S --> ()
 
 12. Why is bottom-up parsing (with one symbol of lookahead) more powerful than top- down parsing (with one lookahead symbol)?
 	1. Bottom-up parsing with one lookahead (LR(1)) is more powerful than top-down with one lookahead (LL(1)) because LR(1) can handle a **larger class of grammars** (including left-recursive ones) and makes parsing decisions later, using more context, instead of having to predict too early
-	2. 
+	2. Top down
+		1. Have to eliminate left recursion
+		2. Have to left factor grammar
