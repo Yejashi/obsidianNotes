@@ -50,6 +50,7 @@
 		- Anywhere A' appears add a production where you took no input
 ![[Pasted image 20250930033225.png]]
 
+### Predictive Parsers
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
 
