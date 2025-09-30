@@ -65,7 +65,7 @@ It predicts which production rule to apply using a lookahead of some number of i
 - FIRST(a):  set of terminals that begins sterings derived from a. if a is epsilon or generates epsilon, then epsilon is also in FIRST(a)
 	![[Pasted image 20250930052505.png]]
 
-- FOLLOW(a): Set of terminals that can immediatly follow A in a sentinial form.
+- FOLLOW(a): Set of terminals that can immediately follow A in a sentenial form.
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
 
