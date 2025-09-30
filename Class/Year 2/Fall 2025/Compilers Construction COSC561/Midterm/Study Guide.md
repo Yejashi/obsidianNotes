@@ -23,8 +23,7 @@
 - When you have an empty state just create a dead state but ignore it when drawing dfa
 
 ### Minimizing DFA
-
-
+- Group your states into groups you know can be distinguished
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
