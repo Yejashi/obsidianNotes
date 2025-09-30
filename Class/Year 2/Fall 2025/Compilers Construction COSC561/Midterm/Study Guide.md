@@ -51,6 +51,8 @@
 ![[Pasted image 20250930033225.png]]
 
 ### Predictive Parsers
+**LL Parser**
+- 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
 
