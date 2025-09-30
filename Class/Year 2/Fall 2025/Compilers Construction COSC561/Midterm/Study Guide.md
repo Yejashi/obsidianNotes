@@ -153,4 +153,4 @@ S --> SS --> (S)S --> ()S --> ()
 5. Explain assemblers, linkers, loaders
 	1. Assembler: Translates **assembly language** (low-level human-readable code) into **machine code** (object code)..
 	2. Combines multiple object files and libraries into a **single executable**. Resolves symbol references
-	3. 
+	3. Part of the operating system that **loads the executable into memory** for execution.
