@@ -135,7 +135,8 @@ S --> SS --> (S)S --> ()S --> ()
 	- A compiler is a translator program that reads a program written in a source language and translates it to an equivalent program written in a target language.
 
 2. Explain the difference between a compiler and an interpreter. Give one example of interpreted language and compiled language
-	1. 
+	1. A compiler translates the entire source code into machine code (or intermediate code) in one go
+	2. 
 
 3. Name and provide a one-line description of the six compiler phases
 	- **Lexical Analyzer (Scanner):** Breaks the source code into tokens (keywords, identifiers, operators, etc.).
