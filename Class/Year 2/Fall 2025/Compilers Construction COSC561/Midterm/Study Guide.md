@@ -73,3 +73,5 @@ S --> SS --> (S)S --> ()S --> ()
 
 ![[Pasted image 20250930021003.png]]
 ![[Pasted image 20250930031026.png]]
+![[Pasted image 20250930031105.png]]
+
