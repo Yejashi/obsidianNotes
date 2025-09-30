@@ -55,8 +55,10 @@
 - An **LL parser** is a type of top-down parser for context-free grammars
 - **L** = Left-to-right scan of the input
 - **L** = Leftmost derivation of the parse tree
-- So, an LL parser reads input from **left to right** and builds a **leftmost derivation**
-- 
+So, an LL parser reads input from **left to right** and builds a **leftmost derivation**
+It predicts which production rule to apply using a lookahead of some number of input symbols.
+
+
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
 
