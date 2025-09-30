@@ -1,0 +1,107 @@
+# COSC594 – Homework 3 Report
+
+**Name:** Befikir T. Bogale  
+**Class:** COSC594  
+**Assignment:** Homework 3
+
+---
+
+## 1. Simulate a Hidden Markov Model
+I implemented the hidden markov model for the dishonest casino in Python. The executable is `casino_simulator.py`.  
+
+**Usage:**  
+```bash
+usage: casino_simulator.py [-h] [--show-states] [--seed SEED] [--output OUTPUT] [sequence_length]
+
+Generates a random sequence of dice rolls.
+
+positional arguments:
+  sequence_length  Length of the sequence to generate (default: 300)
+
+options:
+  -h, --help       show this help message and exit
+  --show-states    If set, also show which die (F or L) produced each roll.
+  --seed SEED      Optional random seed for reproducible sequences.
+  --output OUTPUT  Optional file name to dump the sequence.
+```
+
+Example output:
+```
+./casino_simulator.py          
+Printing Sequence of length 300
+4 6 1 6 6 3 6 6 6 6 
+3 4 6 6 3 6 6 2 6 2 
+6 6 6 5 6 5 3 2 3 5 
+5 6 6 2 6 3 2 4 1 4 
+1 1 5 2 3 4 4 3 4 2 
+6 2 3 4 6 2 6 5 4 6 
+6 6 6 4 4 1 3 3 6 6 
+5 6 6 3 6 5 6 1 6 1 
+6 6 5 6 4 4 6 6 4 4 
+1 3 6 3 2 6 3 4 1 3 
+6 2 6 6 6 6 2 3 5 3 
+5 1 2 4 2 2 6 6 2 3 
+5 4 5 1 2 4 5 3 6 6 
+3 1 5 6 1 5 5 4 3 5 
+5 5 4 2 6 6 4 6 6 6 
+6 6 5 4 2 1 6 6 6 2 
+1 5 5 6 4 6 6 4 4 6 
+6 6 6 6 6 2 6 1 2 1 
+4 1 5 5 5 2 3 4 3 4 
+1 2 4 5 1 5 3 5 5 6 
+6 5 1 3 5 2 6 6 2 6 
+3 2 6 2 3 4 6 4 1 2 
+3 1 3 5 4 5 1 4 6 6 
+6 4 5 2 1 3 4 6 6 4 
+1 1 6 5 6 6 2 2 6 5 
+1 1 5 6 6 6 6 6 5 3 
+4 6 1 5 6 6 6 6 6 2 
+2 4 3 5 3 5 3 3 6 4 
+4 2 1 1 5 3 4 4 4 5 
+3 6 3 5 1 6 5 2 1 1 
+```
+## 3. Forward Algorithm – Compute Probabilities
+I implemented the forward algorithm  in Python. The executable is `forward.py`.  
+
+**Usage:**  
+```
+usage: forward.py [-h] input_file
+
+Apply forward algorithm on HMM.
+
+positional arguments:
+  input_file  Path to the benchmark file
+
+options:
+  -h, --help  show this help message and exit
+```
+
+**Outputs:**
+```
+./forward.py casino.benchmark1.txt 
+4.756429038528061e-233
+
+./forward.py casino.benchmark2.txt 
+4.1246705338340785e-233
+```
+
+
+## 4. Viterbi Decoding
+I implemented the viterbi algorithm  in Python. The executable is `viterbi.py`.  
+
+**Usage:**
+```
+usage: viterbi.py [-h] input_file
+
+Apply Viterbi algorithm a roll sequence.
+
+positional arguments:
+  input_file  Path to the benchmark file
+
+options:
+  -h, --help  show this help message and exit
+```
+
+
+## 6. GLIMMER Gene Prediction
+I have stored the relevant `*.predict` files for the sequences, specifically **ames.predict** for the ames sequence and **ames_ancestor.predict** for the ames_ancestor sequence. In reviewing the results, I observed that the ames sequence contains 5,568 predicted genes, while the ames_ancestor sequence has a slightly lower count of 5,564 predicted genes.
