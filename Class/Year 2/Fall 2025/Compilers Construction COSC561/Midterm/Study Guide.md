@@ -9,6 +9,8 @@
 
 ### Converting NFA to DFA
 - Create empty transition table
+	- The rows correspond to the marked states
+	- The columns correspond to the alphabet
 - Start by getting epsilon closure of the start state
 	- All of the states reachable through epsilon transitions alone
 
