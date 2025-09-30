@@ -154,3 +154,5 @@ S --> SS --> (S)S --> ()S --> ()
 	1. Assembler: Translates **assembly language** (low-level human-readable code) into **machine code** (object code).
 	2. Combines multiple object files and libraries into a **single executable**. Resolves symbol references
 	3. Part of the operating system that **loads the executable into memory** for execution. Sets up memory addresses, initializes registers, and hands control to the program’s start point.
+
+6. 
