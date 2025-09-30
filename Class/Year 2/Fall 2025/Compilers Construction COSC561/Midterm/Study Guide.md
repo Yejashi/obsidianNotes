@@ -138,4 +138,5 @@ S --> SS --> (S)S --> ()S --> ()
 	1. 
 
 3. Name and provide a one-line description of the six compiler phases
-
+	1. Scanner -> Tuns input into tokens
+	2. Parser -> Ensures that the program is in the launguage defined 
