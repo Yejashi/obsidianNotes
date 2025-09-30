@@ -53,6 +53,8 @@
 ### Predictive Parsers
 **LL Parser**
 - An **LL parser** is a type of top-down parser for context-free grammars
+- **L** = Left-to-right scan of the input
+- **L** = Leftmost derivation of the parse tree
 - 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
