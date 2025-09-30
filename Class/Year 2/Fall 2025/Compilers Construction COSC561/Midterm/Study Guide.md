@@ -108,7 +108,8 @@ S --> SS --> (S)S --> ()S --> ()
 ![[Pasted image 20250930042351.png]]
 
 ![[Pasted image 20250930042440.png]]
-https://utk.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=253a5a65-d2ed-412f-8a11-b35c00e2acdb
+![[Pasted image 20250930051031.png]]
+
 
 
 ![[Pasted image 20250930044119.png]]
