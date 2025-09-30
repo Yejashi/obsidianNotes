@@ -150,4 +150,6 @@ S --> SS --> (S)S --> ()S --> ()
 	1. Intermediate code is important because it makes compilers **portable, modular, and optimization-friendl**.
 	2. Without IR, building a direct compiler for _m_ source languages and _n_ target machines would require _m × n_ translators, but with IR you only need _m + n_ (each language to IR, and IR to each machine).
 
-5. 
+5. Explain assemblers, linkers, loaders
+	1. Assembler: Translates **assembly language** (low-level human-readable code) into **machine code** (object code)..
+	2. 
