@@ -7,6 +7,8 @@
 - Way to convert a regular expression to an NFA
 	![[Pasted image 20250929194349.png]]
 
+### Converting NFA to DFA
+
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
