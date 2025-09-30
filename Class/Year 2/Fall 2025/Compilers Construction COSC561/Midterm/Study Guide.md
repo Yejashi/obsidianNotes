@@ -35,7 +35,7 @@
 ### Eliminating Left Recursion
 **Immediate Left Recursion**:
 - Replace A -> Aa| B with
-	- 
+	- A -> BA', 
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
