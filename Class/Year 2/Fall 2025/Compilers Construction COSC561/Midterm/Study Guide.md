@@ -93,21 +93,3 @@ S --> SS --> (S)S --> ()S --> ()
 ![[Pasted image 20250930031105.png]]
 
 ![[Pasted image 20250930031301.png]]
-A is left recursive because it derives to AB which has A on the left side. We can apply the algorithm to fix it
-  
-
-Take all the left recursive derivations for A and put them in A’. Remove A from them and put A’ at the end. Put epsilon as a derivation 
-
-Take all of the non left recursive derivations and keep them in A. Put A’ after them
-
-A  -> cA’
-A’ -> BA’ | epsilon 
-  
-Then we check B and C to make sure we didnt introduce any left recursion with changing A. We substitute 
-
-B -> cA’C | a
-C -> cA’C | a | b
-
-There is no new left recursion so we are good.
-
-
