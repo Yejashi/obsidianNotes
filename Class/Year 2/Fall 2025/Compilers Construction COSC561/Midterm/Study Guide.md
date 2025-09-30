@@ -20,6 +20,7 @@
 		- Mark it
 - Anything that includes an accepting state will be an accepting state
 - *** Remember you can reach yourself with epsilon transition
+- When you have an empty state just create a dead state 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
 
