@@ -34,7 +34,8 @@
 	- For everything in the alphabet, the dead state goes to itself
 ### Eliminating Left Recursion
 **Immediate Left Recursion**:
-- Replace A -> Aa
+- Replace A -> Aa| B with
+	- 
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
