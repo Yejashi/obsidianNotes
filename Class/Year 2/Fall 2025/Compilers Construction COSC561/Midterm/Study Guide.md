@@ -147,4 +147,5 @@ S --> SS --> (S)S --> ()S --> ()
 	- **Code Generator:** Converts optimized IR into target machine code and generates the final executable.
 
 4. What is importance of intermediate code in compiler construction?
-	1. 
+	1. Intermediate code is important because it makes compilers **portable, modular, and optimization-friendl**.
+	2. 
