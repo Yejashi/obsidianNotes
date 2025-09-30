@@ -27,6 +27,10 @@
 	- e.g set of states that accept and set of states that dont accept
 - Algorithm
 	- Lets try different string and see if we can distinguish
+	- Keep distinguishing until you cant
+- If you have everything as an accepting state, you would just group everything into one state
+- If you have a dead state
+	- 
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
