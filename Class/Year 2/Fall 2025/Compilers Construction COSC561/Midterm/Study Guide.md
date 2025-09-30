@@ -62,7 +62,7 @@ It predicts which production rule to apply using a lookahead of some number of i
 ![[Pasted image 20250930044038.png]]
 
 **How is a predictive parsing table created?**
-- First(a):  set of terminals that begins s
+- FIRST(a):  set of terminals that begins sterings derived from a. if a is epsilon or generates epsilon, then epsilon is also in FIRST(a)
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
