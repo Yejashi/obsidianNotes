@@ -136,5 +136,5 @@ S --> SS --> (S)S --> ()S --> ()
 
 2. Explain the difference between a compiler and an interpreter. Give one example of interpreted language and compiled language
 
-3. 
+3. Name and provide a one-line description of the six compiler phases
 
