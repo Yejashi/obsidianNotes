@@ -167,4 +167,5 @@ S --> SS --> (S)S --> ()S --> ()
 	2. int x = "hello";   // ❌ Type error: assigning a string to an int
 	   int y = 5 + "hi";  // ❌ Type error: cannot add int and string
 
-
+9. Describe the basic approach for implementing recursive-decent parsers
+	1. 
