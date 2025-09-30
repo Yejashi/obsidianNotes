@@ -43,7 +43,7 @@
 - Create a list of non terminal to enumerate
 - Visit each non terminal (i)
 	- For the first one, you can eliminate the immediate left recursion
-	- For the others (j)
+	- For the visited (j)
 		- Replace the production of Aj in Ai -> Aj
 		- Remove immediate left recursion
 		- Remove epsilon
