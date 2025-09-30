@@ -47,7 +47,7 @@
 		- Replace the production of Aj in Ai -> Aj
 	- Remove immediate left recursion
 	- Remove epsilon
-		- 
+		- Anywhere A' appears add a production where you took no input
 ![[Pasted image 20250930033225.png]]
 
 ### Study Guide
