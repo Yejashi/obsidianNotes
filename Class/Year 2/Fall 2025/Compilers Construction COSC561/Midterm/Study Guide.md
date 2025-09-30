@@ -41,10 +41,10 @@
 
 **General Algorithm**:
 - Create a list of non terminal to enumerate
-- Visit each non terminal
+- Visit each non terminal (i)
 	- For the first one, you can eliminate the immediate left recursion
-	- For the others
-		- Replace 
+	- For the others (j)
+		- Replace Ai -> 
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
