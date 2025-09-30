@@ -70,7 +70,9 @@ It predicts which production rule to apply using a lookahead of some number of i
 	  TLDR: set of terminals that can appear immediately to the right of A in some sentential form 
 	  Steps:
 		- For FOLLOW(X) look where X is in the right hand side then follow the rules.
-	 ![[Pasted image 20250930053022.png]] ### Study Guide ![[Pasted image 20250929190113.png]]
+	 ![[Pasted image 20250930053022.png]] 
+- 
+### Study Guide ![[Pasted image 20250929190113.png]]
 
 A grammar is considered ambiguous if you can derive the same string from it.
 
