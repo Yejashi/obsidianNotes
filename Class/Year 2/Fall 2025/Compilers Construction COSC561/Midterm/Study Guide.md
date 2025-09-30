@@ -58,7 +58,7 @@
 So, an LL parser reads input from **left to right** and builds a **leftmost derivation**
 It predicts which production rule to apply using a lookahead of some number of input symbols.
 
-
+![[Pasted image 20250930044038.png]]
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
 
