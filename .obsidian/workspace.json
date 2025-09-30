@@ -11,10 +11,26 @@
             "id": "acc226df7e2e4401",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/Study Guide.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Study Guide"
+            }
+          },
+          {
+            "id": "a49e73b7ab709e34",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "COSC461 Study Guide"
             }
           }
         ]
@@ -74,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5026054382324
+    "width": 314.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -184,8 +201,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "acc226df7e2e4401",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/Study Guide.md",
     "conflict-files-obsidian-git.md",
     "Meta/Attachments/Pasted image 20250929194349.png",
     "Meta/Attachments/Pasted image 20250929190737.png",
@@ -197,8 +216,6 @@
     "Meta/Attachments/Pasted image 20250929174843.png",
     "Meta/Attachments/Pasted image 20250929173933.png",
     "Meta/Attachments/Pasted image 20250929173553.png",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/Study Guide.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/Study Guide.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/COSC494 Study Guide.pdf",
