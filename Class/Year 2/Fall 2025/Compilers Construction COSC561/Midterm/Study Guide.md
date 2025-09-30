@@ -56,6 +56,7 @@
 - **L** = Left-to-right scan of the input
 - **L** = Leftmost derivation of the parse tree
 - So, an LL parser reads input from **left to right** and builds a **leftmost derivation**
+- 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
 
