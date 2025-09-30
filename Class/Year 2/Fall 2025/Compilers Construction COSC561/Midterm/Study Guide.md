@@ -180,4 +180,5 @@ S --> SS --> (S)S --> ()S --> ()
 	2. Bottom up
 		1. Starts from input tokens
 
-12. 
+12. Why is bottom-up parsing (with one symbol of lookahead) more powerful than top- down parsing (with one lookahead symbol)?
+	1. 
