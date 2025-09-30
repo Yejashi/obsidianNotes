@@ -140,3 +140,7 @@ S --> SS --> (S)S --> ()S --> ()
 3. Name and provide a one-line description of the six compiler phases
 	1. Scanner -> Tuns input into tokens
 	2. Parser -> Ensures that the program is in the launguage defined 
+	3. Intermediate code generator
+	4. Optimizer
+	5. COde generator
+	6. peeohole optimizer
