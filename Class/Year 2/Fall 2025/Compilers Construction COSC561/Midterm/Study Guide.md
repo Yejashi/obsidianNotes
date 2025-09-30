@@ -64,13 +64,9 @@ It predicts which production rule to apply using a lookahead of some number of i
 **How is a predictive parsing table created?**
 - FIRST(a):  set of terminals that begins strings derived from a. if a is epsilon or generates epsilon, then epsilon is also in FIRST(a)
 	![[Pasted image 20250930052505.png]]
+	 
 
-- FOLLOW(a): Set of terminals that can immediately follow A in a sentenial form.
-	![[Pasted image 20250930052803.png]]
-	![[Pasted image 20250930053022.png]]
-
-### Study Guide
-![[Pasted image 20250929190113.png]]
+	 TLDR: set of terminals that can appear immediately to the right of A in some sentential form - FOLLOW(a): Set of terminals that can immediately follow A in a sentenial form. ![[Pasted image 20250930052803.png]] ![[Pasted image 20250930053022.png]] ### Study Guide ![[Pasted image 20250929190113.png]]
 
 A grammar is considered ambiguous if you can derive the same string from it.
 
