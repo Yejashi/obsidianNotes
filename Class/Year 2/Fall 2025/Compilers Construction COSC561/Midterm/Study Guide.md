@@ -163,4 +163,5 @@ S --> SS --> (S)S --> ()S --> ()
 	2. Grammars provide the blueprint for building **parsers and compilers**, since parsing algorithms directly operate on grammar rules
 
 8. Give an example of syntactic checking and type checking.
-	1. 
+	1. int x = ;   // ❌ Syntax error: missing expression after '='
+	2. 
