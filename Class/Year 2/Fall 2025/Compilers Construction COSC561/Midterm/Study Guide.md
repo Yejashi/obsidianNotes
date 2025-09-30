@@ -39,6 +39,9 @@
 	- A' -> aA'|e
 - Basically identify what should be A, a, and B and do the replacement
 
+**General Algorithm**:
+- Enumerate non terminals
+
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
 
