@@ -24,6 +24,9 @@
 
 ### Minimizing DFA
 - Group your states into groups you know can be distinguished
+	- e.g set of states that accept and set of states that dont accept
+- Algorithm
+	- Lets try different string and see if we can distinguish
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
