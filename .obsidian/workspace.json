@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fa7f3b0f16676037",
+        "id": "b8da2475840037ca",
         "type": "tabs",
         "children": [
           {
-            "id": "429bf5d71e65bcd2",
+            "id": "e10548ebff532fc1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "bioinformatice_tb"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -76,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5026054382324
+    "width": 314.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -169,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,15 +186,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "e10548ebff532fc1",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/hw3.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
     "conflict-files-obsidian-git.md",
     "Class/Year 2/Fall 2025/Midterm/Study Guide.pdf",
     "Class/Year 2/Fall 2025/Midterm",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/hw3.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3",
     "Random Useful Resources/Creating a Virtual Display.md",
     "Random Useful Resources/Untitled",
@@ -204,7 +204,6 @@
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md",
     "Research/LLVM/Intermediate Representation (IR)/Instruction Types",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/hw1.pdf",
-    "Untitled 2.base",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Compiler Structure.md",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Overview of Translation.md",
     "Research/Compilers/Books/Engineering a Compiler/Waypoint.md",
