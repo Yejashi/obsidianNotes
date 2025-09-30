@@ -152,8 +152,8 @@ S --> SS --> (S)S --> ()S --> ()
 
 5. Explain assemblers, linkers, loaders
 	1. Assembler: Translates **assembly language** (low-level human-readable code) into **machine code** (object code).
-	2. Combines multiple object files and libraries into a **single executable**. Resolves symbol references
-	3. Part of the operating system that **loads the executable into memory** for execution. Sets up memory addresses, initializes registers, and hands control to the program’s start point.
+	2. Linker: Combines multiple object files and libraries into a **single executable**. Resolves symbol references
+	3. Loader: Part of the operating system that **loads the executable into memory** for execution. Sets up memory addresses, initializes registers, and hands control to the program’s start point.
 
 6. Explain recursive-decent parsing.
 	1. Recursive-descent parsing is a **top-down parsing technique** where the parser consists of a set of mutually recursive procedures (or functions), one for each nonterminal in the grammar.
