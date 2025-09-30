@@ -67,7 +67,7 @@ It predicts which production rule to apply using a lookahead of some number of i
 
 - FOLLOW(a): Set of terminals that can immediately follow A in a sentenial form.
 	![[Pasted image 20250930052803.png]]
-
+	![[Pasted image 20250930053022.png]]
 
 ### Study Guide
 ![[Pasted image 20250929190113.png]]
