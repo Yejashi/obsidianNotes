@@ -155,4 +155,5 @@ S --> SS --> (S)S --> ()S --> ()
 	2. Combines multiple object files and libraries into a **single executable**. Resolves symbol references
 	3. Part of the operating system that **loads the executable into memory** for execution. Sets up memory addresses, initializes registers, and hands control to the program’s start point.
 
-6. 
+6. Explain recursive-decent parsing.
+	1. 
