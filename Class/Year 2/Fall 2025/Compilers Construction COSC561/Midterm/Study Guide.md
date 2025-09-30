@@ -157,3 +157,5 @@ S --> SS --> (S)S --> ()S --> ()
 
 6. Explain recursive-decent parsing.
 	1. Recursive-descent parsing is a **top-down parsing technique** where the parser consists of a set of mutually recursive procedures (or functions), one for each nonterminal in the grammar.
+
+7. 
