@@ -130,3 +130,10 @@ S --> SS --> (S)S --> ()S --> ()
 ![[Pasted image 20250930044153.png]]
 
 
+#### Short Answers
+1. What is a compiler?
+	- A compiler is a translator program that reads a program written in a source language and translates it to an equivalent program written in a target language.
+
+2. Explain the difference between a compiler and an interpreter. Give one example of interpreted language and compiled language
+	- 
+
