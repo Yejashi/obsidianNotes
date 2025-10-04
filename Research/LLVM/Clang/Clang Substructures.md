@@ -57,3 +57,5 @@ Due to the complexity of programming language standards and the scale of real- w
 For example, resolving included files becomes tricky when you have 10+ layers of a header file hierarchy, which is common in large-scale projects
 
 Solving these challenges requires close cooperation between the preprocessor and the lexer, which provides primitives for all the preprocessing actions
+
+Their source code can be found under clang/lib/Lex. 
