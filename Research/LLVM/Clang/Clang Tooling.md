@@ -61,3 +61,4 @@ int main(int argc, char** argv) {
 
 As shown in the previous code, you can't just embed this code into any code base. libTooling also provides lots of nice utilities, such as CommonOptionsParser, which parses textual command-line options and transforms them into Clang options for you.
 
+#### Clang Tools
