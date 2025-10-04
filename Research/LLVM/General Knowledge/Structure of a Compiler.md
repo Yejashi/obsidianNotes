@@ -21,6 +21,10 @@ Let’s have a look at the grammar of the calc language:
 ```
 calc : ("with" ident ("," ident)* ":")? expr ;
 expr : term (( "+" | "-" ) term)* ;
+term : factor (( "*" | "/") factor)* ;
+factor : ident | number | "(" expr ")" ;
+ident : ([a-zAZ])+ ;
+number : ([0-9])+ ;
 ```
 
 
