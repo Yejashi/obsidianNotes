@@ -18,4 +18,7 @@ $ clang++ -### -std=c++11 -Wall ./hello_world.cpp -o
 hello_world
 ```
 
-The following is part of the output after running the preceding command on a macOS computer:
+The following is part of the output after running the preceding command:
+```
+
+```
