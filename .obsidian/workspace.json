@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Clang/Untitled.md",
+                "file": "Research/LLVM/Clang/Pass Manager and Analysis Manager.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Pass Manager and Analysis Manager"
             }
           }
         ]
@@ -192,7 +192,7 @@
   "active": "30b0f2fa8c63ee3c",
   "lastOpenFiles": [
     "Research/LLVM/Clang/Preprocessor.md",
-    "Research/LLVM/Clang/Untitled.md",
+    "Research/LLVM/Clang/Pass Manager and Analysis Manager.md",
     "Meta/Attachments/Pasted image 20251004163931.png",
     "Research/LLVM/Clang/Clang Tooling.md",
     "Research/LLVM/Clang/Clang Substructures.md",
