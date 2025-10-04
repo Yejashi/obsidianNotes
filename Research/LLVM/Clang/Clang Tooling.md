@@ -22,4 +22,5 @@ This explains why it's so important for tooling or extension development – we'
 To give you a feel for the FrontendAction module, here are some of its important APIs:
 - `FrontendAction::BeginSourceFileAction(…)/EndSourceFileAction(...)`:
 	- These are callbacks that derived classes can override to perform actions right before processing a source file and once it has been processed, respectively.
-- 
+- `FrontendAction::ExecuteAction(…)`:
+	- 
