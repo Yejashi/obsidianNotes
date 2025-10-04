@@ -46,4 +46,4 @@ The roles and primary actions performed by Clang's preprocessor and lexer, repre
 
 ![[Pasted image 20251004163931.png]]
 
-
+A **token** is 
