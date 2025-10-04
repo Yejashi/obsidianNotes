@@ -100,4 +100,4 @@ ParmVar 0x560f392e1280 'c' 'int'
 
 This command is pretty useful because it tells you the C++ AST class that represents certain language directives, which is crucial for writing AST callbacks – the core of many Clang plugins. 
 
-For example, from the previous lines, we can know that a variable reference site (c in the c + 1 expression) is represented by the DeclRefExpr class.
+For example, from the previous lines, we can know that a variable reference site (`c` in the c + 1 expression) is represented by the DeclRefExpr class.
