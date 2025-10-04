@@ -42,3 +42,4 @@ The Line and Column variables in the preceding code snippet are the line and col
 You might wonder why we are using the term `spellingLineNumber` instead of just `LineNumber` in the preceding code snippet. It turns out that in the cases of macro expansion (or any expansion happening during preprocessing), Clang keeps track of the macro content's `SourceLocation` instance before and after the expansion.
 
 ### Preprocessor and Lexer Essentials
+The roles and primary actions performed by Clang's preprocessor and lexer, represented by the Preprocessor and Lexer classes respectively, are illustrated in the following diagram:
