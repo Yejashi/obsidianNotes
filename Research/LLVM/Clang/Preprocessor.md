@@ -130,5 +130,8 @@ Now, let's see the API to retrieve the token kind. The **Token** class provides 
 **getKind** function to retrieve its token kind, as illustrated in the following code
 snippet:
 ```
-
+bool IsReturn(Token Tok) {
+   return Tok.getKind() == tok::kw_return;
+}
 ```
+
