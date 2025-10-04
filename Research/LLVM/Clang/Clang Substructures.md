@@ -80,5 +80,18 @@ int foo(int c) { return c + 1; }
 
 This will yield the following output:
 ```
+TranslationUnitDecl 0x560f3929f5a8 <<invalid sloc>> <invalid
+sloc>
+|…
+`-FunctionDecl 0x560f392e1350 <./test.c:2:1, col:30> col:5
+foo 'int (int)'
+|-ParmVarDecl 0x560f392e1280 <col:9, col:13> col:13 used c
+'int'
+`-CompoundStmt 0x560f392e14c8 <col:16, col:30>
+`-ReturnStmt 0x560f392e14b8 <col:17, col:28>
+`-BinaryOperator 0x560f392e1498 <col:24, col:28> 'int'
+'+'
+|-ImplicitCastExpr 0x560f392e1480 <col:24> 'int'
+<LValueToRValue>
 
 ```
