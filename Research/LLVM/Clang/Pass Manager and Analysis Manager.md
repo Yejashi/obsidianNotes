@@ -31,3 +31,4 @@ Furthermore, to achieve maximum efficiency, LLVM also caches this analysis data 
 
 However, since a transformation Pass might change the IR, some cached analysis data, which was previously collected, might be outdated after running that Pass
 
+ To solve these challenges, in addition to PassManager, LLVM has also created AnalysisManager to manage everything related to program analysis.
