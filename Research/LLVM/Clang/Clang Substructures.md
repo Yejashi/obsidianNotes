@@ -68,3 +68,7 @@ Here, the Sema sub-system performs more semantic checking and analysis from the 
 #### AST
 The AST is the most important primitive when it comes to extending Clang with your custom logic
 
+All the common Clang extensions/plugins that we will introduce operate on an AST. To get a taste of AST, you can use the following command to print out the an AST from the source code:
+```
+
+```
