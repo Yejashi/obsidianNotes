@@ -115,4 +115,5 @@ eof '' Loc=<foo.cc:5:18>
 
 The leftmost bits parts are the token kinds for each token. The full list of token kinds can be found in `clang/include/clang/Basic/TokenKinds.def`.
 
+Although we can't visualize the virtual tokens—or annotation tokens, as they are called in Clang's code base—we will still explain these using the same example as before.
 
