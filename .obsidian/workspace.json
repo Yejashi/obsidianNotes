@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -190,7 +191,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d18aa2dedfd56615",
+  "active": "30b0f2fa8c63ee3c",
   "lastOpenFiles": [
     "Meta/Attachments/Pasted image 20251004123121.png",
     "Research/LLVM/Clang/Clang Substructures.md",
