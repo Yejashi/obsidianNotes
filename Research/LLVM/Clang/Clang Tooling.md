@@ -45,3 +45,5 @@ Unfortunately, for now, Clang (and also the whole LLVM project) has no intention
 
 You can use it like a normal library in your project, without having any dependencies on the clang executable. Also, the APIs are designed to be more high-level so that you don't need to deal with many of Clang's internal details, making it more friendly to non-Clang developers.
 
+A **Language server** is one of the most famous use cases of libTooling. A Language server is launched as a daemon process and accepts requests from editors or IDEs.
+
