@@ -11,3 +11,5 @@ LLVM also consists of multiple Passes that are executed in sequential order, cal
 
 In the preceding diagram, multiple Passes are arranged in a straight line. The LLVM IR for the foo function is processed by one Pass after another.
 
+Pass B, for instance, performs code optimization on foo and replaces an arithmetic multiplication (mul) by 2 with left shifting (shl) by 1, which is considered easier than multiplication in most hardware architectures.
+
