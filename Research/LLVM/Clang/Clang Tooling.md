@@ -10,4 +10,4 @@ Many of these important components are encapsulated by a single data type, calle
 
 A **FrontendAction** instance can be treated as a single task running inside the frontend.
 
-
+ It provides a unified interface for the task to consume and interact with various resources, such as input source files and ASTs, which is similar to the role of an **LLVM Pass** from this perspective (an LLVM Pass provides a unified interface to process LLVM IR).
