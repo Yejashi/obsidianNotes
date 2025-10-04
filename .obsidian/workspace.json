@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "92221fbbef9bfde5",
+        "id": "2496b84180ad5f5a",
         "type": "tabs",
         "children": [
           {
-            "id": "acc226df7e2e4401",
+            "id": "30b0f2fa8c63ee3c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/Study Guide.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Study Guide"
-            }
-          },
-          {
-            "id": "a49e73b7ab709e34",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "COSC461 Study Guide"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5026054382324,
-    "collapsed": true
+    "width": 314.5026054382324
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -202,10 +184,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf",
+    "Research/LLVM/Clang",
     "conflict-files-obsidian-git.md",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf",
     "Meta/Attachments/Pasted image 20250930071035.png",
     "Meta/Attachments/Pasted image 20250930053022.png",
     "Meta/Attachments/Pasted image 20250930052803.png",
