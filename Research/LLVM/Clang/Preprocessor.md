@@ -5,4 +5,5 @@ For example, the preprocessor will basically copy and paste contents of header f
 The `-E` command-line option for clang is pretty useful for printing textual content right after preprocessing
 
 ### Working with SourceLocation and SourceManager
+When working closely with source files, one of the most fundamental questions is how a compiler frontend would be able to locate a piece of string in the file.
 
