@@ -36,4 +36,6 @@ A plugin can be easily loaded into a normal clang by using simple command-line o
 $ clang -fplugin=/path/to/MyPlugin.so … foo.cpp
 ```
 
+However, the biggest downside of using the Clang plugin is its API issue. In theory, you can load and run your plugin in any clang executable, but only if the C++ APIs (and the ABI) are used by your plugin and the clang executable matches it.
+
 
