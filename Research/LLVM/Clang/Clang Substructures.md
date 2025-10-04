@@ -109,3 +109,4 @@ Though there are no prescriptions for how you should process the AST (for exampl
 ### LLVM, assemblers, and linkers
 Once the LLVM IR code has been emitted by the CodeGen subsystem, it will be processed by the LLVM compilation pipeline to generate native code, either assembly code or object code.
 
+LLVM provides a framework called the **MC layer**, in which architectures can choose to implement assemblers that have been directly integrated into LLVM's pipeline
