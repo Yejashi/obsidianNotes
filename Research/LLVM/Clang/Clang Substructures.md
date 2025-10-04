@@ -17,3 +17,5 @@ For example, you could try to compile a simple hello world program with that fla
 $ clang++ -### -std=c++11 -Wall ./hello_world.cpp -o
 hello_world
 ```
+
+The following is part of the output after running the preceding command on a macOS computer:
