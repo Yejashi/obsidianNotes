@@ -23,4 +23,4 @@ To give you a feel for the FrontendAction module, here are some of its important
 - `FrontendAction::BeginSourceFileAction(…)/EndSourceFileAction(...)`:
 	- These are callbacks that derived classes can override to perform actions right before processing a source file and once it has been processed, respectively.
 - `FrontendAction::ExecuteAction(…)`:
-	- 
+	- This callback describes the main actions to do for this FrontendAction. 
