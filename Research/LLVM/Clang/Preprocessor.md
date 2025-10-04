@@ -15,3 +15,5 @@ On one hand, printing format messages well (compilation error and warning messag
 #### SourceLocation Class
 The **SourceLocation** class is used for representing the location of a piece of code in its file.
 
+When it comes to its implementation, using line and column numbers is probably the most intuitive way to do this. However, things might get complicated in real-world scenarios, such that internally, we can't naively use a pair of numbers as the in-memory representations for source code locations
+
