@@ -118,3 +118,5 @@ Using external assemblers or linkers means invoking a separate process to run th
 
 For example, to run an external assembler, the frontend needs to put assembly code into a temporary file before launching the assembler with that file path as one of its command-line arguments. 
 
+On the other hand, using integrated assemblers/linkers means the functionalities of assembling or linking are packaged into libraries rather than an executable. So, at the end of the compilation pipeline, LLVM will call APIs to process the assembly code's in-memory instances to emit object code. 
+
