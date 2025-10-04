@@ -25,4 +25,5 @@ To give you a feel for the FrontendAction module, here are some of its important
 - `FrontendAction::ExecuteAction(…)`:
 	- This callback describes the main actions to do for this FrontendAction. 
 	-  Note that while no one stops you from overriding this method directly, many of FrontendAction's derived classes already provide simpler interfaces to describe some common tasks. For example, if you want to process an AST, you should inherit from ASTFrontendAction instead and leverage its infrastructures.
-- 
+- `FrontendAction::CreateASTConsumer(…)`:
+	- 
