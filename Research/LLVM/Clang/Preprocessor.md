@@ -88,5 +88,9 @@ $ clang -fsyntax-only -Xclang -dump-tokens foo.cc
 
 `foo.c` has the following content:
 ```
-
+namespace foo {
+   class MyClass {};
+}
+foo::MyClass Obj;
 ```
+
