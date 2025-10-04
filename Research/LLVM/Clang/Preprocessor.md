@@ -54,5 +54,6 @@ Implementation-wise, Clang takes a slightly different path from traditional comp
 
 However,  Lexer keeps its hands off whenever encountering a preprocessor directive (that is, anything that starts with a #) or a symbol, and relays that task to either the macro expansion, the header file resolver, or pragma handlers that are organized by the **Preprocessor**. 
 
+These assisting components inject extra tokens, if needed, into the main token stream, which would eventually be returned back to the user of Preprocessor.
 
 
