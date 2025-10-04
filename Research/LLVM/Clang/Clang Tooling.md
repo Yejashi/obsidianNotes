@@ -66,6 +66,15 @@ Last but not least, Clang Tools is a collection of utility programs build on top
 
 For example, you can use **clang-refactor** to refactor the code. This includes renaming a variable, as shown in the following code:
 ```
-
+// In foo.cpp…
+struct Location {
+   float Lat, Lng;
+};
+float foo(Location *loc) {
+   auto Lat = loc->Lat + 1.0;
+   return Lat;
+}
 ```
+
+
 
