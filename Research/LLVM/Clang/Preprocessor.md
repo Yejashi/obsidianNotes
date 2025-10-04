@@ -79,6 +79,7 @@ For the Token class, there are two things we want to highlight here, as follows:
 2. **Identifier** represents both language keywords and arbitrary frontend tokens (a function name, for example). Clang's preprocessor used a dedicated **IdentifierInfo** class to carry extra identifier information.
 
 #### Token kind
+The token kind tells you what this Token is. Clang's Token is designed to represent not just concrete, physical-language constructions such as keywords and symbols, but also virtual concepts that are inserted by the parser in order to encode as much information as possible using a single Token.
 
 
 
