@@ -56,3 +56,4 @@ Due to the complexity of programming language standards and the scale of real- w
 
 For example, resolving included files becomes tricky when you have 10+ layers of a header file hierarchy, which is common in large-scale projects
 
+Advanced directives such as #pragma can be challenged in cases where OpenMP uses #pragma to parallelize for loops

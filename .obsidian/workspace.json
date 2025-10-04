@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ford",
+                "query": "tag:#pragma",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,12 +74,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -190,7 +190,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "30b0f2fa8c63ee3c",
+  "active": "d18aa2dedfd56615",
   "lastOpenFiles": [
     "Meta/Attachments/Pasted image 20251004123121.png",
     "Research/LLVM/Clang/Clang Substructures.md",
