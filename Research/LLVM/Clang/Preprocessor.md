@@ -48,5 +48,6 @@ The roles and primary actions performed by Clang's preprocessor and lexer, repre
 
 A **token** is a substring from the original source code that acts as the minimum building block for semantic reasoning.
 
+ In some of the traditional compilers, the lexer is responsible for chopping the input source code into a sequence of tokens or a token stream, as shown in the preceding diagram.
 
 
