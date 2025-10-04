@@ -106,4 +106,5 @@ For example, from the previous lines, we can know that a variable reference site
 
 Though there are no prescriptions for how you should process the AST (for example, if you use the `-ast-dump` command-line option shown previously, the frontend will print the textual AST representation), the most common task that's performed by the CodeGen subsystem is emitting the LLVM IR code, which will later be compiled into native assembly or object code by LLVM.
 
-### 
+### LLVM, assemblers, and linkers
+
