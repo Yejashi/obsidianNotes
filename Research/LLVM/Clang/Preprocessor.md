@@ -60,3 +60,7 @@ In other words, most consumers of the token stream don't directly interact with 
 
 This makes people call the Lexer class a raw lexer (as shown in the previous diagram), since Lexer by itself only generates a token stream that hasn't been preprocessed.
 
+To give you a more concrete idea of how to use Preprocessor to retrieve a token (stream), the following simple code snippet has been provided. This shows a way to get the next token from the source code currently processing it:
+```
+
+```
