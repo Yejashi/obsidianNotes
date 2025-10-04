@@ -62,5 +62,7 @@ int main(int argc, char** argv) {
 As shown in the previous code, you can't just embed this code into any code base. libTooling also provides lots of nice utilities, such as CommonOptionsParser, which parses textual command-line options and transforms them into Clang options for you.
 
 #### Clang Tools
-Last but not least, Clang Tools is a collection of utility programs build on top of libTooling. You can think of it as the command-line tool version of libTooling in that it provides some common functionalities
+Last but not least, Clang Tools is a collection of utility programs build on top of libTooling. You can think of it as the command-line tool version of libTooling in that it provides some common functionalities.
+
+
 
