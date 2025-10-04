@@ -17,3 +17,6 @@ The elements of a language, for example, keywords, identifiers, strings, numbers
 
 Usually, grammar is written in the extended **Backus-Naur form (EBNF)**. A rule in grammar has a left and a right side. The left side is just a single symbol called **non-terminal**. The right side of a rule consists of **non-terminals**, tokens, and meta-symbols for alternatives and repetitions.
 
+Let’s have a look at the grammar of the calc language:
+``
+
