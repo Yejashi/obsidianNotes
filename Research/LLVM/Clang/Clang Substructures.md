@@ -44,4 +44,5 @@ fdiagnostics-show-option" "-fcolor-diagnostics" "-o"
 
 These are essentially the flags being passed to the real Clang frontend after the driver's translation.
 
-The source code for the driver can be found under clang/lib/Driver.
+The source code for the driver can be found under `clang/lib/Driver`.
+
