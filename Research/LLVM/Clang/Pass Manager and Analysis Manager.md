@@ -21,3 +21,5 @@ Passes for code generation have a different API than normal LLVM IR Passes.
 Additionally, during the code generation phase, LLVM IR is actually converted into another kind of IR, called Machine IR (MIR).
 
 #### Pass Pipeline
+The Pass pipeline is conceptually managed by an infrastructure called `PassManager`.
+
