@@ -23,3 +23,5 @@ Additionally, during the code generation phase, LLVM IR is actually converted in
 #### Pass Pipeline
 The Pass pipeline is conceptually managed by an infrastructure called `PassManager`.
 
+PassManager owns the plan – their execution order, for example – to run these Passes. Conventionally, we actually use the terms Pass pipeline and PassManager interchangeably since they have nearly identical missions.
+
