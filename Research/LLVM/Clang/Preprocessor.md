@@ -43,3 +43,7 @@ You might wonder why we are using the term `spellingLineNumber` instead of just 
 
 ### Preprocessor and Lexer Essentials
 The roles and primary actions performed by Clang's preprocessor and lexer, represented by the Preprocessor and Lexer classes respectively, are illustrated in the following diagram:
+
+![[Pasted image 20251004163931.png]]
+
+
