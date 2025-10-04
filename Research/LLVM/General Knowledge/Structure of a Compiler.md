@@ -4,5 +4,8 @@ Compiler technology is a well-studied field of computer science. The high-level 
 At a high level, there are three components. The **frontend** turns the source code into an intermediate representation (IR). Then the **middle end** performs transformations on the IR, with the goal of either improving performance or reducing the size of the code. Finally, the **backend** produces machine code from the IR.
 
 ### An arithmetic expression language
-Arithmetic expressions are a part of every programming language. Here is an example of an arithmetic
-expression calculation language called calc. The calc expressions are compiled into an application that evaluates the following expression:
+Arithmetic expressions are a part of every programming language. Here is an example of an arithmetic expression calculation language called calc. The calc expressions are compiled into an application that evaluates the following expression:
+```
+with a, b: a * (4 + b)
+```
+
