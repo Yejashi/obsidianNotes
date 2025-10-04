@@ -19,3 +19,4 @@ However, there are some significant differences with an LLVM Pass:
 
 Generally speaking, a FrontendAction describes the task to be done at one or two important places in the frontend.
 
+ This explains why it's so important for tooling or extension development – we're basically building our logic into a FrontendAction (one of FrontendAction's derived classes, to be more precise) instance to control and customize the behavior of a normal Clang compilation.
