@@ -1,1 +1,2 @@
-There are currently three kinds of tooling and extension options available in Clang: **Clang plugins**, **libTooling**, and Clang Tools.
+There are currently three kinds of tooling and extension options available in Clang: **Clang plugins**, **libTooling**, and **Clang Tools**.
+
