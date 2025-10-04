@@ -93,5 +93,8 @@ foo 'int (int)'
 '+'
 |-ImplicitCastExpr 0x560f392e1480 <col:24> 'int'
 <LValueToRValue>
-
+| `-DeclRefExpr 0x560f392e1440 <col:24> 'int' lvalue
+ParmVar 0x560f392e1280 'c' 'int'
+`-IntegerLiteral 0x560f392e1460 <col:28> 'int' 1
 ```
+
