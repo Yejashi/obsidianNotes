@@ -25,3 +25,5 @@ The Pass pipeline is conceptually managed by an infrastructure called `PassManag
 
 PassManager owns the plan – their execution order, for example – to run these Passes. Conventionally, we actually use the terms Pass pipeline and PassManager interchangeably since they have nearly identical missions.
 
+Code transformations in modern compilers can be complex. Because of this, multiple transformation Passes might need the same set of program information, which is called analysis in LLVM, in order to do their work. 
+
