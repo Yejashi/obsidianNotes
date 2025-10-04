@@ -28,4 +28,7 @@ Since SourceLocation is merely a pointer, it will only be meaningful and useful 
 #### SourceManager Class
 The SourceManager class manages all of the source files stored inside the memory and provides interfaces to access them.
 
+It also provides APIs to deal with source code locations, via SourceLocation instances we just introduced. For example, to get the line and column number from a SourceLocation instance, run the following code:
+```
 
+```
