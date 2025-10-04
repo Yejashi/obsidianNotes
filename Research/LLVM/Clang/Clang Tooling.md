@@ -40,3 +40,4 @@ However, the biggest downside of using the Clang plugin is its API issue. In the
 
 Unfortunately, for now, Clang (and also the whole LLVM project) has no intention to make any of its C++ APIs stable. In other words, to take the safest path, you need to make sure both your plugin and clang are using the exact same (major) version of LLVM.
 
+### LibTooling and Clang Tools
