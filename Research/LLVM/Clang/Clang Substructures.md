@@ -73,3 +73,12 @@ All the common Clang extensions/plugins that we will introduce operate on an AST
 $ clang -Xclang -ast-dump -fsyntax-only foo.c
 ```
 
+For example, on my computer, I have used the following simple code, which only contains one function:
+```
+int foo(int c) { return c + 1; }
+```
+
+This will yield the following output:
+```
+
+```
