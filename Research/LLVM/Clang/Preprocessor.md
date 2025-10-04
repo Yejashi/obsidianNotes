@@ -94,3 +94,7 @@ namespace foo {
 foo::MyClass Obj;
 ```
 
+This is the output of the preceding command:
+```
+
+```
