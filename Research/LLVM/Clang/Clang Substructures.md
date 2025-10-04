@@ -14,4 +14,6 @@ A good way to observe the hard work of a driver is to use the -### command-line 
 
 For example, you could try to compile a simple hello world program with that flag:
 ```
+$ clang++ -### -std=c++11 -Wall ./hello_world.cpp -o
+hello_world
 ```
