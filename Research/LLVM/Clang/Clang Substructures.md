@@ -60,9 +60,11 @@ Solving these challenges requires close cooperation between the preprocessor and
 
 Their source code can be found under `clang/lib/Lex`. 
 
-### Parser and Sema
+#### Parser and Sema
 
 Clang's parser consumes token streams from the preprocessor and lexer and tries to realize their semantic structures
 
 Here, the Sema sub-system performs more semantic checking and analysis from the parser's result before generating the AST. 
+
+#### AST
 
