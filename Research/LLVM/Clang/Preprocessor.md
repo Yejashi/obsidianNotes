@@ -56,4 +56,6 @@ However,  Lexer keeps its hands off whenever encountering a preprocessor directi
 
 These assisting components inject extra tokens, if needed, into the main token stream, which would eventually be returned back to the user of Preprocessor.
 
+In other words, most consumers of the token stream don't directly interact with Lexer, but with the Preprocessor instances
+
 
