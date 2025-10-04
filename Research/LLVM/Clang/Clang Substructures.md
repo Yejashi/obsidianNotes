@@ -52,3 +52,6 @@ A typical compiler textbook might tell you that a compiler frontend consists of 
 First, the **lexer** is usually coupled with the preprocessor, and the semantic analysis that's performed on the source code is detached into a separate subsystem, called the **Sema**. This builds an AST and does all kinds of semantic checking.
 
 #### Lexer and Preprocessor
+Due to the complexity of programming language standards and the scale of real- world source code, preprocessing becomes non-trivial
+
+
