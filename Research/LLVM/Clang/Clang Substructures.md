@@ -50,3 +50,5 @@ The source code for the driver can be found under `clang/lib/Driver`.
 A typical compiler textbook might tell you that a compiler frontend consists of a **lexer** and a **parser**, which generates an **abstract syntax tree (AST)**. Clang's frontend also uses this skeleton, but with some major differences. 
 
 First, the **lexer** is usually coupled with the preprocessor, and the semantic analysis that's performed on the source code is detached into a separate subsystem, called the **Sema**. This builds an AST and does all kinds of semantic checking.
+
+#### Lexer and Preprocessor
