@@ -54,4 +54,5 @@ First, the **lexer** is usually coupled with the preprocessor, and the semantic 
 #### Lexer and Preprocessor
 Due to the complexity of programming language standards and the scale of real- world source code, preprocessing becomes non-trivial
 
+For example, resolving included files becomes tricky when you have 10+ layers of a header file hierarchy, which is common in large-scale projects
 
