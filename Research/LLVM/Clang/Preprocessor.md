@@ -69,4 +69,7 @@ Token GetNextToken(Preprocessor &PP) {
 }
 ```
 
+Token here is the class representing a single token in Clang.
+
+#### Understanding Token
 
