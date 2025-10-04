@@ -125,3 +125,10 @@ int* foo(int N) {
  ```
 
 To make the parsing processing more efficient, the parser will first try to resolve whether the **coloncolon** token is a scope resolution or not. If it is, the token will be replaced by an **annot_cxxscope** annotation token.
+
+Now, let's see the API to retrieve the token kind. The **Token** class provides a
+**getKind** function to retrieve its token kind, as illustrated in the following code
+snippet:
+```
+
+```
