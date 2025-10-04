@@ -3,4 +3,6 @@
 ### Driver
 A common misunderstanding is that clang, the executable, is the compiler frontend. While clang does use Clang's frontend components, the executable itself is actually a kind of program called a compiler driver, or driver for short.
 
-
+Compiling source code is a complex process. First, it consists of multiple phases, including the following:
+- Frontend: Parsing and semantic checking
+- 
