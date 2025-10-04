@@ -42,3 +42,6 @@ Unfortunately, for now, Clang (and also the whole LLVM project) has no intention
 
 ### LibTooling and Clang Tools
 **LibTooling** is a library that provides features for building standalone tools on top of Clang's techniques.
+
+You can use it like a normal library in your project, without having any dependencies on the clang executable. Also, the APIs are designed to be more high-level so that you don't need to deal with many of Clang's internal details, making it more friendly to non-Clang developers.
+
