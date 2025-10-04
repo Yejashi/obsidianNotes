@@ -124,3 +124,4 @@ int* foo(int N) {
 }
  ```
 
+To make the parsing processing more efficient, the parser will first try to resolve whether the **coloncolon** token is a scope resolution or not. If it is, the token will be replaced by an **annot_cxxscope** annotation token.
