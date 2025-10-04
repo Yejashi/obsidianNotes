@@ -60,8 +60,19 @@ It predicts which production rule to apply using a lookahead of some number of i
 ![[Pasted image 20250930044057.png]]
 
 ![[Pasted image 20250930044038.png]]
-### Study Guide
-![[Pasted image 20250929190113.png]]
+
+**How is a predictive parsing table created?**
+- FIRST(a):  set of terminals that begins strings derived from a. if a is epsilon or generates epsilon, then epsilon is also in FIRST(a)
+	![[Pasted image 20250930052505.png]]
+	 TLDR: set of terminals that can appear **first** in some string derived from α
+- FOLLOW(a): Set of terminals that can immediately follow A in a sentenial form. 
+	- ![[Pasted image 20250930052803.png]] 
+	  TLDR: set of terminals that can appear immediately to the right of A in some sentential form 
+	  Steps:
+		- For FOLLOW(X) look where X is in the right hand side then follow the rules.
+	 ![[Pasted image 20250930053022.png]] 
+- ![[Pasted image 20250930071035.png]]
+### Study Guide ![[Pasted image 20250929190113.png]]
 
 A grammar is considered ambiguous if you can derive the same string from it.
 
@@ -108,7 +119,8 @@ S --> SS --> (S)S --> ()S --> ()
 ![[Pasted image 20250930042351.png]]
 
 ![[Pasted image 20250930042440.png]]
-https://utk.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=253a5a65-d2ed-412f-8a11-b35c00e2acdb
+![[Pasted image 20250930051031.png]]
+
 
 
 ![[Pasted image 20250930044119.png]]
@@ -116,3 +128,60 @@ https://utk.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=253a5a65-d2ed-412f-8
 ![[Pasted image 20250930044137.png]]
 
 ![[Pasted image 20250930044153.png]]
+
+
+#### Short Answers
+1. What is a compiler?
+	- A compiler is a translator program that reads a program written in a source language and translates it to an equivalent program written in a target language.
+
+2. Explain the difference between a compiler and an interpreter. Give one example of interpreted language and compiled language
+	1. A compiler translates the entire source code into machine code (or intermediate code) in one go (C++)
+	2. An interpreter translates and executes the source code line-by-line (or statement-by-statement) at runtime (Python)
+
+3. Name and provide a one-line description of the six compiler phases
+	- **Lexical Analyzer (Scanner):** Breaks the source code into tokens (keywords, identifiers, operators, etc.).
+	- **Syntax Analyzer (Parser):** Checks the token stream against grammar rules to build a parse tree.
+	- **Semantic Analyzer:** Ensures correctness of meaning (type checking, scope resolution, etc.).
+	- **Intermediate Code Generator:** Translates the parse tree into an intermediate representation (IR) closer to machine code but still abstract.
+	- **Code Optimizer:** Improves the intermediate code for efficiency (speed, memory usage, etc.) without changing its behavior.
+	- **Code Generator:** Converts optimized IR into target machine code and generates the final executable.
+
+4. What is importance of intermediate code in compiler construction?
+	1. Intermediate code is important because it makes compilers **portable, modular, and optimization-friendl**.
+	2. Without IR, building a direct compiler for _m_ source languages and _n_ target machines would require _m × n_ translators, but with IR you only need _m + n_ (each language to IR, and IR to each machine).
+
+5. Explain assemblers, linkers, loaders
+	1. Assembler: Translates **assembly language** (low-level human-readable code) into **machine code** (object code).
+	2. Linker: Combines multiple object files and libraries into a **single executable**. Resolves symbol references
+	3. Loader: Part of the operating system that **loads the executable into memory** for execution. Sets up memory addresses, initializes registers, and hands control to the program’s start point.
+
+6. Explain recursive-decent parsing.
+	1. Recursive-descent parsing is a **top-down parsing technique** where the parser consists of a set of mutually recursive procedures (or functions), one for each nonterminal in the grammar.
+
+7. Why use grammars for language specification?
+	1. Grammars formally define the **syntax rules** of a language in a clear, mathematical way.
+	2. Grammars provide the blueprint for building **parsers and compilers**, since parsing algorithms directly operate on grammar rules
+
+8. Give an example of syntactic checking and type checking.
+	1. int x = ;   // ❌ Syntax error: missing expression after '='
+	2. int x = "hello";   // ❌ Type error: assigning a string to an int
+	   int y = 5 + "hi";  // ❌ Type error: cannot add int and string
+
+9. Describe the basic approach for implementing recursive-decent parsers
+	1. For each non terminal write a function that chooses a production using lookahead
+	2. Use a match helper that checks the lookahead type and consumes it if it matches
+
+10. What is precedence climbing? How does it work in a recursive descent parser?
+	1. MIn - > MAx
+
+11. How is bottom-up parsing different from top-down parsing?
+	1. Top down:
+		1. Starts from start symbol
+	2. Bottom up
+		1. Starts from input tokens
+
+12. Why is bottom-up parsing (with one symbol of lookahead) more powerful than top- down parsing (with one lookahead symbol)?
+	1. Bottom-up parsing with one lookahead (LR(1)) is more powerful than top-down with one lookahead (LL(1)) because LR(1) can handle a **larger class of grammars** (including left-recursive ones) and makes parsing decisions later, using more context, instead of having to predict too early
+	2. Top down
+		1. Have to eliminate left recursion
+		2. Have to left factor grammar
