@@ -113,3 +113,4 @@ LLVM provides a framework called the **MC layer**, in which architectures can ch
 
 Despite the fact that LLVM already has its own linker, known as the LLD project, an integrated linker is still not a mature option yet. Therefore, external linker programs are always invoked by the driver to link the object files and generate the final binary artifacts.
 
+#### EXTERNAL VERSUS INTEGRATED
