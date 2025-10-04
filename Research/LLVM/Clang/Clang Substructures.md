@@ -10,4 +10,8 @@ Compiling source code is a complex process. First, it consists of multiple phase
 - Assembling: Running the assemble
 - Linking: Running the linker
 
+A good way to observe the hard work of a driver is to use the -### command-line flag on a normal clang invocation.
 
+For example, you could try to compile a simple hello world program with that flag:
+```
+```
