@@ -5,4 +5,9 @@ A common misunderstanding is that clang, the executable, is the compiler fronten
 
 Compiling source code is a complex process. First, it consists of multiple phases, including the following:
 - Frontend: Parsing and semantic checking
-- 
+- Middle-end: Program analysis and optimization
+- Backend: Native code generation
+- Assembling: Running the assemble
+- Linking: Running the linker
+
+
