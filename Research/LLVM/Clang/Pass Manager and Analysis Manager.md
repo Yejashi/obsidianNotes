@@ -5,3 +5,4 @@ Compared to Clang's **Abstract Syntax Tree (AST)**, LLVM IR provides a different
 ### Writing an LLVM Pass with the new PassManager
 A Pass in LLVM is the basic unit that is required to perform certain actions against LLVM IR.
 
+LLVM also consists of multiple Passes that are executed in sequential order, called the Pass pipeline. Figure 9.1 shows an example of the Pass pipeline:
