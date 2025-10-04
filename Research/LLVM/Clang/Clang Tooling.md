@@ -17,3 +17,5 @@ However, there are some significant differences with an LLVM Pass:
 - Not all of the frontend components are encapsulated into a **FrontendAction**, such as the parser and Sema. They are standalone components that generate materials (for example, the AST) for other FrontendActions to run.
 - Except for a few scenarios (the Clang plugin is one of them), a Clang compilation instance rarely runs multiple FrontendActions. Normally, only one FrontendAction will be executed.
 
+Generally speaking, a FrontendAction describes the task to be done at one or two important places in the frontend.
+
