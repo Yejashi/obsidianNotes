@@ -25,3 +25,4 @@ Clang solves this problem by using the elegantly designed SourceLocation as the 
 
 Since SourceLocation is merely a pointer, it will only be meaningful and useful when put side by side with the data buffer we just mentioned, which is managed by the second main character in this story, **SourceManager**.
 
+#### SourceManager Class
