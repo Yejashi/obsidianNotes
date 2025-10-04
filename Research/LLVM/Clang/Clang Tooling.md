@@ -31,4 +31,7 @@ To give you a feel for the FrontendAction module, here are some of its important
 ### Clang Plugins
 A Clang plugin allows you to dynamically register a new **FrontendAction** (more specifically, an ASTFrontendAction) **that** can process the AST either before or after, or even replace, the main action of **clang**.
 
-
+A plugin can be easily loaded into a normal clang by using simple command-line options:
+```
+$ clang -fplugin=/path/to/MyPlugin.so … foo.cpp
+```
