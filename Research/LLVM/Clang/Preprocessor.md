@@ -23,3 +23,5 @@ Therefore, it's important to use a concise way to store its information rather t
 
 Clang solves this problem by using the elegantly designed SourceLocation as the pointer (or a handle) to a large data buffer that stores all the real source code contents such that SourceLocation only uses a single unsigned integer under the hood, which also means its instances are trivially copyable—a property that can yield some performance benefits.
 
+Since SourceLocation is merely a pointer, it will only be meaningful and useful when put side by side with the data buffer we just mentioned, which is managed by the second main character in this story, **SourceManager**.
+
