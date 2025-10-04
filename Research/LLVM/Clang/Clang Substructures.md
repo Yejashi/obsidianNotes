@@ -64,3 +64,5 @@ Their source code can be found under `clang/lib/Lex`.
 
 Clang's parser consumes token streams from the preprocessor and lexer and tries to realize their semantic structures
 
+Here, the Sema sub-system performs more semantic checking and analysis from the parser's result before generating the AST. 
+
