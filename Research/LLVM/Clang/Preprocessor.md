@@ -21,3 +21,5 @@ One of the main reasons is that SourceLocation instances are extensively used in
 
 Therefore, it's important to use a concise way to store its information rather than two 32-bit integers (and this might not even be sufficient since we also want to know the origin file!), which can easily bloat Clang's runtime-memory footprint.
 
+Clang solves this problem by using the elegantly designed SourceLocation as the pointer (or a handle) to a large data buffer that stores all the real source code contents such that SourceLocation only uses a single unsigned integer under the hood, which also means its instances are trivially copyable—a property that can yield some performance benefits.
+
