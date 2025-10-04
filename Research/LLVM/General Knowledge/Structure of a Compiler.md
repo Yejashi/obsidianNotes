@@ -15,4 +15,4 @@ The used variables in the expression must be declared with the keyword, with. Th
 
 The elements of a language, for example, keywords, identifiers, strings, numbers, and operators, are called **tokens**. In this sense, a program is a sequence of tokens, and the grammar specifies which sequences are valid.
 
-Usually, grammar is written in the extended **Backus-Naur form (EBNF)**. A rule in grammar has a left and a right side. The left side is just a single symbol called non-terminal.
+Usually, grammar is written in the extended **Backus-Naur form (EBNF)**. A rule in grammar has a left and a right side. The left side is just a single symbol called **non-terminal**. The right side of a rule consists of non-terminals, tokens, and meta-symbols for alternatives and repetitions.
