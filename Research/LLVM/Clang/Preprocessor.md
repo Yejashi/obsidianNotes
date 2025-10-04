@@ -7,4 +7,9 @@ The `-E` command-line option for clang is pretty useful for printing textual con
 ### Working with SourceLocation and SourceManager
 When working closely with source files, one of the most fundamental questions is how a compiler frontend would be able to locate a piece of string in the file.
 
- On one hand, printing format messages well (compilation error and warning messages, for example) is a crucial job, in which accurate line and column numbers must be displayed. On the other hand, the frontend might need to manage multiple files at a time and access their in-memory content in an efficient way
+On one hand, printing format messages well (compilation error and warning messages, for example) is a crucial job, in which accurate line and column numbers must be displayed. On the other hand, the frontend might need to manage multiple files at a time and access their in-memory content in an efficient way
+
+ In Clang, these questions are primarily handled by two classes: `SourceLocation` and
+`SourceManager`. 
+
+#### SourceLocation Class
