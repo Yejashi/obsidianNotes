@@ -29,4 +29,5 @@ Code transformations in modern compilers can be complex. Because of this, multip
 
 Furthermore, to achieve maximum efficiency, LLVM also caches this analysis data so that it can be reused if possible. 
 
+However, since a transformation Pass might change the IR, some cached analysis data, which was previously collected, might be outdated after running that Pass
 
