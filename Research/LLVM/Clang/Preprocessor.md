@@ -72,4 +72,6 @@ Token GetNextToken(Preprocessor &PP) {
 Token here is the class representing a single token in Clang.
 
 #### Understanding Token
+The Token class is the representation of a single token, either from the source code or a virtual one that served a special purpose
+
 
