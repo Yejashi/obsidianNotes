@@ -37,4 +37,5 @@ void foo(SourceManager &SM, SourceLocation SLoc) {
 }
 ```
 
+The Line and Column variables in the preceding code snippet are the line and column number of the source location pointed by SLoc, respectively.
 
