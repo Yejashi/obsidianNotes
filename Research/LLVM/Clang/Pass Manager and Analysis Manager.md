@@ -27,3 +27,6 @@ PassManager owns the plan – their execution order, for example – to run thes
 
 Code transformations in modern compilers can be complex. Because of this, multiple transformation Passes might need the same set of program information, which is called analysis in LLVM, in order to do their work. 
 
+Furthermore, to achieve maximum efficiency, LLVM also caches this analysis data so that it can be reused if possible. 
+
+
