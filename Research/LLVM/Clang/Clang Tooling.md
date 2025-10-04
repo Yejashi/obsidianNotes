@@ -28,5 +28,6 @@ To give you a feel for the FrontendAction module, here are some of its important
 - `FrontendAction::CreateASTConsumer(…)`:
 	- This is a factory function that's used to create an **ASTConsumer** instance, which is a group of callbacks that will be invoked by the frontend when it's traversing different parts of the AST (for example, a callback to be called when the frontend encounters a group of declarations).
 
-### Clang plugins
+### Clang Plugins
+
 
