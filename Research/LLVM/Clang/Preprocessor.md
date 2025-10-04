@@ -83,6 +83,10 @@ The token kind tells you what this Token is. Clang's Token is designed to repres
 
 To visualize the token stream's token kinds, you can use the following command-line option:
 ```
-
+$ clang -fsyntax-only -Xclang -dump-tokens foo.cc
 ```
 
+`foo.c` has the following content:
+```
+
+```
