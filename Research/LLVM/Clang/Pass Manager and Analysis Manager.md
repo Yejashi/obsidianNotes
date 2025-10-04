@@ -9,3 +9,5 @@ LLVM also consists of multiple Passes that are executed in sequential order, cal
 
 ![[Pasted image 20251004172141.png]]
 
+In the preceding diagram, multiple Passes are arranged in a straight line. The LLVM IR for the foo function is processed by one Pass after another.
+
