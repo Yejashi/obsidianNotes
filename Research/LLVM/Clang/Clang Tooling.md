@@ -24,3 +24,5 @@ To give you a feel for the FrontendAction module, here are some of its important
 	- These are callbacks that derived classes can override to perform actions right before processing a source file and once it has been processed, respectively.
 - `FrontendAction::ExecuteAction(…)`:
 	- This callback describes the main actions to do for this FrontendAction. 
+	-  Note that while no one stops you from overriding this method directly, many of FrontendAction's derived classes already provide simpler interfaces to describe some common tasks. For example, if you want to process an AST, you should inherit from ASTFrontendAction instead and leverage its infrastructures.
+- 
