@@ -2,5 +2,6 @@ For C-family programming languages, preprocessing is an early compilation phase 
 
 For example, the preprocessor will basically copy and paste contents of header files designated by the # include directive into the current compilation unit before parsing it.
 
-The -E command-line option for clang is pretty useful for printing textual content right after preprocessing
+The `-E` command-line option for clang is pretty useful for printing textual content right after preprocessing
+
 
