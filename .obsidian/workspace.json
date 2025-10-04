@@ -11,10 +11,14 @@
             "id": "30b0f2fa8c63ee3c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Research/LLVM/Clang/Clang Substructures.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Clang Substructures"
             }
           }
         ]
@@ -184,8 +188,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "30b0f2fa8c63ee3c",
   "lastOpenFiles": [
+    "Research/LLVM/Clang/Clang Substructures.md",
     "Research/LLVM/Clang",
     "conflict-files-obsidian-git.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf",
@@ -211,7 +216,6 @@
     "Class/Year 2/Fall 2025/Midterm",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3",
     "Random Useful Resources/Creating a Virtual Display.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
     "Research/LLVM/Intermediate Representation (IR)/Instruction Types/Terminator Instruction Types.md",
