@@ -17,4 +17,7 @@ The **SourceLocation** class is used for representing the location of a piece of
 
 When it comes to its implementation, using line and column numbers is probably the most intuitive way to do this. However, things might get complicated in real-world scenarios, such that internally, we can't naively use a pair of numbers as the in-memory representations for source code locations
 
- One of the main reasons is that SourceLocation instances are extensively used in Clang's code base and basically live through the entire frontend compilation pipeline. 
+One of the main reasons is that SourceLocation instances are extensively used in Clang's code base and basically live through the entire frontend compilation pipeline. 
+
+Therefore, it's important to use a concise way to store its information rather than two 32-bit integers (and this might not even be sufficient since we also want to know the origin file!), which can easily bloat Clang's runtime-memory footprint.
+
