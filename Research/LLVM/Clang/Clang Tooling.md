@@ -49,4 +49,12 @@ A **Language server** is one of the most famous use cases of libTooling. A Langu
 
 While a Language server does not need to compile the incoming source code into native code as normal compilers do, it needs a way to parse and analyze that code, which is non-trivial to build from scratch. libTooling avoids the need to recreate the wheels in this case by taking Clang's techniques off-the-shelf and providing an easier interface for Language server developers.
 
-
+To give you a more concrete idea of how libTooling differs from the Clang plugin, here is a (simplified) code snippet for executing a custom **ASTFrontendAction** called **MyCustomAction**:
+```
+int main(int argc, char** argv) {
+ CommonOptionsParser OptionsParser(argc, argv,…);
+ ClangTool Tool(OptionsParser.getCompilations(),
+   {"foo.cpp"});
+ return Tool.run(newFrontendActionFactory<MyCustomAction>(). get());
+}
+```
