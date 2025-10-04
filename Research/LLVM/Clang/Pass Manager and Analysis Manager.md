@@ -17,3 +17,6 @@ In addition, this figure also illustrates that the **code generation** steps are
 
 #### Code Generation Passes
 Passes for code generation have a different API than normal LLVM IR Passes.
+
+Additionally, during the code generation phase, LLVM IR is actually converted into another kind of IR, called Machine IR (MIR).
+
