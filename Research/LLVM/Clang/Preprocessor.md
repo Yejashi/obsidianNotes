@@ -42,7 +42,7 @@ The Line and Column variables in the preceding code snippet are the line and col
 You might wonder why we are using the term `spellingLineNumber` instead of just `LineNumber` in the preceding code snippet. It turns out that in the cases of macro expansion (or any expansion happening during preprocessing), Clang keeps track of the macro content's `SourceLocation` instance before and after the expansion.
 
 ### Preprocessor and Lexer Essentials
-The roles and primary actions performed by Clang's preprocessor and lexer, represented by the Preprocessor and Lexer classes respectively, are illustrated in the following diagram:
+The roles and primary actions performed by Clang's **preprocessor** and lexer, **represented** by the Preprocessor and Lexer classes respectively, are illustrated in the following diagram:
 
 ![[Pasted image 20251004163931.png]]
 
@@ -50,5 +50,7 @@ A **token** is a substring from the original source code that acts as the minimu
 
  In some of the traditional compilers, the lexer is responsible for chopping the input source code into a sequence of tokens or a token stream, as shown in the preceding diagram. This token stream will later be fed into the parser to construct the semantic structure.
 
+Implementation-wise, Clang takes a slightly different path from traditional compilers (or those from textbooks): **Lexer**, employed by **Preprocessor**, is still the primary performer to cut source code into tokens.
 
+However, 
 
