@@ -15,3 +15,4 @@ The used variables in the expression must be declared with the keyword, with. Th
 
 The elements of a language, for example, keywords, identifiers, strings, numbers, and operators, are called **tokens**. In this sense, a program is a sequence of tokens, and the grammar specifies which sequences are valid.
 
+Usually, grammar is written in the extended **Backus-Naur form (EBNF)**. 
