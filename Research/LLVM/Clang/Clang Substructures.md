@@ -17,26 +17,7 @@ For example, you could try to compile a simple hello world program with that fla
 $ clang++ -### -std=c++11 -Wall ./hello_world.cpp -o
 hello_world
 ```
-"/path/to/clang" "-cc1" "-triple" "x86_64-apple-
-macosx11.0.0" "-Wdeprecated-objc-isa-usage" "-
-Werror=deprecated-objc-isa-usage" "-Werror=implicit-
-function-declaration" "-emit-obj" "-mrelax-all" "-
-disable-free" "-disable-llvm-verifier" … "-fno-
-strict-return" "-masm-verbose" "-munwind-tables" "-
-target-sdk-version=11.0" … "-resource-dir"
-"/Library/Developer/CommandLineTools/usr/lib/clang/1
-2.0.0" "-isysroot"
-"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
-" "-I/usr/local/include" "-stdlib=libc++" … "-Wall"
-"-Wno-reorder-init-list" "-Wno-implicit-int-float-
-conversion" "-Wno-c99-designator" … "-std=c++11" "-
-fdeprecated-macro" "-fdebug-compilation-dir"
-"/Users/Rem" "-ferror-limit" "19" "-fmessage-length"
-"87" "-stack-protector" "1" "-fstack-check" "-
-mdarwin-stkchk-strong-link" … "-fexceptions" … "-
-fdiagnostics-show-option" "-fcolor-diagnostics" "-o"
-"/path/to/temp/hello_world-dEadBeEf.o" "-x" "c++"
-"hello_world.cpp"…
+
 The following is part of the output after running the preceding command:
 ```
 "/path/to/clang" "-cc1" "-triple" "x86_64-apple-
