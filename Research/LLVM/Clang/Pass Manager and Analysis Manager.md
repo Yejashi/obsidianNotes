@@ -15,5 +15,4 @@ Pass B, for instance, performs code optimization on foo and replaces an arithmet
 
 In addition, this figure also illustrates that the **code generation** steps are modeled as Passes. Code generation in LLVM transforms LLVM IR, which is target independent, into assembly code for certain hardware architecture (for example, x86_64 in Figure 9.1). 
 
-
 #### Code Generation Passes
