@@ -96,5 +96,19 @@ foo::MyClass Obj;
 
 This is the output of the preceding command:
 ```
-
+namespace 'namespace' [StartOfLine] Loc=<foo.cc:1:1>
+identifier 'foo' [LeadingSpace] Loc=<foo.cc:1:11>
+l_brace '{' [LeadingSpace] Loc=<foo.cc:1:15>
+class 'class' [StartOfLine] [LeadingSpace] Loc=<foo.cc:2:3>
+identifier 'MyClass' [LeadingSpace] Loc=<foo.cc:2:9>
+l_brace '{' [LeadingSpace] Loc=<foo.cc:2:17>
+r_brace '}' Loc=<foo.cc:2:18>
+semi ';' Loc=<foo.cc:2:19>
+r_brace '}' [StartOfLine] Loc=<foo.cc:3:1>
+identifier 'foo' [StartOfLine] Loc=<foo.cc:5:1>
+coloncolon '::' Loc=<foo.cc:5:4>
+identifier 'MyClass' Loc=<foo.cc:5:6>
+identifier 'Obj' [LeadingSpace] Loc=<foo.cc:5:14>
+semi ';' Loc=<foo.cc:5:17>
+eof '' Loc=<foo.cc:5:18>
 ```
