@@ -64,5 +64,5 @@ As shown in the previous code, you can't just embed this code into any code base
 #### Clang Tools
 Last but not least, Clang Tools is a collection of utility programs build on top of libTooling. You can think of it as the command-line tool version of libTooling in that it provides some common functionalities.
 
-
+For example, you can use clang- efactor to refactor the code. This includes renaming a variable, as shown in the following code:
 
