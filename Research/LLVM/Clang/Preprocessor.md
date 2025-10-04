@@ -58,4 +58,5 @@ These assisting components inject extra tokens, if needed, into the main token s
 
 In other words, most consumers of the token stream don't directly interact with Lexer, but with the Preprocessor instances
 
+This makes people call the Lexer class a raw lexer (as shown in the previous diagram), since Lexer by itself only generates a token stream that hasn't been preprocessed.
 
