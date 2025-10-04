@@ -52,5 +52,7 @@ A **token** is a substring from the original source code that acts as the minimu
 
 Implementation-wise, Clang takes a slightly different path from traditional compilers (or those from textbooks): **Lexer**, employed by **Preprocessor**, is still the primary performer to cut source code into tokens.
 
-However,  Lexer keeps its
+However,  Lexer keeps its hands off whenever encountering a preprocessor directive (that is, anything that starts with a #) or a symbol, and relays that task to either the macro expansion, the header file resolver, or pragma handlers that are organized by the **Preprocessor**. 
+
+
 
