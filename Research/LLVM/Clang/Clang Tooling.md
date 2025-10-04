@@ -47,5 +47,6 @@ You can use it like a normal library in your project, without having any depende
 
 A **Language server** is one of the most famous use cases of libTooling. A Language server is launched as a daemon process and accepts requests from editors or IDEs. These requests can be as simple as syntax checking a code snippet or complicated tasks such as code completions.
 
+While a Language server does not need to compile the incoming source code into native code as normal compilers do, it needs a way to parse and analyze that code, which is non-trivial to build from scratch. libTooling avoids the need to recreate the wheels in this case by taking Clang's techniques off-the-shelf and providing an easier interface for Language server developers.
 
 
