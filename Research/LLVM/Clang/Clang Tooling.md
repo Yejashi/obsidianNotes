@@ -20,4 +20,5 @@ Generally speaking, a FrontendAction describes the task to be done at one or two
 This explains why it's so important for tooling or extension development – we're basically building our logic into a FrontendAction (one of FrontendAction's derived classes, to be more precise) instance to control and customize the behavior of a normal Clang compilation.
 
 To give you a feel for the FrontendAction module, here are some of its important APIs:
-- 
+- `FrontendAction::BeginSourceFileAction(…)/EndSourceFileAction(...)`:
+	- 
