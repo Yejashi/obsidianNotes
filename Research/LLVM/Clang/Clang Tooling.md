@@ -4,3 +4,5 @@ To explain their differences and provide more background knowledge when we talk 
 
 
 ### The FrontendAction class
+We went through a variety of Clang's frontend components, such as the preprocessor and Sema, to name a few.
+
