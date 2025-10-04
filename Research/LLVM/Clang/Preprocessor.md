@@ -62,5 +62,11 @@ This makes people call the Lexer class a raw lexer (as shown in the previous dia
 
 To give you a more concrete idea of how to use Preprocessor to retrieve a token (stream), the following simple code snippet has been provided. This shows a way to get the next token from the source code currently processing it:
 ```
-
+Token GetNextToken(Preprocessor &PP) {
+   Token Tok;
+   PP.Lex(Tok);
+   return Tok;
+}
 ```
+
+
