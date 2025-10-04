@@ -8,4 +8,6 @@ We went through a variety of Clang's frontend components, such as the preprocess
 
 Many of these important components are encapsulated by a single data type, called **FrontendAction**.
 
+A **FrontendAction** instance can be treated as a single task running inside the frontend.
+
 
