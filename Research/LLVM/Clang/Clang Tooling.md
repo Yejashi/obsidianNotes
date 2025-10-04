@@ -76,5 +76,9 @@ float foo(Location *loc) {
 }
 ```
 
+If we want to rename the Lat member variable in the Location struct Latitude, we can use the following command:
+```
+
+```
 
 
