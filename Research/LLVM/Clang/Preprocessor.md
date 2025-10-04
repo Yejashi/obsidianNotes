@@ -13,3 +13,5 @@ On one hand, printing format messages well (compilation error and warning messag
 `SourceManager`. 
 
 #### SourceLocation Class
+The **SourceLocation** class is used for representing the location of a piece of code in its file.
+
