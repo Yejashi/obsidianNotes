@@ -35,3 +35,5 @@ A plugin can be easily loaded into a normal clang by using simple command-line o
 ```
 $ clang -fplugin=/path/to/MyPlugin.so … foo.cpp
 ```
+
+
