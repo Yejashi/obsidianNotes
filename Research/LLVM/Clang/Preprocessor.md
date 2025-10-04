@@ -112,3 +112,4 @@ identifier 'Obj' [LeadingSpace] Loc=<foo.cc:5:14>
 semi ';' Loc=<foo.cc:5:17>
 eof '' Loc=<foo.cc:5:18>
 ```
+
