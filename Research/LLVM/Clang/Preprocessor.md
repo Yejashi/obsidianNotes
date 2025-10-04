@@ -117,3 +117,10 @@ The leftmost bits parts are the token kinds for each token. The full list of tok
 
 Although we can't visualize the virtual tokens—or annotation tokens, as they are called in Clang's code base—we will still explain these using the same example as before.
 
+ In C++, :: (the **coloncolon** token kind in the preceding directive) has several different usages. For example, it can either be for namespace resolution (more formally called scope resolution in C++), as shown in the code snippet earlier, or it can be (optionally) used with the new and delete operators, as illustrated in the following code snippet:
+ ```
+int* foo(int N) {
+   return ::new int[N]; // Equivalent to 'new int[N]'
+}
+ ```
+
