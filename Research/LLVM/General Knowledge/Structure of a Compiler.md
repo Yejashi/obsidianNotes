@@ -13,4 +13,4 @@ The used variables in the expression must be declared with the keyword, with. Th
 
 ### Formalism for specifying the syntax of a programming language
 
-
+The elements of a language, for example, keywords, identifiers, strings, numbers, and operators, are called **tokens**. In this sense, a program is a sequence of tokens, and the grammar specifies which sequences are valid.
