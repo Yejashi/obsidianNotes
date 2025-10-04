@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Clang/Pass Manager and Analysis Manager.md",
+                "file": "Research/LLVM/General Knowledge/Structure of a Compiler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pass Manager and Analysis Manager"
+              "title": "Structure of a Compiler"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 313.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -191,9 +191,13 @@
   },
   "active": "30b0f2fa8c63ee3c",
   "lastOpenFiles": [
+    "Research/LLVM/Clang/Pass Manager and Analysis Manager.md",
+    "Research/LLVM/General Knowledge/Structure of a Compiler.md",
+    "Research/LLVM/General Knowledge",
+    "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
+    "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Meta/Attachments/Pasted image 20251004172141.png",
     "Research/LLVM/Clang/Preprocessor.md",
-    "Research/LLVM/Clang/Pass Manager and Analysis Manager.md",
     "Meta/Attachments/Pasted image 20251004163931.png",
     "Research/LLVM/Clang/Clang Tooling.md",
     "Research/LLVM/Clang/Clang Substructures.md",
@@ -209,7 +213,6 @@
     "Meta/Attachments/Pasted image 20250930051031.png",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/Study Guide.md",
     "Meta/Attachments/Pasted image 20250930044153.png",
-    "Meta/Attachments/Pasted image 20250930044137.png",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/Study Guide.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/COSC494 Study Guide.pdf",
@@ -220,7 +223,6 @@
     "Class/Year 2/Fall 2025/Midterm/Study Guide.pdf",
     "Class/Year 2/Fall 2025/Midterm",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2",
     "Random Useful Resources/Creating a Virtual Display.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
     "Research/LLVM/Intermediate Representation (IR)/Instruction Types/Terminator Instruction Types.md",
@@ -234,8 +236,6 @@
     "Research/Benchpark/Dalal/Objectives.md",
     "Research/Papers/Dynist/Dyninst paper.md",
     "Research/LLVM/Specific Passes.md",
-    "Excalidraw/Drawing 2025-05-05 11.59.07.excalidraw.md",
-    "Class/Spring 2025/Graph Algorithms COSC690/Final Project/Paper - GNN-based Anchor Embedding for Exact Subgraph Matching.md",
-    "Research/LLVM/General.md"
+    "Excalidraw/Drawing 2025-05-05 11.59.07.excalidraw.md"
   ]
 }
