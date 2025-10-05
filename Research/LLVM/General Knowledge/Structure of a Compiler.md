@@ -248,7 +248,7 @@ void Lexer::formToken(Token &Tok, const char *TokEnd,
 ```
 
 #### Full Code Snippet
-```
+```cpp
 // lexer_demo.cpp
 #ifndef LEXER_H
 #define LEXER_H
