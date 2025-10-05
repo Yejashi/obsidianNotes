@@ -84,6 +84,8 @@ It begins with the usual header guard and the inclusion of the required headers:
 
 The `llvm::MemoryBuffer` class provides read-only access to a block of memory, filled with the content of a file.
 
+On request, a trailing zero character ('\x00') is added to the end of the buffer. We use this feature to read through the buffer without checking the length of the buffer at each access
+
 
 
 
