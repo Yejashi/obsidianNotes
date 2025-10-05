@@ -65,5 +65,6 @@ That’s an EBNF grammar with:
 - parentheses for grouping
 
 ### Lexical Analysis
+The task of the lexical analyzer is to take the textual input and create a sequence of tokens from it.
 
 
