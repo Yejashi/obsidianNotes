@@ -71,6 +71,7 @@ The calc language consists of the tokens with, :, +, -, *, /, (, ), and regular 
 
 We assign a unique number to each token to make the handling of tokens easier.
 
+#### A Hand-Written Lexer
 
 
 
