@@ -102,5 +102,5 @@ public:
 Besides defining a member for each token, we added two additional values: `eoi` and `unknown`. `eoi` stands for end of input and is returned when all characters of the input are processed. `unknown` is used in the event of an error at the lexical level, e.g., # is no token of the language and would therefore be mapped to unknown.
 
 
-
+2. In addition to the enumeration, the class has a Text member, which points to the start of the text of the token. It uses the StringRef class mentioned previously:
 
