@@ -104,6 +104,13 @@ Besides defining a member for each token, we added two additional values: `eoi` 
 
 2. In addition to the enumeration, the class has a `Text` member, which points to the start of the text of the token. It uses the `StringRef` class mentioned previously:
 ```
-
+private:
+	TokenKind Kind;
+	llvm::StringRef Text
+	
+public:
+	TokenKind getKind() const { return Kind; }
+	llvm::StringRef getText() const { return Text; }
 ```
+
 
