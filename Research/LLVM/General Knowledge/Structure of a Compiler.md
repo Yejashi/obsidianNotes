@@ -30,6 +30,18 @@ BNF uses:
 - `< >` for nonterminals
 - literal characters (like `"+"`, `"("`, etc.) for terminals
 
+Common EBNF Extensions
+
+| Symbol                    | Meaning                      | Example           | Equivalent BNF      |
+| ------------------------- | ---------------------------- | ----------------- | ------------------- |
+| `[...]`                   | Optional (0 or 1 times)      | `["-"] digit+`    | `<opt_sign> ::= "-" |
+| `{...}`                   | Repetition (0 or more times) | `{digit}`         | `<digits> ::= ε     |
+| `(...)`                   | Grouping                     | `(A               | B) C`               |
+| `                         | `                            | Alternatives (OR) | `A                  |
+| `+` (in ANTLR-style EBNF) | One or more                  | `digit+`          | `digit digit*`      |
+| `?` (in ANTLR-style EBNF) | Optional group               | `(sign)?`         | same as `["sign"]`  |
+| `*` (in ANTLR-style EBNF) | Zero or more                 | `(expr)*`         | same as `{expr}`    |
+
 **extended Backus-Naur form**
 - It adds **extra operators and notation** to make grammars more compact and readable, without changing what they represent.
 - Example comparison
