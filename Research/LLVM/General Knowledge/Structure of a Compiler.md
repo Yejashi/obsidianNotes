@@ -87,7 +87,7 @@ The `llvm::MemoryBuffer` class provides read-only access to a block of memory, f
  The `llvm::StringRef` class encapsulates a pointer to a C string and its length. Because the length is stored, the string need not be terminated with a zero character ('\x00') like normal C strings. This allows an instance of StringRef to point to the memory managed by `MemoryBuffer`.
 
 With this in mind, we begin by implementing the Lexer class:
-1. 
+1. First, the Token class contains the definition of the enumeration for the unique token numbers mentioned previously:
 
 
 
