@@ -238,5 +238,11 @@ Only the formToken() private helper method is still missing
 
 12. It populates the members of the Token instance and updates the pointer to the next unprocessed character:
 ```
-
+void Lexer::formToken(Token &Tok, const char *TokEnd,
+Token::TokenKind Kind) {
+Tok.Kind = Kind;
+Tok.Text = llvm::StringRef(BufferPtr,
+TokEnd - BufferPtr);
+BufferPtr = TokEnd;
+}
 ```
