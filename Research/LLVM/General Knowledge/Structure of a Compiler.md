@@ -58,5 +58,11 @@ ident : ([a-zAZ])+ ;
 number : ([0-9])+ ;
 ```
 
+That’s an EBNF grammar with:
+- `?` → optional (`("with" ...)` may appear once or not at all)
+- `*` → repetition (e.g., `( "," ident)*`)
+- `+` → one or more occurrences (e.g., `[a-zA-Z]+`)
+- parentheses for grouping
+
 
 
