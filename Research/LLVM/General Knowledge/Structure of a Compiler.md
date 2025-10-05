@@ -146,4 +146,4 @@ private:
 ```
 Except for the constructor, the public interface has only the next() method, which returns the next token. The method acts like an iterator, always advancing to the next available token.
 
-5. 
+5. Let’s implement the Lexer class in the `Lexer.cpp` file. It begins with some helper functions to classify characters:
