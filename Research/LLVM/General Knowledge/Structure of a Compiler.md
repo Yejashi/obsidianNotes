@@ -248,3 +248,4 @@ void Lexer::formToken(Token &Tok, const char *TokEnd,
 ```
 
 ### Syntactical Analysis
+TODO: Continue on page 26 Nacke
