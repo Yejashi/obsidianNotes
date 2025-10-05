@@ -196,3 +196,7 @@ if (charinfo::isLetter(*BufferPtr)) {
 }
 ```
 
+9. Next, we check for a number. The code for this is very similar to the preceding snippet:
+```
+
+```
