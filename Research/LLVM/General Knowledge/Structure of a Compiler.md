@@ -165,4 +165,4 @@ LLVM_READNONE inline bool isLetter(char c) {
 }
 ```
 
-6. 
+6. From the grammar in the previous section, we know all the tokens of the language. But the grammar does not define the characters that should be ignored. 
