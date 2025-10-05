@@ -226,4 +226,12 @@ CASE(',', Token::Token::comma);
 ```
 
 11. Last, we need to check for unexpected characters:
-12. 
+```
+			default:
+			formToken(token, BufferPtr + 1, Token::unknown);
+		}
+		return;
+	}
+}
+```
+
