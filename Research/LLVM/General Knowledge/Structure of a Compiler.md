@@ -115,4 +115,15 @@ public:
 This is useful for semantic processing, e.g., for an identifier, it is useful to know the name.
 
 3. The `is()` and `isOneOf() `methods are used to test whether the token is of a certain kind. The `isOneOf() `method uses a variadic template, allowing a variable number of arguments:
+```
+bool is(TokenKind K) const { return Kind == K; }
+bool isOneOf(TokenKind K1, TokenKind K2) const {
+	return is(K1) || is(K2);
+}
+template <typename... Ts>
+bool isOneOf(TokenKind K1, TokenKind K2, Ts... Ks) const {
+	return is(K1) || isOneOf(K2, Ks...);
+}
+};
+```
 
