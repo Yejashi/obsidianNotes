@@ -225,3 +225,5 @@ CASE(',', Token::Token::comma);
 #undef CASE
 ```
 
+11. Last, we need to check for unexpected characters:
+12. 
