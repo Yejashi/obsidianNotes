@@ -69,3 +69,5 @@ The task of the lexical analyzer is to take the textual input and create a seque
 
 The calc language consists of the tokens with, :, +, -, *, /, (, ), and regular expressions ([a-zA-Z])+ (an identifier) and ([0-9])+ (a number). 
 
+
+
