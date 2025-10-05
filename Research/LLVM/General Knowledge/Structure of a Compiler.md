@@ -82,6 +82,7 @@ It begins with the usual header guard and the inclusion of the required headers:
 #include "llvm/Support/MemoryBuffer.h"
 ```
 
+The llvm::MemoryBuffer class provides read-only access to a block of memory, filled with the content of a file.
 
 
 
