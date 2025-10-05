@@ -151,8 +151,8 @@ Except for the constructor, the public interface has only the next() method, whi
 #include "Lexer.h"
 namespace charinfo {
 LLVM_READNONE inline bool isWhitespace(char c) {
-return c == ' ' || c == '\t' || c == '\f' ||
-	c == '\v' ||
+	return c == ' ' || c == '\t' || c == '\f' ||
+		c == '\v' ||
 	c == '\r' || c == '\n';
 }
 LLVM_READNONE inline bool isDigit(char c) {
@@ -164,3 +164,4 @@ LLVM_READNONE inline bool isLetter(char c) {
 }
 }
 ```
+
