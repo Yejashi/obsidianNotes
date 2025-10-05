@@ -29,7 +29,8 @@ BNF uses:
 - `::=` for definition (“is defined as”)
 - `< >` for nonterminals
 - literal characters (like `"+"`, `"("`, etc.) for terminals
-- 
+
+
 
 Let’s have a look at the grammar of the calc language:
 ```
