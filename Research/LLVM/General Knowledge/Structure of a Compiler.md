@@ -247,3 +247,4 @@ void Lexer::formToken(Token &Tok, const char *TokEnd,
 }
 ```
 
+### Syntactical Analysis
