@@ -144,3 +144,6 @@ private:
 };
 #endif
 ```
+Except for the constructor, the public interface has only the next() method, which returns the next token. The method acts like an iterator, always advancing to the next available token.
+
+5. 
