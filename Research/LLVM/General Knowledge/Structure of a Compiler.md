@@ -30,6 +30,8 @@ BNF uses:
 - `< >` for nonterminals
 - literal characters (like `"+"`, `"("`, etc.) for terminals
 
+**extended Backus-Naur form**
+- 
 
 
 Let’s have a look at the grammar of the calc language:
