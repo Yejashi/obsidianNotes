@@ -129,5 +129,18 @@ bool isOneOf(TokenKind K1, TokenKind K2, Ts... Ks) const {
 
 4. The `Lexer` class itself has a similar simple interface and comes next in the header file:
 ```
-
+class Lexer {
+const char *BufferStart;
+const char *BufferPtr;
+public:
+Lexer(const llvm::StringRef &Buffer) {
+BufferStart = Buffer.begin();
+BufferPtr = BufferStart;
+}
+void next(Token &token);
+private:
+void formToken(Token &Result, const char *TokEnd,
+Token::TokenKind Kind);
+};
+#endif
 ```
