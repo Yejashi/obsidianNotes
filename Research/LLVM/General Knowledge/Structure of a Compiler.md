@@ -112,5 +112,7 @@ public:
 	TokenKind getKind() const { return Kind; }
 	llvm::StringRef getText() const { return Text; }
 ```
+This is useful for semantic processing, e.g., for an identifier, it is useful to know the name.
 
+3. The is() and isOneOf() methods are used to test whether the token is of a certain kind. The isOneOf() method uses a variadic template, allowing a variable number of arguments:
 
