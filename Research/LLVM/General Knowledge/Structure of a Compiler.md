@@ -89,14 +89,15 @@ The `llvm::MemoryBuffer` class provides read-only access to a block of memory, f
 With this in mind, we begin by implementing the Lexer class:
 1. First, the Token class contains the definition of the enumeration for the unique token numbers mentioned previously:
 ```
-lass Lexer;
+class Lexer;
+
 class Token {
-friend class Lexer;
+	friend class Lexer;
 public:
-enum TokenKind : unsigned short {
-	eoi, unknown, ident, number, comma, colon, plus,
-	minus, star, slash, l_paren, r_paren, KW_with
-};
+	enum TokenKind : unsigned short {
+		eoi, unknown, ident, number, comma, colon, plus,
+		minus, star, slash, l_paren, r_paren, KW_with
+	};
 ```
 
 
