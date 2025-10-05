@@ -247,5 +247,191 @@ void Lexer::formToken(Token &Tok, const char *TokEnd,
 }
 ```
 
+#### Full Code Snippet
+```
+// lexer_demo.cpp
+#ifndef LEXER_H
+#define LEXER_H
+
+#include <iostream>
+#include <memory>
+
+#include "llvm/ADT/StringRef.h"
+#include "llvm/Support/Compiler.h"     // for LLVM_READNONE
+#include "llvm/Support/MemoryBuffer.h" // for MemoryBuffer
+#include "llvm/Support/ErrorOr.h"
+#include "llvm/Support/raw_ostream.h"
+
+// Forward-declare Lexer so it can be a friend of Token.
+class Lexer;
+
+class Token {
+  friend class Lexer;
+
+public:
+  enum TokenKind : unsigned short {
+    eoi, unknown, ident, number, comma, colon, plus,
+    minus, star, slash, l_paren, r_paren, KW_with
+  };
+
+private:
+  TokenKind Kind = unknown;
+  llvm::StringRef Text;
+
+public:
+  TokenKind getKind() const { return Kind; }
+  llvm::StringRef getText() const { return Text; }
+
+  bool is(TokenKind K) const { return Kind == K; }
+  bool isOneOf(TokenKind K1, TokenKind K2) const { return is(K1) || is(K2); }
+  template <typename... Ts>
+  bool isOneOf(TokenKind K1, TokenKind K2, Ts... Ks) const {
+    return is(K1) || isOneOf(K2, Ks...);
+  }
+};
+
+class Lexer {
+  const char *BufferStart = nullptr;
+  const char *BufferPtr   = nullptr;
+
+public:
+  explicit Lexer(const llvm::StringRef &Buffer) {
+    BufferStart = Buffer.begin();
+    BufferPtr   = BufferStart;
+  }
+  void next(Token &token);
+
+private:
+  void formToken(Token &Result, const char *TokEnd, Token::TokenKind Kind);
+};
+
+#endif // LEXER_H
+
+// ===================== Implementation =====================
+
+namespace charinfo {
+LLVM_READNONE inline bool isWhitespace(char c) {
+  return c == ' ' || c == '\t' || c == '\f' || c == '\v' || c == '\r' || c == '\n';
+}
+LLVM_READNONE inline bool isDigit(char c) {
+  return c >= '0' && c <= '9';
+}
+LLVM_READNONE inline bool isLetter(char c) {
+  return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
+}
+} // namespace charinfo
+
+void Lexer::next(Token &token) {
+  // Skip whitespace
+  while (*BufferPtr && charinfo::isWhitespace(*BufferPtr))
+    ++BufferPtr;
+
+  // End of input?
+  if (!*BufferPtr) {
+    token.Kind = Token::eoi;
+    token.Text = llvm::StringRef(BufferPtr, 0);
+    return;
+  }
+
+  // Identifier or keyword "with"
+  if (charinfo::isLetter(*BufferPtr)) {
+    const char *end = BufferPtr + 1;
+    while (charinfo::isLetter(*end))
+      ++end;
+
+    llvm::StringRef Name(BufferPtr, end - BufferPtr);
+    Token::TokenKind kind = (Name == "with") ? Token::KW_with : Token::ident;
+    formToken(token, end, kind);
+    return;
+  }
+  // Number
+  else if (charinfo::isDigit(*BufferPtr)) {
+    const char *end = BufferPtr + 1;
+    while (charinfo::isDigit(*end))
+      ++end;
+    formToken(token, end, Token::number);
+    return;
+  }
+  // Single-character tokens
+  else {
+    switch (*BufferPtr) {
+#define CASE(ch, tok) case ch: formToken(token, BufferPtr + 1, tok); break
+      CASE('+', Token::plus);
+      CASE('-', Token::minus);
+      CASE('*', Token::star);
+      CASE('/', Token::slash);
+      CASE('(', Token::l_paren);
+      CASE(')', Token::r_paren);
+      CASE(':', Token::colon);
+      CASE(',', Token::comma);
+#undef CASE
+    default:
+      formToken(token, BufferPtr + 1, Token::unknown);
+    }
+    return;
+  }
+}
+
+void Lexer::formToken(Token &Tok, const char *TokEnd, Token::TokenKind Kind) {
+  Tok.Kind = Kind;
+  Tok.Text = llvm::StringRef(BufferPtr, TokEnd - BufferPtr);
+  BufferPtr = TokEnd;
+}
+
+// ===================== Demo driver =====================
+
+// Helper to stringify token kinds for printing.
+static const char* tokenKindToString(Token::TokenKind K) {
+  switch (K) {
+  case Token::eoi:      return "eoi";
+  case Token::unknown:  return "unknown";
+  case Token::ident:    return "ident";
+  case Token::number:   return "number";
+  case Token::comma:    return "comma";
+  case Token::colon:    return "colon";
+  case Token::plus:     return "plus";
+  case Token::minus:    return "minus";
+  case Token::star:     return "star";
+  case Token::slash:    return "slash";
+  case Token::l_paren:  return "l_paren";
+  case Token::r_paren:  return "r_paren";
+  case Token::KW_with:  return "KW_with";
+  }
+  return "<?>"; // unreachable
+}
+
+int main(int argc, char** argv) {
+  // Read input from a file (first arg) or from a built-in demo string.
+  std::unique_ptr<llvm::MemoryBuffer> MB;
+
+  if (argc > 1) {
+    auto BufOrErr = llvm::MemoryBuffer::getFileOrSTDIN(argv[1], /*IsText=*/true);
+    if (!BufOrErr) {
+      llvm::errs() << "Error: could not open " << argv[1] << "\n";
+      return 1;
+    }
+    MB = std::move(*BufOrErr);
+  } else {
+    // Demo program: "with x: (a + b) * 42, y"
+    // getMemBufferCopy adds a trailing '\0', which the lexer relies on.
+    MB = llvm::MemoryBuffer::getMemBufferCopy("with x: (a + b) * 42, y\n");
+  }
+
+  llvm::StringRef Input = MB->getBuffer();
+  Lexer L(Input);
+
+  Token T;
+  do {
+    L.next(T);
+    std::cout << tokenKindToString(T.getKind());
+    if (T.getText().size() > 0)
+      std::cout << " [" << T.getText().str() << "]";
+    std::cout << "\n";
+  } while (!T.is(Token::eoi));
+
+  return 0;
+}
+
+```
 ### Syntactical Analysis
 TODO: Continue on page 26 Nacke
