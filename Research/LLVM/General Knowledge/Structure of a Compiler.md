@@ -64,5 +64,6 @@ That’s an EBNF grammar with:
 - `+` → one or more occurrences (e.g., `[a-zA-Z]+`)
 - parentheses for grouping
 
+### Lexical Analysis
 
 
