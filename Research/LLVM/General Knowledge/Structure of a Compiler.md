@@ -31,7 +31,7 @@ BNF uses:
 - literal characters (like `"+"`, `"("`, etc.) for terminals
 
 **extended Backus-Naur form**
-- 
+- It adds **extra operators and notation** to make grammars more compact and readable, without changing what they represent.
 
 
 Let’s have a look at the grammar of the calc language:
