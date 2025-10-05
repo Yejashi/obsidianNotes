@@ -182,5 +182,7 @@ if (!*BufferPtr) {
 }
 ```
 
+8. We first check whether the character is lowercase or uppercase. In this case, the token is either an identifier or the with keyword, because the regular expression for the identifier also matches the keyword.
+```
 
-8. 
+```
