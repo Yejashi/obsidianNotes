@@ -198,5 +198,12 @@ if (charinfo::isLetter(*BufferPtr)) {
 
 9. Next, we check for a number. The code for this is very similar to the preceding snippet:
 ```
-
+else if (charinfo::isDigit(*BufferPtr)) {
+	const char *end = BufferPtr + 1;
+	while (charinfo::isDigit(*end))
+		++end;
+	formToken(token, end, Token::number);
+	return;
+}
 ```
+
