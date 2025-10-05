@@ -216,4 +216,11 @@ Now only the tokens defined by fixed strings are left.
 case ch: formToken(token, BufferPtr + 1, tok); break
 CASE('+', Token::plus);
 CASE('-', Token::minus);
+CASE('*', Token::star);
+CASE('/', Token::slash);
+CASE('(', Token::Token::l_paren);
+CASE(')', Token::Token::r_paren);
+CASE(':', Token::Token::colon);
+CASE(',', Token::Token::comma);
+#undef CASE
 ```
