@@ -211,7 +211,7 @@ Now only the tokens defined by fixed strings are left.
 10. This is done easily with a switch. As all of these tokens have only one character, the CASE preprocessor macro is used to reduce typing:
 ```
 	else {
-	switch (*BufferPtr) {
+		switch (*BufferPtr) {
 #define CASE(ch, tok) \
 case ch: formToken(token, BufferPtr + 1, tok); break
 CASE('+', Token::plus);
