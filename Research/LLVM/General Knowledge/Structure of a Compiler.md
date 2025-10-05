@@ -72,6 +72,6 @@ The calc language consists of the tokens with, :, +, -, *, /, (, ), and regular 
 We assign a unique number to each token to make the handling of tokens easier.
 
 #### A Hand-Written Lexer
-
+The implementation of a lexical analyzer is often called Lexer. Let’s create a header file called Lexer.h and get started with the definition of Token. 
 
 
