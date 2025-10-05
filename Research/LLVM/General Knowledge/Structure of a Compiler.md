@@ -184,5 +184,15 @@ if (!*BufferPtr) {
 
 8. We first check whether the character is lowercase or uppercase. In this case, the token is either an identifier or the with keyword, because the regular expression for the identifier also matches the keyword.
 ```
-
+if (charinfo::isLetter(*BufferPtr)) {
+	const char *end = BufferPtr + 1;
+	while (charinfo::isLetter(*end))
+		++end;
+	llvm::StringRef Name(BufferPtr, end - BufferPtr);
+	Token::TokenKind kind =
+		Name == "with" ? Token::KW_with : Token::ident;
+	formToken(token, end, kind);
+	return;
+}
 ```
+
