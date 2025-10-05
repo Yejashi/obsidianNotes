@@ -127,3 +127,4 @@ bool isOneOf(TokenKind K1, TokenKind K2, Ts... Ks) const {
 };
 ```
 
+4. The Lexer class itself has a similar simple interface and comes next in the header file:
