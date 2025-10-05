@@ -17,8 +17,18 @@ The elements of a language, for example, keywords, identifiers, strings, numbers
 
 Usually, grammar is written in the **extended Backus-Naur form (EBNF)**. A rule in grammar has a left and a right side. The left side is just a single symbol called **non-terminal**. The right side of a rule consists of **non-terminals**, tokens, and meta-symbols for alternatives and repetitions.
 
-> **BNF (Backus–Naur Form)** is a formal notation used to describe the syntax of programming languages.
-
+**BNF (Backus–Naur Form)** is a formal notation used to describe the syntax of programming languages.
+A simple example in BNF:
+```
+<expr> ::= <term> | <term> "+" <expr>
+<term> ::= <factor> | <factor> "*" <term>
+<factor> ::= "(" <expr> ")" | <number>
+<number> ::= "0" | "1" | ... | "9"
+```
+BNF uses:
+- `::=` for definition (“is defined as”)
+- `< >` for nonterminals
+- 
 
 Let’s have a look at the grammar of the calc language:
 ```
