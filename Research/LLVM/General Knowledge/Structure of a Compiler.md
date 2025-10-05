@@ -148,5 +148,19 @@ Except for the constructor, the public interface has only the next() method, whi
 
 5. Let’s implement the Lexer class in the `Lexer.cpp` file. It begins with some helper functions to classify characters:
 ```
-
+#include "Lexer.h"
+namespace charinfo {
+LLVM_READNONE inline bool isWhitespace(char c) {
+return c == ' ' || c == '\t' || c == '\f' ||
+c == '\v' ||
+c == '\r' || c == '\n';
+}
+LLVM_READNONE inline bool isDigit(char c) {
+return c >= '0' && c <= '9';
+}
+LLVM_READNONE inline bool isLetter(char c) {
+return (c >= 'a' && c <= 'z') ||
+(c >= 'A' && c <= 'Z');
+}
+}
 ```
