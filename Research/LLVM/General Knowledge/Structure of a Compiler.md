@@ -30,7 +30,13 @@ BNF uses:
 - `< >` for nonterminals
 - literal characters (like `"+"`, `"("`, etc.) for terminals
 
-Common EBNF Extensions
+**extended Backus-Naur form**
+- It adds **extra operators and notation** to make grammars more compact and readable, without changing what they represent.
+- Example comparison
+	- BNF: `<expr> ::= <term> | <term> "+" <expr> | <term> "-" <expr>`
+	- EBNF: `expr = term { ("+" | "-") term } ;`
+	
+**Common EBNF Extensions**
 
 | Symbol                    | Meaning                      | Example           | Equivalent BNF      |
 | ------------------------- | ---------------------------- | ----------------- | ------------------- |
@@ -42,13 +48,7 @@ Common EBNF Extensions
 | `?` (in ANTLR-style EBNF) | Optional group               | `(sign)?`         | same as `["sign"]`  |
 | `*` (in ANTLR-style EBNF) | Zero or more                 | `(expr)*`         | same as `{expr}`    |
 
-**extended Backus-Naur form**
-- It adds **extra operators and notation** to make grammars more compact and readable, without changing what they represent.
-- Example comparison
-	- BNF: `<expr> ::= <term> | <term> "+" <expr> | <term> "-" <expr>`
-	- EBNF: `expr = term { ("+" | "-") term } ;`
-
-Let’s have a look at the grammar of the calc language:
+Now, let’s have a look at the grammar of the calc language:
 ```
 calc : ("with" ident ("," ident)* ":")? expr ;
 expr : term (( "+" | "-" ) term)* ;
