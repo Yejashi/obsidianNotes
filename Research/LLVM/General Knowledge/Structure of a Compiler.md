@@ -99,7 +99,8 @@ public:
 		minus, star, slash, l_paren, r_paren, KW_with
 	};
 ```
-	
+Besides defining a member for each token, we added two additional values: eoi and unknown. eoi stands for end of input and is returned when all characters of the input are processed.
+
 
 
 
