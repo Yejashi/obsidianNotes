@@ -174,3 +174,5 @@ void Lexer::next(Token &token) {
 }
 ```
 
+7. Next, make sure that there are still characters left to process:
+``
