@@ -67,7 +67,7 @@ That’s an EBNF grammar with:
 ### Lexical Analysis
 The task of the lexical analyzer is to take the textual input and create a sequence of tokens from it.
 
-The calc language consists of the tokens with, :, +, -, *, /, (, ), and regular expressions ([a-zA-Z])+ (an identifier) and ([0-9])+ (a number). 
+The **calc** language consists of the tokens with, :, +, -, *, /, (, ), and regular expressions ([a-zA-Z])+ (an identifier) and ([0-9])+ (a number). 
 
 We assign a unique number to each token to make the handling of tokens easier.
 
