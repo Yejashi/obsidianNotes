@@ -32,7 +32,9 @@ BNF uses:
 
 **extended Backus-Naur form**
 - It adds **extra operators and notation** to make grammars more compact and readable, without changing what they represent.
-
+- Example comparison
+	- BNF: `<expr> ::= <term> | <term> "+" <expr> | <term> "-" <expr>`
+	- EBNF: `expr = term { ("+" | "-") term } ;`
 
 Let’s have a look at the grammar of the calc language:
 ```
