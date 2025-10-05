@@ -165,4 +165,12 @@ LLVM_READNONE inline bool isLetter(char c) {
 }
 ```
 
-6. From the grammar in the previous section, we know all the tokens of the language. But the grammar does not define the characters that should be ignored. 
+6. From the grammar in the previous section, we know all the tokens of the language. But the grammar does not define the characters that should be ignored. For example, a space or newline character adds only whitespace and are often ignored. The next() method begins with ignoring these characters:
+```
+void Lexer::next(Token &token) {
+	while (*BufferPtr &&
+		charinfo::isWhitespace(*BufferPtr)) {
+	++BufferPtr;
+}
+```
+
