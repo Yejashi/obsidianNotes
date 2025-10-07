@@ -6,3 +6,9 @@ The **three remark classes** LLVM uses:
 - **Analysis** → `OptimizationRemarkAnalysis`  
     “Here’s **information/diagnosis**; not asserting success or failure.”
 
+Clang flags map to those classes:
+- `-Rpass=...` → shows **Passed**
+- `-Rpass-missed=...` → shows **Missed**
+- `-Rpass-analysis=...` → shows **Analysis**
+
+
