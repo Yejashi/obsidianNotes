@@ -65,7 +65,7 @@ verify,annotation2metadata,forceattrs,inferattrs,function<eager-inv>(lower-expec
 
 ***
 
-```
+```bash
 [bogale2@dane4:dane_junk]$ opt --print-passes
 Module passes:
   always-inline
