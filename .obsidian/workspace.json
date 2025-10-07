@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "aa9d08524e74c6e5",
+        "id": "998bb3c7df42dc3b",
         "type": "tabs",
         "children": [
           {
-            "id": "5c12e3cd49441d5f",
+            "id": "38b88cbbfa3f7630",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research/LLVM/Pass Coverage.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Pass Coverage"
+              "title": "New tab"
             }
           }
         ]
@@ -188,10 +184,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5c12e3cd49441d5f",
+  "active": "38b88cbbfa3f7630",
   "lastOpenFiles": [
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf",
+    "Research/Untitled.md",
     "Research/LLVM/Pass Coverage.md",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf",
     "Research/LLVM/General Knowledge/Structure of a Compiler.md",
     "Research/LLVM/General Knowledge",
     "Research/LLVM/Clang/Preprocessor.md",
