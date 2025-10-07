@@ -33,9 +33,8 @@ Clang flags map to those classes:
 	    - Cost-model breakdowns (“estimated cost X, width Y”) that accompany a later **passed**/**missed**.
 	    - Loop-fusion code using “candidate rejected because …” as an _analysis_ breadcrumb rather than declaring a **missed** at a specific fused pair.
 
-
-|Situation|Emit|Rationale|
-|---|---|---|
-|We **applied** the transform at a specific site|**Passed**|“Success happened here.”|
-|We **evaluated** the transform at a specific site and **didn’t apply**|**Missed**|“Opportunity existed; we declined/failed.”|
-|We’re giving **context** (preconditions, cost breakdowns, broad notes), not declaring a site-specific decision|**Analysis**|“Info to understand decisions; not success/failure by itself.”|
+| Situation                                                                                                      | Emit         | Rationale                                                      |
+| -------------------------------------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------- |
+| We **applied** the transform at a specific site                                                                | **Passed**   | “Success happened here.”                                       |
+| We **evaluated** the transform at a specific site and **didn’t apply**                                         | **Missed**   | “Opportunity existed; we declined/failed.”                     |
+| We’re giving **context** (preconditions, cost breakdowns, broad notes), not declaring a site-specific decision | **Analysis** | “Info to understand decisions; not success/failure by itself.” |
