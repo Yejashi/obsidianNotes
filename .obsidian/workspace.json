@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "998bb3c7df42dc3b",
+        "id": "52af38e1e5060b91",
         "type": "tabs",
         "children": [
           {
-            "id": "38b88cbbfa3f7630",
+            "id": "cc9e03d2e491f019",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Research/LLVM/Passes/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ]
@@ -184,8 +188,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "38b88cbbfa3f7630",
+  "active": "cc9e03d2e491f019",
   "lastOpenFiles": [
+    "Research/LLVM/Passes/Untitled.md",
+    "Research/LLVM/Passes/Analysis Passes/Introduction to Analysis Passess.md",
     "Research/Untitled.md",
     "Research/LLVM/Pass Coverage.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf",
@@ -229,8 +235,6 @@
     "Research/LLVM/Passes/General Passes.md",
     "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md",
     "Research/LLVM/Intermediate Representation (IR)/Static Single Assignment (SSA).md",
-    "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
-    "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Overview of Translation.md",
-    "Research/LLVM/Control Flow Graph.md"
+    "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md"
   ]
 }
