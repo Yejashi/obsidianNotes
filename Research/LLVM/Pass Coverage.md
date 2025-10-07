@@ -23,3 +23,14 @@
 | **Prefetch / HW specific** | `loop-data-prefetch`, `hardware-loops`, `interleaved-access`, `interleaved-load-combine`                                                                                                      | Performance-critical on CPUs/GPUs                    | 🟥 **Silent**                                                                           |
 | **Miscellaneous**          | `guard-widening`, `loop-idiom`, `loop-idiom-vectorize`, `make-guards-explicit`, `infer-alignment`                                                                                             | Minor but measurable effect                          | `loop-idiom` may emit some, others silent                                               |
 
+High impact silent passes:
+
+| Pass                 | Type     | Example transformation                         | Impact                          |
+| -------------------- | -------- | ---------------------------------------------- | ------------------------------- |
+| `loop-fusion`        | LoopNest | Merges two loops → changes cache reuse pattern | Major perf change               |
+| `loop-reduce`        | Loop     | Rewrites strength-reduced induction variables  | Alters ALU/memory ratio         |
+| `sroa`               | Function | Splits structs on stack → alters memory SSA    | Affects alias analysis          |
+| `mem2reg`            | Function | Promotes allocas → changes IR form, debuginfo  | Foundational                    |
+| `argpromotion`       | CGSCC    | Passes scalars instead of pointers             | Affects ABI, inlining decisions |
+| `globalopt`          | Module   | Merges or folds globals                        | Changes memory topology         |
+| `loop-data-prefetch` | Function | Adds prefetch intrinsics                       | Changes runtime memory behavior |
