@@ -11,12 +11,14 @@
             "id": "5c12e3cd49441d5f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf"
+                "file": "Research/LLVM/Pass Coverage.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "COSC461 Study Guide"
+              "icon": "lucide-file",
+              "title": "Pass Coverage"
             }
           }
         ]
@@ -186,8 +188,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "5c12e3cd49441d5f",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf",
+    "Research/LLVM/Pass Coverage.md",
     "Research/LLVM/General Knowledge/Structure of a Compiler.md",
     "Research/LLVM/General Knowledge",
     "Research/LLVM/Clang/Preprocessor.md",
@@ -199,7 +203,6 @@
     "Meta/Attachments/Pasted image 20251004163931.png",
     "Meta/Attachments/Pasted image 20251004123121.png",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/Study Guide.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/Study Guide.md",
     "Meta/Attachments/Pasted image 20250930071035.png",
     "Meta/Attachments/Pasted image 20250930053022.png",
@@ -231,8 +234,6 @@
     "Research/LLVM/Intermediate Representation (IR)/Static Single Assignment (SSA).md",
     "Research/LLVM/Intermediate Representation (IR)/Basic Blocks.md",
     "Research/Compilers/Books/Engineering a Compiler/Chapter 1/Overview of Translation.md",
-    "Research/LLVM/Control Flow Graph.md",
-    "Research/Papers/Sub-GMN/Sub-GMN Paper General.md",
-    "Research/Papers/Sub-GMN/Sub-GMN Paper Experiments.md"
+    "Research/LLVM/Control Flow Graph.md"
   ]
 }
