@@ -1,3 +1,5 @@
+Passes that _do_ emit optimization remarks
+
 | Category              | Pass Name                                                     | Remark Types                                     |
 | --------------------- | ------------------------------------------------------------- | ------------------------------------------------ |
 | Inlining              | `inline`, `always-inline`, `partial-inliner`, `module-inline` | “inlined call”, “missed inlining”, “inline cost” |
