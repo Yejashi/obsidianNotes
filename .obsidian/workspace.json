@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Remark Limitations"
             }
+          },
+          {
+            "id": "bb7f89d933e9cdae",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,11 +197,10 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "cc9e03d2e491f019",
+  "active": "bb7f89d933e9cdae",
   "lastOpenFiles": [
     "Research/LLVM/Passes/Remark Categories.md",
     "Research/LLVM/Passes/Remark Limitations.md",
