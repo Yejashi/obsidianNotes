@@ -32,9 +32,21 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.9.14"
             }
+          },
+          {
+            "id": "c58c46767fb889f2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-10-08 09.29.06.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-08 09.29.06.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,9 +213,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "c58c46767fb889f2",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
+    "Excalidraw/Drawing 2025-10-08 09.29.06.excalidraw.md",
     "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
     "Research/LLVM/Passes/Remark Categories.md",
     "Research/LLVM/Passes/Remark Limitations.md",
@@ -247,7 +260,6 @@
     "Random Useful Resources/Creating a Virtual Display.md",
     "Research/LLVM/Optimizations.md",
     "Research/LLVM/Intermediate Representation (IR)/Instruction Types/Terminator Instruction Types.md",
-    "Research/LLVM/Passes/General Passes.md",
-    "Research/LLVM/Intermediate Representation (IR)/Intermediate Representation (IR).md"
+    "Research/LLVM/Passes/General Passes.md"
   ]
 }
