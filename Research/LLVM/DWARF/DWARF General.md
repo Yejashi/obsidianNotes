@@ -39,4 +39,7 @@ Compile Unit (foo.cpp)
 └── subprogram "bar"        (DW_TAG_subprogram)
 ```
 
+Every node has:
+- a **tag** (e.g., `DW_TAG_subprogram`, `DW_TAG_variable`)
+- a list of **attributes** (e.g., `DW_AT_name`, `DW_AT_low_pc`, `DW_AT_high_pc`, `DW_AT_decl_line`)
 
