@@ -109,3 +109,6 @@ Abbrev #1 = DW_TAG_subprogram {
 }
 ```
 
+That means:  
+Whenever `.debug_info` says “use abbreviation #1,” you should expect values for those five fields, in that order.
+
