@@ -79,4 +79,8 @@ There is a table in the `.debug_line` section that contains translations of PC a
 | 0x401005 | main.cpp | 4    |
 | 0x401010 | main.cpp | 5    |
 | 0x401015 | main.cpp | 6    |
-
+This is how stack traces show:
+```
+#0  bar() at main.cpp:2
+#1  main() at main.cpp:5
+```
