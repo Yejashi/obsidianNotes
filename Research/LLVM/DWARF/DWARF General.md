@@ -65,3 +65,9 @@ DWARF will record:
     - `DW_AT_high_pc = 0x401045`
     - `DW_AT_decl_file = 1` (index into a file table)
     - `DW_AT_decl_line = 3`
+
+You can look at a machine address (e.g., `0x401010`) and ask:  
+- “Which DIE’s PC range covers this?” → “main()” → line 3 in `main.cpp`.
+
+
+
