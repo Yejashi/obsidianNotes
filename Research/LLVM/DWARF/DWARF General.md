@@ -111,4 +111,26 @@ Abbrev #1 = DW_TAG_subprogram {
 
 Then `.debug_info` just stores the _values_ for that abbreviation. So you need both `.debug_info` + `.debug_abbrev` to decode DWARF.
 
+The `.debug_info` section then stores **only the values** for each abbreviation, not the names or types again:
+```
+Abbrev #1:
+  name = "foo"
+  low_pc = 0x401000
+  high_pc = 0x4010A0
+  decl_file = 3
+  decl_line = 42
+```
 
+So instead of:
+```
+DW_TAG_subprogram
+  DW_AT_name = "foo"
+  DW_AT_low_pc = 0x401000
+  ...
+```
+
+You just see:
+```
+AbbrevCode = 1
+Values = ("foo", 0x401000, 0x4010A0, 3, 42)
+```
