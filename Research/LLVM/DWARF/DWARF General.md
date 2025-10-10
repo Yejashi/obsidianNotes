@@ -71,4 +71,12 @@ You can look at a machine address (e.g., `0x401010`) and ask:
 
 
 #### The Line Table
+There is a table in the `.debug_line` section that contains translations of PC addressess to file and line numbers.
+
+| Address  | File     | Line |
+| -------- | -------- | ---- |
+| 0x401000 | main.cpp | 3    |
+| 0x401005 | main.cpp | 4    |
+| 0x401010 | main.cpp | 5    |
+| 0x401015 | main.cpp | 6    |
 
