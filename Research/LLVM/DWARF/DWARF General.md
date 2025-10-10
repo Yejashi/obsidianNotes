@@ -94,4 +94,4 @@ When compilers emit debug information, each function (“DIE” = _Debugging Inf
 
 If you repeated those attribute names for _every_ function, the `.debug_info` section would be huge.
 
-The solution is the Abbrev Table in `.debug_abbrev`.
+The solution is the Abbrev Table in `.debug_abbrev`. It's kind of like a class definition or database schema.
