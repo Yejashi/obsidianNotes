@@ -59,8 +59,7 @@ DWARF will record:
 - Inside it:
     - A DIE for `main()` (a `DW_TAG_subprogram`)
     - A DIE for `bar()` (another `DW_TAG_subprogram`)
-        
-- each function DIE will have:
+- Each function DIE will have:
     
     - `DW_AT_name = "main"`
         
