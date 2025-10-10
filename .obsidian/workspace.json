@@ -39,12 +39,14 @@
             "id": "7f762edc2753a734",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md"
+                "file": "Research/LLVM/DWARF/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-10-07 19.05.16.excalidraw"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ],
@@ -216,11 +218,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "7f762edc2753a734",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
+    "Research/LLVM/DWARF/Untitled.md",
     "Research/LLVM/DWARF",
     "Excalidraw/Drawing 2025-10-08 09.29.06.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
     "Research/LLVM/Clang/Clang Substructures.md",
     "Research/LLVM/Passes/Remark Limitations.md",
     "Research/LLVM/Passes/Remark Categories.md",
@@ -254,7 +257,6 @@
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/hw3.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Text Books/bioinformatice_tb.pdf",
     "Class/Year 2/Fall 2025/Midterm/Study Guide.pdf",
-    "Class/Year 2/Fall 2025/Midterm",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
     "Random Useful Resources/Creating a Virtual Display.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
