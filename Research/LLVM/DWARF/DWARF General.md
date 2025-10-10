@@ -86,3 +86,10 @@ This is how stack traces show:
 ```
 
 #### The Abbrev Table
+When compilers emit debug information, each function (“DIE” = _Debugging Information Entry_) has **attributes** like:
+- `DW_AT_name` → function name
+- `DW_AT_low_pc` → start address
+- `DW_AT_high_pc` → end address
+- `DW_AT_decl_file` / `DW_AT_decl_line` → where it was defined
+
+If you repeated those attribute names for _every_ function, the `.debug_info` section would be huge.
