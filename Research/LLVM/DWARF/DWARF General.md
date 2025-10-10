@@ -11,5 +11,18 @@ DWARF is a debugging information file format used by many compilers and debugger
 - **(Optional) Split debug**: build keeps small binaries and writes big debug data to a side file (`.dwo`, `.debug`), referenced via `.gnu_debuglink`/build-id.
 - **Use**: debuggers (or your tool via LLVM) parse these sections to reconstruct source views, call stacks, variables, etc.
 
+### Where DWARF Lives
+DWARF isn’t a separate file (usually). It lives inside the binary’s **debug sections**.
+
+When you compile with `-g`, the compiler adds extra sections into your ELF:
+```
+.text              → machine code
+.data              → global/static data
+.debug_info        → descriptions of functions, variables, etc.
+.debug_abbrev      → “schema” telling how DIEs are structured
+.debug_line        → mapping of addresses ↔ source lines
+.debug_str         → strings used by DWARF entries
+.debug_ranges      → list of discontiguous address ranges
+```
 ### Core Data Model
 - 
