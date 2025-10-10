@@ -140,4 +140,5 @@ Values = ("foo", 0x401000, 0x4010A0, 3, 42)
 When a program crashes:
 1. The debugger looks at the program counter (PC): `0x401023`.
 2. It checks the **address ranges** in `.debug_info` to find which function DIE owns that PC.
-3. 
+3. It looks up that DIE’s source info: file and line.
+4. 
