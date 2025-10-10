@@ -27,5 +27,15 @@ When you compile with `-g`, the compiler adds extra sections into your ELF:
 ### Core Data Model
 DWARF represents the program as a **tree of “DIEs” (Debugging Information Entries)**.
 
+For example:
+```
+Compile Unit (foo.cpp)
+├── subprogram "main"       (DW_TAG_subprogram)
+│     ├── variable "argc"   (DW_TAG_variable)
+│     ├── variable "argv"   (DW_TAG_variable)
+│     └── lexical_block
+│          └── call "bar"
+└── subprogram "bar"        (DW_TAG_subprogram)
+```
 
 
