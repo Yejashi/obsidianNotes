@@ -44,4 +44,30 @@ Every node has:
 - a list of **attributes** (e.g., `DW_AT_name`, `DW_AT_low_pc`, `DW_AT_high_pc`, `DW_AT_decl_line`)
 
 #### A Simple Example
-Cons
+Consider the following application:
+```
+int bar() { return 42; }
+
+int main() {
+  int x = bar();
+  return x;
+}
+```
+
+DWARF will record:
+- A **compile unit** for `main.cpp`
+- Inside it:
+    - A DIE for `main()` (a `DW_TAG_subprogram`)
+    - A DIE for `bar()` (another `DW_TAG_subprogram`)
+        
+- each function DIE will have:
+    
+    - `DW_AT_name = "main"`
+        
+    - `DW_AT_low_pc = 0x401000`
+        
+    - `DW_AT_high_pc = 0x401045`
+        
+    - `DW_AT_decl_file = 1` (index into a file table)
+        
+    - `DW_AT_decl_line = 3`
