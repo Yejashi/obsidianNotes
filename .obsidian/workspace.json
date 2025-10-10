@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Clang Substructures"
             }
+          },
+          {
+            "id": "7f762edc2753a734",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-07 19.05.16.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -186,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,13 +216,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6431055f6b4ec61d",
+  "active": "7f762edc2753a734",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-10-08 09.29.06.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
+    "Research/LLVM/Clang/Clang Substructures.md",
     "Research/LLVM/Passes/Remark Limitations.md",
     "Research/LLVM/Passes/Remark Categories.md",
     "Research/LLVM/Pass Coverage.md",
-    "Excalidraw/Drawing 2025-10-08 09.29.06.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
     "Research/LLVM/Clang/Pass Manager and Analysis Manager.md",
     "Research/LLVM/General Knowledge/Structure of a Compiler.md",
     "Research/LLVM/General Knowledge",
@@ -219,7 +233,6 @@
     "Research/LLVM/Clang/Preprocessor.md",
     "Meta/Attachments/Pasted image 20251004163931.png",
     "Research/LLVM/Clang/Clang Tooling.md",
-    "Research/LLVM/Clang/Clang Substructures.md",
     "Meta/Attachments/Pasted image 20251004123121.png",
     "Research/LLVM/Clang",
     "conflict-files-obsidian-git.md",
