@@ -70,4 +70,5 @@ You can look at a machine address (e.g., `0x401010`) and ask:
 - “Which DIE’s PC range covers this?” → “main()” → line 3 in `main.cpp`.
 
 
+#### The Line Table
 
