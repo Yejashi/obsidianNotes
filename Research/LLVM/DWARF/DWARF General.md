@@ -95,3 +95,17 @@ When compilers emit debug information, each function (“DIE” = _Debugging Inf
 If you repeated those attribute names for _every_ function, the `.debug_info` section would be huge.
 
 The solution is the Abbrev Table in `.debug_abbrev`. It's kind of like a class definition or database schema.
+
+Basically saying that a subprogram DIE will always have these attributes, in this order, with these data types.
+
+For example:
+```
+Abbrev #1 = DW_TAG_subprogram {
+    DW_AT_name        (string)
+    DW_AT_low_pc      (address)
+    DW_AT_high_pc     (address)
+    DW_AT_decl_file   (data1)
+    DW_AT_decl_line   (data1)
+}
+```
+
