@@ -141,4 +141,5 @@ When a program crashes:
 1. The debugger looks at the program counter (PC): `0x401023`.
 2. It checks the **address ranges** in `.debug_info` to find which function DIE owns that PC.
 3. It looks up that DIE’s source info: file and line.
-4. 
+4. It checks `.debug_line` to find the exact source line
+5. It uses `.debug_frame` to unwind the stack (figure out which function called which).
