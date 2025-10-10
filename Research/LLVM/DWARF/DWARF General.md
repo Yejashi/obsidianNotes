@@ -25,4 +25,5 @@ When you compile with `-g`, the compiler adds extra sections into your ELF:
 .debug_ranges      → list of discontiguous address ranges
 ```
 ### Core Data Model
-- 
+DWARF represents your program as a **tree of “DIEs” (Debugging Information Entries)**.
+
