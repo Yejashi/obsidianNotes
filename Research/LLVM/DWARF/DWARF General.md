@@ -143,3 +143,6 @@ When a program crashes:
 3. It looks up that DIE’s source info: file and line.
 4. It checks `.debug_line` to find the exact source line
 5. It uses `.debug_frame` to unwind the stack (figure out which function called which).
+
+### TODO
+- variables and types
