@@ -93,3 +93,4 @@ When compilers emit debug information, each function (“DIE” = _Debugging Inf
 - `DW_AT_decl_file` / `DW_AT_decl_line` → where it was defined
 
 If you repeated those attribute names for _every_ function, the `.debug_info` section would be huge.
+
