@@ -8,3 +8,4 @@
 
 ## Part A
 I used the Ames ancestor genome  and Ames genome. I ran nucmer to align them and used show-snps to get the variant information. They're both in `ames_comp.delta` and `ames_comp.snps`.
+
