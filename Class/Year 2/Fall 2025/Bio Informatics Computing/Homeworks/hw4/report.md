@@ -25,4 +25,4 @@ I compared the test genome to the reference genome using nucmer and show-coords.
 | Average contig size | ≈ 45 kb     |
 | Alignment identity  | 98–100%     |
 | Reference coverage  | ≈ 99%       |
- 
+ Based on the alignment, the test genome matched the reference genome very well. The identity was high, and only small gaps or repeats seemed to be missing.
