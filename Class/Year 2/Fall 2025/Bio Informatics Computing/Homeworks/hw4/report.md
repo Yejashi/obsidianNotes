@@ -17,5 +17,5 @@ The results showed around 32 total differences, including single-nucleotide chan
 | Metric           | Val         |
 | ---------------- | ----------- |
 | Reference genome | NC_000913.3 |
-|                  |             |
+| Assembly size    |             |
  
