@@ -14,7 +14,7 @@ The results showed about 32 total differences, including single-nucleotide chang
 
 
 ## Part B
-I compared the test genome to the reference genome using nucmer and show-coords. I looked at basic  statistics like number of contigs, total length, and N50 size.
+I compared the test genome to the reference genome using nucmer and show-coords. I looked at   statistics like number of contigs, total length, and N50 size.
 
 | Metric              | Val         |
 | ------------------- | ----------- |
