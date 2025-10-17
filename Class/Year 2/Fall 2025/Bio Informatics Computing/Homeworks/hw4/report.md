@@ -22,5 +22,5 @@ The results showed around 32 total differences, including single-nucleotide chan
 | N50 (contig length) | ≈ 190 kb    |
 | Average contig size | ≈ 45 kb     |
 | Alignment identity  | 98–100%     |
-|                     |             |
+| Reference coverage  | ≈ 99%       |
  
