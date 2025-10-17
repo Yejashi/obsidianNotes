@@ -28,4 +28,4 @@ I compared the test genome to the reference genome using nucmer and show-coords.
 | Reference coverage  | ≈ 99%       |
 Based on the alignment, the test genome matched the reference very closely. The high identity and coverage suggest that most of the assembly is accurate, with only small gaps or repeats missing. Having around 110 contigs means the assembly is somewhat fragmented, but still of decent quality overall. The N50 value (around 190 kb) shows that many contigs are fairly long. Overall, this looks like a good assembly because it covers almost all of the reference genome and has a high percent identity. The main downside is that it’s still somewhat fragmented, so it’s not a perfect assembly.
 
-MISC: I also generated the figure for the test and 
+MISC: I also generated the figure for question 4.
