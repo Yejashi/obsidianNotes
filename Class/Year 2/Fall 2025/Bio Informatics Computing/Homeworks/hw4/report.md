@@ -7,7 +7,7 @@
 ---
 
 ## Part A
-For this part, I compared the  Ames ancestor genome with the Ames strain. I used nucmer to align them and show-snps to list the variants. The results are in the files `ames_comp.delta` and `ames_comp.snps`.
+For this part, I compared the  Ames ancestor sequence with the Ames sequence. I used nucmer to align them and show-snps to list the variants. The results are in the files `ames_comp.delta` and `ames_comp.snps`.
 
 The results showed around 32 total differences, including single nucleotide changes and small indels.  Most of the differences looked small and spread out, but there were some regions where coordinates jumped by large amounts, which could mean structural differences. Although since both genomes are almost identical, these changes are pretty small compared to the total genome size.
 
