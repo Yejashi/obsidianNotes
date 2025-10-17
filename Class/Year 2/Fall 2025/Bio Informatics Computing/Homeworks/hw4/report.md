@@ -1,9 +1,9 @@
-# COSC594 – Homework 3 Report
+# COSC594 – Homework 4 Report
 
 **Name:** Befikir T. Bogale  
 **Class:** COSC594  
-**Assignment:** Homework 3
+**Assignment:** Homework 4
 
 ---
 
-## 1. Simulate a Hidden Markov Model
+## Part A
