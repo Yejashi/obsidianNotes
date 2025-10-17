@@ -15,15 +15,6 @@ The results showed about 32 total differences, including single-nucleotide chang
 
 ## Part B
 I compared the test genome to the reference genome using nucmer and show-coords. I looked at   statistics like number of contigs, total length, and N50 size.
-|Metric|Value|
-|---|---|
-|Reference genome|NC_000913.3|
-|Assembly size|≈ 4.99 Mb|
-|Number of contigs|≈ 110|
-|N50 (contig length)|≈ 190 kb|
-|Average contig size|≈ 45 kb|
-|Alignment identity|98–100%|
-|Reference coverage|≈ 99%|
 
 | Metric              | Val         |
 | ------------------- | ----------- |
