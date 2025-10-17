@@ -7,4 +7,4 @@
 ---
 
 ## Part A
-used the Ames ancestor genome (NC_007530) as the reference and the Ames strain (NC_003997) as the query. I ran nucmer to align them and used show-snps to get the variant information. They're both in `ames_comp.delta` and `ames_comp.snps`.
+I used the Ames ancestor genome  and Ames genome. I ran nucmer to align them and used show-snps to get the variant information. They're both in `ames_comp.delta` and `ames_comp.snps`.
