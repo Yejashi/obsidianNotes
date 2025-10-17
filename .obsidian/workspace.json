@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 408.5,
+    "collapsed": true
   },
   "right": {
     "id": "cada89a5672723ea",
