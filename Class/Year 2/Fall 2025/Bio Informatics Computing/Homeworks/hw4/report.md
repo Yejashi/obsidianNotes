@@ -11,7 +11,7 @@ For this part, I compared the  Ames ancestor sequence with the Ames sequence. I 
 
 The results showed about 32 total differences, including single-nucleotide changes and small insertions or deletions. Most of these were small and spread across the genome, but a few spots showed large jumps in cordinates, which might suggest small structural diferences. Since both genomes are almost identical overall, these changes make up a very small fraction of the genome and are probably minor variations between the two strains.
 
-Even though i only saw 32 differences , those changes could still be biologically important. Some of the SNPs or deletions might affect genes related to virulence, which could help explain differences in behavior between the strains. Since there weren’t any big structural changes, it seems like the differences came from small mutations rather than large genome rearrangements.
+Even though i only saw 32 differences , those changes could still be biologically important. Some of the SNPs or deletions might affect genes related to virulence, which could help explain differences in between the sequences. Since there weren’t any big structural changes, it seems like the differences came from small mutations rather than large genome rearrangements.
 
 
 ## Part B
