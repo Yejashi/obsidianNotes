@@ -9,7 +9,7 @@
 ## Part A
 For this part, I compared the  Ames ancestor sequence with the Ames sequence. I used nucmer to align them and show-snps to list the variants. The results are in the files `ames_comp.delta` and `ames_comp.snps`.
 
-The results showed about 32 total differences, including single-nucleotide changes and small insertions or deletions. Most of these were small and spread across the genome, but a few spots showed large jumps in cordinates, which might suggest small structural differences. Since both genomes are almost identical overall, these changes make up a very small fraction of the genome and are probably minor variations between the two strains.
+The results showed about 32 total differences, including single-nucleotide changes and small insertions or deletions. Most of these were small and spread across the genome, but a few spots showed large jumps in cordinates, which might suggest small structural diferences. Since both genomes are almost identical overall, these changes make up a very small fraction of the genome and are probably minor variations between the two strains.
 
 
 
