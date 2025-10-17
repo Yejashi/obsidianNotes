@@ -14,7 +14,8 @@ The results showed around 32 total differences, including single-nucleotide chan
 
 
 ## Part B
-| Metric           | Val |
-| ---------------- | --- |
-| Reference genome |     |
+| Metric           | Val         |
+| ---------------- | ----------- |
+| Reference genome | NC_000913.3 |
+|                  |             |
  
