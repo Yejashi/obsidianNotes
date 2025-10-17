@@ -11,7 +11,7 @@ For this part, I compared the  Ames ancestor sequence with the Ames sequence. I 
 
 The results showed about 32 total differences, including single-nucleotide changes and small insertions or deletions. Most of these were small and spread across the genome, but a few spots showed large jumps in cordinates, which might suggest small structural diferences. Since both genomes are almost identical overall, these changes make up a very small fraction of the genome and are probably minor variations between the two strains.
 
-Even though 32 variants seems like a small number for a 5+ million base pair genome, these changes are probably important biologically. 
+Even though 32 variants is a very small number for a 5-million-base-pair genome, those changes could still be biologically important. Some of the SNPs or deletions might affect genes related to virulence or regulation, which could help explain differences in behavior between the strains. Since there weren’t any big structural changes, it seems like the differences came from small mutations rather than large genome rearrangements.
 
 
 ## Part B
