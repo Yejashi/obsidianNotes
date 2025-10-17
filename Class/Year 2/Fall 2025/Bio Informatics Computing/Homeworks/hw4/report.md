@@ -9,4 +9,4 @@
 ## Part A
 I used the Ames ancestor genome  and Ames genome. I ran nucmer to align them and used show-snps to get the variant information. They're both in `ames_comp.delta` and `ames_comp.snps`.
 
-The results showed around 32 total differences. 
+The results showed around 32 total differences.  Most of the differences looked small and spread out, but there were some regions where coordinates jumped by large amounts, which could mean structural differences.
