@@ -5,7 +5,6 @@
 **Assignment:** Homework 4
 
 ---
-
 ## Part A
 For this part, I compared the  Ames ancestor sequence with the Ames sequence. I used nucmer to align them and show-snps to list the variants. The results are in the files `ames_comp.delta` and `ames_comp.snps`.
 
@@ -13,7 +12,7 @@ The results showed about 32 total differences, including single-nucleotide chang
 
 Even though i only saw 32 differences , those changes could still be biologically important. Some of the SNPs or deletions might affect genes related to virulence, which could help explain differences in between the sequences. Since there weren’t any big structural changes, it seems like the differences came from small mutations rather than large genome rearrangements.
 
-
+***
 ## Part B
 I compared the test genome to the reference genome using nucmer and show-coords. I looked at   statistics like number of contigs, total length, and N50 size.
 
