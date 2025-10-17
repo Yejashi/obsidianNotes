@@ -25,4 +25,4 @@ I compared the test genome to the reference genome using nucmer and show-coords.
 | Average contig size | ≈ 45 kb     |
 | Alignment identity  | 98–100%     |
 | Reference coverage  | ≈ 99%       |
- Based on the alignment, the test genome matched the reference genome very well. The identity was high, and only small gaps or repeats seemed to be missing. There were about 110 contigs, which means the assembly is somewhat fragmented, but it’s still pretty good overall. The N50 value (around 190 kb) means many contigs are fairly long. 
+Based on the alignment, the test genome matched the reference very closely. The high identity and coverage suggest that most of the assembly is accurate, with only small gaps or repeats missing. Having around 110 contigs means the assembly is somewhat fragmented, but still of decent quality overall. The N50 value (around 190 kb) shows that many contigs are fairly long, which is a good sign for a short-read assembly.
