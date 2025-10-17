@@ -14,6 +14,8 @@ The results showed around 32 total differences, including single-nucleotide chan
 
 
 ## Part B
+I compared the test genome to the reference genome using nucmer and show-coords. I also looked at basic assembly statistics like number of contigs, total length, and N50 size.
+
 | Metric              | Val         |
 | ------------------- | ----------- |
 | Reference genome    | NC_000913.3 |
