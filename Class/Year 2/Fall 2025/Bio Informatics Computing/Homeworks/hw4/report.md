@@ -14,14 +14,7 @@ The results showed around 32 total differences, including single-nucleotide chan
 
 
 ## Part B
-|   |   |
-|---|---|
+| Metric           | Val |
+| ---------------- | --- |
+| Reference genome |     |
  
-|Metric|Value / Observation|
-|Reference genome|E. coli K-12 (NC_000913.3)|
-|Assembly size|≈ 4.99 Mb|
-|Number of contigs|≈ 110|
-|N50 (contig length)|≈ 190 kb|
-|Average contig size|≈ 45 kb|
-|Alignment identity|98–100%|
-|Reference coverage|≈ 99%|
