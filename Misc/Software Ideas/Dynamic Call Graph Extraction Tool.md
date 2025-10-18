@@ -601,16 +601,13 @@ def build_dynamic_callgraph(static_graph, indirect_calls,
 **Why this step is crucial:**
 
 1. **Synthesizes all data sources**
-    
     - No single instrumentation captures everything
     - Combining them gives complete picture
 2. **Resolves ambiguities**
-    
     - Entry instrumentation: "called from libstdc++"
     - Pattern matching: "std::sort was passed myComparator"
     - Together: "std::sort called myComparator" ✓
 3. **Validates static analysis**
-    
     - Static: "this MIGHT be called as callback"
     - Dynamic: "this WAS called as callback"
     - Confidence levels for edges
@@ -625,7 +622,6 @@ def build_dynamic_callgraph(static_graph, indirect_calls,
     ```
     
     Without postprocessing, you'd have disconnected pieces
-    
 
 ---
 
