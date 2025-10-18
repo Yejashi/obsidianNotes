@@ -149,7 +149,6 @@ cs_103_005,0x55a3c8002100
 **Purpose:** Discover when YOUR functions are called FROM library code that you don't instrument.
 
 **The problem this solves:**
-
 ```cpp
 // Your code - you instrument this
 void myComparator(int a, int b) {
@@ -192,7 +191,6 @@ void myComparator(int a, int b) {
 ```
 
 **Runtime behavior:**
-
 ```cpp
 void __trace_function_entry(const char* func_name, void* return_addr) {
     // Record who called this function
@@ -251,7 +249,6 @@ graph.add_edge("std::sort", "myComparator",
 **Purpose:** Statically identify where you're passing callbacks to known library functions, creating candidate edges even before runtime.
 
 **What it does:**
-
 ```cpp
 // Your pass analyzes call sites
 void foo() {
@@ -282,7 +279,6 @@ if (CallInst->getCalledFunction()->getName() == "pthread_create") {
 ```
 
 **Pattern database (built into your pass):**
-
 ```cpp
 struct LibraryAPIPattern {
     std::string function_name;
@@ -300,7 +296,6 @@ struct LibraryAPIPattern {
 ```
 
 **Output: callback_registrations.json**
-
 ```json
 {
   "registrations": [
@@ -327,27 +322,21 @@ struct LibraryAPIPattern {
 ```
 
 **Why this is useful:**
-
 1. **Creates candidate edges before runtime**
-    
     - You know `foo` likely causes `pthread_create -> myThreadFunction`
     - Even if the program hasn't run yet
 2. **Validates against runtime data**
-    
     - If `myThreadFunction` executes AND you see it was entered from libpthread
     - Confirms the edge with high confidence
 3. **Handles cases where entry instrumentation is ambiguous**
-    
     - Entry instrumentation: "myComparator was called from libstdc++"
     - Pattern matching: "std::sort was called with myComparator"
     - Together: "std::sort called myComparator" (definitive)
 4. **Documentation/visualization**
-    
     - Can label edges: "via pthread_create" instead of generic "via libpthread"
     - Better UX for developers
 
 **Limitations:**
-
 - Only works for APIs you've added to the pattern database
 - Custom library callbacks won't be recognized (falls back to entry instrumentation)
 - Template instantiations can be tricky (need name mangling awareness)
@@ -355,9 +344,7 @@ struct LibraryAPIPattern {
 ---
 
 ## Step 5: Coverage-Based Pruning
-
 **Purpose:** Remove edges from the static graph that weren't actually executed, giving you the _dynamic_ call graph.
-
 **The problem:**
 
 ```cpp
