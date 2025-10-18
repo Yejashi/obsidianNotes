@@ -186,28 +186,3 @@ Here’s the repeatable workflow you can apply to any region:
 |5|Did it help?|Runtime + hardware counters|Caliper, perf, HPCToolkit|
 
 Each level either _confirms_ or _refines_ your hypothesis.
-
----
-
-## ✅ 7. TL;DR — in your example
-
-|Level|Evidence|Conclusion|
-|---|---|---|
-|Performance|Runtime collapsed|Something got constant-folded|
-|Remarks|`loop deleted because it is invariant`|Compiler proved loop redundant|
-|IR|`ret i32 10`|Loop fully replaced by constant|
-|Pass sequence|SROA → InstCombine → IndVarSimplify → LoopDeletion|Causal chain established|
-|Assembly|1 `mov`, 1 `ret`|Minimal instruction count|
-|Runtime|200× faster|Optimization fully explains behavior|
-
----
-
-So your **top-down reasoning** looks like:
-
-> **Observation:** Function runs faster.  
-> **Clue:** “Loop deleted because it is invariant.”  
-> **Verification:** Optimized IR shows constant return.  
-> **Explanation:** Earlier passes made loop provably invariant; LoopDeletion removed it.  
-> **Result:** Constant folding → no runtime loop → major speedup.
-
-That’s the ideal structured analysis loop (no pun intended) — remarks guide your _hypothesis_, IR and pass data provide the _mechanistic explanation_, and runtime metrics confirm the _effect_.
