@@ -11,8 +11,7 @@ These tell me _“what ran and how long it took.”_
 These tell me _“what the compiler did to this code.”_
 
 ### Step 3 — **Correlate by region**
-
-Use debug line info to map Caliper regions ↔ source lines ↔ remark entries.  
+Mmap Caliper regions ↔ source lines ↔ remark entries.  
 That lets you ask:
 
 > “This region got faster from -O2→-O3; what new remarks appeared or disappeared?”
