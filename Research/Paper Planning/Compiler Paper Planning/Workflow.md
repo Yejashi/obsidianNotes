@@ -64,36 +64,3 @@ I get a _progressive analysis model_:
 | **IR diff**                 | “How did the code structure change?”      |
 | **Machine code / counters** | “Did that change actually help or hurt?”  |
 And i only pay the cost of deeper introspection for the regions that look suspicious or interesting.
-
----
-
-## ✅ 5. Suggested tooling stack (all scriptable)
-
-|Purpose|Command|Output|
-|---|---|---|
-|Save remarks|`clang -O3 -fsave-optimization-record -foptimization-record-file=O3.yaml`|YAML|
-|IR diff|`opt -O3 -print-changed-format=json < file.bc > /dev/null`|JSON|
-|Pass sequence|`opt --print-pipeline-passes`|text|
-|Caliper data|`cali-query -e format=json -q "select function,avg(time)"`|JSON|
-|Machine analysis|`llvm-mca -output=json file.s`|JSON|
-|Merge layers|Python (pandas / JSON)|Unified dataset|
-
----
-
-### 🧠 TL;DR
-
-> ✅ **Yes — your proposed workflow is the right foundation.**  
-> Use runtime metrics + compiler remarks to form hypotheses.
-> 
-> 🔍 When something looks odd, dive deeper with:
-> 
-> - IR change dumps (`-print-changed-format=json`)
->     
-> - pass traces
->     
-> - disassembly or `llvm-mca`
->     
-> - hardware counters.
->     
-> 
-> 💾 All of those can be collected in structured (JSON/YAML) form, letting you build a reproducible, machine-analyzable correlation between compiler transformations and runtime performance.
