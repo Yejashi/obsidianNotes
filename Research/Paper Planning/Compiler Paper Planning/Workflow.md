@@ -11,19 +11,14 @@ These tell me _“what ran and how long it took.”_
 These tell me _“what the compiler did to this code.”_
 
 ### Step 3 — **Correlate by region**
-Mmap Caliper regions ↔ source lines ↔ remark entries.  
-That lets you ask:
-
+Map Caliper regions ↔ source lines ↔ remark entries.  
+That lets me ask:
 > “This region got faster from -O2→-O3; what new remarks appeared or disappeared?”
 
 ### Step 4 — **Hypothesis building**
-
-From that correlation you hypothesize:
-
+From that correlation i hypothesize:
 - “Vectorization remark appeared → likely SIMD speedup.”
-    
 - “Loop unrolled → maybe higher register pressure.”
-    
 - “No remark change but runtime changed → backend or hardware effect.”
     
 
