@@ -153,7 +153,7 @@ The reasoning chain is now explicit:
 → Therefore, “loop deleted because it is invariant” isn’t arbitrary — it’s the _consequence_ of those transformations.
 
 
-## 🔬 5. If you want to quantify _impact_, go down another layer
+## If you want to quantify _impact_, go down another layer
 You can now connect:
 - **Before/after IR** (`-print-changed-format=json`)
 - **Assembly** (`llvm-objdump -d`)
@@ -173,7 +173,7 @@ Now you can write the full explanation:
 
 ---
 
-## 🧠 6. General method — “Top-down explanation pipeline”
+##  General method — “Top-down explanation pipeline”
 
 Here’s the repeatable workflow you can apply to any region:
 
