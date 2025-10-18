@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
+                "file": "Misc/Software Ideas/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Workflow"
+              "title": "Untitled"
             }
           },
           {
@@ -218,8 +218,9 @@
   },
   "active": "30b0f2fa8c63ee3c",
   "lastOpenFiles": [
-    "Research/LLVM/Specific Passes.md",
     "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
+    "Misc/Software Ideas/Untitled.md",
+    "Research/LLVM/Specific Passes.md",
     "Research/Paper Planning/Compiler Paper Planning",
     "Research/Paper Planning",
     "Research/LLVM/General Knowledge/Structure of a Compiler.md",
@@ -262,7 +263,6 @@
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/Study Guide.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/COSC494 Study Guide.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/report 1.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
-    "Random Useful Resources/Creating a Virtual Display.md"
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md"
   ]
 }
