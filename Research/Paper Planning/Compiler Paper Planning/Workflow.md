@@ -186,3 +186,37 @@ Here’s the repeatable workflow you can apply to any region:
 | 5    | Did it help?                          | Runtime + hardware counters | Caliper, perf, HPCToolkit        |
 
 Each level either _confirms_ or _refines_ your hypothesis.
+
+
+```
+┌─────────────────┐
+│ Caliper Region  │  "BASIC_MAT_MAT_SHARED: 15.2ms, 45% occupancy"
+└────────┬────────┘
+         │
+         ├──────────────────────────────────────┐
+         │                                      │
+         ▼                                      ▼
+┌─────────────────┐                   ┌─────────────────┐
+│ Runtime Metrics │                   │ Remarks (JSON)  │
+│ - GPU time      │                   │ - Vectorized    │
+│ - Occupancy     │    Correlate      │ - Unrolled 8x   │
+│ - Reg pressure  │ ◄────────────────►│ - Inlined       │
+│ - Memory BW     │                   │ - Not unrolled  │
+└─────────────────┘                   └─────────────────┘
+         │                                      │
+         └──────────────┬───────────────────────┘
+                        ▼
+              ┌──────────────────┐
+              │ Hypothesis        │
+              │ "Unroll caused    │
+              │  register spill?" │
+              └─────────┬─────────┘
+                        │
+                        ▼ (if needed)
+              ┌──────────────────┐
+              │ Deep Dive:       │
+              │ - IR diff        │
+              │ - PTX/SASS asm   │
+              │ - llvm-mca       │
+              └──────────────────┘
+```
