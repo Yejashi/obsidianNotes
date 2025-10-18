@@ -1,12 +1,9 @@
 
-## 🧭 1. Your workflow, articulated clearly
+## General Workflow
 
 ### Step 1 — **Runtime instrumentation (Caliper, Thicket, etc.)**
-
-You collect:
-
+Collect:
 - Region-level wall time, GPU time, and PAPI counters
-    
 - Metadata (kernel name, function name, source line)
     
 
