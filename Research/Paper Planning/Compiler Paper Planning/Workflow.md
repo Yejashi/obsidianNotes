@@ -66,10 +66,10 @@ I get a _progressive analysis model_:
 And i only pay the cost of deeper introspection for the regions that look suspicious or interesting.
 
 ***
-## Example workflow
+# Example workflow
 
 
-## 🧩 1. Start: the high-level _observation_
+## 1. Start: the high-level _observation_
 
 You have **measured runtime** for your app or region — say:
 
@@ -81,15 +81,11 @@ You have **measured runtime** for your app or region — say:
 Your first goal isn’t to explain every micro-optimization — it’s to _narrow down what changed semantically_.
 
 So you start from the **performance delta**:
-
 > “The region got ~200× faster.”
 
----
-
-## 🧠 2. Correlate with **remarks**
+##  Correlate with **remarks**
 
 Now bring in your optimization remarks:
-
 ```
 Loop deleted because it is invariant [-Rpass=loop-delete]
 '_ZL3foov' not inlined because of noinline
@@ -106,19 +102,15 @@ They let you hypothesize:
 |`tail call`|Call frame reused → negligible extra cost.|
 
 So your initial hypothesis is simple:
-
 > “The loop was deleted because the compiler proved its effect is constant, reducing the function to a constant return.”
-
 This explains _qualitatively_ why performance improved.
 
----
 
-## ⚙️ 3. Verify by looking at the **optimized IR**
+## ⚙️ Verify by looking at the **optimized IR**
 
 Now you want to confirm whether your hypothesis is true.
 
 **Command:**
-
 ```bash
 clang -O3 -emit-llvm -S source.c -o opt.ll
 ```
@@ -126,7 +118,6 @@ clang -O3 -emit-llvm -S source.c -o opt.ll
 Inspect `foo()` in `opt.ll`.
 
 You’ll likely see:
-
 ```llvm
 define dso_local i32 @foo() {
 entry:
@@ -135,17 +126,12 @@ entry:
 ```
 
 So indeed:
-
 - Loop and arithmetic are gone.
-    
 - Function just returns a constant.
-    
 
 This confirms _structural elimination_ → zero runtime work.
 
----
-
-## 🧮 4. Reconnect to **pass history**
+##  Reconnect to **pass history**
 
 If you log the pipeline (e.g., with `-debug-pass-manager`), you’ll see:
 
@@ -159,30 +145,19 @@ SimplifyCFGPass
 ```
 
 The reasoning chain is now explicit:
-
 1. **SROA / InstCombine** → exposed that all ops are pure integer math.
-    
 2. **IndVarSimplify** → proved loop trip count fixed and body side-effect-free.
-    
 3. **LoopDeletion** → removed the loop.
-    
 4. **SimplifyCFG** → cleaned up dead code.
-    
 
 → Therefore, “loop deleted because it is invariant” isn’t arbitrary — it’s the _consequence_ of those transformations.
 
----
 
 ## 🔬 5. If you want to quantify _impact_, go down another layer
-
 You can now connect:
-
 - **Before/after IR** (`-print-changed-format=json`)
-    
 - **Assembly** (`llvm-objdump -d`)
-    
 - **Runtime measurement (Caliper)**
-    
 
 and demonstrate:
 
