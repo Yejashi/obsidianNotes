@@ -190,7 +190,7 @@ Each level either _confirms_ or _refines_ your hypothesis.
 
 ```
 ┌─────────────────┐
-│ Caliper Region  │  "BASIC_MAT_MAT_SHARED: 15.2ms, 45% occupancy"
+│ Caliper Region  │  "BASIC_MAT_MAT_SHARED: 2 seconds"
 └────────┬────────┘
          │
          ├──────────────────────────────────────┐
