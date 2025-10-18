@@ -5,9 +5,7 @@
 Collect:
 - Region-level wall time, GPU time, and PAPI counters
 - Metadata (kernel name, function name, source line)
-    
-
-These give you _“what ran and how long it took.”_
+These tell me _“what ran and how long it took.”_
 
 ### Step 2 — **Compiler optimization remarks**
 
