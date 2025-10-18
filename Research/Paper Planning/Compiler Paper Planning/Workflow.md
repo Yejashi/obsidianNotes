@@ -22,11 +22,9 @@ From that correlation i hypothesize:
 - “No remark change but runtime changed → backend or hardware effect.”
     
 
-✅ Up to this point, you’re still in human-readable YAML + Caliper JSON/CSV land — easy to automate.
-
 ---
 
-## 🧠 2. When you need to _go deeper_
+##  When i need to _go deeper_
 
 Once a hypothesis looks interesting (“why did -O3 slow down this region?”), you descend the stack:
 
