@@ -8,10 +8,7 @@ Collect:
 These tell me _“what ran and how long it took.”_
 
 ### Step 2 — **Compiler optimization remarks**
-
-You gather `.yaml` remark files (`clang -fsave-optimization-record`) for each optimization level (`-O0`–`-O3`), perhaps per kernel.
-
-These give you _“what the compiler did to this code.”_
+These tell me _“what the compiler did to this code.”_
 
 ### Step 3 — **Correlate by region**
 
