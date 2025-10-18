@@ -65,25 +65,18 @@ I get a _progressive analysis model_:
 | **Machine code / counters** | “Did that change actually help or hurt?”  |
 And i only pay the cost of deeper introspection for the regions that look suspicious or interesting.
 
+***
 ## Example workflow
-Beautiful question — and you’re _exactly_ thinking like a performance-analysis researcher should:  
-“How do I start from **what I observed (runtime)** and **what the compiler reported (remarks)** and then walk _downward_ until I can explain _why_?”
 
-Let’s walk this carefully as a structured, layered reasoning process.  
-Think of it like a **drill-down hierarchy**, where each layer answers one of these questions:
-
-> **What happened? → Where? → How? → Why?**
-
----
 
 ## 🧩 1. Start: the high-level _observation_
 
 You have **measured runtime** for your app or region — say:
 
-|Opt level|Runtime (ms)|
-|---|---|
-|-O0|4.8|
-|-O3|0.02|
+| Opt level | Runtime (ms) |
+| --------- | ------------ |
+| -O0       | 4.8          |
+| -O3       | 0.02         |
 
 Your first goal isn’t to explain every micro-optimization — it’s to _narrow down what changed semantically_.
 
