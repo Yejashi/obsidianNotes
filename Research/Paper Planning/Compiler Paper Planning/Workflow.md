@@ -28,13 +28,13 @@ From that correlation i hypothesize:
 
 Once a hypothesis looks interesting (“why did -O3 slow down this region?”), i descend the stack:
 
-|Layer|What you inspect|Purpose|Machine-readable options|
-|---|---|---|---|
-|**LLVM IR diffs**|Output from `opt -S -print-changed` or `-fpass-plugin=PrintFunction`|See structural change (loop deleted, inlined, etc.)|Use `-print-changed-format=json` (LLVM ≥17) — gives structured JSON diffs|
-|**Optimization pass trace**|`-debug-pass-manager` logs|See which passes actually ran and in what order|Parse textual trace or use `opt --print-pipeline-passes`|
-|**Machine code / scheduling**|`llvm-mca`, `llvm-objdump -d`, `-fsave-optimization-record -fsave-optimization-record-passes=machine`|Verify instruction mix, register pressure|`llvm-mca` JSON output gives IPC, bottlenecks|
-|**Hardware performance counters**|Caliper, HPCToolkit, perf, rocprof|Validate whether hypothesis holds (cache misses, stalls, etc.)|All export CSV/JSON|
-|**Debug metadata linkage**|`llvm-dwarfdump`, DWARF line tables|Re-link machine code to source for region correlation|Dwarf4/5 line info in binary, can parse via `pyelftools`|
+| Layer                             | What i inspect                                                                                        | Purpose                                                        | Machine-readable options                                                  |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| **LLVM IR diffs**                 | Output from `opt -S -print-changed` or `-fpass-plugin=PrintFunction`                                  | See structural change (loop deleted, inlined, etc.)            | Use `-print-changed-format=json` (LLVM ≥17) — gives structured JSON diffs |
+| **Optimization pass trace**       | `-debug-pass-manager` logs                                                                            | See which passes actually ran and in what order                | Parse textual trace or use `opt --print-pipeline-passes`                  |
+| **Machine code / scheduling**     | `llvm-mca`, `llvm-objdump -d`, `-fsave-optimization-record -fsave-optimization-record-passes=machine` | Verify instruction mix, register pressure                      | `llvm-mca` JSON output gives IPC, bottlenecks                             |
+| **Hardware performance counters** | Caliper, HPCToolkit, perf, rocprof                                                                    | Validate whether hypothesis holds (cache misses, stalls, etc.) | All export CSV/JSON                                                       |
+| **Debug metadata linkage**        | `llvm-dwarfdump`, DWARF line tables                                                                   | Re-link machine code to source for region correlation          | Dwarf4/5 line info in binary, can parse via `pyelftools`                  |
 
 By connecting these layers via `DebugLoc` or DWARF line info, you can make the “why” traceable.
 
