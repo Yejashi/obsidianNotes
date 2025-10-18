@@ -57,12 +57,12 @@ LLVM already gives me structured outputs at multiple levels:
 
 I get a _progressive analysis model_:
 
-|Layer|Question answered|
-|---|---|
-|**Caliper runtime data**|“Which region is slow?”|
-|**Remarks**|“What optimizations did LLVM apply here?”|
-|**IR diff**|“How did the code structure change?”|
-|**Machine code / counters**|“Did that change actually help or hurt?”|
+| Layer                       | Question answered                         |
+| --------------------------- | ----------------------------------------- |
+| **Caliper runtime data**    | “Which region is slow?”                   |
+| **Remarks**                 | “What optimizations did LLVM apply here?” |
+| **IR diff**                 | “How did the code structure change?”      |
+| **Machine code / counters** | “Did that change actually help or hurt?”  |
 
 And you only pay the cost of deeper introspection for the regions that look suspicious or interesting.
 
