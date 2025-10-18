@@ -36,21 +36,20 @@ Once a hypothesis looks interesting (“why did -O3 slow down this region?”), 
 | **Hardware performance counters** | Caliper, HPCToolkit, perf, rocprof                                                                    | Validate whether hypothesis holds (cache misses, stalls, etc.) | All export CSV/JSON                                                       |
 | **Debug metadata linkage**        | `llvm-dwarfdump`, DWARF line tables                                                                   | Re-link machine code to source for region correlation          | Dwarf4/5 line info in binary, can parse via `pyelftools`                  |
 
-By connecting these layers via `DebugLoc` or DWARF line info, you can make the “why” traceable.
+By connecting these layers via `DebugLoc` or DWARF line info, i can make the “why” traceable.
 
 ---
+## Making it machine-readable
 
-## ⚙️ 3. Making it machine-readable
+LLVM already gives me structured outputs at multiple levels:
 
-LLVM already gives you structured outputs at multiple levels:
-
-|Artifact|Flag / tool|Format|Notes|
-|---|---|---|---|
-|**Optimization remarks**|`-fsave-optimization-record[={yaml|json}]`|YAML/JSON|
-|**Pass diffs**|`opt -print-changed-format=json`|JSON|Gives before/after IR for each pass|
-|**Machine performance analysis**|`llvm-mca -output=json`|JSON|Static throughput/latency model|
-|**Caliper data**|`cali-query --format json`|JSON|Region metrics|
-|**Binary-level info**|`llvm-objdump --source --demangle --disassemble`|text (parseable)|Map instructions back to lines|
+| Artifact                         | Flag / tool                                      | Format           | Notes                               |
+| -------------------------------- | ------------------------------------------------ | ---------------- | ----------------------------------- |
+| **Optimization remarks**         | `-fsave-optimization-record                      | json             | YAML/JSON                           |
+| **Pass diffs**                   | `opt -print-changed-format=json`                 | JSON             | Gives before/after IR for each pass |
+| **Machine performance analysis** | `llvm-mca -output=json`                          | JSON             | Static throughput/latency model     |
+| **Caliper data**                 | `cali-query --format json`                       | JSON             | Region metrics                      |
+| **Binary-level info**            | `llvm-objdump --source --demangle --disassemble` | text (parseable) | Map instructions back to lines      |
 
 You can join on:
 
