@@ -26,7 +26,7 @@ From that correlation i hypothesize:
 
 ##  When i need to _go deeper_
 
-Once a hypothesis looks interesting (“why did -O3 slow down this region?”), you descend the stack:
+Once a hypothesis looks interesting (“why did -O3 slow down this region?”), i descend the stack:
 
 |Layer|What you inspect|Purpose|Machine-readable options|
 |---|---|---|---|
