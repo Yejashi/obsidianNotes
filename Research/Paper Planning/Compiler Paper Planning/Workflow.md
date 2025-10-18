@@ -177,12 +177,12 @@ Now you can write the full explanation:
 
 Here’s the repeatable workflow you can apply to any region:
 
-|Step|Question|Artifact|Tool|
-|---|---|---|---|
-|1|What changed in runtime?|Performance metrics|Caliper, Thicket|
-|2|What optimizations fired?|Optimization remarks|`-fsave-optimization-record`|
-|3|What structural code change occurred?|IR diff|`opt -print-changed-format=json`|
-|4|What caused it?|Pass trace|`-debug-pass-manager`|
-|5|Did it help?|Runtime + hardware counters|Caliper, perf, HPCToolkit|
+| Step | Question                              | Artifact                    | Tool                             |
+| ---- | ------------------------------------- | --------------------------- | -------------------------------- |
+| 1    | What changed in runtime?              | Performance metrics         | Caliper, Thicket                 |
+| 2    | What optimizations fired?             | Optimization remarks        | `-fsave-optimization-record`     |
+| 3    | What structural code change occurred? | IR diff                     | `opt -print-changed-format=json` |
+| 4    | What caused it?                       | Pass trace                  | `-debug-pass-manager`            |
+| 5    | Did it help?                          | Runtime + hardware counters | Caliper, perf, HPCToolkit        |
 
 Each level either _confirms_ or _refines_ your hypothesis.
