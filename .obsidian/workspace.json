@@ -41,42 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Specific Passes.md",
+                "file": "Research/LLVM/DWARF/DWARF General.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Specific Passes"
-            }
-          },
-          {
-            "id": "b0d5b42a169fb153",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-10-12 16.41.58.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-10-12 16.41.58.excalidraw"
-            }
-          },
-          {
-            "id": "d63517e498ff4f68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "DWARF General"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -243,13 +217,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d63517e498ff4f68",
+  "active": "7f762edc2753a734",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-10-12 16.41.58.excalidraw.md",
+    "Research/LLVM/Specific Passes.md",
     "conflict-files-obsidian-git.md",
+    "Excalidraw/Drawing 2025-10-12 16.41.58.excalidraw.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4",
-    "Research/LLVM/Specific Passes.md",
     "Research/LLVM/DWARF/DWARF General.md",
     "Untitled.base",
     "Research/LLVM/Passes/LLVM API.md",
