@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/DWARF/DWARF General.md",
+                "file": "Misc/Software Ideas/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DWARF General"
+              "title": "Untitled"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#define",
+                "query": "autocom",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -219,12 +219,14 @@
   },
   "active": "7f762edc2753a734",
   "lastOpenFiles": [
+    "Misc/Software Ideas/Linux System-Wide Text Auto-complete.md",
+    "Misc/Software Ideas/Untitled.md",
+    "Research/LLVM/DWARF/DWARF General.md",
     "Research/LLVM/Specific Passes.md",
     "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2025-10-12 16.41.58.excalidraw.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4",
-    "Research/LLVM/DWARF/DWARF General.md",
     "Untitled.base",
     "Research/LLVM/Passes/LLVM API.md",
     "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
@@ -262,8 +264,6 @@
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/hw3.pdf",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
     "Random Useful Resources/Creating a Virtual Display.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md",
-    "Research/LLVM/Intermediate Representation (IR)/Instruction Types/Terminator Instruction Types.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Notes.md"
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW1/report.md"
   ]
 }
