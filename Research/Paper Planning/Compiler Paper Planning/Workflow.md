@@ -50,23 +50,12 @@ LLVM already gives me structured outputs at multiple levels:
 | **Machine performance analysis** | `llvm-mca -output=json`                          | JSON             | Static throughput/latency model     |
 | **Caliper data**                 | `cali-query --format json`                       | JSON             | Region metrics                      |
 | **Binary-level info**            | `llvm-objdump --source --demangle --disassemble` | text (parseable) | Map instructions back to lines      |
-
-You can join on:
-
-- **Source line (file, line, col)**
-    
-- **Function name**
-    
-- **Region label (Caliper)**
-    
-
-That gives you a fully machine-linkable pipeline.
-
+   
 ---
 
-## 🧩 4. What this buys you
+## . What this buys me
 
-You get a _progressive analysis model_:
+I get a _progressive analysis model_:
 
 |Layer|Question answered|
 |---|---|
