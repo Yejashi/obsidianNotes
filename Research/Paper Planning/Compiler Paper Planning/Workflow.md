@@ -1,7 +1,3 @@
-That’s **exactly** the right high-level strategy — you’re describing what in HPC performance analysis we’d call a _correlated multi-layer optimization pipeline_.  
-Let’s formalize what you’re thinking, and then I’ll show you what “the deeper dive” could look like, plus which of those layers can be made machine-readable.
-
----
 
 ## 🧭 1. Your workflow, articulated clearly
 
