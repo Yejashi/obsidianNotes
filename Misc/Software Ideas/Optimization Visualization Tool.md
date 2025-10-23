@@ -1,0 +1,1 @@
+So, the way this would function is that i would take some piece of c/c++ code. Then i create a pass instrumentation plugin that keeps track of which optimizations happened and where. Afterwards i create a visualize that extracts the debug information left and uses that to create a timeline of the actual source code changing.
