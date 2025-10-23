@@ -11,4 +11,5 @@ RAJA grew out of a need to support large scale production multi-physics applicat
 - **Long service lives**: Codes are used daily in production for decades to perform critical calculations, so they must remain viable over several platform generations.
 - **Continual development**: New modeling capabilities must be added throughout the lifetimes of the codes to meet programmatic needs. Thus, adopting new technologies cannot disrupt developers or users.
 
-The main goal of RAJA is to enable manageable performance portability, and avoid committing to fixed software technology choices based on current hardware designs, since there is no clear “best choice” for all architectures presently.
+The main goal of RAJA is to enable *manageable performance portability*, and avoid committing to fixed software technology choices based on current hardware designs, since there is no clear “best choice” for all architectures presently.
+
