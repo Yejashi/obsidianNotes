@@ -6,4 +6,4 @@
 RAJA grew out of a need to support large scale production multi-physics applications in the Lawrence Livermore National Laboratory (LLNL) ASC program on new ATS platforms, such as Sierra, which place significant constraints on programming methodologies:
 - **Large code bases**. Applications contain O(100K) − O(1M ) source lines and many numerical kernels (some times O(10K)). ften, no kernels dominate run time; thus, any portability approach must apply across most of a codebase without per-kernel code modification or tweaking.
 - **Platform diversity**. Codes are routinely run on laptops (Windows, Linux, Mac OS), commodity clusters, and first-of-a-kind ATS machines, so they must run well on a diverse set of architectures at any given time.
-- 
+- **Long service lives** Codes are used daily in production for decades to perform critical calculations, so they must remain viable over several platform generations.
