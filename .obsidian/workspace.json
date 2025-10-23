@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Paper Planning/Compiler Paper Planning/Untitled.md",
+                "file": "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Background Reading"
             }
           }
         ]
@@ -190,7 +190,7 @@
   },
   "active": "793fc0d8fe3480f0",
   "lastOpenFiles": [
-    "Research/Paper Planning/Compiler Paper Planning/Untitled.md",
+    "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
     "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
     "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
