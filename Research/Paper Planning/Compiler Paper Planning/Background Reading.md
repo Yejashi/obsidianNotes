@@ -5,3 +5,4 @@
 
 RAJA grew out of a need to support large scale production multi-physics applications in the Lawrence Livermore National Laboratory (LLNL) ASC program on new ATS platforms, such as Sierra, which place significant constraints on programming methodologies:
 - Large code bases. Applications contain O(100K) − O(1M ) source lines and many numerical kernels (some times O(10K)).
+- 
