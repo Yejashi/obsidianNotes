@@ -1,0 +1,15 @@
+
+#### Paper: RAJA: Portable Performance for Large-Scale Scientific Application
+
+Source: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8945721&tag=1
+
+> Abstract—Modern high-performance computing systems are diverse, with hardware designs ranging from homogeneous multi-core CPUs to GPU or FPGA accelerated systems. Achieving desirable application performance often requires choosing a programming model best suited to a particular platform. For large codes used daily in production that are under continual development, architecture-specific ports are untenable. Maintainability requires single-source application code that is performance portable across a range of architectures and programming models. In this paper we describe RAJA, a portability layer that enables C++ applications to leverage various programming models, and thus architectures, with a single-source codebase. We describe preliminary results using RAJA in three large production codes at Lawrence Livermore National Laboratory, observing 17×, 13× and 12× speedup on GPU-only over CPU- only nodes with single-source application code in each case.
+
+RAJA grew out of a need to support large scale production multi-physics applications in the Lawrence Livermore National Laboratory (LLNL) ASC program on new ATS platforms, such as Sierra, which place significant constraints on programming methodologies:
+- **Large code bases**: Applications contain O(100K) − O(1M ) source lines and many numerical kernels (some times O(10K)). ften, no kernels dominate run time; thus, any portability approach must apply across most of a codebase without per-kernel code modification or tweaking.
+- **Platform diversity**: Codes are routinely run on laptops (Windows, Linux, Mac OS), commodity clusters, and first-of-a-kind ATS machines, so they must run well on a diverse set of architectures at any given time.
+- **Long service lives**: Codes are used daily in production for decades to perform critical calculations, so they must remain viable over several platform generations.
+- **Continual development**: New modeling capabilities must be added throughout the lifetimes of the codes to meet programmatic needs. Thus, adopting new technologies cannot disrupt developers or users.
+
+The main goal of RAJA is to enable *manageable performance portability*, and avoid committing to fixed software technology choices based on current hardware designs, since there is no clear “best choice” for all architectures presently.
+
