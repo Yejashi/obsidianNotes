@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6521b3eb141e5689",
+        "id": "edf228c1c2acfc76",
         "type": "tabs",
         "children": [
           {
-            "id": "d52db7967de708c6",
+            "id": "aad4982881e27eb0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -184,8 +184,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "aad4982881e27eb0",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2",
     "Untitled 1.base",
     "Research/LLVM/Specific Passes.md",
@@ -222,7 +224,6 @@
     "Meta/Attachments/Pasted image 20251004163931.png",
     "Meta/Attachments/Pasted image 20251004123121.png",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/Study Guide.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/Study Guide.md",
     "Meta/Attachments/Pasted image 20250930071035.png",
     "Meta/Attachments/Pasted image 20250930053022.png",
     "Meta/Attachments/Pasted image 20250930052803.png",
@@ -230,7 +231,6 @@
     "Meta/Attachments/Pasted image 20250930052457.png",
     "Meta/Attachments/Pasted image 20250930051031.png",
     "Meta/Attachments/Pasted image 20250930044153.png",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/hw3.pdf",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/COSC494 Study Guide.pdf"
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/hw3.pdf"
   ]
 }
