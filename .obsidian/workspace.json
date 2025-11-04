@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CALI line",
+                "query": "Load clobber",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -199,11 +200,10 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "b8f7539ba92ed303",
+  "active": "d18aa2dedfd56615",
   "lastOpenFiles": [
     "Research/LLVM/Passes/Remark Limitations.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4/report.md",
