@@ -34,4 +34,5 @@ Rules of Thumb
 2. if X -> epsilon 
 	-> FIRST(X) = {epsilon}
 3. If X -> Y1, Y2...Yk"
-	-> Start from the left
+	-> Start from the left:
+		Add FIRST(Y1)
