@@ -1,5 +1,6 @@
 ### Things to Know
 - Syntax Analysis
+	- Bottom-Up Parsing
 	- LR parsing algorithm
 	- Construct LR(0) sets of items for grammar
 	- Construct SLR parsing table
