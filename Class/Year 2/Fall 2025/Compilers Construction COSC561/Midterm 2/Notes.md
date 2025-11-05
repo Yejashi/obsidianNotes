@@ -30,3 +30,4 @@ To know which rule to use, ask:
 Rules of Thumb
 1. if X is a terminal:
 	-> FIRST(X) = {X}
+	(it literally starts with itself)
