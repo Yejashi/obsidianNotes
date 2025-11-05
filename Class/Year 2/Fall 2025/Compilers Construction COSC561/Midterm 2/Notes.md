@@ -52,13 +52,3 @@ Let's compute FIRST for the above grammar:
 - FIRST(T) = {}
 
 
-
-
-
-
-
-
-
-
-
-
