@@ -31,3 +31,4 @@ Rules of Thumb
 1. if X is a terminal:
 	-> FIRST(X) = {X}
 	(it literally starts with itself)
+2. if X -> epsilon 
