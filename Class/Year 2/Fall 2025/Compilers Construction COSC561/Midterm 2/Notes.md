@@ -36,4 +36,5 @@ Rules of Thumb
 3. If X -> Y1, Y2...Yk"
 	-> Start from the left:
 		Add FIRST(Y1) to FIRST(X)
-		IF Y1 can be epsilon, add FIRST(Y2), and so on
+		If Y1 can be epsilon, add FIRST(Y2), and so on
+		If all Y's can be epsilon, add epsilon to FIRST(X)
