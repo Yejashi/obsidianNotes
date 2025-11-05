@@ -20,3 +20,5 @@
 What do they both mean?
 - FIRST(X) = "What could appear first if i start expanding X?"
 - FOLLOW(X) = "What could appear right after X in a valid sentence?"
+
+
