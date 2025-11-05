@@ -6,6 +6,7 @@
 - Construct canonical parsing table
 - Draw DAG
 - Three address code
+- Translate statement without backpatching
 ### Syntax Analysis
 
 #### Calculating FIRST and FOLLOW
