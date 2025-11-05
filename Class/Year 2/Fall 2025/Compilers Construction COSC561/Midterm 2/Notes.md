@@ -38,3 +38,13 @@ Rules of Thumb
 		Add FIRST(Y1) to FIRST(X)
 		If Y1 can be epsilon, add FIRST(Y2), and so on
 		If all Y's can be epsilon, add epsilon to FIRST(X)
+
+```
+E → T E'
+E' → + T E' | ε
+T → F T'
+F → (E) | id
+```
+
+Let's compute FIRST for the above grammar:
+- FIRST(E) = {}
