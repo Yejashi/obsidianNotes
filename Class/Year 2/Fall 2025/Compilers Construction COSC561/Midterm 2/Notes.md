@@ -5,6 +5,7 @@
 - Construct LR(1) sets of items for grammar
 - Construct canonical parsing table
 - Draw DAG
+- 
 ### Syntax Analysis
 
 #### Calculating FIRST and FOLLOW
