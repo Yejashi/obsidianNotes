@@ -1,11 +1,12 @@
 ### Things to Know
 - Syntax Analysis
 	- Bottom-Up Parsing
-	- LR parsing algorithm
-	- Construct LR(0) sets of items for grammar
-	- Construct SLR parsing table
-	- Construct LR(1) sets of items for grammar
-	- Construct canonical parsing table
+		- LR parsing algorithm
+		- Construct LR(0) sets of items for grammar
+		- Construct SLR parsing table
+		- Construct LR(1) sets of items for grammar
+		- Construct canonical parsing table
+	- Error Handling
 - Intermediate Code generation
 	- Draw DAG
 	- Three address code
