@@ -36,4 +36,4 @@ Rules of Thumb
 3. If X -> Y1, Y2...Yk"
 	-> Start from the left:
 		Add FIRST(Y1) to FIRST(X)
-		Add FIRST(Y2) to FIRST(X)
+		IF Y1 can be 
