@@ -1,4 +1,5 @@
 ### Things to Know
+- Syntax Analysis
 - LR parsing algorithm
 - Construct LR(0) sets of items for grammar
 - Construct SLR parsing table
