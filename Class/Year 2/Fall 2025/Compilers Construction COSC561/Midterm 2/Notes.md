@@ -1,4 +1,5 @@
 ### Things to Know
+- LR parsing
 - 
 ### Syntax Analysis
 
