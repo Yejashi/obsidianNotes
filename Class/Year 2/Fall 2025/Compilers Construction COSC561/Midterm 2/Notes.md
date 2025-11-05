@@ -13,6 +13,7 @@
 	- Three address code
 	- Translate statement with backpatching
 	- Translate statement without backpatching
+	- Translating switch statements
 ### Syntax Analysis
 
 #### Calculating FIRST and FOLLOW
