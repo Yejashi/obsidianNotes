@@ -8,7 +8,6 @@
 		- Construct canonical parsing table
 	- Error Handling
 		- Different error recovery strategies
-		- 
 - Intermediate Code generation
 	- Draw DAG
 	- Three address code
