@@ -32,3 +32,6 @@ Rules of Thumb
 	-> FIRST(X) = {X}
 	(it literally starts with itself)
 2. if X -> epsilon 
+	-> FIRST(X) = {epsilon}
+3. If X -> Y1, Y2...Yk"
+	-> Start from the left
