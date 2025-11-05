@@ -47,7 +47,7 @@ F → (E) | id
 ```
 
 Let's compute FIRST for the above grammar:
-- FIRST(E) = FIRST(T) = {(, id}
+- FIRST(E) = FIRST(T) = FIRST(F) = {(, id}
 - FIRST(E') = {+, epsilon}
 - FIRST(T) = FIRST(F)
 - FIRST(F) = {(, id}
