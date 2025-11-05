@@ -27,4 +27,6 @@ Suppose nonterminal `A` is being expanded.
 To know which rule to use, ask:
 	"What's the first terminal i might see when A starts producing symbols?"
 
-
+Rules of Thumb
+1. if X is a terminal:
+	-> FIRST(X) = {X}
