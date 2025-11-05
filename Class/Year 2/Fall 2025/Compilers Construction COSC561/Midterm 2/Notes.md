@@ -7,6 +7,8 @@
 		- Construct LR(1) sets of items for grammar
 		- Construct canonical parsing table
 	- Error Handling
+		- Different error recovery strategies
+		- 
 - Intermediate Code generation
 	- Draw DAG
 	- Three address code
