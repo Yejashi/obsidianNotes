@@ -48,4 +48,4 @@ F → (E) | id
 
 Let's compute FIRST for the above grammar:
 - FIRST(E) = {(, id}
-- FIRST(E') = {}
+- FIRST(E') = {+, epsilon}
