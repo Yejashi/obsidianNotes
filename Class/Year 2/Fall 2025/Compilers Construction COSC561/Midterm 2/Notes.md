@@ -22,4 +22,9 @@ What do they both mean?
 - FOLLOW(X) = "What could appear right after X in a valid sentence?"
 
 ##### Intuition for FIRST
+Suppose nonterminal `A` is being expanded.
+
+To know which rule to use, ask:
+	"What's the first terminal i might see when A starts producing symbols?"
+
 
