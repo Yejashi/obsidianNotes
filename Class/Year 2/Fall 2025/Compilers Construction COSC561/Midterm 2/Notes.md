@@ -1,5 +1,5 @@
 ### Things to Know
-- LR parsing
+- LR parsing algorithm
 - 
 ### Syntax Analysis
 
