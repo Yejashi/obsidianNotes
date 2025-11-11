@@ -193,4 +193,10 @@ Depending on what’s there:
 - `rK` → reduce by production `K` (pop symbols off stack, push its LHS nonterminal, and use the **GOTO** table to find the new state)
 - `acc` → accept (input parsed)
 - empty → error (invalid syntax)
- 
+
+Example:
+Consider the following input:
+```
+id + id * id $
+```
+
