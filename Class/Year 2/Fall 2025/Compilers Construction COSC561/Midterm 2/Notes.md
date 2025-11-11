@@ -89,6 +89,7 @@ Since T' ⇒ ε, FOLLOW(F) ⊇ FOLLOW(T) = { '+', ), $ }
 
 #### Bottom-Up Parsing
 Goal: Construct a parse tree for an input string beginning at the leaves and working towards the root.
-- Essentially the process of reducing the string to the start symbol
 
+Essentially the process of reducing the string to the start symbol.
 
+Bottom-up parsing constructs the right-most derivation in reverse.
