@@ -106,7 +106,9 @@ The parser uses:
 - A **stack**: stores partially parsed symbols
 - **The input buffer**: the remaining input to be parsed
 - An **action table**: indexed by terminals and states
+	- Tells you to shift or reduce
 - A **goto table**: indexed by non terminals and stats
+	- Tells you which
 
 Vocab:
 - A **handle** is a substring that matches the rhs of a production
