@@ -167,4 +167,6 @@ When doing shift-reduce by hand, you have to constantly consider:
 - Should I shift the next token or reduce something on the stack?
 - If I reduce, which rule should I use?
 
-A real parser automates that with a deterministic finite automaton built from grammar items.
+A real parser automates that with a deterministic finite automaton built from grammar items. The automaton is encoded as **two tables:**
+- **ACTION** — decides _shift / reduce / accept / error_ on terminals
+- **GOTO** — decides _which state to go to_ on non-terminals after a reduction
