@@ -162,3 +162,6 @@ $ E          | $               | accept
 ##### How does the parser know when to shift or reduce?
 That's where **ACTION** and **GOTO** tables come in.
 
+**Motivation**
+When doing shift-reduce by hand, you have to constantly consider:
+- 
