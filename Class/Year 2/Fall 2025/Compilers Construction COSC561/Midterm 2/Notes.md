@@ -234,3 +234,4 @@ What the "k" does:
 - In **LALR (LookAhead LR)**: merges compatible LR(1) states to save space.  
     → same power as canonical LR(1) for most programming grammars.
 
+Example:
