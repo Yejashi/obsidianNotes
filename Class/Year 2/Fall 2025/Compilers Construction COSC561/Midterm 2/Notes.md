@@ -15,6 +15,7 @@
 	- Translate statement without backpatching
 	- Translating switch statements
 - Code Generation
+- Garbage Collection
 ### Syntax Analysis
 
 #### Calculating FIRST and FOLLOW
