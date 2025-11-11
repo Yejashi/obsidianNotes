@@ -100,4 +100,6 @@ Bottom-up parsers can be written for the set of grammars known as **LR** grammar
 - L because we're still scanning the input form left to right
 - R because we're producing a right most derivation
 
+All LR grammars can be parsed using a bottom-up parser, but some cannot be parsed
+with a top-down (LL) parser.
 ##### Shift-Reduce
