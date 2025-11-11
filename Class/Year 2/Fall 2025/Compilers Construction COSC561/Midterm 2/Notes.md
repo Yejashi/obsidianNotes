@@ -256,5 +256,6 @@ Now we look at 0 with left hand side which is F and we index into goto table at 
 
 ![[Pasted image 20251111180134.png]]
 
+##### How To Create the Table?
 
 
