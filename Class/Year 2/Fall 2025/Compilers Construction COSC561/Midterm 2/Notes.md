@@ -127,3 +127,5 @@ In plain words:
 	A _handle_ is a piece of the input that “fits perfectly” to collapse back into a nonterminal.
 
 Example:
+In `id + id * id`, after reading `id`, the substring `id` is a handle for `F → id`.  
+Later, `id * id` becomes a handle for `T → T * F`, etc.
