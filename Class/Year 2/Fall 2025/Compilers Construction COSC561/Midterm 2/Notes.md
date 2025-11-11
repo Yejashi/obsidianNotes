@@ -179,6 +179,6 @@ A real parser automates that with a deterministic finite automaton built from gr
 - **GOTO** — decides _which state to go to_ on non-terminals after a reduction
 	- Rows = same parser states
 	- Columns = non-terminals
-	- 
+	- Entries = next state number after reducing a non-terminal
 
 
