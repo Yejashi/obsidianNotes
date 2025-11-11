@@ -245,5 +245,5 @@ Consider the following input: `id * id + id`
 
 ```
 Look at state 0 with input id, the action is s5
-Push state 5 onto stack
+Push state 5 onto stack, then consume a symbol of input
 ```
