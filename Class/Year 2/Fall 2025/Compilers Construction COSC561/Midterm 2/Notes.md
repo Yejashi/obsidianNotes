@@ -244,5 +244,5 @@ Consider the following parsing table:
 Consider the following input: `id * id + id`
 
 ```
-Look at state 0 with input id
+Look at state 0 with input id, the action is s5
 ```
