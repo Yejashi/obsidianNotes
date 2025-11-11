@@ -165,4 +165,5 @@ That's where **ACTION** and **GOTO** tables come in.
 **Motivation**
 When doing shift-reduce by hand, you have to constantly consider:
 - Should I shift the next token or reduce something on the stack?
-- 
+- If I reduce, which rule should I use?
+
