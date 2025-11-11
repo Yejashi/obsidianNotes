@@ -241,3 +241,5 @@ Consider the following grammar:
 Consider the following parsing table:
 ![[Pasted image 20251111173802.png]]
 
+Consider the following input: `id * id + id`
+
