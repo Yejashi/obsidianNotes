@@ -108,7 +108,7 @@ The parser uses:
 - An **action table**: indexed by terminals and states
 	- Tells you to shift or reduce
 - A **goto table**: indexed by non terminals and stats
-	- Tells you which
+	- Tells you index into a state that tells you which state to goto
 
 Vocab:
 - A **handle** is a substring that matches the rhs of a production
