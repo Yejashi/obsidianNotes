@@ -54,4 +54,4 @@ Let's compute FIRST for the above grammar:
 - FIRST(T) = FIRST(F) = {(, id}
 - FIRST(F) = {(, id}
 
-
+##### Intuition for FIRST
