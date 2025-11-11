@@ -221,3 +221,5 @@ Each step:
     - pops |β| symbols and states
     - looks at the new top state `s'`
     - pushes `(A, GOTO[s', A])`
+
+This continues until `$` (end of input) and the start symbol `S` are reduced to acceptance.
