@@ -174,7 +174,8 @@ A real parser automates that with a deterministic finite automaton built from gr
 	- Entries
 		- `sN` → _shift_ and go to state N
 		- `rK` → _reduce_ by production K
-		- 
+		- `acc` → _accept_
+		- blank → _error_
 - **GOTO** — decides _which state to go to_ on non-terminals after a reduction
 
 
