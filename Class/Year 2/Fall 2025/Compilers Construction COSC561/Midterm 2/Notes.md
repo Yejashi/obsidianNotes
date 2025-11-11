@@ -236,6 +236,7 @@ What the "k" does:
 
 Example:
 Consider the following grammar:
+![[Pasted image 20251111173828.png]]
 
 Consider the following parsing table:
 ![[Pasted image 20251111173802.png]]
