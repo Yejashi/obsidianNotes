@@ -54,7 +54,7 @@ Let's compute FIRST for the above grammar:
 - FIRST(T) = FIRST(F) = {(, id}
 - FIRST(F) = {(, id}
 
-##### Intuition for FIRST
+##### Intuition for FOLLOW
 FOLLOW tells you what can appear immediately after a nonterminal in some valid sentence
 
 To know which rule to use, ask:
