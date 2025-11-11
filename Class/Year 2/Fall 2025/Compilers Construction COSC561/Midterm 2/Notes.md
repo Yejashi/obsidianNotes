@@ -268,6 +268,8 @@ E → E + T·     (entire RHS seen, ready to reduce)
 
 ![[Pasted image 20251111182412.png]]
 
+https://www.youtube.com/watch?v=g1G7p9EPDYo
+
 **Closure and Goto Functions**
 1. Closure(l)
 	If `A → α·Bβ` is in the set `I`, and `B → γ` is a production,
