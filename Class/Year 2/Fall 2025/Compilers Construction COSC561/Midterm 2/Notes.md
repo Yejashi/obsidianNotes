@@ -268,5 +268,7 @@ E → E + T·     (entire RHS seen, ready to reduce)
 
 ![[Pasted image 20251111182412.png]]
 
-
+**Closure and Goto Functions**
+1. Closure(l)
+	
 
