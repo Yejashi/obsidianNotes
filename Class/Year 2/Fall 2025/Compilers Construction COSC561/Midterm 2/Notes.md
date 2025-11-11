@@ -194,9 +194,19 @@ Depending on what’s there:
 - `acc` → accept (input parsed)
 - empty → error (invalid syntax)
 
-Example:
+**Example**:
 Consider the following input:
 ```
 id + id * id $
+```
+
+Grammar:
+```
+0) E' → E
+1) E → E + T
+2) E → T
+3) T → T * F
+4) T → F
+5) F → id
 ```
 
