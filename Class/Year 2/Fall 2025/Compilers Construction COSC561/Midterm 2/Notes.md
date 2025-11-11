@@ -260,7 +260,9 @@ Now we look at 0 with left hand side which is F and we index into goto table at 
 The states are sets of what are called LR(0) items.
 
 An item is a production with a dot at some point in the right hand side. The dot acts as a cursor, and you're enumerating all the potential states by moving the dot.
+```
 
+```
 ![[Pasted image 20251111182412.png]]
 
 
