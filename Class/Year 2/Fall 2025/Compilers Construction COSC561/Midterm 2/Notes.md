@@ -281,6 +281,8 @@ https://www.youtube.com/watch?v=g1G7p9EPDYo
 	- You look at every item in **I** where the dot is **right before X** — like `A → α·Xβ`.
 	- Then, for each of those, you **move the dot past X**, making it `A → αX·β`.
 	- The set of all those new items becomes your starting point.
+	- Finally, take the **Closure** of that set to fill in any new possibilities (just like before).
+
 
 
 
