@@ -139,7 +139,7 @@ Later, `id * id` becomes a handle for `T → T * F`, etc.
 
 Bottom-up parsing’s job is to discover handles and reduce them in the correct order.
 
-On input `id + id * id $`, one plausible sequence is:
+Quick by hand example, on input `id + id * id $`, one plausible sequence is:
 ```
 Stack        | Input           | Action
 -------------+-----------------+---------
