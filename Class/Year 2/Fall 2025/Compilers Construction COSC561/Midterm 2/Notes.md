@@ -103,5 +103,6 @@ Bottom-up parsers can be written for the set of grammars known as **LR** grammar
 All LL grammars can be parsed with a bottom-up parser. All LR grammars can be parsed using a bottom-up parser, but some cannot be parsed with a top-down (LL) parser.
 ##### Core Mechanism: "Shift"  and "Reduce"
 The parser uses:
-- A **stack**: stors partially parsed symbols
+- A **stack**: stores partially parsed symbols
 - **The input buffer**: the remaining input to be parsed
+- **A table**: tells you when to shift or reduce
