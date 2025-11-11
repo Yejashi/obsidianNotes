@@ -64,7 +64,7 @@ Rules of thumb:
 1. Start symbol rule:
 	add `$` to FOLLOW(S) 
 2. When A → α B β:
-	add (FIRST(β) without ε) can follow B.
+	add (FIRST(β) - ε) to follow B.
 3. When A → α B or A → α B β where β ⇒ ε:**
 	Whatever can follow A can also follow B.
 	(Because once β disappears, what comes after A now comes after B.)
