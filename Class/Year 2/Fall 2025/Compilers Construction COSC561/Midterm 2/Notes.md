@@ -182,3 +182,5 @@ A real parser automates that with a deterministic finite automaton built from gr
 	- Entries = next state number after reducing a non-terminal
 
 
+
+
