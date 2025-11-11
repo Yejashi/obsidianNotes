@@ -173,6 +173,7 @@ A real parser automates that with a deterministic finite automaton built from gr
 	- Columns = terminal symbols
 	- Entries
 		- `sN` → _shift_ and go to state N
+		- `rK` → _reduce_ by production K
 		- 
 - **GOTO** — decides _which state to go to_ on non-terminals after a reduction
 
