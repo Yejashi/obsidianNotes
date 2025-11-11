@@ -64,4 +64,4 @@ Rules of thumb:
 1. Start symbol rule:
 	FOLLOW(S) includes `$` (end of input marker).
 2. When A → α B β:
-	
+	Whatever can start β (FIRST(β) without ε) can follow B.
