@@ -62,7 +62,7 @@ To know which rule to use, ask:
 
 Rules of thumb:
 1. Start symbol rule:
-	add `$` to FOLLOW(S) includes `$` (end of input marker).
+	add `$` to FOLLOW(S) 
 2. When A → α B β:
 	Whatever can start β (FIRST(β) without ε) can follow B.
 3. When A → α B or A → α B β where β ⇒ ε:**
