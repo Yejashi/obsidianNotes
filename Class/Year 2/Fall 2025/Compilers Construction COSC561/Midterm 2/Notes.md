@@ -223,3 +223,13 @@ Each step:
     - pushes `(A, GOTO[s', A])`
 
 This continues until `$` (end of input) and the start symbol `S` are reduced to acceptance.
+
+What the "k" does:
+- In **LR(0)**: parser decides purely from the **state** (no lookahead).  
+    → often too weak (many conflicts).
+- In **LR(1)**: parser also looks at **1 next token**.  
+    → far more powerful and can handle nearly all deterministic CFGs.
+- In **SLR (Simple LR)**: uses **FOLLOW sets** to approximate the lookahead.  
+    → smaller tables, less powerful.
+- In **LALR (LookAhead LR)**: merges compatible LR(1) states to save space.  
+    → same power as canonical LR(1) for most programming grammars.
