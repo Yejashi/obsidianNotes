@@ -139,4 +139,22 @@ Later, `id * id` becomes a handle for `T → T * F`, etc.
 
 Bottom-up parsing’s job is to discover handles and reduce them in the correct order.
 
+```
+Stack        | Input           | Action
+-------------+-----------------+---------
+$            | id + id * id $  | shift id
+$ id         | + id * id $     | reduce F→id
+$ F          | + id * id $     | reduce T→F
+$ T          | + id * id $     | reduce E→T
+$ E          | + id * id $     | shift '+'
+$ E +        | id * id $       | shift id
+$ E + id     | * id $          | reduce F→id
+$ E + F      | * id $          | reduce T→F
+$ E + T      | * id $          | shift '*'
+$ E + T *    | id $            | shift id
+$ E + T * id | $               | reduce F→id
+$ E + T * F  | $               | reduce T→T*F
+$ E + T      | $               | reduce E→E+T
+$ E          | $               | accept
 
+```
