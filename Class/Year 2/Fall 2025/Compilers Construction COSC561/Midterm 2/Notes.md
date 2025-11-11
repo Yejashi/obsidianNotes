@@ -272,4 +272,6 @@ E → E + T·     (entire RHS seen, ready to reduce)
 1. Closure(l)
 	If `A → α·Bβ` is in the set `I`, and `B → γ` is a production,
 	then add `B → ·γ` to the set — because if we’re about to see a `B`, we should expect any of its possible expansions.
+2. Goto(l, x)
+	
 
