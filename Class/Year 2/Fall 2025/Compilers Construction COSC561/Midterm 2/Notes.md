@@ -210,3 +210,8 @@ Grammar:
 5) F → id
 ```
 
+Start:
+```
+Stack: [0]          Input: id + id * id $
+```
+
