@@ -101,7 +101,7 @@ Bottom-up parsers can be written for the set of grammars known as **LR** grammar
 - R because we're producing a right most derivation
 
 All LL grammars can be parsed with a bottom-up parser. All LR grammars can be parsed using a bottom-up parser, but some cannot be parsed with a top-down (LL) parser.
-##### Core Mechanism: "Shift"  and "Reduce"
+
 The parser uses:
 - A **stack**: stores partially parsed symbols
 - **The input buffer**: the remaining input to be parsed
@@ -109,6 +109,7 @@ The parser uses:
 	- Tells you to shift or reduce
 - A **goto table**: indexed by non terminals and stats
 	- Tells you index into a state that tells you which state to goto
+##### Core Mechanism: "Shift"  and "Reduce"
 
 Vocab:
 - A **handle** is a substring that matches the rhs of a production
