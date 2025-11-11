@@ -110,3 +110,6 @@ The parser uses:
 At each step you do one of four possible actions:
 - **Shift**: Move the next input symbol onto the stack
 - **Reduce**: If the top of the stack matches the right hand side of a production, replace it with that rules left-hand side
+- **Accept**: If the stack has only the start symbol and the input is `$`, the parser accepts
+- **Error**: No valid action, input doesnt match grammar
+
