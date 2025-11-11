@@ -106,3 +106,7 @@ The parser uses:
 - A **stack**: stores partially parsed symbols
 - **The input buffer**: the remaining input to be parsed
 - **A table**: tells you when to shift or reduce
+
+At each step you do one of four possible actions:
+- **Shift**: Move the next input symbol onto the stack
+- **Reduce**: If the top of the stack matches the right hand side of a production, replace it with that rules left-hand side
