@@ -109,7 +109,7 @@ The parser uses:
 	- Tells you to shift or reduce
 - A **goto table**: indexed by non terminals and stats
 	- Tells you index into a state that tells you which state to goto
-##### Core Mechanism: "Shift"  and "Reduce"
+##### Shift Reduce Parsing
 
 Vocab:
 - A **handle** is a substring that matches the rhs of a production
