@@ -160,4 +160,5 @@ $ E          | $               | accept
 ```
 
 ##### How does the parser know when to shift or reduce?
+That's where **ACTION** and **GOTO** tables come in.
 
