@@ -183,6 +183,9 @@ A real parser automates that with a deterministic finite automaton built from gr
 	- Entries = next state number after reducing a non-terminal
 
 **How they're used**:
-At each 
+At each step, you look at:
+1. **Top of the stack → gives current state**
+2. **Next input token**
+3. **Lookup (state, token) in ACTION table**
 
 
