@@ -171,7 +171,9 @@ A real parser automates that with a deterministic finite automaton built from gr
 - **ACTION** — decides _shift / reduce / accept / error_ on terminals
 	- Rows = parser states
 	- Columns = terminal symbols
-	- 
+	- Entries
+		- `sN` → _shift_ and go to state N
+		- 
 - **GOTO** — decides _which state to go to_ on non-terminals after a reduction
 
 
