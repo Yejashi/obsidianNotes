@@ -105,7 +105,7 @@ All LL grammars can be parsed with a bottom-up parser. All LR grammars can be pa
 **Advantages**:
 - Can recognize almost all programming language constructs expressed in context-free grammars
 - Requires no backtracking
-- 
+- Can detect syntactic error as soon as possible
 ##### Shift Reduce Parsing
 The parser uses:
 - A **stack**: stores partially parsed symbols
