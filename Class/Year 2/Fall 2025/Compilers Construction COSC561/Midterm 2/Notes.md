@@ -278,7 +278,7 @@ https://www.youtube.com/watch?v=g1G7p9EPDYo
 	Example: if you have `A → α·Bβ` and `B → x y`, then you also add `B → ·x y`.
 2. Goto(l, x)
 	Think of **Goto(I, X)** as asking: _“If I’m in these states and I see X next, where can I go?”_
-	
+	You look at every item in **I** where the dot is **right before X** — like `A → α·Xβ`.
 
 
 
