@@ -273,7 +273,7 @@ https://www.youtube.com/watch?v=g1G7p9EPDYo
 
 **Closure and Goto Functions**
 1. Closure(l)
-	If `A → α·Bβ` where B is a nonterminal, then we must add all the productions B in that state.
+	If `A → α·Bβ` where B is a nonterminal, then we must add all the productions B in that state. Dot must be at the beginning.
 2. Goto(l, x)
 	If `A → α·Xβ` is in `I`, move the dot past `X` → `A → αX·β`,  
 	then take the closure of all those results.
