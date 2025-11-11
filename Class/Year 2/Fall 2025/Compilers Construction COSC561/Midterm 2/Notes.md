@@ -57,3 +57,5 @@ Let's compute FIRST for the above grammar:
 ##### Intuition for FIRST
 FOLLOW tells you what can appear immediately after a nonterminal in some valid sentence
 
+To know which rule to use, ask:
+	""
