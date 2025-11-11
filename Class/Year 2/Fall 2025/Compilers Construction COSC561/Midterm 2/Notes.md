@@ -198,3 +198,4 @@ Depending on what’s there:
 - `acc` → accept (input parsed)
 - empty → error (invalid syntax)
 
+####
