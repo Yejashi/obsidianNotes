@@ -209,3 +209,15 @@ So, **LR(k)** parsers decide _when to shift or reduce_ based on both:
 - the **current parser state**, and
 - up to **k upcoming input symbols** (lookahead).
 
+How it works:
+Each step:
+1. Reads the **current state** (top of stack)
+2. Peeks at the **lookahead token**
+3. Uses `(state, token)` → **ACTION**
+    - `sN` → shift and go to state N
+    - `rP` → reduce by production P
+    - `acc` → accept
+4. When reducing by `A → β`, it:
+    - pops |β| symbols and states
+    - looks at the new top state `s'`
+    - pushes `(A, GOTO[s', A])`
