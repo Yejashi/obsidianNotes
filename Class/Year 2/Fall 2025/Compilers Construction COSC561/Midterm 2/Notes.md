@@ -279,7 +279,7 @@ https://www.youtube.com/watch?v=g1G7p9EPDYo
 2. Goto(l, x)
 	Think of **Goto(I, X)** as asking: _“If I’m in these states and I see X next, where can I go?”_
 	- You look at every item in **I** where the dot is **right before X** — like `A → α·Xβ`.
-	
+	- Then, for each of those, you **move the dot past X**, making it `A → αX·β`.
 
 
 
