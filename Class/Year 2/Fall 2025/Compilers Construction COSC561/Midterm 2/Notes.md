@@ -105,8 +105,8 @@ All LL grammars can be parsed with a bottom-up parser. All LR grammars can be pa
 The parser uses:
 - A **stack**: stores partially parsed symbols
 - **The input buffer**: the remaining input to be parsed
-- An **action table**: 
-- A **goto table**: 
+- An **action table**: indexed by terminals and states
+- A **goto table**: indexed by non terminals and stats
 
 Vocab:
 - A **handle** is a substring that matches the rhs of a production
