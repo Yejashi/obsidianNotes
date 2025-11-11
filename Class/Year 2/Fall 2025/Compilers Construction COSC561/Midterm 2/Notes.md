@@ -126,3 +126,4 @@ The Key Intuition: Finding the “Handle”
 In plain words:
 	A _handle_ is a piece of the input that “fits perfectly” to collapse back into a nonterminal.
 
+Example:
