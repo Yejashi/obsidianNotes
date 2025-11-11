@@ -102,8 +102,10 @@ Bottom-up parsers can be written for the set of grammars known as **LR** grammar
 
 All LL grammars can be parsed with a bottom-up parser. All LR grammars can be parsed using a bottom-up parser, but some cannot be parsed with a top-down (LL) parser.
 
-Advantages:
+**Advantages**:
 - Can recognize almost all programming language constructs expressed in context-free grammars
+- Requires no backtracking
+- 
 ##### Shift Reduce Parsing
 The parser uses:
 - A **stack**: stores partially parsed symbols
