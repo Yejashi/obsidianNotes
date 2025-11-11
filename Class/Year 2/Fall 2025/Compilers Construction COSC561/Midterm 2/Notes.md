@@ -199,3 +199,8 @@ Depending on what’s there:
 - empty → error (invalid syntax)
 
 ##### LR(k) Parsing
+LR(k) parsing is the **most general form** of deterministic bottom-up parsing.  
+It stands for:
+- **L** — scan the input **Left-to-right**
+- **R** — produce a **Rightmost derivation in reverse**
+- 
