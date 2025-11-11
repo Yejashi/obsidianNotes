@@ -248,5 +248,6 @@ Look at state 0 with input id, the action is s5
 Push state 5 onto stack, then consume a symbol of input (id)
 
 Now look at state 5 and *, the action is r6
-So reduce on F goes to id. We look at the length of the rhs which is one then pop that many symbols off the stack
+So reduce on F goes to id. We look at the length of the rhs which is one then pop that many symbols off the stack, 0 is left on stack
+Now we look at 0 on 
 ```
