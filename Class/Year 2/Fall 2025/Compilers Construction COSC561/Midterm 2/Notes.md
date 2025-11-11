@@ -273,7 +273,7 @@ https://www.youtube.com/watch?v=g1G7p9EPDYo
 
 **Closure and Goto Functions**
 1. Closure(l)
-	Whenever you have an item like `A → α·Bβ` — meaning you’re right before a nonterminal **B** — you need to imagine what **B** could start expanding into.
+	Whenever you have an item like `A → α·Bβ` — meaning you’re right before a nonterminal B — you need to imagine what **B** could start expanding into.
 	So, for every rule that defines **B**, add a new item for it with the dot at the very beginning.
 2. Goto(l, x)
 	If `A → α·Xβ` is in `I`, move the dot past `X` → `A → αX·β`,  
