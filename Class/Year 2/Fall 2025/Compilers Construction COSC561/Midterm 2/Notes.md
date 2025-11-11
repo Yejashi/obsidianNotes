@@ -157,6 +157,5 @@ $ E + T * id | $               | reduce F→id
 $ E + T * F  | $               | reduce T→T*F
 $ E + T      | $               | reduce E→E+T
 $ E          | $               | accept
-
 ```
 
