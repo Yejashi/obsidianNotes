@@ -100,4 +100,4 @@ Bottom-up parsers can be written for the set of grammars known as **LR** grammar
 - L because we're still scanning the input form left to right
 - R because we're producing a right most derivation
 
-
+##### Shift-Reduce
