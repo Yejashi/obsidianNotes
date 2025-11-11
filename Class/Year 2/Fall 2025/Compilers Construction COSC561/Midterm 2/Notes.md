@@ -87,6 +87,6 @@ In T → F T':
 FOLLOW(F) ⊇ FIRST(T') − {ε} = { '*' }
 Since T' ⇒ ε, FOLLOW(F) ⊇ FOLLOW(T) = { '+', ), $ }
 
-
+#### Bottom-Up Parsing
 
 
