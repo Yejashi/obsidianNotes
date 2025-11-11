@@ -205,3 +205,7 @@ It stands for:
 - **R** — produce a **Rightmost derivation in reverse**
 - **(k)** — use **k lookahead tokens** to make decisions
 
+So, **LR(k)** parsers decide _when to shift or reduce_ based on both:
+- the **current parser state**, and
+- up to **k upcoming input symbols** (lookahead).
+
