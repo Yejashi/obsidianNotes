@@ -235,3 +235,6 @@ What the "k" does:
     → same power as canonical LR(1) for most programming grammars.
 
 Example:
+Consider the following parsing table:
+![[Pasted image 20251111173802.png]]
+
