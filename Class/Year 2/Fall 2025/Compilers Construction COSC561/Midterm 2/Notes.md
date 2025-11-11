@@ -188,4 +188,9 @@ At each step, you look at:
 2. **Next input token**
 3. **Lookup (state, token) in ACTION table**
 
-
+Depending on what’s there:
+- `sN` → shift that token onto stack, go to state `N`
+- `rK` → reduce by production `K` (pop symbols off stack, push its LHS nonterminal, and use the **GOTO** table to find the new state)
+- `acc` → accept (input parsed)
+- empty → error (invalid syntax)
+ 
