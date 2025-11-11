@@ -88,5 +88,5 @@ FOLLOW(F) ⊇ FIRST(T') − {ε} = { '*' }
 Since T' ⇒ ε, FOLLOW(F) ⊇ FOLLOW(T) = { '+', ), $ }
 
 #### Bottom-Up Parsing
-
+Goal: Construct a parse tree for an input string beginning at the leaves and working towards the root.
 
