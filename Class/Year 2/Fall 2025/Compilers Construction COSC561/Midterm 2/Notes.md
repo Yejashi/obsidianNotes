@@ -60,6 +60,7 @@ FOLLOW tells you what can appear immediately after a nonterminal in some valid s
 To know which rule to use, ask:
 	"If I see A in the middle of a derivation, what terminals could come right after it?”
 
+Look at where it gets applie don the right hand side and apply rules.
 Rules of thumb:
 1. Start symbol rule:
 	add `$` to FOLLOW(S) 
