@@ -92,4 +92,8 @@ Goal: Construct a parse tree for an input string beginning at the leaves and wor
 - Essentially the process of reducing the string to the start symbol.
 - Bottom-up parsing constructs the right-most derivation in reverse.
 
+At each step in the parse, two decisions need to be made
+- When to reduce
+- What production to apply
+
 Bottom-up parsers can be written for the set of grammars known as **LR** grammars.
