@@ -159,4 +159,5 @@ $ E + T      | $               | reduce E→E+T
 $ E          | $               | accept
 ```
 
+##### How does the parser know when to shift or reduce?
 
