@@ -68,3 +68,12 @@ Rules of thumb:
 3. When A → α B or A → α B β where β ⇒ ε:**
 	Whatever can follow A can also follow B.
 	(Because once β disappears, what comes after A now comes after B.)
+
+```
+E → T E'
+E' → + T E' | ε
+T → F T'
+T' → * F T' | ε
+F → (E) | id
+```
+
