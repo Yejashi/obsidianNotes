@@ -107,6 +107,9 @@ The parser uses:
 - **The input buffer**: the remaining input to be parsed
 - **A table**: tells you when to shift or reduce
 
+Vocab:
+- A **handle** is a substring that matches the rhs of a production
+- 
 At each step you do one of four possible actions:
 - **Shift**: Move the next input symbol onto the stack
 - **Reduce**: If the top of the stack matches the right hand side of a production, replace it with that rules left-hand side
