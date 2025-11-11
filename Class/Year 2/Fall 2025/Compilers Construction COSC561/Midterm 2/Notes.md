@@ -137,3 +137,6 @@ F → (E) | id
 In `id + id * id`, after reading `id`, the substring `id` is a handle for `F → id`.  
 Later, `id * id` becomes a handle for `T → T * F`, etc.
 
+Bottom-up parsing’s job is to discover handles and reduce them in the correct order.
+
+
