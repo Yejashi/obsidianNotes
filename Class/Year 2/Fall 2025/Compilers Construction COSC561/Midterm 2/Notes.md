@@ -105,6 +105,7 @@ All LL grammars can be parsed with a bottom-up parser. All LR grammars can be pa
 The parser uses:
 - A **stack**: stores partially parsed symbols
 - **The input buffer**: the remaining input to be parsed
+- 
 - **A table**: tells you when to shift or reduce
 
 Vocab:
