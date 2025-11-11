@@ -104,3 +104,4 @@ All LL grammars can be parsed with a bottom-up parser. All LR grammars can be pa
 ##### Core Mechanism: "Shift"  and "Reduce"
 The parser uses:
 - A **stack**: stors partially parsed symbols
+- **The input buffer**: the remaining input to be parsed
