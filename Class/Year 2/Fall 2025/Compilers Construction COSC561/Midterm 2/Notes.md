@@ -249,5 +249,8 @@ Push state 5 onto stack, then consume a symbol of input (id)
 
 Now look at state 5 and *, the action is r6
 So reduce on F goes to id. We look at the length of the rhs which is one then pop that many symbols off the stack, 0 is left on stack
-Now we look at 0 with left hand side which is F and we index into gototable 
+Now we look at 0 with left hand side which is F and we index into goto table at (0, F) which tells us to go to state 3, so we push that onto the stack
+
+...
 ```
+
