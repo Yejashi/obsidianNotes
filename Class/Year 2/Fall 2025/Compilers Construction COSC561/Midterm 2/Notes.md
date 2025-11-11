@@ -58,4 +58,5 @@ Let's compute FIRST for the above grammar:
 FOLLOW tells you what can appear immediately after a nonterminal in some valid sentence
 
 To know which rule to use, ask:
-	""
+	"If I see A in the middle of a derivation, what terminals could come right after it?”
+
