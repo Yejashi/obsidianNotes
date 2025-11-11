@@ -177,5 +177,8 @@ A real parser automates that with a deterministic finite automaton built from gr
 		- `acc` → _accept_
 		- blank → _error_
 - **GOTO** — decides _which state to go to_ on non-terminals after a reduction
+	- Rows = same parser states
+	- Columns = non-terminals
+	- 
 
 
