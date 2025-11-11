@@ -263,6 +263,7 @@ An item is a production with a dot at some point in the right hand side. The dot
 ```
 E → ·E + T     (haven’t seen anything yet)
 E → E· + T     (we’ve seen E)
+E → E + ·T     ()
 E → E + T·     (entire RHS seen, ready to reduce)
 ```
 
