@@ -120,3 +120,5 @@ At each step you do one of four possible actions:
 - **Accept**: If the stack has only the start symbol and the input is `$`, the parser accepts
 - **Error**: No valid action, input doesnt match grammar
 
+The Key Intuition: Finding the “Handle”
+- Each reduction replaces a handle — a substring that corresponds to a right-hand side (RHS) of some production and could appear next in a rightmost derivation.
