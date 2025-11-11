@@ -122,3 +122,7 @@ At each step you do one of four possible actions:
 
 The Key Intuition: Finding the “Handle”
 - Each reduction replaces a handle — a substring that corresponds to a right-hand side (RHS) of some production and could appear next in a rightmost derivation.
+
+In plain words:
+	A _handle_ is a piece of the input that “fits perfectly” to collapse back into a nonterminal.
+
