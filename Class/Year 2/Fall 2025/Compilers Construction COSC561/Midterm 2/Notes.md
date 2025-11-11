@@ -86,3 +86,7 @@ Since E' ⇒ ε, FOLLOW(T) also gets FOLLOW(E) = { ), $ }
 In T → F T':
 FOLLOW(F) ⊇ FIRST(T') − {ε} = { '*' }
 Since T' ⇒ ε, FOLLOW(F) ⊇ FOLLOW(T) = { '+', ), $ }
+
+
+
+
