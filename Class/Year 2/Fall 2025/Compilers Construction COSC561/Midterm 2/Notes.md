@@ -55,3 +55,4 @@ Let's compute FIRST for the above grammar:
 - FIRST(F) = {(, id}
 
 ##### Intuition for FIRST
+FOLLOW tells you what can appear immediately after a nonterminal in some valid sentence
