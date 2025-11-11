@@ -78,3 +78,11 @@ T' → * F T' | ε
 F → (E) | id
 ```
 
+Start: FOLLOW(E) = { $, ) }
+(Since E can appear inside parentheses or at the top.)
+In E → T E':
+FOLLOW(T) ⊇ FIRST(E') − {ε} = { '+' }
+Since E' ⇒ ε, FOLLOW(T) also gets FOLLOW(E) = { ), $ }
+In T → F T':
+FOLLOW(F) ⊇ FIRST(T') − {ε} = { '*' }
+Since T' ⇒ ε, FOLLOW(F) ⊇ FOLLOW(T) = { '+', ), $ }
