@@ -65,3 +65,4 @@ Rules of thumb:
 	FOLLOW(S) includes `$` (end of input marker).
 2. When A → α B β:
 	Whatever can start β (FIRST(β) without ε) can follow B.
+3. When A → α B or A → α B β where β ⇒ ε:**
