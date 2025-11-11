@@ -63,4 +63,5 @@ To know which rule to use, ask:
 Rules of thumb:
 1. Start symbol rule:
 	FOLLOW(S) includes `$` (end of input marker).
-2. 
+2. When A → α B β:
+	
