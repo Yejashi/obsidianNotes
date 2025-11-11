@@ -66,7 +66,7 @@ Rules of thumb:
 2. When A → α B β:
 	add (FIRST(β) - ε) to follow B.
 3. When A → α B or A → α B β where β ⇒ ε:**
-	Add follow A to follow B
+	Add FOLLOW(A) to FOLLOW(B)
 	(Because once β disappears, what comes after A now comes after B.)
 
 ```
