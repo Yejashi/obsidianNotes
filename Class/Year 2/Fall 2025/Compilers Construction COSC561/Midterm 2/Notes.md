@@ -261,8 +261,11 @@ The states are sets of what are called LR(0) items.
 
 An item is a production with a dot at some point in the right hand side. The dot acts as a cursor, and you're enumerating all the potential states by moving the dot.
 ```
-
+E → ·E + T     (haven’t seen anything yet)
+E → E· + T     (we’ve seen E)
+E → E + T·     (entire RHS seen, ready to reduce)
 ```
+
 ![[Pasted image 20251111182412.png]]
 
 
