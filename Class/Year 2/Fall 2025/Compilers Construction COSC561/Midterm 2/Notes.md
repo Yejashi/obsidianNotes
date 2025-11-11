@@ -14,6 +14,7 @@
 	- Translate statement with backpatching
 	- Translate statement without backpatching
 	- Translating switch statements
+- Code Generation
 ### Syntax Analysis
 
 #### Calculating FIRST and FOLLOW
