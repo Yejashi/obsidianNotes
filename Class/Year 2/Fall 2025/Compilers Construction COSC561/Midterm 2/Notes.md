@@ -162,11 +162,12 @@ $ E          | $               | accept
 ##### How does the parser know when to shift or reduce?
 That's where **ACTION** and **GOTO** tables come in.
 
-**Motivation**
+**Motivation**:
 When doing shift-reduce by hand, you have to constantly consider:
 - Should I shift the next token or reduce something on the stack?
 - If I reduce, which rule should I use?
 
+**How to Read the Tables**:
 A real parser automates that with a deterministic finite automaton built from grammar items. The automaton is encoded as **two tables:**
 - **ACTION** — decides _shift / reduce / accept / error_ on terminals
 	- Rows = parser states
@@ -181,7 +182,7 @@ A real parser automates that with a deterministic finite automaton built from gr
 	- Columns = non-terminals
 	- Entries = next state number after reducing a non-terminal
 
-How they're used:
+**How they're used**:
 At each 
 
 
