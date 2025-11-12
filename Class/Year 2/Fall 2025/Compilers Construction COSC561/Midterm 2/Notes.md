@@ -608,5 +608,7 @@ That’s coarse. It assumes every situation where `A → α·` can be reduced on
 
 Result: **shift/reduce or reduce/reduce conflicts** appear even for unambiguous grammars.
 
+**LR(1)** exists to fix that by giving _each item its own specific lookahead symbol_ — so we only reduce when the next input symbol truly makes sense **in that context**.
+
 
 
