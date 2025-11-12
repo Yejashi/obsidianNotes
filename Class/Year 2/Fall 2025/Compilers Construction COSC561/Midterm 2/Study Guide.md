@@ -48,3 +48,8 @@ productions for common errors. When the error production is used, an appropriate
 
 **(c) What is the general strategy of panic-mode recovery? What are its main advantages?**
 **Strategy:** On detecting an error, the parser discards input symbols until a **synchronizing token** (like `;` or `}`) is reached, then resumes parsing.
+
+Advantages:
+- Simple and effective.
+- Never enters an infinite loop.
+- Allows parsing to continue to find multiple errors in one run.
