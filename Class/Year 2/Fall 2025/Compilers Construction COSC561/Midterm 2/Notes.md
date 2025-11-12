@@ -619,6 +619,9 @@ Where:
 - `A → αβ` is a production.
 - `·` marks the parser’s current position.
 - `a` is a **lookahead symbol** (a terminal) that can appear next in the input **after** the string derived from `A`.
+Think of it as:
+> “We’ve seen α, expect β next, and only if the next input symbol is `a` should we eventually reduce this rule.”
+
 
 
 
