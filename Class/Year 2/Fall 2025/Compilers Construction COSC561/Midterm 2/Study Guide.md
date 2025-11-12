@@ -12,5 +12,6 @@ Given the following grammar construct the LR(0) sets of items.
 ![[Screenshot_20251112_081447 1.png]]
 ![[Pasted image 20251112100317.png]]
 # Question 3
+![[Pasted image 20251112105123.png]]
 
 
