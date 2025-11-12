@@ -422,6 +422,13 @@ Identify terminals vs nonterminals
 S4: For each state (I₀–I₅), look at what’s after the dot
 That tells you what kind of **table entry** (shift, goto, reduce, or accept) to make.
 
+| What’s after the dot              | Type of move | Table                                           | Meaning                                                         |
+| --------------------------------- | ------------ | ----------------------------------------------- | --------------------------------------------------------------- |
+| **A terminal (like `id`, `+`)**   | **Shift**    | `ACTION[state, terminal] = shift X`             | “If I see this terminal next, move to state X (advance input).” |
+| **A nonterminal (like `E`, `T`)** | **Goto**     | `GOTO[state, nonterminal] = X`                  | “If I just finished parsing this nonterminal, go to state X.”   |
+| **Nothing (dot at end)**          | **Reduce**   | `ACTION[state, all terminals] = reduce by rule` | “The RHS is fully seen, so reduce to its LHS.”                  |
+| **Dot at end of the start rule**  | **Accept**   | `ACTION[state, $] = accept`                     | “We finished the whole input.”                                  |
+
 State I₀:
 ```
 S' → ·E
