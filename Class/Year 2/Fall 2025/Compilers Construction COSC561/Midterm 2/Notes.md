@@ -283,6 +283,12 @@ https://www.youtube.com/watch?v=g1G7p9EPDYo
 	- The set of all those new items becomes your starting point.
 	- Finally, take the **Closure** of that set to fill in any new possibilities (just like before).
 
-
+Example:
+Consider the following grammar:
+```
+1. E → E + T  
+2. E → T  
+3. T → id
+```
 
 
