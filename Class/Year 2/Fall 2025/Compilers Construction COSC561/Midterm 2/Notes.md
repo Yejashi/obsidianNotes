@@ -507,3 +507,5 @@ For each item set `I` and each grammar symbol `X` (terminal or nonterminal):
 - Compute `goto(I, X)`
 - If `goto(I, X)` produces a new, distinct set of items, label it as a new state.
 
+Step 4. Repeat until no new sets appear
+
