@@ -709,4 +709,7 @@ A **Directed Acyclic Graph (DAG)** for an expression is a data structure that:
 - The graph is **acyclic** (no loops) and **directed** from operands → operators → results.
 
 **How to Generate a DAG**
+
+Note: While creating the DAG, you check if the node you're creating already exists in the tree, if so just make a pointer to it
+
 Given a **basic block** (a straight-line code sequence with no jumps except at the end), we can build a DAG as follows:
