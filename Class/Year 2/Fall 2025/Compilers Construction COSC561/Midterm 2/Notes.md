@@ -551,9 +551,9 @@ Anita da goat:
 - SLR Parsing Table: https://www.youtube.com/watch?v=8Cq3EIgXOec
 
 Action Table TLDR:
-If the dot (`·`) is **followed by a terminal** `a`,  
-→ set **ACTION[state, a] = shift(s)**  
-where `s` is the state reached by `GOTO(state, a)`.
+- If the dot (`·`) is **followed by a terminal** `a`,  
+	→ set **ACTION[state, a] = shift(s)**  
+	where `s` is the state reached by `GOTO(state, a)`.
 
 **Example:**
 
