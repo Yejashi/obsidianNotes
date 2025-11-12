@@ -733,3 +733,4 @@ a a b c - * + b c - d * +
 ```
 
 **S3:** Go through the each element in the post fix representation and apply the synteax directed rules
+On the first `'a'`, create a new leaf node (`p1`).
