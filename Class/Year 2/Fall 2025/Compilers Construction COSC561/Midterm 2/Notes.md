@@ -352,4 +352,5 @@ E → E· + T
 That’s your starting set.
 
 Now take **Closure**:
-
+- In `S' → E·`, the dot is at the end — nothing to add.
+- 
