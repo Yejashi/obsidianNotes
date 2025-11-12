@@ -468,6 +468,7 @@ State I₂:
 ```
 E → T·
 ```
+- Dot at end → **reduce by rule (2)**: `E → T`
 
 
 
