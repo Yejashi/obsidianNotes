@@ -508,4 +508,6 @@ For each item set `I` and each grammar symbol `X` (terminal or nonterminal):
 - If `goto(I, X)` produces a new, distinct set of items, label it as a new state.
 
 Step 4. Repeat until no new sets appear
+When finished, the full collection `{ I₀, I₁, I₂, …, In }` is called the **canonical collection of sets of LR(0) items**.
+
 
