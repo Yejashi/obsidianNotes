@@ -323,3 +323,12 @@ T → ·id
 ```
 
 Now our closure is complete — there are no new nonterminals after any dots.
+
+Final Closure(I₀):
+```
+S' → ·E
+E → ·E + T
+E → ·T
+T → ·id
+```
+
