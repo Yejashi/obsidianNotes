@@ -13,3 +13,4 @@ Given the following grammar construct the LR(0) sets of items.
 
 
 # Question 3
+![[Pasted image 20251112095733.png]]
