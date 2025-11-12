@@ -732,4 +732,4 @@ a + a * (b - c) + (b - c) * d
 a a b c - * + b c - d * +
 ```
 
-**S3:** Go through the 
+**S3:** Go through the each element in the post fix representation and apply the synteax directed rules
