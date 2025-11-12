@@ -47,4 +47,4 @@ productions for common errors. When the error production is used, an appropriate
 **Global correction** – The compiler applies a least-cost correction by searching for the smallest change that make the input valid (theoretically ideal but impractical).
 
 **(c) What is the general strategy of panic-mode recovery? What are its main advantages?**
-
+**Strategy:** On detecting an error, the parser discards input symbols until a **synchronizing token** (like `;` or `}`) is reached, then resumes parsing.
