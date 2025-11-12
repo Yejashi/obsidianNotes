@@ -624,6 +624,9 @@ Think of it as:
 
 **How LR(1) Parsing Works**:
 
+S1: Augment the Grammar
+
+S2: Define Closure and Goto for LR(1)
 
 
 
