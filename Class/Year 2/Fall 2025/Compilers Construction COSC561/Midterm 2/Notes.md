@@ -723,6 +723,7 @@ a + a * (b - c) + (b - c) * d
 ![[Pasted image 20251112174454.png]]
 
 **S2**: Then do a post order traversal of the tree to get a postfix representation
-- travel left
-- travel right
-- visit node
+- You do so by recursively
+	- traveling left
+	- traveling right
+	- visiting node
