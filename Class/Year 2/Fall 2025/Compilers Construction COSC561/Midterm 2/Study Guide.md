@@ -21,6 +21,7 @@ Given the following grammar construct the LR(1) sets of items.
 
 # Question 5
 Use the grammar and the set of items in the last problem to construct the canonical parsing table
+![[Pasted image 20251112155432.png]]
 
 
 
