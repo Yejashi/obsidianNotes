@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "edf228c1c2acfc76",
+        "id": "86b91b026ca06c9b",
         "type": "tabs",
         "children": [
           {
@@ -19,6 +19,24 @@
               },
               "icon": "lucide-file",
               "title": "Notes"
+            }
+          }
+        ]
+      },
+      {
+        "id": "edf228c1c2acfc76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "568b520a07d212a9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
             }
           }
         ]
@@ -190,7 +208,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aad4982881e27eb0",
+  "active": "568b520a07d212a9",
   "lastOpenFiles": [
     "Meta/Attachments/Pasted image 20251111182412.png",
     "Meta/Attachments/Pasted image 20251111180134.png",
