@@ -597,3 +597,5 @@ GOTO(I₀, E) = I₁
 ⇒ GOTO[0, E] = 1
 ```
 
+**Conflict Handling**:
+- Shift/Reduce Conflict: Happens if a state contains both
