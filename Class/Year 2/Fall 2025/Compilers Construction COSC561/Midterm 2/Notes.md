@@ -551,10 +551,11 @@ Anita da goat:
 - SLR Parsing Table: https://www.youtube.com/watch?v=8Cq3EIgXOec
 
 Action Table TLDR:
-- If a dot is followed by a terminal, then shift to state of goto of that terminal
-	- ex: In i0 F->.(E), i2 = goto(I0, ()
-	- So in this case you shift to 2
-- If the dot is at the end without the previous symbol being the start symbol then 
+If the dot (`·`) is **followed by a terminal** `a`,  
+→ set **ACTION[state, a] = shift(s)**  
+where `s` is the state reached by `GOTO(state, a)`.
+
+**Example:**
 
 Goto table TLDR:
 - If a dot followed by a nonterminal, then put the number of the whole production
