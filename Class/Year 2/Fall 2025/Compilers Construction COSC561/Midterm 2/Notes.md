@@ -365,5 +365,6 @@ E → ·T
 
 Move the dot past `T`:
 ```
-
+E → T·
 ```
+
