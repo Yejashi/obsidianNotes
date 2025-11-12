@@ -357,4 +357,4 @@ Now take **Closure**:
 
 Goto(I₀, E) = { S' → E·, E → E· + T }
 
-Example -> Goto()
+Example -> Goto(I₀, T)
