@@ -517,5 +517,6 @@ When finished, the full collection `{ I₀, I₁, I₂, …, In }` is called the
 It uses the **same canonical LR(0) items** as an LR(0) parser, but **adds FOLLOW sets** to decide reduce actions more intelligently.
 
 Steps:
-1. Get canonical LR(0) sets of items
-2. 
+1. Augment the grammar
+2. Get canonical LR(0) sets of items
+3. 
