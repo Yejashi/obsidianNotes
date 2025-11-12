@@ -291,4 +291,11 @@ Consider the following grammar:
 3. T → id
 ```
 
+S1: Augment grammar
+```
+0. S' → ·E
+```
+
+We’ll call this the starting set **I₀ = { S' → ·E }**.
+
 
