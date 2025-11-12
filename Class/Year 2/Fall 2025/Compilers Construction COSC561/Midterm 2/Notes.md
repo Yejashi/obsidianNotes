@@ -719,3 +719,4 @@ Example:
 a + a * (b - c) + (b - c) * d
 ```
 
+First create the syntax tree of the expression:
