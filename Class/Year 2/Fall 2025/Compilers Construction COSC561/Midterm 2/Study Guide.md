@@ -10,8 +10,7 @@ Use Figure 4.37 and the expression grammar 4.1 to parse the string (id * id) + i
 # Question 2
 Given the following grammar construct the LR(0) sets of items.
 ![[Screenshot_20251112_081447 1.png]]
-![[Pasted image 20251112095733.png]]
-
+![[Pasted image 20251112100317.png]]
 # Question 3
 
 
