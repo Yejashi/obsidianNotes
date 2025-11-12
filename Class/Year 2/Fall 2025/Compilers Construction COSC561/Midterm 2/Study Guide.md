@@ -91,8 +91,14 @@ Preferable because:
 - Assignment types must match or be coercible.
 - Control expressions (`if`, `while`) must be Boolean.
 - Function calls must have correct number and types of parameters.  
-    Violations generate compile-time errors.
 
+**(h) What is coercion, overloading, and polymorphism? Give an example of each in the C language.**
+
+|Concept|Definition|Example in C|
+|---|---|---|
+|**Coercion**|Implicit type conversion by compiler|`float f = 3;` → integer `3` coerced to `3.0`|
+|**Overloading**|One operator or function used for multiple types|`+` used for both `int` and `float`|
+|**Polymorphism**|Same interface works with multiple data types|Function-like macros or function pointers (e.g., `qsort()` callback)|
 
 
 
