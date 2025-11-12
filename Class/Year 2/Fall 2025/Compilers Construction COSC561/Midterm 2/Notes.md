@@ -584,3 +584,4 @@ I₁: S' → S·
 ⇒ ACTION[1, $] = accept
 ```
 
+**GOTO Table TLDR**
