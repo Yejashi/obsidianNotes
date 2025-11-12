@@ -31,9 +31,10 @@ Draw the DAG representation for the following expression (as shown in Figure 6.3
 ```
 
 # Question 10
-Why is bottom-up parsing (with one symbol of lookahead) more powerful than top-down parsing (with one lookahead symbol)?
+(a) Why is bottom-up parsing (with one symbol of lookahead) more powerful than top-down parsing (with one lookahead symbol)?
 
 Bottom-up (LR) parsers can handle a **larger class of context-free grammars** than top-down (LL) parsers.
 -  LL(1) parsers require grammars to be **left-factored and free of left recursion**, which limits their expressiveness.
 - LR(1) parsers work **without modifying the grammar**, handling **left recursion and ambiguity resolution** automatically using a deterministic PDA. As such,  LR(1) parsing can recognize more grammars than LL(1)
 
+(b) 
