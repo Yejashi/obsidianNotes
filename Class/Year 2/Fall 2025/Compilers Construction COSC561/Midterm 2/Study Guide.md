@@ -104,4 +104,6 @@ Preferable because:
 **Backpatching** fills in **unresolved jump targets** in control flow constructs during intermediate code generation.
 
 Instead of generating code in two passes, the compiler:
-
+- Emits branch instructions with **placeholder labels**.
+- Records them in a **backpatch list**.
+- Fills in actual addresses when their target labels are known
