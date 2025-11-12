@@ -419,7 +419,8 @@ Identify terminals vs nonterminals
 - Terminals: `id`, `+`, `$`
 - Nonterminals: `E`, `T`
 
-For each state (I₀–I₅), look at what’s after the dot
+S4: For each state (I₀–I₅), look at what’s after the dot
+
 
 
 
