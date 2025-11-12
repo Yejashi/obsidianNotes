@@ -655,5 +655,10 @@ Start with:
 ```
 
 Closure adds `[S → ·CC, $]`, and for the first `C`, it adds:
+```
+[C → ·cC, FIRST(C$) = {c, d}]
+[C → ·d, FIRST(C$) = {c, d}]
+```
+
 
 
