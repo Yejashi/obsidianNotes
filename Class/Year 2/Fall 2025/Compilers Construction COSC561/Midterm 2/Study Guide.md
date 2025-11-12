@@ -106,4 +106,4 @@ Preferable because:
 Instead of generating code in two passes, the compiler:
 - Emits branch instructions with **placeholder labels**.
 - Records them in a **backpatch list**.
-- Fills in actual addresses when their target labels are known
+- Fills in actual addresses when their target labels are known.
