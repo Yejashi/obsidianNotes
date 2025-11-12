@@ -556,8 +556,6 @@ Action Table TLDR:
 	where `s` is the state reached by `GOTO(state, a)`.
 
 	**Example:**
-	Goto table TLDR:
-	- If a dot followed by a nonterminal, then put the number of the whole production
-		- ex. 
-
-- 
+	```
+	
+	```
