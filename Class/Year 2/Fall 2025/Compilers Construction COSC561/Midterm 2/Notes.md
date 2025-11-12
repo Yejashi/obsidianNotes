@@ -511,3 +511,4 @@ Step 4. Repeat until no new sets appear
 When finished, the full collection `{ I₀, I₁, I₂, …, In }` is called the **canonical collection of sets of LR(0) items**.
 
 
+##### SLR Parsing
