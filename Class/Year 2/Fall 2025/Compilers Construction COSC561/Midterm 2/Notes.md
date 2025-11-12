@@ -686,4 +686,5 @@ Error Recovery Strategies
 	- Allows you to detect more errors
 	- Cons
 		- Could possible go into an infinite loop
+- 
 
