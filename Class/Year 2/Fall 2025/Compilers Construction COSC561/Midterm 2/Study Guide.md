@@ -57,8 +57,8 @@ Advantages:
 
 (**d) Give the advantages and disadvantages of using a three-address form of intermediate representation over a zero-address representation**
 
-|Representation|Advantages|Disadvantages|
-|---|---|---|
-|**Three-address code (TAC)**|Explicit operands → easier optimization (e.g., common subexpression elimination), simple mapping to machine instructions, supports quadruples/triples/SSA|Consumes more temporaries and storage|
-|**Zero-address (postfix)**|Compact (good for stack machines), no explicit operands|Harder to optimize or perform code motion; implicit dependencies|
+| Representation               | Advantages                                                                                                                                                | Disadvantages                                                    |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| **Three-address code (TAC)** | Explicit operands → easier optimization (e.g., common subexpression elimination), simple mapping to machine instructions, supports quadruples/triples/SSA | Consumes more temporaries and storage                            |
+| **Zero-address (postfix)**   | Compact (good for stack machines), no explicit operands                                                                                                   | Harder to optimize or perform code motion; implicit dependencies |
 
