@@ -8,3 +8,4 @@ Use Figure 4.37 and the expression grammar 4.1 to parse the string (id * id) + i
 ![[Pasted image 20251112081241.png]]
 
 # Question 2
+Given the following grammar construct the LR(0) sets of items.
