@@ -623,18 +623,9 @@ Think of it as:
 > “We’ve seen α, expect β next, and only if the next input symbol is `a` should we eventually reduce this rule.”
 
 **How LR(1) Parsing Works**:
+The formal definition can suck it, take this example instead.
 
-S1: Augment the Grammar
+Consider:
+```
 
-S2: Define Closure and Goto for LR(1)
-Closure(l)
-If `[A → α·Bβ, a]` is in I,  
-and `B → γ` is a production,  
-then for every `b` in **FIRST(βa)**,  
-add `[B → ·γ, b]` to the set.
-→ This “propagates” possible lookaheads through nested rules.
-
-
-
-
-
+```
