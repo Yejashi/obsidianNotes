@@ -38,9 +38,13 @@ Bottom-up (LR) parsers can handle a **larger class of context-free grammars** th
 - LR(1) parsers work **without modifying the grammar**, handling **left recursion and ambiguity resolution** automatically using a deterministic PDA. As such,  LR(1) parsing can recognize more grammars than LL(1)
 
 **(b) Explain the different error recovery strategies.**
+
 **Panic-mode recovery** – Keep parsing until a synchronizing token is found. (e.g. semicolon)
 **Phrase-level recovery** – Replace the prefix of the remaining input with some string that will
 allow the parser to continue looking for errors.
 **Error productions** – Augment the grammar for the source language to include
 productions for common errors. When the error production is used, an appropriate error diagnostic can be issued.
 **Global correction** – The compiler applies a least-cost correction by searching for the smallest change that make the input valid (theoretically ideal but impractical).
+
+**(c) What is the general strategy of panic-mode recovery? What are its main advantages?**
+
