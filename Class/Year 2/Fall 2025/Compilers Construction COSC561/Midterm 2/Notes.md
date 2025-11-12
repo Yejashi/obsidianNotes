@@ -384,3 +384,8 @@ T → id·
 ```
 
 Goto(I₀, id) = { T → id· }
+
+**The Big Picture**
+1. Start from the **closure** of the augmented start production.
+2. Repeatedly take **goto** for every possible symbol (terminal or nonterminal).
+3. 
