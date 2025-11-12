@@ -635,5 +635,13 @@ Augment:
 ```
 S'→ S
 S → CC
-C → cC | d
+C → cC
+C → d
 ```
+
+Start with:
+```
+[S' → ·S, $] Dollar is looakhead here
+```
+
+
