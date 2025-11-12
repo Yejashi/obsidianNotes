@@ -295,7 +295,6 @@ S1: Augment grammar
 ```
 0. S' → ·E
 ```
-
 We’ll call this the starting set **I₀ = { S' → ·E }**.
 
-
+S2: Compute Closure()
