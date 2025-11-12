@@ -598,4 +598,4 @@ GOTO(I₀, E) = I₁
 ```
 
 **Conflict Handling**:
-- Shift/Reduce Conflict: Happens if a state contains both
+- When there is a conflict canonical LR(1) uses a lookahead to disambiguate
