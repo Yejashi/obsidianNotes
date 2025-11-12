@@ -345,3 +345,8 @@ E → ·E + T
 ```
 
 Move the dot past `E` in both:
+```
+S' → E·
+E → E· + T
+```
+
