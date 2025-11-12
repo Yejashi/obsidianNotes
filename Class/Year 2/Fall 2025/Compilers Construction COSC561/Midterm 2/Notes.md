@@ -521,6 +521,7 @@ Steps:
 2. Construct the canonical collection of LR(0) item sets
 3. Build the ACTION table (for terminals)
 	For each state `Ii`:
+	
 	If there’s an item `A → α·aβ` where `a` is a **terminal**,  
 	then set 
 	`ACTION[i, a] = shift j`
@@ -529,4 +530,9 @@ Steps:
 	If there’s an item `A → α·` (dot at the end of a production and `A ≠ S'`),
 	then for **every terminal `a` in FOLLOW(A)**, set
 	`ACTION[i, a] = reduce A → α`
-	
+
+	If there’s an item `S' → S·`,
+	set
+	`ACTION[i, $] = accept`
+
+4. Build the GOTO table (for nonterminals)
