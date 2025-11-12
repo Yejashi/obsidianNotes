@@ -552,6 +552,6 @@ Anita da goat:
 
 Action Table TLDR:
 - If a dot is followed by a terminal, then shift to state of goto of that terminal
-	- ex: In i0 F->.(E), i2 = goto(I0, C)
+	- ex: In i0 F->.(E), i2 = goto(I0, ())
 	- So in this case you shift to 2
 - If the dot is at the end without the previous symbol being the start symbol then 
