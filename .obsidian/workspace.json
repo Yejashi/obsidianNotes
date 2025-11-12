@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +117,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 313.5,
+    "collapsed": true
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -228,12 +229,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9418f6516f263449",
+  "active": "dcc1de0ba49fdd25",
   "lastOpenFiles": [
-    "Meta/Attachments/Pasted image 20251112084334.png",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/midterm2_study_guide.pdf",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
+    "Meta/Attachments/Pasted image 20251112084334.png",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/midterm2_study_guide.pdf",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Meta/Attachments/Screenshot_20251112_081447 1.png",
     "Meta/Attachments/Screenshot_20251112_081447.png",
@@ -247,7 +248,6 @@
     "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
     "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
     "Meta/Attachments/Pasted image 20251111182412.png",
-    "Meta/Attachments/Pasted image 20251111180134.png",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2",
     "Misc/Software Ideas/Optimization Visualization Tool.md",
     "Class/Year 1/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
