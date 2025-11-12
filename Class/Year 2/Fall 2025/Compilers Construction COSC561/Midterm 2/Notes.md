@@ -445,7 +445,6 @@ T  → ·id
 - Dot before **E** → nonterminal → `Goto(I₀, E) = I₁`
 - Dot before **T** → nonterminal → `Goto(I₀, T) = I₂`
 - Dot before **id** → terminal → `ACTION[I₀, id] = shift 3`
-
 ```
 ACTION[I₀, id] = s3
 GOTO[I₀, E] = 1
@@ -460,6 +459,16 @@ E  → E· + T
 ```
 - `S' → E·` → dot at end and it’s start → **accept** when `$` comes next.
 - `E → E· + T` → dot before `+` → terminal → `ACTION[I₁, +] = shift 4`
+```
+ACTION[I₁, +] = s4
+ACTION[I₁, $] = acc
+```
+
+State I₂:
+```
+E → T·
+```
+
 
 
 
