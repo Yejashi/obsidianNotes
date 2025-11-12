@@ -521,4 +521,7 @@ Steps:
 2. Construct the canonical collection of LR(0) item sets
 3. Build the ACTION table (for terminals)
 	For each state `Ii`:
-	
+		If there’s an item `A → α·aβ` where `a` is a **terminal**,  
+		then set `ACTION[i, a] = shift j`
+		
+		
