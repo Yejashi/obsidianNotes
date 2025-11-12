@@ -526,4 +526,4 @@ Steps:
 		`ACTION[i, a] = shift j`
 		where `goto(Ii, a) = Ij`.
 		
-		
+	
