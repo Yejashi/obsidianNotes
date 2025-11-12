@@ -522,6 +522,8 @@ Steps:
 3. Build the ACTION table (for terminals)
 	For each state `Ii`:
 		If there’s an item `A → α·aβ` where `a` is a **terminal**,  
-		then set `ACTION[i, a] = shift j`
+		then set 
+		`ACTION[i, a] = shift j`
+		where `goto(Ii, a) = Ij`.
 		
 		
