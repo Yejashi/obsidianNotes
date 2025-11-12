@@ -420,6 +420,7 @@ Identify terminals vs nonterminals
 - Nonterminals: `E`, `T`
 
 S4: For each state (I₀–I₅), look at what’s after the dot
+That tells you what kind of **table entry** (shift, goto, reduce, or accept) to make.
 
 State I₀:
 ```
