@@ -300,6 +300,9 @@ We’ll call this the starting set **I₀ = { S' → ·E }**.
 S2: Compute Closure(I₀):
 > Whenever you have a dot before a nonterminal (like `·E`), you must include _all productions of that nonterminal_ with the dot at the beginning.
 
-In `S' → ·E`, the dot is before **E**.
-
+In `S' → ·E`, the dot is before **E**. So we add **all rules of E**, each with a dot at the start:
+```
+E → ·E + T  
+E → ·T
+```
 
