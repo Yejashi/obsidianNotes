@@ -732,3 +732,4 @@ a + a * (b - c) + (b - c) * d
 a a b c - * + b c - d * +
 ```
 
+**S3:** Go through the 
