@@ -627,5 +627,8 @@ The formal definition can suck it, take this example instead.
 
 Consider:
 ```
-
+S → CC
+C → cC | d
 ```
+
+Augment:
