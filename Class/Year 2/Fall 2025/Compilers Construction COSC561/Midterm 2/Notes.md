@@ -358,3 +358,12 @@ Now take **Closure**:
 Goto(I₀, E) = { S' → E·, E → E· + T }
 
 Example -> Goto(I₀, T)
+Look for items with `·T`:
+```
+E → ·T
+```
+
+Move the dot past `T`:
+```
+
+```
