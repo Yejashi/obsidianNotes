@@ -407,6 +407,18 @@ I₄: E → E + ·T, T → ·id
 I₅: E → E + T·
 ```
 
+Recall the grammar:
+```
+(0) S' → E
+(1) E → E + T
+(2) E → T
+(3) T → id
+```
+
+Identify terminals vs nonterminals
+- Terminals: `id`, `+`, `$`
+- Nonterminals: `E`, `T`
+
 
 
 
