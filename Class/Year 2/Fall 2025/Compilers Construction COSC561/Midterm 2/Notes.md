@@ -353,4 +353,4 @@ That’s your starting set.
 
 Now take **Closure**:
 - In `S' → E·`, the dot is at the end — nothing to add.
-- 
+- In `E → E· + T`, the dot is before `+` (a terminal), so nothing to add either.
