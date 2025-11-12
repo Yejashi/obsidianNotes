@@ -78,8 +78,16 @@ Advantages:
     - Requires extra data space.
 
 **(f) What is static checking? Why is static checking preferable to dynamic checking?**
+
 **Static checking:** Detects errors at **compile time** (type, flow, name, uniqueness).
 **Dynamic checking:** Performed at **runtime** (e.g., array bounds)
-Errors are caught before program execution or distribution.
-Eliminates runtime overhead.
+Preferable because:
+- Errors are caught before program execution or distribution.
+- Eliminates runtime overhead.
+- Increases program reliability and portability.
+
+
+
+
+
 
