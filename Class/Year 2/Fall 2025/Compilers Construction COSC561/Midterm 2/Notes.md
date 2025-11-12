@@ -539,3 +539,9 @@ Steps:
 	For each nonterminal `A`, if `goto(Ii, A) = Ij`, then set
 	`GOTO[i, A] = j`
 
+5. Mark all other entries as errors
+6. Check for conflicts
+	If any cell in the ACTION table has more than one possible action (e.g., both shift and reduce),
+	then the grammar is not SLR(1).
+
+
