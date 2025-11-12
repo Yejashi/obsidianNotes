@@ -708,3 +708,4 @@ A **Directed Acyclic Graph (DAG)** for an expression is a data structure that:
 - **Edges** represent **dependencies** (which subexpressions are used by which operations).
 - The graph is **acyclic** (no loops) and **directed** from operands → operators → results.
 
+**Purpose / Why We Use DAGs**
