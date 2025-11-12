@@ -511,3 +511,93 @@ Step 4. Repeat until no new sets appear
 When finished, the full collection `{ I₀, I₁, I₂, …, In }` is called the **canonical collection of sets of LR(0) items**.
 
 
+##### SLR Parsing
+**SLR** stands for **Simple LR(1)** (or **SLR(1)**) parsing.
+
+It uses the **same canonical LR(0) items** as an LR(0) parser, but **adds FOLLOW sets** to decide reduce actions more intelligently.
+
+Steps:
+1. Augment the grammarc
+2. Construct the canonical collection of LR(0) item sets
+3. Build the ACTION table (for terminals)
+	For each state `Ii`:
+	
+	If there’s an item `A → α·aβ` where `a` is a **terminal**,  
+	then set 
+	`ACTION[i, a] = shift j`
+	where `goto(Ii, a) = Ij`.
+
+	If there’s an item `A → α·` (dot at the end of a production and `A ≠ S'`),
+	then for **every terminal `a` in FOLLOW(A)**, set
+	`ACTION[i, a] = reduce A → α`
+
+	If there’s an item `S' → S·`,
+	set
+	`ACTION[i, $] = accept`
+
+4. Build the GOTO table (for nonterminals)
+	For each nonterminal `A`, if `goto(Ii, A) = Ij`, then set
+	`GOTO[i, A] = j`
+
+5. Mark all other entries as errors
+6. Check for conflicts
+	If any cell in the ACTION table has more than one possible action (e.g., both shift and reduce),
+	then the grammar is not SLR(1).
+
+![[Screenshot_20251111_211049.png]]
+
+Anita da goat:
+- LR(0) items: https://www.youtube.com/watch?v=ZfB4JU2YZ_0
+- SLR Parsing Table: https://www.youtube.com/watch?v=8Cq3EIgXOec
+
+**Action Table TLDR:**
+**Shift**
+- If the dot (`·`) is **followed by a terminal** `a`,  
+	→ set **ACTION[state, a] = shift(s)**  
+	where `s` is the state reached by `GOTO(state, a)`.
+
+**Example:**
+```
+I₀: F → ·(E)
+GOTO(I₀, '(') = I₂
+⇒ ACTION[0, '('] = shift 2
+```
+
+**Reduce**
+- If the dot is **at the end** (the item is complete) and the production is **not the augmented start rule**,
+	→ for every terminal `a` in **FOLLOW(A)**, set  **ACTION[state, a] = reduce A → α**
+
+**Example**:
+```
+I₅: E → E + T·
+FOLLOW(E) = { '+', ')', '$' }
+⇒ ACTION[5, '+'] = ACTION[5, ')'] = ACTION[5, '$'] = reduce E → E + T
+```
+
+**Accept**
+- If the item is the **augmented start rule** `[S' → S·]`,  
+	→ set **ACTION[state, $] = accept**
+
+**Example**
+```
+I₁: S' → S·
+⇒ ACTION[1, $] = accept
+```
+
+**GOTO Table TLDR**
+1. Transition on Nonterminals
+- If the dot (`·`) is followed by a **nonterminal** `A`,
+	→ set **GOTO[state, A] = s**
+	where `s` is the state reached by `GOTO(state, A)`.
+
+**Example**:
+```
+I₀: S' → ·E
+GOTO(I₀, E) = I₁
+⇒ GOTO[0, E] = 1
+```
+
+**Conflict Handling**:
+- When there is a conflict canonical LR(1) uses a lookahead to disambiguate
+
+##### LR(1) Parsing

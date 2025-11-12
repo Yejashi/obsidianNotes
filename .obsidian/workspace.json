@@ -38,8 +38,23 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.10.3"
             }
+          },
+          {
+            "id": "741c2e247bf78b79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,8 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,12 +222,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "568b520a07d212a9",
+  "active": "020db7076d3db4d7",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Meta/Attachments/Screenshot_20251112_081447.png",
+    "Meta/Attachments/Screenshot_20251112_081447 1.png",
+    "Meta/Attachments/Screenshot_20251112_074723.png",
+    "Meta/Attachments/Screenshot_20251112_074220.png",
+    "Meta/Attachments/Screenshot_20251111_211049.png",
+    "Meta/Attachments/Pasted image 20251112084334.png",
+    "Meta/Attachments/Pasted image 20251112081241.png",
+    "Meta/Attachments/Pasted image 20251112074226.png",
+    "Meta/Attachments/Pasted image 20251111211055.png",
     "Meta/Attachments/Pasted image 20251111182412.png",
-    "Meta/Attachments/Pasted image 20251111180134.png",
-    "Meta/Attachments/Pasted image 20251111173828.png",
-    "Meta/Attachments/Pasted image 20251111173802.png",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/midterm2_study_guide.pdf",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
@@ -231,7 +252,6 @@
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/report 1.md",
     "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4",
-    "conflict-files-obsidian-git.md",
     "Research/LLVM/DWARF/DWARF General.md",
     "Research/LLVM/DWARF",
     "Excalidraw/Drawing 2025-10-12 16.41.58.excalidraw.md",
@@ -248,13 +268,6 @@
     "Research/LLVM/Clang/Pass Manager and Analysis Manager.md",
     "Research/LLVM/Clang/Clang Tooling.md",
     "Research/LLVM/Clang/Clang Substructures.md",
-    "Research/LLVM/Clang",
-    "Meta/Attachments/Pasted image 20251004172141.png",
-    "Meta/Attachments/Pasted image 20251004163931.png",
-    "Meta/Attachments/Pasted image 20251004123121.png",
-    "Meta/Attachments/Pasted image 20250930071035.png",
-    "Meta/Attachments/Pasted image 20250930053022.png",
-    "Meta/Attachments/Pasted image 20250930052803.png",
-    "Meta/Attachments/Pasted image 20250930052505.png"
+    "Research/LLVM/Clang"
   ]
 }
