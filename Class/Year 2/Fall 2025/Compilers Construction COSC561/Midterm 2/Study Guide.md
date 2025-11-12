@@ -30,6 +30,9 @@ Draw the DAG representation for the following expression (as shown in Figure 6.3
 (a ∗ c) + b ∗ (a ∗ c) + b − (a ∗ c)
 ```
 
+![[Pasted image 20251112173030.png]]
+
+
 # Question 10
 **(a) Why is bottom-up parsing (with one symbol of lookahead) more powerful than top-down parsing (with one lookahead symbol)?**
 
