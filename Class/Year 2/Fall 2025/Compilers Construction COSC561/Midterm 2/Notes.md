@@ -714,3 +714,8 @@ Note: While creating the DAG, you check if the node you're creating already exis
 
 Approach: Create the postfix of the expression then apply the syntax directed definition.
 
+Example:
+```
+a + a * (b - c) + (b - c) * d
+```
+
