@@ -676,3 +676,6 @@ Error types:
 - semantic - variable never declared
 - logical - dereference a null pointer (runtime)
 
+Error Recovery Strategies
+- Panic mode
+	- 
