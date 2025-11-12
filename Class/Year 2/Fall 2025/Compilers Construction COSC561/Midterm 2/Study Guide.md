@@ -33,7 +33,7 @@ Draw the DAG representation for the following expression (as shown in Figure 6.3
 ![[Pasted image 20251112173030.png]]
 ![[Pasted image 20251112175448.png]]
 
-
+![[Pasted image 20251112182055.png]]
 
 
 # Question 10
