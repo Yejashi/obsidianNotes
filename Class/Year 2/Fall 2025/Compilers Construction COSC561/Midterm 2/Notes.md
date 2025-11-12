@@ -625,6 +625,9 @@ Think of it as:
 **How LR(1) Parsing Works**:
 The formal definition can suck it, take this example instead.
 
+**Closure**:
+
+
 Consider:
 ```
 S → CC
