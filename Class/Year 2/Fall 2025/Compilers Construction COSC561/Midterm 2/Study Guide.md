@@ -42,6 +42,7 @@ Bottom-up (LR) parsers can handle a **larger class of context-free grammars** th
 **Panic-mode recovery** – Keep parsing until a synchronizing token is found. (e.g. semicolon)
 **Phrase-level recovery** – Replace the prefix of the remaining input with some string that will
 allow the parser to continue looking for errors.
+- Could possible go into an infinite loop
 **Error productions** – Augment the grammar for the source language to include
 productions for common errors. When the error production is used, an appropriate error diagnostic can be issued.
 **Global correction** – The compiler applies a least-cost correction by searching for the smallest change that make the input valid (theoretically ideal but impractical).
@@ -53,3 +54,5 @@ Advantages:
 - Simple and effective.
 - Never enters an infinite loop.
 - Allows parsing to continue to find multiple errors in one run.
+
+
