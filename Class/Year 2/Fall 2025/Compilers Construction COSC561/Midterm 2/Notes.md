@@ -665,3 +665,6 @@ Closure adds `[S → ·CC, $]`, and for the first `C`, it adds:
 - Shift: same as before
 - Reduce: on look ahead symbols
 - Accept: same as before
+
+
+### Intermediate Code Generation
