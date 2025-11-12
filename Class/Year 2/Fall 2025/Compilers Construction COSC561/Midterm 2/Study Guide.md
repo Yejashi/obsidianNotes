@@ -41,4 +41,5 @@ Bottom-up (LR) parsers can handle a **larger class of context-free grammars** th
 **Panic-mode recovery** – Keep parsing until a synchronizing token is found. (e.g. semicolon)
 **Phrase-level recovery** – Replace the prefix of the remaining input with some string that will
 allow the parser to continue looking for errors.
-**Error productions** – Add grammar rules to handle common mistakes.
+**Error productions** – Augment the grammar for the source language to include
+productions for common errors
