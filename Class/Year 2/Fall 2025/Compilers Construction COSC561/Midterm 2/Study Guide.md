@@ -24,4 +24,4 @@ Use the grammar and the set of items in the last problem to construct the canoni
 ![[Pasted image 20251112155432.png]]
 
 
-
+# Question 6
