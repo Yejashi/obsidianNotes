@@ -398,6 +398,16 @@ Now we have:
 - **Item sets (states)** → I₀, I₁, I₂, I₃, I₄, I₅
 - **GOTO transitions** between them 
 
+```
+I₀: S' → ·E, E → ·E + T, E → ·T, T → ·id
+I₁: S' → E·, E → E· + T
+I₂: E → T·
+I₃: T → id·
+I₄: E → E + ·T, T → ·id
+I₅: E → E + T·
+```
+
+
 
 **The Big Picture**
 1. Start from the **closure** of the augmented start production.
