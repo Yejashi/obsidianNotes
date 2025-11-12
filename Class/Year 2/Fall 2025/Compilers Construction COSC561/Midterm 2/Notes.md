@@ -556,7 +556,7 @@ Action Table TLDR:
 	→ set **ACTION[state, a] = shift(s)**  
 	where `s` is the state reached by `GOTO(state, a)`.
 
-	**Example:**
+**Example:**
 ```
 I₀: F → ·(E)
 GOTO(I₀, '(') = I₂
@@ -564,4 +564,12 @@ GOTO(I₀, '(') = I₂
 ```
 
 **Reduce**
-- 
+- If the dot is **at the end** (the item is complete) and the production is **not the augmented start rule**,
+	→ for every terminal `a` in **FOLLOW(A)**, set  **ACTION[state, a] = reduce A → α**
+
+**Example**:
+```
+I₅: E → E + T·
+FOLLOW(E) = { '+', ')', '$' }
+⇒ ACTION[5, '+'] = ACTION[5, ')'] = ACTION[5, '$'] = reduce E → E + T
+```
