@@ -332,3 +332,6 @@ E → ·T
 T → ·id
 ```
 
+S3: Compute Goto(I₀, X)
+**Goto(I, X)** = “What happens if we see `X` next?”
+
