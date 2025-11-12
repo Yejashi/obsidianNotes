@@ -385,7 +385,9 @@ T → id·
 
 Goto(I₀, id) = { T → id· } = l3
 
+...
 
+Goto(I₀, =) = { T → id· } = l4
 
 
 
