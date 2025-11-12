@@ -736,3 +736,10 @@ a a b c - * + b c - d * +
 1. On the first `'a'`, create a new leaf node (`p1`).
 2. On the second `'a'`, find that `'a'` already exists → reuse `p1`.
 3. When processing `(b-c)`, one `'-'` node is created and shared by both `(b-c)` occurrences
+
+So like this:
+```
+a <- create new leaf
+a <- ignore since a already exists
+b <- create new leaf
+```
