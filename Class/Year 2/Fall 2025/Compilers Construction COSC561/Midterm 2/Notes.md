@@ -744,4 +744,5 @@ a <- ignore since a already exists
 b <- create new leaf
 c <- create new leaf
 - <- Create - node and add b and c to it
+* <- create * node and add 
 ```
