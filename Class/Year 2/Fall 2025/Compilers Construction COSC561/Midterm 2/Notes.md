@@ -633,7 +633,9 @@ So we look at all productions of `B`, like `B → γ`. For each of those, we add
 **Goto(I, X)**:
 `Goto` just means: _“What happens if we actually see `X` next?”_
 
-So we move the dot past `X` in every item that has `·X` —
+So we move the dot past `X` in every item that has `·X` —and then take the **closure** of all those new items.
+
+
 
 Consider:
 ```
