@@ -29,3 +29,4 @@ Draw the DAG representation for the following expression (as shown in Figure 6.3
 ```
 (a ∗ c) + b ∗ (a ∗ c) + b − (a ∗ c)
 ```
+
