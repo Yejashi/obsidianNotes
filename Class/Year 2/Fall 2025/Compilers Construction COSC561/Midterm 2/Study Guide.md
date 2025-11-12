@@ -17,3 +17,5 @@ Given the following grammar construct the LR(0) sets of items.
 # Question 4
 Given the following grammar construct the LR(1) sets of items.
 ![[Pasted image 20251112105949.png]]
+
+
