@@ -393,15 +393,6 @@ Goto(I₀, T) = { E → E + T· } = l5
 
 Goto(I₀, id) = { T → id·} = l6
 
-| State | Items              | Meaning                   |
-| ----- | ------------------ | ------------------------- |
-| I₀    | Start + expansions | Beginning of parse        |
-| I₁    | After seeing `E`   | Ready for + or accept     |
-| I₂    | After `E → T`      | Reduce by rule 2          |
-| I₃    | After `T → id`     | Reduce by rule 3          |
-| I₄    | After `E +`        | Expecting a T             |
-| I₅    | After `E + T`      | Reduce by rule 1          |
-| I₆    | (same as I₃)       | Reduce by rule 3 (reused) |
 
 
 
