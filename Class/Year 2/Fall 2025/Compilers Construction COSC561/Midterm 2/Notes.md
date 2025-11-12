@@ -599,3 +599,5 @@ GOTO(I₀, E) = I₁
 
 **Conflict Handling**:
 - When there is a conflict canonical LR(1) uses a lookahead to disambiguate
+
+##### LR(1) Parsing
