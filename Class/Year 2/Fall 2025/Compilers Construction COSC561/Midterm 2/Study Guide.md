@@ -77,4 +77,5 @@ Advantages:
     - **O(1)** dispatch; best for **dense, contiguous** case ranges.
     - Requires extra data space.
 
+**(f) What is static checking? Why is static checking preferable to dynamic checking?**
 
