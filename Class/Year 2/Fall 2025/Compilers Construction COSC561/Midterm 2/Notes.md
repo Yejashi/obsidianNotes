@@ -394,7 +394,9 @@ Goto(I₀, T) = { E → E + T· } = l5
 Goto(I₀, id) = { T → id·} = l6
 
 
-
+Now we have:
+- **Item sets (states)** → I₀, I₁, I₂, I₃, I₄, I₅
+- **GOTO transitions** between them 
 
 
 **The Big Picture**
