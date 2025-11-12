@@ -688,4 +688,6 @@ Error Recovery Strategies
 		- Could possible go into an infinite loop
 - Error production
 	- Augment the grammar to include productions for common errors
+- Global correction
+	- 
 
