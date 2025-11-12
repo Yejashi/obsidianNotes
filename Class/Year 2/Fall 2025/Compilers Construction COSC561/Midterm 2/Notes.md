@@ -482,3 +482,10 @@ ACTION[I₂, $]  = r2
 3. Each unique closure you get becomes a **state** in your automaton.
 4. The `goto` edges between those states form the transition graph
 
+##### Canonical Collection of Sets of LR(0) items
+The Canonical Collection of Sets of LR(0) Items is the complete set of parser states that an LR(0) parser can ever be in.
+
+It is called _canonical_ because:
+- It’s constructed systematically (not guessed).
+- It uniquely represents **all valid configurations** of the parser for a grammar.
+
