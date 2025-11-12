@@ -42,4 +42,5 @@ Bottom-up (LR) parsers can handle a **larger class of context-free grammars** th
 **Phrase-level recovery** – Replace the prefix of the remaining input with some string that will
 allow the parser to continue looking for errors.
 **Error productions** – Augment the grammar for the source language to include
-productions for common errors
+productions for common errors. When the error production is used, an appropriate error diagnostic can be issued.
+**Global correction** – Search for the smallest changes that make the input valid (theoretically ideal but impractical).
