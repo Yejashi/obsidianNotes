@@ -551,4 +551,5 @@ Anita da goat:
 - SLR Parsing Table: https://www.youtube.com/watch?v=8Cq3EIgXOec
 
 Action Table TLDR:
-- If a dot is followed by a terminal, 
+- If a dot is followed by a terminal, then shift to state of goto of that terminal
+	- ex: In i0 F->.(E)
