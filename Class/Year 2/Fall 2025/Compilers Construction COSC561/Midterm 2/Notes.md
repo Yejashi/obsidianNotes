@@ -651,7 +651,8 @@ C → d
 
 Start with:
 ```
-[S' → ·S, $] Dollar is looakhead here
+[S' → ·S, $] $ is looakhead here
 ```
+
 
 
