@@ -87,7 +87,11 @@ Preferable because:
 - Increases program reliability and portability.
 
 **(g) Describe the rules for type checking.**
-
+- Operators must be applied to compatible operand types.
+- Assignment types must match or be coercible.
+- Control expressions (`if`, `while`) must be Boolean.
+- Function calls must have correct number and types of parameters.  
+    Violations generate compile-time errors.
 
 
 
