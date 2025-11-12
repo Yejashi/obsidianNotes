@@ -336,3 +336,4 @@ S3: Compute Goto(I₀, X)
 **Goto(I, X)** = “What happens if we see `X` next?”
 
 We look at all items in **I₀** where the dot is right before **X**, move the dot past **X**, and then take the **closure** of that new set.
+
