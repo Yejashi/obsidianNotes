@@ -62,3 +62,5 @@ Advantages:
 | **Three-address code (TAC)** | Explicit operands → easier optimization (e.g., common subexpression elimination), simple mapping to machine instructions, supports quadruples/triples/SSA | Consumes more temporaries and storage                            |
 | **Zero-address (postfix)**   | Compact (good for stack machines), no explicit operands                                                                                                   | Harder to optimize or perform code motion; implicit dependencies |
 
+**(e) Describe the three strategies to translate large switch statements. What are the characteristics of each approach.**
+
