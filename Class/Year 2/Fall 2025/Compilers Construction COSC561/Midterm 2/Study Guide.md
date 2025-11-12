@@ -117,3 +117,11 @@ This allows **single-pass code generation** for constructs like `if`, `while`, e
 | **if (E) S1**         | `backpatch(E.true, S1.begin)`; `backpatch(E.false, next)`                                 |
 | **if (E) S1 else S2** | `backpatch(E.true, S1.begin)`; `backpatch(E.false, S2.begin)`; jump end of S1 to after S2 |
 | **while (E) S**       | `backpatch(E.true, S.begin)`; `backpatch(S.next, E.begin)`; `backpatch(E.false, next)`    |
+Example:
+```
+if (a < b)
+   a = a + 1;
+else
+   a = a + 2;
+```
+
