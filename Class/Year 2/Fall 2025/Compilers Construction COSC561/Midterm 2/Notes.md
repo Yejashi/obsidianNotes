@@ -322,3 +322,4 @@ We add:
 T → ·id
 ```
 
+Now our closure is complete — there are no new nonterminals after any dots.
