@@ -654,5 +654,5 @@ Start with:
 [S' → ·S, $] $ is looakhead here
 ```
 
-
+Closure adds `[S → ·CC, $]`, and for the first `C`, it adds:
 
