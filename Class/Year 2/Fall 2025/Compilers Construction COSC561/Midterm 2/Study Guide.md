@@ -86,6 +86,7 @@ Preferable because:
 - Eliminates runtime overhead.
 - Increases program reliability and portability.
 
+**(g) Describe the rules for type checking.**
 
 
 
