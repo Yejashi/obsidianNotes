@@ -432,6 +432,12 @@ T  → ·id
 - Dot before **T** → nonterminal → `Goto(I₀, T) = I₂`
 - Dot before **id** → terminal → `ACTION[I₀, id] = shift 3`
 
+```
+ACTION[I₀, id] = s3
+GOTO[I₀, E] = 1
+GOTO[I₀, T] = 2
+```
+
 
 
 
