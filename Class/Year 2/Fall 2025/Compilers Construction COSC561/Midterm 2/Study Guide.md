@@ -111,3 +111,9 @@ Instead of generating code in two passes, the compiler:
 This allows **single-pass code generation** for constructs like `if`, `while`, etc.
 
 **(j) Be able to apply the backpatch routine in a semantic routine for statements such as if, if-else, and while.**
+
+| Construct             | Backpatch Steps                                                                           |
+| --------------------- | ----------------------------------------------------------------------------------------- |
+| **if (E) S1**         | `backpatch(E.true, S1.begin)`; `backpatch(E.false, next)`                                 |
+| **if (E) S1 else S2** | `backpatch(E.true, S1.begin)`; `backpatch(E.false, S2.begin)`; jump end of S1 to after S2 |
+| **while (E) S**       | `backpatch(E.true, S.begin)`; `backpatch(S.next, E.begin)`; `backpatch(E.false, next)`    |
