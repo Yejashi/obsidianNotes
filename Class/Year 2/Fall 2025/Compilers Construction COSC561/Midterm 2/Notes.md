@@ -525,6 +525,7 @@ Steps:
 		then set 
 		`ACTION[i, a] = shift j`
 		where `goto(Ii, a) = Ij`.
+
 		
 	If there’s an item `A → α·` (dot at the end of a production and `A ≠ S'`),
 	then for **every terminal `a` in FOLLOW(A)**, set
