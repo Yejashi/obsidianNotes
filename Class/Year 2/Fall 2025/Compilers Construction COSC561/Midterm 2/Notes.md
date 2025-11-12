@@ -351,4 +351,5 @@ E → E· + T
 ```
 That’s your starting set.
 
+Now take **Closure**:
 
