@@ -19,5 +19,6 @@ Given the following grammar construct the LR(1) sets of items.
 ![[Pasted image 20251112105949.png]]
 ![[Pasted image 20251112152046.png]]
 
+# Question 5
 
 
