@@ -536,3 +536,4 @@ Steps:
 	`ACTION[i, $] = accept`
 
 4. Build the GOTO table (for nonterminals)
+	
