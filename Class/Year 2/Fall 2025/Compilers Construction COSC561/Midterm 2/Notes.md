@@ -546,3 +546,6 @@ Steps:
 
 ![[Screenshot_20251111_211049.png]]
 
+Anita da goat:
+- LR(0) items: https://www.youtube.com/watch?v=ZfB4JU2YZ_0
+- SLR Parsing Table: https://www.youtube.com/watch?v=8Cq3EIgXOec
