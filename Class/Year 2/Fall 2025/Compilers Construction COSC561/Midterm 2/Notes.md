@@ -458,7 +458,8 @@ State I₁:
 S' → E·
 E  → E· + T
 ```
-
+- `S' → E·` → dot at end and it’s start → **accept** when `$` comes next.
+- `E → E· + T` → dot before `+` → terminal → `ACTION[I₁, +] = shift 4`
 
 
 
