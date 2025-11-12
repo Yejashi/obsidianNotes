@@ -520,4 +520,4 @@ Steps:
 1. Augment the grammarc
 2. Construct the canonical collection of LR(0) item sets
 3. Build the ACTION table (for terminals)
-	1. 
+	
