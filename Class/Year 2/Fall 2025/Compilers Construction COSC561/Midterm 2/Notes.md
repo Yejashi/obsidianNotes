@@ -552,4 +552,4 @@ Anita da goat:
 
 Action Table TLDR:
 - If a dot is followed by a terminal, then shift to state of goto of that terminal
-	- ex: In i0 F->.(E)
+	- ex: In i0 F->.(E), if 
