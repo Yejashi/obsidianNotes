@@ -626,7 +626,10 @@ Think of it as:
 The formal definition can suck it, take this example instead.
 
 **Closure**:
-If your set contains an item like `[A → α · B β, a]`, 
+If your set contains an item like `[A → α · B β, a]`, that means the parser has seen `α` and is now expecting `B` (with lookahead `a`).
+
+So we look at all productions of `B`, like `B → γ`.
+
 
 Consider:
 ```
