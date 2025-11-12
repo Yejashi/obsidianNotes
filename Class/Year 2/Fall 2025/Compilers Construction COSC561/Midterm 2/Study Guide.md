@@ -107,3 +107,7 @@ Instead of generating code in two passes, the compiler:
 - Emits branch instructions with **placeholder labels**.
 - Records them in a **backpatch list**.
 - Fills in actual addresses when their target labels are known.
+
+This allows **single-pass code generation** for constructs like `if`, `while`, etc.
+
+**(j) Be able to apply the backpatch routine in a semantic routine for statements such as if, if-else, and while.**
