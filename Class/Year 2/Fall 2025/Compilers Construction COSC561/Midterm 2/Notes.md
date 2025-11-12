@@ -699,3 +699,5 @@ Intermediate code is performed by the front end.
 	- Nodes represent language constructs
 	- Children represent components of the construct
 - DAG
+	- Represents each common subexpression only once in the tree
+	- Helps compiler optimize generated code
