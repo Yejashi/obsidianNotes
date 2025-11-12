@@ -101,5 +101,7 @@ Preferable because:
 | **Polymorphism** | Same interface works with multiple data types    | Function-like macros or function pointers (e.g., `qsort()` callback), c++ templates |
 
 **(i) Understand the purpose of the backpatch routine in the csem assignment.**
+**Backpatching** fills in **unresolved jump targets** in control flow constructs during intermediate code generation.
 
+Instead of generating code in two passes, the compiler:
 
