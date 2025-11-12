@@ -666,5 +666,6 @@ Closure adds `[S → ·CC, $]`, and for the first `C`, it adds:
 - Reduce: on look ahead symbols
 - Accept: same as before
 
+#### Error Recovery
 
 ### Intermediate Code Generation
