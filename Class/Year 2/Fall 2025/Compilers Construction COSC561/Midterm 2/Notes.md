@@ -391,7 +391,7 @@ Goto(I₀, +) = { E → E + ·T, T → id· } = l4
 
 Goto(I₀, T) = { E → E + T· } = l5
 
-Goto(I₀, id) = { T → id·} = l6
+Goto(I₀, id) = { T → id·} = l3 (duplicate)
 
 
 Now we have:
