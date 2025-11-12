@@ -669,3 +669,10 @@ Closure adds `[S → ·CC, $]`, and for the first `C`, it adds:
 #### Error Recovery
 
 ### Intermediate Code Generation
+
+Error types:
+- lexical - unknown operator
+- syntactic - unbalanced parantheses
+- semantic - variable never declared
+- logical - dereference a null pointer (runtime)
+
