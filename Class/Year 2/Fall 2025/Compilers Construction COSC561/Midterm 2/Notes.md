@@ -469,7 +469,7 @@ State I₂:
 E → T·
 ```
 - Dot at end → **reduce by rule (2)**: `E → T`
-
+In LR(0), a reduce applies for _all terminals_, because LR(0) has no lookahead.
 
 
 
