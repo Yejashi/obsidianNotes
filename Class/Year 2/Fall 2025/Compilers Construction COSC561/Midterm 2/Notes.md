@@ -722,11 +722,12 @@ a + a * (b - c) + (b - c) * d
 **S1**: First create the syntax tree of the expression:
 ![[Pasted image 20251112174454.png]]
 
-**S2**: Then do a post order traversal of the tree to get a postfix representation
+**S2**: Then do a post order traversal of the syntax tree to get a postfix representation
 - You do so by recursively
 	- traveling left
 	- traveling right
 	- visiting node
 ```
-
+a a b c - * + b c - d * +
 ```
+
