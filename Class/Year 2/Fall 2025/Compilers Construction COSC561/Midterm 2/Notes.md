@@ -667,9 +667,6 @@ Closure adds `[S → ·CC, $]`, and for the first `C`, it adds:
 - Accept: same as before
 
 #### Error Recovery
-
-### Intermediate Code Generation
-
 Error types:
 - lexical - unknown operator
 - syntactic - unbalanced parantheses
@@ -696,3 +693,5 @@ Error Recovery Strategies
 
 
 
+
+### Intermediate Code Generation
