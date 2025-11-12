@@ -556,8 +556,10 @@ Action Table TLDR:
 	where `s` is the state reached by `GOTO(state, a)`.
 
 	**Example:**
-	```
-	s
-	s
-	
-	```
+```
+I₀: F → ·(E)
+GOTO(I₀, '(') = I₂
+⇒ ACTION[0, '('] = shift 2
+```
+
+- 
