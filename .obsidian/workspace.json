@@ -47,7 +47,8 @@
               "title": "midterm2_study_guide"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,12 +217,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aad4982881e27eb0",
+  "active": "772c623ad8116cb4",
   "lastOpenFiles": [
-    "Meta/Attachments/Pasted image 20251112174454.png",
+    "Meta/Attachments/Pasted image 20251112175448.png",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/midterm2_study_guide.pdf",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/midterm2_study_guide.pdf",
+    "Meta/Attachments/Pasted image 20251112174454.png",
     "Meta/Attachments/Pasted image 20251112173030.png",
     "Meta/Attachments/Pasted image 20251112155432.png",
     "Meta/Attachments/Pasted image 20251112152046.png",
@@ -232,7 +234,6 @@
     "conflict-files-obsidian-git.md",
     "Meta/Attachments/Screenshot_20251112_081447.png",
     "Meta/Attachments/Screenshot_20251112_081447 1.png",
-    "Meta/Attachments/Screenshot_20251112_074723.png",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2",
     "Untitled 1.base",
     "Research/LLVM/Specific Passes.md",
