@@ -606,5 +606,7 @@ GOTO(I₀, E) = I₁
 
 That’s coarse. It assumes every situation where `A → α·` can be reduced on all FOLLOW(A), even if some contexts wouldn’t allow it.
 
+Result: **shift/reduce or reduce/reduce conflicts** appear even for unambiguous grammars.
+
 
 
