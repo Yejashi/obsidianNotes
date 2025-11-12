@@ -512,3 +512,5 @@ When finished, the full collection `{ I₀, I₁, I₂, …, In }` is called the
 
 
 ##### SLR Parsing
+**SLR** stands for **Simple LR(1)** (or **SLR(1)**) parsing.
+
