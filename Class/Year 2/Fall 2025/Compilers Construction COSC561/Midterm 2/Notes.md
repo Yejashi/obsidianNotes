@@ -632,8 +632,9 @@ If `[A → α·Bβ, a]` is in I,
 and `B → γ` is a production,  
 then for every `b` in **FIRST(βa)**,  
 add `[B → ·γ, b]` to the set.
-
 → This “propagates” possible lookaheads through nested rules.
+
+
 
 
 
