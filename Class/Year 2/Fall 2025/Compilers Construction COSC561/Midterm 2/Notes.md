@@ -502,3 +502,8 @@ Start with:
 I₀ = closure({ S' → · S })
 ```
 
+Step 3. Compute transitions
+For each item set `I` and each grammar symbol `X` (terminal or nonterminal):
+- Compute `goto(I, X)`
+- If `goto(I, X)` produces a new, distinct set of items, label it as a new state.
+
