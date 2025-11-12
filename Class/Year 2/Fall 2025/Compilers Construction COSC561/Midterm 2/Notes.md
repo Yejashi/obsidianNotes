@@ -622,6 +622,7 @@ Where:
 Think of it as:
 > “We’ve seen α, expect β next, and only if the next input symbol is `a` should we eventually reduce this rule.”
 
+**How LR(1) Parsing Works**:
 
 
 
