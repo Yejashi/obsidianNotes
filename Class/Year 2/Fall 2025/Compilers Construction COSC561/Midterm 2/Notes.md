@@ -678,4 +678,5 @@ Error types:
 
 Error Recovery Strategies
 - Panic mode
-	- 
+	- When you detect an error, keep parsing
+	- Allows you to 
