@@ -356,3 +356,4 @@ Now take **Closure**:
 - In `E → E· + T`, the dot is before `+` (a terminal), so nothing to add either.
 
 Goto(I₀, E) = { S' → E·, E → E· + T }
+
