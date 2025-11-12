@@ -298,4 +298,7 @@ S1: Augment grammar:
 We’ll call this the starting set **I₀ = { S' → ·E }**.
 
 S2: Compute Closure(I₀):
+> Whenever you have a dot before a nonterminal (like `·E`), you must include _all productions of that nonterminal_ with the dot at the beginning.
+
+
 
