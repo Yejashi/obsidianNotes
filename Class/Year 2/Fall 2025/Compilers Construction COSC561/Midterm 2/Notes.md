@@ -428,6 +428,12 @@ That tells you what kind of **table entry** (shift, goto, reduce, or accept) to 
 | **A nonterminal (like `E`, `T`)** | **Goto**     | `GOTO[state, nonterminal] = X`                  | “If I just finished parsing this nonterminal, go to state X.”   |
 | **Nothing (dot at end)**          | **Reduce**   | `ACTION[state, all terminals] = reduce by rule` | “The RHS is fully seen, so reduce to its LHS.”                  |
 | **Dot at end of the start rule**  | **Accept**   | `ACTION[state, $] = accept`                     | “We finished the whole input.”                                  |
+```
+E → ·E + T      → dot before nonterminal → Goto on E  
+E → E· + T      → dot before terminal → Shift on +  
+E → E + T·      → dot at end → Reduce by E → E + T  
+S' → E·         → start rule done → Accept on $
+```
 
 State I₀:
 ```
