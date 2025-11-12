@@ -661,4 +661,7 @@ Closure adds `[S → ·CC, $]`, and for the first `C`, it adds:
 ```
 
 
-
+**Building the Table**
+- Shift: same as before
+- Reduce: on look ahead symbols
+- Accept: same as before
