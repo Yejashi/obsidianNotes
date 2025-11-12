@@ -373,3 +373,12 @@ Dot is now at the end → no new nonterminals → closure doesn’t add anything
 Goto(I₀, T) = { E → T· }
 
 Example -> Goto(I₀, id)
+Look for items with `·id`:
+```
+T → ·id
+```
+
+Move the dot past `id`:
+```
+T → id·
+```
