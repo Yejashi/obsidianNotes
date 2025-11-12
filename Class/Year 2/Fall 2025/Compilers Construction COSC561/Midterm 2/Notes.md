@@ -585,3 +585,14 @@ I₁: S' → S·
 ```
 
 **GOTO Table TLDR**
+1. Transition on Nonterminals
+- If the dot (`·`) is followed by a **nonterminal** `A`,
+	→ set **GOTO[state, A] = s**
+	where `s` is the state reached by `GOTO(state, A)`.
+
+**Example**:
+```
+I₀: S' → ·E
+GOTO(I₀, E) = I₁
+⇒ GOTO[0, E] = 1
+```
