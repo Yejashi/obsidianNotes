@@ -33,3 +33,5 @@ Draw the DAG representation for the following expression (as shown in Figure 6.3
 # Question 10
 Why is bottom-up parsing (with one symbol of lookahead) more powerful than top-down parsing (with one lookahead symbol)?
 
+Bottom-up (LR) parsers can handle a **larger class of context-free grammars** than top-down (LL) parsers.
+- 
