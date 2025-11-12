@@ -573,3 +573,14 @@ I₅: E → E + T·
 FOLLOW(E) = { '+', ')', '$' }
 ⇒ ACTION[5, '+'] = ACTION[5, ')'] = ACTION[5, '$'] = reduce E → E + T
 ```
+
+**Accept**
+- If the item is the **augmented start rule** `[S' → S·]`,  
+	→ set **ACTION[state, $] = accept**
+
+**Example**
+```
+I₁: S' → S·
+⇒ ACTION[1, $] = accept
+```
+
