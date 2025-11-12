@@ -626,7 +626,7 @@ Think of it as:
 The formal definition can suck it, take this example instead.
 
 **Closure**:
-
+If your set contains an item like `[A → α · B β, a]`, 
 
 Consider:
 ```
