@@ -26,3 +26,6 @@ Use the grammar and the set of items in the last problem to construct the canoni
 
 # Question 6
 Draw the DAG representation for the following expression (as shown in Figure 6.3). Provide the quadruple, triple and indirect triple representations of the expression.
+```
+(a ∗ c) + b ∗ (a ∗ c) + b − (a ∗ c)
+```
