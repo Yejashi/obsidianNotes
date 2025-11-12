@@ -544,4 +544,5 @@ Steps:
 	If any cell in the ACTION table has more than one possible action (e.g., both shift and reduce),
 	then the grammar is not SLR(1).
 
+![[Screenshot_20251111_211049.png]]
 
