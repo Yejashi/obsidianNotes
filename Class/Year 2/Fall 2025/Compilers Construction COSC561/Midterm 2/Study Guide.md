@@ -64,3 +64,17 @@ Advantages:
 
 **(e) Describe the three strategies to translate large switch statements. What are the characteristics of each approach.**
 
+- **Sequential comparisons:**
+    - Series of `if ... goto` tests for each case.
+    - **Simple** to generate, but **O(n)** time.
+        
+- **Binary decision tree:**
+    - Organizes case values hierarchically (binary search).
+    - **O(log n)** time; efficient for **sparse** case values.
+        
+- **Jump table:**
+    - Builds a **table of case labels** indexed by expression value.
+    - **O(1)** dispatch; best for **dense, contiguous** case ranges.
+    - Requires extra data space.
+
+
