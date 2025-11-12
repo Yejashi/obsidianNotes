@@ -306,3 +306,10 @@ E → ·E + T
 E → ·T
 ```
 
+Now our set is:
+```
+S' → ·E  
+E → ·E + T  
+E → ·T
+```
+
