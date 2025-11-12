@@ -388,4 +388,5 @@ Goto(I₀, id) = { T → id· }
 **The Big Picture**
 1. Start from the **closure** of the augmented start production.
 2. Repeatedly take **goto** for every possible symbol (terminal or nonterminal).
-3. 
+3. Each unique closure you get becomes a **state** in your automaton.
+4. The `goto` edges between those states form the transition graph — your parser’s backbone.
