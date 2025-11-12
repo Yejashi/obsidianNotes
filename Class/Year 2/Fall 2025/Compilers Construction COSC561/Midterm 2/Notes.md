@@ -421,6 +421,14 @@ Identify terminals vs nonterminals
 
 S4: For each state (I₀–I₅), look at what’s after the dot
 
+State I₀:
+```
+S' → ·E
+E  → ·E + T
+E  → ·T
+T  → ·id
+```
+
 
 
 
