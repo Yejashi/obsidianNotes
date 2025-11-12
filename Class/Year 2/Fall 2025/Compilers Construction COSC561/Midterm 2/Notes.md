@@ -428,6 +428,10 @@ E  → ·E + T
 E  → ·T
 T  → ·id
 ```
+- Dot before **E** → nonterminal → `Goto(I₀, E) = I₁`
+- Dot before **T** → nonterminal → `Goto(I₀, T) = I₂`
+- Dot before **id** → terminal → `ACTION[I₀, id] = shift 3`
+
 
 
 
