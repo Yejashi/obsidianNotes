@@ -627,7 +627,13 @@ Think of it as:
 S1: Augment the Grammar
 
 S2: Define Closure and Goto for LR(1)
+Closure(l)
+If `[A → α·Bβ, a]` is in I,  
+and `B → γ` is a production,  
+then for every `b` in **FIRST(βa)**,  
+add `[B → ·γ, b]` to the set.
 
+→ This “propagates” possible lookaheads through nested rules.
 
 
 
