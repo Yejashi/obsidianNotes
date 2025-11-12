@@ -316,3 +316,4 @@ E → ·T
 Now look again — we’ve just added `E → ·T`.
 - The dot is before **T**, which is also a nonterminal.
 - So we must include all **T** productions, each with a dot at the start.
+
