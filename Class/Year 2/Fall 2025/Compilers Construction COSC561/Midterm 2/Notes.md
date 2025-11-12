@@ -382,3 +382,5 @@ Move the dot past `id`:
 ```
 T → id·
 ```
+
+Goto(I₀, id) = { T → id· }
