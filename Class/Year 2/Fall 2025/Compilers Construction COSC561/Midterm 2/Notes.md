@@ -623,7 +623,7 @@ Think of it as:
 > “We’ve seen α, expect β next, and only if the next input symbol is `a` should we eventually reduce this rule.”
 
 **How LR(1) Parsing Works**:
-The formal definition can suck it, take this example instead.
+The formal definition can suck it, take this  instead.
 
 **Closure(I)**:
 If your set contains an item like `[A → α · B β, a]`, that means the parser has seen `α` and is now expecting `B` (with lookahead `a`).
@@ -631,7 +631,9 @@ If your set contains an item like `[A → α · B β, a]`, that means the parser
 So we look at all productions of `B`, like `B → γ`. For each of those, we add a new item `[B → ·γ, b]` —where `b` comes from **FIRST(βa)**, i.e. what could appear right after `B`.
 
 **Goto(I, X)**:
+`Goto` just means: _“What happens if we actually see `X` next?”_
 
+So we move the dot past `X` in every item that has `·X` —
 
 Consider:
 ```
