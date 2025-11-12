@@ -557,4 +557,5 @@ Action Table TLDR:
 - If the dot is at the end without the previous symbol being the start symbol then 
 
 Goto table TLDR:
-- If a dot followed by a nonterminal, then 
+- If a dot followed by a nonterminal, then put the number of the whole production
+	- ex. 
