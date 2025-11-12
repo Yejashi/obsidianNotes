@@ -519,4 +519,5 @@ It uses the **same canonical LR(0) items** as an LR(0) parser, but **adds FOLLOW
 Steps:
 1. Augment the grammarc
 2. Construct the canonical collection of LR(0) item sets
-3. 
+3. Build the ACTION table (for terminals)
+	1. 
