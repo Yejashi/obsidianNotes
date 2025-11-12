@@ -489,3 +489,16 @@ It is called _canonical_ because:
 - It’s constructed systematically (not guessed).
 - It uniquely represents **all valid configurations** of the parser for a grammar.
 
+**How to construct it**
+Step 1: Augment the grammar
+Add a new start production:
+```
+S' → S
+```
+
+Step 2. Create the initial item set
+Start with:
+```
+I₀ = closure({ S' → · S })
+```
+
