@@ -601,5 +601,8 @@ GOTO(I₀, E) = I₁
 - When there is a conflict canonical LR(1) uses a lookahead to disambiguate
 
 ##### LR(1) Parsing
-When using some grammars with SLR, we can run into a situations where there can be something like a shift and a reduce at the same index of the table. To resolve this, we can use LR(1), which use a lookahead.
+**SLR** parsers use **FOLLOW sets** to decide reductions globally:
+	“If an item is complete (dot at end), reduce on everything in FOLLOW(A).”
+
+
 
