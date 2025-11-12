@@ -686,5 +686,6 @@ Error Recovery Strategies
 	- Allows you to detect more errors
 	- Cons
 		- Could possible go into an infinite loop
-- 
+- Error production
+	- Augment the grammar to include productions for common errors
 
