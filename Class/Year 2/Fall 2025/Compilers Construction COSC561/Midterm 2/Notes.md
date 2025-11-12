@@ -691,3 +691,5 @@ Error Recovery Strategies
 - Global correction
 	- Instead of detecting an error and report it, the compiler applies a least-cost correction
 
+
+
