@@ -55,5 +55,7 @@ Advantages:
 - Never enters an infinite loop.
 - Allows parsing to continue to find multiple errors in one run.
 
-(**d) Give the advantages and disadvantages of using a three-address form of intermediate**
+(**d) Give the advantages and disadvantages of using a three-address form of intermediate representation over a zero-address representation**
+
+
 
