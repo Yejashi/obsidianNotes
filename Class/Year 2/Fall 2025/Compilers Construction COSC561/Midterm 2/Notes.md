@@ -536,4 +536,6 @@ Steps:
 	`ACTION[i, $] = accept`
 
 4. Build the GOTO table (for nonterminals)
-	
+	For each nonterminal `A`, if `goto(Ii, A) = Ij`, then set
+	`GOTO[i, A] = j`
+
