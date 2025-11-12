@@ -719,4 +719,7 @@ Example:
 a + a * (b - c) + (b - c) * d
 ```
 
-First create the syntax tree of the expression:
+**S1**: First create the syntax tree of the expression:
+![[Pasted image 20251112174454.png]]
+
+**S2**: Then do a post order traversal of the tree to get a postfix representation
