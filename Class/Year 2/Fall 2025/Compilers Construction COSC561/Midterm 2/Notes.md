@@ -557,4 +557,4 @@ Action Table TLDR:
 - If the dot is at the end without the previous symbol being the start symbol then 
 
 Goto table TLDR:
-- If a dot 
+- If a dot followed by a nonterminal, then 
