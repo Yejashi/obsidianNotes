@@ -409,6 +409,8 @@ I₅: E → E + T·
 
 
 
+
+
 **The Big Picture**
 1. Start from the **closure** of the augmented start production.
 2. Repeatedly take **goto** for every possible symbol (terminal or nonterminal).
