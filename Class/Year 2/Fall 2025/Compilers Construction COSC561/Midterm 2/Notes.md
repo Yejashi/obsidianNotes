@@ -616,5 +616,9 @@ An LR(1) item is like an LR(0) item but with a lookahead:
 [A→α⋅β,a]
 ```
 Where:
+- `A → αβ` is a production.
+- `·` marks the parser’s current position.
+- `a` is a **lookahead symbol** (a terminal) that can appear next in the input **after** the string derived from `A`.
+
 
 
