@@ -693,3 +693,9 @@ Error Recovery Strategies
 ### Intermediate Code Generation
 
 Intermediate code is performed by the front end.
+
+**Types of Intermediate Representation**
+- Syntax trees and DAGs
+	- Nodes represent language constructs
+	- Children represent components of the construct
+- DAG
