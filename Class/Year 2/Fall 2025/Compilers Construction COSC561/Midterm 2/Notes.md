@@ -635,8 +635,6 @@ So we look at all productions of `B`, like `B → γ`. For each of those, we add
 
 So we move the dot past `X` in every item that has `·X` —and then take the **closure** of all those new items.
 
-
-
 Consider:
 ```
 S → CC
