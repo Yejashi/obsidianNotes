@@ -703,3 +703,8 @@ Intermediate code is performed by the front end.
 	- Helps compiler optimize generated code
 
 #### DAGs
+A **Directed Acyclic Graph (DAG)** for an expression is a data structure that:
+- Represents **computations** where **nodes** correspond to **operations** or **operands**, and
+- **Edges** represent **dependencies** (which subexpressions are used by which operations).
+- The graph is **acyclic** (no loops) and **directed** from operands → operators → results.
+
