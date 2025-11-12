@@ -632,3 +632,8 @@ C → cC | d
 ```
 
 Augment:
+```
+S'→ S
+S → CC
+C → cC | d
+```
