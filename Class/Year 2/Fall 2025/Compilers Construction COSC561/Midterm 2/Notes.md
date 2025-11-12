@@ -679,4 +679,11 @@ Error types:
 Error Recovery Strategies
 - Panic mode
 	- When you detect an error, keep parsing
-	- Allows you to 
+		- Until some synchronizing token (like semicolon)
+	- Allows you to report multiple errors
+- Phrase-level
+	- Replace the prefix of the remaining input by a string that allows the parser to continue
+	- Allows you to detect more errors
+	- Cons
+		- Could possible go into an infinite loop
+
