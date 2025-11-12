@@ -604,5 +604,7 @@ GOTO(I₀, E) = I₁
 **SLR** parsers use **FOLLOW sets** to decide reductions globally:
 	“If an item is complete (dot at end), reduce on everything in FOLLOW(A).”
 
+That’s coarse. It assumes every situation where `A → α·` can be reduced on all FOLLOW(A), even if some contexts wouldn’t allow it.
+
 
 
