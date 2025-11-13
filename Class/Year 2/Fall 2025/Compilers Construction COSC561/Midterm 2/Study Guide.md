@@ -328,6 +328,8 @@ You should compile only when total native + compile cost becomes cheaper than in
 
 If the program will run 10 times or fewer, interpreting is cheaper
 
+If it will run 11 times or more, compiling then running native code is cheaper.
+
 
 # Question 11
 How is backpatching used in the csem assignment?
