@@ -312,7 +312,11 @@ b. What is meant by the term dangling reference? Provide an example program, wri
 
 A dangling reference occurs when a program holds a pointer (or reference) to a memory location after that memory has been deallocated.
 
+```
+int *p = malloc(sizeof(int));
+free(p);
 
+```
 
 
 # Question 11
