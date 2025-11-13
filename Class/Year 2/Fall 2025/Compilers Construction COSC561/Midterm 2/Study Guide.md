@@ -165,6 +165,9 @@ Preferable because:
 
 poly 
 - define routine once but it can be called miltipole times with different values
+- printf, since variadic
+
+overloading
 - 
 **(i) Understand the purpose of the backpatch routine in the csem assignment.**
 **Backpatching** fills in **unresolved jump targets** in control flow constructs during intermediate code generation.
