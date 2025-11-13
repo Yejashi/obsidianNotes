@@ -788,4 +788,8 @@ A popular format for optimizing compiler. All assignments in SSA are to variable
 #### Translation
 
 **Translation of Declarations**
-Assign storage and data type to local variables
+Assign storage and data type to local variables.
+
+using the declared data type
+- Determine amount of storage needed
+- Assign each variable a relative offset from the start of the activation record of the procedure
