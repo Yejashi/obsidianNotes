@@ -306,7 +306,9 @@ Advantage:
 Fast and automatic allocation/deallocation
 
 Disadvantage:
-Cannot handle variables whose lifetime does not follow LIFO rules. Stack frames disappear when a function returns, so stack allocation cannot support.
+Cannot handle variables whose lifetime does not follow LIFO rules. Stack frames disappear when a function returns, so stack allocation cannot support. Stack allocation is inflexible for data that must outlive its function call
+
+b. 
 
 
 # Question 11
