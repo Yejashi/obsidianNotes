@@ -163,7 +163,7 @@ Preferable because:
 | **Overloading**  | One operator or function used for multiple types | `+` used for both `int` and `float`                                                 |
 | **Polymorphism** | Same interface works with multiple data types    | Function-like macros or function pointers (e.g., `qsort()` callback), c++ templates |
 
-poly 
+Polymorphism
 - define routine once but it can be called miltipole times with different values
 - printf, since variadic
 
