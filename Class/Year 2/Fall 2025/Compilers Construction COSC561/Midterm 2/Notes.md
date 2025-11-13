@@ -781,3 +781,4 @@ In the above example, temporary values were assigned for each interior node.
 - You just add an other table that keeps the instruction order![[Screenshot_20251113_003721.png]]
 
 ##### Static Single Assignment
+A popular format for optimizing compiler. All assignments in SS are to variables with a distinct name.
