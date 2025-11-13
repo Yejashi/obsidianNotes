@@ -833,7 +833,6 @@ if B1 is false → skip B2 and go to FALSE
 ```
 
 So the translation must:
-
 - Make B1.true jump to the beginning of B2
 - Make B1.false jump to the final FALSE
 - Make B2.true jump to final TRUE
