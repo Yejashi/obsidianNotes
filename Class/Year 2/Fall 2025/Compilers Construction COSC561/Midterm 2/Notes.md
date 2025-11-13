@@ -760,3 +760,5 @@ Three address code is a linerized representation of a DAG where explicit names a
 ![[Pasted image 20251112234210.png]]
 
 In the above example, temporary values were assigned for each interior node.
+
+##### Types of Three-Address Code
