@@ -326,6 +326,8 @@ d. Suppose you have a VM that is able to run a specific program any number of ti
 
 You should compile only when total native + compile cost becomes cheaper than interpreting every run.
 
+If the program will run 10 times or fewer, interpreting is cheaper
+
 
 # Question 11
 How is backpatching used in the csem assignment?
