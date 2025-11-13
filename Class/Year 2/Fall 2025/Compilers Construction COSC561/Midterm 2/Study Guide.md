@@ -324,7 +324,7 @@ Flushing the entire code cache throws away all previously translated code, even 
 
 d. Suppose you have a VM that is able to run a specific program any number of times. The VM supports staged emulation with an interpreter mode and includes a dynamic compiler that can translate the guest code to native code. Suppose also that you have an application that you want to run on the VM. The program takes 10,000 cycles to run in interpreted mode, and only 10 cycles to run as native code. Interpretation has no startup cost, but translating the application to native code has a one-time cost of 100,000 cycles. What value should you use as the compilation threshold for this application to ensure the best possible performance regardless of the number of times it is executed?
 
-
+You should compile only when total native + compile cost becomes cheaper than interpreting every run.
 
 
 # Question 11
