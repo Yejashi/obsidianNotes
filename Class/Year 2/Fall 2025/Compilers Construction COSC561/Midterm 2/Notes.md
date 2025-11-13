@@ -812,3 +812,10 @@ Figures 6.37 give rules for translating:
 - `!`
 
 How to Translate a Relational Expression:
+
+The rule says that to evaluate a boolean test, you emit **two** instructions:
+```
+if x > 10 goto TRUE_LABEL
+goto FALSE_LABEL
+```
+
