@@ -330,6 +330,10 @@ If the program will run 10 times or fewer, interpreting is cheaper
 
 If it will run 11 times or more, compiling then running native code is cheaper.
 
+e. What is one advantage of reference counting garbage collection compared to trace-based garbage collection (such as mark-sweep, mark-compact or copying collectors)?
+
+
+
 
 # Question 11
 How is backpatching used in the csem assignment?
