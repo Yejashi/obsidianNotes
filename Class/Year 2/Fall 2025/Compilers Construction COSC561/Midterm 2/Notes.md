@@ -761,7 +761,7 @@ Three address code is a linerized representation of a DAG where explicit names a
 
 In the above example, temporary values were assigned for each interior node.
 
-##### Types of Three-Address Code
+##### Types of Three-Address Code Representations
 
 **Quadruples**:
 - Has 4 fields, called op, arg1, arg2, and result
