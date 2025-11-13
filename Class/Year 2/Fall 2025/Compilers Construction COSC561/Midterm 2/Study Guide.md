@@ -75,6 +75,9 @@ t5 = *t4
 
 ![[Screenshot_20251113_021554.png]]
 
+![[Screenshot_20251113_021615.png]]
+
+
 
 # Question 9
 # Question 10
