@@ -797,3 +797,4 @@ using the declared data type
 
 ![[Screenshot_20251113_013329.png]]
 
+**Syntax Directed Translation**
