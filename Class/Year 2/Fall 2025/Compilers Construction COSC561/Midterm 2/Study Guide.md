@@ -218,6 +218,7 @@ Registers are partitioned by a calling convention to manage their values across 
 10.1(m) Fields of a General Activation Record
 
 A general-purpose activation record typically contains the following fields:
+- local variables, parameters, return value, and the return address
 
 * Actual parameters: Values passed by the caller to the callee.
 * Return values: Space for the callee to place its result for the caller.
