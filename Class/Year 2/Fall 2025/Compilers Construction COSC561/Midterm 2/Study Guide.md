@@ -71,7 +71,11 @@ t4 = t3 + base_a
 t5 = *t4
 ```
 
-# Question 
+# Question 8
+
+
+
+# Question 9
 # Question 10
 **(a) Why is bottom-up parsing (with one symbol of lookahead) more powerful than top-down parsing (with one lookahead symbol)?**
 
