@@ -141,6 +141,8 @@ Advantages:
     - Builds a **table of case labels** indexed by expression value.
     - **O(1)** dispatch; best for **dense, contiguous** case ranges.
     - Requires extra data space.
+    - Use if
+	    - Case is dense
 
 **(f) What is static checking? Why is static checking preferable to dynamic checking?**
 
