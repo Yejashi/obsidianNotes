@@ -772,5 +772,7 @@ In the above example, temporary values were assigned for each interior node.
 - You only have three fields: operator and two source operands
 - You refer to the results of the instructions by the position they appear in the code array
 - No temporaries here
+- Cons
+	- Make it difficult to reorder
 ![[Screenshot_20251112_235142.png]]
 
