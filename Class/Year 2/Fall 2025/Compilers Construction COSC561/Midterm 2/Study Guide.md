@@ -50,6 +50,14 @@ Row Major:
 V = *(base_a + (10 * i + j) * 4)
 ```
 
+```
+t1 = 10 * i
+t2 = t1 + j
+t3 = t2 * 4
+t4 = t3 + base_a
+t5 = *t4
+```
+
 Columns Major:
 ```
 V = *(base_a + (5 * j + i) * 4)
