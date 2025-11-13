@@ -338,6 +338,10 @@ Free things immediately.
 
 f. Briefly describe the problem of cyclic references for reference counting garbage collectors. Show an example of the problem using a diagram.
 
+If two (or more) unreachable objects reference each other, their reference counts never become zero—even though no live part of the program can reach them.
+
+
+
 
 # Question 11
 How is backpatching used in the csem assignment?
