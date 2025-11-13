@@ -191,3 +191,12 @@ else
 ```
 
 Generates conditional jumps with true/false lists; backpatch connects them to the correct blocks using `backpatch(e→s_true, m1)` and `backpatch(e→s_false, m2)`
+
+
+# Question 11
+How is backpatching used in the csem assignment?
+
+Pseudocode
+```
+
+```
