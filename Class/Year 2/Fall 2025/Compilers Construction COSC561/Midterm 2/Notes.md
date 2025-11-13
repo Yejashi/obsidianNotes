@@ -777,4 +777,4 @@ In the above example, temporary values were assigned for each interior node.
 ![[Screenshot_20251112_235142.png]]
 
 **Indirect Triple**:
-- You seperate 
+- You separate the instructions themselves from 
