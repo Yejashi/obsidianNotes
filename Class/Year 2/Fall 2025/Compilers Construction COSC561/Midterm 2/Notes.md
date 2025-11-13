@@ -765,7 +765,7 @@ In the above example, temporary values were assigned for each interior node.
 
 **Quadruples**:
 - Has 4 fields, called op, arg1, arg2, and result
-![[Screenshot_20251112_234834.png]]
+	![[Screenshot_20251112_234834.png]]
 
 
 **Triples**:
@@ -774,7 +774,7 @@ In the above example, temporary values were assigned for each interior node.
 - No temporaries here
 - Cons
 	- Make it difficult to reorder
-![[Screenshot_20251112_235142.png]]
+	![[Screenshot_20251112_235142.png]]
 
 **Indirect Triple**:
 - You separate the instructions themselves from as they appear in their original position from the ordering of the instructions as you want it to appear in the final code
