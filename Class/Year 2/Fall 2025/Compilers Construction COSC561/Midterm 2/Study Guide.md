@@ -47,12 +47,12 @@ v = a[i][j];
 
 Row Major:
 ```
-V = *(base + (10 * i + j) * 4)
+V = *(base_a + (10 * i + j) * 4)
 ```
 
 Columns Major:
 ```
-V = *(base + (5 * j + i) * 4)
+V = *(base_a + (5 * j + i) * 4)
 ```
 
 # Question 10
