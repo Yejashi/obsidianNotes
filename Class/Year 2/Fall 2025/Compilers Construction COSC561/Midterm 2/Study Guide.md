@@ -80,6 +80,10 @@ t5 = *t4
 
 
 # Question 9
+
+![[Screenshot_20251113_021654.png]]
+
+
 # Question 10
 **(a) Why is bottom-up parsing (with one symbol of lookahead) more powerful than top-down parsing (with one lookahead symbol)?**
 
