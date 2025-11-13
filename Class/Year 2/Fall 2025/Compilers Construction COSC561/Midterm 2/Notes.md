@@ -822,3 +822,8 @@ goto FALSE_LABEL
 So you always generate two jumps for a relational test.
 
 Rule 2 — How to Translate AND: (B1 && B2):
+Think logically first:
+- To evaluate `B1 && B2`:
+    - If **B1 is false** → whole AND is false
+    - If **B1 is true**, then check **B2**
+
