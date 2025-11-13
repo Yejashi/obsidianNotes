@@ -803,3 +803,5 @@ A **syntax-directed translation** means:
 - **Each grammar rule** has associated **semantic actions** (translation rules).
 - When the parser reduces using that rule, you run its semantic actions to build intermediate code.
 
+![[Screenshot_20251113_023741.png]]
+
