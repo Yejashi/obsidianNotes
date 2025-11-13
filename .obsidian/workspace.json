@@ -59,7 +59,8 @@
               "title": "Study Guide"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,16 +229,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6431055f6b4ec61d",
+  "active": "dcc1de0ba49fdd25",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/midterm2_study_guide.pdf",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
     "Meta/Attachments/Screenshot_20251113_021746.png",
     "Meta/Attachments/Pasted image 20251113021803.png",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Meta/Attachments/Screenshot_20251113_021654.png",
     "Meta/Attachments/Pasted image 20251113021704.png",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
     "Meta/Attachments/Screenshot_20251113_021615.png",
     "Meta/Attachments/Screenshot_20251113_021554.png",
     "Meta/Attachments/Screenshot_20251113_021536.png",

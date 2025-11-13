@@ -72,6 +72,10 @@ t5 = *t4
 ```
 
 # Question 8
+ Use Figures 6.36 and 6.37 to translate the following statement in two passes (no backpatching).
+ ```
+ 
+ ```
 
 ![[Screenshot_20251113_021554.png]]
 
