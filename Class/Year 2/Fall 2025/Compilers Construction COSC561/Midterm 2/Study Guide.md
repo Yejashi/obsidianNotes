@@ -309,6 +309,7 @@ Disadvantage:
 Cannot handle variables whose lifetime does not follow LIFO rules. Stack frames disappear when a function returns, so stack allocation cannot support. Stack allocation is inflexible for data that must outlive its function call
 
 b. 
+A dangling reference occurs when a program holds a pointer (or reference) to a memory location after that memory has been deallocated
 
 
 # Question 11
