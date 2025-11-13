@@ -364,3 +364,9 @@ Pseudocode
 
 Implementation of dowhile and 
 slide 35
+
+
+What is machine code gen responsible 
+- register allocation
+- instruction selection
+- activation record managment
