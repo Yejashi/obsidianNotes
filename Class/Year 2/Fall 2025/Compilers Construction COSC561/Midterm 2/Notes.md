@@ -701,6 +701,10 @@ Intermediate code is performed by the front end.
 - DAG
 	- Represents each common subexpression only once in the tree
 	- Helps compiler optimize generated code
+- Three-Address Code
+	- General form: x = y op z ( 2 source, 1 destination)
+- Two-Address Code
+	- x := op y
 
 #### DAGs
 A **Directed Acyclic Graph (DAG)** for an expression is a data structure that:
@@ -750,3 +754,86 @@ c <- create new leaf
 
 ![[Pasted image 20251112180619.png]]
 
+#### The Three Address Code of a DAG
+Three address code is a linerized representation of a DAG where explicit names are used to correspond to interior nodes.
+
+![[Pasted image 20251112234210.png]]
+
+In the above example, temporary values were assigned for each interior node.
+
+##### Types of Three-Address Code Representations
+
+**Quadruples**:
+- Has 4 fields, called op, arg1, arg2, and result
+	![[Screenshot_20251112_234834.png]]
+
+
+**Triples**:
+- You only have three fields: operator and two source operands
+- You refer to the results of the instructions by the position they appear in the code array
+- No temporaries here
+- Cons
+	- Make it difficult to reorder
+	![[Screenshot_20251112_235142.png]]
+
+**Indirect Triple**:
+- You separate the instructions themselves from as they appear in their original position from the ordering of the instructions as you want it to appear in the final code
+- You just add an other table that keeps the instruction order![[Screenshot_20251113_003721.png]]
+
+##### Static Single Assignment
+A popular format for optimizing compiler. All assignments in SSA are to variables with a distinct name.
+
+![[Screenshot_20251113_004003.png]]
+
+#### Translation
+
+**Translation of Declarations**
+Assign storage and data type to local variables.
+
+using the declared data type
+- Determine amount of storage needed
+- Assign each variable a relative offset from the start of the activation record of the procedure
+![[Screenshot_20251113_013154.png]]
+
+![[Screenshot_20251113_013329.png]]
+
+**Syntax Directed Translation**
+A **syntax-directed translation** means:
+- You have grammar rules (like the grammar for `if`, `while`, and `B`).
+- **Each grammar rule** has associated **semantic actions** (translation rules).
+- When the parser reduces using that rule, you run its semantic actions to build intermediate code.
+
+![[Screenshot_20251113_023741.png]]
+
+Figures 6.37 give rules for translating:
+- relational operators (`x>10`, `y!=0`, etc.)
+- `&&` (AND)
+- `||` (OR)
+- `!`
+
+Rule 1 --  How to Translate a Relational Expression:
+
+The rule says that to evaluate a boolean test, you emit **two** instructions:
+```
+if x > 10 goto TRUE_LABEL
+goto FALSE_LABEL
+```
+
+So you always generate two jumps for a relational test.
+
+Rule 2 — How to Translate AND: (B1 && B2):
+Think logically first:
+- To evaluate `B1 && B2`:
+    - If **B1 is false** → whole AND is false
+    - If **B1 is true**, then check **B2**
+
+```
+if B1 is true → evaluate B2
+if B1 is false → skip B2 and go to FALSE
+```
+
+So the translation must:
+- Make B1.true jump to the beginning of B2
+- Make B1.false jump to the final FALSE
+- Make B2.true jump to final TRUE
+- Make B2.false jump to final FALSE

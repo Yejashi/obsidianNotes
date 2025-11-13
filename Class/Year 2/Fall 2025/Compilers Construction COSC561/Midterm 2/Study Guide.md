@@ -33,7 +33,62 @@ Draw the DAG representation for the following expression (as shown in Figure 6.3
 ![[Pasted image 20251112173030.png]]
 ![[Pasted image 20251112175448.png]]
 
-![[Pasted image 20251112182055.png]]
+![[Screenshot_20251113_003419.png]]
+
+![[Screenshot_20251113_003500.png]]
+
+
+# Question 7
+
+Give the three-address code that could be emitted to translate the following assignment statement. However, you may not use array index operations. Assume that a is an integer array with 5 rows and 10 columns. Assume that v is an integer variable and i and j are integer parameters passed to the function. Provide solutions for when 1) the arrays are stored in row major order, and 2) the arrays are stored in column major order.
+```
+v = a[i][j];
+```
+
+Row Major:
+```
+V = *(base_a + (10 * i + j) * 4)
+```
+
+```
+t1 = 10 * i
+t2 = t1 + j
+t3 = t2 * 4
+t4 = t3 + base_a
+t5 = *t4
+```
+
+Columns Major:
+```
+V = *(base_a + (5 * j + i) * 4)
+```
+
+```
+t1 = 5 * j
+t2 = t1 + i
+t3 = t2 * 4
+t4 = t3 + base_a
+t5 = *t4
+```
+
+# Question 8
+ Use Figures 6.36 and 6.37 to translate the following statement in two passes (no backpatching).
+ ```
+ if (x > 10 && y! = 0 || x == y) x = y;
+ ```
+
+![[Screenshot_20251113_021554.png]]
+
+![[Screenshot_20251113_021615.png]]
+
+![[Screenshot_20251113_080134.png]]
+![[Screenshot_20251113_080206.png]]
+
+# Question 9
+
+![[Screenshot_20251113_021654.png]]
+
+![[Screenshot_20251113_021746.png]]
 
 
 # Question 10
