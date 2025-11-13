@@ -315,8 +315,10 @@ A dangling reference occurs when a program holds a pointer (or reference) to a m
 ```
 int *p = malloc(sizeof(int));
 free(p);
-
+printf("Dangling value: %d\n", *p);
 ```
+
+c. 
 
 
 # Question 11
