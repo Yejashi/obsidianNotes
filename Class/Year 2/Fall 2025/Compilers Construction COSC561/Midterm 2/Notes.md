@@ -805,3 +805,5 @@ A **syntax-directed translation** means:
 
 ![[Screenshot_20251113_023741.png]]
 
+Example: `x > 10`, `y != 0`, `x == y`
+The rule says:
