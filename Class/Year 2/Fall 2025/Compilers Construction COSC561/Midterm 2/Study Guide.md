@@ -135,6 +135,8 @@ Advantages:
 - **Binary decision tree:**
     - Organizes case values hierarchically (binary search).
     - **O(log n)** time; efficient for **sparse** case values.
+	- User if
+		- Case not dense
 - **Jump table:**
     - Builds a **table of case labels** indexed by expression value.
     - **O(1)** dispatch; best for **dense, contiguous** case ranges.
