@@ -333,7 +333,10 @@ If it will run 11 times or more, compiling then running native code is cheaper.
 e. What is one advantage of reference counting garbage collection compared to trace-based garbage collection (such as mark-sweep, mark-compact or copying collectors)?
 
 Free things immediately.
+- increseade reference locality
+- decreased fragmentation
 
+f. 
 
 
 # Question 11
