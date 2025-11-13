@@ -348,6 +348,9 @@ Mark-compact compaction moves objects together, so:
 Objects that are allocated around the same time or belong to the same data structure end up close in memory.
 
 No fragmentation
+Mark-sweep leaves “holes” in the heap (external fragmentation).
+Applications then
+
 
 
 
