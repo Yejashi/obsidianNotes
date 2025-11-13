@@ -343,6 +343,12 @@ If two (or more) unreachable objects reference each other, their reference count
 g. Putting aside the performance of the garbage collector itself, would you expect using a mark-compact collector would enable better, worse, or the same performance for the application threads, as compared to using a conventional mark-sweep collector? Justify your answer.
 
 Better locality of reference
+Mark-compact compaction moves objects together, so:
+
+Objects that are allocated around the same time or belong to the same data structure end up close in memory.
+
+No fragmentation
+
 
 
 # Question 11
