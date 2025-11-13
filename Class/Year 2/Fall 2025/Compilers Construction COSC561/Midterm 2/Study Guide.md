@@ -200,3 +200,5 @@ Pseudocode
 ```
 
 ```
+
+Implementation of dowhile and 
