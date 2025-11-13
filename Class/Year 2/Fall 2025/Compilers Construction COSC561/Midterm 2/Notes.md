@@ -776,4 +776,4 @@ In the above example, temporary values were assigned for each interior node.
 	- Make it difficult to reorder
 ![[Screenshot_20251112_235142.png]]
 
-**Indirect Triple**
+**Indirect Triple**:
