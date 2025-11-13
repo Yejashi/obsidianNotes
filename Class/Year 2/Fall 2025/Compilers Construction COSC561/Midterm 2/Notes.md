@@ -795,3 +795,5 @@ using the declared data type
 - Assign each variable a relative offset from the start of the activation record of the procedure
 ![[Screenshot_20251113_013154.png]]
 
+![[Screenshot_20251113_013329.png]]
+
