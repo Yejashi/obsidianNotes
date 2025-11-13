@@ -319,6 +319,7 @@ printf("Dangling value: %d\n", *p);
 ```
 
 c. 
+Flushing the entire code cache throws away all previously translated code, even code that is still hot or frequently executed.
 
 
 # Question 11
