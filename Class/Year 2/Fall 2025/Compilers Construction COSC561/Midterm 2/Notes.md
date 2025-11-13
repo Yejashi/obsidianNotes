@@ -765,3 +765,6 @@ In the above example, temporary values were assigned for each interior node.
 
 **Quadruples**:
 - Has 4 fields, called op, arg1, arg2, and result
+![[Screenshot_20251112_234834.png]]
+
+
