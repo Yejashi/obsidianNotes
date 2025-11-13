@@ -35,6 +35,8 @@ Draw the DAG representation for the following expression (as shown in Figure 6.3
 
 ![[Screenshot_20251113_003419.png]]
 
+![[Screenshot_20251113_003500.png]]
+
 
 # Question 7
 
