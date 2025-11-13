@@ -34,18 +34,6 @@
             }
           },
           {
-            "id": "e064aacf50ce89b3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "dragon_book_2ed"
-            }
-          },
-          {
             "id": "9418f6516f263449",
             "type": "leaf",
             "state": {
@@ -59,8 +47,7 @@
               "title": "Study Guide"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,10 +216,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dcc1de0ba49fdd25",
+  "active": "6431055f6b4ec61d",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/midterm2_study_guide.pdf",
+    "conflict-files-obsidian-git.md",
     "Meta/Attachments/Pasted image 20251112182055.png",
     "Meta/Attachments/Pasted image 20251112180619.png",
     "Meta/Attachments/Pasted image 20251112175701.png",
@@ -243,8 +232,6 @@
     "Meta/Attachments/Pasted image 20251112152046.png",
     "Meta/Attachments/Pasted image 20251112105949.png",
     "Meta/Attachments/Pasted image 20251112105123.png",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Research/LLVM/Clang/Clang Substructures.md",
     "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
