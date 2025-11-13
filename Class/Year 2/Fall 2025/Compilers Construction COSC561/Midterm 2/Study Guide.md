@@ -81,7 +81,7 @@ t5 = *t4
 
 ![[Screenshot_20251113_021615.png]]
 
-
+![[Screenshot_20251113_080134.png]]
 
 # Question 9
 
