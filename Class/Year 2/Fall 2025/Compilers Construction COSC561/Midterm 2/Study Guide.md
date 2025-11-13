@@ -318,7 +318,7 @@ free(p);
 printf("Dangling value: %d\n", *p);
 ```
 
-c. 
+c. Suppose you are developing a virtual machine that uses a code cache to store translated code. When the code cache is full, the VM flushes the entire cache to make room for new compiled code. What is one disadvantage of using this simple code cache replacement strategy? What is a simple enhancement you could make to improve performance with this strategy?
 Flushing the entire code cache throws away all previously translated code, even code that is still hot or frequently executed.
 
 
