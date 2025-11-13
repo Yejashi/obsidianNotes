@@ -811,3 +811,4 @@ Figures 6.37 give rules for translating:
 - `||` (OR)
 - `!`
 
+How to Translate a Relational Expression:
