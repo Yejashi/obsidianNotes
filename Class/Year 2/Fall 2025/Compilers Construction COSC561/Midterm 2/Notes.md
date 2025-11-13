@@ -793,3 +793,5 @@ Assign storage and data type to local variables.
 using the declared data type
 - Determine amount of storage needed
 - Assign each variable a relative offset from the start of the activation record of the procedure
+![[Screenshot_20251113_013154.png]]
+
