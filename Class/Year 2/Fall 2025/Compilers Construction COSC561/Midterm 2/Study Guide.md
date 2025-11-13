@@ -63,6 +63,13 @@ Columns Major:
 V = *(base_a + (5 * j + i) * 4)
 ```
 
+```
+t1 = 5 * j
+t2 = t1 + i
+t3 = t2 * 4
+t4 = t3 + base_a
+t5 = *t4
+```
 # Question 10
 **(a) Why is bottom-up parsing (with one symbol of lookahead) more powerful than top-down parsing (with one lookahead symbol)?**
 
