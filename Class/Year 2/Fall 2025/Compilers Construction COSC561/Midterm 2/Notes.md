@@ -783,3 +783,5 @@ In the above example, temporary values were assigned for each interior node.
 ##### Static Single Assignment
 A popular format for optimizing compiler. All assignments in SSA are to variables with a distinct name.
 
+![[Screenshot_20251113_004003.png]]
+
