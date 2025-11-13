@@ -45,6 +45,10 @@ Give the three-address code that could be emitted to translate the following ass
 v = a[i][j];
 ```
 
+Row Major:
+```
+V = *(base + (10 * i + j) * 4)
+```
 
 # Question 10
 **(a) Why is bottom-up parsing (with one symbol of lookahead) more powerful than top-down parsing (with one lookahead symbol)?**
