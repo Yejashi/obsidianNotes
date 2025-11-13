@@ -83,6 +83,8 @@ t5 = *t4
 
 ![[Screenshot_20251113_021654.png]]
 
+![[Screenshot_20251113_021746.png]]
+
 
 # Question 10
 **(a) Why is bottom-up parsing (with one symbol of lookahead) more powerful than top-down parsing (with one lookahead symbol)?**
