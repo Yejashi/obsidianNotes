@@ -701,6 +701,10 @@ Intermediate code is performed by the front end.
 - DAG
 	- Represents each common subexpression only once in the tree
 	- Helps compiler optimize generated code
+- Three-Address Code
+	- General form: x = y op z ( 2 source, 1 destination)
+- Two-Address Code
+	- x := op y
 
 #### DAGs
 A **Directed Acyclic Graph (DAG)** for an expression is a data structure that:
