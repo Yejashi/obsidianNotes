@@ -755,4 +755,4 @@ c <- create new leaf
 ![[Pasted image 20251112180619.png]]
 
 #### The Three Address Code of a DAG
-Three address code is a linerized representation of a DAG where 
+Three address code is a linerized representation of a DAG where explicit names are used to correspond to interior nodes.
