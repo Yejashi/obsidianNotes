@@ -811,7 +811,7 @@ Figures 6.37 give rules for translating:
 - `||` (OR)
 - `!`
 
-Rule 1: How to Translate a Relational Expression:
+Rule 1 --  How to Translate a Relational Expression:
 
 The rule says that to evaluate a boolean test, you emit **two** instructions:
 ```
@@ -821,3 +821,4 @@ goto FALSE_LABEL
 
 So you always generate two jumps for a relational test.
 
+Rule 2 — How to Translate AND: (B1 && B2):
