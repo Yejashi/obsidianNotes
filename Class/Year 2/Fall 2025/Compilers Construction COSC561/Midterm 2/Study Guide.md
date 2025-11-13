@@ -73,7 +73,8 @@ t5 = *t4
 
 # Question 8
 
-![[Screenshot_20251113_021536.png]]
+![[Screenshot_20251113_021554.png]]
+
 
 # Question 9
 # Question 10
