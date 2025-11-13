@@ -798,3 +798,8 @@ using the declared data type
 ![[Screenshot_20251113_013329.png]]
 
 **Syntax Directed Translation**
+A **syntax-directed translation** means:
+- You have grammar rules (like the grammar for `if`, `while`, and `B`).
+- **Each grammar rule** has associated **semantic actions** (translation rules).
+- When the parser reduces using that rule, you run its semantic actions to build intermediate code.
+
