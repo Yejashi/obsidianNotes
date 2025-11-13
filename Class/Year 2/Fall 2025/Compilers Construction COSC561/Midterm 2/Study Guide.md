@@ -306,7 +306,7 @@ Advantage:
 Fast and automatic allocation/deallocation
 
 Disadvantage:
-
+Cannot handle variables whose lifetime does not follow LIFO rules. 
 
 
 # Question 11
