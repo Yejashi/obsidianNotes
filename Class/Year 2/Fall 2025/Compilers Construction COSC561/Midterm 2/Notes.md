@@ -805,5 +805,9 @@ A **syntax-directed translation** means:
 
 ![[Screenshot_20251113_023741.png]]
 
-Example: `x > 10`, `y != 0`, `x == y`
-The rule says:
+Figures 6.37 give rules for translating:
+- relational operators (`x>10`, `y!=0`, etc.)
+- `&&` (AND)
+- `||` (OR)
+- `!`
+
