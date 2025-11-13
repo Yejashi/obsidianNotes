@@ -769,4 +769,4 @@ In the above example, temporary values were assigned for each interior node.
 
 
 **Triples**:
-- 
+- You only have three fields: 
