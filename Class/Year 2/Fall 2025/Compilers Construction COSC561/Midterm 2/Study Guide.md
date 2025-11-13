@@ -299,6 +299,9 @@ Garbage collection (GC) is the process of automatic memory reclamation. The runt
 
 Incremental garbage collectors are essential for interactive or real-time applications where long, unpredictable pauses are unacceptable and would negatively impact user experience or system correctness.
 
+As compared to the heap allocation strategy, what is one advantage and one disadvantage of using the stack allocation strategy for allocating activation records?
+
+
 # Question 11
 How is backpatching used in the csem assignment?
 
