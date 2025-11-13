@@ -303,6 +303,9 @@ Incremental garbage collectors are essential for interactive or real-time applic
 a. As compared to the heap allocation strategy, what is one advantage and one disadvantage of using the stack allocation strategy for allocating activation records?
 
 Advantage:
+Fast and automatic allocation/deallocation
+
+Disadvantage:
 
 
 
