@@ -601,3 +601,152 @@ GOTO(I₀, E) = I₁
 - When there is a conflict canonical LR(1) uses a lookahead to disambiguate
 
 ##### LR(1) Parsing
+**SLR** parsers use **FOLLOW sets** to decide reductions globally:
+	“If an item is complete (dot at end), reduce on everything in FOLLOW(A).”
+
+That’s coarse. It assumes every situation where `A → α·` can be reduced on all FOLLOW(A), even if some contexts wouldn’t allow it.
+
+Result: **shift/reduce or reduce/reduce conflicts** appear even for unambiguous grammars.
+
+**LR(1)** exists to fix that by giving _each item its own specific lookahead symbol_ — so we only reduce when the next input symbol truly makes sense **in that context**.
+
+**What is an LR(1) Item?**
+An LR(1) item is like an LR(0) item but with a lookahead:
+```
+[A→α⋅β,a]
+```
+Where:
+- `A → αβ` is a production.
+- `·` marks the parser’s current position.
+- `a` is a **lookahead symbol** (a terminal) that can appear next in the input **after** the string derived from `A`.
+Think of it as:
+> “We’ve seen α, expect β next, and only if the next input symbol is `a` should we eventually reduce this rule.”
+
+**How LR(1) Parsing Works**:
+The formal definition can suck it, take this  instead.
+
+**Closure(I)**:
+If your set contains an item like `[A → α · B β, a]`, that means the parser has seen `α` and is now expecting `B` (with lookahead `a`).
+
+So we look at all productions of `B`, like `B → γ`. For each of those, we add a new item `[B → ·γ, b]` —where `b` comes from **FIRST(βa)**, i.e. what could appear right after `B`.
+
+**Goto(I, X)**:
+`Goto` just means: _“What happens if we actually see `X` next?”_
+
+So we move the dot past `X` in every item that has `·X` —and then take the **closure** of all those new items.
+
+Consider:
+```
+S → CC
+C → cC | d
+```
+
+Augment:
+```
+S'→ S
+S → CC
+C → cC
+C → d
+```
+
+Start with:
+```
+[S' → ·S, $] $ is looakhead here
+```
+
+Closure adds `[S → ·CC, $]`, and for the first `C`, it adds:
+```
+[C → ·cC, FIRST(C$) = {c, d}]
+[C → ·d, FIRST(C$) = {c, d}]
+```
+
+
+**Building the Table**
+- Shift: same as before
+- Reduce: on look ahead symbols
+- Accept: same as before
+
+#### Error Recovery
+Error types:
+- lexical - unknown operator
+- syntactic - unbalanced parantheses
+- semantic - variable never declared
+- logical - dereference a null pointer (runtime)
+
+Error Recovery Strategies
+- Panic mode
+	- When you detect an error, keep parsing
+		- Until some synchronizing token (like semicolon)
+	- Allows you to report multiple errors
+- Phrase-level
+	- Replace the prefix of the remaining input by a string that allows the parser to continue
+	- Allows you to detect more errors
+	- Cons
+		- Could possible go into an infinite loop
+- Error production
+	- Augment the grammar to include productions for common errors
+- Global correction
+	- Instead of detecting an error and report it, the compiler applies a least-cost correction
+
+> Please someone end by suffering, i want sleep, please, please, please, please
+
+### Intermediate Code Generation
+
+Intermediate code is performed by the front end.
+
+**Types of Intermediate Representation**
+- Syntax trees and DAGs
+	- Nodes represent language constructs
+	- Children represent components of the construct
+- DAG
+	- Represents each common subexpression only once in the tree
+	- Helps compiler optimize generated code
+
+#### DAGs
+A **Directed Acyclic Graph (DAG)** for an expression is a data structure that:
+- Represents **computations** where **nodes** correspond to **operations** or **operands**, and
+- **Edges** represent **dependencies** (which subexpressions are used by which operations).
+- The graph is **acyclic** (no loops) and **directed** from operands → operators → results.
+
+**How to Generate a DAG**
+
+Note: While creating the DAG, you check if the node you're creating already exists in the tree, if so just make a pointer to it
+
+![[Pasted image 20251112175701.png]]
+Approach: Create the postfix of the expression then apply the syntax directed definition.
+
+Example:
+```
+a + a * (b - c) + (b - c) * d
+```
+
+**S1**: First create the syntax tree of the expression:
+![[Pasted image 20251112174454.png]]
+
+**S2**: Then do a post order traversal of the syntax tree to get a postfix representation
+- You do so by recursively
+	- traveling left
+	- traveling right
+	- visiting node
+```
+a a b c - * + b c - d * +
+```
+
+**S3:** Go through the each element in the post fix representation and apply the synteax directed rules
+1. On the first `'a'`, create a new leaf node (`p1`).
+2. On the second `'a'`, find that `'a'` already exists → reuse `p1`.
+3. When processing `(b-c)`, one `'-'` node is created and shared by both `(b-c)` occurrences
+
+So like this:
+```
+a <- create new leaf
+a <- ignore since a already exists
+b <- create new leaf
+c <- create new leaf
+- <- Create - node and add b and c to it
+* <- create * node and add the nodes
+...
+```
+
+![[Pasted image 20251112180619.png]]
+
