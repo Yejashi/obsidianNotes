@@ -168,7 +168,10 @@ poly
 - printf, since variadic
 
 overloading
-- defining the same function 
+- one operator or function used for multiple types
+- defining the same function with different parameters
+- addition is overloaded
+
 **(i) Understand the purpose of the backpatch routine in the csem assignment.**
 **Backpatching** fills in **unresolved jump targets** in control flow constructs during intermediate code generation.
 
