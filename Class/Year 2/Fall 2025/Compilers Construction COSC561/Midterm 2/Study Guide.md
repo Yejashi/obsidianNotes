@@ -335,6 +335,8 @@ e. What is one advantage of reference counting garbage collection compared to tr
 Free things immediately.
 
 
+
+
 # Question 11
 How is backpatching used in the csem assignment?
 
