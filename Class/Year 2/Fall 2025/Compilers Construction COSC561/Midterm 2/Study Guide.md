@@ -41,6 +41,10 @@ Draw the DAG representation for the following expression (as shown in Figure 6.3
 # Question 7
 
 Give the three-address code that could be emitted to translate the following assignment statement. However, you may not use array index operations. Assume that a is an integer array with 5 rows and 10 columns. Assume that v is an integer variable and i and j are integer parameters passed to the function. Provide solutions for when 1) the arrays are stored in row major order, and 2) the arrays are stored in column major order.
+```
+v = a[i][j];
+```
+
 
 # Question 10
 **(a) Why is bottom-up parsing (with one symbol of lookahead) more powerful than top-down parsing (with one lookahead symbol)?**
