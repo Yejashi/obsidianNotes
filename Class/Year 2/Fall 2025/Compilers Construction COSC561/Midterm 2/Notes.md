@@ -827,3 +827,7 @@ Think logically first:
     - If **B1 is false** → whole AND is false
     - If **B1 is true**, then check **B2**
 
+```
+if B1 is true → evaluate B2
+if B1 is false → skip B2 and go to FALSE
+```
