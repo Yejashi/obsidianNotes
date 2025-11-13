@@ -199,6 +199,96 @@ else
 
 Generates conditional jumps with true/false lists; backpatch connects them to the correct blocks using `backpatch(e→s_true, m1)` and `backpatch(e→s_false, m2)`
 
+10.1(k) Activation Records and Allocation
+
+An activation record (or stack frame) is a block of storage that holds all the necessary information for a single execution of a procedure, including its parameters, local variables, and return address. Activation records are allocated in different memory regions depending on the language's features:
+
+* Static Data Area: Used by older languages like FORTRAN that do not support recursion. Since only one activation of any function can exist at a time, its memory can be allocated statically at compile time.
+* Stack: Used by most conventional languages (C, C++, Pascal). Pushing activation records onto a stack is a natural way to manage nested and recursive function calls.
+* Heap: Used by some functional languages. If a local variable needs to persist after its creating function returns (e.g., in a closure), its storage must be allocated on the heap to outlive the function's activation record.
+
+10.1(l) Caller-Save vs. Callee-Save Registers
+
+Registers are partitioned by a calling convention to manage their values across function calls:
+
+* Caller-Save (Scratch) Registers: These registers are not guaranteed to be preserved across a function call. If the caller needs the value in a caller-save register after the function returns, the caller is responsible for saving it to memory before the call and restoring it after.
+* Callee-Save (Non-scratch) Registers: The value of these registers must be preserved by the called function. If the callee wants to use a callee-save register, it is responsible for saving its original value upon entry and restoring it just before returning to the caller.
+
+10.1(m) Fields of a General Activation Record
+
+A general-purpose activation record typically contains the following fields:
+
+* Actual parameters: Values passed by the caller to the callee.
+* Return values: Space for the callee to place its result for the caller.
+* Control link: A pointer to the activation record of the caller, used to restore the stack on return.
+* Access link: A pointer to access non-local data in lexically scoped languages.
+* Saved machine status: Includes the return address and the contents of registers that need to be restored.
+* Local data: Storage for variables local to the procedure.
+* Temporaries: Space for storing intermediate results of expressions if they cannot be kept in registers.
+
+10.1(n) Conventional vs. VM Runtime Models
+
+* Traditional (C/C++) Model: The compiler translates source code directly into native object code for a specific Instruction Set Architecture (ISA) and Operating System (OS). This code is linked and loaded to be executed directly by the hardware, resulting in high performance but a lack of portability.
+* High-Level Language Virtual Machine (Java/Python) Model: The compiler translates source code into a portable, platform-independent format called bytecode, which is a Virtual ISA. This bytecode is then executed by a Virtual Machine (VM) software layer. The VM provides platform independence, as only the VM itself needs to be ported to a new hardware/OS combination.
+
+10.1(o) Features of HLL VM Architectures
+
+High-Level Language VMs provide several important features beyond simple execution:
+
+* Security/Protection: VMs can execute untrusted code in a "sandbox," a restricted environment that prevents it from accessing unauthorized system resources.
+* Robustness: Features like automatic memory management (garbage collection) and strong type-checking at runtime prevent common programming errors like memory leaks and type confusion.
+* Networking: VMs facilitate incremental loading, where parts of a program (like Java classes) can be loaded over a network on demand, improving startup time.
+* Performance: Modern VMs use sophisticated techniques like staged emulation and just-in-time (JIT) compilation to achieve performance competitive with natively compiled code.
+
+10.1(p) Instruction Emulation Techniques
+
+VMs use two primary techniques to execute program instructions (bytecode):
+
+1. Interpretation: The VM reads and executes bytecodes one at a time, translating each into corresponding native machine operations on the fly. This method is simple to implement and has low startup cost but suffers from poor steady-state performance.
+2. Binary Translation (JIT Compilation): The VM dynamically translates blocks of frequently executed bytecode into native machine code. This native code is stored in a code cache and executed directly by the hardware on subsequent encounters. JIT compilation has a higher initial cost but provides significantly better performance.
+
+10.1(q) The Ski Rental Problem and Staged Emulation
+
+The ski rental problem is a classic decision problem that serves as an analogy for JIT compilation. A skier must decide each day whether to rent skis for a low daily cost or buy them for a high one-time cost, without knowing how many days they will ski. The optimal strategy is to rent until the total rental cost equals the purchase price, and then buy.
+
+Staged emulation is the solution to this problem in a VM. The VM starts by interpreting a block of code (renting skis). It profiles the code, and once the execution count reaches a certain threshold (the point where the cumulative cost of interpreting equals the cost of compiling), it invokes the JIT compiler to translate the block to native code (buying the skis). This minimizes total execution time by investing in compilation only for "hot" code that will be executed many times.
+
+10.1(r) Code Cache Management Strategies
+
+The code cache is the memory region where a VM stores natively compiled code. Because its size is finite, a strategy is needed for when it becomes full:
+
+* LRU (Least Recently Used) Replacement: Evicts the code block that has not been used for the longest time. While good in theory, this is complex to implement for code caches due to variable-sized blocks and the need to manage backpointers from blocks that jump to the one being evicted.
+* Flush When Full: Evicts the entire contents of the cache. This strategy is much simpler to implement, eliminates potentially stale code from previous program phases, and avoids fragmentation. Although it can discard useful code, its simplicity and effectiveness have made it a common choice in practice.
+
+10.1(s) Garbage Collection
+
+Garbage collection (GC) is the process of automatic memory reclamation. The runtime system identifies heap-allocated objects that are no longer accessible by the program and reclaims their storage for future use. An object is considered "garbage" and eligible for collection when there are no live references (pointers) from the program's root set (e.g., global variables, stack variables) pointing to it.
+
+10.1(t) Garbage Collection Strategies
+
+1. Reference Counting:
+  * How it works: Each object keeps a count of incoming references. The count is incremented when a new reference is created and decremented when one is destroyed. The object is reclaimed when its count drops to zero.
+  * Advantage: Work is distributed incrementally with program execution, making it suitable for real-time systems.
+  * Disadvantage: Fails to reclaim cyclical data structures (e.g., a doubly-linked list where nodes point to each other) and has high overhead due to frequent counter updates.
+2. Mark-Sweep:
+  * How it works: Operates in two phases. First, it traverses all reachable objects from the root set and "marks" them as live. Second, it "sweeps" through the entire heap, reclaiming all unmarked objects.
+  * Advantage: Correctly handles cyclical data structures.
+  * Disadvantage: Can cause significant "stop-the-world" pauses and leads to heap fragmentation, where free memory is scattered in small, non-contiguous blocks.
+3. Mark-Compact:
+  * How it works: Identical to Mark-Sweep, but adds a third phase. After marking, it slides all live objects together to one end of the heap, eliminating fragmentation.
+  * Advantage: Solves the fragmentation problem and improves data locality.
+  * Disadvantage: The cost is higher than Mark-Sweep due to the multiple passes required to compute new locations and move the objects.
+4. Copy Collection:
+  * How it works: The heap is divided into two semi-spaces. The program allocates in one ("from-space"). During collection, all live objects are copied to the other ("to-space"). The roles of the spaces are then flipped.
+  * Advantage: Allocation is extremely fast (just incrementing a pointer), and fragmentation is completely eliminated.
+  * Disadvantage: It requires double the memory, as half of the heap is always idle.
+
+10.1(u) Incremental vs. "Stop-the-World" Garbage Collection
+
+* "Stop-the-World" GC: This approach suspends all application threads (the "mutator") while the collection cycle runs. For collectors like Mark-Sweep, this can lead to long, noticeable pauses, especially with large heaps.
+* Incremental GC: This approach interleaves the work of the garbage collector with the execution of the application. It performs collection in small, discrete steps, significantly reducing the maximum pause time.
+
+Incremental garbage collectors are essential for interactive or real-time applications where long, unpredictable pauses are unacceptable and would negatively impact user experience or system correctness.
 
 # Question 11
 How is backpatching used in the csem assignment?
