@@ -785,3 +785,7 @@ A popular format for optimizing compiler. All assignments in SSA are to variable
 
 ![[Screenshot_20251113_004003.png]]
 
+#### Translation
+
+**Translation of Declarations**
+Assign storage and data type to local variables
