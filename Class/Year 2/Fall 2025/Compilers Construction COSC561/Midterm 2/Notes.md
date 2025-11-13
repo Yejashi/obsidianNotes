@@ -819,3 +819,4 @@ if x > 10 goto TRUE_LABEL
 goto FALSE_LABEL
 ```
 
+So you always generate two jumps for a relational test.
