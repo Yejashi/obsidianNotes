@@ -274,6 +274,8 @@ Garbage collection (GC) is the process of automatic memory reclamation. The runt
 
 1. Reference Counting:
   * How it works: Each object keeps a count of incoming references. The count is incremented when a new reference is created and decremented when one is destroyed. The object is reclaimed when its count drops to zero.
+	  * overhead
+	  * cyclic references
   * Advantage: Work is distributed incrementally with program execution, making it suitable for real-time systems.
   * Disadvantage: Fails to reclaim cyclical data structures (e.g., a doubly-linked list where nodes point to each other) and has high overhead due to frequent counter updates.
 2. Mark-Sweep:
