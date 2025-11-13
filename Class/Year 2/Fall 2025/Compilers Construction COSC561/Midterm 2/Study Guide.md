@@ -340,6 +340,8 @@ f. Briefly describe the problem of cyclic references for reference counting garb
 
 If two (or more) unreachable objects reference each other, their reference counts never become zero—even though no live part of the program can reach them.
 
+g. Putting aside the performance of the garbage collector itself, would you expect using a mark-compact collector would enable better, worse, or the same performance for the application threads, as compared to using a conventional mark-sweep collector? Justify your answer.
+
 
 
 
