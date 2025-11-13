@@ -163,6 +163,9 @@ Preferable because:
 | **Overloading**  | One operator or function used for multiple types | `+` used for both `int` and `float`                                                 |
 | **Polymorphism** | Same interface works with multiple data types    | Function-like macros or function pointers (e.g., `qsort()` callback), c++ templates |
 
+poly 
+- define routine once but it can be called miltipole times with different values
+- 
 **(i) Understand the purpose of the backpatch routine in the csem assignment.**
 **Backpatching** fills in **unresolved jump targets** in control flow constructs during intermediate code generation.
 
