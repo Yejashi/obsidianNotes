@@ -52,7 +52,7 @@ V = *(base + (10 * i + j) * 4)
 
 Columns Major:
 ```
-V = *(base + (5 * i + j) * 4)
+V = *(base + (5 * j + i) * 4)
 ```
 
 # Question 10
