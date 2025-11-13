@@ -336,7 +336,7 @@ Free things immediately.
 - increseade reference locality
 - decreased fragmentation
 
-f. 
+f. Briefly describe the problem of cyclic references for reference counting garbage collectors. Show an example of the problem using a diagram.
 
 
 # Question 11
