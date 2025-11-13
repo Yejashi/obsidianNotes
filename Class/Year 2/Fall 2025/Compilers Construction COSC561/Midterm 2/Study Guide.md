@@ -104,7 +104,7 @@ Bottom-up (LR) parsers can handle a **larger class of context-free grammars** th
 
 **(b) Explain the different error recovery strategies.**
 
-**Panic-mode recovery** – Keep parsing until a synchronizing token is found. (e.g. semicolon). Then continue.
+**Panic-mode recovery** – Discards input until a synchronizing token is found.
 - Then resume parsing
 **Phrase-level recovery** – Replace the prefix of the remaining input with some string that will
 allow the parser to continue looking for errors.
