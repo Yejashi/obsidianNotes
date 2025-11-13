@@ -87,7 +87,7 @@ t5 = *t4
 # Question 9
 Use Figures 6.43 and 6.46 to translate the expression in a single pass (use backpatching). Start outputting the code from address 20.
 ```
-
+if (x > 10 && y! = 0 || x == y) x = y;
 ```
 
 ![[Screenshot_20251113_021654.png]]
