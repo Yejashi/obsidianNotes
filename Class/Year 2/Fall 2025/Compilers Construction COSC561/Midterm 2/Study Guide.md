@@ -212,8 +212,9 @@ An activation record (or stack frame) is a block of storage that holds all the n
 Registers are partitioned by a calling convention to manage their values across function calls:
 
 * Caller-Save (Scratch) Registers: These registers are not guaranteed to be preserved across a function call. If the caller needs the value in a caller-save register after the function returns, the caller is responsible for saving it to memory before the call and restoring it after.
+	- regiesters caller saves that it doesnt want callee to modify
 * Callee-Save (Non-scratch) Registers: The value of these registers must be preserved by the called function. If the callee wants to use a callee-save register, it is responsible for saving its original value upon entry and restoring it just before returning to the caller.
-
+	- Registers it saves that the callee assumes the caller doesnt want it to modify
 10.1(m) Fields of a General Activation Record
 
 A general-purpose activation record typically contains the following fields:
