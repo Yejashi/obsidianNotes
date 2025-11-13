@@ -35,6 +35,9 @@ Draw the DAG representation for the following expression (as shown in Figure 6.3
 
 ![[Pasted image 20251112182055.png]]
 
+### Question 7
+
+
 
 # Question 10
 **(a) Why is bottom-up parsing (with one symbol of lookahead) more powerful than top-down parsing (with one lookahead symbol)?**
