@@ -58,9 +58,21 @@
               "icon": "lucide-file",
               "title": "Study Guide"
             }
+          },
+          {
+            "id": "8fc4b56addf3b024",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -229,7 +241,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9418f6516f263449",
+  "active": "8fc4b56addf3b024",
   "lastOpenFiles": [
     "Meta/Attachments/Screenshot_20251113_080206.png",
     "Meta/Attachments/Screenshot_20251113_080134.png",
