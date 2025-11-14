@@ -85,6 +85,10 @@ t5 = *t4
 ![[Screenshot_20251113_080206.png]]
 
 # Question 9
+Use Figures 6.43 and 6.46 to translate the expression in a single pass (use backpatching). Start outputting the code from address 20.
+```
+if (x > 10 && y! = 0 || x == y) x = y;
+```
 
 ![[Screenshot_20251113_021654.png]]
 
@@ -100,7 +104,8 @@ Bottom-up (LR) parsers can handle a **larger class of context-free grammars** th
 
 **(b) Explain the different error recovery strategies.**
 
-**Panic-mode recovery** – Keep parsing until a synchronizing token is found. (e.g. semicolon)
+**Panic-mode recovery** – Discards input until a synchronizing token is found.
+- Then resume parsing
 **Phrase-level recovery** – Replace the prefix of the remaining input with some string that will
 allow the parser to continue looking for errors.
 - Could possible go into an infinite loop
@@ -124,19 +129,20 @@ Advantages:
 | **Zero-address (postfix)**   | Compact (good for stack machines), no explicit operands                                                                                                   | Harder to optimize or perform code motion; implicit dependencies |
 
 **(e) Describe the three strategies to translate large switch statements. What are the characteristics of each approach.**
-
 - **Sequential comparisons:**
     - Series of `if ... goto` tests for each case.
     - **Simple** to generate, but **O(n)** time.
-        
 - **Binary decision tree:**
     - Organizes case values hierarchically (binary search).
     - **O(log n)** time; efficient for **sparse** case values.
-        
+	- User if
+		- Case not dense
 - **Jump table:**
     - Builds a **table of case labels** indexed by expression value.
     - **O(1)** dispatch; best for **dense, contiguous** case ranges.
     - Requires extra data space.
+    - Use if
+	    - Case is dense
 
 **(f) What is static checking? Why is static checking preferable to dynamic checking?**
 
@@ -160,6 +166,15 @@ Preferable because:
 | **Coercion**     | Implicit type conversion by compiler             | `float f = 3;` → integer `3` coerced to `3.0`                                       |
 | **Overloading**  | One operator or function used for multiple types | `+` used for both `int` and `float`                                                 |
 | **Polymorphism** | Same interface works with multiple data types    | Function-like macros or function pointers (e.g., `qsort()` callback), c++ templates |
+
+Polymorphism
+- define routine once but it can be called miltipole times with different values
+- printf, since variadic
+
+overloading
+- one operator or function used for multiple types
+- defining the same function with different parameters
+- addition is overloaded
 
 **(i) Understand the purpose of the backpatch routine in the csem assignment.**
 **Backpatching** fills in **unresolved jump targets** in control flow constructs during intermediate code generation.
@@ -187,3 +202,171 @@ else
 ```
 
 Generates conditional jumps with true/false lists; backpatch connects them to the correct blocks using `backpatch(e→s_true, m1)` and `backpatch(e→s_false, m2)`
+
+10.1(k) Activation Records and Allocation
+
+An activation record (or stack frame) is a block of storage that holds all the necessary information for a single execution of a procedure, including its parameters, local variables, and return address. Activation records are allocated in different memory regions depending on the language's features:
+
+* Static Data Area: Used by older languages like FORTRAN that do not support recursion. Since only one activation of any function can exist at a time, its memory can be allocated statically at compile time.
+* Stack: Used by most conventional languages (C, C++, Pascal). Pushing activation records onto a stack is a natural way to manage nested and recursive function calls.
+* Heap: Used by some functional languages. If a local variable needs to persist after its creating function returns (e.g., in a closure), its storage must be allocated on the heap to outlive the function's activation record.
+
+10.1(l) Caller-Save vs. Callee-Save Registers
+
+Registers are partitioned by a calling convention to manage their values across function calls:
+
+* Caller-Save (Scratch) Registers: These registers are not guaranteed to be preserved across a function call. If the caller needs the value in a caller-save register after the function returns, the caller is responsible for saving it to memory before the call and restoring it after.
+	- regiesters caller saves that it doesnt want callee to modify
+* Callee-Save (Non-scratch) Registers: The value of these registers must be preserved by the called function. If the callee wants to use a callee-save register, it is responsible for saving its original value upon entry and restoring it just before returning to the caller.
+	- Registers it saves that the callee assumes the caller doesnt want it to modify
+10.1(m) Fields of a General Activation Record
+
+A general-purpose activation record typically contains the following fields:
+- local variables, parameters, return value, and the return address
+
+* Actual parameters: Values passed by the caller to the callee.
+* Return values: Space for the callee to place its result for the caller.
+* Control link: A pointer to the activation record of the caller, used to restore the stack on return.
+* Access link: A pointer to access non-local data in lexically scoped languages.
+* Saved machine status: Includes the return address and the contents of registers that need to be restored.
+* Local data: Storage for variables local to the procedure.
+* Temporaries: Space for storing intermediate results of expressions if they cannot be kept in registers.
+
+10.1(n) Conventional vs. VM Runtime Models
+
+* Traditional (C/C++) Model: The compiler translates source code directly into native object code for a specific Instruction Set Architecture (ISA) and Operating System (OS). This code is linked and loaded to be executed directly by the hardware, resulting in high performance but a lack of portability.
+* High-Level Language Virtual Machine (Java/Python) Model: The compiler translates source code into a portable, platform-independent format called bytecode, which is a Virtual ISA. This bytecode is then executed by a Virtual Machine (VM) software layer. The VM provides platform independence, as only the VM itself needs to be ported to a new hardware/OS combination.
+
+10.1(o) Features of HLL VM Architectures
+
+High-Level Language VMs provide several important features beyond simple execution:
+
+* Security/Protection: VMs can execute untrusted code in a "sandbox," a restricted environment that prevents it from accessing unauthorized system resources.
+* Robustness: Features like automatic memory management (garbage collection) and strong type-checking at runtime prevent common programming errors like memory leaks and type confusion.
+* Networking: VMs facilitate incremental loading, where parts of a program (like Java classes) can be loaded over a network on demand, improving startup time.
+* Performance: Modern VMs use sophisticated techniques like staged emulation and just-in-time (JIT) compilation to achieve performance competitive with natively compiled code.
+
+10.1(p) Instruction Emulation Techniques
+
+VMs use two primary techniques to execute program instructions (bytecode):
+
+1. Interpretation: The VM reads and executes bytecodes one at a time, translating each into corresponding native machine operations on the fly. This method is simple to implement and has low startup cost but suffers from poor steady-state performance.
+2. Binary Translation (JIT Compilation): The VM dynamically translates blocks of frequently executed bytecode into native machine code. This native code is stored in a code cache and executed directly by the hardware on subsequent encounters. JIT compilation has a higher initial cost but provides significantly better performance.
+
+10.1(q) The Ski Rental Problem and Staged Emulation
+
+The ski rental problem is a classic decision problem that serves as an analogy for JIT compilation. A skier must decide each day whether to rent skis for a low daily cost or buy them for a high one-time cost, without knowing how many days they will ski. The optimal strategy is to rent until the total rental cost equals the purchase price, and then buy.
+
+Staged emulation is the solution to this problem in a VM. The VM starts by interpreting a block of code (renting skis). It profiles the code, and once the execution count reaches a certain threshold (the point where the cumulative cost of interpreting equals the cost of compiling), it invokes the JIT compiler to translate the block to native code (buying the skis). This minimizes total execution time by investing in compilation only for "hot" code that will be executed many times.
+
+10.1(r) Code Cache Management Strategies
+
+The code cache is the memory region where a VM stores natively compiled code. Because its size is finite, a strategy is needed for when it becomes full:
+
+* LRU (Least Recently Used) Replacement: Evicts the code block that has not been used for the longest time. While good in theory, this is complex to implement for code caches due to variable-sized blocks and the need to manage backpointers from blocks that jump to the one being evicted.
+* Flush When Full: Evicts the entire contents of the cache. This strategy is much simpler to implement, eliminates potentially stale code from previous program phases, and avoids fragmentation. Although it can discard useful code, its simplicity and effectiveness have made it a common choice in practice.
+
+10.1(s) Garbage Collection
+
+Garbage collection (GC) is the process of automatic memory reclamation. The runtime system identifies heap-allocated objects that are no longer accessible by the program and reclaims their storage for future use. An object is considered "garbage" and eligible for collection when there are no live references (pointers) from the program's root set (e.g., global variables, stack variables) pointing to it.
+
+10.1(t) Garbage Collection Strategies
+
+1. Reference Counting:
+  * How it works: Each object keeps a count of incoming references. The count is incremented when a new reference is created and decremented when one is destroyed. The object is reclaimed when its count drops to zero.
+	  * overhead
+	  * cyclic references
+	  pro doesnt stop the world
+  * Advantage: Work is distributed incrementally with program execution, making it suitable for real-time systems.
+  * Disadvantage: Fails to reclaim cyclical data structures (e.g., a doubly-linked list where nodes point to each other) and has high overhead due to frequent counter updates.
+2. Mark-Sweep:
+  * How it works: Operates in two phases. First, it traverses all reachable objects from the root set and "marks" them as live. Second, it "sweeps" through the entire heap, reclaiming all unmarked objects.
+  * Advantage: Correctly handles cyclical data structures.
+  * Disadvantage: Can cause significant "stop-the-world" pauses and leads to heap fragmentation, where free memory is scattered in small, non-contiguous blocks.
+3. Mark-Compact:
+  * How it works: Identical to Mark-Sweep, but adds a third phase. After marking, it slides all live objects together to one end of the heap, eliminating fragmentation.
+  * Advantage: Solves the fragmentation problem and improves data locality.
+  * Disadvantage: The cost is higher than Mark-Sweep due to the multiple passes required to compute new locations and move the objects.
+4. Copy Collection:
+  * How it works: The heap is divided into two semi-spaces. The program allocates in one ("from-space"). During collection, all live objects are copied to the other ("to-space"). The roles of the spaces are then flipped.
+  * Advantage: Allocation is extremely fast (just incrementing a pointer), and fragmentation is completely eliminated.
+  * Disadvantage: It requires double the memory, as half of the heap is always idle.
+
+10.1(u) Incremental vs. "Stop-the-World" Garbage Collection
+
+* "Stop-the-World" GC: This approach suspends all application threads (the "mutator") while the collection cycle runs. For collectors like Mark-Sweep, this can lead to long, noticeable pauses, especially with large heaps.
+* Incremental GC: This approach interleaves the work of the garbage collector with the execution of the application. It performs collection in small, discrete steps, significantly reducing the maximum pause time.
+
+Incremental garbage collectors are essential for interactive or real-time applications where long, unpredictable pauses are unacceptable and would negatively impact user experience or system correctness.
+
+# Writing Assignment questions
+a. As compared to the heap allocation strategy, what is one advantage and one disadvantage of using the stack allocation strategy for allocating activation records?
+
+Advantage:
+Fast and automatic allocation/deallocation
+
+Disadvantage:
+Cannot handle variables whose lifetime does not follow LIFO rules. Stack frames disappear when a function returns, so stack allocation cannot support. Stack allocation is inflexible for data that must outlive its function call
+
+b. What is meant by the term dangling reference? Provide an example program, written in C, that has a dangling reference.
+
+A dangling reference occurs when a program holds a pointer (or reference) to a memory location after that memory has been deallocated.
+
+```
+int *p = malloc(sizeof(int));
+free(p);
+printf("Dangling value: %d\n", *p);
+```
+
+c. Suppose you are developing a virtual machine that uses a code cache to store translated code. When the code cache is full, the VM flushes the entire cache to make room for new compiled code. What is one disadvantage of using this simple code cache replacement strategy? What is a simple enhancement you could make to improve performance with this strategy?
+
+Flushing the entire code cache throws away all previously translated code, even code that is still hot or frequently executed.
+
+d. Suppose you have a VM that is able to run a specific program any number of times. The VM supports staged emulation with an interpreter mode and includes a dynamic compiler that can translate the guest code to native code. Suppose also that you have an application that you want to run on the VM. The program takes 10,000 cycles to run in interpreted mode, and only 10 cycles to run as native code. Interpretation has no startup cost, but translating the application to native code has a one-time cost of 100,000 cycles. What value should you use as the compilation threshold for this application to ensure the best possible performance regardless of the number of times it is executed?
+
+You should compile only when total native + compile cost becomes cheaper than interpreting every run.
+
+If the program will run 10 times or fewer, interpreting is cheaper
+
+If it will run 11 times or more, compiling then running native code is cheaper.
+
+e. What is one advantage of reference counting garbage collection compared to trace-based garbage collection (such as mark-sweep, mark-compact or copying collectors)?
+
+Free things immediately.
+- increseade reference locality
+- decreased fragmentation
+
+f. Briefly describe the problem of cyclic references for reference counting garbage collectors. Show an example of the problem using a diagram.
+
+If two (or more) unreachable objects reference each other, their reference counts never become zero—even though no live part of the program can reach them.
+
+g. Putting aside the performance of the garbage collector itself, would you expect using a mark-compact collector would enable better, worse, or the same performance for the application threads, as compared to using a conventional mark-sweep collector? Justify your answer.
+
+Better locality of reference
+Mark-compact compaction moves objects together, so:
+
+Objects that are allocated around the same time or belong to the same data structure end up close in memory.
+
+No fragmentation
+Mark-sweep leaves “holes” in the heap (external fragmentation).
+Applications then
+
+
+
+
+# Question 11
+How is backpatching used in the csem assignment?
+
+Pseudocode
+```
+
+```
+
+Implementation of dowhile and 
+slide 35
+
+
+What is machine code gen responsible 
+- register allocation
+- instruction selection
+- activation record managment
