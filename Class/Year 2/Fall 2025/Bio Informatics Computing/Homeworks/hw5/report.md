@@ -27,4 +27,5 @@ The only differences I see are that NEIGHBOR lets branch lengths vary, while KIT
 
 
 ## Question 5
-	
+
+#### Are the resulting trees similar to those from KITSCH and NEIGHBOR?
