@@ -35,4 +35,4 @@ The MSA-based trees (from MUSCLE and Clustal) look broadly similar to the KITSCH
 **Are the two MSA-based trees similar to each other?**
 The MUSCLE tree and the Clustal tree are basically the same tree — same clades and same overall structure. Any differences are tiny (mostly branch lengths rounded slightly differently), so for practical purposes they’re identical.
 
-****
+**Briefly describe any major differences or potential biological explanations**
