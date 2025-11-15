@@ -30,7 +30,7 @@ The only differences I see are that NEIGHBOR lets branch lengths vary, while KIT
 
 **Are the resulting trees similar to those from KITSCH and NEIGHBOR?**
 
-The trees for MUSCLE and clustal look to be mostly similar.
+The trees for MUSCLE and clustal look to be mostly similar to KITSCH and NEIGHBOR.
 
 MSA-based trees (from MUSCLE and Clustal) look broadly similar to the KITSCH and NEIGHBOR trees. In all of them, EU980374 sits on a long branch as the clear outlier, EU980373 is fairly close to it, EU980375–379–376–377 group together, and EU980370–372–371 also form a tight cluster. The main differences are in some branch lengths and where a few very similar samples (like EU980369, EU980381, EU980365, EU980366) attach inside the big central clade.
 
