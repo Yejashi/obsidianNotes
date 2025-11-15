@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2496b84180ad5f5a",
+        "id": "494432fd60bb9540",
         "type": "tabs",
         "children": [
           {
-            "id": "6431055f6b4ec61d",
+            "id": "39e4365742efdd6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,31 +22,7 @@
             }
           },
           {
-            "id": "dcc1de0ba49fdd25",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/midterm2_study_guide.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "midterm2_study_guide"
-            }
-          },
-          {
-            "id": "ba432e9ef335ecc0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "dragon_book_2ed"
-            }
-          },
-          {
-            "id": "9418f6516f263449",
+            "id": "17f9dc280a192757",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,19 +36,17 @@
             }
           },
           {
-            "id": "8fc4b56addf3b024",
+            "id": "860c95d46dedf7c0",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "specific passes",
+                "query": "tag:#define",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -240,52 +214,52 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "17f9dc280a192757",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
     "conflict-files-obsidian-git.md",
     "Meta/Attachments/Screenshot_20251113_080206.png",
     "Meta/Attachments/Screenshot_20251113_080134.png",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/midterm2_study_guide.pdf",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
     "Meta/Attachments/Screenshot_20251113_023741.png",
-    "Meta/Attachments/Pasted image 20251113023747.png",
     "Meta/Attachments/Screenshot_20251113_021746.png",
-    "Meta/Attachments/Pasted image 20251113021803.png",
     "Meta/Attachments/Screenshot_20251113_021654.png",
-    "Meta/Attachments/Pasted image 20251113021704.png",
     "Meta/Attachments/Screenshot_20251113_021615.png",
     "Meta/Attachments/Screenshot_20251113_021554.png",
-    "Research/LLVM/Clang/Clang Substructures.md",
-    "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
+    "Meta/Attachments/Screenshot_20251113_021536.png",
+    "Meta/Attachments/Screenshot_20251113_013329.png",
+    "Meta/Attachments/Screenshot_20251113_013154.png",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/midterm2_study_guide.pdf",
     "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2",
-    "Misc/Software Ideas/Optimization Visualization Tool.md",
-    "Class/Year 1/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
-    "Misc/Software Ideas/Dynamic Call Graph Extraction Tool.md",
-    "Research/LLVM/Specific Passes.md",
+    "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
+    "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
     "Research/Paper Planning/Compiler Paper Planning",
     "Research/Paper Planning",
-    "Research/LLVM/General Knowledge/Structure of a Compiler.md",
-    "Misc/Software Ideas/Linux System-Wide Text Auto-complete.md",
     "Research/LLVM/DWARF/DWARF General.md",
+    "Research/LLVM/DWARF",
+    "Misc/Software Ideas/Optimization Visualization Tool.md",
+    "Misc/Software Ideas/Dynamic Call Graph Extraction Tool.md",
     "Excalidraw/Drawing 2025-10-12 16.41.58.excalidraw.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4",
-    "Untitled.base",
-    "Research/LLVM/Passes/LLVM API.md",
-    "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
-    "Research/LLVM/DWARF",
-    "Excalidraw/Drawing 2025-10-08 09.29.06.excalidraw.md",
+    "Research/LLVM/Clang/Clang Substructures.md",
     "Research/LLVM/Passes/Remark Limitations.md",
     "Research/LLVM/Passes/Remark Categories.md",
     "Research/LLVM/Pass Coverage.md",
+    "Excalidraw/Drawing 2025-10-08 09.29.06.excalidraw.md",
     "Research/LLVM/Clang/Pass Manager and Analysis Manager.md",
+    "Research/LLVM/General Knowledge/Structure of a Compiler.md",
     "Research/LLVM/General Knowledge",
     "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
     "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md",
     "Research/LLVM/Clang/Preprocessor.md",
-    "Research/LLVM/Clang"
+    "Research/LLVM/Clang/Clang Tooling.md",
+    "Research/LLVM/Clang",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/Study Guide.md",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/Study Guide.md",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/report 1.md"
   ]
 }
