@@ -23,6 +23,4 @@ python3 hamming_distance.py  small.fasta
 ![[Bio_251114_215423_page-0001(1).jpg]]
 
 ## Question 4
-The NEIGHBOR (neighbor‐joining) tree and KITSCH (ultrametric) tree were largely similar because both were built from the same DNADIST matrix. However, NEIGHBOR does not assume a molecular clock and allows unequal root‐to‐tip distances, while KITSCH forces an ultrametric tree with equal total path lengths for all taxa. As a result, KITSCH had equalized leaf heights and slightly different branch lengths and clustering compared to NEIGHBOR.
-
-The only differences 
+The only differences I see are that NEIGHBOR lets branch lengths vary, while KITSCH forces everything to line up. 
