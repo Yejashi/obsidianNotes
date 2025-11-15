@@ -1,7 +1,7 @@
 # COSC594 – Homework 5 Report
 
 **Name:** Befikir T. Bogale  
-**Class:** COSC594  
+**C![[Bio_251114_215423_page-0001(1).jpg]]lass:** COSC594  
 **Assignment:** Homework 5
 
 ---
