@@ -6,3 +6,5 @@
 
 ---
 
+## Question 2: Hamming Distance Program
+I implemented global alignment in Python. The executable is `globalign.py`.  

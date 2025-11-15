@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "report"
+            }
+          },
+          {
+            "id": "7c5d2b0f72b9bdf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw5/report.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "report"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,10 +203,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "73dacaa5b405be85",
+  "active": "7c5d2b0f72b9bdf5",
   "lastOpenFiles": [
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4/report.md",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw5/report.md",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4/report.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw5",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
@@ -234,7 +250,6 @@
     "Research/LLVM/Clang",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/COSC461 Study Guide.pdf",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm/Study Guide.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/Study Guide.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/report 1.md"
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Midterm/Study Guide.md"
   ]
 }
