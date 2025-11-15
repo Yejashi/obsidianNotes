@@ -24,5 +24,3 @@ python3 hamming_distance.py  small.fasta
 
 ## Question 4
 The only differences I see are that NEIGHBOR lets branch lengths vary, while KITSCH forces everything to line up. So KITSCH ends up with same leaf heights and slightly different branch lengths.
-
-## Question 5
