@@ -1,7 +1,7 @@
 # COSC594 – Homework 5 Report
 
 **Name:** Befikir T. Bogale  
-**C![[Bio_251114_215423_page-0001(1).jpg]]lass:** COSC594  
+**Class:** COSC594  
 **Assignment:** Homework 5
 
 ---
@@ -20,3 +20,6 @@ python3 hamming_distance.py  small.fasta
 ```
 
 ## Question 3
+![[Bio_251114_215423_page-0001(1).jpg]]
+
+## Question 4
