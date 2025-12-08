@@ -1,3 +1,4 @@
+### What `llvm::Loop` _is_
 `llvm::Loop` is an abstract representation of a loop detected by **LoopInfo** (the analysis pass). It stores:
 - The loop header block
 - All basic blocks inside the loop
@@ -10,4 +11,7 @@
 - Metadata (vectorization hints, unroll hints, etc.)
 
 It does _not_ contain instructions—it references the corresponding `BasicBlock`s.
+
+### **When `llvm::Loop` is used**
+
 
