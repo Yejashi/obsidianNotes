@@ -62,3 +62,5 @@ Instead:
 LoopInfo &LI = getAnalysis<LoopInfoWrapperPass>().getLoopInfo();
 ```
 
+`LoopInfo` builds the loop tree from the function’s DomTree.
+
