@@ -13,5 +13,11 @@
 It does _not_ contain instructions—it references the corresponding `BasicBlock`s.
 
 ### **When `llvm::Loop` is used**
+LLVM uses `llvm::Loop` at multiple phases in the middle-end:
 
+##### **1. During analysis passes**
+`llvm::Loop` is used for understanding a function’s control-flow shape:
+- **LoopInfo** builds all `llvm::Loop` objects from the function’s CFG.
+- **ScalarEvolution (SE)** uses loops to build induction-variable recurrences.
+- **DominatorTree** + LoopInfo determine loop nesting structure.
 
