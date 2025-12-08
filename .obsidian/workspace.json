@@ -11,10 +11,14 @@
             "id": "e645731b9598e354",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Research/LLVM/API/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ]
@@ -184,8 +188,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "e645731b9598e354",
   "lastOpenFiles": [
+    "Research/LLVM/API/Untitled.md",
+    "Research/LLVM/API",
     "Research/LLVM/Intermediate Representation (IR)/Untitled.md",
     "conflict-files-obsidian-git.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
@@ -222,7 +228,6 @@
     "Research/LLVM/DWARF/DWARF General.md",
     "Excalidraw/Drawing 2025-10-12 16.41.58.excalidraw.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4/report.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4",
     "Research/LLVM/Passes/LLVM API.md",
     "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
     "Excalidraw/Drawing 2025-10-08 09.29.06.excalidraw.md",
@@ -230,7 +235,6 @@
     "Research/LLVM/Passes/Remark Categories.md",
     "Research/LLVM/Pass Coverage.md",
     "Research/LLVM/Clang/Pass Manager and Analysis Manager.md",
-    "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
-    "Research/LLVM/Passes/Pass Instrumentation/Pass Instrumentations.md"
+    "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md"
   ]
 }
