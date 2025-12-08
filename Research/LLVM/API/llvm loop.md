@@ -55,3 +55,5 @@ MDNode *LoopMD = L->getLoopID();
 
 
 ### **How `llvm::Loop` is created**
+You never construct an `llvm::Loop` directly.
+
