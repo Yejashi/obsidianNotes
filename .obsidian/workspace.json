@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "2496b84180ad5f5a",
+        "id": "6eb094790d4048f0",
         "type": "tabs",
         "children": [
           {
-            "id": "6431055f6b4ec61d",
+            "id": "e645731b9598e354",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Notes"
-            }
-          },
-          {
-            "id": "dcc1de0ba49fdd25",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/midterm2_study_guide.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "midterm2_study_guide"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 313.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -202,10 +184,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
+    "Research/LLVM/Intermediate Representation (IR)/Untitled.md",
     "conflict-files-obsidian-git.md",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
     "Research/LLVM/Optimizations/Sources/copy_prop_muchnick.pdf",
     "Research/LLVM/Optimizations/Sources",
     "Research/LLVM/Optimizations",
