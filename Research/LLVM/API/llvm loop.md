@@ -35,6 +35,11 @@ A ton of optimization passes rely on `llvm::Loop`:
 ###### **Loop Unrolling**
 Inside `LoopUnrollPass`:
 ```
-
+for (Loop *L : LI) {
+    // decide if L is unrollable
+    UnrollLoop(L, ...);
+}
 ```
+
+
 
