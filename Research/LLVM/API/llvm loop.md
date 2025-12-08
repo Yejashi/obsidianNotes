@@ -21,5 +21,17 @@ LLVM uses `llvm::Loop` at multiple phases in the middle-end:
 - **ScalarEvolution (SE)** uses loops to build induction-variable recurrences.
 - **DominatorTree** + LoopInfo determine loop nesting structure.
 
+##### **2. During optimization passes (most common use-case)**
+A ton of optimization passes rely on `llvm::Loop`:
 
+###### **Loop Canonicalization**
+
+- `-loop-simplify` uses `llvm::Loop` to ensure:
+    - one preheader
+    - one latch
+    - well-defined exit blocks
+###### **LCSSA transformation**
+- `LCSSA` uses `llvm::Loop` to insert PHIs on loop exits.
+###### **Loop Unrolling**
+Inside `LoopUnrollPass`:
 
