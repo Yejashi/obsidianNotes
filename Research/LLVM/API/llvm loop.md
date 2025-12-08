@@ -10,3 +10,4 @@
 - Metadata (vectorization hints, unroll hints, etc.)
 
 It does _not_ contain instructions—it references the corresponding `BasicBlock`s.
+
