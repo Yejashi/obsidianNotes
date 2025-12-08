@@ -57,3 +57,8 @@ MDNode *LoopMD = L->getLoopID();
 ### **How `llvm::Loop` is created**
 You never construct an `llvm::Loop` directly.
 
+Instead:
+```
+LoopInfo &LI = getAnalysis<LoopInfoWrapperPass>().getLoopInfo();
+```
+
