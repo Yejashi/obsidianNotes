@@ -41,5 +41,16 @@ for (Loop *L : LI) {
 }
 ```
 
+##### **3. Loop Metadata / Hints**
+`llvm::Loop` is also used when LLVM interprets loop metadata:
+- `llvm.loop.unroll.disable`
+- `llvm.loop.vectorize.enable`
+- `llvm.loop.interleave.count`
+- profiling hints
+    
+Passes query or modify metadata via:
+```
+MDNode *LoopMD = L->getLoopID();
+```
 
 
