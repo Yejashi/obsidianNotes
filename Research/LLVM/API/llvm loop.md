@@ -21,3 +21,5 @@ LLVM uses `llvm::Loop` at multiple phases in the middle-end:
 - **ScalarEvolution (SE)** uses loops to build induction-variable recurrences.
 - **DominatorTree** + LoopInfo determine loop nesting structure.
 
+
+
