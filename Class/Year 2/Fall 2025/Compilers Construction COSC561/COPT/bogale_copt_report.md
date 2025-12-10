@@ -15,7 +15,7 @@ In `array_initialize_opt`, I moved the computation of `X % Y` into a variable ca
 In `factorial_opt`, I replaced the recursive  implementation with an iterative loop. This avoids repeated function calls and reduces stack usage, making the function faster.
 
 **matrix_multiply_opt**
-In `matrix_multiply_opt`, I changed the loop order from `(i, j, k)` to `(i, k, j)` and stored `A[i*n + k]` into a temporary variable before the innermost loop. This  reuses values more efficiently, leading to faster matrix multiplication.
+In `matrix_multiply_opt`, I changed the loop order from `(i, j, k)` to `(i, k, j)` and stored `A[i*n + k]` into a temporary variable before the innermost loop. This  reuses values more efficiently due to better cache usage, leading to faster matrix multiplication.
 
 
 ### Performance Results
