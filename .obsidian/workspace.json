@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "llvm loop"
             }
+          },
+          {
+            "id": "b58bd2efb569e77d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +201,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e645731b9598e354",
+  "active": "b58bd2efb569e77d",
   "lastOpenFiles": [
     "Research/LLVM/API/llvm loop.md",
     "Research/LLVM/API",
