@@ -25,12 +25,14 @@
             "id": "b58bd2efb569e77d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ],
@@ -203,6 +205,8 @@
   },
   "active": "b58bd2efb569e77d",
   "lastOpenFiles": [
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT/Untitled.md",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT",
     "Research/LLVM/API/llvm loop.md",
     "Research/LLVM/API",
     "Research/LLVM/Intermediate Representation (IR)/Untitled.md",
@@ -235,7 +239,6 @@
     "Misc/Software Ideas/Dynamic Call Graph Extraction Tool.md",
     "Research/LLVM/Specific Passes.md",
     "Research/Paper Planning/Compiler Paper Planning",
-    "Research/Paper Planning",
     "Research/LLVM/General Knowledge/Structure of a Compiler.md",
     "Misc/Software Ideas/Linux System-Wide Text Auto-complete.md",
     "Research/LLVM/DWARF/DWARF General.md",
@@ -247,7 +250,6 @@
     "Research/LLVM/Passes/Remark Limitations.md",
     "Research/LLVM/Passes/Remark Categories.md",
     "Research/LLVM/Pass Coverage.md",
-    "Research/LLVM/Clang/Pass Manager and Analysis Manager.md",
-    "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md"
+    "Research/LLVM/Clang/Pass Manager and Analysis Manager.md"
   ]
 }
