@@ -88,3 +88,6 @@ I think the most effective optimization was the loop reordering in matrix multip
 
 A lot of the optimizations that i did worked by moving repeated computations outside of loops. As far as i understand, optimizations like loop invariant code motion are automatically applied by the compiler at the -O3 level. This means that the manual optimization that i did becomes mostly redundant since the compiler can do it  itself.
 
+**Which optimizations remain effective under -O3, and why?**
+
+The optimization that remained most effective under -O3 is the matrix multiplication loop reordering that i did. Since Compilers generally do not change the order of nested loops because doing so can break program correctness if memory aliasing is involved. By manually changing the loop order, I was able to achieve a major improvement that the compiler cannot safely infer on its own.
