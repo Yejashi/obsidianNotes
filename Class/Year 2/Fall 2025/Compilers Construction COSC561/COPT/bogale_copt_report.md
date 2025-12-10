@@ -21,6 +21,9 @@ In `matrix_multiply_opt`, I changed the loop order from `(i, j, k)` to `(i, k, j
 ### Performance Results
 
 **Reference Implementation at -O0**
+```
+
+```
 
 **My Implementation at -O0**
 ```
