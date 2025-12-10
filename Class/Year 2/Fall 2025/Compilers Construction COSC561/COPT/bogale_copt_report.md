@@ -52,5 +52,30 @@ SPEEDUP:                  4.79
 
 **My Implementation**
 ```
+(base) bbogale:hydra12 ~/CLASS/Fall2025/CompilersConstruction/copt> ./test.sh copt_O3       <-  2:38PM
+Running MATRIX_INIT with n = 3000 loop = 200
 
+UNOPTIMIZED(ms):        1650.0
+OPTIMIZED(ms):          1583.0
+SPEEDUP:                   1.0
+
+Running ARRAY_INIT with n = 300000 loop = 20000
+
+UNOPTIMIZED(ms):         983.0
+OPTIMIZED(ms):           983.0
+SPEEDUP:                   1.0
+
+Running FACTORIAL with n = 20 loop = 200000000
+
+UNOPTIMIZED(ms):        2133.0
+OPTIMIZED(ms):          2083.0
+SPEEDUP:                   1.0
+
+Running MATRIX_MULTIPLY with n = 1600 loop = 1
+
+UNOPTIMIZED(ms):        7500.0
+OPTIMIZED(ms):           966.0
+SPEEDUP:                   7.8
 ```
+
+
