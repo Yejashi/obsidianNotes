@@ -82,4 +82,4 @@ SPEEDUP:                   7.8
 ### Questions
 
 **Which optimizations were most effective?**
-I think the most effective optimization was the loop reordering in matrix multiplication. I tried to see if i could leverage for this optimization. By changing the loop order significantly improved memory access patterns, which dramatically reduced cache misses and produced the largest speedup in the entire assignment.
+I think the most effective optimization was the loop reordering in matrix multiplication. I tried to see if i could leverage for this optimization. By changing the loop order there was improved memory access patterns, which reduced cache misses and produced the largest speedup in the entire assignment.
