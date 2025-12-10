@@ -22,7 +22,30 @@ In `matrix_multiply_opt`, I changed the loop order from `(i, j, k)` to `(i, k, j
 
 **Reference Implementation at -O0**
 ```
+(base) bbogale:hydra12 ~/CLASS/Fall2025/CompilersConstruction/copt> ./test.sh copt_O0_ref
+Running MATRIX_INIT with n = 3000 loop = 200
 
+UNOPTIMIZED(ms):       16350.0
+OPTIMIZED(ms):          6133.0
+SPEEDUP:                  2.67
+
+Running ARRAY_INIT with n = 300000 loop = 20000
+
+UNOPTIMIZED(ms):       21016.0
+OPTIMIZED(ms):          6217.0
+SPEEDUP:                  3.38
+
+Running FACTORIAL with n = 20 loop = 200000000
+
+UNOPTIMIZED(ms):       23600.0
+OPTIMIZED(ms):         10050.0
+SPEEDUP:                  2.35
+
+Running MATRIX_MULTIPLY with n = 1600 loop = 1
+
+UNOPTIMIZED(ms):       35234.0
+OPTIMIZED(ms):         21567.0
+SPEEDUP:                  1.63
 ```
 
 **My Implementation at -O0**
