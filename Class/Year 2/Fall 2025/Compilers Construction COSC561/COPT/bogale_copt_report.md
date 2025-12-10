@@ -52,7 +52,7 @@ SPEEDUP:                   2.3
 
 **Reference Implementation at -O3**
 ```
-(base) bbogale:hydra12 ~/CLASS/Fall2025/CompilersConstruction/copt> ./test.sh copt_O3_ref   <-  2:38PM
+(base) bbogale:hydra12 ~/CLASS/Fall2025/CompilersConstruction/copt> ./test.sh copt_O3_ref
 Running MATRIX_INIT with n = 3000 loop = 200
 
 UNOPTIMIZED(ms):        1566.0
@@ -82,7 +82,7 @@ SPEEDUP:                  4.79
 
 **My Implementation at -O3**
 ```
-(base) bbogale:hydra12 ~/CLASS/Fall2025/CompilersConstruction/copt> ./test.sh copt_O3       <-  2:38PM
+(base) bbogale:hydra12 ~/CLASS/Fall2025/CompilersConstruction/copt> ./test.sh copt_O3
 Running MATRIX_INIT with n = 3000 loop = 200
 
 UNOPTIMIZED(ms):        1650.0
