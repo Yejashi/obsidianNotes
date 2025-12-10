@@ -82,4 +82,8 @@ SPEEDUP:                   7.8
 ### Questions
 
 **Which optimizations were most effective?**
-I think the most effective optimization was the loop reordering in matrix multiplication. I tried to see if i could leverage for this optimization. By changing the loop order there was improved memory access patterns, which reduced cache misses and produced the largest speedup in the entire assignment.
+I think the most effective optimization was the loop reordering in matrix multiplication. I tried to see if i could leverage for this optimization. By changing the loop order there was improved memory access patterns, which reduced cache misses and produced the largest speedup.
+
+**Why are some optimizations less effective under -O3?**
+
+Some optimizations do not show much improvement under `-O3` because the compiler already performs similar transformations. For example, loop-invariant code motion and constant folding are automatically applied at high optimization levels, so manually hoisting constants does not provide much additional benefit.
