@@ -90,4 +90,4 @@ A lot of the optimizations that i did worked by moving repeated computations out
 
 **Which optimizations remain effective under -O3, and why?**
 
-The optimization that remained most effective under -O3 is the matrix multiplication loop reordering that i did. I believe compilers generally do not change the order of nested loops because doing so can break program correctness if memory aliasing is involved. By manually changing the loop order, I was able to achieve a major improvement that the compiler cannot safely infer on its own.
+The optimization that remained most effective under -O3 is the matrix multiplication loop reordering that i did. I believe compilers generally do not change the order of nested loops because since doing so can break program correctness if memory aliasing is involved. By manually changing the loop order, I was able to achieve a major improvement that the compiler cannot safely infer on its own.
