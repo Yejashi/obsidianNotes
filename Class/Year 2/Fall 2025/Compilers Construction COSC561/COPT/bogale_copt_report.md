@@ -86,4 +86,5 @@ I think the most effective optimization was the loop reordering in matrix multip
 
 **Why are some optimizations less effective under -O3?**
 
-A lot of the optimizations that i did worked by moving repeated computations outside of loops. As far as i understand,  For example, loop-invariant code motion and constant folding are automatically applied at high optimization levels, so manually hoisting constants does not provide much additional benefit.
+A lot of the optimizations that i did worked by moving repeated computations outside of loops. As far as i understand, optimizations like loop invariant code motion are automatically applied by the compiler at the -O3 level. This means that the manual optimization that i did becomes mostly redundant since the compiler can do it  itself.
+
