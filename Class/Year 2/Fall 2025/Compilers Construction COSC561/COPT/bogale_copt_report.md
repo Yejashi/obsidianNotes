@@ -20,7 +20,8 @@ In `matrix_multiply_opt`, I changed the loop order from `(i, j, k)` to `(i, k, j
 
 ### Performance Results
 
-**Reference Implementation**
+**Reference Implementation at -O0**
+**Reference Implementation at -O3**
 ```
 (base) bbogale:hydra12 ~/CLASS/Fall2025/CompilersConstruction/copt> ./test.sh copt_O3_ref   <-  2:38PM
 Running MATRIX_INIT with n = 3000 loop = 200
@@ -50,7 +51,7 @@ SPEEDUP:                  4.79
 
 
 
-**My Implementation**
+**My Implementation at -O3**
 ```
 (base) bbogale:hydra12 ~/CLASS/Fall2025/CompilersConstruction/copt> ./test.sh copt_O3       <-  2:38PM
 Running MATRIX_INIT with n = 3000 loop = 200
