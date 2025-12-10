@@ -80,3 +80,5 @@ SPEEDUP:                   7.8
 
 
 ### Questions
+
+**Which optimizations were most effective?**
