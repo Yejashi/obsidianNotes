@@ -11,4 +11,5 @@ The loop must be in LoopSimplify form, where it it has:
 - Single latch
 - Canonical exits
 
-#### 
+#### Gather unrolling + peeling preferences
+
