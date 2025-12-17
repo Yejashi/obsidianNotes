@@ -52,3 +52,8 @@ if (OptForSize)
 ```
 
 #### Inlinable calls block unrolling
+```
+if (UCE.NumInlineCandidates != 0)
+  return Unmodified;
+```
+
