@@ -25,3 +25,10 @@ This merges:
     - etc.
 
 #### Early exit: unrolling disabled by thresholds
+```
+if (UP.Threshold == 0 &&
+    (!UP.Partial || UP.PartialThreshold == 0) &&
+    !OptForSize)
+  return Unmodified;
+```
+
