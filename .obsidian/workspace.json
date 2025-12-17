@@ -25,14 +25,12 @@
             "id": "b58bd2efb569e77d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT/bogale_copt_report.md",
-                "mode": "source",
-                "source": false
+                "file": "Misc/Random Files/raja.svg"
               },
-              "icon": "lucide-file",
-              "title": "bogale_copt_report"
+              "icon": "lucide-image",
+              "title": "raja"
             }
           }
         ],
@@ -203,10 +201,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "b58bd2efb569e77d",
   "lastOpenFiles": [
-    "Misc/Random Files",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT/bogale_copt_report.md",
+    "Misc/Random Files/raja.svg",
+    "Misc/Random Files",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT",
     "Research/LLVM/API/llvm loop.md",
     "Research/LLVM/API",
@@ -230,7 +229,6 @@
     "Meta/Attachments/Pasted image 20251113021803.png",
     "Meta/Attachments/Screenshot_20251113_021654.png",
     "Meta/Attachments/Pasted image 20251113021704.png",
-    "Meta/Attachments/Screenshot_20251113_021615.png",
     "Research/LLVM/Clang/Clang Substructures.md",
     "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
     "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
@@ -239,7 +237,6 @@
     "Class/Year 1/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Misc/Software Ideas/Dynamic Call Graph Extraction Tool.md",
     "Research/LLVM/Specific Passes.md",
-    "Research/Paper Planning/Compiler Paper Planning",
     "Research/LLVM/General Knowledge/Structure of a Compiler.md",
     "Misc/Software Ideas/Linux System-Wide Text Auto-complete.md",
     "Research/LLVM/DWARF/DWARF General.md",
