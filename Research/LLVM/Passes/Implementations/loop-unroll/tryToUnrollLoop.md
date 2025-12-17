@@ -59,3 +59,4 @@ if (UCE.NumInlineCandidates != 0)
 - If loop body contains calls that might inline later → do not un
 
 
+#### Trip count discovery (exact)
