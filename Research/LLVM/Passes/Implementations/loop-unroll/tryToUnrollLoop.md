@@ -56,4 +56,6 @@ if (OptForSize)
 if (UCE.NumInlineCandidates != 0)
   return Unmodified;
 ```
+- If loop body contains calls that might inline later → do not un
+
 
