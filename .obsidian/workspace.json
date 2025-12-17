@@ -78,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "specific passes",
+                "query": "unroll",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -216,6 +216,8 @@
   },
   "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Research/LLVM/Passes/Implementations/loop-unroll",
+    "Research/LLVM/Passes/Implementations",
     "Meta/Attachments/raja.svg",
     "Misc/Random Files/raja.svg",
     "Excalidraw/Drawing 2025-12-17 09.42.39.excalidraw.md",
@@ -243,11 +245,9 @@
     "Meta/Attachments/Screenshot_20251113_021746.png",
     "Meta/Attachments/Pasted image 20251113021803.png",
     "Meta/Attachments/Screenshot_20251113_021654.png",
-    "Meta/Attachments/Pasted image 20251113021704.png",
     "Research/LLVM/Clang/Clang Substructures.md",
     "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
     "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2",
     "Misc/Software Ideas/Optimization Visualization Tool.md",
     "Class/Year 1/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Misc/Software Ideas/Dynamic Call Graph Extraction Tool.md",
