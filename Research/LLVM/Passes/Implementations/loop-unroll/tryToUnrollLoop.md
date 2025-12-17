@@ -24,3 +24,4 @@ This merges:
     - `-unroll-max-count`
     - etc.
 
+#### Early exit: unrolling disabled by thresholds
