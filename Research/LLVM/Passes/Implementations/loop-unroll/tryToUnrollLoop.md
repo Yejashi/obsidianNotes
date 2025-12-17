@@ -58,3 +58,10 @@ if (UCE.NumInlineCandidates != 0)
 ```
 - If loop body contains calls that might inline later → do not un
 
+#### Core decision engine: computeUnrollCount
+```
+IsCountSetExplicitly = computeUnrollCount(...)
+if (!UP.Count)
+  return Unmodified;
+
+```
