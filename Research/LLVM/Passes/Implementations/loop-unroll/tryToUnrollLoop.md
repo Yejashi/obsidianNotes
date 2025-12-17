@@ -37,4 +37,9 @@ if (UP.Threshold == 0 &&
 collectEphemeralValues(...)
 UCE.canUnroll()
 ```
+- Ephemeral values = short-lived temps that **should not count heavily** toward code size
+- If the loop:
+    - Has irreducible CFG
+    - Has unsafe instructions
+    - Has disallowed side effects
 
