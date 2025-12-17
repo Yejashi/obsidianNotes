@@ -51,3 +51,4 @@ if (OptForSize)
   UP.Threshold = max(UP.Threshold, LoopSize + 1);
 ```
 
+#### Inlinable calls block unrolling
