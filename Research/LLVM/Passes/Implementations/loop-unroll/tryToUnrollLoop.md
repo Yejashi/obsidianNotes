@@ -13,3 +13,14 @@ The loop must be in LoopSimplify form, where it it has:
 
 #### Gather unrolling + peeling preferences
 
+This merges:
+- Opt level (`-O1/-O2/-O3`)
+- Loop metadata
+- **Command-line overrides**:
+    - `-unroll-count`
+    - `-unroll-threshold`
+    - `-unroll-runtime`
+    - `-unroll-allow-partial`
+    - `-unroll-max-count`
+    - etc.
+
