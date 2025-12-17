@@ -33,3 +33,8 @@ if (UP.Threshold == 0 &&
 ```
 
 #### Ephemeral values + cost modeling
+```
+collectEphemeralValues(...)
+UCE.canUnroll()
+```
+
