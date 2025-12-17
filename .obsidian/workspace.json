@@ -25,28 +25,18 @@
             "id": "b58bd2efb569e77d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Misc/Random Files/raja.svg"
+                "file": "Research/LLVM/Passes/Implementations/loop-unroll/Untitled 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "raja"
-            }
-          },
-          {
-            "id": "3f17a868bdc14089",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-12-17 09.42.39.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-12-17 09.42.39.excalidraw"
+              "icon": "lucide-file",
+              "title": "Untitled 1"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,13 +204,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "b58bd2efb569e77d",
   "lastOpenFiles": [
+    "Misc/Random Files/raja.svg",
+    "Research/LLVM/Passes/Implementations/loop-unroll/Untitled 1.md",
+    "Research/LLVM/Passes/Implementations/loop-unroll/Untitled.md",
+    "Excalidraw/Drawing 2025-12-17 09.42.39.excalidraw.md",
     "Research/LLVM/Passes/Implementations/loop-unroll",
     "Research/LLVM/Passes/Implementations",
     "Meta/Attachments/raja.svg",
-    "Misc/Random Files/raja.svg",
-    "Excalidraw/Drawing 2025-12-17 09.42.39.excalidraw.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT/bogale_copt_report.md",
     "Misc/Random Files",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT",
@@ -238,7 +230,6 @@
     "Meta/Attachments/Screenshot_20251113_080206.png",
     "Meta/Attachments/Screenshot_20251113_080134.png",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/midterm2_study_guide.pdf",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Text Books/dragon_book_2ed.pdf",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
     "Meta/Attachments/Screenshot_20251113_023741.png",
     "Meta/Attachments/Pasted image 20251113023747.png",
@@ -259,8 +250,6 @@
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4/report.md",
     "Research/LLVM/Passes/LLVM API.md",
     "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-08 09.29.06.excalidraw.md",
-    "Research/LLVM/Passes/Remark Limitations.md",
-    "Research/LLVM/Passes/Remark Categories.md"
+    "Excalidraw/Drawing 2025-10-08 09.29.06.excalidraw.md"
   ]
 }
