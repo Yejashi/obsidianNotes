@@ -43,3 +43,11 @@ UCE.canUnroll()
     - Has unsafe instructions
     - Has disallowed side effects
 
+
+#### Loop size & opt-for-size adjustment
+```
+LoopSize = UCE.getRolledLoopSize();
+if (OptForSize)
+  UP.Threshold = max(UP.Threshold, LoopSize + 1);
+```
+
