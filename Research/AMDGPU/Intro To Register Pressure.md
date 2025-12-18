@@ -127,3 +127,8 @@ Using remarks for spills:
 Avoid allocating on the stack in a kernel
 - Memory allocated on the stack lives in scratch and may be optimized into registers
 
+Avoid passing big object as argument in kernels
+- Function arguments are allocated on the stack and may be optimized into registers
+
+
+
