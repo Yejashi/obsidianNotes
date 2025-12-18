@@ -56,4 +56,9 @@ Example:
 - Many temporary values
 - Heavy math or address computation
 
-High register pressure, 
+High register pressure, Many live values at once.
+
+What happens:
+- Each wave requires many registers
+- The CU runs out of registers quickly
+- Only a few waves can be resident
