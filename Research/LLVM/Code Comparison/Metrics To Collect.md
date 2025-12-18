@@ -38,6 +38,7 @@ What  the output will look like:
   "module": "MASS3DEA-Hip.cpp.o",
   "opt_level": "O2",
   "functions": [
+    
     {
       "name": "_ZN8rajaperf4apps8Mass3DEAILm64EEEvPdS2_S2_",
       "num_loops": 9,
