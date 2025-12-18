@@ -29,31 +29,13 @@
     - `load`, `store`, `atomic`
     - Particularly important for your spill analysis
 10. **Call instruction count**
-- Especially **indirect calls** (function pointers, lambdas)
-    
-- RAJA abstractions sometimes leave residue here
-    
-
-👉 **Why this matters:**  
-When RAJA performs worse, you often see **higher instruction density + higher memory ops**, even when “doing the same math”.
-
----
-
+	- Especially **indirect calls** (function pointers, lambdas)
+	- RAJA abstractions sometimes leave residue here
 ## C. Loop Optimization Sensitivity (🔥 High Value for You)
-
-_(“How likely is this function to be aggressively transformed?”)_
-
 11. **Number of loop-invariant instructions**
-    
-
-- Count values that dominate all loop exits and are used inside loops
-    
-- Directly correlates with LICM opportunities
-    
-
+	- Count values that dominate all loop exits and are used inside loops
+	- Directly correlates with LICM opportunities
 12. **Number of loops with constant trip counts**
-    
-
 - Via `ScalarEvolution`
     
 - These loops are unroll magnets
