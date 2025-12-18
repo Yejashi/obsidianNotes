@@ -42,3 +42,9 @@ What that will look like:
   ]
 }
 ```
+
+
+
+```
+hipcc your_kernel.cpp -O3 -Rpass-analysis=kernel-resource-usage
+```
