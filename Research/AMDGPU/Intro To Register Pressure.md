@@ -32,7 +32,7 @@ Key idea
 
 Simple kernel vs Complex Kernel
 
-Case A: Simple Kernel (few registers, little LDS)
+**Case A: Simple Kernel (few registers, little LDS)**
 Example:
 ```
 C[i] = A[i] + B[i];
@@ -48,3 +48,5 @@ What happens:
 - Result: high occupancy
 
 Each wave is “cheap”, so you can pack lots of them onto the CU
+
+
