@@ -27,3 +27,6 @@ When a kernel is launched:
 - Every wave of that kernel gets its own private slice of these resources
 - The hardware must reserve those resources **before the wave can become resident**
 
+Key idea
+> **Occupancy = how many waves can fit on a CU at the same time, given resource limits.**
+
