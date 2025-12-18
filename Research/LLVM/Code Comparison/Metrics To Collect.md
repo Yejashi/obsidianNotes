@@ -32,7 +32,7 @@ Metrics:
 15. Loads/stores inside loops
 
 
-What that will look like:
+What  the output will look like:
 ```
 {
   "module": "MASS3DEA-Hip.cpp.o",
