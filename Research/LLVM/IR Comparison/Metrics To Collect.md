@@ -15,3 +15,30 @@
 15. Loads/stores inside loops
 
 
+What that will look like:
+```
+{
+  "module": "MASS3DEA-Hip.cpp.o",
+  "opt_level": "O2",
+  "functions": [
+    {
+      "name": "_ZN8rajaperf4apps8Mass3DEAILm64EEEvPdS2_S2_",
+      "num_loops": 9,
+      "max_loop_depth": 5,
+      "num_basic_blocks": 42,
+      "num_branches": 31,
+      "num_calls": 0,
+      "total_instructions": 1832,
+      "arith_instructions": 624,
+      "mem_instructions": 517,
+      "num_phi": 211,
+      "loop_invariant_insts": 143,
+      "constant_trip_loops": 6,
+      "avg_insts_per_bb": 43.6,
+      "max_live_ssa": 128,
+      "num_gep": 392,
+      "loop_load_store": 401
+    }
+  ]
+}
+```
