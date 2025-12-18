@@ -76,3 +76,6 @@ Register spilling happens when register pressure exceeds the available physical 
 Register allocation is NP-Hard problem.
 
 Compilers compromise on correctness by applying “heuristics” that produce mostly correct solutions.
+
+Compilers not only optimize for occupancy but also for instruction-level parallelism (ILP, minimizing the schedule length).
+
