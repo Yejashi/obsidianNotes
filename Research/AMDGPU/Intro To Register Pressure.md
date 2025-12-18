@@ -123,3 +123,5 @@ Using remarks for spills:
 
 
 ### How to Reduce Register Spilling
+
+Avoid allocating on the stack in a kernel
