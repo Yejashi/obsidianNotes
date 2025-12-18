@@ -1,5 +1,6 @@
 ```
 Steps
+
 1. [ Clang / hipcc ]
 
 2. [ IR metrics pass / remarks extraction pass ]  → JSON[remarks, IR metrics] per func
