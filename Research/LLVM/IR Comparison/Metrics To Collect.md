@@ -36,78 +36,25 @@
 	- Count values that dominate all loop exits and are used inside loops
 	- Directly correlates with LICM opportunities
 12. **Number of loops with constant trip counts**
-- Via `ScalarEvolution`
-    
-- These loops are unroll magnets
-    
-
+	- Via `ScalarEvolution`
+	- These loops are unroll magnets
 13. **Estimated loop body size**
-    
-
-- Rolled body instruction count
-    
-- Useful to correlate with unroll-cost heuristics
-    
-
+	- Rolled body instruction count
+	- Useful to correlate with unroll-cost heuristics
 14. **Number of PHI nodes**
-    
-
-- Especially loop-carried PHIs
-    
-- Strong proxy for register pressure
-    
-
-👉 **This is huge for your thesis story:**  
-RAJA often exposes _more invariant expressions_, which:
-
-> → increases LICM  
-> → inflates live ranges  
-> → increases register pressure  
-> → triggers spills  
-> → kills occupancy
-
-These metrics let you _prove_ that pipeline.
-
----
+	- Especially loop-carried PHIs
+	- Strong proxy for register pressure
 
 ## D. Register Pressure Proxies (No Backend Needed)
 
-_(“How scary does this look to regalloc?”)_
-
 You can’t see actual VGPR usage in IR—but you can get _very good proxies_.
-
 15. **Maximum number of live SSA values per basic block**
-    
-
-- Simple liveness walk
-    
-- Strong predictor of VGPR pressure
-    
-
+	- Simple liveness walk
+	- Strong predictor of VGPR pressure
 16. **Average SSA use-count**
-    
-
-- Long-lived values = worse pressure
-    
-
+	- Long-lived values = worse pressure
 17. **Number of values with multiple uses across loop iterations**
-    
-
-- Flags values that survive unrolling badly
-    
-
-18. **Number of spills _predicted_ by backend remarks**
-    
-
-- Optional: correlate with `-pass-remarks-missed=regalloc`
-    
-
-👉 **This directly supports your MASS3DEA analysis**  
-You can show:
-
-> “RAJA produces more live values _before_ regalloc ever runs.”
-
----
+	- Flags values that survive unrolling badly
 
 ## E. Memory Access Quality (GPU-Relevant)
 
