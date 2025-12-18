@@ -37,4 +37,12 @@ Example:
 ```
 C[i] = A[i] + B[i];
 ```
+- Few instructions
+- Few live variables
+- Low register usage per thread
+- Little or no shared memory
 
+What happens:
+- Each wave uses very few registers
+- The CU can fit many waves simultaneously
+- Result: high occupancy
