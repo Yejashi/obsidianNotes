@@ -115,5 +115,7 @@ Direct indicators of spills (in --save-temps):
 Direct indicators of scratch use (in --save-temps):
 - Look for non zero `ScratchSize XX` in metadata after a given kernel
 
-Indirect indicators of scratch use (also available in dissasamebly)
+Indirect indicators of scratch use (also available in disassembly):
+- Look for instructions like `buffer_store_dword v18, off, s[0:3], 0 offset:160`
+
 
