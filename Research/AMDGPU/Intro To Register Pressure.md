@@ -110,4 +110,5 @@ Looking at the ISA (assembly) is the simplest way.
 
 Direct indicator of spills (in --save-temps)
 - Look for`.sgpr_spill_count` and `.vgpr_spill_count` fields
-- 
+- When compiling with debug symbols, look for comments like `4-Byte Folded Spill`
+
