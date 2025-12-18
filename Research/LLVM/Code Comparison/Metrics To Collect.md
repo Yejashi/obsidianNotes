@@ -33,7 +33,7 @@ Metrics:
 
 How would this function?
 - A pass that runs at the end of the optimization pipeline.
-- Hooks into analysis passes to aquire information (e.g. LoopInfo, ScalarEvolution, etc)
+- Hooks into analysis passes to acquire information (e.g. LoopInfo, ScalarEvolution, etc)
 
 What  the output will look like:
 ```
