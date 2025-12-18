@@ -10,5 +10,4 @@ GPUs execute many wavefronts (warps) in parallel on each compute unit and occupa
 
 Occupancy is determined by the per-wavefront consumption of hardware resources, such as registers and shared memory (LDS).
 
-
-Now, the amount of resources depends on the kernel. So if a kernel is using a lot of registers you will have less change to have more waves per CU at the same time.
+Because these resources are allocated on a per-kernel basis, a kernel that uses more registers or LDS per wavefront reduces the number of wavefronts that can be simultaneously resident on a compute unit.
