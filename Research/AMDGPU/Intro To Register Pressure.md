@@ -127,6 +127,7 @@ Using remarks for spills:
 Move variable devlaration/assignment close to their use
 
 Use `__launch_bounds__` to suggest the compiler how many work items will be used for a particular kernel
+- `__launch_bounds__` tells the compiler what block size you promise to use when launching the kernel, so it can make better register and unrolling decisions
 
 Avoid allocating on the stack in a kernel
 - Memory allocated on the stack lives in scratch and may be optimized into registers
