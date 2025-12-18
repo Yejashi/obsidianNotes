@@ -63,12 +63,12 @@ Description:
 - A post-codegen, static binary analysis tool that extracts kernel-level resource usage and ISA properties using LLVM’s object + AMDGPU libraries
 
 Metrics:
-- Kernel Resource Metrics
+- Kernel Resource
 	1. VGPRs per thread
 	2. SGPRs per thread
 	3. Scratch bytes per thread
 	4. LDS bytes per workgroup
-- Derived Occupancy Metrics
+- Derived Occupancy
 	1. Max waves per CU
 	2. Max threads per CU
 - Instruction Level
