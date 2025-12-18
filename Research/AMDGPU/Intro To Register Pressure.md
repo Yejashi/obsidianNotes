@@ -121,3 +121,5 @@ Indirect indicators of scratch use (also available in disassembly):
 Using remarks for spills:
 - `-Rpass-analysis=kernel-resource-usage`
 
+
+### How to Reduce Register Spilling
