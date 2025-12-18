@@ -70,6 +70,8 @@ Metrics:
 	2. SGPRs per thread
 	3. Scratch bytes per thread
 	4. LDS bytes per workgroup
+- Derived Occupancy Metrics
+	1. 
 
 
 The necessary libraries:
