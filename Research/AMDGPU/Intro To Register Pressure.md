@@ -73,3 +73,5 @@ Register spilling happens when register pressure exceeds the available physical 
 
 
 ### Compromises for Register Allocation
+Register allocation is NP-Hard problem.
+
