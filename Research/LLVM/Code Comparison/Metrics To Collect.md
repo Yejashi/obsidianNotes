@@ -1,7 +1,7 @@
 ```
 [ Clang / hipcc ]
         ↓
-[ IR metrics pass ]  → JSON (structure & optimization sensitivity)
+[ IR metrics pass / remarks ]  → JSON (structure & optimization sensitivity)
         ↓
 [ Object / binary ]
         ↓
