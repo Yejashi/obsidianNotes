@@ -111,7 +111,6 @@ What the output will look like:
 		// Occupancy
 	    "max_waves_per_cu": 2,
 	    "max_threads_per_cu": 128,
-	    "limiting_factor": "VGPR"
 		// ISA metrics
 	    "total_instructions": 4120,
 	    "alu_instructions": 1850,
