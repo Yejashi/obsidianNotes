@@ -124,16 +124,16 @@ Using remarks for spills:
 
 ### How to Reduce Register Spilling
 
+Move variable devlaration/assignment close to their use
+
 Avoid allocating on the stack in a kernel
 - Memory allocated on the stack lives in scratch and may be optimized into registers
 
 Avoid passing big object as argument in kernels
 - Function arguments are allocated on the stack and may be optimized into registers
 
-
 Avoid writing large kernels with many function calls
 - All device functions are inlined. A kernel calling many device functions can become very big
 
 Keep loop unrolling under control
-
 
