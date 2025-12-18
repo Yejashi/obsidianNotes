@@ -98,6 +98,37 @@ A **standalone analysis tool** (linked against LLVM) that:
 4. Emits structured JSON
 
 
+What the output will look like:
+```
+{
+  "kernel_name": "_ZN8rajaperf4apps8Mass3DEAILm64EEEvPdS2_S2_",
+  "demangled_name": "rajaperf::apps::Mass3DEA<64ul>(double*, double*, double*)",
+
+  "resources": {
+    "vgprs_per_thread": 128,
+    "sgprs_per_thread": 64,
+    "scratch_bytes_per_thread": 256,
+    "lds_bytes_per_workgroup": 0,
+    "wavefront_size": 64,
+    "workgroup_size": 256
+  },
+
+  "occupancy": {
+    "max_waves_per_cu": 2,
+    "max_threads_per_cu": 128,
+    "limiting_factor": "VGPR"
+  },
+
+  "isa_metrics": {
+    "total_instructions": 4120,
+    "alu_instructions": 1850,
+    "load_instructions": 1210,
+    "store_instructions": 940,
+    "scratch_load_store": 312
+  }
+}
+```
+
 #### MISC
 Analysis Remarks:
 ```
