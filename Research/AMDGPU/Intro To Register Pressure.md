@@ -87,3 +87,5 @@ Occupancy is more important than ILP.
 
 
 ### Scratch Use
+
+What is scratch, and why does my program use it?
