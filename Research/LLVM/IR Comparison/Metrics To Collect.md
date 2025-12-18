@@ -64,3 +64,4 @@ Can this be done programmatically through a library?
 | AMDGPU kernel metadata | `llvm::AMDGPU`                |
 | Code object parsing    | `llvm::object::ELFObjectFile` |
 
+What would this look like?
