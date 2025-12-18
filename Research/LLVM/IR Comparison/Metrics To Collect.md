@@ -56,14 +56,11 @@ remark: kernel-resource-usage: KernelName VGPRs: 64, SGPRs: 24, ScratchSize: 0, 
 ```
 
 Can this be done programmatically through a library?
+
 |Tool|Backing library|
 |---|---|
 |`llvm-readobj`|`llvm::object`|
 |`llvm-objdump`|`llvm::object` + `llvm::MC`|
 |AMDGPU kernel metadata|`llvm::AMDGPU`|
-|Code object parsing|`llvm::object::ELFObjectFile`| 
-
-| \|Tool\|Backing library\|<br>\|---\|---\|<br>\|`llvm-readobj`\|`llvm::object`\|<br>\|`llvm-objdump`\|`llvm::object` + `llvm::MC`\|<br>\|AMDGPU kernel metadata\|`llvm::AMDGPU`\|<br>\|Code object parsing\|`llvm::object::ELFObjectFile`\| |     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
-|                                                                                                                                                                                                                                            |     |
+|Code object parsing|`llvm::object::ELFObjectFile`|
 
