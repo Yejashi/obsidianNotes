@@ -32,3 +32,9 @@ Key idea
 
 Simple kernel vs Complex Kernel
 
+Case A: Simple Kernel (few registers, little LDS)
+Example:
+```
+C[i] = A[i] + B[i];
+```
+
