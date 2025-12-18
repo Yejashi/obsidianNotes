@@ -101,4 +101,7 @@ Where does scratch use come from?
 	- Memory objects : Any variable is naturally a memory object. The compiler may attempt to place it to registers or LDS, but this may not succeed (e.g., due to size of an object
 
 
+### How to Identify Scratch Use and Spilling
+
+Looking at the ISA (assembly) is the simplest way.
 
