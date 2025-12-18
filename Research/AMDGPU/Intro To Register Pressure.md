@@ -17,6 +17,7 @@ As a result, high per-wave resource usage lowers occupancy by limiting the numbe
 
 Basically, each compute unit has a fixed budget of registers and shared memory. When a kernel launches, each wavefront reserves a portion of these resources. If a kernel requires many registers, fewer wavefronts can fit within the CU’s resource limits, meaning fewer waves can run in parallel. This reduces occupancy and can limit the GPU’s ability to hide memory and instruction latency.
 
+The number of registers used by a wavefront is determined by the compiler’s register allocation phase.
 
 ##### Intuition
 Each compute unit (CU) has a fixed pool of hardware resources, such as:
