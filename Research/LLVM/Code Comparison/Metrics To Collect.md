@@ -78,7 +78,7 @@ Metrics:
 	2. Machine load instruction count
 	3. Machine store instruction count
 	4. Private-memory (scratch) load/store count
-	5. 
+	5. ALU vs memory instruction ratio
 
 
 The necessary libraries:
