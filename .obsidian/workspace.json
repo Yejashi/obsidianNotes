@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 313.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -207,8 +206,9 @@
   },
   "active": "b58bd2efb569e77d",
   "lastOpenFiles": [
-    "Research/AMDGPU/Intro To Register Pressure.md",
+    "Research/LLVM/Passes/Remark Categories.md",
     "Research/LLVM/Code Comparison/Metrics To Collect.md",
+    "Research/AMDGPU/Intro To Register Pressure.md",
     "Research/LLVM/Code Comparison",
     "Research/LLVM/Passes/Implementations/loop-unroll/tryToUnrollLoop.md",
     "Research/AMDGPU",
@@ -251,7 +251,6 @@
     "Research/LLVM/DWARF/DWARF General.md",
     "Excalidraw/Drawing 2025-10-12 16.41.58.excalidraw.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4/report.md",
-    "Research/LLVM/Passes/LLVM API.md",
-    "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md"
+    "Research/LLVM/Passes/LLVM API.md"
   ]
 }

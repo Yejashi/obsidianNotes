@@ -65,7 +65,8 @@ Description:
 - A post-codegen, static binary analysis tool that extracts kernel-level resource usage and ISA properties using LLVM’s object + AMDGPU libraries
 
 Metrics:
-
+- Kernel Resource Metrics
+	- VGPRs per thread
 
 
 The necessary libraries:
