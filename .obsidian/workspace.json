@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/AMDGPU/Intro To Register Pressure.md",
+                "file": "Research/LLVM/IR Comparison/Metrics To Collect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro To Register Pressure"
+              "title": "Metrics To Collect"
             }
           }
         ],
@@ -204,11 +204,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "b58bd2efb569e77d",
   "lastOpenFiles": [
+    "Research/AMDGPU/Intro To Register Pressure.md",
+    "Research/LLVM/IR Comparison/Metrics To Collect.md",
     "Research/LLVM/IR Comparison",
     "Research/LLVM/Passes/Implementations/loop-unroll/tryToUnrollLoop.md",
-    "Research/AMDGPU/Intro To Register Pressure.md",
     "Research/AMDGPU",
     "Misc/Random Files/raja.svg",
     "Research/LLVM/Passes/Implementations/loop-unroll/Untitled.md",
@@ -229,7 +230,6 @@
     "Research/LLVM/Optimizations",
     "Meta/Attachments/Bio_251114_215423_page-0001(1).jpg",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw5/report.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw5",
     "Meta/Attachments/Screenshot_20251113_080206.png",
     "Meta/Attachments/Screenshot_20251113_080134.png",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
