@@ -64,7 +64,7 @@ Can this be done programmatically through a library?
 | AMDGPU kernel metadata | `llvm::AMDGPU`                |
 | Code object parsing    | `llvm::object::ELFObjectFile` |
 
-What would this look like?
+How would this function?
 A **standalone analysis tool** (linked against LLVM) that:
 1. Loads the `.o` / `.hsaco` / binary
 2. Parses AMDGPU kernel metadata
