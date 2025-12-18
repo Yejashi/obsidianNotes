@@ -62,3 +62,4 @@ What happens:
 - Each wave requires many registers
 - The CU runs out of registers quickly
 - Only a few waves can be resident
+- Result: low occupancy
