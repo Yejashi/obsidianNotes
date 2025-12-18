@@ -46,3 +46,5 @@ What happens:
 - Each wave uses very few registers
 - The CU can fit many waves simultaneously
 - Result: high occupancy
+
+Each wave is “cheap”, so you can pack lots of them onto the CU
