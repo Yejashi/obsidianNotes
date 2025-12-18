@@ -93,5 +93,8 @@ What is scratch, and why does my program use it?
 - So HBM but thread local.
 - It is entirely managed by the compiler and GPU runtime.
 
+Where does scratch use come from?
+- 
+
 
 
