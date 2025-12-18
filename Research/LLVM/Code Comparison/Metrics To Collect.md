@@ -71,7 +71,8 @@ Metrics:
 	3. Scratch bytes per thread
 	4. LDS bytes per workgroup
 - Derived Occupancy Metrics
-	1. 
+	1. Max waves per CU
+	2. Max threads per CU
 
 
 The necessary libraries:
