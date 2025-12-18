@@ -113,5 +113,7 @@ Direct indicators of spills (in --save-temps):
 - When compiling with debug symbols, look for comments like `4-Byte Folded Spill`
 
 Direct indicators of scratch use (in --save-temps):
-- Look for non zero
+- Look for non zero `ScratchSize XX` in metadata after a given kernel
+
+Indirect indicators of scratch use (also available in dissasamebly)
 
