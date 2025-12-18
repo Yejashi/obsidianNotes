@@ -19,7 +19,7 @@ Steps
 6. Total instruction count
 7. Arithmetic instruction count
 8. Memory instruction count
-9. Number of PHI nodes
+9. Number of PHI instruction
 10. Number of Loop-invariant instructions
 11. Number of Constant-trip loops
 12. Avg instructions per BB
