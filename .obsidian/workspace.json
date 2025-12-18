@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/Passes/Implementations/loop-unroll/tryToUnrollLoop.md",
+                "file": "Research/AMDGPU/Register Pressure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tryToUnrollLoop"
+              "title": "Register Pressure"
             }
           }
         ],
@@ -206,8 +206,10 @@
   },
   "active": "b58bd2efb569e77d",
   "lastOpenFiles": [
-    "Misc/Random Files/raja.svg",
     "Research/LLVM/Passes/Implementations/loop-unroll/tryToUnrollLoop.md",
+    "Research/AMDGPU/Register Pressure.md",
+    "Research/AMDGPU",
+    "Misc/Random Files/raja.svg",
     "Research/LLVM/Passes/Implementations/loop-unroll/Untitled.md",
     "Excalidraw/Drawing 2025-12-17 09.42.39.excalidraw.md",
     "Research/LLVM/Passes/Implementations/loop-unroll",
@@ -229,7 +231,6 @@
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw5",
     "Meta/Attachments/Screenshot_20251113_080206.png",
     "Meta/Attachments/Screenshot_20251113_080134.png",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/midterm2_study_guide.pdf",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
     "Meta/Attachments/Screenshot_20251113_023741.png",
     "Meta/Attachments/Pasted image 20251113023747.png",
