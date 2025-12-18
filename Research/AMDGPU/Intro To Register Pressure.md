@@ -70,3 +70,5 @@ Each wave is “expensive”, so only a few can fit on the CU at once.
 
 
 Register spilling happens when register pressure exceeds the available physical registers, forcing the compiler to temporarily store some values in memory (scratch / local memory) instead of keeping them in registers.
+
+
