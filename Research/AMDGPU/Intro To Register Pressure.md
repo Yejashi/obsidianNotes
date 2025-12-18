@@ -83,3 +83,4 @@ The two are in conflict: higher ILP requires more registers, which decreases occ
 
 In codes with high register pressure, obtaining a good ILP can make a difference on the final performance.
 
+Occupancy is more important than ILP.
