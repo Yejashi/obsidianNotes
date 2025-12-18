@@ -65,3 +65,9 @@ Can this be done programmatically through a library?
 | Code object parsing    | `llvm::object::ELFObjectFile` |
 
 What would this look like?
+A **standalone analysis tool** (linked against LLVM) that:
+1. Loads the `.o` / `.hsaco` / binary
+2. Parses AMDGPU kernel metadata
+3. Optionally disassembles kernels
+4. Emits structured JSON
+
