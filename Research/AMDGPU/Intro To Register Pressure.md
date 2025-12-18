@@ -89,5 +89,5 @@ Occupancy is more important than ILP.
 ### Scratch Use
 
 What is scratch, and why does my program use it?
-- Scratch is 
+- Scratch is per-thread memory in global memory used as a fallback when values cannot be kept in registers (or LDS).
 
