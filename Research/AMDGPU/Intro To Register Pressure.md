@@ -94,7 +94,8 @@ What is scratch, and why does my program use it?
 - It is entirely managed by the compiler and GPU runtime.
 
 Where does scratch use come from?
-- The popular notion that scratch use only comes from register spilling is not always true.
+- The popular notion that scratch use only comes from register spilling is not always true. It comes from two possible options:
+	- Register spilling
 
 
 
