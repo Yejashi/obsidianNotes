@@ -80,3 +80,6 @@ Compilers compromise on correctness by applying “heuristics” that produce mo
 Compilers not only optimize for occupancy but also for instruction-level parallelism (ILP, minimizing the schedule length).
 
 The two are in conflict: higher ILP requires more registers, which decreases occupancy.
+
+In codes with high register pressure, obtaining a good ILP can make a difference on the final performance.
+
