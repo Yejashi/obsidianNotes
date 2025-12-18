@@ -119,3 +119,4 @@ Indirect indicators of scratch use (also available in disassembly):
 - Look for instructions like `buffer_store_dword v18, off, s[0:3], 0 offset:160`
 
 
+
