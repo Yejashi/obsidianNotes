@@ -108,7 +108,10 @@ Looking at the ISA (assembly) is the simplest way.
 `--save-temps` generated ISA files with valuable statistics on register and scratch usage and pills.
 - Caveat: In some cases --save-temps can change the generated ISA
 
-Direct indicator of spills (in --save-temps)
+Direct indicators of spills (in --save-temps):
 - Look for`.sgpr_spill_count` and `.vgpr_spill_count` fields
 - When compiling with debug symbols, look for comments like `4-Byte Folded Spill`
+
+Direct indicators of scratch use (in --save-temps):
+- Look for non zero
 
