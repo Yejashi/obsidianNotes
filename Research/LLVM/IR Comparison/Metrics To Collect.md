@@ -44,7 +44,12 @@ What that will look like:
 ```
 
 
-
+Backend:
 ```
 hipcc your_kernel.cpp -O3 -Rpass-analysis=kernel-resource-usage
 ```
+
+```
+remark: kernel-resource-usage: KernelName VGPRs: 64, SGPRs: 24, ScratchSize: 0, VGPRSpills: 0, SGPRSpills: 0, Occupancy: 4
+```
+
