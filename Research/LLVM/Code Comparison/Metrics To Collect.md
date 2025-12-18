@@ -73,7 +73,12 @@ Metrics:
 - Derived Occupancy Metrics
 	1. Max waves per CU
 	2. Max threads per CU
-- 
+- Instruction Level
+	1. Total machine instruction count
+	2. Machine load instruction count
+	3. Machine store instruction count
+	4. Private-memory (scratch) load/store count
+	5. 
 
 
 The necessary libraries:
