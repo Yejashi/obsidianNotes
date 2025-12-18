@@ -131,4 +131,7 @@ Avoid passing big object as argument in kernels
 - Function arguments are allocated on the stack and may be optimized into registers
 
 
+Avoid writing large kernels with many function calls
+- All device functions are inlined. A kernel calling many device functions can become very big
+
 
