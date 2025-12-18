@@ -69,3 +69,4 @@ What happens:
 Each wave is “expensive”, so only a few can fit on the CU at once.
 
 
+Spills occur when the compiler needs more registers than the hardware can provide at once. 
