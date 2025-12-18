@@ -31,6 +31,9 @@ Metrics:
 14. Number of GEP instructions
 15. Loads/stores inside loops
 
+How would this function?
+- A pass that runs at the end of the optimization pipeline.
+- Hooks into analysis passes to aquire information (e.g. LoopInfo, ScalarEvolution, etc)
 
 What  the output will look like:
 ```
