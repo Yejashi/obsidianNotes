@@ -7,11 +7,9 @@ Steps
 
 3. [ Object / binary ]
 
-4. [ LLVM-based binary analysis tool ] ->
+4. [ LLVM-based binary analysis tool ] -> [ JSON (VGPR, SGPR, spills, occupancy) ]
 
-5. [ JSON (VGPR, SGPR, spills, occupancy) ]
-
-6. [ Thicket / Python / Pandas ]
+5. [ Thicket / Python / Pandas ]
 
 ```
 #### Middle-End
