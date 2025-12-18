@@ -4,3 +4,5 @@
 
 The performance of GPU kernels is highly dependent on "occupancy", where there are various wavefronts (warps) running in parallel.
 - **Occupancy** is the fraction of the GPU’s maximum hardware execution capacity that is actively utilized by  wavefronts (warps) on a compute unit.
+- Basically, the ratio of active wavefronts per SM/CU to the maximum wavefronts the hardware can support simultaneously.
+
