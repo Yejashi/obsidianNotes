@@ -51,4 +51,4 @@ Each wave is “cheap”, so you can pack lots of them onto the CU
 
 **Case B: Complex kernel (many registers, many operations)**
 Example:
-
+- 
