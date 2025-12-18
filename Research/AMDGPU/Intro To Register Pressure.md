@@ -63,3 +63,7 @@ What happens:
 - The CU runs out of registers quickly
 - Only a few waves can be resident
 - Result: low occupancy
+
+Each wave is “expensive”, so only a few can fit on the CU at once.
+
+
