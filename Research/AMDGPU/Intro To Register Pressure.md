@@ -105,3 +105,5 @@ Where does scratch use come from?
 
 Looking at the ISA (assembly) is the simplest way.
 
+`--save-temps` generated ISA files with valuable statistics on register and scratch usage and pills.
+- Caveat: In some cases --save-temps can change the generated ISA
