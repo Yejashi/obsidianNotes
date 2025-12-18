@@ -1,15 +1,15 @@
 ```
-[ Clang / hipcc ]
-        ↓
-[ IR metrics pass / remarks ]  → JSON 
-        ↓
-[ Object / binary ]
-        ↓
-[ LLVM-based binary analysis tool ]
-        ↓
-[ JSON (VGPR, SGPR, spills, occupancy) ]
-        ↓
-[ Thicket / Python / Pandas ]
+1. [ Clang / hipcc ]
+
+2. [ IR metrics pass / remarks ]  → JSON 
+
+3. [ Object / binary ]
+
+4. [ LLVM-based binary analysis tool ]
+
+5. [ JSON (VGPR, SGPR, spills, occupancy) ]
+
+6. [ Thicket / Python / Pandas ]
 
 ```
 #### Middle-End
