@@ -8,4 +8,4 @@ The performance of GPU kernels is highly dependent on "occupancy", where there a
 
 GPUs execute many wavefronts (warps) in parallel on each compute unit and occupancy determines how many of these wavefronts can be resident and ready to run at the same time.
 
-
+Occupancy depends on the amount of resources (e.g. registers, LDS, etc) used by a wavefront.
