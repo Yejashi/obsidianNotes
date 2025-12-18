@@ -57,6 +57,9 @@ What that will look like:
 ```
 
 #### Post Compilation
+Description:
+- A post-codegen, static binary analysis tool that extracts kernel-level resource usage and ISA properties using LLVM’s object + AMDGPU libraries
+
 Can this be done programmatically through a library?
 
 | Tool                   | Backing library               |
