@@ -67,7 +67,7 @@ Description:
 Metrics:
 - Kernel Resource Metrics
 	1. VGPRs per thread
-	2. 
+	2. SGPRs per thread
 
 
 The necessary libraries:
