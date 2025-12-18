@@ -62,3 +62,8 @@ Can this be done programmatically through a library?
 |`llvm-objdump`|`llvm::object` + `llvm::MC`|
 |AMDGPU kernel metadata|`llvm::AMDGPU`|
 |Code object parsing|`llvm::object::ELFObjectFile`| 
+
+| \|Tool\|Backing library\|<br>\|---\|---\|<br>\|`llvm-readobj`\|`llvm::object`\|<br>\|`llvm-objdump`\|`llvm::object` + `llvm::MC`\|<br>\|AMDGPU kernel metadata\|`llvm::AMDGPU`\|<br>\|Code object parsing\|`llvm::object::ELFObjectFile`\| |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
+|                                                                                                                                                                                                                                            |     |
+
