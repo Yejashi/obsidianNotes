@@ -30,3 +30,4 @@ When a kernel is launched:
 Key idea
 > **Occupancy = how many waves can fit on a CU at the same time, given resource limits.**
 
+Simple kernel vs Complex Kernel
