@@ -10,4 +10,4 @@ GPUs execute many wavefronts (warps) in parallel on each compute unit and occupa
 
 Occupancy depends on the amount of resources (e.g. registers, LDS, etc) used by a wavefront.
 
-Now, the amount of resources 
+Now, the amount of resources depends on the kernel. So if a kernel is using a lot of registers
