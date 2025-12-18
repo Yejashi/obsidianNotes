@@ -204,8 +204,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b58bd2efb569e77d",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Research/LLVM/IR Comparison",
     "Research/LLVM/Passes/Implementations/loop-unroll/tryToUnrollLoop.md",
     "Research/AMDGPU/Intro To Register Pressure.md",
     "Research/AMDGPU",
@@ -250,7 +251,6 @@
     "Excalidraw/Drawing 2025-10-12 16.41.58.excalidraw.md",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4/report.md",
     "Research/LLVM/Passes/LLVM API.md",
-    "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-08 09.29.06.excalidraw.md"
+    "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md"
   ]
 }
