@@ -73,6 +73,7 @@ Metrics:
 - Derived Occupancy Metrics
 	1. Max waves per CU
 	2. Max threads per CU
+- 
 
 
 The necessary libraries:
