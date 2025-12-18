@@ -1,3 +1,17 @@
+```
+[ Clang / hipcc ]
+        ↓
+[ IR metrics pass ]  → JSON (structure & optimization sensitivity)
+        ↓
+[ Object / binary ]
+        ↓
+[ LLVM-based binary analysis tool ]
+        ↓
+[ JSON (VGPR, SGPR, spills, occupancy) ]
+        ↓
+[ Thicket / Python / Pandas ]
+
+```
 #### Middle-End
 1. Number of Loops
 2. Max loop depth
