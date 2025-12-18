@@ -3,13 +3,11 @@ Steps
 
 1. [ Clang / hipcc ]
 
-2. [ IR metrics pass / remarks extraction pass ]  → JSON[remarks, IR metrics] per func
+2. [ IR metrics pass / remarks extraction pass ]  -> JSON[remarks, IR metrics] per func
 
 3. [ Object / binary ]
 
 4. [ LLVM-based binary analysis tool ] -> JSON[VGPR, SGPR, spills, occupancy]
-
-5. [ Thicket / Python / Pandas ]
 
 ```
 #### Middle-End
