@@ -137,3 +137,4 @@ Avoid writing large kernels with many function calls
 
 Keep loop unrolling under control
 
+Manually spill to LDS
