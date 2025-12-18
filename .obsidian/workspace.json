@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLVM/IR Comparison/Metrics To Collect.md",
+                "file": "Research/LLVM/Code Comparison/Metrics To Collect.md",
                 "mode": "source",
                 "source": false
               },
@@ -207,8 +207,8 @@
   "active": "b58bd2efb569e77d",
   "lastOpenFiles": [
     "Research/AMDGPU/Intro To Register Pressure.md",
-    "Research/LLVM/IR Comparison/Metrics To Collect.md",
-    "Research/LLVM/IR Comparison",
+    "Research/LLVM/Code Comparison/Metrics To Collect.md",
+    "Research/LLVM/Code Comparison",
     "Research/LLVM/Passes/Implementations/loop-unroll/tryToUnrollLoop.md",
     "Research/AMDGPU",
     "Misc/Random Files/raja.svg",
