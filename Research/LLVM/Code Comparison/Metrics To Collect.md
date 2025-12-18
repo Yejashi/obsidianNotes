@@ -68,6 +68,8 @@ Metrics:
 - Kernel Resource Metrics
 	1. VGPRs per thread
 	2. SGPRs per thread
+	3. Scratch bytes per thread
+	4. LDS bytes per workgroup
 
 
 The necessary libraries:
