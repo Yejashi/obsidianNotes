@@ -51,4 +51,9 @@ Each wave is “cheap”, so you can pack lots of them onto the CU
 
 **Case B: Complex kernel (many registers, many operations)**
 Example:
-- 
+- Deeply nested loops
+- Large unrolled loops
+- Many temporary values
+- Heavy math or address computation
+
+
