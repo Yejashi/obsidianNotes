@@ -101,7 +101,10 @@ A **standalone analysis tool** (linked against LLVM) that:
 What the output will look like:
 ```
 {
-  "kernel_name": "_ZN8rajaperf4apps8Mass3DEAILm64EEEvPdS2_S2_",
+  "functions": {
+	  "_ZN8rajaperf4apps8Mass3DEAILm64EEEvPdS2_S2_" : {
+	  }
+  }
   "demangled_name": "rajaperf::apps::Mass3DEA<64ul>(double*, double*, double*)",
 
   "resources": {
