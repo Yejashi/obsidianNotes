@@ -95,8 +95,8 @@ What is scratch, and why does my program use it?
 
 Where does scratch use come from?
 - The popular notion that scratch use only comes from register spilling is not always true. It comes from two possible options:
-	- Register spilling
-		- Spilling is not always bar
+	- Register spilling: f enough registers are not available, variables will be "spilled" to scratch memory. The compiler keeps track of variable liveness and tries to maximize reuse and minimize spilling (NP-Hard problem)
+		- Spilling is not always bad. Enough occupancy can hide the extra, more costly, memory access
 	- Memory objects : Any variable is naturally a memory object. The compiler may attempt to place it to registers or LDS, but this may not succeed (e.g., due to size of an object
 
 
