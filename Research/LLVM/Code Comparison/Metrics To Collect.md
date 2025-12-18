@@ -11,6 +11,10 @@ Steps
 
 ```
 #### Middle-End
+Description
+- An LLVM IR pass plugin that analyzes the IR and collects metrics, per function, which are dumped per module/TU to a json file.
+
+Metrics:
 1. Number of Loops
 2. Max loop depth
 3. Number of Basic blocks
