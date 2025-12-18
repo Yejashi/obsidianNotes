@@ -135,4 +135,5 @@ Avoid writing large kernels with many function calls
 - All device functions are inlined. A kernel calling many device functions can become very big
 
 Keep loop unrolling under control
-- 
+
+
