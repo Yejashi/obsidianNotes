@@ -101,20 +101,18 @@ A **standalone analysis tool** (linked against LLVM) that:
 What the output will look like:
 ```
 {
-  "functions": {
+  "functions": [
 	  "_ZN8rajaperf4apps8Mass3DEAILm64EEEvPdS2_S2_" : {
+		// Resources
+	    "vgprs_per_thread": 128,
+	    "sgprs_per_thread": 64,
+	    "scratch_bytes_per_thread": 256,
+	    "lds_bytes_per_workgroup": 0,
+	    "wavefront_size": 64,
+	    "workgroup_size": 256
 	  }
-  }
-  "demangled_name": "rajaperf::apps::Mass3DEA<64ul>(double*, double*, double*)",
+  ]
 
-  "resources": {
-    "vgprs_per_thread": 128,
-    "sgprs_per_thread": 64,
-    "scratch_bytes_per_thread": 256,
-    "lds_bytes_per_workgroup": 0,
-    "wavefront_size": 64,
-    "workgroup_size": 256
-  },
 
   "occupancy": {
     "max_waves_per_cu": 2,
