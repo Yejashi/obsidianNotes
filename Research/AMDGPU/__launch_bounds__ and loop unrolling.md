@@ -25,3 +25,5 @@ As such, the compiler can assume:
 - Maximum registers consumed per block
 
 
+`MIN_BLOCKS_PER_CU`
+- 
