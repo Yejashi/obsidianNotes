@@ -33,3 +33,5 @@ This is a hard occupancy constraint.
 From this, the compiler derives:
 - A minimum number of waves per CU
 - Which implies a maximum register budget per thread
+
+
