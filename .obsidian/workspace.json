@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/AMDGPU/Untitled.md",
+                "file": "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "__launch_bounds__ and loop unrolling"
             }
           }
         ],
@@ -207,7 +207,7 @@
   "active": "a6c8ff9bff1eee6e",
   "lastOpenFiles": [
     "Research/AMDGPU/Intro To Register Pressure.md",
-    "Research/AMDGPU/Untitled.md",
+    "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
     "Research/LLVM/Code Comparison/Metrics To Collect.md",
     "Research/LLVM/API/llvm loop.md",
     "Research/LLVM/Passes/Remark Categories.md",
