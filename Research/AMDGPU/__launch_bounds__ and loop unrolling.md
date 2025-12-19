@@ -41,3 +41,5 @@ The key idea is that `__launch_bounds_` turns occupancy from a soft heuristic in
 	- Otherwise it would violate the requested occupancy
 
 
+### How is this related to the loop-unroll pass?
+
