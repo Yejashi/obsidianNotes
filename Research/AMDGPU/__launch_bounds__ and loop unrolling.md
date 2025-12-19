@@ -20,4 +20,6 @@ void kernel(...) { ... }
 `MAX_THREADS_PER_BLOCK
 - Means the kernel will never be launched with more than this many threads per block
 
-
+As such, the compiler can assume:
+- Maximum waves per block
+- Maximum registers consumed per block
