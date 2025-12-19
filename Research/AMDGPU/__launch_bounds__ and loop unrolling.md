@@ -17,4 +17,4 @@ __global__ __launch_bounds__(MAX_THREADS_PER_BLOCK,
 void kernel(...) { ... }
 ```
 
-
+`MAX_THREADS_PER_BLOCK
