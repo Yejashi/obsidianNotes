@@ -48,4 +48,5 @@ Loop unrolling happens before register allocation, but:
 - Which already knows register pressure limits
 - Which are affected by `__launch_bounds__`
 
-So unrolling decisions are **constrained by future register pressure**, even though RA hasn’t run yet.
+So unrolling decisions are **constrained by future register pressure**, even though regalloc hasn’t run yet.
+
