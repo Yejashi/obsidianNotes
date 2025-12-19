@@ -18,3 +18,6 @@ void kernel(...) { ... }
 ```
 
 `MAX_THREADS_PER_BLOCK
+- Means the kernel will never be launched with more than this many threads per block
+
+
