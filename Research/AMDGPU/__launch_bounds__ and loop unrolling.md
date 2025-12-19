@@ -3,5 +3,8 @@
 It does **not** change how many threads actually run.  
 It **changes how aggressively the compiler uses registers and unrolls code**.
 
+This does **not** mean:
+- The compiler changes how many threads are launched at runtime 
+- The compiler magically knows the launch configuration
 
 
