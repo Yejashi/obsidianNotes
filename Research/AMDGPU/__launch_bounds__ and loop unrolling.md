@@ -34,4 +34,8 @@ From this, the compiler derives:
 - A minimum number of waves per CU
 - Which implies a maximum register budget per thread
 
-
+The key idea is that `__launch_bounds_` turns occupancy from a soft heuristic into a hard constraint.
+- Without it LLVM optimizes mostly for ILP
+	- Occupancy is considered but loosely
+- With it, LLVM must respect a register ceiling
+	- Otherwise it would violate the requested occupancy
