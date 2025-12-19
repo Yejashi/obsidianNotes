@@ -10,4 +10,11 @@ This does **not** mean:
 It does mean:
 - The compiler is being given constraints about the launch configuration so it can make safer backend decisions, especially about registers, unrolling, and spilling.
 
-The semantics of `__launch_bounds__`
+The semantics of `__launch_bounds__`:
+```
+__global__ __launch_bounds__(MAX_THREADS_PER_BLOCK,
+                            MIN_BLOCKS_PER_CU)
+void kernel(...) { ... }
+```
+
+
