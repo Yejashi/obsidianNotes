@@ -23,3 +23,5 @@ void kernel(...) { ... }
 As such, the compiler can assume:
 - Maximum waves per block
 - Maximum registers consumed per block
+
+
