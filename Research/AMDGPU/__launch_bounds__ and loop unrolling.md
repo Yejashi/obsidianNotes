@@ -8,4 +8,6 @@ This does **not** mean:
 - The compiler magically knows the launch configuration
 
 It does mean:
-- The compiler is being given constraints about 
+- The compiler is being given constraints about the launch configuration so it can make safer backend decisions, especially about registers, unrolling, and spilling.
+
+The semantics of `__launch_bounds__`
