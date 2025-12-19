@@ -39,3 +39,5 @@ The key idea is that `__launch_bounds_` turns occupancy from a soft heuristic in
 	- Occupancy is considered but loosely
 - With it, LLVM must respect a register ceiling
 	- Otherwise it would violate the requested occupancy
+
+
