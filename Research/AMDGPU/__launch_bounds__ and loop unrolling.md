@@ -27,3 +27,4 @@ As such, the compiler can assume:
 
 `MIN_BLOCKS_PER_CU`
 - Tells the compiler to ensure that this many blocks can reside on each CU
+
