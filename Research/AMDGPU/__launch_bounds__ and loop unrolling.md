@@ -28,3 +28,8 @@ As such, the compiler can assume:
 `MIN_BLOCKS_PER_CU`
 - Tells the compiler to ensure that this many blocks can reside on each CU
 
+This is a hard occupancy constraint.
+
+From this, the compiler derives:
+- A minimum number of waves per CU
+- Which implies a maximum register budget per thread
