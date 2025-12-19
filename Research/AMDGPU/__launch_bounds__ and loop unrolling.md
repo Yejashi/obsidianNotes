@@ -7,4 +7,5 @@ This does **not** mean:
 - The compiler changes how many threads are launched at runtime 
 - The compiler magically knows the launch configuration
 
-
+It does mean:
+- The compiler is being given constraints about 
