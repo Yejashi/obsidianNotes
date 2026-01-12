@@ -11,10 +11,12 @@
             "id": "6f5a0fe39ce75c9d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
             }
           }
         ]
@@ -74,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 408.5,
+    "collapsed": true
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -184,7 +187,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "6f5a0fe39ce75c9d",
   "lastOpenFiles": [
     "Research/LLVM/Optimizations/Sources/copy_prop_muchnick.pdf",
     "Research/LLVM/Optimizations/Sources",
