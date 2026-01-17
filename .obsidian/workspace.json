@@ -4,31 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "4d53dd82012876db",
+        "id": "6eb094790d4048f0",
         "type": "tabs",
         "children": [
           {
-            "id": "6f5a0fe39ce75c9d",
+            "id": "b58bd2efb569e77d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "Research/LLVM/Code Comparison/Metrics To Collect.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "icon": "lucide-file",
+              "title": "Metrics To Collect"
             }
           },
           {
-            "id": "172c91486a9e8d68",
+            "id": "a6c8ff9bff1eee6e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-01-12 13.09.37.excalidraw.md"
+                "file": "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-01-12 13.09.37.excalidraw"
+              "icon": "lucide-file",
+              "title": "__launch_bounds__ and loop unrolling"
             }
           }
         ],
@@ -64,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Load clobber",
+                "query": "unroll",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 313.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -174,8 +177,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -200,53 +203,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "172c91486a9e8d68",
+  "active": "020db7076d3db4d7",
   "lastOpenFiles": [
     "Meta/Attachments/Pasted Image 20260112131933_619.png",
     "Meta/Attachments/Pasted Image 20260112131822_109.png",
-    "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2026-01-12 13.09.37.excalidraw.md",
-    "Research/LLVM/Passes/Implementations/loop-unroll/tryToUnrollLoop.md",
-    "Research/LLVM/Passes/Implementations/loop-unroll/Untitled.md",
-    "Research/LLVM/Passes/Implementations/loop-unroll",
-    "Research/LLVM/Passes/Implementations",
     "Research/LLVM/Code Comparison/Metrics To Collect.md",
-    "Research/LLVM/Code Comparison",
-    "Research/LLVM/API/llvm loop.md",
-    "Research/LLVM/API",
     "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
     "Research/AMDGPU/Intro To Register Pressure.md",
+    "Research/LLVM/API/llvm loop.md",
+    "Research/LLVM/Passes/Remark Categories.md",
+    "Research/LLVM/Code Comparison",
+    "Research/LLVM/Passes/Implementations/loop-unroll/tryToUnrollLoop.md",
     "Research/AMDGPU",
     "Misc/Random Files/raja.svg",
-    "Misc/Random Files",
-    "Meta/Attachments/raja.svg",
+    "Research/LLVM/Passes/Implementations/loop-unroll/Untitled.md",
     "Excalidraw/Drawing 2025-12-17 09.42.39.excalidraw.md",
+    "Research/LLVM/Passes/Implementations/loop-unroll",
+    "Research/LLVM/Passes/Implementations",
+    "Meta/Attachments/raja.svg",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT/bogale_copt_report.md",
+    "Misc/Random Files",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT",
+    "Research/LLVM/API",
+    "Research/LLVM/Intermediate Representation (IR)/Untitled.md",
+    "conflict-files-obsidian-git.md",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
     "Research/LLVM/Optimizations/Sources/copy_prop_muchnick.pdf",
     "Research/LLVM/Optimizations/Sources",
     "Research/LLVM/Optimizations",
-    "Research/LLVM/DWARF/DWARF General.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
     "Meta/Attachments/Bio_251114_215423_page-0001(1).jpg",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw5/report.md",
     "Meta/Attachments/Screenshot_20251113_080206.png",
     "Meta/Attachments/Screenshot_20251113_080134.png",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
     "Meta/Attachments/Screenshot_20251113_023741.png",
+    "Meta/Attachments/Pasted image 20251113023747.png",
     "Meta/Attachments/Screenshot_20251113_021746.png",
-    "Meta/Attachments/Screenshot_20251113_021654.png",
-    "Meta/Attachments/Screenshot_20251113_021615.png",
-    "Research/LLVM/Specific Passes.md",
-    "Research/LLVM/Passes/Remark Limitations.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4/report.md",
+    "Meta/Attachments/Pasted image 20251113021803.png",
+    "Research/LLVM/Clang/Clang Substructures.md",
     "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
     "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
     "Misc/Software Ideas/Optimization Visualization Tool.md",
+    "Class/Year 1/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Misc/Software Ideas/Dynamic Call Graph Extraction Tool.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/HW3/report 1.md",
-    "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
-    "Excalidraw/Drawing 2025-10-12 16.41.58.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-18 11.17.05.excalidraw.md"
+    "Research/LLVM/Specific Passes.md",
+    "Research/LLVM/General Knowledge/Structure of a Compiler.md",
+    "Misc/Software Ideas/Linux System-Wide Text Auto-complete.md",
+    "Research/LLVM/DWARF/DWARF General.md"
   ]
 }
