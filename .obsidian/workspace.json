@@ -40,10 +40,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-01-17 14.27.33.excalidraw.md"
+                "file": "Excalidraw/occupancy.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-01-17 14.27.33.excalidraw"
+              "title": "occupancy"
             }
           }
         ],
@@ -214,16 +214,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "582a87e4ffdfb5b5",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
-    "Untitled 2.base",
     "Excalidraw/Drawing 2026-01-17 14.27.33.excalidraw.md",
+    "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
+    "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
+    "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
     "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
     "Meta/Attachments/Pasted Image 20260112131933_619.png",
     "Meta/Attachments/Pasted Image 20260112131822_109.png",
-    "Excalidraw/Drawing 2026-01-12 13.09.37.excalidraw.md",
+    "Excalidraw/occupancy.md",
     "Research/LLVM/Code Comparison/Metrics To Collect.md",
     "Research/AMDGPU/Intro To Register Pressure.md",
     "Research/LLVM/API/llvm loop.md",
@@ -244,7 +246,6 @@
     "Research/LLVM/Intermediate Representation (IR)/Untitled.md",
     "conflict-files-obsidian-git.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
-    "Research/LLVM/Optimizations/Sources/copy_prop_muchnick.pdf",
     "Meta/Attachments/Bio_251114_215423_page-0001(1).jpg",
     "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw5/report.md",
     "Meta/Attachments/Screenshot_20251113_080206.png",
@@ -260,7 +261,6 @@
     "Class/Year 1/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
     "Misc/Software Ideas/Dynamic Call Graph Extraction Tool.md",
     "Research/LLVM/Specific Passes.md",
-    "Research/LLVM/General Knowledge/Structure of a Compiler.md",
-    "Misc/Software Ideas/Linux System-Wide Text Auto-complete.md"
+    "Research/LLVM/General Knowledge/Structure of a Compiler.md"
   ]
 }
