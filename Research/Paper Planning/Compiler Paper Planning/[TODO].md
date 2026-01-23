@@ -12,4 +12,6 @@
 			- ~12% for all opts
 		- Polybench_MVT
 			- ~10% for all opts
+		- Polybench_GEMVER
+			- ~7% for all opts
 	- 
