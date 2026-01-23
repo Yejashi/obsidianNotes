@@ -21,3 +21,4 @@
 			- ~7% for -O1 and parity for -O2 and -O3
 		- Apps_CONVECTION3DPA
 			- ~7% for all opts
+
