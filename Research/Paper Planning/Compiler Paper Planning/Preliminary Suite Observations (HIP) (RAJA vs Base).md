@@ -1,7 +1,7 @@
 ## Analysis of Divergent Kernels
 
 
-| Kernel              | % Change         |
+| Kernel              | Time % Change    |
 | ------------------- | ---------------- |
 | Apps_MASS3DEA       | 0%, 1247%, 1349% |
 | Polybench_ADI       | 22%, 23%, 22%    |
