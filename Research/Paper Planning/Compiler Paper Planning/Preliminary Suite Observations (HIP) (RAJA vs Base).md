@@ -8,7 +8,7 @@
 | Polybench_ATAX      | 12%, 12%, 12%    |
 | Polybench_MVT       | 10%, 9%, 9%      |
 | Polybench_GEMVER    | 7%, 7%, 7%       |
-| Apps_DIFFUSION3DPA  |                  |
+| Apps_DIFFUSION3DPA  | -17%, -20%, -20% |
 | Apps_EDGE3D         |                  |
 | Apps_CONVECTION3DPA |                  |
 
