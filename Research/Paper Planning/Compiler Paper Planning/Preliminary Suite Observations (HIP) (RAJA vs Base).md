@@ -9,7 +9,7 @@
 | Polybench_MVT       | 10%, 9%, 9%      |
 | Polybench_GEMVER    | 7%, 7%, 7%       |
 | Apps_DIFFUSION3DPA  | -17%, -20%, -20% |
-| Apps_EDGE3D         |                  |
+| Apps_EDGE3D         | -7%, -2%, -1%    |
 | Apps_CONVECTION3DPA |                  |
 
 ### Runtime Behaviors
