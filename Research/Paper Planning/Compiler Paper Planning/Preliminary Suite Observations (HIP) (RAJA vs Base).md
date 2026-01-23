@@ -1,4 +1,10 @@
 ## Analysis of Divergent Kernels
+
+
+|     |     |
+| --- | --- |
+|     |     |
+
 ### Runtime Behaviors
 - Majority of kernels show minimal change in performance (~0-3%)
 - Exceptions:
