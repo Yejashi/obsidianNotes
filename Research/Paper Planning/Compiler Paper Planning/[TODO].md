@@ -10,4 +10,6 @@
 			- ~22% for all opts
 		- Polybench_ATAX
 			- ~12% for all opts
+		- Polybench_MVT
+			- ~10% for all opts
 	- 
