@@ -5,7 +5,7 @@
 - Exceptions:
 	- In favor of Base
 		- Apps_MASS3DEA
-			- Parity at -O1 and ~1247% percent change in favor of Base
+			- Parity at -O1 and ~1247% 
 		- Polybench_ADI
 			- ~22% percent change in favor of Base for all opts
 		- Polybench_ATAX
