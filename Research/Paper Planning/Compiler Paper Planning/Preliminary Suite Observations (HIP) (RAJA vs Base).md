@@ -22,3 +22,4 @@
 			- ~7% for all opts
 
 ### TODO: Control Flow
+- Majority of kernels show significant changes in number of instructions
