@@ -17,4 +17,7 @@
 	- In favor of RAJA
 		- Apps_DIFFUSION3DPA
 			- ~17-20% for all opts
-		- 
+		- Apps_EDGE3D
+			- ~7% for -O1 and parity for -O2 and -O3
+		- Apps_CONVECTION3DPA
+			- ~7% for all opts
