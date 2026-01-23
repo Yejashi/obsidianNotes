@@ -1,4 +1,3 @@
-
 ## Analysis of Divergent Kernels
 ### Runtime Behaviors
 #### RAJA vs Base
@@ -23,5 +22,3 @@
 		- Apps_CONVECTION3DPA
 			- ~7% for all opts
 
-
-	
