@@ -25,4 +25,4 @@
 - Majority of kernels show significant changes in number of instructions
 - Divergent kernels from runtime (Base)
 	- Apps_MASS3DEA
-		- 16% percent 
+		- 16% percent  less instructions in RAJA
