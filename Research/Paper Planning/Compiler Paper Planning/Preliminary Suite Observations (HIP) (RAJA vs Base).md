@@ -4,8 +4,8 @@
 | Kernel              | % Change         |
 | ------------------- | ---------------- |
 | Apps_MASS3DEA       | 0%, 1247%, 1349% |
-| Polybench_ADI       |                  |
-| Polybench_ATAX      |                  |
+| Polybench_ADI       | 22%, 23%, 22%    |
+| Polybench_ATAX      | 12%, 12%, 12%    |
 | Polybench_MVT       |                  |
 | Polybench_GEMVER    |                  |
 | Apps_DIFFUSION3DPA  |                  |
