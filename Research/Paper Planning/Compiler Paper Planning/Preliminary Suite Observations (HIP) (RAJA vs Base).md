@@ -4,7 +4,7 @@
 | Kernel              | Time % Change    | NumInsts % Change  |
 | ------------------- | ---------------- | ------------------ |
 | Apps_MASS3DEA       | 0%, 1247%, 1349% | -16%, 2151%, 2151% |
-| Polybench_ADI       | 22%, 23%, 22%    |                    |
+| Polybench_ADI       | 22%, 23%, 22%    | 17%, 17%, 17%      |
 | Polybench_ATAX      | 12%, 12%, 12%    |                    |
 | Polybench_MVT       | 10%, 9%, 9%      |                    |
 | Polybench_GEMVER    | 7%, 7%, 7%       |                    |
