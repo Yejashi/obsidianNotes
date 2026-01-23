@@ -7,7 +7,7 @@
 		- Apps_MASS3DEA
 			- Parity at -O1 and ~1247% 
 		- Polybench_ADI
-			- ~22% percent change in favor of Base for all opts
+			- ~22% for all opts
 		- Polybench_ATAX
-			- ~12% percent change in favor of Base for all opts
+			- ~12% percent change in favor of Base for all optsfor all opts
 	- 
