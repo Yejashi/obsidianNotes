@@ -9,5 +9,5 @@
 		- Polybench_ADI
 			- ~22% for all opts
 		- Polybench_ATAX
-			- ~12% percent change in favor of Base for all optsfor all opts
+			- ~12% for all opts
 	- 
