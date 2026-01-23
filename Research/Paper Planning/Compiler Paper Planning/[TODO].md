@@ -14,4 +14,4 @@
 			- ~10% for all opts
 		- Polybench_GEMVER
 			- ~7% for all opts
-	- 
+	- In favor of RAJA
