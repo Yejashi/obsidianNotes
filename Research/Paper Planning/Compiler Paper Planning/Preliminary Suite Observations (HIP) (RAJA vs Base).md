@@ -6,6 +6,7 @@
 | Apps_MASS3DEA  |     |
 | Polybench_ADI  |     |
 | Polybench_ATAX |     |
+| Polybench_MVT  |     |
 
 ### Runtime Behaviors
 - Majority of kernels show minimal change in performance (~0-3%)
