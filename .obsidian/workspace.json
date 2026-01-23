@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations.md",
+                "file": "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations (HIP) (RAJA vs Base).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Preliminary Suite Observations"
+              "title": "Preliminary Suite Observations (HIP) (RAJA vs Base)"
             }
           }
         ],
@@ -222,7 +222,7 @@
   "active": "a62087e03761587d",
   "lastOpenFiles": [
     "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
-    "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations.md",
+    "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations (HIP) (RAJA vs Base).md",
     "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
     "conflict-files-obsidian-git.md",
     "Research/LLVM/Passes/Implementations/loop-unroll/tryToUnrollLoop.md",
