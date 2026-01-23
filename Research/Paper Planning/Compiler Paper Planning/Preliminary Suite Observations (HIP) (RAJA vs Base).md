@@ -24,4 +24,4 @@
 ### TODO: Control Flow
 - Majority of kernels show significant changes in number of instructions
 - Divergent kernels from runtime (Base)
-	- 
+	- Apps_MASS3DEA
