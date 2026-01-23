@@ -1,16 +1,16 @@
 ## Analysis of Divergent Kernels
 
 
-| Kernel              | % Change |
-| ------------------- | -------- |
-| Apps_MASS3DEA       |          |
-| Polybench_ADI       |          |
-| Polybench_ATAX      |          |
-| Polybench_MVT       |          |
-| Polybench_GEMVER    |          |
-| Apps_DIFFUSION3DPA  |          |
-| Apps_EDGE3D         |          |
-| Apps_CONVECTION3DPA |          |
+| Kernel              | % Change         |
+| ------------------- | ---------------- |
+| Apps_MASS3DEA       | 0%, 1247%, 1349% |
+| Polybench_ADI       |                  |
+| Polybench_ATAX      |                  |
+| Polybench_MVT       |                  |
+| Polybench_GEMVER    |                  |
+| Apps_DIFFUSION3DPA  |                  |
+| Apps_EDGE3D         |                  |
+| Apps_CONVECTION3DPA |                  |
 
 ### Runtime Behaviors
 - Majority of kernels show minimal change in performance (~0-3%)
