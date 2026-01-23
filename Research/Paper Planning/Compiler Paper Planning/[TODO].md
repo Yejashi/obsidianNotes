@@ -15,4 +15,5 @@
 		- Polybench_GEMVER
 			- ~7% for all opts
 	- In favor of RAJA
-		- 
+		- Apps_DIFFUSION3DPA
+			- ~17-20%
