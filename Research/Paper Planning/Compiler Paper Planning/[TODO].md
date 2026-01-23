@@ -16,4 +16,5 @@
 			- ~7% for all opts
 	- In favor of RAJA
 		- Apps_DIFFUSION3DPA
-			- ~17-20%
+			- ~17-20% for all opts
+		- 
