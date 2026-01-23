@@ -9,7 +9,7 @@
 | Polybench_MVT      |     |
 | Polybench_GEMVER   |     |
 | Apps_DIFFUSION3DPA |     |
-|                    |     |
+| Apps_EDGE3D        |     |
 
 ### Runtime Behaviors
 - Majority of kernels show minimal change in performance (~0-3%)
