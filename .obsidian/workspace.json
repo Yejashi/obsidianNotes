@@ -45,9 +45,21 @@
               "icon": "excalidraw-icon",
               "title": "occupancy"
             }
+          },
+          {
+            "id": "1b45712949d6a3de",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -214,7 +226,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d02b7e14bb3256",
+  "active": "81eaa5f4257b7bcb",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-01-17 14.27.33.excalidraw.md",
     "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
