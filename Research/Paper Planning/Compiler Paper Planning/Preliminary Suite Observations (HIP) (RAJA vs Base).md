@@ -1,16 +1,16 @@
 ## Analysis of Divergent Kernels
 
 
-| Kernel              | Time % Change    | NumInsts % Change  | numBasicBlocks % Change |     |
-| ------------------- | ---------------- | ------------------ | ----------------------- | --- |
-| Apps_MASS3DEA       | 0%, 1247%, 1349% | -16%, 2151%, 2151% | -10%, -17%, -17%        |     |
-| Polybench_ADI       | 22%, 23%, 22%    | 17%, 17%, 17%      | 36%, 25%, 25%           |     |
-| Polybench_ATAX      | 12%, 12%, 12%    | 110%, 133%, 133%   | 67%, 100%, 100%         |     |
-| Polybench_MVT       | 10%, 9%, 9%      | 87%, 107%, 107%    | 33%, 60%, 60%           |     |
-| Polybench_GEMVER    | 7%, 7%, 7%       | 82%, 92%, 92%      | 33%, 50%, 50%           |     |
-| Apps_DIFFUSION3DPA  | -17%, -20%, -20% | -33%, -23%, -23%   | -33%, -33%, -33%        |     |
-| Apps_EDGE3D         | -7%, -2%, -1%    | 7%, 2%, 2%         | 0%, 0%, 0%              |     |
-| Apps_CONVECTION3DPA | -7%, -7%, -7%    | -38%, -32%, -32%   | -34%, -30%, -30%        |     |
+| Kernel              | Time % Change    | NumInsts % Change  | numBasicBlocks % Change | numLoops % Change |
+| ------------------- | ---------------- | ------------------ | ----------------------- | ----------------- |
+| Apps_MASS3DEA       | 0%, 1247%, 1349% | -16%, 2151%, 2151% | -10%, -17%, -17%        |                   |
+| Polybench_ADI       | 22%, 23%, 22%    | 17%, 17%, 17%      | 36%, 25%, 25%           |                   |
+| Polybench_ATAX      | 12%, 12%, 12%    | 110%, 133%, 133%   | 67%, 100%, 100%         |                   |
+| Polybench_MVT       | 10%, 9%, 9%      | 87%, 107%, 107%    | 33%, 60%, 60%           |                   |
+| Polybench_GEMVER    | 7%, 7%, 7%       | 82%, 92%, 92%      | 33%, 50%, 50%           |                   |
+| Apps_DIFFUSION3DPA  | -17%, -20%, -20% | -33%, -23%, -23%   | -33%, -33%, -33%        |                   |
+| Apps_EDGE3D         | -7%, -2%, -1%    | 7%, 2%, 2%         | 0%, 0%, 0%              |                   |
+| Apps_CONVECTION3DPA | -7%, -7%, -7%    | -38%, -32%, -32%   | -34%, -30%, -30%        |                   |
 
 ### Runtime Behaviors
 - Majority of kernels show minimal change in performance (~0-3%)
