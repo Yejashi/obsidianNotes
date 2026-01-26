@@ -10,7 +10,7 @@
 | Polybench_GEMVER    | 7%, 7%, 7%       | 82%, 92%, 92%      | 33%, 50%, 50%           | 0%, 0%, 0%         |
 | Apps_DIFFUSION3DPA  | -17%, -20%, -20% | -33%, -23%, -23%   | -33%, -33%, -33%        | -81%, -100%, -100% |
 | Apps_EDGE3D         | -7%, -2%, -1%    | 7%, 2%, 2%         | 0%, 0%, 0%              | 0%, 0%, 0%         |
-| Apps_CONVECTION3DPA | -7%, -7%, -7%    | -38%, -32%, -32%   | -34%, -30%, -30%        |                    |
+| Apps_CONVECTION3DPA | -7%, -7%, -7%    | -38%, -32%, -32%   | -34%, -30%, -30%        | -80%, -100%, -100% |
 
 ### Runtime Behaviors
 - Majority of kernels show minimal change in performance (~0-3%)
