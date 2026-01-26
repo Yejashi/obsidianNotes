@@ -22,19 +22,6 @@
             }
           },
           {
-            "id": "a6c8ff9bff1eee6e",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled 2.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled 2"
-            }
-          },
-          {
             "id": "582a87e4ffdfb5b5",
             "type": "leaf",
             "state": {
@@ -50,12 +37,14 @@
             "id": "1b45712949d6a3de",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.4"
+                "file": "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations (HIP) (RAJA vs Base).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
+              "icon": "lucide-file",
+              "title": "Preliminary Suite Observations (HIP) (RAJA vs Base)"
             }
           }
         ],
@@ -226,8 +215,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "582a87e4ffdfb5b5",
+  "active": "1b45712949d6a3de",
   "lastOpenFiles": [
+    "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
+    "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
+    "Progress Writing/Progress.md",
+    "Research/Papers/Dynist/Dyninst paper.md",
+    "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
+    "Excalidraw/occupancy.md",
     "conflict-files-obsidian-git.md",
     "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations (HIP) (RAJA vs Base).md",
     "Excalidraw/Drawing 2026-01-17 14.27.33.excalidraw.md",
@@ -236,10 +231,8 @@
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
-    "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
     "Meta/Attachments/Pasted Image 20260112131933_619.png",
     "Meta/Attachments/Pasted Image 20260112131822_109.png",
-    "Excalidraw/occupancy.md",
     "Research/LLVM/Code Comparison/Metrics To Collect.md",
     "Research/AMDGPU/Intro To Register Pressure.md",
     "Research/LLVM/API/llvm loop.md",
@@ -268,11 +261,7 @@
     "Meta/Attachments/Pasted image 20251113023747.png",
     "Meta/Attachments/Screenshot_20251113_021746.png",
     "Research/LLVM/Clang/Clang Substructures.md",
-    "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
-    "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
     "Misc/Software Ideas/Optimization Visualization Tool.md",
-    "Class/Year 1/Spring 2025/Graph Algorithms COSC690/Waypoint.md",
-    "Misc/Software Ideas/Dynamic Call Graph Extraction Tool.md",
-    "Research/LLVM/Specific Passes.md"
+    "Class/Year 1/Spring 2025/Graph Algorithms COSC690/Waypoint.md"
   ]
 }

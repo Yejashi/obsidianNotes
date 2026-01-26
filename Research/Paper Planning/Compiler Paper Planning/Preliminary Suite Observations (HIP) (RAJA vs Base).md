@@ -6,7 +6,7 @@
 | Apps_MASS3DEA       | 0%, 1247%, 1349% | -16%, 2151%, 2151% |
 | Polybench_ADI       | 22%, 23%, 22%    | 17%, 17%, 17%      |
 | Polybench_ATAX      | 12%, 12%, 12%    | 110%, 133%, 133%   |
-| Polybench_MVT       | 10%, 9%, 9%      |                    |
+| Polybench_MVT       | 10%, 9%, 9%      | 87%, 107%, 107%    |
 | Polybench_GEMVER    | 7%, 7%, 7%       |                    |
 | Apps_DIFFUSION3DPA  | -17%, -20%, -20% |                    |
 | Apps_EDGE3D         | -7%, -2%, -1%    |                    |
