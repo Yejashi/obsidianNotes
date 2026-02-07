@@ -46,9 +46,21 @@
               "icon": "lucide-file",
               "title": "Preliminary Suite Observations (HIP) (RAJA vs Base)"
             }
+          },
+          {
+            "id": "76edc7b8b48a33a6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -215,7 +227,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1b45712949d6a3de",
+  "active": "76edc7b8b48a33a6",
   "lastOpenFiles": [
     "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
     "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
