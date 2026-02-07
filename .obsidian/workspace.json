@@ -58,9 +58,21 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.11.5"
             }
+          },
+          {
+            "id": "45db35a4003b42b3",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-06 19.04.18.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-06 19.04.18.excalidraw"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -227,8 +239,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "76edc7b8b48a33a6",
+  "active": "45db35a4003b42b3",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-02-06 19.04.18.excalidraw.md",
     "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
     "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
     "Progress Writing/Progress.md",
@@ -273,7 +286,6 @@
     "Meta/Attachments/Pasted image 20251113023747.png",
     "Meta/Attachments/Screenshot_20251113_021746.png",
     "Research/LLVM/Clang/Clang Substructures.md",
-    "Misc/Software Ideas/Optimization Visualization Tool.md",
-    "Class/Year 1/Spring 2025/Graph Algorithms COSC690/Waypoint.md"
+    "Misc/Software Ideas/Optimization Visualization Tool.md"
   ]
 }
