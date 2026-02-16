@@ -70,9 +70,21 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2026-02-06 19.04.18.excalidraw"
             }
+          },
+          {
+            "id": "a2505765d274740d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -240,7 +252,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "45db35a4003b42b3",
+  "active": "fbd2e3a8b2491645",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-02-06 19.04.18.excalidraw.md",
     "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
