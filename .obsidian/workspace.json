@@ -60,18 +60,6 @@
             }
           },
           {
-            "id": "45db35a4003b42b3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-02-06 19.04.18.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-06 19.04.18.excalidraw"
-            }
-          },
-          {
             "id": "a2505765d274740d",
             "type": "leaf",
             "state": {
@@ -82,9 +70,21 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.11.7"
             }
+          },
+          {
+            "id": "58ee6ad8fb031189",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-27 08.41.57.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-27 08.41.57.excalidraw"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -252,8 +252,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "45db35a4003b42b3",
+  "active": "58ee6ad8fb031189",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-02-27 08.41.57.excalidraw.md",
     "Excalidraw/Drawing 2026-02-06 19.04.18.excalidraw.md",
     "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
     "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
@@ -298,7 +299,6 @@
     "Meta/Attachments/Screenshot_20251113_023741.png",
     "Meta/Attachments/Pasted image 20251113023747.png",
     "Meta/Attachments/Screenshot_20251113_021746.png",
-    "Research/LLVM/Clang/Clang Substructures.md",
-    "Misc/Software Ideas/Optimization Visualization Tool.md"
+    "Research/LLVM/Clang/Clang Substructures.md"
   ]
 }
