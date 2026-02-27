@@ -4,39 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "742470cffb77753c",
+        "id": "6eb094790d4048f0",
         "type": "tabs",
         "children": [
           {
-            "id": "73dacaa5b405be85",
+            "id": "b58bd2efb569e77d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
+                "file": "Research/LLVM/Code Comparison/Metrics To Collect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "report"
+              "title": "Metrics To Collect"
             }
           },
           {
-            "id": "7c5d2b0f72b9bdf5",
+            "id": "582a87e4ffdfb5b5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw5/report.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/occupancy.md"
               },
-              "icon": "lucide-file",
-              "title": "report"
+              "icon": "excalidraw-icon",
+              "title": "occupancy"
             }
           },
           {
-            "id": "a62087e03761587d",
+            "id": "1b45712949d6a3de",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,11 +48,40 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "04934ae982b6d8a7",
+=======
+            "id": "76edc7b8b48a33a6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
+          },
+          {
+            "id": "a2505765d274740d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
+          },
+          {
+            "id": "58ee6ad8fb031189",
+>>>>>>> origin/main
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
+<<<<<<< HEAD
                 "file": "Excalidraw/Drawing 2026-01-17 14.27.33.excalidraw.md"
               },
               "icon": "excalidraw-icon",
@@ -63,6 +90,16 @@
           }
         ],
         "currentTab": 3
+=======
+                "file": "Excalidraw/Drawing 2026-02-27 08.41.57.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-27 08.41.57.excalidraw"
+            }
+          }
+        ],
+        "currentTab": 5
+>>>>>>> origin/main
       }
     ],
     "direction": "vertical"
@@ -94,7 +131,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#define",
+                "query": "unroll",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -229,53 +266,57 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
+<<<<<<< HEAD
   "active": "04934ae982b6d8a7",
+=======
+  "active": "58ee6ad8fb031189",
+>>>>>>> origin/main
   "lastOpenFiles": [
-    "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
-    "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations (HIP) (RAJA vs Base).md",
+    "Excalidraw/Drawing 2026-02-27 08.41.57.excalidraw.md",
+    "Excalidraw/Drawing 2026-02-06 19.04.18.excalidraw.md",
     "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
-    "conflict-files-obsidian-git.md",
-    "Research/LLVM/Passes/Implementations/loop-unroll/tryToUnrollLoop.md",
-    "Research/LLVM/Passes/Implementations/loop-unroll/Untitled.md",
-    "Research/LLVM/Passes/Implementations/loop-unroll",
-    "Research/LLVM/Passes/Implementations",
-    "Research/LLVM/Optimizations/Sources/copy_prop_muchnick.pdf",
-    "Research/LLVM/Optimizations/Sources",
-    "Research/LLVM/Optimizations",
-    "Research/LLVM/Code Comparison/Metrics To Collect.md",
-    "Research/LLVM/Code Comparison",
-    "Research/LLVM/API/llvm loop.md",
-    "Research/LLVM/API",
+    "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
+    "Progress Writing/Progress.md",
+    "Research/Papers/Dynist/Dyninst paper.md",
     "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
-    "Research/AMDGPU/Intro To Register Pressure.md",
-    "Research/AMDGPU",
-    "Misc/Random Files/raja.svg",
-    "Misc/Random Files",
-    "Meta/Attachments/raja.svg",
+    "Excalidraw/occupancy.md",
+    "conflict-files-obsidian-git.md",
+    "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations (HIP) (RAJA vs Base).md",
+    "Excalidraw/Drawing 2026-01-17 14.27.33.excalidraw.md",
+    "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
+    "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Untitled.base",
     "Meta/Attachments/Pasted Image 20260112131933_619.png",
     "Meta/Attachments/Pasted Image 20260112131822_109.png",
-    "Excalidraw/occupancy.md",
-    "Excalidraw/Drawing 2026-01-17 14.27.33.excalidraw.md",
+    "Research/LLVM/Code Comparison/Metrics To Collect.md",
+    "Research/AMDGPU/Intro To Register Pressure.md",
+    "Research/LLVM/API/llvm loop.md",
+    "Research/LLVM/Passes/Remark Categories.md",
+    "Research/LLVM/Code Comparison",
+    "Research/LLVM/Passes/Implementations/loop-unroll/tryToUnrollLoop.md",
+    "Research/AMDGPU",
+    "Misc/Random Files/raja.svg",
+    "Research/LLVM/Passes/Implementations/loop-unroll/Untitled.md",
     "Excalidraw/Drawing 2025-12-17 09.42.39.excalidraw.md",
+    "Research/LLVM/Passes/Implementations/loop-unroll",
+    "Research/LLVM/Passes/Implementations",
+    "Meta/Attachments/raja.svg",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT/bogale_copt_report.md",
+    "Misc/Random Files",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT",
-    "Meta/Attachments/Bio_251114_215423_page-0001(1).jpg",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw2/report.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw5/report.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4/report.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
+    "Research/LLVM/API",
+    "Research/LLVM/Intermediate Representation (IR)/Untitled.md",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
+    "Meta/Attachments/Bio_251114_215423_page-0001(1).jpg",
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw5/report.md",
     "Meta/Attachments/Screenshot_20251113_080206.png",
     "Meta/Attachments/Screenshot_20251113_080134.png",
+    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
     "Meta/Attachments/Screenshot_20251113_023741.png",
+    "Meta/Attachments/Pasted image 20251113023747.png",
     "Meta/Attachments/Screenshot_20251113_021746.png",
-    "Meta/Attachments/Screenshot_20251113_021654.png",
-    "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
-    "Research/LLVM/DWARF/DWARF General.md",
-    "Misc/Software Ideas/Optimization Visualization Tool.md",
-    "Misc/Software Ideas/Dynamic Call Graph Extraction Tool.md",
-    "Excalidraw/Drawing 2025-10-12 16.41.58.excalidraw.md",
-    "Research/LLVM/Clang/Clang Substructures.md",
-    "Research/LLVM/Passes/Remark Limitations.md"
+    "Research/LLVM/Clang/Clang Substructures.md"
   ]
 }
