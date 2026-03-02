@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/Software Ideas/Untitled.md",
+                "file": "Misc/Software Ideas/Optimization Visualizer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Optimization Visualizer"
             }
           }
         ],
@@ -256,7 +256,7 @@
   "active": "58ee6ad8fb031189",
   "lastOpenFiles": [
     "Misc/Software Ideas/Linux System-Wide Text Auto-complete.md",
-    "Misc/Software Ideas/Untitled.md",
+    "Misc/Software Ideas/Optimization Visualizer.md",
     "Excalidraw/Drawing 2026-02-27 08.41.57.excalidraw.md",
     "Excalidraw/Drawing 2026-02-06 19.04.18.excalidraw.md",
     "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
