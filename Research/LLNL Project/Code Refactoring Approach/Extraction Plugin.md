@@ -4,6 +4,8 @@ Three Plugins
 - Remark Diag Handler
 - IR Metric Extraction
 
+Note: None of these passess mutate the IR
+
 **Function Extraction**
 Registered at beginning of pipeline
 ```
