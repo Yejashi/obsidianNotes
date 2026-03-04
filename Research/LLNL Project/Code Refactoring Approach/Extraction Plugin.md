@@ -105,7 +105,7 @@ Single Plugin
 			"Vendor": "unknown"
 		}
 	},
-	"Functions": {
+	"functions": {
 		"foo()": {
 			"externallyVisible": true,
 			""
