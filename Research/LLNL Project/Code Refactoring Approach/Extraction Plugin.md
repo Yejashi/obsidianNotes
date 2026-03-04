@@ -149,3 +149,4 @@ Single Plugin
 What is necessary to implement this?
 - Central data structure to store information
 	- Statically initialized when the plugin is registered
+	- 
