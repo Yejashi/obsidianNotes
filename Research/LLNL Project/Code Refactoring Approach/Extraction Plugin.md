@@ -17,6 +17,8 @@ Three Plugins
 	},
 	"Functions": {
 		"foo()": {
+			"beginLine": 128,
+			"endLine": 129,
 			
 		}
 	}
