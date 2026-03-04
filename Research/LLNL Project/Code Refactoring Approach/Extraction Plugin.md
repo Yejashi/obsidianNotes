@@ -9,7 +9,8 @@ Remark Diag Handler
 ```
 {
 	"Metadata": {
-		"Module Name": ""
+		"Module Name": "src/foo.cpp",
+		
 	}
 
 }
