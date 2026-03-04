@@ -105,14 +105,16 @@ Single Plugin
 			"Vendor": "unknown"
 		}
 	},
-	"functions": {
+	"Functions": {
 		"foo()": {
-			"externallyVisible": true,
-			"functionsCalled": [
+			"ExternallyVisible": true,
+			"FunctionsCalled": [
 				"bar()",
 				...
 			],
-			""
+			"IRStatistics": {
+				
+			}
 		},
 		...
 	}
