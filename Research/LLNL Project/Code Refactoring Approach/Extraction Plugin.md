@@ -12,7 +12,8 @@ Remark Diag Handler
 		"Module Name": "src/foo.cpp",
 		"Target Triple": {
 			"Arch": "x86_64",
-			"OS"
+			"OS": "linux",
+			"Vendor": "unknown"
 		}
 	}
 
