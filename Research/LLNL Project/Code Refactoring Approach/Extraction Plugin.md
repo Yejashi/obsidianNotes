@@ -15,6 +15,9 @@ Three Plugins
 			"Vendor": "unknown"
 		}
 	},
+	"Functions": {
+		
+	}
 }	
 ```
 
