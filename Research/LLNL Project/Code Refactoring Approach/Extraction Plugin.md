@@ -157,4 +157,5 @@ What is necessary to implement this?
 		- Registered at beginning of pipeline
 		- Module pass that registers a custom diagnostic pass
 		- HandleDiagnostics adds info to the shared data structure
+			- Increments pass count
 			- 
