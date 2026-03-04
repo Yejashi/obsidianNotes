@@ -17,7 +17,8 @@ Remark Diag Handler
 		}
 	},
 	"Remark Data": {
-		"RAJA::hip::launch()"
+		"foo()": [
+		]
 	}
 
 }
