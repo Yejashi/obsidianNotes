@@ -165,5 +165,8 @@ What is necessary to implement this?
 		- Calculates IR statistics and adds to function entry in shared data structure
 
 Implementation timeline
-1. Implement Function Extraction Pass 
-2. Implement 
+1. Implement Shared Data Structure
+	1. 
+2. Implement Function Extraction Pass 
+3. Implement Remark Extraction Pass
+4. Implement IR Metric Extraction Pass
