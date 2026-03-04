@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLNL Project/Code Refactoring Approach/Untitled.md",
+                "file": "Research/LLNL Project/Code Refactoring Approach/Extraction Plugin.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Extraction Plugin"
             }
           }
         ]
@@ -191,7 +191,7 @@
   "active": "642a5b7024d4bc0d",
   "lastOpenFiles": [
     "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
-    "Research/LLNL Project/Code Refactoring Approach/Untitled.md",
+    "Research/LLNL Project/Code Refactoring Approach/Extraction Plugin.md",
     "Research/LLNL Project/Code Refactoring Approach/Untitled",
     "Research/LLNL Project/Code Refactoring Approach",
     "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
