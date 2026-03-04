@@ -10,7 +10,10 @@ Remark Diag Handler
 {
 	"Metadata": {
 		"Module Name": "src/foo.cpp",
-		
+		"Target Triple": {
+			"Arch": "x86_64",
+			"OS"
+		}
 	}
 
 }
