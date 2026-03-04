@@ -164,3 +164,6 @@ What is necessary to implement this?
 		- Registered at end of pipeline
 		- Calculates IR statistics and adds to function entry in shared data structure
 
+Implementation timeline
+1. Implement Function Extraction Pass 
+2. 
