@@ -158,4 +158,5 @@ What is necessary to implement this?
 		- Module pass that registers a custom diagnostic pass
 		- HandleDiagnostics adds info to the shared data structure
 			- Increments pass count
-			- 
+			- Adds remark info to function entry
+			- Adds KRU info
