@@ -58,9 +58,7 @@ Remark Diag Handler
 				...
 			}
 		],
-		"bar()": [
-			...
-		]
+		...
 	}
 
 }
