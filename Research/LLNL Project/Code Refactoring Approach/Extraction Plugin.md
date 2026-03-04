@@ -56,7 +56,7 @@ IR Metric Extraction:
 		}
 	},
 	"Functions": {
-		
+		"foo()": 
 	}
 }
 ```
