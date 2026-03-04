@@ -92,4 +92,9 @@ End of Pipeline
 ```
 
 ### What Should Be After Refactor
-Single Pl
+Single Plugin
+
+**Extraction Plugin**
+```
+
+```
