@@ -120,7 +120,10 @@ Single Plugin
 			"RemarkInformation": {
 				"RemarkStatistics": {
 					"inline_attempted": 5,
-					"inline_passed": 
+					"inline_passed": 3,
+					"inline_missed": 1,
+					"inline_unknown": 1,
+					...
 				},
 				"Remarks": {
 					"location" : {
