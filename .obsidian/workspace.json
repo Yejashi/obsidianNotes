@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
+                "file": "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "__launch_bounds__ and loop unrolling"
+              "title": "Writing an LLVM Pass"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Load clobber",
+                "query": "registrat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,8 +188,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "642a5b7024d4bc0d",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Research/LLNL Project/Untitled",
+    "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
+    "Research/LLVM/Passes/Pass Manager/Pass Manager General.md",
+    "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
     "conflict-files-obsidian-git.md",
     "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations (HIP) (RAJA vs Base).md",
     "Misc/Software Ideas/Optimization Visualizer.md",
@@ -208,7 +212,6 @@
     "Research/LLVM/Code Comparison",
     "Research/LLVM/API/llvm loop.md",
     "Research/LLVM/API",
-    "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
     "Research/AMDGPU/Intro To Register Pressure.md",
     "Research/AMDGPU",
     "Misc/Random Files/raja.svg",
@@ -232,9 +235,6 @@
     "Meta/Attachments/Screenshot_20251113_021654.png",
     "Research/LLVM/Specific Passes.md",
     "Research/LLVM/Passes/Remark Limitations.md",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4/report.md",
-    "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
-    "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
-    "Misc/Software Ideas/Optimization Visualization Tool.md"
+    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw4/report.md"
   ]
 }
