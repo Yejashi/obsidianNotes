@@ -108,6 +108,7 @@ Single Plugin
 	"Functions": {
 		"foo()": {
 			"externallyVisible": true,
+			""
 		},
 		...
 	}
