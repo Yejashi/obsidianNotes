@@ -113,8 +113,11 @@ Single Plugin
 				...
 			],
 			"IRStatistics": {
-				
-			}
+				"numInsts": 17,
+				"numBasicBlocks": 3,
+				...
+			},
+			
 		},
 		...
 	}
