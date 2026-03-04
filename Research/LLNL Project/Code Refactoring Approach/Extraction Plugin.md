@@ -16,7 +16,9 @@ Three Plugins
 		}
 	},
 	"Functions": {
+		"foo()": {
 		
+		}
 	}
 }	
 ```
