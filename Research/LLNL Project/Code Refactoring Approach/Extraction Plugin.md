@@ -117,8 +117,8 @@ Single Plugin
 				"numBasicBlocks": 3,
 				...
 			},
-			"Remarks": [
-				{
+			"RemarkInformation": {
+				"Rem{
 					"location" : {
 						"AbsolutePath": "/g/.../src/foo.cpp",
 						"Column": 5,
@@ -132,7 +132,7 @@ Single Plugin
 					"Status": "Passed"
 				},
 				...
-			]
+			}
 		},
 		...
 	}
