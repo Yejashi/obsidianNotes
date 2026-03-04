@@ -118,7 +118,8 @@ Single Plugin
 				...
 			},
 			"RemarkInformation": {
-				"Rem{
+				"RemarkStatistics": 
+				"Remarks": {
 					"location" : {
 						"AbsolutePath": "/g/.../src/foo.cpp",
 						"Column": 5,
