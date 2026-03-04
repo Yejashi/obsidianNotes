@@ -108,8 +108,6 @@ Single Plugin
 	"Functions": {
 		"foo()": {
 			"externallyVisible": true,
-			"isHipStub: false,
-			"scopeLine": -1
 		},
 		...
 	}
