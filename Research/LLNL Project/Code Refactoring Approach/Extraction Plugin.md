@@ -153,10 +153,13 @@ What is necessary to implement this?
 	- Function Extraction
 		- Registered at beginning of pipeline
 		- Module pass that adds the entry of every function to the shared data structure
-	- RemarkExtraction
+	- Remark Extraction
 		- Registered at beginning of pipeline
 		- Module pass that registers a custom diagnostic pass
 		- HandleDiagnostics adds info to the shared data structure
 			- Increments pass count
 			- Adds remark info to function entry
-			- Adds KRU info
+			- Adds KRU info as remark
+	- IR Metric Extraction
+		- Registered at end of pipeline
+		- Calculates IR statistics and adds to function entry in shared data structure
