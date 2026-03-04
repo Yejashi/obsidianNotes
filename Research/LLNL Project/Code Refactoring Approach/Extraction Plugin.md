@@ -20,6 +20,7 @@ Three Plugins
 			"beginLine": 128,
 			"endLine": 129,
 			"externallyVisible": true,
+			""
 		}
 	}
 }	
