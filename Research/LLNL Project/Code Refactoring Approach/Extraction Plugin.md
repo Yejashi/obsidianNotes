@@ -28,7 +28,7 @@ Three Plugins
 }	
 ```
 
-Remark Diag Handler
+**Remark Diag Handler**
 ```
 {
 	"Metadata": {
@@ -64,8 +64,7 @@ Remark Diag Handler
 }
 ```
 
-IR Metric Extraction:
-
+**IR Metric Extraction**
 ```
 {
 	"Metadata": {
