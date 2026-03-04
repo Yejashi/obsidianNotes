@@ -125,7 +125,7 @@ Single Plugin
 					"inline_unknown": 1,
 					...
 				},
-				"Remarks": {
+				"Remarks": [
 					"location" : {
 						"AbsolutePath": "/g/.../src/foo.cpp",
 						"Column": 5,
@@ -139,7 +139,7 @@ Single Plugin
 					"Status": "Passed"
 				},
 				...
-			}
+			]
 		},
 		...
 	}
