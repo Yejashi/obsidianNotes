@@ -163,3 +163,4 @@ What is necessary to implement this?
 	- IR Metric Extraction
 		- Registered at end of pipeline
 		- Calculates IR statistics and adds to function entry in shared data structure
+
