@@ -153,6 +153,4 @@ What is necessary to implement this?
 	- Function Extraction
 		- Registered at beginning of pipeline
 		- Module pass that adds the entry of every function to the shared data structure
-			- 
-		- Alg
-			- Module 
+	- 
