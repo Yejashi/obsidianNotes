@@ -55,5 +55,8 @@ IR Metric Extraction:
 			"Vendor": "unknown"
 		}
 	},
+	"Functions": {
+		
+	}
 }
 ```
