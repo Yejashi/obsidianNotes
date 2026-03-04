@@ -16,7 +16,9 @@ Remark Diag Handler
 			"Vendor": "unknown"
 		}
 	},
-	
+	"Remark Data": {
+		"RAJA::hip::launch()"
+	}
 
 }
 
