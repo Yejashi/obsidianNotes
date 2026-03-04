@@ -1,10 +1,14 @@
 ### What Currently Exists
 Three Plugins
-- Remark Diag Handler
 - Function Extraction
+- Remark Diag Handler
 - IR Metric Extraction
 
+**Function Extraction**
+```
 
+
+```
 
 Remark Diag Handler
 ```
