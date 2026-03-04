@@ -6,6 +6,7 @@ Three Plugins
 
 **Function Extraction**
 ```
+{
 	"Metadata": {
 		"Module Name": "src/foo.cpp",
 		"Target Triple": {
@@ -14,7 +15,7 @@ Three Plugins
 			"Vendor": "unknown"
 		}
 	},
-
+}	
 ```
 
 Remark Diag Handler
