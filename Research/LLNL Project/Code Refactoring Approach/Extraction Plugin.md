@@ -5,6 +5,7 @@ Three Plugins
 - IR Metric Extraction
 
 **Function Extraction**
+
 ```
 {
 	"Metadata": {
@@ -29,7 +30,7 @@ Three Plugins
 ```
 
 **Remark Diag Handler**
-
+Registered at beginning of pipeline, used at end of each pass
 ```
 {
 	"Metadata": {
