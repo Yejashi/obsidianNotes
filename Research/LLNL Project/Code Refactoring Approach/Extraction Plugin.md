@@ -7,7 +7,6 @@ Three Plugins
 Note: None of these passess mutate the IR
 
 **Function Extraction**
-Registered at beginning of pipeline
 ```
 {
 	"Metadata": {
@@ -145,3 +144,5 @@ Single Plugin
 	}
 }	
 ```
+
+
