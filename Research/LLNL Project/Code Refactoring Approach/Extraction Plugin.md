@@ -110,8 +110,9 @@ Single Plugin
 			"externallyVisible": true,
 			"functionsCalled": [
 				"bar()",
-				""
-			]
+				...
+			],
+			""
 		},
 		...
 	}
