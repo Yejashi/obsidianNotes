@@ -15,7 +15,8 @@ Remark Diag Handler
 			"OS": "linux",
 			"Vendor": "unknown"
 		}
-	}
+	},
+	
 
 }
 
