@@ -107,8 +107,6 @@ Single Plugin
 	},
 	"Functions": {
 		"foo()": {
-			"beginLine": 128,
-			"endLine": 129,
 			"externallyVisible": true,
 			"isHipStub: false,
 			"scopeLine": -1
