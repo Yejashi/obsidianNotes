@@ -5,7 +5,7 @@ Three Plugins
 - IR Metric Extraction
 
 **Function Extraction**
-
+Registered at beginning of pipeline
 ```
 {
 	"Metadata": {
