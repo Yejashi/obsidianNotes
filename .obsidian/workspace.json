@@ -30,9 +30,21 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2026-01-12 13.09.37.excalidraw"
             }
+          },
+          {
+            "id": "642a5b7024d4bc0d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,7 +212,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "172c91486a9e8d68",
+  "active": "4832cb4c150a69f7",
   "lastOpenFiles": [
     "Meta/Attachments/Pasted Image 20260112131933_619.png",
     "Meta/Attachments/Pasted Image 20260112131822_109.png",
