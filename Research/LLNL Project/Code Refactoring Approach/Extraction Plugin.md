@@ -59,7 +59,8 @@ IR Metric Extraction:
 		"foo()": {
 			"numInsts": 17,
 			"numBasicBlocks": 3,
-			/
+			...,
+			"maxLiveSSAValues"
 		}
 	}
 }
