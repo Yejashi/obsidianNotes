@@ -153,4 +153,8 @@ What is necessary to implement this?
 	- Function Extraction
 		- Registered at beginning of pipeline
 		- Module pass that adds the entry of every function to the shared data structure
-	- 
+	- RemarkExtraction
+		- Registered at beginning of pipeline
+		- Module pass that registers a custom diagnostic pass
+		- HandleDiagnostics adds info to the shared data structure
+			- 
