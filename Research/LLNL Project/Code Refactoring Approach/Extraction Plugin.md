@@ -151,3 +151,8 @@ What is necessary to implement this?
 	- Statically initialized when the plugin is registered
 - Passes
 	- Function Extraction
+		- Registered at beginning of pipeline
+		- Module pass that adds the entry of every function to the shared data structure
+			- 
+		- Alg
+			- Module 
