@@ -117,8 +117,21 @@ Single Plugin
 				"numBasicBlocks": 3,
 				...
 			},
-			"Remarks": {
-			}
+			"Remarks": [
+				{
+					"location" : {
+						"AbsolutePath": "/g/.../src/foo.cpp",
+						"Column": 5,
+						"Line": 360,
+						"RelativePath": "src/foo.cpp"
+					},
+					"Message": "Yo, what uppppp!!",
+					"Pass Name": "inline",
+					"Remark Name": "AlwaysInline",
+					"RemarkType": "Transformation",
+					"Status": "Passed"
+				},
+			]
 		},
 		...
 	}
