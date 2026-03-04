@@ -65,6 +65,7 @@ Three Plugins
 ```
 
 **IR Metric Extraction**
+End of Pipeline
 ```
 {
 	"Metadata": {
