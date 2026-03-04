@@ -18,6 +18,14 @@ Remark Diag Handler
 	},
 	"Remark Data": {
 		"foo()": [
+			{
+				"location" : {
+					"AbsolutePath": "/g/.../src/foo.cpp",
+					"Column": 5,
+					"Line": 360,
+					"RelativePath": "src/foo.cpp"
+				}
+			}
 		]
 	}
 
