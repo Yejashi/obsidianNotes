@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 408.5
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -200,7 +199,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "642a5b7024d4bc0d",
+  "active": "020db7076d3db4d7",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations (HIP) (RAJA vs Base).md",
