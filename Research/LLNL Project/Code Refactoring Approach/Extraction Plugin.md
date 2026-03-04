@@ -96,5 +96,24 @@ Single Plugin
 
 **Extraction Plugin**
 ```
-
+{
+	"Metadata": {
+		"Module Name": "src/foo.cpp",
+		"Target Triple": {
+			"Arch": "x86_64",
+			"OS": "linux",
+			"Vendor": "unknown"
+		}
+	},
+	"Functions": {
+		"foo()": {
+			"beginLine": 128,
+			"endLine": 129,
+			"externallyVisible": true,
+			"isHipStub: false,
+			"scopeLine": -1
+		},
+		...
+	}
+}	
 ```
