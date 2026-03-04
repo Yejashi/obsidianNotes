@@ -21,7 +21,9 @@ Three Plugins
 			"endLine": 129,
 			"externallyVisible": true,
 			"isHipStub: false,
-		}
+			"scopeLine": -1
+		},
+		...
 	}
 }	
 ```
