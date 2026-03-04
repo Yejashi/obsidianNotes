@@ -34,10 +34,13 @@ Remark Diag Handler
 			{
 				...
 			}
+		],
+		"bar()": [
+			...
 		]
 	}
 
 }
-
-
 ```
+
+
