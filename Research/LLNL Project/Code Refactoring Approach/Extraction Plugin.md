@@ -118,7 +118,10 @@ Single Plugin
 				...
 			},
 			"RemarkInformation": {
-				"RemarkStatistics":
+				"RemarkStatistics": {
+					"inline_attempted": 5,
+					"inline_passed": 
+				},
 				"Remarks": {
 					"location" : {
 						"AbsolutePath": "/g/.../src/foo.cpp",
