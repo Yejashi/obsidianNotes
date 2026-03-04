@@ -57,59 +57,9 @@ IR Metric Extraction:
 	},
 	"Functions": {
 		"foo()": {
-"maxLiveSSAValues": 17,
-
-"maxLoopDepth": 0,
-
-"numAllocaInsts": 0,
-
-"numArithmeticInsts": 94,
-
-"numAtomicInsts": 0,
-
-"numBasicBlocks": 51,
-
-"numBranchEdges": 75,
-
-"numBranchInsts": 50,
-
-"numCastInsts": 11,
-
-"numCompareInsts": 17,
-
-"numDirectFuncCalls": 0,
-
-"numFenceInsts": 14,
-
-"numFloatArithmeticInsts": 78,
-
-"numGEPInsts": 86,
-
-"numIndirectFuncCalls": 0,
-
-"numInsts": 393,
-
-"numIntegerArithmeticInsts": 16,
-
-"numLoads": 75,
-
-"numLogicInsts": 11,
-
-"numLoopInvInsts": 0,
-
-"numLoops": 0,
-
-"numMemAccessInsts": 88,
-
-"numMemRelatedInsts": 102,
-
-"numPHIInsts": 1,
-
-"numSelectInsts": 0,
-
-"numSmallConstTripLoops": 0,
-
-"numStores": 13	
+			"numInsts": 17,
+			"numBasicBlocks": 3,
+			/
 		}
 	}
 }
