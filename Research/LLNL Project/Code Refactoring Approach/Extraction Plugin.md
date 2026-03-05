@@ -117,7 +117,7 @@ Single Plugin
 				...
 			},
 			"KRUInformation": {
-				""
+				"SVGPRs"
 			}
 			"RemarkInformation": {
 				"RemarkStatistics": {
