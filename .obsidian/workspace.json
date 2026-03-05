@@ -84,9 +84,21 @@
               "icon": "lucide-file",
               "title": "Optimization Visualizer"
             }
+          },
+          {
+            "id": "aee81d2207b82f3c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -253,7 +265,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "58ee6ad8fb031189",
+  "active": "aee81d2207b82f3c",
   "lastOpenFiles": [
     "Misc/Software Ideas/Linux System-Wide Text Auto-complete.md",
     "Misc/Software Ideas/Optimization Visualizer.md",
