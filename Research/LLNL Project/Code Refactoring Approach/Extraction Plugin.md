@@ -116,7 +116,9 @@ Single Plugin
 				"numBasicBlocks": 3,
 				...
 			},
-			""
+			"KRUInformation": {
+				
+			}
 			"RemarkInformation": {
 				"RemarkStatistics": {
 					"inline_attempted": 5,
