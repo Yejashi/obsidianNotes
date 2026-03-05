@@ -116,6 +116,7 @@ Single Plugin
 				"numBasicBlocks": 3,
 				...
 			},
+			""
 			"RemarkInformation": {
 				"RemarkStatistics": {
 					"inline_attempted": 5,
