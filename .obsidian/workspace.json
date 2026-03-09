@@ -20,18 +20,6 @@
               "icon": "lucide-file",
               "title": "Extraction Plugin"
             }
-          },
-          {
-            "id": "29db929ad5e69194",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
-            }
           }
         ]
       }
@@ -196,10 +184,11 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "642a5b7024d4bc0d",
+  "active": "020db7076d3db4d7",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
