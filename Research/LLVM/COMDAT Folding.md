@@ -17,3 +17,12 @@ The linker must decide what to do with these duplicates.
 
 Without COMDAT, this would cause **multiple definition errors**.
 
+### What COMDAT Does
+
+COMDAT places certain functions or data into **special linker sections** that allow duplicates.
+
+At link time:
+1. The linker detects multiple definitions of a COMDAT symbol.
+2. It **selects one definition**.
+3. The others are **discarded**.
+
