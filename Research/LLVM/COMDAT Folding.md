@@ -26,3 +26,14 @@ At link time:
 2. It **selects one definition**.
 3. The others are **discarded**.
 
+Result:
+```
+object1.o → add()  
+object2.o → add()  
+object3.o → add()  
+  
+↓ link  
+  
+final binary → add() (only one copy kept)
+```
+
