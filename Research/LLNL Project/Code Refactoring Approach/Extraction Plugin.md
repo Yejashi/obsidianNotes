@@ -116,6 +116,15 @@ Single Plugin
 				"numBasicBlocks": 3,
 				...
 			},
+			"KRUInformation": {
+				"SGPRs": 12,
+				"VGPRs": 6,
+				"AGPRs": 0,
+				"ScratchSize [bytes/lane]": 0,
+				"Occupancy [waves/SIMD]": 8,
+				"SGPRs Spill": 0,
+				"VGPRs Spill": 0
+			}
 			"RemarkInformation": {
 				"RemarkStatistics": {
 					"inline_attempted": 5,
