@@ -11,3 +11,9 @@ return a + b;
 }
 ```
 
+If this header is included in **10 source files**, the compiler may emit **10 copies of `add()`**.
+
+The linker must decide what to do with these duplicates.
+
+Without COMDAT, this would cause **multiple definition errors**.
+
