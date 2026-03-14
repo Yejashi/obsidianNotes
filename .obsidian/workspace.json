@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLNL Project/Code Refactoring Approach/Extraction Plugin.md",
+                "file": "Research/LLVM/COMDAT Folding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Extraction Plugin"
+              "title": "COMDAT Folding"
             }
           }
         ],
@@ -253,9 +253,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "58ee6ad8fb031189",
   "lastOpenFiles": [
     "Research/LLNL Project/Code Refactoring Approach/Extraction Plugin.md",
+    "Research/LLVM/COMDAT Folding.md",
     "conflict-files-obsidian-git.md",
     "Misc/Software Ideas/Optimization Visualizer.md",
     "Research/LLNL Project/Code Refactoring Approach",
@@ -294,7 +295,6 @@
     "Misc/Random Files",
     "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT",
     "Research/LLVM/Intermediate Representation (IR)/Untitled.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
     "Meta/Attachments/Bio_251114_215423_page-0001(1).jpg",
     "Meta/Attachments/Screenshot_20251113_080206.png",
     "Meta/Attachments/Screenshot_20251113_080134.png",
