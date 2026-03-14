@@ -37,3 +37,25 @@ object3.o → add()
 final binary → add() (only one copy kept)
 ```
 
+### What Goes Into COMDAT
+
+Typical things placed in COMDAT sections:
+- **Inline functions**
+- **Template instantiations**
+- **Static data in headers**
+- **C++ vtables**
+- **Typeinfo objects**
+
+Example (template):
+```
+template<typename T>  
+T square(T x) {  
+return x * x;  
+}
+```
+If used in many `.cpp` files, each object file may generate:
+```
+square<int>
+```
+All copies go into **COMDAT sections**, and the linker keeps just one.
+
