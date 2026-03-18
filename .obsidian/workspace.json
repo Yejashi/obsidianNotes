@@ -39,14 +39,13 @@
             "id": "a62087e03761587d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations (HIP) (RAJA vs Base).md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled 4.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Preliminary Suite Observations (HIP) (RAJA vs Base)"
+              "icon": "lucide-table",
+              "title": "Untitled 4"
             }
           }
         ],
@@ -217,8 +216,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "a62087e03761587d",
   "lastOpenFiles": [
+    "Untitled 3.base",
+    "Untitled 4.base",
     "conflict-files-obsidian-git.md",
     "Research/LLVM/COMDAT Folding.md",
     "Research/LLNL Project/Code Refactoring Approach/Extraction Plugin.md",
@@ -245,7 +246,6 @@
     "Research/AMDGPU/Intro To Register Pressure.md",
     "Research/AMDGPU",
     "Misc/Random Files/raja.svg",
-    "Misc/Random Files",
     "Meta/Attachments/raja.svg",
     "Meta/Attachments/Pasted Image 20260112131933_619.png",
     "Meta/Attachments/Pasted Image 20260112131822_109.png",
@@ -263,7 +263,6 @@
     "Meta/Attachments/Screenshot_20251113_023741.png",
     "Meta/Attachments/Screenshot_20251113_021746.png",
     "Meta/Attachments/Screenshot_20251113_021654.png",
-    "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md",
-    "Research/LLVM/DWARF/DWARF General.md"
+    "Excalidraw/Drawing 2025-10-07 19.05.16.excalidraw.md"
   ]
 }
