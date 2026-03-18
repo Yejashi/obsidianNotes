@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/AMDGPU/Untitled.md",
+                "file": "Research/AMDGPU/Kernel Resource Usage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Kernel Resource Usage"
             }
           }
         ],
@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 251.5088768005371
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -220,7 +220,7 @@
   "active": "a62087e03761587d",
   "lastOpenFiles": [
     "Untitled 4.base",
-    "Research/AMDGPU/Untitled.md",
+    "Research/AMDGPU/Kernel Resource Usage.md",
     "Untitled 3.base",
     "conflict-files-obsidian-git.md",
     "Research/LLVM/COMDAT Folding.md",
