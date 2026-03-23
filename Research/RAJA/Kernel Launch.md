@@ -88,4 +88,5 @@ RAJA::kernel< KERNEL_POL >(
 
 );
 ```
-
+ 
+ In the case here, the execution policy contains a nested sequence of `RAJA::statement::For` types, indicating an iteration over each level in the loop nest.
