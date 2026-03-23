@@ -130,3 +130,5 @@ RAJA::LaunchParams(RAJA::Teams(NE), RAJA::Threads(Q1D)),
 
 The idea underlying `RAJA::launch` is to enable developers to express hierarchical parallelism in terms of teams and threads.
 
+Using the `RAJA::loop` methods iterations of the loop may be executed by threads or teams depending on the execution policy type. The launch context serves to synchronize threads within the same team.
+
