@@ -50,5 +50,16 @@ or (int iN = 0; iN < NN; ++iN) {
 }
 ```
 
+It is important to note that we do not recommend writing a RAJA version of this by nesting `RAJA::forall` statements. For example:
+```
+RAJA::forall<exec_policyN>(IN, [=] (int iN) {
+  ...
+     RAJA::forall<exec_policy0>(I0, [=] (int i0)) {
+       \\ inner loop body
+     }
+  ...
+}
+```
+
 
 
