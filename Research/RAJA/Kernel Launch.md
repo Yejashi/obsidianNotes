@@ -107,3 +107,7 @@ The `RAJA::launch` framework aims to unify thread/block based programming models
 
 As we showed earlier, when using the `RAJA::kernel` interface, developers express all aspects of nested loop execution in an execution policy type on which the `RAJA::kernel` method is templated. In contrast, the `RAJA::launch` interface allows users to express nested loop execution in a manner that more closely reflects how one would write conventional nested C-style for-loop code.
 
+For example, here is an example of a `RAJA::launch` kernel that copies values from an array in into a _shared memory_ array:
+```
+
+```
