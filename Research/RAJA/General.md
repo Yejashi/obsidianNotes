@@ -33,3 +33,5 @@ RAJA::forall<exec_policy>(RAJA::TypesRangeSegment<int>(0, N), [=] (int i) {
 
 The `RAJA::kernel` interface employs similar concepts to `RAJA::forall` but extends it to support much more complex kernel structures.
 
+Each `RAJA::kernel` method is a template that takes an _execution policy_ type template parameter.
+
