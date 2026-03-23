@@ -40,5 +40,13 @@ In its simplest form, `RAJA::kernel` takes two arguments:
 - A _tuple_ of iteration space objects
 - A lambda expression representing the kernel inner loop body.
 
-
+Consider the following (N + 1)-level loop nest:
+```
+or (int iN = 0; iN < NN; ++iN) {
+  ...
+     for (int i0 = 0; i0 < N0; ++i0) {s
+       \\ inner loop body
+     }
+}
+```
 
