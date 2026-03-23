@@ -132,3 +132,8 @@ The idea underlying `RAJA::launch` is to enable developers to express hierarchic
 
 Using the `RAJA::loop` methods iterations of the loop may be executed by threads or teams depending on the execution policy type. The launch context serves to synchronize threads within the same team.
 
+The `RAJA::launch` interface has three main concepts:
+> - `RAJA::launch` template. This creates an execution environment in which a kernel implementation is written using nested `RAJA::loop` statements. The launch policy template parameter used with the `RAJA::launch` method enables specification of both a host and device execution environment, which enables run time selection of kernel execution.
+> - `RAJA::LaunchParams` type. This type takes a number of teams, threads per team, and optionally the size of dynamic shared memory in bytes.
+> - `RAJA::loop` template. These are used to define hierarchical parallel execution of a kernel. Operations within a loop are mapped to either teams or threads based on the execution policy template parameter provided.
+
