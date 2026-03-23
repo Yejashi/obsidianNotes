@@ -92,4 +92,4 @@ RAJA::kernel< KERNEL_POL >(
 In the case here, the execution policy contains a nested sequence of `RAJA::statement::For` types, indicating an iteration over each level in the loop nest.
 
 Each of  these statement types takes three template parameters:
-- 
+- An integral index parameter that binds the statement to the item in the iteration space tuple corresponding to that index
