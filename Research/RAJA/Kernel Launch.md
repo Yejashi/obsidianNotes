@@ -103,5 +103,6 @@ The `RAJA::launch` template is an alternative interface to `RAJA::kernel` that m
 
 `RAJA::launch` optionally allows either host or device execution to be chosen at run time. The method takes an execution policy type that will define the execution environment inside a lambda expression for a kernel to be run on a host, device, or either. 
 
+The `RAJA::launch` framework aims to unify thread/block based programming models such as CUDA/HIP/SYCL while maintaining portability on host back-ends (OpenMP, sequential).
 
 
