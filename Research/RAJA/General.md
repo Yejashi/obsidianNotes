@@ -5,4 +5,4 @@ There are three ways to launch a kernel in RAJA:
 - `RAJA::kernel` 
 - `RAJA::launch` 
 
-A
+
