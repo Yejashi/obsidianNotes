@@ -101,5 +101,7 @@ Here, the innermost type in the kernel policy is a `RAJA::statement::Lambda<0>` 
 #### Hierarchical loops (`RAJA::launch`)
 The `RAJA::launch` template is an alternative interface to `RAJA::kernel` that may be preferred for certain types of complex kernels or based on coding style preferences.
 
-`RAJA::launch` optionally allows either host or device execution to be chosen at run time
+`RAJA::launch` optionally allows either host or device execution to be chosen at run time. The method takes an execution policy type that will define the execution environment inside a lambda expression for a kernel to be run on a host, device, or either. 
+
+
 
