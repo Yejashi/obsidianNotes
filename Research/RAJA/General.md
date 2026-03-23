@@ -36,3 +36,5 @@ The `RAJA::kernel` interface employs similar concepts to `RAJA::forall` but exte
 Each `RAJA::kernel` method is a template that takes an _execution policy_ type template parameter.
 - The execution policy can be an arbitrarily complex sequence of nested templates that define a kernel execution pattern.
 
+
+
