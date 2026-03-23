@@ -109,5 +109,22 @@ As we showed earlier, when using the `RAJA::kernel` interface, developers expres
 
 For example, here is an example of a `RAJA::launch` kernel that copies values from an array in into a _shared memory_ array:
 ```
+RAJA::launch<launch_policy>(select_CPU_or_GPU)
+RAJA::LaunchParams(RAJA::Teams(NE), RAJA::Threads(Q1D)),
+[=] RAJA_HOST_DEVICE (RAJA::Launch ctx) {
 
+  RAJA::loop<team_x> (ctx, RAJA::RAJA::TypedRangeSegment<int>(0, teamRange), [&] (int bx) {
+
+    RAJA_TEAM_SHARED double s_A[SHARE_MEM_SIZE];
+
+    RAJA::loop<thread_x> (ctx, RAJA::RAJA::TypedRangeSegment<int>(0, threadRange), [&] (int tx) {
+      s_A[tx] = tx;
+    });
+
+      ctx.teamSync();
+
+ )};
+
+});
 ```
+
