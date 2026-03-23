@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/RAJA/Kernel Launch.md",
+                "file": "Research/RAJA/Policies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kernel Launch"
+              "title": "Policies"
             }
           }
         ],
@@ -255,8 +255,9 @@
   },
   "active": "58ee6ad8fb031189",
   "lastOpenFiles": [
-    "Research/LLVM/COMDAT Folding.md",
     "Research/RAJA/Kernel Launch.md",
+    "Research/RAJA/Policies.md",
+    "Research/LLVM/COMDAT Folding.md",
     "Research/RAJA",
     "Untitled 4.base",
     "Untitled 3.base",
@@ -292,7 +293,6 @@
     "Research/AMDGPU",
     "Misc/Random Files/raja.svg",
     "Research/LLVM/Passes/Implementations/loop-unroll/Untitled.md",
-    "Excalidraw/Drawing 2025-12-17 09.42.39.excalidraw.md",
     "Research/LLVM/Passes/Implementations/loop-unroll",
     "Meta/Attachments/raja.svg",
     "Meta/Attachments/Bio_251114_215423_page-0001(1).jpg",
