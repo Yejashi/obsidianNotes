@@ -63,5 +63,28 @@ RAJA::forall<exec_policyN>(IN, [=] (int iN) {
 This would work for some execution policy choices, but not in general. Also, this approach treats each loop level as an independent entity, which makes it difficult to parallelize the levels in the loop nest together.
 - For example, if an OpenMP or CUDA parallel execution policy is used on the outermost loop, then all inner loops would be run sequentially in each thread.
 
+The `RAJA::kernel` interface facilitates parallel execution and compile-time transformation of arbitrary loop nests and other complex loop structures. It can treat a complex loop structure as a single entity, which enables the ability to transform and apply different parallel execution patterns by changing the execution policy type and **not the kernel code**, in many cases.
 
+The loop nest above can be written using `RAJA::kernel` as:
+```
+using KERNEL_POL =
+  RAJA::KernelPolicy< RAJA::statement::For<N, exec_policyN,
+                        ...
+                          RAJA::statement::For<0, exec_policy0,
+                            RAJA::statement::Lambda<0>
+                          >
+                        ...
+                      >
+                    >;
 
+RAJA::kernel< KERNEL_POL >(
+  RAJA::make_tuple(RAJA::TypedRangeSegment<int>(0, NN),
+                   ...,
+                   RAJA::TypedRangeSegment<int>(0, N0),
+
+  [=] (int iN, ... , int i0) {
+     // inner loop body
+  }
+
+);
+```
