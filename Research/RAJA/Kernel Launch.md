@@ -93,3 +93,5 @@ In the case here, the execution policy contains a nested sequence of `RAJA::stat
 
 Each of  these statement types takes three template parameters:
 - An integral index parameter that binds the statement to the item in the iteration space tuple corresponding to that index
+- An execution policy type for the associated loop nest level
+- 
