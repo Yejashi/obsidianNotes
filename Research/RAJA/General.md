@@ -8,3 +8,4 @@ There are three ways to launch a kernel in RAJA:
 - `RAJA::launch` 
 	- Creates an execution space in which kernels are written in terms of nested loops using the `RAJA::loop` method
 
+#### Simple Loops ()
