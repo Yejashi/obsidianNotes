@@ -61,6 +61,7 @@ RAJA::forall<exec_policyN>(IN, [=] (int iN) {
 }
 ```
 This would work for some execution policy choices, but not in general. Also, this approach treats each loop level as an independent entity, which makes it difficult to parallelize the levels in the loop nest together.
-- 
+- For example, if an OpenMP or CUDA parallel execution policy is used on the outermost loop, then all inner loops would be run sequentially in each thread.
+
 
 
