@@ -23,4 +23,8 @@ RAJA::forall<exec_policy>(RAJA::TypesRangeSegment<int>(0, N), [=] (int i) {
 });
 ```
 
+`RAJA::forall` is a template that takes an **execution policy** type template parameter.
 
+`RAJA::forall` takes two arguments:
+- An iteration space object
+- 
