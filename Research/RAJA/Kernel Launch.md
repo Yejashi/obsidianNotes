@@ -128,3 +128,5 @@ RAJA::LaunchParams(RAJA::Teams(NE), RAJA::Threads(Q1D)),
 });
 ```
 
+The idea underlying `RAJA::launch` is to enable developers to express hierarchical parallelism in terms of teams and threads.
+
