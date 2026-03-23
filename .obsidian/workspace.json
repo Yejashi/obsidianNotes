@@ -253,8 +253,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "58ee6ad8fb031189",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Research/RAJA",
     "Untitled 4.base",
     "Untitled 3.base",
     "Research/AMDGPU/Kernel Resource Usage.md",
@@ -294,7 +295,6 @@
     "Research/LLVM/Passes/Implementations/loop-unroll",
     "Research/LLVM/Passes/Implementations",
     "Meta/Attachments/raja.svg",
-    "Misc/Random Files",
     "Meta/Attachments/Bio_251114_215423_page-0001(1).jpg",
     "Meta/Attachments/Screenshot_20251113_080206.png",
     "Meta/Attachments/Screenshot_20251113_080134.png",
