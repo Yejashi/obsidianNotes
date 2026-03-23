@@ -105,4 +105,5 @@ The `RAJA::launch` template is an alternative interface to `RAJA::kernel` that m
 
 The `RAJA::launch` framework aims to unify thread/block based programming models such as CUDA/HIP/SYCL while maintaining portability on host back-ends (OpenMP, sequential).
 
+As we showed earlier, when using the `RAJA::kernel` interface, developers express all aspects of nested loop execution in an execution policy type on which the `RAJA::kernel` method is templated. In contrast, the `RAJA::launch` interface allows users to express nested loop execution in a manner that more closely reflects how one would write conventional nested C-style for-loop code.
 
