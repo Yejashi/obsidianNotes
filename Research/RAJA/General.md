@@ -29,4 +29,4 @@ RAJA::forall<exec_policy>(RAJA::TypesRangeSegment<int>(0, N), [=] (int i) {
 - An iteration space object
 - A single lambda expression representing the loop kernel body
 
-
+#### Complex Loops (`RAJA::kernel)
