@@ -98,3 +98,4 @@ Each of  these statement types takes three template parameters:
 
 Here, the innermost type in the kernel policy is a `RAJA::statement::Lambda<0>` type indicating that the first lambda expression (argument zero of a sequence of lambdas passed to the `RAJA::kernel` method) will comprise the inner loop body.
 
+#### Hierarchical loops (`RAJA::launch`)
