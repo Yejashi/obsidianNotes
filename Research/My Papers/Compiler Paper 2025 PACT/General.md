@@ -1,3 +1,3 @@
 Experimental Configuration
 - Programming models: Native, RAJA
-- Target Backends: 
+- Target Backends: HIP, OpenMP
