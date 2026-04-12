@@ -9,4 +9,6 @@ Execution Configuration
 - Compiler: ROCm 6.4.0
 - 20 runs per configuration
 - OpenMP Configuration
-	- Num ranks: 
+	- Number of  ranks: 1
+	- Number of cores: 84
+	- 
