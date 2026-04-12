@@ -13,6 +13,7 @@ Execution Configuration
 	- Number of  ranks: 1
 	- Number of cores per rank: 84
 	- Number of threads: 84
+	- Per rank problem sizes: 
 - HIP Configuration
 	- RAJAPerf Variants: RAJA_HIP, Base_HIP
 	- Number of ranks: 4
