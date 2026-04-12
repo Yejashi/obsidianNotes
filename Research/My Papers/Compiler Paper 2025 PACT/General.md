@@ -20,8 +20,3 @@ Execution Configuration
 	- Number of GPUs per rank: 1
 	- Per rank problem sizes: 2M, 8M, 32M
 
-Variance: 
-- Basic_ARR_PTRS: 
-	- 8M
-		- base: 55 73 51
-		- raja: 55 73 51
