@@ -18,4 +18,4 @@ Execution Configuration
 	- RAJAPerf Variants: RAJA_HIP, Base_HIP
 	- Number of ranks: 4
 	- Number of GPUs per rank: 1
-	- Per rank problem sizes: 
+	- Per rank problem sizes: 2M, 
