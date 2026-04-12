@@ -220,11 +220,11 @@
   },
   "active": "4571c9e0b153545e",
   "lastOpenFiles": [
+    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
+    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
     "Meta/Attachments/Pasted image 20260412173518.png",
     "Meta/Attachments/Pasted image 20260412173500.png",
-    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
     "Meta/Attachments/Pasted image 20260412173337.png",
-    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
     "Meta/Attachments/Pasted image 20260412172219.png",
     "Meta/Attachments/Screenshot_20260412_171330.png",
     "Meta/Attachments/Screenshot_20260412_171246.png",
@@ -264,7 +264,6 @@
     "Research/AMDGPU/Intro To Register Pressure.md",
     "Research/LLVM/Code Comparison",
     "Misc/Random Files/raja.svg",
-    "Meta/Attachments/raja.svg",
-    "Meta/Attachments/Bio_251114_215423_page-0001(1).jpg"
+    "Meta/Attachments/raja.svg"
   ]
 }
