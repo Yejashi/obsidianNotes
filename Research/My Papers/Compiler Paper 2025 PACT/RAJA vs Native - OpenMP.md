@@ -7,4 +7,4 @@ Kernels to Analyze:
 - Apps_LTIMES, Apps_LTIMES_NO_VIEW
 - Basic_IF_QUAD
 - Basic_INIT_VIEW1D, Basic_INIT_VIEW1D_OFFSET
-- 
+- Basic_NEWSTED_INIT
