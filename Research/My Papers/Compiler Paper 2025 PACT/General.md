@@ -6,5 +6,5 @@ Experimental Search Space
 
 Execution Configuration
 - System: LLNL Tuolumne
-- Compiler: rocm/6.4.0
+- Compiler: ROCm 6.4.0
 - 
