@@ -9,8 +9,9 @@ Execution Configuration
 - Compiler: ROCm 6.4.0
 - 20 runs per configuration
 - OpenMP Configuration
+	- RAJAPerf Variant: RAJA_HIP
 	- Number of  ranks: 1
 	- Number of cores: 84
 	- Number of threads: 84
 - HIP Configuration
-	- 
+	- RAJAPerf Variant: 
