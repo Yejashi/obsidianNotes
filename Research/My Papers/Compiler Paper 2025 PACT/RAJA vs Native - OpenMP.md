@@ -7,4 +7,5 @@ Kernels to Analyze:
 - Apps_LTIMES
 - Apps_LTIMES_NO_VIEW
 - Basic_DAXPY
+- Basic_IF_QUAD
 - 
