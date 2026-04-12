@@ -17,4 +17,3 @@ Execution Configuration
 	- RAJAPerf Variants: RAJA_HIP, Base_HIP
 	- Number of ranks: 4
 	- Number of GPUs per rank: 1
-	- Number of 
