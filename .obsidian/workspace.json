@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -218,10 +218,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd5f8020d90a7465",
+  "active": "4571c9e0b153545e",
   "lastOpenFiles": [
-    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
     "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
+    "Meta/Attachments/Pasted image 20260412193845.png",
+    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
     "Meta/Attachments/Pasted image 20260412173518.png",
     "Meta/Attachments/Pasted image 20260412173500.png",
     "Meta/Attachments/Pasted image 20260412173337.png",
@@ -263,7 +264,6 @@
     "Research/LLVM/Code Comparison/Metrics To Collect.md",
     "Research/AMDGPU/Intro To Register Pressure.md",
     "Research/LLVM/Code Comparison",
-    "Misc/Random Files/raja.svg",
-    "Meta/Attachments/raja.svg"
+    "Misc/Random Files/raja.svg"
   ]
 }
