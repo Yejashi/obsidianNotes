@@ -11,7 +11,7 @@ Execution Configuration
 - OpenMP Configuration
 	- RAJAPerf Variants:  RAJA_OpenMP, Base_OpenMP
 	- Number of  ranks: 1
-	- Number of cores: 84
+	- Number of cores per rank: 84
 	- Number of threads: 84
 - HIP Configuration
 	- RAJAPerf Variants: RAJA_HIP, Base_HIP
