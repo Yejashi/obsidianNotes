@@ -7,6 +7,5 @@ Experimental Search Space
 Execution Configuration
 - System: LLNL Tuolumne
 - Compiler: ROCm 6.4.0
-- RAJAPerf Configuration
-	- HIP
-		- block_256, launch_256, 
+- 20 runs per configuration
+
