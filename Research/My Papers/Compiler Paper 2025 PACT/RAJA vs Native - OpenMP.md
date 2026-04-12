@@ -2,3 +2,7 @@
 
 ![[Pasted image 20260412173518.png]]
 
+Kernels to Analyze:
+- Apps_FIR
+- Apps_LTIMES
+- 
