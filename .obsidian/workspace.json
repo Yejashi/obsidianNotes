@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/General.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RAJA vs Native - HIP"
+              "title": "General"
             }
           }
         ]
@@ -190,9 +190,9 @@
   },
   "active": "58ee6ad8fb031189",
   "lastOpenFiles": [
+    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
     "Research/My Papers/Compiler Paper 2025 PACT/General.md",
     "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
-    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
     "Research/RAJA/Kernel Launch.md",
     "Research/My Papers/Compiler Paper 2025 PACT",
     "Research/My Papers",
