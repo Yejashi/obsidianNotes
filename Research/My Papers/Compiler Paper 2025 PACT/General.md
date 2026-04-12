@@ -8,4 +8,4 @@ Execution Configuration
 - System: LLNL Tuolumne
 - Compiler: ROCm 6.4.0
 - RAJAPerf Configuration
-	- 
+	- Variant: RAJA_
