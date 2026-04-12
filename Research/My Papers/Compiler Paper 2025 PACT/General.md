@@ -8,5 +8,5 @@ Execution Configuration
 - System: LLNL Tuolumne
 - Compiler: ROCm 6.4.0
 - 20 runs per configuration
-
-Kernel, 
+- OpenMP Configuration
+	- Num ranks: 
