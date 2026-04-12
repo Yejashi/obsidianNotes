@@ -77,16 +77,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/RAJA/Policies.md",
+                "file": "Research/RAJA/Kernel Launch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Policies"
+              "title": "Kernel Launch"
+            }
+          },
+          {
+            "id": "f40f445e5b62aa58",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -249,14 +261,13 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "58ee6ad8fb031189",
+  "active": "f40f445e5b62aa58",
   "lastOpenFiles": [
-    "Research/RAJA/Kernel Launch.md",
     "Research/RAJA/Policies.md",
+    "Research/RAJA/Kernel Launch.md",
     "Research/LLVM/COMDAT Folding.md",
     "Research/RAJA",
     "Untitled 4.base",
