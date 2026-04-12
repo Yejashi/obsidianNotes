@@ -12,3 +12,5 @@ Execution Configuration
 	- Number of  ranks: 1
 	- Number of cores: 84
 	- Number of threads: 84
+- HIP Configuration
+	- 
