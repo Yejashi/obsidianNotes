@@ -84,21 +84,9 @@
               "icon": "lucide-file",
               "title": "Kernel Launch"
             }
-          },
-          {
-            "id": "f40f445e5b62aa58",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.7"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -261,11 +249,14 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f40f445e5b62aa58",
+  "active": "f0d02b7e14bb3256",
   "lastOpenFiles": [
+    "Research/My Papers/Untitled",
+    "Research/My Papers",
     "Research/RAJA/Policies.md",
     "Research/RAJA/Kernel Launch.md",
     "Research/LLVM/COMDAT Folding.md",
@@ -303,8 +294,6 @@
     "Research/LLVM/Passes/Implementations/loop-unroll/tryToUnrollLoop.md",
     "Research/AMDGPU",
     "Misc/Random Files/raja.svg",
-    "Research/LLVM/Passes/Implementations/loop-unroll/Untitled.md",
-    "Research/LLVM/Passes/Implementations/loop-unroll",
     "Meta/Attachments/raja.svg",
     "Meta/Attachments/Bio_251114_215423_page-0001(1).jpg",
     "Meta/Attachments/Screenshot_20251113_080206.png",
