@@ -16,3 +16,4 @@ Kernels to Analyze:
 	- Apps_MASS3DPA
 	- Basic_INDEXLIST_3LOOP
 
+![[Pasted image 20260412214756.png]]
