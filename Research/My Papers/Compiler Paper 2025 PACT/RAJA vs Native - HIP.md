@@ -17,7 +17,7 @@
 - Apps_EDGE3D??
 - Apps_MASS3DEA
 - Apps_MASS3DPA
-- Basic_INDEXLIST_3LOO : Removed due to high variance
+- Basic_INDEXLIST_3LOOP : Removed due to high variance
 
 ![[Screenshot_20260412_215052.png]]
 
