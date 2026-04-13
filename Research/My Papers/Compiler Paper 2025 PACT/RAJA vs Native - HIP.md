@@ -18,4 +18,4 @@ Kernels to Analyze:
 	
 ![[Pasted image 20260412214919.png]]
 
-![[Pasted image 20260412215009.png]] ![[Pasted image 20260412215011.png]]
+![[Pasted image 20260412215009.png]]
