@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/My Papers/Compiler Paper 2025 PACT/Untitled.md",
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Cross Target Backend Analysis"
+            }
+          },
+          {
+            "id": "5d8d91d2a163644e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RAJA vs Native - HIP"
             }
           },
           {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -218,10 +232,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cd5f8020d90a7465",
+  "active": "5d8d91d2a163644e",
   "lastOpenFiles": [
+    "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
     "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
-    "Research/My Papers/Compiler Paper 2025 PACT/Untitled.md",
     "Meta/Attachments/Pasted image 20260412215925.png",
     "Meta/Attachments/Pasted image 20260412215805.png",
     "Meta/Attachments/Screenshot_20260412_215052.png",
