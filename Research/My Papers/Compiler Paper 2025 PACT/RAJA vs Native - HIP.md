@@ -32,3 +32,4 @@ Guided by these high-level observations, we then narrow the analysis to metrics 
 
 ![[Pasted image 20260413005058.png]]
 ![[Pasted image 20260413005109.png]]
+![[Pasted image 20260413005127.png]]
