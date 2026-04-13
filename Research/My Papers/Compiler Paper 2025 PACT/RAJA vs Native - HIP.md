@@ -17,7 +17,7 @@
 
 **Polybench ADI**:
 Figures:
-- s
+- ![[Pasted image 20260413030245.png]]
 	- Panel A: It shows RAJA’s hot loop is structurally more complex
 		- RAJA presents a more fragmented hot loop
 		- this may make recurrence optimization harder
