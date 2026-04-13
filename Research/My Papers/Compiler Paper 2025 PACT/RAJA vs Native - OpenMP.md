@@ -1,6 +1,7 @@
 ![[Pasted image 20260412193904.png]]
 ![[Pasted image 20260412194926.png]]
 Kernels to Analyze:
+- Apps_MEMSET
 - Apps_FIR
 - Apps_LTIMES, Apps_LTIMES_NO_VIEW
 - Basic_IF_QUAD
