@@ -7,3 +7,4 @@ Kernels to Analyze:
 - Basic_INIT_VIEW1D, Basic_INIT_VIEW1D_OFFSET
 - Basic_NEWSTED_INIT
 
+![[Pasted image 20260412223109.png]]
