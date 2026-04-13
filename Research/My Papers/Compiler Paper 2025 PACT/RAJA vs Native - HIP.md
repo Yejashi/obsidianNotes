@@ -2,8 +2,8 @@
 
 ![[Pasted image 20260412194907.png]]
 
-- Optimization Agnostic
-	- Apps_CONVECTION3DPA ??
+Optimization Agnostic
+- Apps_CONVECTION3DPA ??
 	- Apps_DIFFUSION3DPA 
 	- Polybench_ADI
 	- Polybench_ATAX
