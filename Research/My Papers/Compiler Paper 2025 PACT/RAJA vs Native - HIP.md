@@ -8,7 +8,7 @@ Kernels to Analyze:
 	- Apps_DIFFUSION3DPA 
 	- Polybench_ADI
 	- Polybench_ATAX
-	- Polybench_GEMVER
+	- Polybench_GEMVER, Polybench_GEMM
 	- Polybench_MVT
 - Optimization Sensitive
 	- Apps_EDGE3D??
