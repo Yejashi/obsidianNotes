@@ -4,4 +4,5 @@
 
 Kernels to Analyze:
 - Apps_CONVECTION3DPA
+- Apps_DIFFUSION3DPA
 
