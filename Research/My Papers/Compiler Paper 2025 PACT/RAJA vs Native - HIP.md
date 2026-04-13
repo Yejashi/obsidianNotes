@@ -2,7 +2,7 @@
 
 ![[Pasted image 20260412194907.png]]
 
-Optimization Agnostic:
+**Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
 - Apps_DIFFUSION3DPA 
 - Polybench_ADI
@@ -14,10 +14,12 @@ Optimization Agnostic:
 ![[Pasted image 20260412214919.png]]
 
 
-Optimization Sensitive:
+
+**Optimization Sensitive**:
 - Apps_EDGE3D??
 - Apps_MASS3DEA
 - Apps_MASS3DPA
 - Basic_INDEXLIST_3LOOP
+
 ![[Screenshot_20260412_215052.png]]
 
