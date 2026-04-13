@@ -27,12 +27,7 @@ Figures:
 		- RAJA largely loses that forwarding
 	- Caption: IR evidence for the performance degradation of RAJA in Polybench ADI at -O1. Panel (a) shows that RAJA introduces a more complex hot-loop CFG. Panel (b) shows that the native implementation preserves more loop-carried PHIs and forwarded values, indicating more effective register-level propagation of recurrence values. Panel (c) shows that RAJA correspondingly exhibits substantially higher load count, GEP count, and live SSA pressure, consistent with recurrence values being materialized through memory rather than forwarded through registers
 Polybench ADI implements an Alternating Direction Implicit (ADI) method, a numerical scheme used to solve partial differential equations such as diffusion problems. The computation consists of two sweeps—column-wise and row-wise—each performing forward and backward passes that resemble tridiagonal solves. These passes introduce strong loop-carried dependencies, where values computed in one iteration (e.g., 
-p[i][j−1]
-p[i][j−1], 
-q[i][j−1]
-q[i][j−1], or 
-v[k+1][i]
-v[k+1][i]) are immediately consumed in the next. As a result, ADI is inherently recurrence-dominated, and efficient execution depends on the compiler’s ability to retain these recurrence values in registers and propagate them across iterations via SSA-based forwarding rather than repeatedly reloading them from memory. This makes ADI a particularly sensitive benchmark for evaluating how well compilers preserve and optimize loop-carried dependencies.
+are immediately consumed in the next. As a result, ADI is inherently recurrence-dominated, and efficient execution depends on the compiler’s ability to retain these recurrence values in registers and propagate them across iterations via SSA-based forwarding rather than repeatedly reloading them from memory. This makes ADI a particularly sensitive benchmark for evaluating how well compilers preserve and optimize loop-carried dependencies.
 
 We begin by examining high-level structural IR metrics to understand how the RAJA and native implementations differ in their representation (Figure X, left). While both implementations encode the same algorithm, the RAJA version exhibits consistently higher inner-loop control-flow complexity, with increases in maximum inner-loop cyclomatic complexity, basic blocks, and branch instructions (e.g., 3 vs. 2 for cyclomatic complexity, and 3 vs. 1 for both basic blocks and branches). These differences indicate that the RAJA kernel introduces a more fragmented control-flow structure within the hot loop. Such structural complexity can obscure canonical loop forms and make it more difficult for the compiler to recognize recurrence patterns and apply loop optimizations that rely on them.
 
