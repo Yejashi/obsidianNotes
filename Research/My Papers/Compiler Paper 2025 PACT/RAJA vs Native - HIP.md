@@ -10,8 +10,7 @@
 - Polybench_GEMVER, Polybench_GEMM
 - Polybench_MVT
 
-	
-![[Pasted image 20260412214919.png]]
+![[Pasted image 20260412215805.png]]
 
 
 
