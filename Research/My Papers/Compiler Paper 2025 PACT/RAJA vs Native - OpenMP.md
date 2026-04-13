@@ -8,3 +8,5 @@ Kernels to Analyze:
 - Basic_NEWSTED_INIT
 
 ![[Pasted image 20260412223109.png]]
+![[Pasted image 20260412223119.png]]
+![[Pasted image 20260412223124.png]]
