@@ -6,7 +6,10 @@ Kernels to Analyze:
 - Optimization Agnostic
 	- Apps_CONVECTION3DPA ??
 	- Apps_DIFFUSION3DPA 
-	- 
+	- Polybench_ADI
+	- Polybench_ATAX
+	- Polybench_GEMVER
+	- Polybench_MVT
 - Optimization Sensitive
 	- Apps_EDGE3D??
 	- Apps_MASS3DEA
