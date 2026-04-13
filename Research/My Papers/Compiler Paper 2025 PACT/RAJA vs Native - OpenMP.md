@@ -6,7 +6,6 @@ Kernels to Analyze:
 - Basic_IF_QUAD
 - Basic_INIT_VIEW1D, Basic_INIT_VIEW1D_OFFSET
 - Basic_NEWSTED_INIT
+![[Pasted image 20260412225135.png]]
+![[Pasted image 20260412225139.png]]![[Pasted image 20260412225143.png]]
 
-![[Pasted image 20260412223109.png]]
-![[Pasted image 20260412223119.png]]
-![[Pasted image 20260412223124.png]]
