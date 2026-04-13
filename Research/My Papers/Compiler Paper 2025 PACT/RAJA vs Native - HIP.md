@@ -34,6 +34,9 @@ We then focus on metrics that capture recurrence structure and value propagation
 
 Finally, we examine the consequences of this difference (Figure X, right). The RAJA implementation shows a substantial increase in memory and address-generation activity, with significantly higher load instructions (85 vs. 31), GEP instructions (113 vs. 70), and live SSA values (18 vs. 12). Here, GEP (GetElementPtr) instructions represent address computations for memory accesses, so their increase reflects more complex or frequent indexing operations. Together, these metrics indicate that values which could otherwise be retained and reused in registers are instead recomputed or repeatedly loaded from memory, increasing both register pressure and memory traffic. In the context of ADI’s recurrence-heavy computation, this pattern is consistent with the loss of forwarding observed earlier: the additional control-flow complexity in RAJA likely prevents the compiler from recognizing recurrence relationships, resulting in missed opportunities for register reuse and increased reliance on memory accesses. This behavior aligns with the observed performance degradation of the RAJA implementation relative to the native version.
 
+**Polybench_ATAX, POlybench_GEMVER, Polybench_MVT**:
+
+
 **Optimization Sensitive**:
 - Apps_EDGE3D??
 - Apps_MASS3DEA
