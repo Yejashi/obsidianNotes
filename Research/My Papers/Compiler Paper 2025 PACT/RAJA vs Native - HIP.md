@@ -3,6 +3,9 @@
 ![[Pasted image 20260412194907.png]]
 
 Kernels to Analyze:
-- Apps_CONVECTION3DPA
-- Apps_DIFFUSION3DPA
+- Agnostic
+	- Apps_CONVECTION3DPA 
+	- Apps_DIFFUSION3DPA -5
+	- 
+- 
 
