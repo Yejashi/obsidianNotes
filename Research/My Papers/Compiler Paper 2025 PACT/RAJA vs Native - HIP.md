@@ -18,6 +18,7 @@
 **Polybench ADI**:
 Figures:
 - s
+	- Panel A: 
 	- Caption: RAJA reduces loop-carried PHI forwarding and increases inner-loop load counts, indicating that recurrence values are not retained in registers but instead materialized through memory
 Polybench ADI implements an Alternating Direction Implicit (ADI) method, a numerical scheme commonly used to solve partial differential equations such as diffusion problems. The computation consists of two sweeps—column-wise and row-wise—each performing forward and backward passes that resemble a tridiagonal solve. These sweeps introduce strong **loop-carried dependencies**, where values computed in one iteration (e.g., `p[i][j-1]`, `q[i][j-1]`, or `v[k+1][i]`) are immediately consumed in the next. As a result, the algorithm is inherently **recurrence-dominated**, and its efficient execution relies on keeping these recurrence values in registers and forwarding them across iterations rather than repeatedly accessing memory. This makes ADI a particularly sensitive benchmark for evaluating how well a compiler preserves and optimizes loop-carried data dependencies.
 
