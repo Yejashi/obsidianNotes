@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "cd5f8020d90a7465",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cross Target Backend Analysis"
-            }
-          },
-          {
             "id": "5d8d91d2a163644e",
             "type": "leaf",
             "state": {
@@ -61,6 +47,20 @@
               },
               "icon": "lucide-file",
               "title": "RAJA vs Native - OpenMP"
+            }
+          },
+          {
+            "id": "cd5f8020d90a7465",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cross Target Backend Analysis"
             }
           }
         ],
@@ -232,10 +232,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5d8d91d2a163644e",
+  "active": "4571c9e0b153545e",
   "lastOpenFiles": [
-    "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
     "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
+    "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
     "Meta/Attachments/Pasted image 20260412215925.png",
     "Meta/Attachments/Pasted image 20260412215805.png",
     "Meta/Attachments/Screenshot_20260412_215052.png",
