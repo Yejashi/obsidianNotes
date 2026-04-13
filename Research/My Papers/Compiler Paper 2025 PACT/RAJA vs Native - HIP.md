@@ -17,5 +17,8 @@ Kernels to Analyze:
 	- Basic_INDEXLIST_3LOOP
 	
 ![[Pasted image 20260412214919.png]]
+
+
+
 ![[Screenshot_20260412_215052.png]]
 
