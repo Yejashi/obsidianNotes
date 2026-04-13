@@ -10,8 +10,7 @@
 - Polybench_GEMVER, Polybench_GEMM
 - Polybench_MVT
 
-![[Pasted image 20260412215805.png]]
-
+![[Pasted image 20260412215925.png]]
 
 
 **Optimization Sensitive**:
