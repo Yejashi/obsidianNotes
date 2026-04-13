@@ -4,24 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "4d53dd82012876db",
+        "id": "6eb094790d4048f0",
         "type": "tabs",
         "children": [
           {
-            "id": "642a5b7024d4bc0d",
+            "id": "58ee6ad8fb031189",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/LLNL Project/Code Refactoring Approach/Extraction Plugin.md",
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/General.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Extraction Plugin"
+              "title": "General"
+            }
+          },
+          {
+            "id": "5d8d91d2a163644e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RAJA vs Native - HIP"
+            }
+          },
+          {
+            "id": "4571c9e0b153545e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RAJA vs Native - OpenMP"
+            }
+          },
+          {
+            "id": "cd5f8020d90a7465",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cross Target Backend Analysis"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "registrat",
+                "query": "autocom",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 200
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -162,8 +205,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -171,7 +214,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,53 +231,53 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "5d8d91d2a163644e",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
+    "Meta/Attachments/Pasted image 20260413063136.png",
+    "Meta/Attachments/Pasted image 20260413061955.png",
+    "Meta/Attachments/Pasted image 20260413061439.png",
+    "Meta/Attachments/Pasted image 20260413045027.png",
+    "Meta/Attachments/Pasted image 20260413030245.png",
+    "Meta/Attachments/Pasted image 20260413005127.png",
+    "Meta/Attachments/Pasted image 20260413005109.png",
+    "Meta/Attachments/Pasted image 20260413005058.png",
+    "Meta/Attachments/Pasted image 20260413004821.png",
+    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
+    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
+    "Meta/Attachments/Pasted image 20260412225229.png",
+    "Meta/Attachments/Pasted image 20260412225225.png",
+    "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
+    "Research/My Papers/Compiler Paper 2025 PACT/General.md",
+    "Research/RAJA/Kernel Launch.md",
+    "Research/My Papers/Compiler Paper 2025 PACT",
+    "Research/My Papers",
+    "Research/RAJA/Policies.md",
+    "Research/LLVM/COMDAT Folding.md",
+    "Research/RAJA",
+    "Untitled 4.base",
+    "Untitled 3.base",
+    "Research/AMDGPU/Kernel Resource Usage.md",
     "Research/LLNL Project/Code Refactoring Approach/Extraction Plugin.md",
-    "Research/LLNL Project/Code Refactoring Approach/Untitled",
-    "Research/LLNL Project/Code Refactoring Approach",
-    "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
-    "Research/LLVM/Passes/Pass Manager/Pass Manager General.md",
-    "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
-    "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations (HIP) (RAJA vs Base).md",
+    "conflict-files-obsidian-git.md",
     "Misc/Software Ideas/Optimization Visualizer.md",
-    "Excalidraw/occupancy.md",
+    "Research/LLNL Project/Code Refactoring Approach",
+    "Misc/Software Ideas/Linux System-Wide Text Auto-complete.md",
     "Excalidraw/Drawing 2026-02-27 08.41.57.excalidraw.md",
     "Excalidraw/Drawing 2026-02-06 19.04.18.excalidraw.md",
+    "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
+    "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
+    "Progress Writing/Progress.md",
+    "Research/Papers/Dynist/Dyninst paper.md",
+    "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
+    "Excalidraw/occupancy.md",
+    "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations (HIP) (RAJA vs Base).md",
     "Excalidraw/Drawing 2026-01-17 14.27.33.excalidraw.md",
-    "Meta/Attachments/Pasted Image 20260112131933_619.png",
-    "Meta/Attachments/Pasted Image 20260112131822_109.png",
-    "Excalidraw/Drawing 2026-01-12 13.09.37.excalidraw.md",
-    "Research/LLVM/Passes/Implementations/loop-unroll/tryToUnrollLoop.md",
-    "Research/LLVM/Passes/Implementations/loop-unroll/Untitled.md",
-    "Research/LLVM/Passes/Implementations/loop-unroll",
-    "Research/LLVM/Passes/Implementations",
+    "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
+    "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Untitled.base",
     "Research/LLVM/Code Comparison/Metrics To Collect.md",
-    "Research/LLVM/Code Comparison",
-    "Research/LLVM/API/llvm loop.md",
-    "Research/LLVM/API",
-    "Research/AMDGPU/Intro To Register Pressure.md",
-    "Research/AMDGPU",
-    "Misc/Random Files/raja.svg",
-    "Misc/Random Files",
-    "Meta/Attachments/raja.svg",
-    "Excalidraw/Drawing 2025-12-17 09.42.39.excalidraw.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT/bogale_copt_report.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/COPT",
-    "Research/LLVM/Optimizations/Sources/copy_prop_muchnick.pdf",
-    "Research/LLVM/DWARF/DWARF General.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Notes.md",
-    "Class/Year 2/Fall 2025/Compilers Construction COSC561/Midterm 2/Study Guide.md",
-    "Meta/Attachments/Bio_251114_215423_page-0001(1).jpg",
-    "Class/Year 2/Fall 2025/Bio Informatics Computing/Homeworks/hw5/report.md",
-    "Meta/Attachments/Screenshot_20251113_080206.png",
-    "Meta/Attachments/Screenshot_20251113_080134.png",
-    "Meta/Attachments/Screenshot_20251113_023741.png",
-    "Meta/Attachments/Screenshot_20251113_021746.png",
-    "Meta/Attachments/Screenshot_20251113_021654.png",
-    "Research/LLVM/Specific Passes.md",
-    "Research/LLVM/Passes/Remark Limitations.md"
+    "Research/LLVM/Code Comparison"
   ]
 }
