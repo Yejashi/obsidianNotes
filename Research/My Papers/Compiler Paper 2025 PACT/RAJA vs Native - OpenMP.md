@@ -21,6 +21,7 @@ Kernels with high run-to-run variance are excluded to ensure that observed diffe
 **Apps_FIR**
 
 **Apps_LTIMES**
+At -O1, the 40% slowdown in RAJA’s Apps_LTIMES implementation is most plausibly associated with increased control-flow and dataflow complexity rather than increased arithmetic work or explicit memory-operation counts. The RAJA version introduces additional basic blocks and branch edges, along with a substantial increase in live SSA values, suggesting that abstraction-related structure is fragmenting the loop body and inflating the compiler’s live working set. This likely reduces the compiler’s ability to generate compact, efficient code even before higher optimization levels begin to alter memory traffic more visibly.
 
 **Apps_LTIMES_NOVIEW**
 
