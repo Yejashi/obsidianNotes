@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "RAJA vs Native - OpenMP"
             }
+          },
+          {
+            "id": "339faa612d4642fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/Hail Mary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hail Mary"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,8 +203,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "642a5b7024d4bc0d",
+  "active": "339faa612d4642fb",
   "lastOpenFiles": [
+    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
+    "Research/My Papers/Compiler Paper 2025 PACT/Hail Mary.md",
+    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
     "Meta/Attachments/Pasted image 20260414095729.png",
     "Research/LLNL Project/Code Refactoring Approach/Extraction Plugin.md",
     "conflict-files-obsidian-git.md",
@@ -199,8 +217,6 @@
     "Research/RAJA/Policies.md",
     "Research/RAJA/Kernel Launch.md",
     "Research/RAJA",
-    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
-    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
     "Research/My Papers/Compiler Paper 2025 PACT/General.md",
     "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
     "Research/My Papers/Compiler Paper 2025 PACT",
@@ -215,7 +231,6 @@
     "Meta/Attachments/Pasted image 20260413061439.png",
     "Meta/Attachments/Pasted image 20260413045027.png",
     "Meta/Attachments/Pasted image 20260413030245.png",
-    "Meta/Attachments/Pasted image 20260413005127.png",
     "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
     "Research/LLNL Project/Code Refactoring Approach/Untitled",
     "Research/LLNL Project/Code Refactoring Approach",
