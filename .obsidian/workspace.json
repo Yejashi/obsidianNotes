@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Extraction Plugin"
             }
+          },
+          {
+            "id": "8585cdb0975932ce",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,11 +197,10 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "020db7076d3db4d7",
+  "active": "8585cdb0975932ce",
   "lastOpenFiles": [
     "Untitled 4.base",
     "Untitled 3.base",
