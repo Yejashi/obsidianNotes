@@ -14,6 +14,10 @@ In particular, we include paired kernels such as _Apps_LTIMES_ and _Apps_LTIMES_
 
 Kernels with high run-to-run variance are excluded to ensure that observed differences are stable and attributable to structural effects rather than measurement noise.
 
+![[Pasted image 20260414095729.png]]
+
+
+
 ![[Pasted image 20260412225221.png]]
 ![[Pasted image 20260412225225.png]]
 ![[Pasted image 20260412225229.png]]
