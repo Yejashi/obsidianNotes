@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Extraction Plugin"
             }
-          },
-          {
-            "id": "8585cdb0975932ce",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
