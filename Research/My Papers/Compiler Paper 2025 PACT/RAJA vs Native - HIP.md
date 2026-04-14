@@ -11,8 +11,7 @@
 - Polybench_MVT
 
 ![[Pasted image 20260412215925.png]]
-
-![[Pasted image 20260413004821.png]]
+![[Pasted image 20260414041633.png]]
 
 
 **Polybench ADI**:
