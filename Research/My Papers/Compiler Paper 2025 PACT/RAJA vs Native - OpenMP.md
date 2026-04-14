@@ -17,4 +17,17 @@ Kernels with high run-to-run variance are excluded to ensure that observed diffe
 ![[Pasted image 20260414095729.png]]
 
 **Apps_MEMSET**
-**Apps_**
+
+**Apps_FIR**
+
+**Apps_LTIMES**
+
+**Apps_LTIMES_NOVIEW**
+
+**Basic_INIT_VIEW1D**
+
+**Basic_INIT_VIEW1D_OFFSET**
+
+**Basic_NESTED_INIT**
+
+**Polybench_3MM**
