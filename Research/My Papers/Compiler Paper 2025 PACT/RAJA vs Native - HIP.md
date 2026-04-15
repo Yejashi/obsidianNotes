@@ -15,6 +15,7 @@ RAJA-favorable (RAJA outperforms Native by 5–10%):
 
 **RAJA-unfavorable** (RAJA incurs 13–54% overhead):
 - `Polybench_ADI` — An Alternating Direction Implicit solver that performs sequential sweeps along alternating spatial dimensions, exhibiting loop-carried dependencies (recurrences) within each sweep.
+- `Polybench_ATAX` — A matrix transpose–times–vector product (AT(Ax)AT(Ax)), composed of two successive matrix-vector operations.
 
 
 
