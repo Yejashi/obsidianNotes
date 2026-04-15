@@ -30,6 +30,7 @@ Before examining fine-grained IR metrics, we first survey the high-level structu
 
 
 
+
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
 - Apps_DIFFUSION3DPA 
