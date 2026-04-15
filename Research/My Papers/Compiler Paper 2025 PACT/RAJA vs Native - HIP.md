@@ -10,6 +10,7 @@ We address the optimization-agnostic kernels first, as their stability across op
 
 We select seven optimization-agnostic kernels spanning three runtime behaviors for further analysis:
 RAJA-favorable (RAJA outperforms Native by 5–10%):
+- Apps_CONVECTION3DPA — A 3D partial assembly operator for convection, involving tensor contractions over hexahedral elements with shared-memory staging of element data.
 - 
 
 
