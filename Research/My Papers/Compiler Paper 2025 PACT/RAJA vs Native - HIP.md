@@ -101,6 +101,8 @@ Polybench_ADI exhibits the largest performance degradation in our study (+52.4% 
 
 In the Native variant, the compiler recognizes this recurrence and implements store-to-load forwarding: the value stored at iteration $i$ is kept in a register and forwarded directly to the load at iteration $i+1$, avoiding a round-trip to memory. This is reflected in the IR by the presence of PHI nodes that carry the recurrent value across loop iterations.
 
+The RAJA variant disrupts this pattern. RAJA's lambda-based loop body creates an abstraction boundary that, even after inlining, prevents the compiler from recognizing the cross-iteration dependency. The result is visible in Figure W: RAJA has 12.7% more load instructions (proportionally) and 2.9% fewer stores, consistent with a pattern where recurrent values are reloaded from memory rather than forwarded through registers.
+
 
 
 
