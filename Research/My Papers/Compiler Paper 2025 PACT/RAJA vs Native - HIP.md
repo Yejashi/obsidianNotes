@@ -2,7 +2,9 @@
 
 ![[Pasted image 20260412194907.png]]
 
-
+To understand the structural origins of the runtime differences observed between Native HIP and RAJA HIP, we perform a static analysis of the LLVM IR generated for each variant. We begin by identifying all kernels whose runtime percent difference between Native and RAJA is statistically significant across all three optimization levels (O1, O2, O3). From these, we partition the kernels into two categories based on how the performance gap responds to optimization level:
+- **Optimization-Agnostic**: Kernels where the relative performance difference between Native and RAJA remains stable across O1, O2, and O3. The optimizer neither closes nor widens the gap — the structural cause of the difference is baked into the IR in a way that survives all optimization passes
+- 
 
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
