@@ -36,6 +36,34 @@
             }
           },
           {
+            "id": "c0983810545b5cad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/Hail Mary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hail Mary"
+            }
+          },
+          {
+            "id": "b4c669c3402ade4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RAJA vs Native - HIP"
+            }
+          },
+          {
             "id": "4571c9e0b153545e",
             "type": "leaf",
             "state": {
@@ -121,7 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 280.5004348754883
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -234,9 +262,9 @@
   "active": "5d8d91d2a163644e",
   "lastOpenFiles": [
     "Research/My Papers/Compiler Paper 2025 PACT/Hail Mary.md",
+    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
     "Meta/Attachments/Pasted image 20260414095729.png",
     "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
-    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
     "Meta/Attachments/Pasted image 20260414041633.png",
     "conflict-files-obsidian-git.md",
     "Meta/Attachments/Pasted image 20260413063136.png",
