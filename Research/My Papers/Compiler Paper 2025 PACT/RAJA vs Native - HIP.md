@@ -30,6 +30,7 @@ The inclusion of `Polybench_GESUMMV` is deliberate. It serves as a **within-grou
 
 Before examining fine-grained IR metrics, we first survey the high-level structural differences between Native and RAJA across three categories of IR features: **control flow** (basic blocks, branch edges, PHI nodes, loops, loop depth), **compute** (integer arithmetic instructions, floating-point arithmetic instructions, peak live SSA values), and **memory** (loads, stores, allocations). Figure X presents these differences as a heatmap where cell values show the raw count difference (RAJA − Native) and cell colors encode the percent difference, allowing simultaneous reading of magnitude and proportional impact
 
+Several patterns emerge from Figure X:
 
 
 
