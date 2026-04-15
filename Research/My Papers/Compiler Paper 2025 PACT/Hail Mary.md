@@ -31,3 +31,4 @@
 |P9|`numCastInsts`|Compute|Structural|Type conversion overhead|
 |P10|`numCallsToMathFunctions`|Compute|Structural + Semantic|Expensive math operation count|
 
+Polybench_ADI: Why RAJA is 50% slower
