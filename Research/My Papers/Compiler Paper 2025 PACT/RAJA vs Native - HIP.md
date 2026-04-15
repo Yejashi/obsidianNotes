@@ -2,6 +2,145 @@
 
 ![[Pasted image 20260412194907.png]]
 
+To understand the structural origins of the runtime differences observed between Native HIP and RAJA HIP, we perform a static analysis of the LLVM IR generated for each variant. We begin by identifying all kernels whose runtime percent difference between Native and RAJA is statistically significant across all three optimization levels (O1, O2, O3). From these, we partition the kernels into two categories based on how the performance gap responds to optimization level:
+- **Optimization-Agnostic**: Kernels where the relative performance difference between Native and RAJA remains stable across O1, O2, and O3. The optimizer neither closes nor widens the gap — the structural cause of the difference is baked into the IR in a way that survives all optimization passes
+- **Optimization-Sensitive**: Kernels where the performance gap changes meaningfully across optimization levels, indicating that the optimizer is able to partially resolve (or exacerbate) the structural differences between the two variants
+
+We address the optimization-agnostic kernels first, as their stability across optimization levels makes them more amenable to structural explanation: whatever we observe in the IR at one optimization level is representative of all three.
+
+We select seven optimization-agnostic kernels spanning three runtime behaviors for further analysis:
+RAJA-favorable (RAJA outperforms Native by 5–10%):
+- Apps_CONVECTION3DPA — A 3D partial assembly operator for convection, involving tensor contractions over hexahedral elements with shared-memory staging of element data.
+- `Apps_DIFFUSION3DPA` — A 3D partial assembly operator for diffusion, structurally similar to CONVECTION3DPA but with a different stencil pattern and fewer intermediate terms.
+
+**RAJA-unfavorable** (RAJA incurs 13–54% overhead):
+- `Polybench_ADI` — An Alternating Direction Implicit solver that performs sequential sweeps along alternating spatial dimensions, exhibiting loop-carried dependencies (recurrences) within each sweep.
+- `Polybench_ATAX` — A matrix transpose–times–vector product (AT(Ax)), composed of two successive matrix-vector operations.
+- `Polybench_GEMVER` — A sequence of four vector/matrix operations: rank-1 updates, matrix-vector products, and vector additions.
+- `Polybench_MVT` — Two independent matrix-vector products using the same matrix.
+
+**Near-parity** (< 1% difference despite structural overhead):
+- `Polybench_GESUMMV` — A sum of two matrix-vector products (αAx+βBxαAx+βBx), performing two multiplications that reuse the same input vector.
+
+The inclusion of `Polybench_GESUMMV` is deliberate. It serves as a **within-group control**: if its IR characteristics resemble those of the degraded Polybench kernels, then whatever differentiates it at runtime must lie outside the static IR features — pointing toward dynamic factors such as arithmetic intensity or memory access patterns that mask the structural overhead.
+
+![[Screenshot_20260415_013445.png]]
+
+**Note**: Add a column on far right showing runtime % difference for reference
+
+Before examining fine-grained IR metrics, we first survey the high-level structural differences between Native and RAJA across three categories of IR features: **control flow** (basic blocks, branch edges, PHI nodes, loops, loop depth), **compute** (integer arithmetic instructions, floating-point arithmetic instructions, peak live SSA values), and **memory** (loads, stores, allocations). Figure X presents these differences as a heatmap where cell values show the raw count difference (RAJA − Native) and cell colors encode the percent difference, allowing simultaneous reading of magnitude and proportional impact
+
+Several patterns emerge from Figure X:
+
+The Apps kernels diverge from each other. CONVECTION3DPA exhibits substantially reduced control flow complexity under RAJA: fewer basic blocks (−22), fewer branch edges (−45), fewer PHI nodes (−22), and fewer loops (−24), alongside reduced integer arithmetic and fewer loads (−17). This suggests that RAJA's abstraction provides the compiler with a structurally simpler representation for this kernel. In contrast, DIFFUSION3DPA shows a mixed profile: an increase in basic blocks (+13) and branch edges (+11) but a decrease in PHI nodes (−3), with negligible changes in compute and memory metrics. The two RAJA-favorable kernels thus achieve their performance advantage through different structural mechanisms.
+
+The Polybench kernels split into two sub-groups. ATAX, GEMVER, GESUMMV, and MVT share a common IR signature under RAJA: increased control flow complexity (more basic blocks, more branch edges), increased integer arithmetic, and increased loads. This pattern is consistent with RAJA's iteration abstractions introducing additional address computation and memory access overhead. ADI, however, is structurally distinct: it shows only a modest increase in control flow complexity, with fewer PHI nodes (−8), fewer loops (−3), and notably fewer integer and floating-point arithmetic instructions, yet substantially more loads. This unique profile — less compute but more memory pressure — foreshadows a different mechanism of degradation that we examine in Section 5.X.3.
+
+**`GESUMMV` is structurally indistinguishable from the degraded group.** Its IR profile (more basic blocks, more branch edges, more integer arithmetic, more loads) closely mirrors `ATAX`, `GEMVER`, and `MVT`, yet it incurs less than 1% runtime overhead. This confirms that the static IR differences alone do not determine performance impact — the kernel's computational characteristics must mediate the translation from structural overhead to runtime cost. We return to this point in Section 5.X.3.
+
+**Group 1: Apps_CONVECTION3DPA** 
+
+**Narrative angle:** RAJA produces a _simpler_ kernel. Why?
+
+**ADD FIGURE HERE**
+- Key metrics to highlight:
+	- Massive cast reduction (Δ cast_ratio = −0.078 at O2)
+	- GEP increase (+0.055) — but offset by cast savings
+	- PHI reduction (−0.036 at O2) — simpler control flow merges
+	- Register pressure reduction (Δ maxLiveSSA = −1 at O2, but −8 at O1)
+	- Fewer loads (−0.017 at O1)
+- Recommended figure:
+	- Paired horizontal bar chart (butterfly/tornado chart)
+	- Show at -O2
+
+The RAJA variant of `CONVECTION3DPA` achieves a 7.6% speedup at O2 through a fundamentally different IR structure. Figure Y shows the normalized instruction mix for both variants. The most striking difference is in type conversion overhead: Native devotes 10.4% of its instructions to casts, compared to just 2.6% for RAJA — a 75% reduction. This reflects [explain why — e.g., RAJA's typed views eliminate the pointer casts required by Native's raw pointer arithmetic for multi-dimensional tensor access].
+
+This cast reduction more than compensates for RAJA's higher GEP ratio (+0.055), which arises from [RAJA's view indexing generating explicit address computations]. The net effect on abstraction cost is a reduction of 0.023 at O2. Critically, RAJA also reduces PHI node density from 4.2% to 0.5%, indicating that the compiler has collapsed RAJA's control flow into a more linear structure — consistent with successful inlining and simplification of the lambda-based dispatch.
+
+
+**Group 2: Apps_DIFFUSION3DPA** REMOVE THIS KERNEL?????????????????????????????
+Narrative angle: A subtler win — RAJA is only slightly better in the IR, but the differences that exist are in the right places.
+
+ADD FIGURE HERE
+- Same butterfly/tornado chart as Group 1
+- Key metrics
+	- Near-identical abs_cost (Δ = +0.009 at O2)
+	- Small cast reduction (−0.004 at O2 — much less dramatic than CONVECTION3DPA)
+	- PHI elimination (RAJA achieves 0.0% PHI ratio at O2 vs. 0.6% for Native)
+	- Slight register pressure advantage (Δ maxLiveSSA = −1)
+
+**Group 3: Polybench_ADI**
+**Narrative angle:** The worst case. RAJA fundamentally changes the memory access pattern in a way the optimizer cannot recover, specifically around recurrence/store-forwarding.
+
+Recommended figure: Annotated IR-level comparison (code listing + metric callout)
+
+For ADI, a pure metrics visualization may not be sufficient — the story is about _why_ the loads increase, which requires showing the structural difference in how recurrent values are handled. I recommend a **composite figure**:
+
+**Panel (a):** A small butterfly/tornado chart showing the key metric deltas (consistent with previous groups).
+
+**Panel (b):** A simplified, annotated pseudo-IR or code comparison showing the critical loop body:
+```
+Native (store-forwarding):              RAJA (reload pattern):
+─────────────────────────               ──────────────────────
+  %v = load [i-1]                         %v = load [i-1]     ← from memory
+  %r = fadd %v,...                       %r = fadd %v,...
+  store %r → [i]                          store %r → [i]
+  ; next iteration:                       ; next iteration:
+  ; %v = forwarded from store             %v2 = load [i]      ← reload!
+  %r2 = fadd %r,...   ← register        %r2 = fadd %v2,... ← from memory
+```
+
+**Key metrics:**
+- Δ load_ratio = +0.127 at O2 (the largest in the dataset)
+- Δ store_ratio = −0.029 (fewer stores — counterintuitive until you see the reload pattern)
+- Δ maxLiveSSA = +6 (devastating on GPU)
+- Δ gep_ratio = +0.073 (heavy address recomputation)
+- Δ phi_ratio = −0.027 (fewer PHIs — but this is bad here, as it reflects the loss of register-resident recurrence values that PHIs would have carried)
+
+Polybench_ADI exhibits the largest performance degradation in our study (+52.4% at O2), and its IR profile is qualitatively distinct from the other Polybench kernels. The key to understanding this case lies in ADI's algorithmic structure: each sweep performs a sequential recurrence where the output of iteration $i$ feeds directly into iteration $i+1$.
+
+In the Native variant, the compiler recognizes this recurrence and implements store-to-load forwarding: the value stored at iteration $i$ is kept in a register and forwarded directly to the load at iteration $i+1$, avoiding a round-trip to memory. This is reflected in the IR by the presence of PHI nodes that carry the recurrent value across loop iterations.
+
+The RAJA variant disrupts this pattern. RAJA's lambda-based loop body creates an abstraction boundary that, even after inlining, prevents the compiler from recognizing the cross-iteration dependency. The result is visible in Figure W: RAJA has 12.7% more load instructions (proportionally) and 2.9% fewer stores, consistent with a pattern where recurrent values are reloaded from memory rather than forwarded through registers.
+
+Critically, this degradation is optimization-agnostic: the Δ load_ratio is +0.133 at O1, +0.127 at O2, and +0.127 at O3. The optimizer cannot recover the store-forwarding opportunity because the structural transformation introduced by RAJA's abstraction has eliminated the information the optimizer needs to recognize the recurrence.
+
+Group 3: Polybench_ATAX, Polybench_GEMVER, Polybench_MVT, Polybench_GESUMMV
+
+Narrative angle: A shared structural syndrome with one kernel (GESUMMV) that is immune at runtime. The explanation is arithmetic intensity.
+
+**Narrative angle:** A shared structural syndrome with one kernel (GESUMMV) that is immune at runtime. The explanation is arithmetic intensity.
+
+Recommended figure: Grouped bar chart with GESUMMV highlighted
+- X-axis: The four kernels
+- Y-axis: Delta values (RAJA − Native)
+- Grouped bars for: Δ gep_ratio, Δ load_ratio, Δ cast_ratio, Δ maxLiveSSAValues (on secondary axis or normalized), Δ integer_arith_ratio
+- Use a distinct visual treatment for GESUMMV (e.g., hatched bars, or a different border) to emphasize its role as the control case
+- Use a distinct visual treatment for GESUMMV (e.g., hatched bars, or a different border) to emphasize its role as the control case
+- Add a secondary axis or annotation showing runtime % difference for each kernel
+
+```
+Metric	        ATAX	GEMVER	MVT	    GESUMMV
+Δ gep_ratio	    +0.079	+0.069	+0.043	+0.102
+Δ load_ratio	+0.089	+0.082	+0.084	+0.095
+Δ cast_ratio	−0.041	−0.046	−0.041	−0.034
+Δ maxLiveSSA	+2	    +7	    +3	    +4
+Δ phi_ratio	    +0.037	+0.026	+0.012	+0.046
+Runtime % diff	+21.4%	+11.0%	+14.1%	+0.6%
+```
+
+The remaining four Polybench kernels — `ATAX`, `GEMVER`, `MVT`, and `GESUMMV` — share a common IR signature under RAJA: increased GEP density (+0.043 to +0.102), increased load density (+0.082 to +0.095), reduced cast density, and elevated register pressure (+2 to +7 peak live SSA values). Figure V presents these deltas side by side.
+
+The uniformity of this pattern suggests a **common structural mechanism**: RAJA's view-based indexing abstractions generate additional address computations (GEPs) and, because the compiler cannot always prove that recomputed addresses alias existing values, additional loads. The cast reduction reflects RAJA's typed view system eliminating some pointer casts, but this saving is insufficient to offset the GEP and load overhead.
+
+However, the runtime impact of this shared structural overhead varies dramatically: `ATAX` suffers a 21.4% slowdown, `MVT` 14.1%, `GEMVER` 11.0%, yet `GESUMMV` incurs only 0.6% — despite having the **highest** Δ gep_ratio (+0.102) and the second-highest Δ load_ratio (+0.095) in the group.
+
+We attribute this discrepancy to **arithmetic intensity**. `GESUMMV` computes αAx+βBxαAx+βBx, performing two full matrix-vector products that reuse the same input vector $x$. The resulting compute density provides sufficient arithmetic operations to hide the latency of additional loads behind ALU execution. In contrast, `ATAX` (AT(Ax)AT(Ax)) and `MVT` (two independent AxAx products) have lower reuse of intermediate results, exposing memory latency more directly. `GEMVER`, despite having four operations, includes simple vector additions that are purely memory-bound, diluting its overall arithmetic intensity.
+
+This finding has an important implication: **the abstraction tax is not a fixed cost but is modulated by the kernel's compute-to-memory ratio.** Kernels with sufficient arithmetic intensity can absorb the additional loads and address computations introduced by RAJA's abstractions without measurable performance impact.
+
+
+
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
 - Apps_DIFFUSION3DPA 
@@ -12,6 +151,15 @@
 
 ![[Pasted image 20260412215925.png]]
 ![[Pasted image 20260414041633.png]]
+
+Optimization Agnostic Kernels:
+We select seven optimization agnostic kernels that span three distinct behavioral categorios observed at runtime:
+- RAJA Favorable (RAJA faster than Native): Apps_CONVECTION3DPA and Apps_DIFFUSION3DPA, where RAJA achieved 5-10% speedups across all optimization levels.
+- RAJA unfavorable (RAJA substantially slower): Polybench_ADI, Polybench_ATAX, Polybench_GEMVER, Polybench_MVT, where RAJA inclurs 13-54% overhead that persists across all optimization levels.
+- Near-Parity: Polybench_GESUMMV, where RAJA matches Native within 1% despite exhibiting structural characteristics similar to the unfavoral group (polybench)
+The inclusion of Polybench_GESUMMV is deliberate: it serves as a control case allowing us distinguish which static IR features correlate with runtime degradation from those that are merely present in RAJA generated code but do not manifest as performance loss.
+
+The selected subset serves three complementary purposes. First, `Apps_CONVECTION3DPA` and `Apps_DIFFUSION3DPA` represent favorable abstraction cases in which RAJA achieves better runtime performance than Native, allowing us to study compiler-visible structure associated with benign or advantageous abstraction. Second, the PolyBench kernels with substantial RAJA slowdowns represent abstraction-sensitive cases in which semantically equivalent implementations diverge in performance. Third, `Polybench_GESUMMV` is included despite near-runtime parity because it provides an important control: if its static characteristics resemble those of the slower PolyBench kernels, then structural divergence alone is insufficient to explain performance loss.
 
 
 **Polybench ADI**:
