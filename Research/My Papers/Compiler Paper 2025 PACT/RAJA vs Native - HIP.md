@@ -12,7 +12,7 @@
 
 ![[Pasted image 20260412215925.png]]
 ![[Pasted image 20260414041633.png]]
-
+The runtime 
 
 
 **Polybench ADI**:
