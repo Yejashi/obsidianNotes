@@ -108,6 +108,8 @@ Critically, this degradation is optimization-agnostic: the Δ load_ratio is +0.1
 Group 3: Polybench_ATAX, Polybench_GEMVER, Polybench_MVT, Polybench_GESUMMV
 
 
+
+
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
 - Apps_DIFFUSION3DPA 
