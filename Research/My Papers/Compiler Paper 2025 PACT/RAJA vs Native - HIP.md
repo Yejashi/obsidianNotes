@@ -129,6 +129,16 @@ Metric	        ATAX	GEMVER	MVT	    GESUMMV
 Runtime % diff	+21.4%	+11.0%	+14.1%	+0.6%
 ```
 
+The remaining four Polybench kernels — `ATAX`, `GEMVER`, `MVT`, and `GESUMMV` — share a common IR signature under RAJA: increased GEP density (+0.043 to +0.102), increased load density (+0.082 to +0.095), reduced cast density, and elevated register pressure (+2 to +7 peak live SSA values). Figure V presents these deltas side by side.
+
+The uniformity of this pattern suggests a **common structural mechanism**: RAJA's view-based indexing abstractions generate additional address computations (GEPs) and, because the compiler cannot always prove that recomputed addresses alias existing values, additional loads. The cast reduction reflects RAJA's typed view system eliminating some pointer casts, but this saving is insufficient to offset the GEP and load overhead.
+
+However, the runtime impact of this shared structural overhead varies dramatically: `ATAX` suffers a 21.4% slowdown, `MVT` 14.1%, `GEMVER` 11.0%, yet `GESUMMV` incurs only 0.6% — despite having the **highest** Δ gep_ratio (+0.102) and the second-highest Δ load_ratio (+0.095) in the group.
+
+We attribute this discrepancy to **arithmetic intensity**. `GESUMMV` computes αAx+βBxαAx+βBx, performing two full matrix-vector products that reuse the same input vector $x$. The resulting compute density provides sufficient arithmetic operations to hide the latency of additional loads behind ALU execution. In contrast, `ATAX` (AT(Ax)AT(Ax)) and `MVT` (two independent AxAx products) have lower reuse of intermediate results, exposing memory latency more directly. `GEMVER`, despite having four operations, includes simple vector additions that are purely memory-bound, diluting its overall arithmetic intensity.
+
+This finding has an important implication: **the abstraction tax is not a fixed cost but is modulated by the kernel's compute-to-memory ratio.** Kernels with sufficient arithmetic intensity can absorb the additional loads and address computations introduced by RAJA's abstractions without measurable performance impact.
+
 
 
 **Optimization Agnostic**:
