@@ -51,7 +51,9 @@ Group 1: Apps_CONVECTION3DPA
 	- Paired horizontal bar chart (butterfly/tornado chart)
 	- Show at -O2
 
+The RAJA variant of `CONVECTION3DPA` achieves a 7.6% speedup at O2 through a fundamentally different IR structure. Figure Y shows the normalized instruction mix for both variants. The most striking difference is in type conversion overhead: Native devotes 10.4% of its instructions to casts, compared to just 2.6% for RAJA — a 75% reduction. This reflects [explain why — e.g., RAJA's typed views eliminate the pointer casts required by Native's raw pointer arithmetic for multi-dimensional tensor access].
 
+This cast reduction more than compensates for RAJA's higher GEP ratio (+0.055), which arises from [RAJA's view indexing generating explicit address computations]. The net effect on abstraction cost is a reduction of 0.023 at O2. Critically, RAJA also reduces PHI node density from 4.2% to 0.5%, indicating that the compiler has collapsed RAJA's control flow into a more linear structure — consistent with successful inlining and simplification of the lambda-based dispatch.
 
 
 
