@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "f834cecc86ae83f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RAJA vs Native - HIP"
+            }
+          },
+          {
             "id": "339faa612d4642fb",
             "type": "leaf",
             "state": {
@@ -199,15 +213,14 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "339faa612d4642fb",
+  "active": "f834cecc86ae83f7",
   "lastOpenFiles": [
-    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
-    "Research/My Papers/Compiler Paper 2025 PACT/Hail Mary.md",
     "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
+    "Research/My Papers/Compiler Paper 2025 PACT/Hail Mary.md",
+    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
     "Meta/Attachments/Pasted image 20260414095729.png",
     "Research/LLNL Project/Code Refactoring Approach/Extraction Plugin.md",
     "conflict-files-obsidian-git.md",
