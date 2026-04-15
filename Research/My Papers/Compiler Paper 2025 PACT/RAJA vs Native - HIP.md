@@ -47,6 +47,8 @@ Group 1: Apps_CONVECTION3DPA
 	- PHI reduction (−0.036 at O2) — simpler control flow merges
 	- Register pressure reduction (Δ maxLiveSSA = −1 at O2, but −8 at O1)
 	- Fewer loads (−0.017 at O1)
+- Recommended figure:
+	- Paired horizontal bar chart (butterfly/tornado chart)
 
 
 **Optimization Agnostic**:
