@@ -69,6 +69,8 @@ ADD FIGURE HERE
 	- PHI elimination (RAJA achieves 0.0% PHI ratio at O2 vs. 0.6% for Native)
 	- Slight register pressure advantage (Δ maxLiveSSA = −1)
 
+
+
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
 - Apps_DIFFUSION3DPA 
