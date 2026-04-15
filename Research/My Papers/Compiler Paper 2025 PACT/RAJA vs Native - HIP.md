@@ -79,7 +79,10 @@ For ADI, a pure metrics visualization may not be sufficient — the story is abo
 **Panel (a):** A small butterfly/tornado chart showing the key metric deltas (consistent with previous groups).
 
 **Panel (b):** A simplified, annotated pseudo-IR or code comparison showing the critical loop body:
+```
 
+
+```
 
 
 **Optimization Agnostic**:
