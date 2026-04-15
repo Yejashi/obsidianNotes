@@ -61,7 +61,8 @@ This cast reduction more than compensates for RAJA's higher GEP ratio (+0.055), 
 **Group 2: Apps_DIFFUSION3DPA** REMOVE THIS KERNEL?????????????????????????????
 Narrative angle: A subtler win — RAJA is only slightly better in the IR, but the differences that exist are in the right places.
 
-
+ADD FIGURE HERE
+- 
 
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
