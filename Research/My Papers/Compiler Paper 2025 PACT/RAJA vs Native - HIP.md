@@ -118,6 +118,7 @@ Recommended figure: Grouped bar chart with GESUMMV highlighted
 - Use a distinct visual treatment for GESUMMV (e.g., hatched bars, or a different border) to emphasize its role as the control case
 - Use a distinct visual treatment for GESUMMV (e.g., hatched bars, or a different border) to emphasize its role as the control case
 - Add a secondary axis or annotation showing runtime % difference for each kernel
+
 ```
 Metric	        ATAX	GEMVER	MVT	    GESUMMV
 Δ gep_ratio	    +0.079	+0.069	+0.043	+0.102
