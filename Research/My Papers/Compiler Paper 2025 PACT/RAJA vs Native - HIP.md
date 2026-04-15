@@ -117,6 +117,7 @@ Recommended figure: Grouped bar chart with GESUMMV highlighted
 - Grouped bars for: Δ gep_ratio, Δ load_ratio, Δ cast_ratio, Δ maxLiveSSAValues (on secondary axis or normalized), Δ integer_arith_ratio
 - Use a distinct visual treatment for GESUMMV (e.g., hatched bars, or a different border) to emphasize its role as the control case
 - Use a distinct visual treatment for GESUMMV (e.g., hatched bars, or a different border) to emphasize its role as the control case
+- Add a secondary axis or annotation showing runtime % difference for each kernel
 
 
 **Optimization Agnostic**:
