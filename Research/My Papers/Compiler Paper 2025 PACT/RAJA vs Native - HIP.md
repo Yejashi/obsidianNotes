@@ -73,6 +73,8 @@ ADD FIGURE HERE
 **Narrative angle:** The worst case. RAJA fundamentally changes the memory access pattern in a way the optimizer cannot recover, specifically around recurrence/store-forwarding.
 
 
+
+
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
 - Apps_DIFFUSION3DPA 
