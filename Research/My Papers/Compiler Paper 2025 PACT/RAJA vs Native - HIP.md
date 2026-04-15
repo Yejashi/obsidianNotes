@@ -19,6 +19,8 @@ RAJA-favorable (RAJA outperforms Native by 5–10%):
 - `Polybench_GEMVER` — A sequence of four vector/matrix operations: rank-1 updates, matrix-vector products, and vector additions.
 - `Polybench_MVT` — Two independent matrix-vector products using the same matrix.
 
+**Near-parity** (< 1% difference despite structural overhead):
+
 
 
 **Optimization Agnostic**:
