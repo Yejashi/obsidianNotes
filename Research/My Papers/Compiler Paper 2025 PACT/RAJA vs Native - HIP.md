@@ -20,7 +20,7 @@ RAJA-favorable (RAJA outperforms Native by 5–10%):
 - `Polybench_MVT` — Two independent matrix-vector products using the same matrix.
 
 **Near-parity** (< 1% difference despite structural overhead):
-
+- `Polybench_GESUMMV` — A sum of two matrix-vector products (αAx+βBxαAx+βBx), performing two multiplications that reuse the same input vector.
 
 
 **Optimization Agnostic**:
