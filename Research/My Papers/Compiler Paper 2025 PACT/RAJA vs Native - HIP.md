@@ -70,7 +70,7 @@ ADD FIGURE HERE
 	- Slight register pressure advantage (Δ maxLiveSSA = −1)
 
 **Group 3: Polybench_ADI**
-
+**Narrative angle:** The worst case. RAJA fundamentally changes the memory access pattern in a way the optimizer cannot recover, specifically around recurrence/store-forwarding.
 
 
 **Optimization Agnostic**:
