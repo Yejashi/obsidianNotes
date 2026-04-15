@@ -40,9 +40,8 @@ The Polybench kernels split into two sub-groups. ATAX, GEMVER, GESUMMV, and MVT 
 
 Group 1: Apps_CONVECTION3DPA
 
-ADD FIGURE HERE
-
-
+**ADD FIGURE HERE**
+- 
 
 
 **Optimization Agnostic**:
