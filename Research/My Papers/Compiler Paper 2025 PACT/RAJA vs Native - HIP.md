@@ -6,6 +6,8 @@ To understand the structural origins of the runtime differences observed between
 - **Optimization-Agnostic**: Kernels where the relative performance difference between Native and RAJA remains stable across O1, O2, and O3. The optimizer neither closes nor widens the gap — the structural cause of the difference is baked into the IR in a way that survives all optimization passes
 - **Optimization-Sensitive**: Kernels where the performance gap changes meaningfully across optimization levels, indicating that the optimizer is able to partially resolve (or exacerbate) the structural differences between the two variants
 
+
+
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
 - Apps_DIFFUSION3DPA 
