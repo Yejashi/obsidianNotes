@@ -80,9 +80,17 @@ For ADI, a pure metrics visualization may not be sufficient — the story is abo
 
 **Panel (b):** A simplified, annotated pseudo-IR or code comparison showing the critical loop body:
 ```
-
-
+Native (store-forwarding):              RAJA (reload pattern):
+─────────────────────────               ──────────────────────
+  %v = load [i-1]                         %v = load [i-1]     ← from memory
+  %r = fadd %v,...                       %r = fadd %v,...
+  store %r → [i]                          store %r → [i]
+  ; next iteration:                       ; next iteration:
+  ; %v = forwarded from store             %v2 = load [i]      ← reload!
+  %r2 = fadd %r,...   ← register        %r2 = fadd %v2,... ← from memory
 ```
+
+
 
 
 **Optimization Agnostic**:
