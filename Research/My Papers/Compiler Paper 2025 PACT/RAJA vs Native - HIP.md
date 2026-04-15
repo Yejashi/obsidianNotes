@@ -66,7 +66,8 @@ ADD FIGURE HERE
 - Key metrics
 	- Near-identical abs_cost (Δ = +0.009 at O2)
 	- Small cast reduction (−0.004 at O2 — much less dramatic than CONVECTION3DPA)
-	- 
+	- PHI elimination (RAJA achieves 0.0% PHI ratio at O2 vs. 0.6% for Native)
+	- Slight register pressure advantage (Δ maxLiveSSA = −1)
 
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
