@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "Kernel Resource Usage"
             }
+          },
+          {
+            "id": "2bbb5885d80fb45f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -200,7 +212,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,7 +230,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a62087e03761587d",
+  "active": "2bbb5885d80fb45f",
   "lastOpenFiles": [
     "Untitled 4.base",
     "Research/AMDGPU/Kernel Resource Usage.md",
