@@ -9,7 +9,8 @@ To understand the structural origins of the runtime differences observed between
 We address the optimization-agnostic kernels first, as their stability across optimization levels makes them more amenable to structural explanation: whatever we observe in the IR at one optimization level is representative of all three.
 
 We select seven optimization-agnostic kernels spanning three runtime behaviors for further analysis:
-
+RAJA-favorable (RAJA outperforms Native by 5–10%):
+- 
 
 
 
