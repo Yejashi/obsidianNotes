@@ -49,7 +49,8 @@ Group 1: Apps_CONVECTION3DPA
 	- Fewer loads (−0.017 at O1)
 - Recommended figure:
 	- Paired horizontal bar chart (butterfly/tornado chart)
-	- 
+
+
 
 
 **Optimization Agnostic**:
