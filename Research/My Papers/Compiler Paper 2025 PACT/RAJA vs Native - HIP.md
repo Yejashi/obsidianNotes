@@ -38,7 +38,9 @@ The Polybench kernels split into two sub-groups. ATAX, GEMVER, GESUMMV, and MVT 
 
 **`GESUMMV` is structurally indistinguishable from the degraded group.** Its IR profile (more basic blocks, more branch edges, more integer arithmetic, more loads) closely mirrors `ATAX`, `GEMVER`, and `MVT`, yet it incurs less than 1% runtime overhead. This confirms that the static IR differences alone do not determine performance impact — the kernel's computational characteristics must mediate the translation from structural overhead to runtime cost. We return to this point in Section 5.X.3.
 
-**Group 1: Apps_CONVECTION3DPA**
+**Group 1: Apps_CONVECTION3DPA
+**
+**Narrative angle:** RAJA produces a _simpler_ kernel. Why?
 
 **ADD FIGURE HERE**
 - Key metrics to highlight:
