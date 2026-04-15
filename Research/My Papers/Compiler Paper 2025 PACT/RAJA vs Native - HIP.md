@@ -98,6 +98,8 @@ Native (store-forwarding):              RAJA (reload pattern):
 - Δ phi_ratio = −0.027 (fewer PHIs — but this is bad here, as it reflects the loss of register-resident recurrence values that PHIs would have carried)
 
 
+
+
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
 - Apps_DIFFUSION3DPA 
