@@ -32,6 +32,7 @@ Before examining fine-grained IR metrics, we first survey the high-level structu
 
 Several patterns emerge from Figure X:
 
+The Apps kernels diverge from each other. CONVECTION3DPA exhibits substantially reduced control flow complexity under RAJA: fewer basic blocks (−22), fewer branch edges (−45), fewer PHI nodes (−22), and fewer loops (−24), alongside reduced integer arithmetic and fewer loads (−17). This suggests that RAJA's abstraction provides the compiler with a structurally simpler representation for this kernel. In contrast, DIFFUSION3DPA shows a mixed profile: an increase in basic blocks (+13) and branch edges (+11) but a decrease in PHI nodes (−3), with negligible changes in compute and memory metrics. The two RAJA-favorable kernels thus achieve their performance advantage through different structural mechanisms.
 
 
 **Optimization Agnostic**:
