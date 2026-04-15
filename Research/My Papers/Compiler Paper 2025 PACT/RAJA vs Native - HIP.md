@@ -13,7 +13,8 @@ RAJA-favorable (RAJA outperforms Native by 5–10%):
 - Apps_CONVECTION3DPA — A 3D partial assembly operator for convection, involving tensor contractions over hexahedral elements with shared-memory staging of element data.
 - `Apps_DIFFUSION3DPA` — A 3D partial assembly operator for diffusion, structurally similar to CONVECTION3DPA but with a different stencil pattern and fewer intermediate terms.
 
-
+**RAJA-unfavorable** (RAJA incurs 13–54% overhead):
+- `Polybench_ADI` — An Alternating Direction Implicit solver that performs sequential sweeps along alternating spatial dimensions, exhibiting loop-carried dependencies (recurrences) within each sweep.
 
 
 
