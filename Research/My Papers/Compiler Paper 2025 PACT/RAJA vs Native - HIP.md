@@ -65,6 +65,7 @@ ADD FIGURE HERE
 - Same butterfly/tornado chart as Group 1
 - Key metrics
 	- Near-identical abs_cost (Δ = +0.009 at O2)
+	- Small cast reduction (−0.004 at O2 — much less dramatic than CONVECTION3DPA)
 	- 
 
 **Optimization Agnostic**:
