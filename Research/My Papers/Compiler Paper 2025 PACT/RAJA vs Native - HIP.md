@@ -103,7 +103,7 @@ In the Native variant, the compiler recognizes this recurrence and implements st
 
 The RAJA variant disrupts this pattern. RAJA's lambda-based loop body creates an abstraction boundary that, even after inlining, prevents the compiler from recognizing the cross-iteration dependency. The result is visible in Figure W: RAJA has 12.7% more load instructions (proportionally) and 2.9% fewer stores, consistent with a pattern where recurrent values are reloaded from memory rather than forwarded through registers.
 
-
+Critically, this degradation is optimization-agnostic: the Δ load_ratio is +0.133 at O1, +0.127 at O2, and +0.127 at O3. The optimizer cannot recover the store-forwarding opportunity because the structural transformation introduced by RAJA's abstraction has eliminated the information the optimizer needs to recognize the recurrence.
 
 
 **Optimization Agnostic**:
