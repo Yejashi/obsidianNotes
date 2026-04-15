@@ -105,6 +105,8 @@ The RAJA variant disrupts this pattern. RAJA's lambda-based loop body creates an
 
 Critically, this degradation is optimization-agnostic: the Δ load_ratio is +0.133 at O1, +0.127 at O2, and +0.127 at O3. The optimizer cannot recover the store-forwarding opportunity because the structural transformation introduced by RAJA's abstraction has eliminated the information the optimizer needs to recognize the recurrence.
 
+Group 3: Polybench_ATAX, Polybench_GEMVER, Polybench_MVT, Polybench_GESUMMV
+
 
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
