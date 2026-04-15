@@ -91,7 +91,9 @@ Native (store-forwarding):              RAJA (reload pattern):
 ```
 
 **Key metrics:**
-
+- Δ load_ratio = +0.127 at O2 (the largest in the dataset)
+- Δ store_ratio = −0.029 (fewer stores — counterintuitive until you see the reload pattern)
+- 
 
 
 **Optimization Agnostic**:
