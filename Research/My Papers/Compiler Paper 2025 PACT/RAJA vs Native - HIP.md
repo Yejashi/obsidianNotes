@@ -75,7 +75,8 @@ ADD FIGURE HERE
 Recommended figure: Annotated IR-level comparison (code listing + metric callout)
 
 For ADI, a pure metrics visualization may not be sufficient — the story is about _why_ the loads increase, which requires showing the structural difference in how recurrent values are handled. I recommend a **composite figure**:
-
+- **Panel (a):** A small butterfly/tornado chart showing the key metric deltas (consistent with previous groups).
+- 
 
 
 
