@@ -31,45 +31,45 @@
 |P9|`numCastInsts`|Compute|Structural|Type conversion overhead|
 |P10|`numCallsToMathFunctions`|Compute|Structural + Semantic|Expensive math operation count|
 
-|ID|Metric|Category|Type|Aggregation|
-|---|---|---|---|---|
-|C1|`numBranches`|Control|Structural|Sum|
-|C2|`numConditionalBranches`|Control|Structural|Sum|
-|C3|`numLoops`|Control|Structural|Sum|
-|C4|`maxLoopDepth`|Control|Structural|Max|
-|C5|`numLoopsWithComputableTripCount`|Control|Semantic|Sum|
-|C6|`numLoopsWithReloadedBound`|Control|Semantic|Sum|
-|C7|`numLoopInvariantBranchesInLoops`|Control|Semantic|Sum|
-|C8|`numSelectInsts`|Control|Semantic|Sum|
-|C9|`numSwitchInsts`|Control|Structural|Sum|
-|C10|`numUnreachableBlocks`|Control|Semantic|Sum|
-|C11|`numLoopVersioningChecks`|Control|Semantic|Sum|
-|C12|`numUniqueLoopBodies`|Control|Semantic|Sum|
-|C13|`numInnerLoopBasicBlocks`|Control|Structural|Sum|
-|C14|`numInnerLoopPHINodes`|Control|Structural|Sum|
-|M1|`numLoads`|Memory|Structural|Sum|
-|M2|`numStores`|Memory|Structural|Sum|
-|M3|`numInnerLoopLoadStoreAddrSame`|Memory|Semantic|Sum|
-|M4a|`numLICMPromotedLoads`|Memory|Semantic|Sum|
-|M4b|`numStoreForwardedLoads`|Memory|Semantic|Sum|
-|M5|`numLoopInvariantAddressLoadsInInnerLoops`|Memory|Semantic|Sum|
-|M6|`numAllocaOriginInnerLoopAccesses`|Memory|Semantic|Sum|
-|M7|`numArgOriginInnerLoopAccesses`|Memory|Semantic|Sum|
-|M8|`numNoAliasArguments`|Memory|Semantic|Sum|
-|M9|`numGEPsWithMultipleIndices`|Memory|Structural|Sum|
-|M10|`numMemcpyToAlloca`|Memory|Semantic|Sum|
-|M11|`numInnerLoopDistinctArrayAccesses`|Memory|Semantic|Sum|
-|P1|`numFloatArithmeticInsts`|Compute|Structural|Sum|
-|P2|`numIntegerArithmeticInsts`|Compute|Structural|Sum|
-|P3|`numMulFeedingAdd`|Compute|Semantic|Sum|
-|P4|`numReductionPHIs`|Compute|Semantic|Sum|
-|P5|`numContractFlaggedFPOps`|Compute|Semantic|Sum|
-|P6|`numFastMathFPOps`|Compute|Semantic|Sum|
-|P7|`numInnerLoopFPOps`|Compute|Structural|Sum|
-|P8|`numIntegerMulsInGEPChains`|Compute|Semantic|Sum|
-|P9|`numCastInsts`|Compute|Structural|Sum|
-|P10|`numCallsToMathFunctions`|Compute|Structural + Semantic|Sum|
-|P11|`innerLoopArithmeticIntensity`|Compute|Semantic|Max|
+| ID  | Metric                                     | Category | Type                  | Aggregation |
+| --- | ------------------------------------------ | -------- | --------------------- | ----------- |
+| C1  | `numBranches`                              | Control  | Structural            | Sum         |
+| C2  | `numConditionalBranches`                   | Control  | Structural            | Sum         |
+| C3  | `numLoops`                                 | Control  | Structural            | Sum         |
+| C4  | `maxLoopDepth`                             | Control  | Structural            | Max         |
+| C5  | `numLoopsWithComputableTripCount`          | Control  | Semantic              | Sum         |
+| C6  | `numLoopsWithReloadedBound`                | Control  | Semantic              | Sum         |
+| C7  | `numLoopInvariantBranchesInLoops`          | Control  | Semantic              | Sum         |
+| C8  | `numSelectInsts`                           | Control  | Semantic              | Sum         |
+| C9  | `numSwitchInsts`                           | Control  | Structural            | Sum         |
+| C10 | `numUnreachableBlocks`                     | Control  | Semantic              | Sum         |
+| C11 | `numLoopVersioningChecks`                  | Control  | Semantic              | Sum         |
+| C12 | `numUniqueLoopBodies`                      | Control  | Semantic              | Sum         |
+| C13 | `numInnerLoopBasicBlocks`                  | Control  | Structural            | Sum         |
+| C14 | `numInnerLoopPHINodes`                     | Control  | Structural            | Sum         |
+| M1  | `numLoads`                                 | Memory   | Structural            | Sum         |
+| M2  | `numStores`                                | Memory   | Structural            | Sum         |
+| M3  | `numInnerLoopLoadStoreAddrSame`            | Memory   | Semantic              | Sum         |
+| M4a | `numLICMPromotedLoads`                     | Memory   | Semantic              | Sum         |
+| M4b | `numStoreForwardedLoads`                   | Memory   | Semantic              | Sum         |
+| M5  | `numLoopInvariantAddressLoadsInInnerLoops` | Memory   | Semantic              | Sum         |
+| M6  | `numAllocaOriginInnerLoopAccesses`         | Memory   | Semantic              | Sum         |
+| M7  | `numArgOriginInnerLoopAccesses`            | Memory   | Semantic              | Sum         |
+| M8  | `numNoAliasArguments`                      | Memory   | Semantic              | Sum         |
+| M9  | `numGEPsWithMultipleIndices`               | Memory   | Structural            | Sum         |
+| M10 | `numMemcpyToAlloca`                        | Memory   | Semantic              | Sum         |
+| M11 | `numInnerLoopDistinctArrayAccesses`        | Memory   | Semantic              | Sum         |
+| P1  | `numFloatArithmeticInsts`                  | Compute  | Structural            | Sum         |
+| P2  | `numIntegerArithmeticInsts`                | Compute  | Structural            | Sum         |
+| P3  | `numMulFeedingAdd`                         | Compute  | Semantic              | Sum         |
+| P4  | `numReductionPHIs`                         | Compute  | Semantic              | Sum         |
+| P5  | `numContractFlaggedFPOps`                  | Compute  | Semantic              | Sum         |
+| P6  | `numFastMathFPOps`                         | Compute  | Semantic              | Sum         |
+| P7  | `numInnerLoopFPOps`                        | Compute  | Structural            | Sum         |
+| P8  | `numIntegerMulsInGEPChains`                | Compute  | Semantic              | Sum         |
+| P9  | `numCastInsts`                             | Compute  | Structural            | Sum         |
+| P10 | `numCallsToMathFunctions`                  | Compute  | Structural + Semantic | Sum         |
+| P11 | `innerLoopArithmeticIntensity`             | Compute  | Semantic              | Max         |
 
 
 Polybench_ADI: Why RAJA is 50% slower
