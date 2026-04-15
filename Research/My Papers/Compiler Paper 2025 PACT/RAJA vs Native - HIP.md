@@ -24,6 +24,8 @@ RAJA-favorable (RAJA outperforms Native by 5–10%):
 
 The inclusion of `Polybench_GESUMMV` is deliberate. It serves as a **within-group control**: if its IR characteristics resemble those of the degraded Polybench kernels, then whatever differentiates it at runtime must lie outside the static IR features — pointing toward dynamic factors such as arithmetic intensity or memory access patterns that mask the structural overhead.
 
+![[Screenshot_20260415_013445.png]]
+
 
 
 
