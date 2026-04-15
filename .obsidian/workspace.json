@@ -48,21 +48,9 @@
               "icon": "lucide-file",
               "title": "Kernel Resource Usage"
             }
-          },
-          {
-            "id": "2bbb5885d80fb45f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.7"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
