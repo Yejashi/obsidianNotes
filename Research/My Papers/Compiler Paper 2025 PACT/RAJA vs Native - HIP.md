@@ -16,7 +16,8 @@ The runtime results show in figure x revealed that the performance relationship 
 
 We select seven optimization agnostic kernels that span three distinct behavioral categorios observed at runtime:
 - RAJA Favorable (RAJA faster than Native): Apps_CONVECTION3DPA and Apps_DIFFUSION3DPA, where RAJA achieved 5-10% speedups across all optimization levels.
-- RAJA unfavorable (RAJA substantially slower): Polybench_ADI, Polybench_ATAX, Polybench_GEMVER, Polybench_MVT, where RAJA inclurs 13-15
+- RAJA unfavorable (RAJA substantially slower): Polybench_ADI, Polybench_ATAX, Polybench_GEMVER, Polybench_MVT, where RAJA inclurs 13-54% overhead that presists across all optimization levels.
+- 
 
 
 **Polybench ADI**:
