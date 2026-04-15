@@ -118,7 +118,15 @@ Recommended figure: Grouped bar chart with GESUMMV highlighted
 - Use a distinct visual treatment for GESUMMV (e.g., hatched bars, or a different border) to emphasize its role as the control case
 - Use a distinct visual treatment for GESUMMV (e.g., hatched bars, or a different border) to emphasize its role as the control case
 - Add a secondary axis or annotation showing runtime % difference for each kernel
-
+```
+Metric	ATAX	GEMVER	MVT	GESUMMV
+Δ gep_ratio	    +0.079	+0.069	+0.043	+0.102
+Δ load_ratio	+0.089	+0.082	+0.084	+0.095
+Δ cast_ratio	−0.041	−0.046	−0.041	−0.034
+Δ maxLiveSSA	+2	+7	+3	+4
+Δ phi_ratio	+0.037	+0.026	+0.012	+0.046
+Runtime % diff	+21.4%	+11.0%	+14.1%	+0.6%
+```
 
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
