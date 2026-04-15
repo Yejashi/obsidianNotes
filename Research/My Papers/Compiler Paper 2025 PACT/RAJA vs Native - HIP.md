@@ -75,6 +75,8 @@ ADD FIGURE HERE
 Recommended figure: Annotated IR-level comparison (code listing + metric callout)
 
 
+
+
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
 - Apps_DIFFUSION3DPA 
