@@ -37,6 +37,8 @@ The Apps kernels diverge from each other. CONVECTION3DPA exhibits substantially 
 The Polybench kernels split into two sub-groups. ATAX, GEMVER, GESUMMV, and MVT share a common IR signature under RAJA: increased control flow complexity (more basic blocks, more branch edges), increased integer arithmetic, and increased loads. This pattern is consistent with RAJA's iteration abstractions introducing additional address computation and memory access overhead. ADI, however, is structurally distinct: it shows only a modest increase in control flow complexity, with fewer PHI nodes (−8), fewer loops (−3), and notably fewer integer and floating-point arithmetic instructions, yet substantially more loads. This unique profile — less compute but more memory pressure — foreshadows a different mechanism of degradation that we examine in Section 5.X.3.
 
 
+
+
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
 - Apps_DIFFUSION3DPA 
