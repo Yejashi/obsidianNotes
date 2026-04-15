@@ -12,7 +12,9 @@
 
 ![[Pasted image 20260412215925.png]]
 ![[Pasted image 20260414041633.png]]
-The runtime results show in figure x revealed that the performance relationship between Native HIP and RAJA HIP is not uniform, where RAJA implementations incur substantial overhead on some kernels while matching or even outperforming Native on others. To understand the structural origins of these differences, we perform a static analysis of the LLVM IR generated for each 
+The runtime results show in figure x revealed that the performance relationship between Native HIP and RAJA HIP is not uniform, where RAJA implementations incur substantial overhead on some kernels while matching or even outperforming Native on others. To understand the structural origins of these differences, we perform a static analysis of the LLVM IR generated for each differing kernel.
+
+We select seven optimization agnostic kernels that 
 
 
 **Polybench ADI**:
