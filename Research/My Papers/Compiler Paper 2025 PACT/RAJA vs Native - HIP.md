@@ -20,6 +20,7 @@ We select seven optimization agnostic kernels that span three distinct behaviora
 - Near-Parity: Polybench_GESUMMV, where RAJA matches Native within 1% despite exhibiting structural characteristics similar to the unfavoral group (polybench)
 The inclusion of Polybench_GESUMMV is deliberate: it serves as a control case allowing us distinguish which static IR features correlate with runtime degradation from those that are merely present in RAJA generated code but do not manifest as performance loss.
 
+The selected subset serves three complementary purposes. First, `Apps_CONVECTION3DPA` and `Apps_DIFFUSION3DPA` represent favorable abstraction cases in which RAJA achieves better runtime performance than Native, allowing us to study compiler-visible structure associated with benign or advantageous abstraction. Second, the PolyBench kernels with substantial RAJA slowdowns represent abstraction-sensitive cases in which semantically equivalent implementations diverge in performance. Third, `Polybench_GESUMMV` is included despite near-runtime parity because it provides an important control: if its static characteristics resemble those of the slower PolyBench kernels, then structural divergence alone is insufficient to explain performance loss.
 
 **Polybench ADI**:
 Figures:
