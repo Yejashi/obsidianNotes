@@ -38,7 +38,7 @@ The Polybench kernels split into two sub-groups. ATAX, GEMVER, GESUMMV, and MVT 
 
 **`GESUMMV` is structurally indistinguishable from the degraded group.** Its IR profile (more basic blocks, more branch edges, more integer arithmetic, more loads) closely mirrors `ATAX`, `GEMVER`, and `MVT`, yet it incurs less than 1% runtime overhead. This confirms that the static IR differences alone do not determine performance impact — the kernel's computational characteristics must mediate the translation from structural overhead to runtime cost. We return to this point in Section 5.X.3.
 
-**Group 1: Apps_CONVECTION3DPA**
+**Group 1: Apps_CONVECTION3DPA** 
 
 **Narrative angle:** RAJA produces a _simpler_ kernel. Why?
 
@@ -58,7 +58,7 @@ The RAJA variant of `CONVECTION3DPA` achieves a 7.6% speedup at O2 through a fun
 This cast reduction more than compensates for RAJA's higher GEP ratio (+0.055), which arises from [RAJA's view indexing generating explicit address computations]. The net effect on abstraction cost is a reduction of 0.023 at O2. Critically, RAJA also reduces PHI node density from 4.2% to 0.5%, indicating that the compiler has collapsed RAJA's control flow into a more linear structure — consistent with successful inlining and simplification of the lambda-based dispatch.
 
 
-**Group 2: Apps_DIFFUSION3DPA**
+**Group 2: Apps_DIFFUSION3DPA** REMOVE THIS KERNEL?????????????????????????????
 Narrative angle: A subtler win — RAJA is only slightly better in the IR, but the differences that exist are in the right places.
 
 
