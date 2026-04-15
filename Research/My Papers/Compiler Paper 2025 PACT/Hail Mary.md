@@ -70,7 +70,7 @@
 | P9  | `numCastInsts`                                 | Compute  | Structural            | Sum         |
 | P10 | `numCallsToMathFunctions`                      | Compute  | Structural + Semantic | Sum         |
 | P11 | `innerLoopArithmeticIntensity`                 | Compute  | Semantic              | Max         |
-| D1  | `innerLoopControlIntensity` (C13 / (P7 = M11)) | Derived  | Semantic              |             |
+| D1  | `innerLoopControlIntensity` (C13 / (P7 = M11)) | Derived  | Semantic              | max         |
 
 
 Polybench_ADI: Why RAJA is 50% slower
