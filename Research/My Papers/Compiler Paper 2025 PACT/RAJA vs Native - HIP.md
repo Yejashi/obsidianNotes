@@ -62,7 +62,10 @@ This cast reduction more than compensates for RAJA's higher GEP ratio (+0.055), 
 Narrative angle: A subtler win — RAJA is only slightly better in the IR, but the differences that exist are in the right places.
 
 ADD FIGURE HERE
-- 
+- Same butterfly/tornado chart as Group 1
+- Key metrics
+	- Near-identical abs_cost (Δ = +0.009 at O2)
+	- 
 
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
