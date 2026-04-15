@@ -1,0 +1,2 @@
+**Compute Complexity**
+Halstead Metrics (1977) are the classic complement to cyclomatic complexity. They treat the IR as a language: opcodes are operators, register names/constants are operands. From four primitive counts (n1 distinct operators, n2 distinct operands, N1 total operators, N2 total operands) you derive
