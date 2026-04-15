@@ -112,6 +112,9 @@ Narrative angle: A shared structural syndrome with one kernel (GESUMMV) that is 
 **Narrative angle:** A shared structural syndrome with one kernel (GESUMMV) that is immune at runtime. The explanation is arithmetic intensity.
 
 Recommended figure: Grouped bar chart with GESUMMV highlighted
+- X-axis: The four kernels
+- Y-axis: Delta values (RAJA − Native)
+- Grouped bars for: Δ gep_ratio, Δ load_ratio, Δ cast_ratio, Δ maxLiveSSAValues (on secondary axis or normalized), Δ integer_arith_ratio
 - 
 
 
