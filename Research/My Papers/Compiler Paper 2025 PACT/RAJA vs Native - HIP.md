@@ -110,6 +110,7 @@ Group 3: Polybench_ATAX, Polybench_GEMVER, Polybench_MVT, Polybench_GESUMMV
 Narrative angle: A shared structural syndrome with one kernel (GESUMMV) that is immune at runtime. The explanation is arithmetic intensity.
 
 
+
 **Optimization Agnostic**:
 - Apps_CONVECTION3DPA ??
 - Apps_DIFFUSION3DPA 
