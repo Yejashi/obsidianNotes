@@ -22,6 +22,8 @@ RAJA-favorable (RAJA outperforms Native by 5–10%):
 **Near-parity** (< 1% difference despite structural overhead):
 - `Polybench_GESUMMV` — A sum of two matrix-vector products (αAx+βBxαAx+βBx), performing two multiplications that reuse the same input vector.
 
+The inclusion of `Polybench_GESUMMV` is deliberate. It serves as a **within-group control**: if its IR characteristics resemble those of the degraded Polybench kernels, then whatever differentiates it at runtime must lie outside the static IR features — pointing toward dynamic factors such as arithmetic intensity or memory access patterns that mask the structural overhead.
+
 
 
 
