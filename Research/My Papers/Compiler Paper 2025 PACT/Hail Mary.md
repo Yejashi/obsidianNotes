@@ -32,3 +32,11 @@
 |P10|`numCallsToMathFunctions`|Compute|Structural + Semantic|Expensive math operation count|
 
 Polybench_ADI: Why RAJA is 50% slower
+
+|Root Cause|Metric Signal|Impact|
+|---|---|---|
+|**No store forwarding** — RAJA loads P[j-1] and Q[j-1] from global memory every iteration; Native forwards them through register PHIs|**M4**: 2 → 0 (promoted loads)|**2 extra global memory loads per iteration** of the j-loop — on GPU, global memory latency is ~400 cycles|
+|**Loop-invariant branch inside loops** — RAJA re-checks thread bounds every iteration, which both wastes a cycle and prevents the compiler from recognizing the store-forwarding pattern|**C7**: 0 → 2 (invariant branches in loops)|Blocks store forwarding, blocks loop versioning, adds branch overhead|
+|**No loop versioning** — Native generates a runtime alias check and an optimized loop; RAJA can't because the invariant branch prevents the analysis|**C3**: 3 → 2 (loops)|Prevents the optimization that enables store forwarding|
+|**More integer overhead** — RAJA computes strided loop trip counts with sdiv/freeze/rem and has more stride multiplications|**P2**: 22 → 28, **P8**: 6 → 10|Additional ALU overhead for address computation|
+|**More closure loads at entry** — RAJA loads ~27 values from the constant-memory closure struct|**M1**: 18 → 33|One-time cost, but increases register pressure|
