@@ -12,8 +12,8 @@
 
 ![[Pasted image 20260412215925.png]]
 ![[Pasted image 20260414041633.png]]
-The runtime results show in figure x revealed that the performance relationship between Native HIP and RAJA HIP is not uniform, where RAJA implementations incur substantial overhead on some kernels while matching or even outperforming Native on others. To understand the structural origins of these differences, we perform a static analysis of the LLVM IR generated for each differing kernel.
 
+Optimization Agnostic Kernels:
 We select seven optimization agnostic kernels that span three distinct behavioral categorios observed at runtime:
 - RAJA Favorable (RAJA faster than Native): Apps_CONVECTION3DPA and Apps_DIFFUSION3DPA, where RAJA achieved 5-10% speedups across all optimization levels.
 - RAJA unfavorable (RAJA substantially slower): Polybench_ADI, Polybench_ATAX, Polybench_GEMVER, Polybench_MVT, where RAJA inclurs 13-54% overhead that persists across all optimization levels.
