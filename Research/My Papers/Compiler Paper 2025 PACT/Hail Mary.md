@@ -45,8 +45,8 @@
 |C10|`numUnreachableBlocks`|Control|Semantic|Sum|
 |C11|`numLoopVersioningChecks`|Control|Semantic|Sum|
 |C12|`numUniqueLoopBodies`|Control|Semantic|Sum|
-|**C13**|**`numInnerLoopBasicBlocks`**|**Control**|**Structural**|**Sum**|
-|**C14**|**`numInnerLoopPHINodes`**|**Control**|**Structural**|**Sum**|
+|C13|`numInnerLoopBasicBlocks`|Control|Structural|Sum|
+|C14|`numInnerLoopPHINodes`|Control|Structural|Sum|
 |M1|`numLoads`|Memory|Structural|Sum|
 |M2|`numStores`|Memory|Structural|Sum|
 |M3|`numInnerLoopLoadStoreAddrSame`|Memory|Semantic|Sum|
@@ -58,7 +58,7 @@
 |M8|`numNoAliasArguments`|Memory|Semantic|Sum|
 |M9|`numGEPsWithMultipleIndices`|Memory|Structural|Sum|
 |M10|`numMemcpyToAlloca`|Memory|Semantic|Sum|
-|**M11**|**`numInnerLoopDistinctArrayAccesses`**|**Memory**|**Semantic**|**Sum**|
+|M11|`numInnerLoopDistinctArrayAccesses`|Memory|Semantic|Sum|
 |P1|`numFloatArithmeticInsts`|Compute|Structural|Sum|
 |P2|`numIntegerArithmeticInsts`|Compute|Structural|Sum|
 |P3|`numMulFeedingAdd`|Compute|Semantic|Sum|
@@ -69,7 +69,7 @@
 |P8|`numIntegerMulsInGEPChains`|Compute|Semantic|Sum|
 |P9|`numCastInsts`|Compute|Structural|Sum|
 |P10|`numCallsToMathFunctions`|Compute|Structural + Semantic|Sum|
-|**P11**|**`innerLoopArithmeticIntensity`**|**Compute**|**Semantic**|**Max**|
+|P11|`innerLoopArithmeticIntensity`|Compute|Semantic|Max|
 
 
 Polybench_ADI: Why RAJA is 50% slower
