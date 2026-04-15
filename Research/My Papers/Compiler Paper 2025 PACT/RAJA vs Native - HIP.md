@@ -93,7 +93,9 @@ Native (store-forwarding):              RAJA (reload pattern):
 **Key metrics:**
 - Δ load_ratio = +0.127 at O2 (the largest in the dataset)
 - Δ store_ratio = −0.029 (fewer stores — counterintuitive until you see the reload pattern)
-- 
+- Δ maxLiveSSA = +6 (devastating on GPU)
+- Δ gep_ratio = +0.073 (heavy address recomputation)
+- Δ phi_ratio = −0.027 (fewer PHIs — but this is bad here, as it reflects the loss of register-resident recurrence values that PHIs would have carried)
 
 
 **Optimization Agnostic**:
