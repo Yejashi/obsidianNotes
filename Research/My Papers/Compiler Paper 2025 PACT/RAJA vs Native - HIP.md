@@ -97,6 +97,8 @@ Native (store-forwarding):              RAJA (reload pattern):
 - Δ gep_ratio = +0.073 (heavy address recomputation)
 - Δ phi_ratio = −0.027 (fewer PHIs — but this is bad here, as it reflects the loss of register-resident recurrence values that PHIs would have carried)
 
+Polybench_ADI exhibits the largest performance degradation in our study (+52.4% at O2), and its IR profile is qualitatively distinct from the other Polybench kernels. The key to understanding this case lies in ADI's algorithmic structure: each sweep performs a sequential recurrence where the output of iteration $i$ feeds directly into iteration $i+1$.
+
 
 
 
