@@ -42,7 +42,11 @@ Group 1: Apps_CONVECTION3DPA
 
 **ADD FIGURE HERE**
 - Key metrics to highlight:
-	- 
+	- Massive cast reduction (Δ cast_ratio = −0.078 at O2)
+	- GEP increase (+0.055) — but offset by cast savings
+	- PHI reduction (−0.036 at O2) — simpler control flow merges
+	- Register pressure reduction (Δ maxLiveSSA = −1 at O2, but −8 at O1)
+	- Fewer loads (−0.017 at O1)
 
 
 **Optimization Agnostic**:
