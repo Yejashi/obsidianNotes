@@ -112,6 +112,8 @@ Narrative angle: A shared structural syndrome with one kernel (GESUMMV) that is 
 **Narrative angle:** A shared structural syndrome with one kernel (GESUMMV) that is immune at runtime. The explanation is arithmetic intensity.
 
 **Recommended figure: Grouped bar chart with GESUMMV highlighted**
+Since you're comparing four kernels on the same metrics, a grouped bar chart works better than individual butterfly charts:
+
 
 
 
