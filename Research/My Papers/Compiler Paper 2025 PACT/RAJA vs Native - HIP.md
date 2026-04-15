@@ -90,6 +90,7 @@ Native (store-forwarding):              RAJA (reload pattern):
   %r2 = fadd %r,...   ← register        %r2 = fadd %v2,... ← from memory
 ```
 
+**Key metrics:**
 
 
 
