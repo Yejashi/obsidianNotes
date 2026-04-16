@@ -100,3 +100,5 @@ An analyst comparing GESUMMV to MVT would see:
 3. **D1 captures the difference**: GESUMMV RAJA D1 = 0.43 (below threshold) vs MVT RAJA D1 = 0.75 (above threshold)
 4. **P11 confirms**: GESUMMV has higher arithmetic intensity (1.33 vs 1.0)
 
+Conclusion: "GESUMMV has the same RAJA control flow overhead as MVT, but its inner loop does 2× the useful FP work (P7 = 4) on more data streams (M11 = 3), resulting in a D1 of 0.43 — low enough that the overhead is absorbed. MVT's D1 of 0.75 indicates the overhead dominates."
+
