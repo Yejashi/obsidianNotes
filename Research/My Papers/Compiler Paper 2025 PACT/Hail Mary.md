@@ -84,3 +84,5 @@ The causal chain:
 5. **C12 (distinct loop body signatures)** — contextualizes Native's higher instruction counts as versioning artifacts, not extra work
 
 
+
+
