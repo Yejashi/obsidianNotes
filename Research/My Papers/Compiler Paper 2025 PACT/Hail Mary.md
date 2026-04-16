@@ -122,3 +122,8 @@ This is a striking case. Almost every inner-loop metric is **identical** between
 
 
 # Vizualization
+Three heatmaps is the right call, but I'd suggest a specific layout:
+
+**Rows** = kernels (one per row) **Columns** = metrics within that category **Color** = signed normalized difference (diverging colormap: blue = Native better, red = RAJA better, white = same) **Cell text** = `N→R` (e.g., `0→5`) for the raw values
+
+This lets you scan vertically to see which metrics consistently differ across kernels, and horizontally to see the full metric profile for a single kernel.
