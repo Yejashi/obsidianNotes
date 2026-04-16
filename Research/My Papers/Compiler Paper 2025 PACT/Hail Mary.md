@@ -119,3 +119,6 @@ This is a striking case. Almost every inner-loop metric is **identical** between
 - Same loop signatures (C12=3), same invariant branches (C7=3)
 - No blocked optimizations in either (M4a=0, M4b=0, C11=0 for both)
 
+
+
+# Vizualization
