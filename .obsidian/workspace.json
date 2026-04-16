@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -259,13 +259,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5d8d91d2a163644e",
+  "active": "c0983810545b5cad",
   "lastOpenFiles": [
+    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
+    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
     "Meta/Attachments/Screenshot_20260415_013445.png",
     "Research/My Papers/Compiler Paper 2025 PACT/Hail Mary.md",
-    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
     "Meta/Attachments/Pasted image 20260414095729.png",
-    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
     "Meta/Attachments/Pasted image 20260414041633.png",
     "conflict-files-obsidian-git.md",
     "Meta/Attachments/Pasted image 20260413063136.png",
@@ -275,7 +275,6 @@
     "Meta/Attachments/Pasted image 20260413030245.png",
     "Meta/Attachments/Pasted image 20260413005127.png",
     "Meta/Attachments/Pasted image 20260413005109.png",
-    "Meta/Attachments/Pasted image 20260413005058.png",
     "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
     "Research/My Papers/Compiler Paper 2025 PACT/General.md",
     "Research/RAJA/Kernel Launch.md",
