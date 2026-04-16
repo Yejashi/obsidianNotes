@@ -110,4 +110,12 @@ Conclusion: "GESUMMV has the same RAJA control flow overhead as MVT, but its inn
 - **C7, C13** — confirm the overhead pattern is identical between the two kernels
 
 
-Apps_FIR
+**Apps_FIR**
+This is a striking case. Almost every inner-loop metric is **identical** between Native and RAJA:
+
+- Same loops (C3=3), same depth (C4=2), same inner loop BBs (C13=2), same PHIs (C14=6)
+- Same FP work (P1=10, P7=10), same reductions (P4=2), same FMA opportunities (P3=5)
+- Same arithmetic intensity (P11=1.0), same CFG density (D1=0.25)
+- Same loop signatures (C12=3), same invariant branches (C7=3)
+- No blocked optimizations in either (M4a=0, M4b=0, C11=0 for both)
+
