@@ -108,3 +108,6 @@ Conclusion: "GESUMMV has the same RAJA control flow overhead as MVT, but its inn
 - **P7** — explains why: 4 FP ops/iter (GESUMMV) vs 2 (MVT) — more work to amortize against
 - **M11** — reinforces: 3 arrays (GESUMMV) vs 2 (MVT) — more memory traffic per iteration
 - **C7, C13** — confirm the overhead pattern is identical between the two kernels
+
+
+Apps_FIR
