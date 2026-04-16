@@ -91,3 +91,12 @@ The causal chain:
 - **C14** (inner loop PHIs) — quantifies the merge overhead
 - **D1** (CFG density) — contextualizes the overhead relative to useful work
 - **P11** (FP-to-mem ratio) — confirms the kernel is memory-bound, making overhead impactful
+
+**Polybench_GESUMMV**
+An analyst comparing GESUMMV to MVT would see:
+
+1. **Both have the same RAJA overhead pattern**: C7 = 1, C13 = 3 (invariant branch splits loop into 3 BBs)
+2. **GESUMMV has more useful work per iteration**: P7 = 4 vs 2, M11 = 3 vs 2, P4 = 2 vs 1
+3. **D1 captures the difference**: GESUMMV RAJA D1 = 0.43 (below threshold) vs MVT RAJA D1 = 0.75 (above threshold)
+4. **P11 confirms**: GESUMMV has higher arithmetic intensity (1.33 vs 1.0)
+
