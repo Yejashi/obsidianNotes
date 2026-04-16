@@ -69,6 +69,7 @@
 | P11 | `innerLoopFPToMemRatio`                    | Compute  | Semantic              | Density                                             | Max         |
 | D1  | `innerLoopCFGDensity`                      | Derived  | Semantic              | Density                                             | Max         |
 |     |                                            |          |                       |                                                     |             |
+|     |                                            |          |                       |                                                     |             |
 
 
 
