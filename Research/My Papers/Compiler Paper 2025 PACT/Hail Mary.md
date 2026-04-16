@@ -134,3 +134,9 @@ This lets you scan vertically to see which metrics consistently differ across ke
 2. **Scan rows** to see the full profile of a single kernel (e.g., FIR's row is mostly white except M6/M7/M10)
 3. **Compare rows** to understand why similar kernels behave differently (e.g., MVT vs GESUMMV — same C7/C13 pattern but different D1)
 
+**For your heuristics**, the heatmaps naturally suggest rules like:
+
+- "If C7 > 0 and D1 > 0.5, expect RAJA slowdown" (MVT pattern)
+- "If M6 > 0 and M7 = 0 and M10 > 0, expect RAJA speedup from data locality" (FIR pattern)
+- "If M4a drops to 0 and C11 drops to 0, expect significant RAJA slowdown from blocked optimizations" (ADI pattern)
+
