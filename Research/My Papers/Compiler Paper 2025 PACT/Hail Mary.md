@@ -127,3 +127,10 @@ Three heatmaps is the right call, but I'd suggest a specific layout:
 **Rows** = kernels (one per row) **Columns** = metrics within that category **Color** = signed normalized difference (diverging colormap: blue = Native better, red = RAJA better, white = same) **Cell text** = `N→R` (e.g., `0→5`) for the raw values
 
 This lets you scan vertically to see which metrics consistently differ across kernels, and horizontally to see the full metric profile for a single kernel.
+
+**For the paper, the reading pattern is:**
+
+1. **Scan columns** to find metrics that consistently differ across kernels (e.g., C7 is red for all RAJA-slower kernels)
+2. **Scan rows** to see the full profile of a single kernel (e.g., FIR's row is mostly white except M6/M7/M10)
+3. **Compare rows** to understand why similar kernels behave differently (e.g., MVT vs GESUMMV — same C7/C13 pattern but different D1)
+
