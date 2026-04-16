@@ -140,3 +140,38 @@ This lets you scan vertically to see which metrics consistently differ across ke
 - "If M6 > 0 and M7 = 0 and M10 > 0, expect RAJA speedup from data locality" (FIR pattern)
 - "If M4a drops to 0 and C11 drops to 0, expect significant RAJA slowdown from blocked optimizations" (ADI pattern)
 
+
+
+# **FINAL IR METRICS**
+
+|Category|Metric|Description|
+|---|---|---|
+|Control|`numLoops`|Total number of natural loops detected by LLVM's LoopInfo|
+|Control|`maxLoopDepth`|Maximum loop nesting depth across all loops|
+|Control|`numLoopsWithComputableTripCount`|Number of loops where ScalarEvolution can determine the backedge-taken count|
+|Control|`numLoopInvariantBranchesInsideLoop`|Number of conditional branches inside loops whose condition does not change across iterations|
+|Control|`numSelectInsts`|Number of branchless conditional select instructions (if-conversion results)|
+|Control|`numPotentialLoopVersioningGuardPatterns`|Number of runtime alias-check patterns that guard versioned loop copies (heuristic detection)|
+|Control|`numDistinctLoopBodySignatures`|Number of loops with structurally unique bodies based on instruction-count signatures|
+|Control|`numInnerLoopBasicBlocks`|Total number of basic blocks across all innermost loops|
+|Control|`numInnerLoopPHIInsts`|Total number of PHI nodes across all innermost loops|
+|Control|`innerLoopControlIntensity`|Max ratio of inner loop basic blocks to useful operations (FP ops + distinct base pointers) across all inner loops|
+|Memory|`numLoadInsts`|Total number of load instructions|
+|Memory|`numStoreInsts`|Total number of store instructions|
+|Memory|`numInnerLoopLoadStoreAddrSame`|Number of distinct SSA pointers that appear as both a load and store operand in the same inner loop|
+|Memory|`numLICMPromotedLoads`|Number of loop-header PHI nodes fed by a preheader load whose latch value recurs through the PHI, with a matching-address store in the loop|
+|Memory|`numStoreForwardedLoads`|Number of loop-header PHI nodes fed by a preheader load whose latch value is also the operand of a store to the same underlying object in the loop|
+|Memory|`numLoopInvariantAddressLoadsInInnerLoops`|Number of load instructions in innermost loops whose pointer operand is loop-invariant|
+|Memory|`numAllocaOriginInnerLoopAccesses`|Number of load/store instructions in innermost loops whose base pointer traces back to a stack allocation (alloca)|
+|Memory|`numArgOriginInnerLoopAccesses`|Number of load/store instructions in innermost loops whose base pointer traces back to a function argument|
+|Memory|`numMemcpyToAlloca`|Number of llvm.memcpy intrinsic calls whose destination traces back to a stack allocation|
+|Memory|`numInnerLoopDistinctBasePointers`|Number of distinct underlying memory objects accessed by loads and stores in innermost loops|
+|Compute|`numFloatArithmeticInsts`|Total number of floating-point arithmetic instructions (fadd, fsub, fmul, fdiv, frem, fneg)|
+|Compute|`numIntegerArithmeticInsts`|Total number of integer arithmetic instructions (add, sub, mul, sdiv, udiv, srem, urem)|
+|Compute|`numMulFeedingAdd`|Number of fmul instructions whose single use is an fadd instruction (FMA opportunity proxy)|
+|Compute|`numReductionLikePHIs`|Number of loop-header PHI nodes that implement a reduction pattern through an associative arithmetic recurrence|
+|Compute|`numContractFlaggedFPOps`|Number of floating-point instructions with the contract fast-math flag set (eligible for FMA fusion)|
+|Compute|`numInnerLoopFloatArithmeticInsts`|Total number of floating-point arithmetic instructions across all innermost loops|
+|Compute|`numMulFeedingGEP`|Number of integer multiply or shift instructions whose result feeds into a getelementptr within a bounded use chain|
+|Compute|`numCastInsts`|Total number of type conversion instructions (sext, zext, trunc, fpext, fptrunc, sitofp, etc.)|
+|Compute|`innerLoopFPToMemRatio`|Max ratio of floating-point arithmetic instructions to memory instructions (loads + stores) across all innermost loops|
