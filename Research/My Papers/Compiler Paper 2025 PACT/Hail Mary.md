@@ -102,3 +102,9 @@ An analyst comparing GESUMMV to MVT would see:
 
 Conclusion: "GESUMMV has the same RAJA control flow overhead as MVT, but its inner loop does 2× the useful FP work (P7 = 4) on more data streams (M11 = 3), resulting in a D1 of 0.43 — low enough that the overhead is absorbed. MVT's D1 of 0.75 indicates the overhead dominates."
 
+**Yes, the metrics correctly explain why GESUMMV performs similarly despite having the same overhead pattern as MVT.** The key metrics are:
+
+- **D1** — directly discriminates: 0.43 (GESUMMV, overhead absorbed) vs 0.75 (MVT, overhead dominates)
+- **P7** — explains why: 4 FP ops/iter (GESUMMV) vs 2 (MVT) — more work to amortize against
+- **M11** — reinforces: 3 arrays (GESUMMV) vs 2 (MVT) — more memory traffic per iteration
+- **C7, C13** — confirm the overhead pattern is identical between the two kernels
