@@ -84,5 +84,10 @@ The causal chain:
 5. **C12 (distinct loop body signatures)** — contextualizes Native's higher instruction counts as versioning artifacts, not extra work
 
 **Polybench_MVT**
+**Yes, the metrics successfully capture and explain the 14% degradation.** The key discriminating metrics are:
 
-
+- **C7** (invariant branch) — identifies the root structural problem
+- **C13** (inner loop BBs) — quantifies the structural impact
+- **C14** (inner loop PHIs) — quantifies the merge overhead
+- **D1** (CFG density) — contextualizes the overhead relative to useful work
+- **P11** (FP-to-mem ratio) — confirms the kernel is memory-bound, making overhead impactful
