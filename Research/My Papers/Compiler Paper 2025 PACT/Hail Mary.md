@@ -75,4 +75,11 @@
 **Polybench_ADI**
 The causal chain:
 - ![[Screenshot_20260416_014817.png]]
-- 
+**Yes, the metrics successfully capture and explain the 54% performance degradation.** The key signals are:
+
+1. **C7 (invariant branches)** — identifies the root structural problem
+2. **M4a (load-fed recurrence PHIs)** — identifies the missing optimization (store forwarding/load promotion)
+3. **C11 (versioning guard patterns)** — identifies the missing loop versioning
+4. **D1 (CFG density)** — quantifies the overhead impact
+5. **C12 (distinct loop body signatures)** — contextualizes Native's higher instruction counts as versioning artifacts, not extra work
+
