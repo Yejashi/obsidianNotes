@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -255,17 +255,17 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "c0983810545b5cad",
+  "active": "b4c669c3402ade4f",
   "lastOpenFiles": [
+    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
     "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
     "Research/My Papers/Compiler Paper 2025 PACT/Hail Mary.md",
+    "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
     "Meta/Attachments/Screenshot_20260416_014817.png",
     "conflict-files-obsidian-git.md",
-    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
     "Meta/Attachments/Screenshot_20260415_013445.png",
     "Meta/Attachments/Pasted image 20260414095729.png",
     "Meta/Attachments/Pasted image 20260414041633.png",
@@ -275,7 +275,6 @@
     "Meta/Attachments/Pasted image 20260413045027.png",
     "Meta/Attachments/Pasted image 20260413030245.png",
     "Meta/Attachments/Pasted image 20260413005127.png",
-    "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
     "Research/My Papers/Compiler Paper 2025 PACT/General.md",
     "Research/RAJA/Kernel Launch.md",
     "Research/My Papers/Compiler Paper 2025 PACT",
