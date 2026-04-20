@@ -4,25 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "4d53dd82012876db",
+        "id": "6eb094790d4048f0",
         "type": "tabs",
         "children": [
           {
-            "id": "642a5b7024d4bc0d",
+            "id": "58ee6ad8fb031189",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/General.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RAJA vs Native - OpenMP"
+              "title": "General"
             }
           },
           {
-            "id": "f834cecc86ae83f7",
+            "id": "5d8d91d2a163644e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "339faa612d4642fb",
+            "id": "c0983810545b5cad",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,9 +48,51 @@
               "icon": "lucide-file",
               "title": "Hail Mary"
             }
+          },
+          {
+            "id": "b4c669c3402ade4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RAJA vs Native - HIP"
+            }
+          },
+          {
+            "id": "4571c9e0b153545e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RAJA vs Native - OpenMP"
+            }
+          },
+          {
+            "id": "cd5f8020d90a7465",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cross Target Backend Analysis"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,7 +124,11 @@
             "state": {
               "type": "search",
               "state": {
+<<<<<<< HEAD
                 "query": "\"opt\"",
+=======
+                "query": "autocom",
+>>>>>>> origin/main
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 280.5004348754883
   },
   "right": {
     "id": "cada89a5672723ea",
@@ -192,8 +238,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -217,9 +263,10 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "339faa612d4642fb",
+  "active": "b4c669c3402ade4f",
   "lastOpenFiles": [
     "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - OpenMP.md",
+<<<<<<< HEAD
     "Research/My Papers/Compiler Paper 2025 PACT/Hail Mary.md",
     "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
     "Research/LLNL Project/Misc.md",
@@ -229,41 +276,56 @@
     "Research/LLVM/Pass Coverage.md",
     "Research/LLNL Project/Roadblocks/Pass Manager Bug?.md",
     "Research/LLVM/Specific Passes.md",
+=======
+    "Research/My Papers/Compiler Paper 2025 PACT/RAJA vs Native - HIP.md",
+    "Research/My Papers/Compiler Paper 2025 PACT/Hail Mary.md",
+    "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
+    "Meta/Attachments/Screenshot_20260416_014817.png",
+>>>>>>> origin/main
     "conflict-files-obsidian-git.md",
     "Meta/Attachments/Screenshot_20260415_013445.png",
     "Meta/Attachments/Pasted image 20260414095729.png",
-    "Research/LLNL Project/Code Refactoring Approach/Extraction Plugin.md",
     "Meta/Attachments/Pasted image 20260414041633.png",
-    "Untitled 4.base",
-    "Untitled 3.base",
-    "Research/RAJA/Policies.md",
-    "Research/RAJA/Kernel Launch.md",
-    "Research/RAJA",
-    "Research/My Papers/Compiler Paper 2025 PACT/General.md",
-    "Research/My Papers/Compiler Paper 2025 PACT/Cross Target Backend Analysis.md",
-    "Research/My Papers/Compiler Paper 2025 PACT",
-    "Research/My Papers",
-    "Research/LLVM/COMDAT Folding.md",
-    "Research/AMDGPU/Kernel Resource Usage.md",
-    "Meta/Attachments/Screenshot_20260412_215052.png",
-    "Meta/Attachments/Screenshot_20260412_171330.png",
-    "Meta/Attachments/Screenshot_20260412_171246.png",
     "Meta/Attachments/Pasted image 20260413063136.png",
     "Meta/Attachments/Pasted image 20260413061955.png",
     "Meta/Attachments/Pasted image 20260413061439.png",
     "Meta/Attachments/Pasted image 20260413045027.png",
-    "Research/LLVM/Passes/Writing an LLVM Pass/Writing an LLVM Pass.md",
-    "Research/LLNL Project/Code Refactoring Approach/Untitled",
-    "Research/LLNL Project/Code Refactoring Approach",
-    "Research/LLVM/Passes/Custom Pass/Writing a Custom LLVM Pass.md",
-    "Research/LLVM/Passes/Pass Manager/Pass Manager General.md",
-    "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
-    "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations (HIP) (RAJA vs Base).md",
+    "Meta/Attachments/Pasted image 20260413030245.png",
+    "Meta/Attachments/Pasted image 20260413005127.png",
+    "Research/My Papers/Compiler Paper 2025 PACT/General.md",
+    "Research/RAJA/Kernel Launch.md",
+    "Research/My Papers/Compiler Paper 2025 PACT",
+    "Research/My Papers",
+    "Research/RAJA/Policies.md",
+    "Research/LLVM/COMDAT Folding.md",
+    "Research/RAJA",
+    "Untitled 4.base",
+    "Untitled 3.base",
+    "Research/AMDGPU/Kernel Resource Usage.md",
+    "Research/LLNL Project/Code Refactoring Approach/Extraction Plugin.md",
     "Misc/Software Ideas/Optimization Visualizer.md",
-    "Excalidraw/occupancy.md",
+    "Research/LLNL Project/Code Refactoring Approach",
+    "Misc/Software Ideas/Linux System-Wide Text Auto-complete.md",
     "Excalidraw/Drawing 2026-02-27 08.41.57.excalidraw.md",
+<<<<<<< HEAD
     "Research/LLVM/Passes/Implementations/loop-unroll",
     "Research/LLVM/Passes/Implementations",
+=======
+    "Excalidraw/Drawing 2026-02-06 19.04.18.excalidraw.md",
+    "Research/Paper Planning/Compiler Paper Planning/Background Reading.md",
+    "Research/Paper Planning/Compiler Paper Planning/Workflow.md",
+    "Progress Writing/Progress.md",
+    "Research/Papers/Dynist/Dyninst paper.md",
+    "Research/AMDGPU/__launch_bounds__ and loop unrolling.md",
+    "Excalidraw/occupancy.md",
+    "Research/Paper Planning/Compiler Paper Planning/Preliminary Suite Observations (HIP) (RAJA vs Base).md",
+    "Excalidraw/Drawing 2026-01-17 14.27.33.excalidraw.md",
+    "Excalidraw/Drawing 2025-02-01 18.05.02.excalidraw.md",
+    "Excalidraw/Drawing 2024-12-17 16.06.28.excalidraw.md",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Untitled.base",
+>>>>>>> origin/main
     "Research/LLVM/Code Comparison"
   ]
 }
